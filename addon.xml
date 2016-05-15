@@ -3,9 +3,9 @@
  	
 	<extension>
 	<dir>
-		<info compressed="false">http://arabickodi.comli.com/Plugins/addons.xml</info>
-		<checksum>http://arabickodi.comli.com/Plugins/addons.xml.md5</checksum>
-		<datadir zip="true">http://arabickodi.comli.com/Plugins</datadir>
+		<info compressed="false">https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/addons.xml</info>
+        		<checksum>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/addons.xml.md5</checksum>
+        		<datadir zip="true">https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/</datadir>
 		</dir>
 		<dir>
 	        <info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
