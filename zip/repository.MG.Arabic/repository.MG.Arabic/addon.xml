@@ -1,0 +1,12 @@
+<addon id="repository.MG.Arabic" name="MG Arabic" version="0.0.1" provider-name="MG Arabic">
+	<extension point="xbmc.addon.repository" name="MG Arabic">
+		<info compressed="false">https://raw.githubusercontent.com/MG-Arabic/MG/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/MG-Arabic/MG/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/MG-Arabic/MG</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>http://mg.esy.es/Kodi/</summary>
+		<description>MG Arabic v1</description>
+		<platform>all</platform>
+	</extension>
+</addon>

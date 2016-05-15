@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.MG.Arabic" name="..[COLOR red] MG Arabic[/COLOR]" version="2.0.5" provider-name="[COLOR red] MG Arabic[/COLOR]">
+ 	
+	<extension>
+	<dir>
+		<info compressed="false">http://arabickodi.comli.com/Plugins/addons.xml</info>
+		<checksum>http://arabickodi.comli.com/Plugins/addons.xml.md5</checksum>
+		<datadir zip="true">http://arabickodi.comli.com/Plugins</datadir>
+		</dir>
+		<dir>
+	        <info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
+	        <checksum>https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5</checksum>
+	        <datadir zip="true">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/</datadir>
+    </dir>
+	<dir>
+			<info compressed="false">http://repo.ares-project.com/plugins/addons.xml</info>
+			<checksum>http://repo.ares-project.com/plugins/addons.xml.md5</checksum>
+			<datadir zip="true">http://repo.ares-project.com/plugins/</datadir>	
+	</dir>
+	<dir>
+			<info compressed="false">https://offshoregit.com/dudehere-repository/addons/addons.xml</info>
+			<checksum>https://offshoregit.com/dudehere-repository/addons/addons.xml.md5</checksum>
+			<datadir zip="true">https://offshoregit.com/dudehere-repository/addons/</datadir>
+	</dir>
+	<dir>
+			<info>http://offshoregit.com/pulsarunofficial/raw/master/addons.xml</info>
+			<checksum>http://offshoregit.com/pulsarunofficial/raw/master/addons.xml.md5</checksum>
+			<datadir zip="true">http://offshoregit.com/pulsarunofficial/raw/master/</datadir>
+	</dir>
+	<dir>
+			<info compressed="false">http://filmkodi.com/repository/addons.xml</info>
+			<checksum>http://filmkodi.com/repository/addons.xml.md5</checksum>
+			<datadir zip="false">http://filmkodi.com/repository/</datadir>
+	</dir>
+	<dir>
+			<info compressed="false">https://raw.githubusercontent.com/hmemar/husham.com/master/repository/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/hmemar/husham.com/master/repository/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/hmemar/husham.com/master/zip</datadir>
+   </dir>
+   <dir>
+			<info compressed="false">https://offshoregit.com/kinkin-xbmc-repository/addons.xml</info>
+			<checksum>https://offshoregit.com/kinkin-xbmc-repository/addons.xml.md5</checksum>
+			<datadir zip="true">https://offshoregit.com/kinkin-xbmc-repository/zips</datadir>
+   </dir>
+   <dir>
+			<info compressed="false">https://offshoregit.com/lambda81/lambda-repo/addons.xml</info>
+			<checksum>https://offshoregit.com/lambda81/lambda-repo/addons.xml.md5</checksum>
+			<datadir zip="true">https://offshoregit.com/lambda81/lambda-repo/</datadir>
+   </dir>
+	<dir>
+			<info compressed="false">http://raw.github.com/lambda81/lambda-repo/master/addons.xml</info>
+			<checksum>http://raw.github.com/lambda81/lambda-repo/master/addons.xml.md5</checksum>
+			<datadir zip="true">http://raw.github.com/lambda81/lambda-repo/master/</datadir>
+  </dir>   
+   <dir>
+            <info compressed="false">https://offshoregit.com/Blazetamer/repo/raw/master/addons.xml</info>
+            <checksum>https://offshoregit.com/Blazetamer/repo/raw/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://offshoregit.com/Blazetamer/repo/raw/master/zips</datadir>
+    </dir>	
+	<dir>
+	        <info compressed="false">https://offshoregit.com/exodus/addons.xml</info>
+	        <checksum>https://offshoregit.com/exodus/addons.xml.md5</checksum>
+	        <datadir zip="true">https://offshoregit.com/exodus/</datadir>
+    </dir>
+	<dir>
+			<info compressed="false">https://raw.github.com/hadynz/repository.arabic.xbmc-addons/master/addons.xml</info>
+			<checksum>https://raw.github.com/hadynz/repository.arabic.xbmc-addons/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.github.com/hadynz/repository.arabic.xbmc-addons/master/repo</datadir>
+	</dir>
+	<dir>
+			<info compressed="false">https://raw.github.com/HMSB/repository.hmb.xbmc.addons/gh-pages/addons.xml</info>
+			<checksum>http://hmsb.github.io/repository.hmb.xbmc.addons/addons.xml</checksum>
+			<datadir zip="true">http://hmsb.github.io/repository.hmb.xbmc.addons/</datadir>
+	</dir>	
+	<dir>
+			<info compressed="false">http://srv1.iptvxtra.net/xbmc/addons/addons.xml</info>
+			<checksum>http://srv1.iptvxtra.net/xbmc/addons/addons.md5</checksum>
+			<datadir zip="true">http://srv1.iptvxtra.net/xbmc/addons/</datadir>
+	</dir>	
+	<dir>
+			<info compressed="false">https://offshoregit.com/xbmchub/xbmc-hub-repo/raw/master/addons.xml</info>
+			<checksum>https://offshoregit.com/xbmchub/xbmc-hub-repo/raw/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://offshoregit.com/xbmchub/xbmc-hub-repo/raw/master/</datadir>
+	</dir>
+	<dir>
+			<info compressed="false">http://xtyrepo.me/xunitytalk/addons/addons.xml</info>
+			<checksum>http://xtyrepo.me/xunitytalk/addons/addons.xml.md5</checksum>
+			<datadir zip="true">http://xtyrepo.me/xunitytalk/addons/</datadir>
+	</dir>
+	<dir>
+			<info compressed="false">https://offshoregit.com/adultxbmc/raw/master/addons.xml</info>
+			<checksum>https://offshoregit.com/adultxbmc/raw/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://offshoregit.com/adultxbmc/raw/master/</datadir>
+	</dir>
+	<dir>
+			<info compressed="false">http://xml.superrepo.org/v7/.xml/isengard/all/addons.xml</info>
+            <checksum>http://md5.superrepo.org/v7/.md5/isengard/all/addons.xml.md5</checksum>
+            <datadir zip="true">http://redirect.superrepo.org/v7/addons/</datadir>
+	</dir>				
+	<dir>
+			<info compressed="false">https://github.com/yosir/xbmc-pal/raw/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/yosir/xbmc-pal/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/yosir/xbmc-pal/master/repo</datadir>
+	</dir>
+	<dir>
+			<info compressed="false">http://xbmc-tr-team-turkish-addons.googlecode.com/svn/trunk/addons.xml</info>
+			<checksum>http://xbmc-tr-team-turkish-addons.googlecode.com/svn/trunk/addons.xml.md5</checksum>
+			<datadir zip="false">http://xbmc-tr-team-turkish-addons.googlecode.com/svn/trunk/</datadir>
+	</dir>
+	<dir>
+			<info compressed="false">http://kodi.filmkodi.com/addons.xml</info>
+			<checksum>http://kodi.filmkodi.com/addons.xml.md5</checksum>
+			<datadir zip="true">http://kodi.filmkodi.com/</datadir>
+	</dir>
+	<dir>
+			<info compressed="false">http://logi85.github.io/addons.xml</info>
+			<checksum>http://logi85.github.io/addons.xml.md5</checksum>
+			<datadir zip="true">http://logi85.github.io/</datadir>
+	</dir>
+	<dir>
+			<info compressed="false">http://xty.me/xunitytalk/addons/addons.xml</info>
+			<checksum>http://xty.me/xunitytalk/addons/addons.xml.md5</checksum>
+			<datadir zip="true">http://xty.me/xunitytalk/addons</datadir>
+	</dir>
+	<dir>
+			<info compressed="false">https://offshoregit.com/tknorris/tknorris-release-repo/raw/master/addons.xml</info>
+			<checksum>https://offshoregit.com/tknorris/tknorris-release-repo/raw/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://offshoregit.com/tknorris/tknorris-release-repo/raw/master/zips/</datadir>
+	</dir>
+	<dir>
+			<info compressed="false">https://offshoregit.com/Shani-08/shahid/addons.xml</info>
+			<checksum>https://offshoregit.com/Shani-08/shahid/addons.xml.md5</checksum>
+			<datadir zip="true">https://offshoregit.com/Shani-08/shahid/zips</datadir>
+	</dir>
+	<dir>
+			<info compressed="false">http://github.com/tknorris/tknorris-beta-repo/raw/master/addons.xml</info>
+			<checksum>http://github.com/tknorris/tknorris-beta-repo/raw/master/addons.xml.md5</checksum>
+			<datadir zip="true">http://github.com/tknorris/tknorris-beta-repo/raw/master/zips/</datadir>
+	</dir>
+     <dir>
+            <info compressed="false">http://github.com/norris-addons/tknorris-beta-repo/raw/master/addons.xml</info>
+            <checksum>http://github.com/norris-addons/tknorris-beta-repo/raw/master/addons.xml.md5</checksum>
+            <datadir zip="true">http://github.com/norris-addons/tknorris-beta-repo/raw/master/zips/</datadir>
+     </dir>	
+	<dir>
+			<info compressed="false">http://raw.github.com/pipcan3/Pipcan-Repo/master/_repo/addons.xml</info>
+			<checksum>http://raw.github.com/pipcan3/Pipcan-Repo/master/_repo/addons.xml.md5</checksum>
+			<datadir zip="true">http://raw.github.com/pipcan3/Pipcan-Repo/master/_repo</datadir>	
+	</dir>
+	<dir>
+			<info compressed="false">http://offshoregit.com/iCanuck/Unofficial-Quasar-Repo-Mirror/addons.xml</info>
+			<checksum>http://offshoregit.com/iCanuck/Unofficial-Quasar-Repo-Mirror/addons.xml.md5</checksum>
+			<datadir zip="true">http://offshoregit.com/iCanuck/Unofficial-Quasar-Repo-Mirror/</datadir>
+	</dir>	
+	<dir>
+			<info compressed="false">https://raw.githubusercontent.com/mucky-duck/mdrepo/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/mucky-duck/mdrepo/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/mucky-duck/mdrepo/master/</datadir>
+	</dir>
+	<dir>
+			<info compressed="false">http://tunisia-dreambox.info//mfaraj/mfaraj-repo/addons.xml</info>
+			<checksum>http://tunisia-dreambox.info//mfaraj/mfaraj-repo/addons.xml.md5</checksum>
+			<datadir zip="true">http://tunisia-dreambox.info/mfaraj/mfaraj-repo/</datadir>
+	</dir>
+    <dir>
+			<info compressed="false">https://offshoregit.com/natko1412/addons.xml</info>
+			<checksum>https://offshoregit.com/natko1412/addons.xml.md5</checksum>
+			<datadir zip="true">https://offshoregit.com/natko1412/zips/</datadir>
+	</dir>	
+	<dir>
+			<info compressed="false">http://raw.github.com/b331174/repository/master/addons.xml</info>
+			<checksum>http://raw.github.com/b331174/repository/master/addons.xml.md5</checksum>
+			<datadir zip="true">http://raw.github.com/b331174/repository/master/</datadir>
+    </dir>
+	<dir>
+			<info compressed="false">https://calm-river-6855.herokuapp.com/repository/addons.xml</info>
+			<checksum>https://calm-river-6855.herokuapp.com/repository/addons.xml.md5</checksum>
+			<datadir zip="true">https://calm-river-6855.herokuapp.com/repository</datadir>
+	</dir>
+	<dir>
+			<info compressed="false">http://raw.github.com/Eldorados/eldorado-xbmc-addons/master/addons.xml</info>
+			<checksum>http://raw.github.com/Eldorados/eldorado-xbmc-addons/master/addons.xml.md5</checksum>
+			<datadir zip="true">http://raw.github.com/Eldorados/eldorado-xbmc-addons/master/repo/</datadir>	
+	</dir>
+	<dir>
+			<info compressed="false">https://offshoregit.com/Eldorado/xbmc-addons/raw/master/addons.xml</info>
+			<checksum>https://offshoregit.com/Eldorado/xbmc-addons/raw/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://offshoregit.com/Eldorado/xbmc-addons/raw/master/repo/</datadir>
+	</dir>
+	<dir>
+			<info compressed="false">https://raw.githubusercontent.com/dvddd/donatellorepo/master/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/dvddd/donatellorepo/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/dvddd/donatellorepo/master</datadir>
+	</dir>
+		</extension>
+		
+	<extension point="xbmc.addon.metadata">
+		<summary>http://mg.esy.es/Kodi/</summary>
+		<description>MG Arabic v2.0.5</description>
+		<platform>all</platform>
+	</extension>
+</addon>

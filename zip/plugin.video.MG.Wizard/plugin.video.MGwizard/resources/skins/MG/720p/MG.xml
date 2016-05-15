@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<window id="1100">
+	<animation effect="fade" time="1000">WindowOpen</animation>
+        <animation effect="fade" time="1000">WindowClose</animation>
+	
+    <defaultcontrol>201</defaultcontrol>
+	<zorder>2</zorder>
+	<coordinates>
+        <system>1</system>
+        <posx>54</posx>
+        <posy>50</posy>
+    </coordinates>
+    <controls>
+
+        <control type="image">
+            <description>Text Background</description>
+            <posx>0</posx>
+            <posy>0</posy>
+            <width>1160</width>
+            <height>615</height>
+            <texture>fanart.jpg</texture>
+        </control>
+		
+	<control type="image">
+	    <description>Top Pic</description>
+	    <posx>0</posx>
+            <posy>0</posy>
+            <width>1160</width>
+            <height>150</height>
+	    <texture>logo.jpg</texture>
+	</control>
+			
+        <control type="label" id="100">
+            <description>Caption</description>
+            <posx>0</posx>
+            <posy>0</posy>
+            <width>1080</width>
+            <height>50</height>
+            <font>font13</font>
+            <textcolor>FFFFFFFF</textcolor>
+            <aligny>center</aligny>
+            <align>center</align>
+        </control>
+
+        <control type="textbox" id="200">
+            <posx>20</posx>
+            <posy>150</posy>
+            <width>1120</width>
+            <height>410</height>
+            <pagecontrol>201</pagecontrol>
+            <font>font13</font>
+            <textcolor>FFFFFFFF</textcolor>
+        </control>
+
+        <control type="scrollbar" id="201">
+            <description>Message Scrollbar</description>
+            <posx>1150</posx>
+            <posy>150</posy>
+            <width>15</width>
+            <height>470</height>
+            <texturesliderbackground>-</texturesliderbackground>
+            <texturesliderbar>scroll_no_focus.png</texturesliderbar>
+            <texturesliderbarfocus>scroll_focus.png</texturesliderbarfocus>
+            <textureslidernib>-</textureslidernib>
+            <textureslidernibfocus>-</textureslidernibfocus>
+            <orientation>vertical</orientation>
+	    <onup>-</onup>
+      	    <ondown>-</ondown>
+      	    <onleft>-</onleft>
+      	    <onright>-</onright>
+        </control>
+    </controls>
+</window>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="skin.confluence.MG2016" version="2.5" name="Confluence - MG2016" provider-name="[COLOR red]MG Arabic[/COLOR]">
+  <requires>
+    <import addon="xbmc.gui" version="5.10.0"/>
+    <import addon="script.artistslideshow" version="1.8.0"/>
+    <import addon="script.favourites" version="6.0.2"/>
+  </requires>
+  <extension
+    point="xbmc.gui.skin"
+    defaultthemename="textures.xbt"
+    debugging="false"
+    effectslowdown="0.75">
+    <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Ported from Confluence v2.5.9 - v.2.5.9 updated to allow KODI v16 install and to fix dependicies issue</summary>
+    <description>25 shortcuts for videos, 10 for the rest.  Debug graph included.  This skin may be a work in progress, but aims to bring useful customizations while holding onto the main feel of it's pretacessor, Confluence.</description>
+  	<disclaimer>By using this, you take reponsibility for anything that happens.</disclaimer>
+    <platform>all</platform>
+        <website>http://mg.esy.es/Kodi/</website>
+  </extension>
+</addon>

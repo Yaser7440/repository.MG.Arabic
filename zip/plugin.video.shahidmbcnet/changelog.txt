@@ -1,0 +1,265 @@
+[B]Version 3.8.0[/B]
+moved to offshore
+
+[B]Version 3.6.4[/B]
+Gl connection with f4m
+
+[B]Version 3.6.3[/B]
+small bug
+
+[B]Version 3.6.2[/B]
+small bug
+
+[B]Version 3.6.1[/B]
+small bug
+
+[B]Version 3.6.0[/B]
+Added yo and cdn
+
+
+[B]Version 3.5.3[/B]
+Added new source ttv
+
+[B]Version 3.5.2[/B]
+Added new source SS
+
+[B]Version 3.5.1[/B]
+GLArab shared proxy is available and Enabled by default
+
+
+[B]Version 3.5.0[/B]
+GLArab imroved and moving hotlinks
+
+[B]Version 3.4.9[/B]
+new resouces naming
+
+[B]Version 3.4.8[/B]
+Added new source iptvplanet thanks to allouch89@github
+
+[B]Version 3.4.7[/B]
+fix the icons issues for geoblocked users(channels)
+
+[B]Version 3.4.6[/B]
+fix the icons issues for geoblocked users
+
+[B]Version 3.4.5[/B]
+GL disable and download fix
+
+[B]Version 3.4.4[/B]
+Try All option for GLArab
+
+[B]Version 3.4.3[/B]
+fixed image issue
+
+[B]Version 3.4.2[/B]
+GLArab IP selection in the settings
+
+[B]Version 3.4.1[/B]
+Support for filter by sources (bug fix)
+
+[B]Version 3.4.0[/B]
+Support for filter by sources
+
+
+[B]Version 3.3.9[/B]
+Revert the hide bug
+
+[B]Version 3.3.8[/B]
+Fixed unhide bug2
+
+[B]Version 3.3.7[/B]
+Fixed unhide bug
+
+[B]Version 3.3.6[/B]
+Fixed unhide bug
+
+[B]Version 3.3.5[/B]
+Change settings to reflect the new ip address
+
+[B]Version 3.3.4[/B]
+GLArab improvment, now selection of quality is available in settings 
+
+[B]Version 3.3.3[/B]
+new source telvza support
+
+[B]Version 3.3.2[/B]
+Few episodes missing in shahid, fixed in episodes
+
+[B]Version 3.3.1[/B]
+Support for Play next feature, so that when on source fails, it will move to next one.
+
+[B]Version 3.3.0[/B]
+support for livetv.fr
+
+[B]Version 3.2.9[/B]
+LiveTV login bug
+
+[B]Version 3.2.8[/B]
+Small bug in launching default source from generic source
+
+[B]Version 3.2.7[/B]
+rename no premium code to web login ..
+
+[B]Version 3.2.6[/B]
+Now login option for Livetv.tn
+	
+[B]Version 3.2.5[/B]
+Colouring and postfix for default sources
+
+[B]Version 3.2.4[/B]
+Added Official source and support for multiple channels for non generic sources
+
+[B]Version 3.2.3[/B]
+Added FilmOn source
+
+[B]Version 3.2.2[/B]
+Added EmadMahdi source
+
+[B]Version 3.2.1[/B]
+if a channel like Rotana Music, has two PC sources, then select anyone as default will play that one only.
+
+[B]Version 3.2.0[/B]
+Added GLArab,magicbox and iptvosn as sources, add to fav is back and you can clear default source,if setup, plus you can set retry settings for teledunet
+
+[B]Version 3.1.1[/B]
+Teledunet caching support - small bug
+
+[B]Version 3.1.0[/B]
+Teledunet caching support
+
+[B]Version 3.0.1[/B]
+small fix for play
+
+[B]Version 3.0.1[/B]
+fixed the hide/unhide button
+
+[B]Version 3.0.0[/B]
+View/hide channels in categories, define default view and set default source for the individual channels
+
+[B]Version 2.9.7[/B]
+Properly stopped the free acces with return
+
+[B]Version 2.9.6[/B]
+Stop Livetv.tn free account access, till we resolve the differences.
+
+[B]Version 2.9.5[/B]
+Setting for clearing the session data.
+
+[B]Version 2.9.4[/B]
+Livetv cat and mouse... lol he is feeding me, keeps my intrest level high, what next? :)
+
+[B]Version 2.9.3[/B]
+small player change to see if osn solves for few people
+
+[B]Version 2.9.2[/B]
+Livestream small fix and settings text for premium code
+
+[B]Version 2.9.1[/B]
+Support for Premium Code. reusing non premium code. 
+
+[B]Version 2.9.0[/B]
+LiveTV login catchpa support, the login session files are not deleted when you goto settings and some other tweaking. 
+
+[B]Version 2.8.3[/B]
+Small bug in teledunet, its fixed now
+[B]Version 2.8.2[/B]
+iptvosn login details support and generic player to use settings
+
+[B]Version 2.8.1[/B]
+- Better support for Teledunet. Support for free/premium account, most channels are working
+
+[B]Version 2.8.0[/B]
+- Support for My Channels and Speed up the code
+
+[B]Version 2.7.4[/B]
+- enable cookie and login for livetv, plus progress bar corrected for download files
+
+
+[B]Version 2.7.3[/B]
+- disable cookie for time being
+
+[B]Version 2.7.2[/B]
+- delete cookie on clicking settings
+
+[B]Version 2.7.1[/B]
+- minor change to get it work from Favourite
+
+[B]Version 2.7.0[/B]
+- Shows selection if the default source failed to play
+
+[B]Version 2.6.7[/B]
+- Texting formatting.
+
+[B]Version 2.6.6[/B]
+- Settings to disable the sources. This way you can manage a downtime of certain resources without any issue.
+
+[B]Version 2.6.5[/B]
+- unicode path issue
+
+[B]Version 2.6.4[/B]
+- added some more channesl and livetv login expiry in every 1 hr
+
+
+--OLD enteries
+
+[B]Version 1.0[/B]
+- First version 1
+[B]Version 1.2[/B]
+- Hard coded support for Proxy.
+[B]Version 1.3[/B]
+- Settings for CDN and Proxy. Still harded coded proxy i used.
+[B]Version 1.4[/B]
+- Now, no more hard coded proxy.
+
+[B]Version 1.5[/B]
+- Fixed Channels names, Video descriptions and Next buttons
+[B]Version 1.5.1[/B]
+- Fixed Favourite bug, now you can add links to favourites and run it
+[B]Version 1.5.2[/B]
+- resolved android issue, dependency problem
+[B]Version 1.6.0[/B]
+- Supports Streams
+[B]Version 1.6.1[/B]
+- icons
+[B]Version 1.6.2[/B]
+- more streams
+[B]Version 1.7.0[/B]
+- Sorted lis and Settings
+[B]Version 1.7.1[/B]
+- Some missing streams
+[B]Version 1.7.2[/B]
+- Teledunet streams back and one almaghribia
+[B]Version 2.0.1[/B]
+- Categories and sources support
+[B]Version 2.1.0[/B]
+- Categories and sources support- Released
+[B]Version 2.1.1[/B]
+- Andriod issue
+[B]Version 2.4.0[/B]
+- GenericXML implementation, now users could publish their urls
+
+[B]Version 2.5.0/B]
+- Now support login for livetv
+[B]Version 2.5.1[/B]
+- PlayFirstChannels support
+[B]Version 2.5.2[/B]
+- Name display when playing generic
+[B]Version 2.5.3[/B]
+- Name display when playing generic
+[B]Version 2.5.4[/B]
+- Gotham support
+[B]Version 2.6.0[/B]
+- Renamed Addon and many links, Added support for ordering, youtube links and other changes
+[B]Version 2.6.1[/B]
+- dependency problem fixed
+[B]Version 2.6.2[/B]
+- Support local youtube and streaming links 
+[B]Version 2.6.3[/B]
+- HD pictures for youtube videos
+
+[B]Version 2.7[/B]
+- Updated by shahid
+[B]Version 2.7.3[/B]
+- ref
+[B]Version 2.7.4[/B]
+- updated path

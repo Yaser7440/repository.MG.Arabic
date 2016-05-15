@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.m4x1m" name="Max (m4x1m) Headroom XBMC AddOns Repository" version="1.0.0" provider-name="Max (m4x1m) Headroom">
+     <extension point="xbmc.addon.repository" name="Max (m4x1m) Headroom XBMC AddOns Repository">
+	  <info compressed="false">https://calm-river-6855.herokuapp.com/repository/addons.xml</info>
+	  <checksum>https://calm-river-6855.herokuapp.com/repository/addons.xml.md5</checksum>
+	  <datadir zip="true">https://calm-river-6855.herokuapp.com/repository</datadir>
+     </extension>
+     <extension point="xbmc.addon.metadata">
+	  <summary lang="en">Max (m4x1m) Headroom XBMC AddOns Repository</summary>
+	  <summary lang="it">Max (m4x1m) Headroom XBMC AddOns Repository</summary>
+	  <description lang="en">The House of the AddOns: Rating Update, Thumbnails Cleaner. The best way to stay ever up to date.</description>
+	  <description lang="it">La Casa degli AddOns: Rating Update, Thumbnails Cleaner. Il modo migliore per restare sempre aggiornati.</description>
+	  <disclaimer lang="en">This is an unofficial XBMC repository created for easier installation of my addons.</disclaimer>
+	  <disclaimer lang="it">Questo è un repository non ufficiale per XBMC creato per facilitare l'installazione dei miei addons.</disclaimer>
+	  <platform>all</platform>
+     </extension>
+</addon>

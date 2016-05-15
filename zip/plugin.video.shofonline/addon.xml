@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="plugin.video.shofonline"
+  version="1.0.7"
+  name="Shofonline"
+  provider-name="mfaraj@dreamoem.com">
+  <requires>
+   <import addon="xbmc.python" version="2.1.0"/>
+   <import addon="script.common.plugin.urlresolver" version="2.5.2"/> 
+    <import addon="script.module.t0mm0.common" version="2.0.0"/>
+        <import addon="script.common.plugin.cache" version="2.5.2"/> 
+<import addon="script.module.addon.common" version="2.0.0"/>		
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>UPDATED BY OPESBOY</summary>
+    <description>Shofonline MOVIES plugin, Arabic , Hollywood, European and Bollywood movies update by opesboy </description>
+   
+    <platform>all</platform>
+  </extension>
+</addon>

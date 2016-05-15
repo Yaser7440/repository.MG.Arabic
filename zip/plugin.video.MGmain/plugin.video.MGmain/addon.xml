@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.MGmain" name="MG MAINTENANCE" version="1" provider-name="MG Arabic">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">MG MAINTENANCE</summary>
+    <description lang="en">MG Arabic MAINTENANCE</description>
+    <platform>all</platform>
+  </extension>
+</addon>

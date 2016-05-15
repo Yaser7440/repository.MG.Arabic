@@ -1,0 +1,18 @@
+v1.6
+New locations for the XML's & Updates to maintenance section. 
+
+v1.5
+Bug Fixes
+
+
+v1.4
+
+Build XML Moves as we move away from archive. Builds now download from our private VPS. 
+
+
+v1.1
+Build List loading incorrectly fixed.
+Clear Cache seperated into option.
+
+v1.0
+Initial Release

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<colors>
+	<color name="whitezero">FFF1F1F1</color>
+	<color name="greyzero">FFb4b4b4</color>
+	<color name="grey2zero">FF999999</color>
+	<color name="grey3zero">FF505050</color>
+	<color name="blackzero">FF000000</color>
+	<color name="bluezero">FF0084ff</color>
+	
+	<color name="white">ffda70d6</color><!--  orchid -->
+	<color name="grey">ffdda0dd</color><!-- plum -->
+	<color name="grey2">ffff1493</color><!-- deeppink -->
+	<color name="grey3">ffff69b4</color><!-- hotpink -->
+	<color name="black">FF000000</color>
+	<color name="blue">ffff00ff</color><!-- fuchsia -->
+	<color name="selected">FFEB9E17</color>
+	<color name="invalid">FFFF0000</color>
+	
+	<color name="customcolor1">ffda70d6</color><!-- white -->
+	<color name="customcolor2">ffdda0dd</color><!-- grey -->
+	<color name="customcolor3">ffff1493</color><!-- grey2 -->
+	<color name="customcolor4">ffff69b4</color><!-- grey3 -->
+	<color name="customcolor5">FF000000</color><!-- black -->
+	<color name="customcolor6">ffff00ff</color><!-- blue -->
+	
+	<color name="cchhomebtn1">FF303030</color><!-- HomeScreen Button NoFocus - darkgrey -->
+	<color name="cchhomebtn2">ffdeb887</color><!-- HomeScreen Button Focus - tan -->
+	<color name="cchhomebtni">ffff00ff</color><!-- HomeScreen Button Icon - Pinkish -->
+	<color name="folderfocus">ffff00ff</color><!-- Folder Container Image - Pinkish -->
+	
+	<color name="busybg">ffff00ff</color><!-- Busy Dialog Background - Pinkish -->
+	<color name="busyspin">ffdeb887</color><!-- Busy Dialog Spinner - tan -->
+	<color name="busybar">ffdeb887</color><!-- Busy Dialog Spinner - tan -->
+	<color name="btnfo">ffdeb887</color><!-- Button Focus - tan -->
+	<color name="btnnf">ffff00ff</color><!-- Button NoFocus - Pinkish -->
+	<color name="codec1">ffdeb887</color><!-- Codec Images - tan -->
+	<color name="vidbarcache">ffdeb887</color><!-- Video Progress Bar Cache - tan -->
+	<color name="progbarbg">ffff00ff</color><!-- Progress Bar Background - Pinkish -->
+	<color name="progbarmid">FF303030</color><!-- Progress Bar Mid - darkgrey -->
+	<color name="volumeicon">ffdeb887</color><!-- Volume Icon - tan -->
+	<color name="sliderexbg">ffdeb887</color><!-- SliderEx Background - tan -->
+	<color name="sliderexnib">ffff00ff</color><!-- SliderEx Nib - Pinkish -->
+	
+</colors>

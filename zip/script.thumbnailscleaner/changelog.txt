@@ -1,0 +1,61 @@
+v1.1.4.
+- Icon changed for the script.
+- Fixed issues related to the paths of database and thumbnails.
+
+v1.1.3:
+- Added a checks on startup to be sure the database settings are correct.
+- Removed checks on folder backup, if the user doesn't choose any folder, the script will use a backup folder under its own script folder.
+
+v1.1.2:
+- Added script.module.simplejson as dependency but uses internal JSON if python version is >= 2.7.
+- Uses Textures.GetTextures if XBMC is Gotham else uses RAW queries.
+- Fixed error when try to copy/move a non existent files.
+- Minimized access to database during process.
+- Fix some minor bugs.
+
+v1.1.1:
+- Added ability to stop the script in the final dialog box (request by gitr).
+- Bump Python version to be compatible with Gotham.
+- Moved from the old XML language system to the new .PO strings language system. Translations are welcome.
+- Minor bugs fixed.
+
+v1.1.0:
+- Fixed bug related to the query for delete textures.
+
+v1.0.9:
+- Added ability to disable the check for the various sections.
+- Improved and cleaned the code.
+- Fixed some other little bugs.
+
+v1.0.8:
+- Added ability to select multiple fields when doing a query to database for delete.
+- Added ability to select multiple fields for keep textures before the cleaning process will be completed.
+- In the configuration settings now you can add a pattern for exclude some strings from the process.
+- Fixed some other important bugs.
+
+v1.0.7:
+- This is a beta version. Full changelog available in the next release.
+
+v1.0.6:
+- Fixed some unicode strings.
+
+v1.0.5:
+- Rewritten for using JSON RPC.
+- Improved the check on destination folder.
+
+v1.0.4:
+- Fixed all problems related to mysql database (for real).
+- Added check for music video posters.
+- Fixed issue when moving files in destination folder that already exist.
+
+v1.0.3:
+- Fixed issue related to the Texture table in mysql.
+
+v1.0.2:
+- Empties destination folder before copy/move the new files.
+
+v1.0.1:
+- Fixed a typo that prevented to connect to the database.
+
+v1.0.0:
+- First script release.

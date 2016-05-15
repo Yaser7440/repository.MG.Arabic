@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.123movies"
+	   name="123Movies"
+	   version="1.8"
+	   provider-name="2uk3y-Kodim-Ares-Streams">
+  <requires>
+    <import addon="script.module.metahandler" optional="true" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+			 library="default.py">
+    	<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Watch TV Drama/Movie from 123movies.to</summary>
+    <description>Watch TV Drama/Movie from 123movies.to</description>
+    <description>2uk3y-Kodim-Ares-Streams</description>
+    <platform>all</platform>
+  </extension>
+</addon>

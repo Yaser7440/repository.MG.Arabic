@@ -1,0 +1,61 @@
+[COLOR FF00FFFF]NOTE: Visit [COLOR orange]http://ares-project.com[/COLOR] for support.[/COLOR]
+
+----------------------------
+Version 1.8 (16-Jan-16)
+----------------------------
+- Fix some Genre not show list due to metadata not found
+- Code cleanup
+
+----------------------------
+Version 1.7 (10-Jan-16)
+----------------------------
+- Fix tvshows not showing episodes list page
+- Code cleanup
+
+----------------------------
+Version 1.6 (10-Jan-16)
+----------------------------
+- Fix movie and tvshows stream list empty (source changed)
+
+----------------------------
+Version 1.5 (09-Jan-16)
+----------------------------
+- Revert back to version 1.1
+
+----------------------------
+Version 1.4 (08-Jan-16)
+----------------------------
+- Fix tv shows stream list empty
+
+----------------------------
+Version 1.3 (08-Jan-16)
+----------------------------
+- Fix some tv shows not show episode list correctly
+
+----------------------------
+Version 1.2 (08-Jan-16)
+----------------------------
+- Add "Add to Favourites" menu and submenu
+- Add context menu : "Movie / TV Series Information"
+- Add context menu : "Add to Favourites" / "Delete from Favourite"
+- Add context menu : "Add to Library" (beta)
+- Auto enable English subtitle if available
+- Fix bug
+- Code cleanup
+
+----------------------------
+Version 1.1 (31-Dec-15)
+----------------------------
+- Fix video title for easy search subtitle
+- Add thumbnail for player
+- Update Fanart
+- Add metadata for Movie / Tv Series
+- Add "Requested" menu
+- Fix bug
+
+----------------------------
+Version 1.0 (08-Dec-15)
+----------------------------
+- Initial version
+- Addon is based on Dramaonline Addon authored by Aresu
+- License GPL Version 2

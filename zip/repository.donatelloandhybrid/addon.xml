@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.donatelloandhybrid" name=".[COLOR magenta]Donatello and Hybrid[/COLOR][COLOR yellow] Repository[/COLOR]" version="1.0" provider-name="Donatello and Hybrid">
+    <extension point="xbmc.addon.repository" name=".Donatello and Hybrid Repository ">
+        <info compressed="false">https://raw.githubusercontent.com/dvddd/donatellorepo/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/dvddd/donatellorepo/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/dvddd/donatellorepo/master</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Donatello and Hybrid Repository</summary>
+        <description>Donatello and Hybrid Repository</description>
+        <description>Donatello and Hybrid Repository</description>
+        <platform>all</platform>
+    </extension>
+</addon>

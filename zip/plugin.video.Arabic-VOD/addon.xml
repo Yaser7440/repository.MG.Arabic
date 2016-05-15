@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.Arabic-VOD" version="2.0.0" name="Arabic VOD" provider-name="Hawwach">
+  <requires>
+    <import addon="xbmc.python"
+            version="2.1.0"/>
+	<import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Arabic VOD</summary>
+    <description>Arabic VOD from Alarab.net</description>
+   
+    <platform>all</platform>
+  </extension>
+</addon>

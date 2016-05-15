@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.shahid" name="Shahid Addon Repository" version="2.8.0" provider-name="Shahid">
+	<extension point="xbmc.addon.repository" name="Shahid Addon Repository">
+		<info compressed="false">https://offshoregit.com/Shani-08/shahid/addons.xml</info>
+		<checksum>https://offshoregit.com/Shani-08/shahid/addons.xml.md5</checksum>
+		<datadir zip="true">https://offshoregit.com/Shani-08/shahid/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Addons related to XBMC for Shahid Arabic</summary>
+		<description>Free Arabic channels around the world, nothing hosted here!</description>
+		<platform>all</platform>
+	</extension>
+</addon>

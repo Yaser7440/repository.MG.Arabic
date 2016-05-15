@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.shahidmbcnet"  name="Shahid Arabic" version="3.8.0" provider-name="Shahid">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.beautifulsoup" version="3.0.8"/>
+    <import addon="plugin.video.youtube" version="2.9.2"/>
+	<import addon="script.module.elementtree" version="1.2.8"/>
+	<import addon="script.common.plugin.cache" version="0.9.1"/>
+    <!--<import addon="script.video.F4mProxy" version="1.0.8"/>-->
+
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Shahid Arabic XBMC Arabic Streams</summary>
+    <description>Arabic streams and channels, nothing hosted by this addon, everything is from different sites</description>
+    <platform>all</platform>
+  </extension>
+</addon>

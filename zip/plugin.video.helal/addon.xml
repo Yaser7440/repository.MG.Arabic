@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="plugin.video.helal"
+  version="1.0.9"
+  name="HELAL MOVIES"
+  provider-name="mfaraj@dreamoem.com update by opesboy">
+  <requires>
+     <import addon="xbmc.python" version="2.1.0" />
+     <import addon="script.module.urlresolver"  version="2.1.2"/>   
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>helal MOVIES Arabic plugin from www.4helal.net</summary>
+    <description>4helal MOVIES plugin, Arabic , Hollywood, European and Bollywood movies </description>
+   
+    <platform>all</platform>
+  </extension>
+</addon>

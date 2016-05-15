@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<window id="1101">
+	<animation effect="fade" time="1000">WindowOpen</animation>
+        <animation effect="fade" time="1000">WindowClose</animation>
+    	<defaultcontrol>1</defaultcontrol>
+	<zorder>2</zorder>
+	<coordinates>
+       	<system>1</system>
+        <posx>54</posx>
+        <posy>50</posy>
+    	</coordinates>
+
+    <controls>
+        <control type="image">
+            <description>Text Background</description>
+            <posx>100</posx>
+            <posy>100</posy>
+            <width>1160</width>
+            <height>615</height>
+            <texture></texture>
+        </control>
+
+	<control type="button" id="1">
+      		<description>My first button control</description>
+      		<posx>60</posx>
+      		<posy>10</posy>
+      		<width>200</width>
+      		<height>50</height>
+      		<visible>true</visible>
+      		<texturefocus colordiffuse="FFFFAAFF">2button-focus.png</texturefocus>
+      		<texturenofocus colordiffuse="FFFFAAFF">2button_no_focus.png</texturenofocus>
+      		<label>BUTTON 1</label>
+      		<wrapmultiline>true</wrapmultiline>
+      		<font>font12</font>
+      		<textcolor>FFFFFFFF</textcolor>
+      		<focusedcolor>FFFFFFFF</focusedcolor>
+      		<disabledcolor>80FFFFFF</disabledcolor>
+      		<invalidcolor>FFFFFFFF</invalidcolor>
+      		<align>center</align>
+      		<aligny>center</aligny>
+      		<textoffsetx></textoffsetx>
+      		<textoffsety></textoffsety>
+      		<pulseonselect></pulseonselect>
+      		<onclick>ActivateWindow(1101)</onclick>
+		<ondown>2</ondown>
+		<onup>11</onup>
+	</control>
+
+	<control type="button" id="2">
+      		<description>My first button control</description>
+      		<posx>60</posx>
+      		<posy>70</posy>
+      		<width>200</width>
+      		<height>50</height>
+      		<visible>true</visible>
+      		<texturefocus colordiffuse="FFFFAAFF">2button-focus.png</texturefocus>
+      		<texturenofocus colordiffuse="FFFFAAFF">2button_no_focus.png</texturenofocus>
+      		<label>BUTTON 2</label>
+      		<wrapmultiline>true</wrapmultiline>
+      		<font>font12</font>
+      		<textcolor>FFFFFFFF</textcolor>
+      		<focusedcolor>FFFFFFFF</focusedcolor>
+      		<disabledcolor>80FFFFFF</disabledcolor>
+      		<invalidcolor>FFFFFFFF</invalidcolor>
+      		<align>center</align>
+      		<aligny>center</aligny>
+      		<textoffsetx></textoffsetx>
+      		<textoffsety></textoffsety>
+      		<pulseonselect></pulseonselect>
+      		<onclick>back</onclick>
+      		<ondown>4</ondown>
+		<onup>1</onup>
+	</control>
+
+	<control type="button" id="4">
+      		<description>My first button control</description>
+      		<posx>60</posx>
+      		<posy>130</posy>
+      		<width>200</width>
+      		<height>50</height>
+      		<visible>true</visible>
+      		<texturefocus colordiffuse="FFFFAAFF">2button-focus.png</texturefocus>
+      		<texturenofocus colordiffuse="FFFFAAFF">2button_no_focus.png</texturenofocus>
+      		<label>BUTTON 3</label>
+      		<wrapmultiline>true</wrapmultiline>
+      		<font>font12</font>
+      		<textcolor>FFFFFFFF</textcolor>
+      		<focusedcolor>FFFFFFFF</focusedcolor>
+      		<disabledcolor>80FFFFFF</disabledcolor>
+      		<invalidcolor>FFFFFFFF</invalidcolor>
+      		<align>center</align>
+      		<aligny>center</aligny>
+      		<textoffsetx></textoffsetx>
+      		<textoffsety></textoffsety>
+      		<pulseonselect></pulseonselect>
+      		<onclick>back</onclick>
+      		<ondown>5</ondown>
+		<onup>2</onup>
+	</control>
+
+	<control type="button" id="5">
+      		<description>My first button control</description>
+      		<posx>60</posx>
+      		<posy>190</posy>
+      		<width>200</width>
+      		<height>50</height>
+      		<visible>true</visible>
+      		<texturefocus colordiffuse="FFFFAAFF">2button-focus.png</texturefocus>
+      		<texturenofocus colordiffuse="FFFFAAFF">2button_no_focus.png</texturenofocus>
+      		<label>BUTTON 4</label>
+      		<wrapmultiline>true</wrapmultiline>
+      		<font>font12</font>
+      		<textcolor>FFFFFFFF</textcolor>
+      		<focusedcolor>FFFFFFFF</focusedcolor>
+      		<disabledcolor>80FFFFFF</disabledcolor>
+      		<invalidcolor>FFFFFFFF</invalidcolor>
+      		<align>center</align>
+      		<aligny>center</aligny>
+      		<textoffsetx></textoffsetx>
+      		<textoffsety></textoffsety>
+      		<pulseonselect></pulseonselect>
+      		<onclick>back</onclick>
+      		<ondown>6</ondown>
+		<onup>4</onup>
+	</control>
+
+	<control type="button" id="6">
+      		<description>My first button control</description>
+      		<posx>60</posx>
+      		<posy>250</posy>
+      		<width>200</width>
+      		<height>50</height>
+      		<visible>true</visible>
+      		<texturefocus colordiffuse="FFFFAAFF">2button-focus.png</texturefocus>
+      		<texturenofocus colordiffuse="FFFFAAFF">2button_no_focus.png</texturenofocus>
+      		<label>BUTTON 5</label>
+      		<wrapmultiline>true</wrapmultiline>
+      		<font>font12</font>
+      		<textcolor>FFFFFFFF</textcolor>
+      		<focusedcolor>FFFFFFFF</focusedcolor>
+      		<disabledcolor>80FFFFFF</disabledcolor>
+      		<invalidcolor>FFFFFFFF</invalidcolor>
+      		<align>center</align>
+      		<aligny>center</aligny>
+      		<textoffsetx></textoffsetx>
+      		<textoffsety></textoffsety>
+      		<pulseonselect></pulseonselect>
+      		<onclick>back</onclick>
+      		<ondown>7</ondown>
+		<onup>5</onup>
+	</control>
+
+	<control type="button" id="7">
+      		<description>My first button control</description>
+      		<posx>60</posx>
+      		<posy>310</posy>
+      		<width>200</width>
+      		<height>50</height>
+      		<visible>true</visible>
+      		<texturefocus colordiffuse="FFFFAAFF">2button-focus.png</texturefocus>
+      		<texturenofocus colordiffuse="FFFFAAFF">2button_no_focus.png</texturenofocus>
+      		<label>BUTTON 6</label>
+      		<wrapmultiline>true</wrapmultiline>
+      		<font>font12</font>
+      		<textcolor>FFFFFFFF</textcolor>
+      		<focusedcolor>FFFFFFFF</focusedcolor>
+      		<disabledcolor>80FFFFFF</disabledcolor>
+      		<invalidcolor>FFFFFFFF</invalidcolor>
+      		<align>center</align>
+      		<aligny>center</aligny>
+      		<textoffsetx></textoffsetx>
+      		<textoffsety></textoffsety>
+      		<pulseonselect></pulseonselect>
+      		<onclick>back</onclick>
+      		<ondown>8</ondown>
+		<onup>6</onup>
+	</control>
+
+	<control type="button" id="8">
+      		<description>My first button control</description>
+      		<posx>60</posx>
+      		<posy>370</posy>
+      		<width>200</width>
+      		<height>50</height>
+      		<visible>true</visible>
+      		<texturefocus colordiffuse="FFFFAAFF">2button-focus.png</texturefocus>
+      		<texturenofocus colordiffuse="FFFFAAFF">2button_no_focus.png</texturenofocus>
+      		<label>BUTTON 7</label>
+      		<wrapmultiline>true</wrapmultiline>
+      		<font>font12</font>
+      		<textcolor>FFFFFFFF</textcolor>
+      		<focusedcolor>FFFFFFFF</focusedcolor>
+      		<disabledcolor>80FFFFFF</disabledcolor>
+      		<invalidcolor>FFFFFFFF</invalidcolor>
+      		<align>center</align>
+      		<aligny>center</aligny>
+      		<textoffsetx></textoffsetx>
+      		<textoffsety></textoffsety>
+      		<pulseonselect></pulseonselect>
+      		<onclick>back</onclick>
+      		<ondown>9</ondown>
+		<onup>7</onup>
+	</control>
+
+	<control type="button" id="9">
+      		<description>My first button control</description>
+      		<posx>60</posx>
+      		<posy>430</posy>
+      		<width>200</width>
+      		<height>50</height>
+      		<visible>true</visible>
+      		<texturefocus colordiffuse="FFFFAAFF">2button-focus.png</texturefocus>
+      		<texturenofocus colordiffuse="FFFFAAFF">2button_no_focus.png</texturenofocus>
+      		<label>BUTTON 8</label>
+      		<wrapmultiline>true</wrapmultiline>
+      		<font>font12</font>
+      		<textcolor>FFFFFFFF</textcolor>
+      		<focusedcolor>FFFFFFFF</focusedcolor>
+      		<disabledcolor>80FFFFFF</disabledcolor>
+      		<invalidcolor>FFFFFFFF</invalidcolor>
+      		<align>center</align>
+      		<aligny>center</aligny>
+      		<textoffsetx></textoffsetx>
+      		<textoffsety></textoffsety>
+      		<pulseonselect></pulseonselect>
+      		<onclick>back</onclick>
+      		<ondown>10</ondown>
+		<onup>8</onup>
+	</control>
+
+	<control type="button" id="10">
+      		<description>My first button control</description>
+      		<posx>60</posx>
+      		<posy>490</posy>
+      		<width>200</width>
+      		<height>50</height>
+      		<visible>true</visible>
+      		<texturefocus colordiffuse="FFFFAAFF">2button-focus.png</texturefocus>
+      		<texturenofocus colordiffuse="FFFFAAFF">2button_no_focus.png</texturenofocus>
+      		<label>BUTTON 9</label>
+      		<wrapmultiline>true</wrapmultiline>
+      		<font>font12</font>
+      		<textcolor>FFFFFFFF</textcolor>
+      		<focusedcolor>FFFFFFFF</focusedcolor>
+      		<disabledcolor>80FFFFFF</disabledcolor>
+      		<invalidcolor>FFFFFFFF</invalidcolor>
+      		<align>center</align>
+      		<aligny>center</aligny>
+      		<textoffsetx></textoffsetx>
+      		<textoffsety></textoffsety>
+      		<pulseonselect></pulseonselect>
+      		<onclick>back</onclick>
+      		<ondown>11</ondown>
+		<onup>9</onup>
+	</control>
+
+	<control type="button" id="11">
+      		<description>My first button control</description>
+      		<posx>60</posx>
+      		<posy>550</posy>
+      		<width>200</width>
+      		<height>50</height>
+      		<visible>true</visible>
+      		<texturefocus colordiffuse="FFFFAAFF">2button-focus.png</texturefocus>
+      		<texturenofocus colordiffuse="FFFFAAFF">2button_no_focus.png</texturenofocus>
+      		<label>BUTTON 10</label>
+      		<wrapmultiline>true</wrapmultiline>
+      		<font>font12</font>
+      		<textcolor>FFFFFFFF</textcolor>
+      		<focusedcolor>FFFFFFFF</focusedcolor>
+      		<disabledcolor>80FFFFFF</disabledcolor>
+      		<invalidcolor>FFFFFFFF</invalidcolor>
+      		<align>center</align>
+      		<aligny>center</aligny>
+      		<textoffsetx></textoffsetx>
+      		<textoffsety></textoffsety>
+      		<pulseonselect></pulseonselect>
+      		<onclick>back</onclick>
+      		<ondown>1</ondown>
+		<onup>10</onup>
+	</control>
+
+    </controls>
+</window>

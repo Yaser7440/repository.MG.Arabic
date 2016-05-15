@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.alarab" version="4.2.2" name="AlArab" provider-name="MG.Arabic">
+  <requires>
+    <import addon="xbmc.python"
+            version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>AlArabNet  (MG.Arabic)</summary>
+    <description>AlArabNet. (MG.Arabic)</description>
+
+    <platform>all</platform>
+  </extension>
+</addon>

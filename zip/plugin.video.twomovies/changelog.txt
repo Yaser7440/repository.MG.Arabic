@@ -1,0 +1,137 @@
+V2.6.5
+Increased speed
+Lowered number of requests
+Reduced the possibility of being blocked for excessive requests
+
+V2.6.2
+Platform bug quick fix
+Added Notification if Ip Blocked at site source
+
+V2.6.1
+Updated sources
+Make sure to Visit
+twomovies.us
+and tvaddons.ag for support
+
+V2.6.0
+Beginning the rebuild process
+Some bugs still present
+
+V2.5.3
+Added Domain Fix in Addon Settings
+
+V2.5.2
+Domain Change Fix "Again"
+
+V2.5.1
+Domain Change Fix
+
+V2.5.0
+Auto Update Module Initialized and active
+Fixes TV Show MetaData
+More enhancements coming soon
+
+V2.4.9
+Setup for Auto Update to start
+
+V2.4.8
+Quick Fix for sources not listing properly
+
+V2.4.7a
+Corrected Imort discrepencies for some platforms
+
+V2.4.7
+Added Workaround for "Continue Button Bug"
+Fixed Art not Showing for TV Show Episodes
+Fixed Incorrect Cover Art showing in player
+
+V2.4.6
+Offical Login Ready Release
+
+V2.4.5+
+Added 2Movie Login
+Get an Account at twomovies.name
+You will get LOTS more quality sources In Movie and TV Section
+Attempted Android/Ouya Fix
+
+V2.3.5
+Fixed Blockpage error with help from o9r1sh1
+and lots of Soda.
+
+V2.3.0
+BugFix
+
+V2.2.5
+Added a new Download Queue
+and Download Function
+
+This new function is a joint effort 
+between myself, and o9r1sh1
+and is a ever evolving project!
+
+V2.1.5
+
+Rewrote the code due to site changes
+Updated the way the Help Section Functions
+ADDED Chia-Anime Section 
+Name Change of Addon + Evolved
+Removed Colors to speed up processing
+
+
+
+V2.1.1
+Added way to install fusion with one click
+
+V2.1.0
+Added Interactive help section
+and ability to install my repo
+and custom shortcuts to the users homescreen
+IF  and ONLY IF the user wants
+Added Interactive announcments page
+These sections will be updated interactivly 
+without the need for an actual update to
+the addon itself
+ 
+V2.0.0
+My biggest update yet!
+**NEW**
+Added Ability to Download Content
+Added Help Section
+Added TV Show Section
+Added ability to Search Tv Shows by name
+Added TV Shows by Popularity
+Added TV Shows by Rating
+Added TV Shows by Genre
+Added  Movie A-Z Index listings
+Added Movies by Popularity
+Added Movies by Rating
+Small Bug Fixes
+Cleaned up Code
+
+**FUTURE UPDATES  PLANNED**
+User Log In
+
+**IMPROVEMENTS**
+Improved Fanart image resolution
+Improved  Thumbnail Image Resolution
+More great Graphics updates by Marquerite
+
+
+V1.5.1
+BIG CHANGES !!!
+Added full graphics Suite from Marquerite!!!!
+Added Adult Section with passcode protection.
+Added Better Auto View
+Added ability to turn on/off the following:
+   Adult Section
+   Search by Tags
+   Movies by Tags	
+Bug Fixes
+Addded Cosmetic Enhancements 
+Prepared Auto View and code for future addition of TV Shows
+and for Log-in support "Coming Soon" 
+
+
+V1.0.0
+Initial Release
+

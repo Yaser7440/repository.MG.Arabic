@@ -1,0 +1,64 @@
+1.0.18
+change the start point for profiles' users - close #28
+
+1.0.17
+bug fix - close #27
+
+1.0.16
+add a 'Show notification on scrobble' setting
+
+1.0.15
+add a setting to show or not notifications during playback - close #24
+change the api limitation to 30 according to exception from tvshowtime.com
+
+1.0.14
+change the way to authenticate due to api changes
+enhancements
+
+1.0.13
+add a program to manual sync whole/part of the library 
+
+1.0.12
+clean the code
+add compile.sh
+
+1.0.11
+revert the way to authenticate due to api changes
+
+1.0.10
+put the log to xbmc.LOGDEBUG
+
+1.0.9
+clean the code
+
+1.0.8
+bug fixes
+change the way of checking an episode
+
+1.0.7
+add the function to mark and unmark from the contextual menu of an episode
+change the way to authenticate
+
+1.0.6
+clean the code
+
+1.0.5
+add a second way to find the episode on TVST
+bug fixes
+
+1.0.4
+add debug log
+bug fixes
+
+1.0.3
+change the way of checking an episode
+
+1.0.2
+fix error when episode not found
+
+1.0.1
+add onQueueNextItem function
+add format number function to SXXEYY
+
+1.0.0
+first version

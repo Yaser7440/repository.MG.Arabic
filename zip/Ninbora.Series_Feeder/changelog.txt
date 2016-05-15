@@ -1,0 +1,55 @@
+1.4.9
+fix qusar wall
+
+
+1.4.8
+
+Fix Bundle zip file loading...
+
+1.4.7
+
+config XML changes
+
+add Qusar & Exodus Support
+
+changes in Movieinfo - takes only relevant fields 
+
+
+1.4.6
+
+add Salts Support Fix Thx to YIlan for the help you are the best!!!
+
+for all the community of kodi in love - Donatello!!!
+---------------------------------------------------------------
+1.4.5 Ver
+
+minor bug fixes
+----------------------------------------------------------------
+
+
+
+Donatello edit + Hybridmag 
+
+1.4.4 (11/9/2015)
+Fix the wall movies and series not updating
+
+thanks for
+Hybridmag 
+for debuging and helping to fix the problem!!!
+
+
+-------------------------------------------------------------------------------
+
+
+-------------------------------------------------------------------------------
+v1.0.3 (04.01.2015)
+-------------------
+
+  - Add Salt Stream-mode support
+  - Stream-mode now support only one method each time
+
+-------------------------------------------------------------------------------
+v1.0.1 (20.10.2014)
+-------------------
+
+  - Initial version

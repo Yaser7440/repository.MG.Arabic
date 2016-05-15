@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<colors>
+	<color name="whitezero">FFF1F1F1</color>
+	<color name="greyzero">FFb4b4b4</color>
+	<color name="grey2zero">FF999999</color>
+	<color name="grey3zero">FF505050</color>
+	<color name="blackzero">FF000000</color>
+	<color name="bluezero">FF0084ff</color>
+	
+	<color name="white">FFFFFFFF</color>
+	<color name="grey">ffdcdcdc</color>
+	<color name="grey2">fffaebd7</color>
+	<color name="grey3">ffffe4c4</color>
+	<color name="black">FF000000</color>
+	<color name="blue">fff0f8ff</color>
+	<color name="selected">FFEB9E17</color>
+	<color name="invalid">FFFF0000</color>
+	
+	<color name="customcolor1">FFFFFFFF</color><!-- white -  -->
+	<color name="customcolor2">ffdcdcdc</color><!-- grey  - gainsboro -->
+	<color name="customcolor3">fffaebd7</color><!-- grey2 - antiquewhite -->
+	<color name="customcolor4">ffffe4c4</color><!-- grey3 - bisque -->
+	<color name="customcolor5">FF000000</color><!-- black -  -->
+	<color name="customcolor6">fff0f8ff</color><!-- blue  - aliceblue -->
+	
+	<color name="cchhomebtn1">FF303030</color><!-- HomeScreen Button NoFocus - darkgrey -->
+	<color name="cchhomebtn2">ffdeb887</color><!-- HomeScreen Button Focus - tan -->
+	<color name="cchhomebtni">fff0f8ff</color><!-- HomeScreen Button Icon - aliceblue -->
+	<color name="folderfocus">fff0f8ff</color><!-- Folder Container Image - aliceblue -->
+	
+	<color name="busybg">fff0f8ff</color><!-- Busy Dialog Background - aliceblue -->
+	<color name="busyspin">ffdeb887</color><!-- Busy Dialog Spinner - tan -->
+	<color name="busybar">ffdeb887</color><!-- Busy Dialog Spinner - tan -->
+	<color name="btnfo">ffdeb887</color><!-- Button Focus - tan -->
+	<color name="btnnf">fff0f8ff</color><!-- Button NoFocus - aliceblue -->
+	<color name="codec1">ffdeb887</color><!-- Codec Images - tan -->
+	<color name="vidbarcache">ffdeb887</color><!-- Video Progress Bar Cache - tan -->
+	<color name="progbarbg">fff0f8ff</color><!-- Progress Bar Background - aliceblue -->
+	<color name="progbarmid">ffDDDDDD</color><!-- Progress Bar Mid - blueish -->
+	<color name="volumeicon">ffdeb887</color><!-- Volume Icon - tan -->
+	<color name="sliderexbg">ffdeb887</color><!-- SliderEx Background - tan -->
+	<color name="sliderexnib">fff0f8ff</color><!-- SliderEx Nib - aliceblue -->
+	
+</colors>

@@ -1,0 +1,79 @@
+2015-11-24: remove unicodes
+2015-10-18: remove folder, keep all in root
+2015-10-09: Revert "v13"
+2015-10-08: 5.0.14
+2015-10-08: v13
+2015-10-03: Merge pull request #14 from host505/Gotham
+2015-10-03: Fix for Portuguese (Brazil)
+2015-09-09: changelog
+2015-09-08: Merge pull request #13 from host505/Gotham
+2015-09-07: Fix for Greek subtitles
+2015-04-19: 5.0.12 - compare season and episode and display only matching results
+2014-12-01: Merge pull request #11 from taxigps/Gotham
+2014-11-30: add Chinese Simplified translation
+2014-11-11: 5.0.11
+2014-11-11: revork search
+2014-11-11: [cosmetics] 775 -> 644
+2014-11-11: [tryfix] error when serching, tab indent from 01c50466a436b603235a042aaa0518fef92b5cf4
+2014-10-26: Merge pull request #10 from beam/Gotham
+2014-10-23: add slash or backslash at the end of path (fix xbmcvfs.exists in Helix)
+2014-10-17: 5.0.10
+2014-10-15: Merge pull request #9 from arnova/urldecode_fix
+2014-10-14: fixed: Don't unquote(urldecode) file_original_path as it breaks http file hashing
+2014-08-31: 5.0.9
+2014-08-28: -fix: hack to work around issue where Brazilian is not found as language in XBMC
+2014-08-19: Merge pull request #8 from Jaman42/IMDBID
+2014-08-18: Support for preferred language sorting and fetch using IMDBID
+2014-04-23: Merge pull request #4 from beam/Gotham
+2014-04-22: fix hash large rars
+2014-04-14: 5.0.8
+2014-04-14: we need extension for subtitle
+2014-04-14: 5.0.7
+2014-04-14: Merge pull request #3 from canassa/fix-invalid-file-names
+2014-04-13: Bugfix: Do not use unsafe file names.
+2014-01-14: 5.0.6
+2014-01-11: Merge pull request #2 from laric/Gotham_Login
+2014-01-12: clean temp folder
+2014-01-12: 5.0.5
+2014-01-12: unqote manual search string, should fix issues with manual search
+2014-01-12: cosmetics
+2014-01-11: ascii UNICODE.decode quick fix.
+2014-01-09: Add login to OpenSubtitles as a setting.
+2014-01-09: cosmetics cleanup
+2014-01-06: 5.0.4
+2014-01-06: check for "searchstring" rather
+2013-12-12: manual search option added
+2013-12-04: 5.0.3
+2013-11-29: Portuguese (Brazil) and Greek
+2013-11-19: - icon.png and added logo.png for skin to use in window
+2013-11-13: 5.0.1
+2013-11-13: only send 2 letter country code, skin controls file type
+2013-11-12: cleanup
+2013-11-06: cosmetics: move string to 32xxx range
+2013-11-06: gracefully handle connection errors
+2013-11-06: proper rounding of subtitle rating
+2013-10-17: Merge pull request #1 from jmarshallnz/master
+2013-10-18: use path to pass properties to and from XBMC
+2013-10-16: sync to XBMC
+2013-10-16: match XBMC changes
+2013-10-16: to match the current XBMC
+2013-10-16: redone for SubsCore branch of XBMC
+2013-03-09: item['subtitles_list'] needs to be set regardless if there are any items found in search
+2013-03-09: Gotham fixes
+2012-12-17: language files
+2012-12-17: version 5.0.0 for gotham
+2012-12-17: send Main script name and module version while logging into OS server
+2012-12-17: cosmetics
+2012-09-25: split service.py into OSUtilities, add language file
+2012-09-21: - handle RAR hash files - cleanup
+2012-09-20: no comment
+2012-09-20: rename Search and Download function
+2012-09-19: change addon ID to service.subtitles.opensubtitles
+2012-09-19: cleanup, cosmetics
+2012-09-19: c/p is a bitch
+2012-09-19: remove unneeded items in explanation
+2012-09-19: add explanation for future service conversions
+2012-09-19: remove language filter option as gui now sends unique list
+2012-09-19: depend on script.subtitles.main , new name for the GUI script
+2012-09-19: initial commit of OpenSubtitles service
+2012-09-18: Initial commit

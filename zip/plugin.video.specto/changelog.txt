@@ -1,0 +1,19 @@
+------------------------
+Specto v2016.03.12.3
+------------------------
+Cache repair
+Movies repair - done in 90%
+TV Shows repair  - done in 80%
+
+------------------------
+Specto v2016.03.11.3
+------------------------
+Cache repair
+Movies repair - done in 90%
+TV Shows repair  - done in 2%
+
+------------------------
+Specto v2016.03.06
+------------------------
+Openload   decodeOpenLoad made by mortael
+

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+	<defaultcontrol>-</defaultcontrol>
+	<coordinates>
+		<system>1</system>
+		<left>0</left>
+		<top>0</top>
+	</coordinates>
+	<controls>
+		<control type="image" id="1">
+			<description>Pointer Image</description>
+			<left>0</left>
+			<top>0</top>
+			<!--width>64</width>
+			<height>64</height-->
+			<texture fallback="pointer-nofocus.png">$INFO[Skin.String(CustomPointerPathNF)]</texture>
+			<!--texture>wand128.png</texture-->
+			<!--texture>pointer-nofocus.png</texture-->
+			<!--colordiffuse>0xCCffffff</colordiffuse-->
+			<include condition="IsEmpty(Skin.String(CustomPointerSize))">Size64x64</include>
+			<include condition="StringCompare(Skin.String(CustomPointerSize),16)">Size16x16</include>
+			<include condition="StringCompare(Skin.String(CustomPointerSize),24)">Size24x24</include>
+			<include condition="StringCompare(Skin.String(CustomPointerSize),32)">Size32x32</include>
+			<include condition="StringCompare(Skin.String(CustomPointerSize),48)">Size48x48</include>
+			<include condition="StringCompare(Skin.String(CustomPointerSize),64)">Size64x64</include>
+			<include condition="StringCompare(Skin.String(CustomPointerSize),90)">Size90x90</include>
+			<include condition="StringCompare(Skin.String(CustomPointerSize),120)">Size120x120</include>
+			<include condition="StringCompare(Skin.String(CustomPointerSize),128)">Size128x128</include>
+			<include condition="StringCompare(Skin.String(CustomPointerSize),218)">Size218x218</include>
+			<include condition="StringCompare(Skin.String(CustomPointerSize),256)">Size256x256</include>
+		</control>
+		<control type="image" id="2">
+			<description>Pointer Focus Image</description>
+			<left>0</left>
+			<top>0</top>
+			<!--
+			<width>64</width>
+			<height>64</height>
+			<width>$NUMBER[$INFO[Skin.String(CustomPointerSize)]]</width>
+			<height>$NUMBER[$INFO[Skin.String(CustomPointerSize)]]</height>
+			<width>$INFO[$NUMBER[Skin.String(CustomPointerSize)]]</width>
+			<height>$INFO[$NUMBER[Skin.String(CustomPointerSize)]]</height>
+			-->
+			<!--width>64</width>
+			<height>64</height-->
+			<texture fallback="pointer-focus.png">$INFO[Skin.String(CustomPointerPathFO)]</texture>
+			<!--texture>wand128.png</texture-->
+			<!--texture>pointer-focus.png</texture>
+			<colordiffuse>0xCCffffff</colordiffuse-->
+			<include condition="IsEmpty(Skin.String(CustomPointerSize))">Size64x64</include>
+			<include condition="StringCompare(Skin.String(CustomPointerSize),16)">Size16x16</include>
+			<include condition="StringCompare(Skin.String(CustomPointerSize),24)">Size24x24</include>
+			<include condition="StringCompare(Skin.String(CustomPointerSize),48)">Size48x48</include>
+			<include condition="StringCompare(Skin.String(CustomPointerSize),32)">Size32x32</include>
+			<include condition="StringCompare(Skin.String(CustomPointerSize),64)">Size64x64</include>
+			<include condition="StringCompare(Skin.String(CustomPointerSize),90)">Size90x90</include>
+			<include condition="StringCompare(Skin.String(CustomPointerSize),120)">Size120x120</include>
+			<include condition="StringCompare(Skin.String(CustomPointerSize),128)">Size128x128</include>
+			<include condition="StringCompare(Skin.String(CustomPointerSize),218)">Size218x218</include>
+			<include condition="StringCompare(Skin.String(CustomPointerSize),256)">Size256x256</include>
+		</control>
+		<control type="image" id="3">
+			<description>Pointer Drag Image</description>
+			<left>0</left>
+			<top>0</top>
+			<!--width>64</width>
+			<height>64</height-->
+			<texture fallback="pointer-focus-drag.png">$INFO[Skin.String(CustomPointerPathDrag)]</texture>
+			<!--texture>wand128.png</texture-->
+			<!--texture>pointer-focus-drag.png</texture-->
+			<!--colordiffuse>0xff0000ff</colordiffuse-->
+			<include condition="IsEmpty(Skin.String(CustomPointerSize))">Size64x64</include>
+			<include condition="StringCompare(Skin.String(CustomPointerSize),16)">Size16x16</include>
+			<include condition="StringCompare(Skin.String(CustomPointerSize),24)">Size24x24</include>
+			<include condition="StringCompare(Skin.String(CustomPointerSize),32)">Size32x32</include>
+			<include condition="StringCompare(Skin.String(CustomPointerSize),48)">Size48x48</include>
+			<include condition="StringCompare(Skin.String(CustomPointerSize),64)">Size64x64</include>
+			<include condition="StringCompare(Skin.String(CustomPointerSize),90)">Size90x90</include>
+			<include condition="StringCompare(Skin.String(CustomPointerSize),120)">Size120x120</include>
+			<include condition="StringCompare(Skin.String(CustomPointerSize),128)">Size128x128</include>
+			<include condition="StringCompare(Skin.String(CustomPointerSize),218)">Size218x218</include>
+			<include condition="StringCompare(Skin.String(CustomPointerSize),256)">Size256x256</include>
+		</control>
+		<control type="image" id="4">
+			<description>Pointer Click Image</description>
+			<left>0</left>
+			<top>0</top>
+			<!--width>64</width>
+			<height>64</height-->
+			<texture fallback="pointer-focus-click.png">$INFO[Skin.String(CustomPointerPathClick)]</texture>
+			<!--texture>wand128.png</texture-->
+			<!--texture>pointer-focus-click.png</texture-->
+			<!--colordiffuse>0xffff0000</colordiffuse-->
+			<include condition="IsEmpty(Skin.String(CustomPointerSize))">Size64x64</include>
+			<include condition="StringCompare(Skin.String(CustomPointerSize),16)">Size16x16</include>
+			<include condition="StringCompare(Skin.String(CustomPointerSize),24)">Size24x24</include>
+			<include condition="StringCompare(Skin.String(CustomPointerSize),32)">Size32x32</include>
+			<include condition="StringCompare(Skin.String(CustomPointerSize),48)">Size48x48</include>
+			<include condition="StringCompare(Skin.String(CustomPointerSize),64)">Size64x64</include>
+			<include condition="StringCompare(Skin.String(CustomPointerSize),90)">Size90x90</include>
+			<include condition="StringCompare(Skin.String(CustomPointerSize),120)">Size120x120</include>
+			<include condition="StringCompare(Skin.String(CustomPointerSize),128)">Size128x128</include>
+			<include condition="StringCompare(Skin.String(CustomPointerSize),218)">Size218x218</include>
+			<include condition="StringCompare(Skin.String(CustomPointerSize),256)">Size256x256</include>
+		</control>
+	</controls>
+</window>

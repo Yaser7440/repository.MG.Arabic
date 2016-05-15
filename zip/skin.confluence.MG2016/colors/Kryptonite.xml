@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<colors>
+	<color name="whitezero">FFF1F1F1</color>
+	<color name="greyzero">FFb4b4b4</color>
+	<color name="grey2zero">FF999999</color>
+	<color name="grey3zero">FF505050</color>
+	<color name="blackzero">FF000000</color>
+	<color name="bluezero">FF0084ff</color>
+	
+	<color name="white">FFF1F1F1</color>
+	<color name="grey">FFb4b4b4</color>
+	<color name="grey2">FF999999</color>
+	<color name="grey3">FF505050</color>
+	<color name="black">FF000000</color>
+	<color name="blue">FF6DF300</color>
+	<color name="selected">FFEB9E17</color>
+	<color name="invalid">FFFF0000</color>
+	
+	<color name="customcolor1">FFF1F1F1</color><!-- white -->
+	<color name="customcolor2">FFb4b4b4</color><!-- grey -->
+	<color name="customcolor3">FF999999</color><!-- grey2 -->
+	<color name="customcolor4">FF505050</color><!-- grey3 -->
+	<color name="customcolor5">FF000000</color><!-- black -->
+	<color name="customcolor6">FF6DF300</color><!-- blue -->
+	
+	<color name="cchhomebtn1">FF303030</color><!-- HomeScreen Button NoFocus - darkgrey -->
+	<color name="cchhomebtn2">ffdeb887</color><!-- HomeScreen Button Focus - tan -->
+	<color name="cchhomebtni">FF6DF300</color><!-- HomeScreen Button Icon - Kryptonite -->
+	<color name="folderfocus">FF6DF300</color><!-- Folder Container Image - Kryptonite -->
+	
+	<color name="busybg">FF6DF300</color><!-- Busy Dialog Background - Kryptonite -->
+	<color name="busyspin">ffdeb887</color><!-- Busy Dialog Spinner - tan -->
+	<color name="busybar">ffdeb887</color><!-- Busy Dialog Spinner - tan -->
+	<color name="btnfo">FF6DF300</color><!-- Button Focus - tan -->
+	<color name="btnnf">ffb22222</color><!-- Button NoFocus - Kryptonite -->
+	<color name="codec1">ffdeb887</color><!-- Codec Images - tan -->
+	<color name="vidbarcache">ffdeb887</color><!-- Video Progress Bar Cache - tan -->
+	<color name="progbarbg">FF6DF300</color><!-- Progress Bar Background - Kryptonite -->
+	<color name="progbarmid">FF303030</color><!-- Progress Bar Mid - darkgrey -->
+	<color name="volumeicon">ffdeb887</color><!-- Volume Icon - tan -->
+	<color name="sliderexbg">ffdeb887</color><!-- SliderEx Background - tan -->
+	<color name="sliderexnib">FF6DF300</color><!-- SliderEx Nib - Kryptonite -->
+	
+</colors>
