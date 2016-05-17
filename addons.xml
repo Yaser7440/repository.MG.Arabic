@@ -61,6 +61,9 @@
         <datadir zip="true">https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/</datadir>
 			
 	</extension>
+	<requires>
+	<import addon="plugin.video.MG.Wizard" />
+ </requires>
 	<extension point="xbmc.addon.metadata">
 		<summary>http://mg.esy.es/Kodi/</summary>
 		<description>MG Arabic v2.0.5</description>
