@@ -1144,12 +1144,13 @@ Other languages with a great number of subtitles are: Danish, French, Swedish, D
   </extension>
 </addon>
 
-<addon id="script.trakt" name="Trakt" version="3.0.7" provider-name="Trakt.tv, Razzeee">
+<addon id="script.trakt" name="Trakt" version="3.1.7" provider-name="Trakt.tv, Razzeee">
 	<requires>
-		<import addon="xbmc.python" version="2.14.0"/>
-		<import addon="script.module.simplejson" version="3.3.0"/>
-        <import addon="script.module.trakt" version="2.5.1"/>
+        <import addon="xbmc.python" version="2.24.0"/>
+        <import addon="script.module.simplejson" version="3.3.0"/>
+        <import addon="script.module.trakt" version="2.6.1"/>
         <import addon="script.module.dateutil" version="2.4.2"/>
+        <import addon="script.module.addon.signals" version="0.0.1"/>
 	</requires>
 	<extension point="xbmc.python.script" library="script.py">
 		<provides>executable</provides>
@@ -1200,6 +1201,7 @@ Other languages with a great number of subtitles are: Danish, French, Swedish, D
 		<description lang="sv">Skrobbla automatiskt alla TV-serie avsnitt och filmer du tittar på till Trakt.tv! Samla en innehållsrik historik om allt du tittar på och var en del av ett globalt kollektiv av TV och film entusiaster. Skapa ett gratis konto på http://trakt.tv och ta del av massor av funktioner.&#10;&#10;- Skrobbla automatiskt vad du tittar på&#10;- Appar för iPhone, iPad, Android och Windows Phone&#10;- Dela vad du tittar på (i realtid) samt dina betyg på Facebook och Twitter&#10;- Personlig kalender så du aldrig missar en TV serie&#10;- Följ dina vänner och andra intressanta personer&#10;- Använd "att se" listor så du inte glömmer vad du skall se&#10;- Spåra dina media samlingar och imponera på dina vänner&#10;- Skapa listor för olika ämnen som du väljer&#10;- Spåra lätt hur mycket av en TV serie du sett, över alla säsonger och avsnitt&#10;- Jämför hur mycket film du har sett mot flera viktiga listor inom industrin, t.ex. IMDb Top 250&#10;- Upptäck nya TV serier och filmer baserat på din historik&#10;- Widgets för din forum signatur&#10;&#10;Vad kan detta addon göra?&#10;&#10;- Skrobbla automatiskt alla TV-serie avsnitt och filmer du tittar på&#10;- Synkronisera dina samlingar av film och Tv-serier till Trakt (startas efter en uppdatering av ditt bibliotek i Kodi)&#10;- Städa automatiskt din Trakt samling så den stämmer med Kodi.&#10;- Synkronisera sedd/osedd status mellan Kodi och Trakt&#10;- Betygsätt filmer och TV-serier avsnitt efter du har sett dem&#10;&#10;Ett stort tack till alla som bidragit till detta plugin! Se loggen för tillägg och ändringar för att se vilka dessa talangfulla utvecklare är.</description>
 		<language></language>
 		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
 		<forum>http://forum.kodi.tv/showthread.php?tid=220547</forum>
 		<website>http://trakt.tv</website>
 		<email></email>
@@ -1596,11 +1598,11 @@ Addons Included
   </extension>
 </addon>
 
-<addon id="plugin.video.phstreams" name="Phoenix" version="3.0.5" provider-name="Blazetamer">
+<addon id="plugin.video.phstreams" name="Phoenix" version="3.0.7" provider-name="tvaddons.ag">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.pyxbmct" version="1.1.4" />
-		<import addon="script.module.urlresolver" version="2.10.11"/>
+		<import addon="script.module.urlresolver" version="3.0.0"/>
 		<import addon="script.module.liveresolver" version="0.1.24"/>
 		<import addon="plugin.video.youtube" optional="true" />
 	</requires>
@@ -2231,9 +2233,10 @@ Addons Included
 	</extension>
 </addon>
 
-<addon id="plugin.video.exodus" version="1.3.2" name="Exodus" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="1.3.3" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="repository.exodus" version="1.0.0" />
 		<import addon="script.exodus.artwork" version="1.0.1" />
 		<import addon="script.module.urlresolver" version="3.0.0"/>
 		<import addon="script.module.metahandler" version="1.0.0" />
