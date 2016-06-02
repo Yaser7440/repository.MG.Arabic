@@ -1,5 +1,10 @@
 Official Velocity addon For Kodi
 
+V1.0.7
+Added Add to Collection from TV Search
+Small bug fixes
+This is a partial update only
+
 
 
 V1.0.6
