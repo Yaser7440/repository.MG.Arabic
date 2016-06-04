@@ -3,7 +3,7 @@
 
 <item>
 <title>London Has Fallen 2016</title>
-<link>https://drive.google.com/file/d/0B7CZVTGjBi95U1UyZUwwdHo1Vnc/preview?pref=2&pli=1 playpath=nasim-100k.stream swfUrl=http://static.telewebion.com/newtw/ntwv20/js/jwPlayer/jwplayer.flash.swf pageUrl=http://www.telewebion.com live=1</link>
+<link>https://drive.google.com/file/d/0B7CZVTGjBi95U1UyZUwwdHo1Vnc/preview?pref=2&pli=1 playpath=nasim-100k.stream swfUrl=http://static.telewebion.com/newtw/ntwv20/js/jwPlayer/jwplayer.flash.swf</link>
 <thumbnail>http://www.showscen.com/watch/wp-content/uploads/2016/06/london-fallen_post_1200_1778_81_s.jpg</thumbnail>
 <fanart>http://www.showscen.com/watch/wp-content/uploads/2016/06/london-fallen_post_1200_1778_81_s.jpg</fanart>
 <info>• قصـة الفيلم :
