@@ -14,7 +14,9 @@
 
 <item>
 <title>The Do-Over 2016</title>
-<link>http://3rbup.com/plugins/mediaplayer/site/_embed.php?u=658acd0f87e79800&w</link>
+<link>
+<script type="text/javascript" src="http://3rbup.com/themes/gravity_blue/js/jquery-1.11.0.min.js">http://3rbup.com/plugins/mediaplayer/site/_embed.php?u=658acd0f87e79800&w</script>
+</link>
 <thumbnail>http://www.showscen.com/watch/wp-content/uploads/2016/05/the-do-over-posterxcvxcvcxvxcvxcvxcvxcv.jpg</thumbnail>
 <fanart>http://www.showscen.com/watch/wp-content/uploads/2016/05/the-do-over-posterxcvxcvcxvxcvxcvxcvxcv.jpg</fanart>
 <info> قصـة الفيلم :
