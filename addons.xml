@@ -455,7 +455,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.1channel" version="2.5.72" name="1Channel" provider-name="Bstrdsmkr, tuxen, tknorris">
+<addon id="plugin.video.1channel" version="2.5.77" name="1Channel" provider-name="Bstrdsmkr, tuxen, tknorris">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="3.0"/>
@@ -608,7 +608,7 @@
 
 <addon id="plugin.video.icefilms"
        name="Icefilms"
-       version="1.23.0"
+       version="1.24.0"
        provider-name="Eldorado (originator: anarchintosh)">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -819,10 +819,10 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
   </extension>
 </addon>
 
-<addon id="plugin.video.salts" version="2.0.28" name="Stream All The Sources" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.50" name="Stream All The Sources" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.urlresolver" version="2.2.0"/>
+        <import addon="script.module.urlresolver" version="3.0.0"/>
         <import addon="script.module.myconnpy" version="1.1.6" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
@@ -1600,7 +1600,7 @@ Addons Included
   </extension>
 </addon>
 
-<addon id="plugin.video.phstreams" name="Phoenix" version="3.0.9" provider-name="tvaddons.ag">
+<addon id="plugin.video.phstreams" name="Phoenix" version="3.1.0" provider-name="tvaddons.ag">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.pyxbmct" version="1.1.4" />
@@ -2211,11 +2211,11 @@ Addons Included
   </extension>
 </addon>
 
-<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2016.03.12.2" provider-name="mrknow" >
+<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2016.06.01.3" provider-name="mrknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.requests" version="1.0.0" />
-		<import addon="script.module.metahandler" optional="true" />
+		<import addon="script.module.metahandler" />
 		<import addon="plugin.video.youtube" optional="true" />
 
 	</requires>
@@ -2229,13 +2229,13 @@ Addons Included
 		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.
 		</disclaimer>
 		<forum>https://github.com/mrknow/filmkodi/issues</forum>
-		<source>http://mg.esy.es/Kodi/</source>
+		<source>http://filmkodi.com/repository/</source>
 		<website>http://filmkodi.com/en/wtyczka-specto-fork-genesis/</website>
 		<platform>all</platform>
 	</extension>
 </addon>
 
-<addon id="plugin.video.exodus" version="1.3.5" name="Exodus" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="1.3.6" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.exodus.artwork" version="1.0.1" />
@@ -2423,6 +2423,31 @@ http://informaticglobalworld.altervista.org/
         <platform>all</platform>
         <summary>I want my All-You-See!</summary>
         <description>Turns kodi into an instant free on-demand media-center. Browse and play movies and series found all over the internet.</description>
+    </extension>
+</addon>
+
+<addon id="plugin.video.theroyalwe" name="The Royal We" provider-name="DudeHere" version="0.9.17">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0" />
+        <import addon="script.module.simplejson" />
+        <import addon="script.module.beautifulsoup" />
+        <import addon="script.module.addon.common" />
+        <import addon="script.module.dudehere.routines" />
+        <import addon="script.module.metahandler" />
+        <import addon="script.module.myconnpy" />
+        <import addon="script.module.urlresolver" />
+    </requires>
+    <extension library="default.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <language />
+        <summary>The Royal We is about simplicity and sources.</summary>
+        <description>The Royal We is getting better then ever. It&apos;s all about simplicity and lots of sources. No settings. No configuration (except for a Trakt.tv account if you have one).</description>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <forum>http://forums.tvaddons.ag/dudehere-addons/</forum>
+        <website>http://www.tvaddons.ag/</website>
     </extension>
 </addon>
 

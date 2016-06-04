@@ -1,3 +1,8 @@
+[B]v1.24.0 (Saturday, 14 May 2016):[/B]
+  - Fixed ClicknUpload resolver
+  - Fixed UploadX resolver
+  - Fixed TV Show & Movie list script errors
+
 [B]v1.23.0 (Wednesday, 27 January 2016):[/B]
   - Updated Real-Debrid client to use Icefilms own (should have no affects)
   - Rolled back changes to HugeFiles to 1.18.0 version, working again

@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2016.03.12.2" provider-name="mrknow" >
+<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2016.06.01.3" provider-name="mrknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.requests" version="1.0.0" />
-		<import addon="script.module.metahandler" optional="true" />
+		<import addon="script.module.metahandler" />
 		<import addon="plugin.video.youtube" optional="true" />
 
 	</requires>
@@ -17,7 +17,7 @@
 		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.
 		</disclaimer>
 		<forum>https://github.com/mrknow/filmkodi/issues</forum>
-		<source>http://mg.esy.es/Kodi/</source>
+		<source>http://filmkodi.com/repository/</source>
 		<website>http://filmkodi.com/en/wtyczka-specto-fork-genesis/</website>
 		<platform>all</platform>
 	</extension>
