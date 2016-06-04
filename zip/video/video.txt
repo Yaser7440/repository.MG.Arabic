@@ -3,8 +3,16 @@
 
 <item>
 <title>London Has Fallen 2016</title>
-<link>https://www68.uptostream.com/1hkcy6lf307/360/0</link>
-<externallink>https://www68.uptostream.com/1hkfqk9b543/360/0</externallink>
+<link>https://www68.uptostream.com/1hkcy6lf307/360/0=$doregex[token] playpath=hdtest-300k.stream timeout=20</link>
+<link>https://www68.uptostream.com/1hkcy6lf307/360/0=$doregex[token] playpath=hdtest-300k.stream timeout=20</link>
+<link>https://www68.uptostream.com/1hkcy6lf307/360/0=$doregex[token] playpath=hdtest-300k.stream timeout=20</link>
+<link>https://www68.uptostream.com/1hkcy6lf307/360/0=$doregex[token] playpath=hdtest-300k.stream timeout=20</link>
+<regex>
+    <name>token</name>
+	<expres>"link": "([^"]*)</expres>
+    <page>https://www68.uptostream.com/1hkcy6lf307/360/0</page>
+    <referer>https://www68.uptostream.com/1hkcy6lf307/360/0</referer>
+</regex>
 <thumbnail>http://www.showscen.com/watch/wp-content/uploads/2016/06/london-fallen_post_1200_1778_81_s.jpg</thumbnail>
 <fanart>http://www.showscen.com/watch/wp-content/uploads/2016/06/london-fallen_post_1200_1778_81_s.jpg</fanart>
 <info>• قصـة الفيلم :
