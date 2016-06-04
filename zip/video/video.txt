@@ -1,0 +1,327 @@
+﻿<layouttype>thumbnail</layouttype>
+
+
+<item>
+<title>[COLOR deepskyblue]â€¢Nokte:[/COLOR]Mitavan keyfiyate kanalhai ke chand Item darand ra avaz kard.</title> 
+<link>http://ignora.me</link>
+<thumbnail>https://i.imgsafe.org/e1513edeb6.jpg</thumbnail>
+</item>
+
+<item>
+<title>London Has Fallen 2016</title>
+<link>https://drive.google.com/file/d/0B7CZVTGjBi95U1UyZUwwdHo1Vnc/view?pli=1</link>
+<thumbnail>http://www.showscen.com/watch/wp-content/uploads/2016/06/london-fallen_post_1200_1778_81_s.jpg</thumbnail>
+<fanart>http://www.showscen.com/watch/wp-content/uploads/2016/06/london-fallen_post_1200_1778_81_s.jpg</fanart>
+</item>
+
+<item>
+<title>IRIB 2 TV</title>
+<link>http://cdn1.live.irib.ir:1935/e-tv/tv2-300k.stream/playlist.m3u8</link>
+<thumbnail>http://www.telewebion.com/media//images/channel-icons/shabakeha-02.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>IRIB 3 TV</title>
+<link>http://cdn1.live.irib.ir:1935/e-tv3/tv3-300k.stream/playlist.m3u8</link>
+<thumbnail>http://www.telewebion.com/media//images/channel-icons/shabakeha-03.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>IRIB 4 TV</title>
+<link>http://cdn1.live.irib.ir:1935/e-tv/tv4-300k.stream/playlist.m3u8</link>
+<thumbnail>http://www.telewebion.com/media//images/channel-icons/shabakeha-04.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>IRIB 5 TV</title>
+<link>http://cdn1.live.irib.ir:1935/e-tv/tv5-300k.stream/playlist.m3u8</link>
+<thumbnail>http://www.telewebion.com/media//images/channel-icons/shabakeha-05.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>Tehran TV</title>
+<link>rtmp://sl4.telewebion.com/live-secure?wmsAuthSign=$doregex[token] playpath=hdtest-300k.stream swfUrl=http://static.telewebion.com/newtw/ntwv20/js/jwPlayer/jwplayer.flash.swf pageUrl=http://www.telewebion.com live=1 timeout=15</link>
+<link>rtmp://sl4.telewebion.com/live-secure?wmsAuthSign=$doregex[token] playpath=hdtest-500k.stream swfUrl=http://static.telewebion.com/newtw/ntwv20/js/jwPlayer/jwplayer.flash.swf pageUrl=http://www.telewebion.com live=1 timeout=15</link>
+<link>rtmp://sl4.telewebion.com/live-secure?wmsAuthSign=$doregex[token] playpath=hdtest-1000k.stream swfUrl=http://static.telewebion.com/newtw/ntwv20/js/jwPlayer/jwplayer.flash.swf pageUrl=http://www.telewebion.com live=1 timeout=15</link>
+<regex>
+    <name>token</name>
+	<expres>"link": "([^"]*)</expres>
+    <page>www.telewebion.com/fa/live/hd/</page>
+    <referer>www.telewebion.com/fa/live/hd/</referer>
+</regex>
+<thumbnail>http://www.telewebion.com/media//images/channel-icons/shabakeha-11.png</thumbnail>
+</item>
+
+<item>
+<title>IRINN TV</title>
+<link>http://cdn1.live.irib.ir:1935/e-tv/irinn-300k.stream/playlist.m3u8</link>
+<thumbnail>http://www.telewebion.com/media//images/channel-icons/shabakeha-14.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>Nasim TV</title>
+<link>http://cdn1.live.irib.ir:1935/e-tv/nasim-300k.stream/playlist.m3u8</link>
+<link>rtmp://sl4.telewebion.com/live-secure?wmsAuthSign=$doregex[token] playpath=nasim-100k.stream swfUrl=http://static.telewebion.com/newtw/ntwv20/js/jwPlayer/jwplayer.flash.swf pageUrl=http://www.telewebion.com live=1 timeout=15</link>
+<link>rtmp://sl4.telewebion.com/live-secure?wmsAuthSign=$doregex[token] playpath=nasim-500k.stream swfUrl=http://static.telewebion.com/newtw/ntwv20/js/jwPlayer/jwplayer.flash.swf pageUrl=http://www.telewebion.com live=1 timeout=15</link>
+<link>rtmp://sl4.telewebion.com/live-secure?wmsAuthSign=$doregex[token] playpath=nasim-1000k.stream swfUrl=http://static.telewebion.com/newtw/ntwv20/js/jwPlayer/jwplayer.flash.swf pageUrl=http://www.telewebion.com live=1 timeout=15</link>
+<regex>
+    <name>token</name>
+	<expres>"link": "([^"]*)</expres>
+    <page>www.telewebion.com/fa/live/nasim/</page>
+    <referer>www.telewebion.com/fa/live/nasim/</referer>
+</regex>
+<thumbnail>http://www.telewebion.com/media//images/channel-icons/shabakeha-24.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>Salamat TV</title>
+<link>http://cdn1.live.irib.ir:1935/e-tv/salamat-300k.stream/playlist.m3u8</link>
+<thumbnail>http://www.telewebion.com/media//images/channel-icons/shabakeha-20.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>Pouya TV</title>
+<link>http://cdn1.live.irib.ir:1935/e-tv/pouya-300k.stream/playlist.m3u8</link>
+<thumbnail>http://www.telewebion.com/media//images/channel-icons/shabakeha-06.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>Namayesh TV</title>
+<link>http://cdn1.live.irib.ir:1935/e-tv/namayesh-300k.stream/playlist.m3u8</link>
+<thumbnail>http://www.telewebion.com/media//images/channel-icons/shabakeha-18.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>Varzesh TV</title>
+<link>http://cdn1.live.irib.ir:1935/e-varzesh/varzesh-300k.stream/playlist.m3u8</link>
+<link>rtmp://sl4.telewebion.com/live-secure?wmsAuthSign=$doregex[token] playpath=varzesh-500k.stream swfUrl=http://static.telewebion.com/newtw/ntwv20/js/jwPlayer/jwplayer.flash.swf pageUrl=http://www.telewebion.com live=1 timeout=15</link>
+<link>rtmp://sl4.telewebion.com/live-secure?wmsAuthSign=$doregex[token] playpath=varzesh-1000k.stream swfUrl=http://static.telewebion.com/newtw/ntwv20/js/jwPlayer/jwplayer.flash.swf pageUrl=http://www.telewebion.com live=1 timeout=15</link>
+<link>rtmp://sl4.telewebion.com/live-secure?wmsAuthSign=$doregex[token] playpath=varzesh-100k.stream swfUrl=http://static.telewebion.com/newtw/ntwv20/js/jwPlayer/jwplayer.flash.swf pageUrl=http://www.telewebion.com live=1 timeout=15</link>
+<regex>
+    <name>token</name>
+	<expres>"link": "([^"]*)</expres>
+    <page>www.telewebion.com/fa/live/varzesh/</page>
+    <referer>www.telewebion.com/fa/live/varzesh/</referer>
+</regex>
+<thumbnail>http://www.telewebion.com/media//images/channel-icons/shabakeha-19.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>Mostanad TV</title>
+<link>http://cdn1.live.irib.ir:1935/e-tv/mostanad-300k.stream/playlist.m3u8</link>
+<thumbnail>http://www.telewebion.com/media//images/channel-icons/shabakeha-10.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>Amoozesh TV</title>
+<link>http://cdn1.live.irib.ir:1935/e-tv/amouzesh-300k.stream/playlist.m3u8</link>
+<thumbnail>http://www.telewebion.com/media//images/channel-icons/shabakeha-12.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>Ofogh TV</title>
+<link>http://cdn1.live.irib.ir:1935/e-tv/ofogh-300k.stream/playlist.m3u8</link>
+<thumbnail>http://www.telewebion.com/media//images/channel-icons/shabakeha-23.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>Esfahan TV</title>
+<link>http://cdn1.live.irib.ir:1935/e-tv/esfahan-300k.stream/playlist.m3u8</link>
+<thumbnail>http://www.telewebion.com/media//images/channel-icons/shabakeha-40.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>Khoozestan TV</title>
+<link>http://cdn1.live.irib.ir:1935/e-tv/khoozestan-300k.stream/playlist.m3u8</link>
+<thumbnail>http://www.telewebion.com/media//images/channel-icons/shabakeha-25.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>Fars TV</title>
+<link>http://cdn1.live.irib.ir:1935/e-tv/fars-300k.stream/playlist.m3u8</link>
+<thumbnail>http://www.telewebion.com/media//images/channel-icons/shabakeha-41.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>Khalije Fars TV</title>
+<link>http://cdn1.live.irib.ir:1935/e-tv/khalijefars-300k.stream/playlist.m3u8</link>
+<thumbnail>http://www.telewebion.com/media//images/channel-icons/shabakeha-28.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>Aflak TV</title>
+<link>http://cdn1.live.irib.ir:1935/e-tv/aflak-300k.stream/playlist.m3u8</link>
+<thumbnail>http://www.telewebion.com/media//images/channel-icons/shabakeha-37.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>Aftab TV</title>
+<link>http://cdn1.live.irib.ir:1935/e-tv/aftab-300k.stream/playlist.m3u8</link>
+<thumbnail>http://www.telewebion.com/media//images/channel-icons/shabakeha-26.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>Baran TV</title>
+<link>http://cdn1.live.irib.ir:1935/e-tv/baran-300k.stream/playlist.m3u8</link>
+<thumbnail>http://www.telewebion.com/media//images/channel-icons/shabakeha-31.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>Kurdestan TV</title>
+<link>http://cdn1.live.irib.ir:1935/e-tv/kordestan-300k.stream/playlist.m3u8</link>
+<thumbnail>http://www.telewebion.com/media//images/channel-icons/shabakeha-49.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>Sahand TV</title>
+<link>http://cdn1.live.irib.ir:1935/e-tv/sahand-300k.stream/playlist.m3u8</link>
+<thumbnail>http://www.telewebion.com/media//images/channel-icons/shabakeha-54.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>Semnan TV</title>
+<link>http://cdn1.live.irib.ir:1935/e-tv/semnan-300k.stream/playlist.m3u8</link>
+<thumbnail>http://www.telewebion.com/media//images/channel-icons/shabakeha-45.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>Jaame Jam TV</title>
+<link>http://cdn1.live.irib.ir:1935/e-tv/jjtvn1-300k.stream/playlist.m3u8</link>
+<thumbnail>http://www.telewebion.com/media//images/channel-icons/shabakeha-13.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>Ifilm Farsi</title>
+<link>http://cdn1.live.irib.ir:1935/e-tv/ifilmfa-300k.stream/playlist.m3u8</link>
+<thumbnail>http://www.telewebion.com/media//images/channel-icons/shabakeha-07.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>Quran TV</title>
+<link>http://cdn1.live.irib.ir:1935/e-tv/quran-300k.stream/playlist.m3u8</link>
+<thumbnail>http://www.telewebion.com/media//images/channel-icons/shabakeha-17.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>IRIB HD TV</title>
+<link>http://cdn1.live.irib.ir:1935/e-tv/hdtest-300k.stream/playlist.m3u8</link>
+<thumbnail>https://i.imgsafe.org/dc8f750761.jpg</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>Alborz TV</title>
+<link>http://cdn1.live.irib.ir:1935/e-tv/alborz-300k.stream/playlist.m3u8</link>
+<thumbnail>http://www1.live.irib.ir/templates/smartphone/images/sima/alborz-min.png.pagespeed.ce.TkSz-f4GVh.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>Azarbayjan TV</title>
+<link>http://cdn1.live.irib.ir:1935/e-tv/azarbayjan-300k.stream/playlist.m3u8</link>
+<thumbnail>http://www1.live.irib.ir/templates/smartphone/images/sima/azarbayjan-min.png.pagespeed.ce._Ga8i0If4d.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>Bushehr TV</title>
+<link>http://cdn1.live.irib.ir:1935/e-tv/bushehr-300k.stream/playlist.m3u8</link>
+<thumbnail>http://www1.live.irib.ir/templates/smartphone/images/sima/bushehr-min.png.pagespeed.ce.GX6FGZ3hH4.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>Dena TV</title>
+<link>http://cdn1.live.irib.ir:1935/e-tv/dena-300k.stream/playlist.m3u8</link>
+<thumbnail>http://www1.live.irib.ir/templates/smartphone/images/sima/dena-min.png.pagespeed.ce.7TU-ImuFYm.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>Noor TV</title>
+<link>http://cdn1.live.irib.ir:1935/e-tv/noor-300k.stream/playlist.m3u8</link>
+<thumbnail>http://www1.live.irib.ir/templates/smartphone/images/sima/noor-min.png.pagespeed.ce.4EsQJHfXKC.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>Eshragh TV</title>
+<link>http://cdn1.live.irib.ir:1935/e-tv/eshragh-300k.stream/playlist.m3u8</link>
+<thumbnail>http://www1.live.irib.ir/templates/smartphone/images/sima/eshragh-min.png.pagespeed.ce.o-_yg-5dVB.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>Qazvin TV</title>
+<link>http://cdn1.live.irib.ir:1935/e-tv/qazvin-300k.stream/playlist.m3u8</link>
+<thumbnail>http://www1.live.irib.ir/templates/smartphone/images/sima/qazvin-min.png.pagespeed.ce.XTbMAmiNGL.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>Hamedan TV</title>
+<link>http://cdn1.live.irib.ir:1935/e-tv/hamedan-300k.stream/playlist.m3u8</link>
+<thumbnail>http://www1.live.irib.ir/templates/smartphone/images/sima/hamedan-min.png.pagespeed.ce.jKAtohmx63.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>Jahanbin TV</title>
+<link>http://cdn1.live.irib.ir:1935/e-tv/jahanbin-300k.stream/playlist.m3u8</link>
+<thumbnail>http://www1.live.irib.ir/templates/smartphone/images/sima/jahanbin-min.png.pagespeed.ce.3sJqOZ7K7i.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>Kerman TV</title>
+<link>http://cdn1.live.irib.ir:1935/e-tv/kerman-300k.stream/playlist.m3u8</link>
+<thumbnail>http://www1.live.irib.ir/templates/smartphone/images/sima/kerman-min.png.pagespeed.ce.u6iTWpaChH.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>Taaban TV</title>
+<link>http://cdn1.live.irib.ir:1935/e-tv/taban-300k.stream/playlist.m3u8</link>
+<thumbnail>http://www1.live.irib.ir/templates/smartphone/images/sima/taban-min.png.pagespeed.ce.-q1xzdJodU.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>Khorasan jonobi TV</title>
+<link>http://cdn1.live.irib.ir:1935/e-tv/khorasanjonoobi-300k.stream/playlist.m3u8</link>
+<thumbnail>https://i.imgsafe.org/dc7529da4f.png</thumbnail>
+<fanart></fanart>
+</item>
+
+<item>
+<title>Press TV</title>
+<link>http://cdn1.live.irib.ir:1935/e-tv/presstv-300k.stream/playlist.m3u8</link>
+<thumbnail>https://aoav.org.uk/wp-content/uploads/2015/05/Vv5oMybV_400x400.jpeg</thumbnail>
+<fanart></fanart>
+</item>
