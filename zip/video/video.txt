@@ -1,12 +1,11 @@
-
+<layouttype>thumbnail</layouttype>
 
 
 <item>
 <title>London Has Fallen 2016</title>
 <link>https://www68.uptostream.com/1hkcy6lf307/360/0</link>
+<externallink>https://www68.uptostream.com/1hkfqk9b543/360/0</externallink>
 <thumbnail>http://www.showscen.com/watch/wp-content/uploads/2016/06/london-fallen_post_1200_1778_81_s.jpg</thumbnail>
-<image>http://www.showscen.com/watch/wp-content/uploads/2016/06/london-fallen_post_1200_1778_81_s.jpg</image>
-<icon>http://www.showscen.com/watch/wp-content/uploads/2016/06/london-fallen_post_1200_1778_81_s.jpg</icon>
 <fanart>http://www.showscen.com/watch/wp-content/uploads/2016/06/london-fallen_post_1200_1778_81_s.jpg</fanart>
 <info>• قصـة الفيلم :
 تدور أحداث الفيلم في إطار من الحركة والإثارة في العاصمة البريطانية لندن، حيث تُقام جنازة رئيس الوزراء الذي توفى في ظروف غامضة، ويكتشف مايك باننج (جيرارد باتلر) أن هناك مؤامرة لاغتيال جميع قادة بلاد العالم الحاضرين في هذه الجنازة، فيحاول إفشال هذه الخطة بكل السبل .
