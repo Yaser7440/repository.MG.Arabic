@@ -2,18 +2,8 @@
 
 
 <item>
-jwplayer("myElement").setup({
-    "playlist": [{
-        "file": "https://drive.google.com/file/d/0B7CZVTGjBi95U1UyZUwwdHo1Vnc/preview?pref=2&pli=1",
-        "image": "http://www.showscen.com/watch/wp-content/uploads/2016/06/london-fallen_post_1200_1778_81_s.jpg",
-        "title": "London Has Fallen 2016"
-    },{
-        "file": "/assets/bigbuckbunny.mp4",
-        "image": "http://www.showscen.com/watch/wp-content/uploads/2016/06/london-fallen_post_1200_1778_81_s.jpg",
-        "title": "Big Buck Bunny Trailer"
-    }]
-});
-
+<title>London Has Fallen 2016</title>
+<link>https://drive.google.com/file/d/0B7CZVTGjBi95U1UyZUwwdHo1Vnc/view?pli=1</link>
 <fanart>http://www.showscen.com/watch/wp-content/uploads/2016/06/london-fallen_post_1200_1778_81_s.jpg</fanart>
 <info>• قصـة الفيلم :
 تدور أحداث الفيلم في إطار من الحركة والإثارة في العاصمة البريطانية لندن، حيث تُقام جنازة رئيس الوزراء الذي توفى في ظروف غامضة، ويكتشف مايك باننج (جيرارد باتلر) أن هناك مؤامرة لاغتيال جميع قادة بلاد العالم الحاضرين في هذه الجنازة، فيحاول إفشال هذه الخطة بكل السبل .
