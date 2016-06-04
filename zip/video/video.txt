@@ -1,9 +1,3 @@
-.<layouttype>thumbnail</layouttype>
-.<layouttype>image</layouttype>
-.<layouttype>icon</layouttype>
-.<layouttype>fanart</layouttype>
-
-
 
 
 
