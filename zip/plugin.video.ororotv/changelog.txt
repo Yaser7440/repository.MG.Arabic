@@ -1,4 +1,47 @@
 ------------------------
+Ororo TV v3.2.2 (05-Jun-16)
+------------------------
+
+- More fixes
+
+------------------------
+Ororo TV v3.2.1 (02-Jun-16)
+------------------------
+
+- Minor bug fixes
+
+------------------------
+Ororo TV v3.2.0 (31-May-16)
+------------------------
+
+- Connected subtitle preferred language to Ororo subtitles provider
+- Minor bug fixes
+
+------------------------
+Ororo TV v3.1.0 (18-May-16)
+------------------------
+
+- Added OroroTV subtitles support
+
+------------------------
+Ororo TV v3.0.0 (03-May-16)
+------------------------
+
+- Implemented new API
+
+------------------------
+Ororo TV v2.4.1 (25-Mar-16)
+------------------------
+
+- Fixed Genre Lists
+
+------------------------
+Ororo TV v2.2.9 (11-Feb-16)
+------------------------
+
+- Forced HTTPS
+
+------------------------
 Ororo TV v2.2.9 (26-Jan-16)
 ------------------------
 

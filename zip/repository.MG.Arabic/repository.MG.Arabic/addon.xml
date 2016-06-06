@@ -1,12 +1,20 @@
-<addon id="repository.MG.Arabic" name="MG Arabic" version="0.0.1" provider-name="MG Arabic">
-	<extension point="xbmc.addon.repository" name="MG Arabic">
-		<info compressed="false">https://raw.githubusercontent.com/MG-Arabic/MG/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/MG-Arabic/MG/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://github.com/MG-Arabic/MG</datadir>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<addon id="repository.MG.Arabic" name="..[COLOR red] MG Arabic[/COLOR]" version="2.0.8" provider-name="[COLOR red] MG Arabic[/COLOR]">
+	<extension point="xbmc.addon.repository" name="MG Arabic">	
+					
+		<info compressed="false">https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip</datadir>
+		<hashes>true</hashes>
+			
 	</extension>
+	<requires>
+	<import addon="plugin.video.MG.Wizard" />
+ </requires>
 	<extension point="xbmc.addon.metadata">
 		<summary>http://mg.esy.es/Kodi/</summary>
-		<description>MG Arabic v1</description>
+		<description>MG Arabic v2.0.8</description>
 		<platform>all</platform>
 	</extension>
 </addon>
