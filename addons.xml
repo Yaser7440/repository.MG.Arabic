@@ -1406,7 +1406,7 @@ Addons Included
   </extension>
 </addon>
 
-<addon id="plugin.video.livemix" name="Live Mix" version="1.0.3" provider-name="MetalKettle">
+<addon id="plugin.video.livemix" name="Live Mix" version="1.0.5" provider-name="MetalKettle">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.addon.common" version="2.0.0" />
@@ -2085,7 +2085,7 @@ Addons Included
 
 </addon>
 
-<addon id="plugin.video.sportsmix" name="Sports Mix" version="1.0.2" provider-name="MetalKettle">
+<addon id="plugin.video.sportsmix" name="Sports Mix" version="1.0.4" provider-name="MetalKettle">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -2218,5 +2218,23 @@ http://informaticglobalworld.altervista.org/
     </extension>
 </addon>
 
+<addon id="plugin.video.mdm4u" name="M4U" version="1.0.9" provider-name="Mucky Duck">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
+	<import addon="script.module.metahandler" version="2.5.1"/>
+	<import addon="script.module.requests" />
+	<import addon="repository.mdrepo" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Stream content From The m4ufree.info WebSite</summary>
+    <description lang="en">Stream Content From The m4ufree.info WebSite</description>
+	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
 
 </addons>
