@@ -4,17 +4,17 @@
 <channels>
 <channel>
 <name>Movies</name>
-<thumbnail>http://www.showscen.com/wp-content/uploads/2015/08/cropped-10932490_358718531003341_2146272006_a-1-192x192.jpg</thumbnail>
+<thumbnail>http://www.iranproud.net/images/ipLogo.png</thumbnail>
 <externallink>https://raw.githubusercontent.com/xldrx/kodi-persian-contents/master/Movies.m3u</externallink>
-<fanart>https://i.imgsafe.org/dc4b325505.jpg</fanart>
+<fanart>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/image/MG.Arabic.png</fanart>
 <info></info>
 </channel>
 
 <channel>
 <name>TV</name>
-<thumbnail>https://i.imgsafe.org/dbfaa80f6f.jpg</thumbnail>
+<thumbnail>http://www.iranproud.net/images/ipLogo.png</thumbnail>
 <externallink>https://raw.githubusercontent.com/xldrx/kodi-persian-contents/master/Iranian%20Channels.m3u</externallink>
-<fanart>https://i.imgsafe.org/dc4b325505.jpg</fanart>
+<fanart>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/image/MG.Arabic.png</fanart>
 <info></info>
 </channel>
 
