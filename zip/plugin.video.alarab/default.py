@@ -13,16 +13,17 @@ _pluginName = (sys.argv[0])
 
 
 def CATEGORIES():
-	addDir("الافلام العربية","http://tv1.alarab.com/view-1_%D8%A7%D9%81%D9%84%D8%A7%D9%85-%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9_1",1,"http://wadeni.com/images/icons/0alarab-net.jpg")
-	addDir("المسلسلات العربية","http://tv1.alarab.com/view-1_%D9%85%D8%B3%D9%84%D8%B3%D9%84%D8%A7%D8%AA-%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9_8",2,"http://wadeni.com/images/icons/0alarab-net.jpg")
-	addDir("المسلسلات الاجنبية","http://tv1.alarab.com/view-1_%D9%85%D8%B3%D9%84%D8%B3%D9%84%D8%A7%D8%AA-%D8%A7%D8%AC%D9%86%D8%A8%D9%8A%D8%A9_1951",2,"http://wadeni.com/images/icons/0alarab-net.jpg")
-	addDir("المسلسلات التركية","http://tv1.alarab.com/view-1_%D9%85%D8%B3%D9%84%D8%B3%D9%84%D8%A7%D8%AA-%D8%AA%D8%B1%D9%83%D9%8A%D8%A9_299",2,"http://wadeni.com/images/icons/0alarab-net.jpg")
-	addDir("الافلام الاجنبية","http://tv1.alarab.com/view-5553/%D8%A7%D9%81%D9%84%D8%A7%D9%85-%D8%A7%D8%AC%D9%86%D8%A8%D9%8A%D8%A9",1,"http://wadeni.com/images/icons/0alarab-net.jpg")
-	addDir("مسرحيات","http://tv1.alarab.com/view-313/%D9%85%D8%B3%D8%B1%D8%AD%D9%8A%D8%A7%D8%AA",1,"http://wadeni.com/images/icons/0alarab-net.jpg")
-	addDir("برامج تلفزيون","http://tv1.alarab.com/view-311/%D8%A8%D8%B1%D8%A7%D9%85%D8%AC-%D8%AA%D9%84%D9%81%D8%B2%D9%8A%D9%88%D9%86",2,"http://wadeni.com/images/icons/0alarab-net.jpg")
-	addDir("تلفزيون العرب","http://tv1.alarab.com/view-5807/%D8%AA%D9%84%D9%81%D8%B2%D9%8A%D9%88%D9%86-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8",2,"http://wadeni.com/images/icons/0alarab-net.jpg")
-	addDir("فيديو كليب","http://tv1.alarab.com/view-10/%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D9%83%D9%84%D9%8A%D8%A8",1,"http://wadeni.com/images/icons/0alarab-net.jpg")
-	addDir("مسلسلات كرتون","http://tv1.alarab.com/view-4/%D9%85%D8%B3%D9%84%D8%B3%D9%84%D8%A7%D8%AA-%D9%83%D8%B1%D8%AA%D9%88%D9%86",2,"http://wadeni.com/images/icons/0alarab-net.jpg")
+	addDir("مسلسلات رمضان المغربية","http://tv1.alarab.com/ramadan2016/مغربية",2,"http://wadeni.com/images/icons/0alarab-net.jpg")
+	addDir("مسلسلات رمضان السورية","http://tv1.alarab.com/ramadan2016/سورية",2,"http://wadeni.com/images/icons/0alarab-net.jpg")
+	addDir("مسلسلات رمضان المصرية","http://tv1.alarab.com/ramadan2016/مصرية",2,"http://wadeni.com/images/icons/0alarab-net.jpg")
+	addDir("مسلسلات رمضان الخليجية","http://tv1.alarab.com/ramadan2016/خليجية",2,"http://wadeni.com/images/icons/0alarab-net.jpg")
+	addDir("مسلسلات رمضان اللبانينة","http://tv1.alarab.com/ramadan2016/لبانينة",2,"http://wadeni.com/images/icons/0alarab-net.jpg")
+	addDir("مسلسلات رمضان الكويتية","http://tv1.alarab.com/ramadan2016/كويتية",2,"http://wadeni.com/images/icons/0alarab-net.jpg")
+	addDir("مسلسلات رمضان السعودية","http://tv1.alarab.com/ramadan2016/سعودية",2,"http://wadeni.com/images/icons/0alarab-net.jpg")
+	addDir("مسلسلات رمضان الاردنية","http://tv1.alarab.com/ramadan2016/اردنية",2,"http://wadeni.com/images/icons/0alarab-net.jpg")
+	addDir("مسلسلات رمضان البحرينية","http://tv1.alarab.com/ramadan2016/بحرينية",2,"http://wadeni.com/images/icons/0alarab-net.jpg")
+	addDir("مسلسلات رمضان الاماراتية","http://tv1.alarab.com/ramadan2016/اماراتية",2,"http://wadeni.com/images/icons/0alarab-net.jpg")
+	
 
 def getMovie(url):
 	openerx = urllib2.build_opener()
@@ -104,7 +105,7 @@ def PlayMovie(url):
 		sock = opener.open(url)
 		content = sock.read()
 		sock.close()
-		source1 = content.split('http://91.202.169.9/')
+		source1 = content.split('http://alarabplayers.alarab.net')
 		fileright = getFlvAddress(source1[0])
 		print 'Used Url is:', fileright		
 		listItem = xbmcgui.ListItem(path=str(fileright))
@@ -119,6 +120,7 @@ def getFlvAddress(par_sHtmlContent):
 		iHttpStartIndex = sFlvAddress.find('=') 
 
 		sFinalAndCorrectedFlvAddress = sFlvAddress[iHttpStartIndex+1:].replace('flv.', 'flv2.')
+		sFinalAndCorrectedFlvAddress = sFinalAndCorrectedFlvAddress.replace('/flv/','/new/flv/')
 		
 		return sFinalAndCorrectedFlvAddress
 

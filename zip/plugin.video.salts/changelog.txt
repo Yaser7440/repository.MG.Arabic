@@ -1,3 +1,12 @@
+[B]Version 2.0.55[/B]
+- Add CinemaMKV
+- Improve yesmovies
+- Add support for CF Captcha (Enable in settings)
+- Add setting for Next Episode duration
+- Use contextmenu for resume dialog on krypton
+- Remove ninemovies
+- Bug Fixes
+
 [B]Version 2.0.53[/B]
 - Added Next Episode Notification
 - Split General Tab in settings
