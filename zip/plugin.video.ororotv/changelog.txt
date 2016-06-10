@@ -1,4 +1,16 @@
 ------------------------
+Ororo TV v3.2.4 (08-Jun-16)
+------------------------
+
+- Fix episodeList when meta is disabled
+
+------------------------
+Ororo TV v3.2.3 (08-Jun-16)
+------------------------
+
+- Fix favourite display and seasonList
+
+------------------------
 Ororo TV v3.2.2 (05-Jun-16)
 ------------------------
 

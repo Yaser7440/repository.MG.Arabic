@@ -401,7 +401,7 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
     </extension>
 </addon>
 
-<addon id="plugin.video.ororotv" name="Ororo TV" version="3.2.2" provider-name="ororo.tv">
+<addon id="plugin.video.ororotv" name="Ororo TV" version="3.2.4" provider-name="ororo.tv">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="repository.ororotv" version="1.0.0" />
@@ -586,7 +586,7 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
   </extension>
 </addon>
 
-<addon id="plugin.video.salts" version="2.0.52" name="Stream All The Sources" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.53" name="Stream All The Sources" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
@@ -2120,7 +2120,7 @@ http://informaticglobalworld.altervista.org/
 
 <addon id="plugin.video.pftvso"
 	name="ProjectFreeTV.so"
-	version="0.3.6"
+	version="0.3.7"
 	provider-name="natko1412">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -2233,6 +2233,25 @@ http://informaticglobalworld.altervista.org/
     <summary lang="en">Stream content From The m4ufree.info WebSite</summary>
     <description lang="en">Stream Content From The m4ufree.info WebSite</description>
 	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.mdpubfilm" name="PubFilm" version="1.0.5" provider-name="Mucky Duck">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
+	<import addon="script.module.metahandler" version="2.5.1"/>
+	<import addon="script.module.requests" />
+	<import addon="repository.mdrepo" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Stream Movies And TV-Shows From pubfilm.com</summary>
+    <description lang="en">Stream Movies And TV-Shows From pubfilm.com</description>
+	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners.</disclaimer>
     <platform>all</platform>
   </extension>
 </addon>
