@@ -1,0 +1,695 @@
+#EXTM3U
+#EXTINF:-1,Teledunet Tv
+http://www.teledunet.com/mobile/http_player/?channel=teledunet_tv
+#EXTINF:-1,Tunisie Tv 1
+http://www.teledunet.com/mobile/http_player/?channel=tunisie_tv_1
+#EXTINF:-1,Tunisia national 1
+http://www.teledunet.com/mobile/http_player/?channel=tunisia_national_1
+#EXTINF:-1,Tunisia national 2
+http://www.teledunet.com/mobile/http_player/?channel=tunisia_national_2
+#EXTINF:-1,Nessma
+http://www.teledunet.com/mobile/http_player/?channel=nessma
+#EXTINF:-1,Al Tunisia
+http://www.teledunet.com/mobile/http_player/?channel=al_tunisia
+#EXTINF:-1,Hanibal
+http://www.teledunet.com/mobile/http_player/?channel=hanibal
+#EXTINF:-1,Attassia Tv
+http://www.teledunet.com/mobile/http_player/?channel=attassia_tv
+#EXTINF:-1,Al Moustakilla
+http://www.teledunet.com/mobile/http_player/?channel=al_moustakilla
+#EXTINF:-1,Al janoubiya
+http://www.teledunet.com/mobile/http_player/?channel=al_janoubiya
+#EXTINF:-1,Tounesna
+http://www.teledunet.com/mobile/http_player/?channel=tounesna
+#EXTINF:-1,Zaytoona
+http://www.teledunet.com/mobile/http_player/?channel=zaytoona
+#EXTINF:-1,Tunisia First TV
+http://www.teledunet.com/mobile/http_player/?channel=tunisia_first_tv
+#EXTINF:-1,Zitouna Hidaya
+http://www.teledunet.com/mobile/http_player/?channel=zitouna_hidaya
+#EXTINF:-1,M Tunisia
+http://www.teledunet.com/mobile/http_player/?channel=m_tunisia
+#EXTINF:-1,Al Aoula Maroc
+http://www.teledunet.com/mobile/http_player/?channel=al_aoula_maroc
+#EXTINF:-1,2M
+http://www.teledunet.com/mobile/http_player/?channel=2m
+#EXTINF:-1,Alriadia Sport
+http://www.teledunet.com/mobile/http_player/?channel=alriadia_sport
+#EXTINF:-1,Medi 1 Sat
+http://www.teledunet.com/mobile/http_player/?channel=medi_1_sat
+#EXTINF:-1,Al Maghribia
+http://www.teledunet.com/mobile/http_player/?channel=al_maghribia
+#EXTINF:-1,Arrabia
+http://www.teledunet.com/mobile/http_player/?channel=arrabia
+#EXTINF:-1,Assadissa
+http://www.teledunet.com/mobile/http_player/?channel=assadissa
+#EXTINF:-1,Tamazight
+http://www.teledunet.com/mobile/http_player/?channel=tamazight
+#EXTINF:-1,AlGeria
+http://www.teledunet.com/mobile/http_player/?channel=algeria
+#EXTINF:-1,Tamazight Algeria
+http://www.teledunet.com/mobile/http_player/?channel=tamazight_algeria
+#EXTINF:-1,Coran
+http://www.teledunet.com/mobile/http_player/?channel=coran
+#EXTINF:-1,Algeria 3
+http://www.teledunet.com/mobile/http_player/?channel=algeria_3
+#EXTINF:-1,Echorouk Tv
+http://www.teledunet.com/mobile/http_player/?channel=echorouk_tv
+#EXTINF:-1,Echorouk News
+http://www.teledunet.com/mobile/http_player/?channel=echorouk_news
+#EXTINF:-1,Echorouk Benna Tv
+http://www.teledunet.com/mobile/http_player/?channel=echorouk_benna_tv
+#EXTINF:-1,Ennahar Tv
+http://www.teledunet.com/mobile/http_player/?channel=ennahar_tv
+#EXTINF:-1,Samira Tv
+http://www.teledunet.com/mobile/http_player/?channel=samira_tv
+#EXTINF:-1,EL DJAZAIRIA
+http://www.teledunet.com/mobile/http_player/?channel=el_djazairia
+#EXTINF:-1,Dzair Tv
+http://www.teledunet.com/mobile/http_player/?channel=dzair_tv
+#EXTINF:-1,Dzair News
+http://www.teledunet.com/mobile/http_player/?channel=dzair_news
+#EXTINF:-1,El Heddaf TV
+http://www.teledunet.com/mobile/http_player/?channel=el_heddaf_tv
+#EXTINF:-1,KBC Algeria
+http://www.teledunet.com/mobile/http_player/?channel=kbc_algeria
+#EXTINF:-1,Aljazeera
+http://www.teledunet.com/mobile/http_player/?channel=aljazeera
+#EXTINF:-1,Aljazeera Doc
+http://www.teledunet.com/mobile/http_player/?channel=aljazeera_doc
+#EXTINF:-1,Aljazeera Misr
+http://www.teledunet.com/mobile/http_player/?channel=aljazeera_misr
+#EXTINF:-1,Alarabiya
+http://www.teledunet.com/mobile/http_player/?channel=alarabiya
+#EXTINF:-1,Al Arabia Hadath
+http://www.teledunet.com/mobile/http_player/?channel=al_arabia_hadath
+#EXTINF:-1,France24 Arabic
+http://www.teledunet.com/mobile/http_player/?channel=france24_arabic
+#EXTINF:-1,Al mayaden
+http://www.teledunet.com/mobile/http_player/?channel=al_mayaden
+#EXTINF:-1,BBC arabic
+http://www.teledunet.com/mobile/http_player/?channel=bbc_arabic
+#EXTINF:-1,Russia Alyaum
+http://www.teledunet.com/mobile/http_player/?channel=russia_alyaum
+#EXTINF:-1,Aljazeera Children
+http://www.teledunet.com/mobile/http_player/?channel=aljazeera_children
+#EXTINF:-1,Mody Kids
+http://www.teledunet.com/mobile/http_player/?channel=mody_kids
+#EXTINF:-1,Baraem
+http://www.teledunet.com/mobile/http_player/?channel=baraem
+#EXTINF:-1,Toyor Baby
+http://www.teledunet.com/mobile/http_player/?channel=toyor_baby
+#EXTINF:-1,Toyor Al Janah
+http://www.teledunet.com/mobile/http_player/?channel=toyor_al_janah
+#EXTINF:-1,Spacetoon
+http://www.teledunet.com/mobile/http_player/?channel=spacetoon
+#EXTINF:-1,Taha Tv
+http://www.teledunet.com/mobile/http_player/?channel=taha_tv
+#EXTINF:-1,Karameesh
+http://www.teledunet.com/mobile/http_player/?channel=karameesh
+#EXTINF:-1,Cartoon Network
+http://www.teledunet.com/mobile/http_player/?channel=cartoon_network
+#EXTINF:-1,Ajyal
+http://www.teledunet.com/mobile/http_player/?channel=ajyal
+#EXTINF:-1,Noon Tv
+http://www.teledunet.com/mobile/http_player/?channel=noon_tv
+#EXTINF:-1,MBC 1
+http://www.teledunet.com/mobile/http_player/?channel=mbc_1
+#EXTINF:-1,MBC 2
+http://www.teledunet.com/mobile/http_player/?channel=mbc_2
+#EXTINF:-1,MBC 3
+http://www.teledunet.com/mobile/http_player/?channel=mbc_3
+#EXTINF:-1,MBC 4
+http://www.teledunet.com/mobile/http_player/?channel=mbc_4
+#EXTINF:-1,MBC Action
+http://www.teledunet.com/mobile/http_player/?channel=mbc_action
+#EXTINF:-1,MBC Bollywood
+http://www.teledunet.com/mobile/http_player/?channel=mbc_bollywood
+#EXTINF:-1,MBC Drama
+http://www.teledunet.com/mobile/http_player/?channel=mbc_drama
+#EXTINF:-1,MBC Masr
+http://www.teledunet.com/mobile/http_player/?channel=mbc_masr
+#EXTINF:-1,MBC Masr 2
+http://www.teledunet.com/mobile/http_player/?channel=mbc_masr_2
+#EXTINF:-1,MBC Max
+http://www.teledunet.com/mobile/http_player/?channel=mbc_max
+#EXTINF:-1,Wanasah
+http://www.teledunet.com/mobile/http_player/?channel=wanasah
+#EXTINF:-1,Zee Aflam
+http://www.teledunet.com/mobile/http_player/?channel=zee_aflam
+#EXTINF:-1,Zee Alwan
+http://www.teledunet.com/mobile/http_player/?channel=zee_alwan
+#EXTINF:-1,B4U Aflam
+http://www.teledunet.com/mobile/http_player/?channel=b4u_aflam
+#EXTINF:-1,Rotana cinema
+http://www.teledunet.com/mobile/http_player/?channel=rotana_cinema
+#EXTINF:-1,Rotana Classic
+http://www.teledunet.com/mobile/http_player/?channel=rotana_classic
+#EXTINF:-1,Rotana Aflam
+http://www.teledunet.com/mobile/http_player/?channel=rotana_aflam
+#EXTINF:-1,Rotana Masriya
+http://www.teledunet.com/mobile/http_player/?channel=rotana_masriya
+#EXTINF:-1,Rotana Music
+http://www.teledunet.com/mobile/http_player/?channel=rotana_music
+#EXTINF:-1,Rotana Clip
+http://www.teledunet.com/mobile/http_player/?channel=rotana_clip
+#EXTINF:-1,Rotana Khaligi
+http://www.teledunet.com/mobile/http_player/?channel=rotana_khaligi
+#EXTINF:-1,Art Aflam 1
+http://www.teledunet.com/mobile/http_player/?channel=art_aflam_1
+#EXTINF:-1,Art Aflam 2
+http://www.teledunet.com/mobile/http_player/?channel=art_aflam_2
+#EXTINF:-1,Art Cinema
+http://www.teledunet.com/mobile/http_player/?channel=art_cinema
+#EXTINF:-1,Art Hekayat
+http://www.teledunet.com/mobile/http_player/?channel=art_hekayat
+#EXTINF:-1,Art Hekayat 2
+http://www.teledunet.com/mobile/http_player/?channel=art_hekayat_2
+#EXTINF:-1,Lebanon Tv
+http://www.teledunet.com/mobile/http_player/?channel=lebanon_tv
+#EXTINF:-1,Future
+http://www.teledunet.com/mobile/http_player/?channel=future
+#EXTINF:-1,Aljadeed
+http://www.teledunet.com/mobile/http_player/?channel=aljadeed
+#EXTINF:-1,LBC
+http://www.teledunet.com/mobile/http_player/?channel=lbc
+#EXTINF:-1,MTV
+http://www.teledunet.com/mobile/http_player/?channel=mtv
+#EXTINF:-1,NBN
+http://www.teledunet.com/mobile/http_player/?channel=nbn
+#EXTINF:-1,Al Manar
+http://www.teledunet.com/mobile/http_player/?channel=al_manar
+#EXTINF:-1,LDC
+http://www.teledunet.com/mobile/http_player/?channel=ldc
+#EXTINF:-1,Majestic cinema
+http://www.teledunet.com/mobile/http_player/?channel=majestic_cinema
+#EXTINF:-1,Darbaka Aflam
+http://www.teledunet.com/mobile/http_player/?channel=darbaka_aflam
+#EXTINF:-1,Arabica Tv
+http://www.teledunet.com/mobile/http_player/?channel=arabica_tv
+#EXTINF:-1,OTV Lebanon
+http://www.teledunet.com/mobile/http_player/?channel=otv_lebanon
+#EXTINF:-1,Al Sirat Tv
+http://www.teledunet.com/mobile/http_player/?channel=al_sirat_tv
+#EXTINF:-1,Aliman Tv
+http://www.teledunet.com/mobile/http_player/?channel=aliman_tv
+#EXTINF:-1,Noursat Alchabab
+http://www.teledunet.com/mobile/http_player/?channel=noursat_alchabab
+#EXTINF:-1,LLBN
+http://www.teledunet.com/mobile/http_player/?channel=llbn
+#EXTINF:-1,Al Bait Baitak Cinema
+http://www.teledunet.com/mobile/http_player/?channel=al_bait_baitak_cinema
+#EXTINF:-1,BeIN SPORTS 1 HD FR
+http://www.teledunet.com/mobile/http_player/?channel=bein_sports_1_hd_fr
+#EXTINF:-1,BeIN SPORTS 2 HD FR
+http://www.teledunet.com/mobile/http_player/?channel=bein_sports_2_hd_fr
+#EXTINF:-1,Bein 1
+http://www.teledunet.com/mobile/http_player/?channel=bein_1
+#EXTINF:-1,Bein 2
+http://www.teledunet.com/mobile/http_player/?channel=bein_2
+#EXTINF:-1,Bein 3
+http://www.teledunet.com/mobile/http_player/?channel=bein_3
+#EXTINF:-1,Bein 4
+http://www.teledunet.com/mobile/http_player/?channel=bein_4
+#EXTINF:-1,Bein 5
+http://www.teledunet.com/mobile/http_player/?channel=bein_5
+#EXTINF:-1,Bein Sport 1
+http://www.teledunet.com/mobile/http_player/?channel=bein_sport_1
+#EXTINF:-1,Bein Sport 2
+http://www.teledunet.com/mobile/http_player/?channel=bein_sport_2
+#EXTINF:-1,Bein Sport 3
+http://www.teledunet.com/mobile/http_player/?channel=bein_sport_3
+#EXTINF:-1,Bein Sport 4
+http://www.teledunet.com/mobile/http_player/?channel=bein_sport_4
+#EXTINF:-1,Bein Sport 5
+http://www.teledunet.com/mobile/http_player/?channel=bein_sport_5
+#EXTINF:-1,Bein Sport 6
+http://www.teledunet.com/mobile/http_player/?channel=bein_sport_6
+#EXTINF:-1,Bein Sport 7
+http://www.teledunet.com/mobile/http_player/?channel=bein_sport_7
+#EXTINF:-1,Bein Sport 8
+http://www.teledunet.com/mobile/http_player/?channel=bein_sport_8
+#EXTINF:-1,Bein Sport 9
+http://www.teledunet.com/mobile/http_player/?channel=bein_sport_9
+#EXTINF:-1,Bein Sport 10
+http://www.teledunet.com/mobile/http_player/?channel=bein_sport_10
+#EXTINF:-1,Dream 1
+http://www.teledunet.com/mobile/http_player/?channel=dream_1
+#EXTINF:-1,4Shabab
+http://www.teledunet.com/mobile/http_player/?channel=4shabab
+#EXTINF:-1,Al Rahma
+http://www.teledunet.com/mobile/http_player/?channel=al_rahma
+#EXTINF:-1,Cima Ali Baba
+http://www.teledunet.com/mobile/http_player/?channel=cima_ali_baba
+#EXTINF:-1,El Moled
+http://www.teledunet.com/mobile/http_player/?channel=el_moled
+#EXTINF:-1,Moga Comedy
+http://www.teledunet.com/mobile/http_player/?channel=moga_comedy
+#EXTINF:-1,On TV
+http://www.teledunet.com/mobile/http_player/?channel=on_tv
+#EXTINF:-1,Ten
+http://www.teledunet.com/mobile/http_player/?channel=ten
+#EXTINF:-1,CBC
+http://www.teledunet.com/mobile/http_player/?channel=cbc
+#EXTINF:-1,CBC 2
+http://www.teledunet.com/mobile/http_player/?channel=cbc_2
+#EXTINF:-1,CBC Drama
+http://www.teledunet.com/mobile/http_player/?channel=cbc_drama
+#EXTINF:-1,CBC Sofra
+http://www.teledunet.com/mobile/http_player/?channel=cbc_sofra
+#EXTINF:-1,Al Mehwar
+http://www.teledunet.com/mobile/http_player/?channel=al_mehwar
+#EXTINF:-1,Al oula
+http://www.teledunet.com/mobile/http_player/?channel=al_oula
+#EXTINF:-1,Al Thaniya
+http://www.teledunet.com/mobile/http_player/?channel=al_thaniya
+#EXTINF:-1,Melody Classic
+http://www.teledunet.com/mobile/http_player/?channel=melody_classic
+#EXTINF:-1,Melody Aflam HD
+http://www.teledunet.com/mobile/http_player/?channel=melody_aflam_hd
+#EXTINF:-1,Melody Drama HD
+http://www.teledunet.com/mobile/http_player/?channel=melody_drama_hd
+#EXTINF:-1,Melody Hits HD
+http://www.teledunet.com/mobile/http_player/?channel=melody_hits_hd
+#EXTINF:-1,Melody Music hd
+http://www.teledunet.com/mobile/http_player/?channel=melody_music_hd
+#EXTINF:-1,Al nahar
+http://www.teledunet.com/mobile/http_player/?channel=al_nahar
+#EXTINF:-1,Al nahar 2
+http://www.teledunet.com/mobile/http_player/?channel=al_nahar_2
+#EXTINF:-1,Al Nahar Drama
+http://www.teledunet.com/mobile/http_player/?channel=al_nahar_drama
+#EXTINF:-1,Al Nahar Cinema
+http://www.teledunet.com/mobile/http_player/?channel=al_nahar_cinema
+#EXTINF:-1,Al nahar noor
+http://www.teledunet.com/mobile/http_player/?channel=al_nahar_noor
+#EXTINF:-1,Sada Al Balad
+http://www.teledunet.com/mobile/http_player/?channel=sada_al_balad
+#EXTINF:-1,Al Ahly Tv
+http://www.teledunet.com/mobile/http_player/?channel=al_ahly_tv
+#EXTINF:-1,Nile Comedy
+http://www.teledunet.com/mobile/http_player/?channel=nile_comedy
+#EXTINF:-1,Nile Sport
+http://www.teledunet.com/mobile/http_player/?channel=nile_sport
+#EXTINF:-1,Nile Drama
+http://www.teledunet.com/mobile/http_player/?channel=nile_drama
+#EXTINF:-1,Nile News
+http://www.teledunet.com/mobile/http_player/?channel=nile_news
+#EXTINF:-1,Nile Cinema
+http://www.teledunet.com/mobile/http_player/?channel=nile_cinema
+#EXTINF:-1,Cima
+http://www.teledunet.com/mobile/http_player/?channel=cima
+#EXTINF:-1,Toktok Aflam
+http://www.teledunet.com/mobile/http_player/?channel=toktok_aflam
+#EXTINF:-1,Al Masriyah
+http://www.teledunet.com/mobile/http_player/?channel=al_masriyah
+#EXTINF:-1,Al Kahera Wal Nas
+http://www.teledunet.com/mobile/http_player/?channel=al_kahera_wal_nas
+#EXTINF:-1,Cairo Cinema
+http://www.teledunet.com/mobile/http_player/?channel=cairo_cinema
+#EXTINF:-1,Cairo Drama
+http://www.teledunet.com/mobile/http_player/?channel=cairo_drama
+#EXTINF:-1,Mazzika
+http://www.teledunet.com/mobile/http_player/?channel=mazzika
+#EXTINF:-1,ALHayat Musalsalat
+http://www.teledunet.com/mobile/http_player/?channel=alhayat_musalsalat
+#EXTINF:-1,ALHayat
+http://www.teledunet.com/mobile/http_player/?channel=alhayat
+#EXTINF:-1,Alhayat 2
+http://www.teledunet.com/mobile/http_player/?channel=alhayat_2
+#EXTINF:-1,Panorama Comedy
+http://www.teledunet.com/mobile/http_player/?channel=panorama_comedy
+#EXTINF:-1,Panorama Food
+http://www.teledunet.com/mobile/http_player/?channel=panorama_food
+#EXTINF:-1,Panorama Drama
+http://www.teledunet.com/mobile/http_player/?channel=panorama_drama
+#EXTINF:-1,Panorama Drama 2
+http://www.teledunet.com/mobile/http_player/?channel=panorama_drama_2
+#EXTINF:-1,Nile Tv
+http://www.teledunet.com/mobile/http_player/?channel=nile_tv
+#EXTINF:-1,Syria
+http://www.teledunet.com/mobile/http_player/?channel=syria
+#EXTINF:-1,Syria Drama
+http://www.teledunet.com/mobile/http_player/?channel=syria_drama
+#EXTINF:-1,Sama Tv
+http://www.teledunet.com/mobile/http_player/?channel=sama_tv
+#EXTINF:-1,Nour Sham
+http://www.teledunet.com/mobile/http_player/?channel=nour_sham
+#EXTINF:-1,FM Tv
+http://www.teledunet.com/mobile/http_player/?channel=fm_tv
+#EXTINF:-1,ANN
+http://www.teledunet.com/mobile/http_player/?channel=ann
+#EXTINF:-1,Al Ekhbariya Al Soriya
+http://www.teledunet.com/mobile/http_player/?channel=al_ekhbariya_al_soriya
+#EXTINF:-1,Abu Dhabi
+http://www.teledunet.com/mobile/http_player/?channel=abu_dhabi
+#EXTINF:-1,Abu Dhabi Drama
+http://www.teledunet.com/mobile/http_player/?channel=abu_dhabi_drama
+#EXTINF:-1,Abu Dhabi Emarat
+http://www.teledunet.com/mobile/http_player/?channel=abu_dhabi_emarat
+#EXTINF:-1,Abu Dhabi Sports 1
+http://www.teledunet.com/mobile/http_player/?channel=abu_dhabi_sports_1
+#EXTINF:-1,Abu Dhabi Sports 2
+http://www.teledunet.com/mobile/http_player/?channel=abu_dhabi_sports_2
+#EXTINF:-1,Dubai Sport 1
+http://www.teledunet.com/mobile/http_player/?channel=dubai_sport_1
+#EXTINF:-1,Nat Geo Ad
+http://www.teledunet.com/mobile/http_player/?channel=nat_geo_ad
+#EXTINF:-1,Dubai
+http://www.teledunet.com/mobile/http_player/?channel=dubai
+#EXTINF:-1,Sama Dubai
+http://www.teledunet.com/mobile/http_player/?channel=sama_dubai
+#EXTINF:-1,Dubai One
+http://www.teledunet.com/mobile/http_player/?channel=dubai_one
+#EXTINF:-1,Noor Dubai
+http://www.teledunet.com/mobile/http_player/?channel=noor_dubai
+#EXTINF:-1,Music plus
+http://www.teledunet.com/mobile/http_player/?channel=music_plus
+#EXTINF:-1,Sharqia News
+http://www.teledunet.com/mobile/http_player/?channel=sharqia_news
+#EXTINF:-1,Hona Baghdad
+http://www.teledunet.com/mobile/http_player/?channel=hona_baghdad
+#EXTINF:-1,Al Iraqiya
+http://www.teledunet.com/mobile/http_player/?channel=al_iraqiya
+#EXTINF:-1,Al Forat
+http://www.teledunet.com/mobile/http_player/?channel=al_forat
+#EXTINF:-1,Alanwar
+http://www.teledunet.com/mobile/http_player/?channel=alanwar
+#EXTINF:-1,Iraqia sport
+http://www.teledunet.com/mobile/http_player/?channel=iraqia_sport
+#EXTINF:-1,Al Mawsleya
+http://www.teledunet.com/mobile/http_player/?channel=al_mawsleya
+#EXTINF:-1,Dijlah Tv
+http://www.teledunet.com/mobile/http_player/?channel=dijlah_tv
+#EXTINF:-1,Al Anbar
+http://www.teledunet.com/mobile/http_player/?channel=al_anbar
+#EXTINF:-1,Karbala Tv
+http://www.teledunet.com/mobile/http_player/?channel=karbala_tv
+#EXTINF:-1,Al Sharqiya
+http://www.teledunet.com/mobile/http_player/?channel=al_sharqiya
+#EXTINF:-1,Al hurra Iraq
+http://www.teledunet.com/mobile/http_player/?channel=al_hurra_iraq
+#EXTINF:-1,Al Rafidain
+http://www.teledunet.com/mobile/http_player/?channel=al_rafidain
+#EXTINF:-1,Al Sumaria
+http://www.teledunet.com/mobile/http_player/?channel=al_sumaria
+#EXTINF:-1,Baghdad
+http://www.teledunet.com/mobile/http_player/?channel=baghdad
+#EXTINF:-1,Aghanina
+http://www.teledunet.com/mobile/http_player/?channel=aghanina
+#EXTINF:-1,Al Diyar
+http://www.teledunet.com/mobile/http_player/?channel=al_diyar
+#EXTINF:-1,Ishtar
+http://www.teledunet.com/mobile/http_player/?channel=ishtar
+#EXTINF:-1,Al rasheed
+http://www.teledunet.com/mobile/http_player/?channel=al_rasheed
+#EXTINF:-1,Al Haneen Music
+http://www.teledunet.com/mobile/http_player/?channel=al_haneen_music
+#EXTINF:-1,Qatar
+http://www.teledunet.com/mobile/http_player/?channel=qatar
+#EXTINF:-1,Palestine
+http://www.teledunet.com/mobile/http_player/?channel=palestine
+#EXTINF:-1,Alqudis
+http://www.teledunet.com/mobile/http_player/?channel=alqudis
+#EXTINF:-1,KSA 1
+http://www.teledunet.com/mobile/http_player/?channel=ksa_1
+#EXTINF:-1,KSA 2
+http://www.teledunet.com/mobile/http_player/?channel=ksa_2
+#EXTINF:-1,Al Quran Al Karim
+http://www.teledunet.com/mobile/http_player/?channel=al_quran_al_karim
+#EXTINF:-1,Al Resalah
+http://www.teledunet.com/mobile/http_player/?channel=al_resalah
+#EXTINF:-1,Alkass Tv
+http://www.teledunet.com/mobile/http_player/?channel=alkass_tv
+#EXTINF:-1,Iqra
+http://www.teledunet.com/mobile/http_player/?channel=iqra
+#EXTINF:-1,Al Ekhbaria
+http://www.teledunet.com/mobile/http_player/?channel=al_ekhbaria
+#EXTINF:-1,Al Majd
+http://www.teledunet.com/mobile/http_player/?channel=al_majd
+#EXTINF:-1,Libya Tv
+http://www.teledunet.com/mobile/http_player/?channel=libya_tv
+#EXTINF:-1,Kuwait
+http://www.teledunet.com/mobile/http_player/?channel=kuwait
+#EXTINF:-1,Funoon
+http://www.teledunet.com/mobile/http_player/?channel=funoon
+#EXTINF:-1,Roya
+http://www.teledunet.com/mobile/http_player/?channel=roya
+#EXTINF:-1,Jordan
+http://www.teledunet.com/mobile/http_player/?channel=jordan
+#EXTINF:-1,Yemen
+http://www.teledunet.com/mobile/http_player/?channel=yemen
+#EXTINF:-1,Aden
+http://www.teledunet.com/mobile/http_player/?channel=aden
+#EXTINF:-1,Al Saeedah
+http://www.teledunet.com/mobile/http_player/?channel=al_saeedah
+#EXTINF:-1,Yemen Shabab
+http://www.teledunet.com/mobile/http_player/?channel=yemen_shabab
+#EXTINF:-1,Oman
+http://www.teledunet.com/mobile/http_player/?channel=oman
+#EXTINF:-1,Bahrain
+http://www.teledunet.com/mobile/http_player/?channel=bahrain
+#EXTINF:-1,Mauritanie
+http://www.teledunet.com/mobile/http_player/?channel=mauritanie
+#EXTINF:-1,Oromia Tv
+http://www.teledunet.com/mobile/http_player/?channel=oromia_tv
+#EXTINF:-1,Djibouti
+http://www.teledunet.com/mobile/http_player/?channel=djibouti
+#EXTINF:-1,Sudan Tv
+http://www.teledunet.com/mobile/http_player/?channel=sudan_tv
+#EXTINF:-1,Southern Sudan
+http://www.teledunet.com/mobile/http_player/?channel=southern_sudan
+#EXTINF:-1,Ashrooq Tv Sudan
+http://www.teledunet.com/mobile/http_player/?channel=ashrooq_tv_sudan
+#EXTINF:-1,Neelain Sport
+http://www.teledunet.com/mobile/http_player/?channel=neelain_sport
+#EXTINF:-1,Tchad
+http://www.teledunet.com/mobile/http_player/?channel=tchad
+#EXTINF:-1,Eriteria Tv
+http://www.teledunet.com/mobile/http_player/?channel=eriteria_tv
+#EXTINF:-1,ESTV
+http://www.teledunet.com/mobile/http_player/?channel=estv
+#EXTINF:-1,SNTV
+http://www.teledunet.com/mobile/http_player/?channel=sntv
+#EXTINF:-1,Kalsan Tv
+http://www.teledunet.com/mobile/http_player/?channel=kalsan_tv
+#EXTINF:-1,Somali Land
+http://www.teledunet.com/mobile/http_player/?channel=somali_land
+#EXTINF:-1,Horn Cable Tv
+http://www.teledunet.com/mobile/http_player/?channel=horn_cable_tv
+#EXTINF:-1,Somali cable Tv
+http://www.teledunet.com/mobile/http_player/?channel=somali_cable_tv
+#EXTINF:-1,Universal Somali Tv
+http://www.teledunet.com/mobile/http_player/?channel=universal_somali_tv
+#EXTINF:-1,Canal plus
+http://www.teledunet.com/mobile/http_player/?channel=canal_plus
+#EXTINF:-1,Canal plus Family
+http://www.teledunet.com/mobile/http_player/?channel=canal_plus_family
+#EXTINF:-1,Canal plus cinema
+http://www.teledunet.com/mobile/http_player/?channel=canal_plus_cinema
+#EXTINF:-1,Canal plus series
+http://www.teledunet.com/mobile/http_player/?channel=canal_plus_series
+#EXTINF:-1,Canal plus sport
+http://www.teledunet.com/mobile/http_player/?channel=canal_plus_sport
+#EXTINF:-1,TF1
+http://www.teledunet.com/mobile/http_player/?channel=tf1
+#EXTINF:-1,France 2
+http://www.teledunet.com/mobile/http_player/?channel=france_2
+#EXTINF:-1,France 3
+http://www.teledunet.com/mobile/http_player/?channel=france_3
+#EXTINF:-1,France 4
+http://www.teledunet.com/mobile/http_player/?channel=france_4
+#EXTINF:-1,France 5
+http://www.teledunet.com/mobile/http_player/?channel=france_5
+#EXTINF:-1,France O
+http://www.teledunet.com/mobile/http_player/?channel=france_o
+#EXTINF:-1,M6
+http://www.teledunet.com/mobile/http_player/?channel=m6
+#EXTINF:-1,Direct 8
+http://www.teledunet.com/mobile/http_player/?channel=direct_8
+#EXTINF:-1,Foot 24
+http://www.teledunet.com/mobile/http_player/?channel=foot_24
+#EXTINF:-1,Animaux
+http://www.teledunet.com/mobile/http_player/?channel=animaux
+#EXTINF:-1,Eurosport
+http://www.teledunet.com/mobile/http_player/?channel=eurosport
+#EXTINF:-1,Teletoon
+http://www.teledunet.com/mobile/http_player/?channel=teletoon
+#EXTINF:-1,Disney
+http://www.teledunet.com/mobile/http_player/?channel=disney
+#EXTINF:-1,Planete
+http://www.teledunet.com/mobile/http_player/?channel=planete
+#EXTINF:-1,Nat Geo
+http://www.teledunet.com/mobile/http_player/?channel=nat_geo
+#EXTINF:-1,I Tele
+http://www.teledunet.com/mobile/http_player/?channel=i_tele
+#EXTINF:-1,Nicklodeon
+http://www.teledunet.com/mobile/http_player/?channel=nicklodeon
+#EXTINF:-1,Osn AlYawm
+http://www.teledunet.com/mobile/http_player/?channel=osn_alyawm
+#EXTINF:-1,Osn Cinema 1
+http://www.teledunet.com/mobile/http_player/?channel=osn_cinema_1
+#EXTINF:-1,Osn Cinema 2
+http://www.teledunet.com/mobile/http_player/?channel=osn_cinema_2
+#EXTINF:-1,Osn Animal PLanet HD
+http://www.teledunet.com/mobile/http_player/?channel=osn_animal_planet_hd
+#EXTINF:-1,Osn Box Office 1
+http://www.teledunet.com/mobile/http_player/?channel=osn_box_office_1
+#EXTINF:-1,Osn Box Office 2
+http://www.teledunet.com/mobile/http_player/?channel=osn_box_office_2
+#EXTINF:-1,Osn Yahala HD
+http://www.teledunet.com/mobile/http_player/?channel=osn_yahala_hd
+#EXTINF:-1,Osn Yahala SHabab
+http://www.teledunet.com/mobile/http_player/?channel=osn_yahala_shabab
+#EXTINF:-1,Osn Yahlaa Drama
+http://www.teledunet.com/mobile/http_player/?channel=osn_yahlaa_drama
+#EXTINF:-1,Osn Discovry HD
+http://www.teledunet.com/mobile/http_player/?channel=osn_discovry_hd
+#EXTINF:-1,Osn FNN
+http://www.teledunet.com/mobile/http_player/?channel=osn_fnn
+#EXTINF:-1,Osn Fight HD
+http://www.teledunet.com/mobile/http_player/?channel=osn_fight_hd
+#EXTINF:-1,Osn First Comdy HD
+http://www.teledunet.com/mobile/http_player/?channel=osn_first_comdy_hd
+#EXTINF:-1,Osn First More
+http://www.teledunet.com/mobile/http_player/?channel=osn_first_more
+#EXTINF:-1,Osn First
+http://www.teledunet.com/mobile/http_player/?channel=osn_first
+#EXTINF:-1,Osn MBC Drama
+http://www.teledunet.com/mobile/http_player/?channel=osn_mbc_drama
+#EXTINF:-1,Osn Movies Action HD
+http://www.teledunet.com/mobile/http_player/?channel=osn_movies_action_hd
+#EXTINF:-1,Osn Movies Action 2 HD
+http://www.teledunet.com/mobile/http_player/?channel=osn_movies_action_2_hd
+#EXTINF:-1,Osn Movies Drama
+http://www.teledunet.com/mobile/http_player/?channel=osn_movies_drama
+#EXTINF:-1,Osn Movies HD
+http://www.teledunet.com/mobile/http_player/?channel=osn_movies_hd
+#EXTINF:-1,Osn Movies Kids
+http://www.teledunet.com/mobile/http_player/?channel=osn_movies_kids
+#EXTINF:-1,Osn Movies Premier
+http://www.teledunet.com/mobile/http_player/?channel=osn_movies_premier
+#EXTINF:-1,Osn Series Arabic
+http://www.teledunet.com/mobile/http_player/?channel=osn_series_arabic
+#EXTINF:-1,Osn Shabab
+http://www.teledunet.com/mobile/http_player/?channel=osn_shabab
+#EXTINF:-1,Osn Star Movies
+http://www.teledunet.com/mobile/http_player/?channel=osn_star_movies
+#EXTINF:-1,Osn Star world
+http://www.teledunet.com/mobile/http_player/?channel=osn_star_world
+#EXTINF:-1,Sky Action HD DE
+http://www.teledunet.com/mobile/http_player/?channel=sky_action_hd_de
+#EXTINF:-1,Sky Cinema HD DE
+http://www.teledunet.com/mobile/http_player/?channel=sky_cinema_hd_de
+#EXTINF:-1,SKY Cinema+1
+http://www.teledunet.com/mobile/http_player/?channel=sky_cinema_1
+#EXTINF:-1,sky cinema24
+http://www.teledunet.com/mobile/http_player/?channel=sky_cinema24
+#EXTINF:-1,Sky Hits HD DE
+http://www.teledunet.com/mobile/http_player/?channel=sky_hits_hd_de
+#EXTINF:-1,Sky Atlantic HD DE
+http://www.teledunet.com/mobile/http_player/?channel=sky_atlantic_hd_de
+#EXTINF:-1,Sky Comedy
+http://www.teledunet.com/mobile/http_player/?channel=sky_comedy
+#EXTINF:-1,Sky 3D DE
+http://www.teledunet.com/mobile/http_player/?channel=sky_3d_de
+#EXTINF:-1,SKY EMOTION DE
+http://www.teledunet.com/mobile/http_player/?channel=sky_emotion_de
+#EXTINF:-1,FOX DE HD
+http://www.teledunet.com/mobile/http_player/?channel=fox_de_hd
+#EXTINF:-1,MGM HD DE
+http://www.teledunet.com/mobile/http_player/?channel=mgm_hd_de
+#EXTINF:-1,TNT Film DE HD
+http://www.teledunet.com/mobile/http_player/?channel=tnt_film_de_hd
+#EXTINF:-1,TNT Serie HD DE
+http://www.teledunet.com/mobile/http_player/?channel=tnt_serie_hd_de
+#EXTINF:-1,Syfy HD DE
+http://www.teledunet.com/mobile/http_player/?channel=syfy_hd_de
+#EXTINF:-1,AXN DE HD
+http://www.teledunet.com/mobile/http_player/?channel=axn_de_hd
+#EXTINF:-1,N-TV DE HD
+http://www.teledunet.com/mobile/http_player/?channel=n_tv_de_hd
+#EXTINF:-1,N24 HD DE
+http://www.teledunet.com/mobile/http_player/?channel=n24_hd_de
+#EXTINF:-1,3sat HD DE
+http://www.teledunet.com/mobile/http_player/?channel=3sat_hd_de
+#EXTINF:-1,Phoenix DE
+http://www.teledunet.com/mobile/http_player/?channel=phoenix_de
+#EXTINF:-1,arte HD DE
+http://www.teledunet.com/mobile/http_player/?channel=arte_hd_de
+#EXTINF:-1,RBB Berlin DE
+http://www.teledunet.com/mobile/http_player/?channel=rbb_berlin_de
+#EXTINF:-1,Sky HD Fan Zone DE
+http://www.teledunet.com/mobile/http_player/?channel=sky_hd_fan_zone_de
+#EXTINF:-1,Sky Bundesliga HD 1 DE
+http://www.teledunet.com/mobile/http_player/?channel=sky_bundesliga_hd_1_de
+#EXTINF:-1,Sky Sport HD 1 DE
+http://www.teledunet.com/mobile/http_player/?channel=sky_sport_hd_1_de
+#EXTINF:-1,Sky Sport HD 2 DE
+http://www.teledunet.com/mobile/http_player/?channel=sky_sport_hd_2_de
+#EXTINF:-1,SPORT1 HD DE
+http://www.teledunet.com/mobile/http_player/?channel=sport1_hd_de
+#EXTINF:-1,Eurosport DE
+http://www.teledunet.com/mobile/http_player/?channel=eurosport_de
+#EXTINF:-1,MTV MUSIC IT
+http://www.teledunet.com/mobile/http_player/?channel=mtv_music_it
+#EXTINF:-1,VEVO 1
+http://www.teledunet.com/mobile/http_player/?channel=vevo_1
+#EXTINF:-1,MTV IT
+http://www.teledunet.com/mobile/http_player/?channel=mtv_it
+#EXTINF:-1,VEVO 2
+http://www.teledunet.com/mobile/http_player/?channel=vevo_2
+#EXTINF:-1,VEVO 3
+http://www.teledunet.com/mobile/http_player/?channel=vevo_3
+#EXTINF:-1,Dmax DE
+http://www.teledunet.com/mobile/http_player/?channel=dmax_de
+#EXTINF:-1,Music HD DE
+http://www.teledunet.com/mobile/http_player/?channel=music_hd_de
+#EXTINF:-1,RTL Crime DE
+http://www.teledunet.com/mobile/http_player/?channel=rtl_crime_de
+#EXTINF:-1,RTL Living DE
+http://www.teledunet.com/mobile/http_player/?channel=rtl_living_de
+#EXTINF:-1,Pro 7 MAXX DE
+http://www.teledunet.com/mobile/http_player/?channel=pro_7_maxx_de
+#EXTINF:-1,RTL Passion HD DE
+http://www.teledunet.com/mobile/http_player/?channel=rtl_passion_hd_de
+#EXTINF:-1,Sat 1 Gold DE
+http://www.teledunet.com/mobile/http_player/?channel=sat_1_gold_de
+#EXTINF:-1,A & E DE
+http://www.teledunet.com/mobile/http_player/?channel=a_e_de
+#EXTINF:-1,GoldStar TV DE
+http://www.teledunet.com/mobile/http_player/?channel=goldstar_tv_de
+#EXTINF:-1,Das Erste HD DE
+http://www.teledunet.com/mobile/http_player/?channel=das_erste_hd_de
+#EXTINF:-1,ZDF HD DE
+http://www.teledunet.com/mobile/http_player/?channel=zdf_hd_de
+#EXTINF:-1,RTL DE HD
+http://www.teledunet.com/mobile/http_player/?channel=rtl_de_hd
+#EXTINF:-1,SAT 1 DE HD
+http://www.teledunet.com/mobile/http_player/?channel=sat_1_de_hd
+#EXTINF:-1,RTL2 HD DE
+http://www.teledunet.com/mobile/http_player/?channel=rtl2_hd_de
+#EXTINF:-1,PRO7 DE HD
+http://www.teledunet.com/mobile/http_player/?channel=pro7_de_hd
+#EXTINF:-1,KABELEINS DE HD
+http://www.teledunet.com/mobile/http_player/?channel=kabeleins_de_hd
+#EXTINF:-1,VOX HD DE
+http://www.teledunet.com/mobile/http_player/?channel=vox_hd_de
+#EXTINF:-1,RTL Nitro DE HD
+http://www.teledunet.com/mobile/http_player/?channel=rtl_nitro_de_hd
+#EXTINF:-1,Nat Geo HD DE
+http://www.teledunet.com/mobile/http_player/?channel=nat_geo_hd_de
+#EXTINF:-1,Nat Geo Wild HD DE
+http://www.teledunet.com/mobile/http_player/?channel=nat_geo_wild_hd_de
+#EXTINF:-1,Discovery HD DE
+http://www.teledunet.com/mobile/http_player/?channel=discovery_hd_de
+#EXTINF:-1,Nickelodeon DE
+http://www.teledunet.com/mobile/http_player/?channel=nickelodeon_de
+#EXTINF:-1,Super RTL DE
+http://www.teledunet.com/mobile/http_player/?channel=super_rtl_de
+#EXTINF:-1,KIKA HD DE
+http://www.teledunet.com/mobile/http_player/?channel=kika_hd_de
+#EXTINF:-1,Disney Cinemagic HD DE
+http://www.teledunet.com/mobile/http_player/?channel=disney_cinemagic_hd_de
+#EXTINF:-1,Disney Ch HD DE
+http://www.teledunet.com/mobile/http_player/?channel=disney_ch_hd_de
