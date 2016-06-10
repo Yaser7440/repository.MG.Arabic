@@ -7,7 +7,7 @@
 <thumbnail>http://www.iranproud.net/images/ipLogo.png</thumbnail>
 <externallink>https://raw.githubusercontent.com/xldrx/kodi-persian-contents/master/Movies.m3u</externallink>
 <fanart>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/image/MG.Arabic.png</fanart>
-<info></info>
+<info>(MG.Arabic)</info>
 </channel>
 
 <channel>
@@ -15,7 +15,63 @@
 <thumbnail>http://www.iranproud.net/images/ipLogo.png</thumbnail>
 <externallink>https://raw.githubusercontent.com/xldrx/kodi-persian-contents/master/Iranian%20Channels.m3u</externallink>
 <fanart>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/image/MG.Arabic.png</fanart>
-<info></info>
+<info>(MG.Arabic)</info>
+</channel>
+
+<channel>
+<name>TV Farsi</name>
+<thumbnail>http://www.zendetv.com/wp-content/uploads/2014/06/farsi1.png</thumbnail>
+<externallink>https://raw.githubusercontent.com/xldrx/kodi-persian-contents/master/Iranian%20Channels.m3u</externallink>
+<fanart>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/image/MG.Arabic.png</fanart>
+<info>TV Farsi (MG.Arabic)</info>
+</channel>
+
+<channel>
+<name>TV Chin</name>
+<thumbnail>https://img.new.livestream.com/accounts/00000000004e6359/f018277b-bf21-43c3-bc5a-cf224b52ae08_170x170.png</thumbnail>
+<externallink>http://www.anza-mon.com/anosh/TV/Chin.strm</externallink>
+<fanart>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/image/MG.Arabic.png</fanart>
+<info>TV Chin (MG.Arabic)</info>
+</channel>
+
+<channel>
+<name>TV China</name>
+<thumbnail>https://lh4.ggpht.com/rs9qN83PHIyyvZh3_ZWhLN-A4LEUe42wNRmz1Z8FuDMVHDSn0yS-pUBcrCj8F6hb_VY=h900</thumbnail>
+<externallink>http://www.anza-mon.com/anosh/TV/China.strm</externallink>
+<fanart>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/image/MG.Arabic.png</fanart>
+<info>TV China (MG.Arabic)</info>
+</channel>
+
+<channel>
+<name>TV Deutsch</name>
+<thumbnail>https://lh3.ggpht.com/C38InkxSYEF8DQ6wKV9p6dHzvPSam5QHvAhM2A5zmAbroWGw8DMkbbh43OB5VWrqZjw=w300</thumbnail>
+<externallink>http://www.anza-mon.com/anosh/TV/Deutsch.strm</externallink>
+<fanart>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/image/MG.Arabic.png</fanart>
+<info>TV Deutsch (MG.Arabic)</info>
+</channel>
+
+<channel>
+<name>TV Deutsch_Regio</name>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/0/0b/REGIO_TV_Schwaben_Logo.svg</thumbnail>
+<externallink>http://www.anza-mon.com/anosh/TV/Deutsch_Regio.strm</externallink>
+<fanart>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/image/MG.Arabic.png</fanart>
+<info>TV Deutsch_Regio (MG.Arabic)</info>
+</channel>
+
+<channel>
+<name>Music</name>
+<thumbnail>http://p8cdn4static.sharpschool.com/UserFiles/Servers/Server_608213/Image/Music%20Images/music%20banner.jpg</thumbnail>
+<externallink>http://www.anza-mon.com/anosh/TV/Music.strm</externallink>
+<fanart>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/image/MG.Arabic.png</fanart>
+<info>Music (MG.Arabic)</info>
+</channel>
+
+<channel>
+<name>New_Chin</name>
+<thumbnail>https://i.ytimg.com/vi/B2_zFvDYgpE/maxresdefault.jpg</thumbnail>
+<externallink>http://www.anza-mon.com/anosh/TV/New_Chin.strm</externallink>
+<fanart>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/image/MG.Arabic.png</fanart>
+<info>New_Chin (MG.Arabic)</info>
 </channel>
 
 </channels>
