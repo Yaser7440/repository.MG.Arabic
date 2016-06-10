@@ -1,0 +1,118 @@
+#EXTM3U
+#EXTINF:0,Alex TV
+rtsp://217.115.145.185:1935/live/mp4:alexlivestream_2
+
+#EXTINF:0,Baden TV
+rtmp://badentv-stream2.siebnich.info/rtplive/vlc.sdp
+
+#EXTINF:0,BLK online TV Burgenlandkreis
+rtmp://62.113.210.250/medienasa-live/BLKonline_high
+
+#EXTINF:0,bw family.tv
+rtmp://live.bwfamily.tv:1935/rtplive/vlc.sdp
+
+#EXTINF:0,Dresden Fernsehen
+rtmp://video07.kanal8.de/dresdenfernsehenlive/myStream.sdp
+
+#EXTINF:0,Elbekanal Schönebeck
+rtmp://62.113.210.250/medienasa-live/elbe_high
+
+#EXTINF:0,Filstalwelle
+rtmp://62.113.210.27/filstalwelle-live/livestream
+
+#EXTINF:0,Halle TV
+rtmp://62.113.210.250/medienasa-live/tvhalle_high
+
+#EXTINF:0,Juwelo TV
+rtmp://85.214.107.68/juwelo_hd/live_DE1
+
+#EXTINF:0,Kabbalah TV
+mms://vod.kab.tv/ger
+
+#EXTINF:0,Leipzig Fernsehen LF
+rtmp://video61.kanal8.de/leipzigfernsehenlive/myStream.sdp
+
+#EXTINF:0,Light Channel TV Deutschland
+rtsp://streamer1.streamhost.org:1935/salive/lctvde
+
+#EXTINF:0,LT - TV Baden Wuerttemberg
+rtmp://62.113.210.105/ltv-live/livestream
+
+#EXTINF:0,Noa 4
+http://www.noa4.tv/stream/video/noa4-stream-mid.asx
+
+#EXTINF:0,NOA4 Hamburg
+mms://wt-wm1.wtnet.de/noa4hh-stream-mid?.wma
+
+#EXTINF:0,noa4 Hamburg
+http://wt-wm1.wtnet.de/noa4hh-stream-hi?MSWMExt=.asf
+
+#EXTINF:0,NOA4 Hamburg (HQ)
+mmsh://wt-wm1.wtnet.de/noa4hh-stream-hi?MSWMExt=.asf
+
+#EXTINF:0,NOA4 Hamburg (MQ)
+mmsh://wt-wm1.wtnet.de/noa4hh-stream-mid?MSWMExt=.asf
+
+#EXTINF:0,noa4 Norderstedt
+http://wt-wm1.wtnet.de/noa4-stream-hi?MSWMExt=.asf
+
+#EXTINF:0,NOA4 Norderstedt (HQ)
+mmsh://wt-wm1.wtnet.de/noa4-stream-hi?MSWMExt=.asf
+
+#EXTINF:0,NOA4 Norderstedt (MQ)
+mmsh://wt-wm1.wtnet.de/noa4-stream-mid?MSWMExt=.asf
+
+#EXTINF:0,OK Dessau
+rtmp://62.113.210.250/medienasa-live/ok-dessau_high
+
+#EXTINF:0,OK Magdeburg
+rtmp://62.113.210.250/medienasa-live/ok-magdeburg_high
+
+#EXTINF:0,OK Merseburg
+rtmp://62.113.210.250/medienasa-live/ok-merseburg_high
+
+#EXTINF:0,OK Salzwedel
+rtmp://62.113.210.250/medienasa-live/ok-salzwedel_high
+
+#EXTINF:0,OK Stendal
+rtmp://62.113.210.250/medienasa-live/ok-stendal_high
+
+#EXTINF:0,OK tv
+http://217.151.151.58/oktv
+
+#EXTINF:0,OK Wernigerode
+rtmp://62.113.210.250/medienasa-live/ok-wernigerode_high
+
+#EXTINF:0,OK Wettin
+rtmp://62.113.210.250/medienasa-live/ok-wettin_high
+
+#EXTINF:0,Punktum Südharz
+rtmp://62.113.210.250/medienasa-live/punktum_high
+
+#EXTINF:0,Ran 1
+rtmp://62.113.210.250/medienasa-live/mp4:ran1_high
+
+#EXTINF:0,RAN 1 Dessau
+rtmp://62.113.210.250/medienasa-live/ran1_high
+
+#EXTINF:0,RBW
+rtmp://62.113.210.250/medienasa-live/rbw_high
+
+#EXTINF:0,RFH TV
+rtmp://62.113.210.250/medienasa-live/RFH_high
+
+#EXTINF:0,RTL Tele Letzebourg
+rtmp://wowza01.newmedia.lu/channel1/live
+
+#EXTINF:0,Streetclip TV
+rtmp://stream.streetclip.tv:1935/live/high-stream
+
+#EXTINF:0,TeleBärn
+rtsp://rtmp.infomaniak.ch/livecast/barntele
+
+#EXTINF:0,VISIT-X TV
+rtmp://194.116.150.47/live/visitx.stream1
+
+#EXTINF:0,VRF Vogtland
+mms://stream.vrf.de/VRF
+

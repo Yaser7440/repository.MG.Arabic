@@ -1,0 +1,19 @@
+#EXTM3U
+#EXTINF:-1,MUSIC VOX TV
+rtmp://stream.smcloud.net/live2/vox/vox_360p
+
+#EXTINF:-1,Deluxe Soul
+http://flash1.ipercast.net/deluxemusic.tv/staging/120216-soul-catchup.mp4.mp4/playlist.m3u8
+
+#EXTINF:-1,VEVO TV 1
+http://vevoplaylist-live.hls.adaptive.level3.net/vevo/ch1/05/prog_index.m3u8
+
+#EXTINF:-1,HEAT
+http://goo.gl/wKIC0B
+
+#EXTINF:-1,Virgin 1
+rtmp://fms.105.net:1935/live/virgin1 playpath=virgin1 swfurl=http://www.highermedia.com/assets/flash/jw_player.swf live=1 pageurl=http://www.google.com/Virgin 1
+
+#EXTINF:-1,Cinemix Wdb Radio
+#http://listen.cinemix.fr
+http://radioson.ru:8009/OSTRetro.RadioSon.ru.mp3

@@ -1,0 +1,99 @@
+#EXTM3U
+#EXTINF:-1,ARD (Das Erste )
+http://daserste_live-lh.akamaihd.net/i/daserste_de@91204/master.m3u8
+
+
+#EXTINF:-1,N24
+http://n24-live.hls.adaptive.level3.net/hls-live/n24-pssimn24live/_definst_/live.m3u8
+
+#EXTINF:-1,SERVUS TV
+http://hdiosstv-f.akamaihd.net/i/servustvhd_1@51229/master.m3u8
+
+#EXTINF:-1,Euronews 
+http://fr-par-iphone-2.cdn.hexaglobe.net/streaming/euronews_ewns/14-live.m3u8
+
+#EXTINF:-1,NDR 
+http://api.iptv.ink/pl.m3u8?ch=97998370 
+
+#EXTINF:-1,SWR 
+http://api.iptv.ink/pl.m3u8?ch=66994086
+
+#EXTINF:-1,Hr HD
+http://api.iptv.ink/pl.m3u8?ch=92038145
+
+#EXTINF:-1,ORF2
+http://apasfiisl.apa.at/ipad/orf2_q4a/orf.sdp/playlist.m3u8
+
+#EXTINF:-1,ARTE
+http://delive.artestras.cshls.lldns.net/artestras/contrib/delive/delive_925.m3u8
+
+#EXTINF:-1,Deutsche Welle
+http://dwschiene6-i.akamaihd.net/hls/live/221763/dwschiene6/x6x/playlist6x.m3u8
+
+#EXTINF:-1,EURONEWS
+http://fr-par-iphone-2.cdn.hexaglobe.net/streaming/euronews_ewns/14-live.m3u8
+
+
+#EXTINF:-1,Family TV rtmp
+rtmp://83.169.58.36/live/Stream3
+
+#EXTINF:-1, Austria 24TV
+rtmp://streaming.austria24.tv/live/stream_360p
+
+#EXTINF:-1,TAGESSCHAU 24
+http://tagesschau-lh.akamaihd.net/i/tagesschau_1@119231/master.m3u8
+
+
+#EXTINF:-1,weltderwunder
+rtmp://mf.weltderwunder.c.nmdn.net/wdwlive//WDW-HQ.stream
+
+#EXTINF:-1,Sat 1
+http://46.234.100.45:8080/sat1/index.m3u8
+
+#EXTINF:-1,RTL
+http://46.234.100.45:8080/rtl1de/index.m3u8
+
+#EXTINF:-1,VEVO TV 1
+http://vevoplaylist-live.hls.adaptive.level3.net/vevo/ch1/appleman.m3u8
+
+#EXTINF:-1,VEVO TV 2
+http://vevoplaylist-live.hls.adaptive.level3.net/vevo/ch2/appleman.m3u8
+
+#EXTINF:-1,VEVO TV 3
+http://vevoplaylist-live.hls.adaptive.level3.net/vevo/ch3/appleman.m3u8
+
+#EXTINF:-1,VEVO TV DE
+http://vevoplaylist-eu01-live.hls.adaptive.level3.net/vevoeu/ch01/appleman.m3u8
+
+#EXTINF:-1,zzz JOIZ DE
+http://ooyalahd2-f.akamaihd.net/i/joizgerm01_delivery@324125/index_1164_av-p.m3u8
+
+#EXTINF:0,DE : DMAX
+http://top-iptv.zapto.org:8000/live/farid/farid/491.ts
+#EXTINF:0,DE : kika
+http://top-iptv.zapto.org:8000/live/farid/farid/476.ts
+#EXTINF:0,DE: Skyde Cinema
+http://top-iptv.zapto.org:8000/live/farid/farid/489.ts
+#EXTINF:0,DE : Sky Krimi
+http://top-iptv.zapto.org:8000/live/farid/farid/488.ts
+#EXTINF:0,DE : Sky Cinema 1
+http://top-iptv.zapto.org:8000/live/farid/farid/490.ts
+#EXTINF:0,DE: sky emotion
+http://top-iptv.zapto.org:8000/live/farid/farid/493.ts
+#EXTINF:0,DE : Sky comedy
+http://top-iptv.zapto.org:8000/live/farid/farid/492.ts
+#EXTINF:0,DE: kabel1
+http://top-iptv.zapto.org:8000/live/farid/farid/478.ts
+#EXTINF:0,DE : RTL DE
+http://top-iptv.zapto.org:8000/live/farid/farid/482.ts
+#EXTINF:0,DE ORF EINS
+http://top-iptv.zapto.org:8000/live/farid/farid/474.ts
+#EXTINF:0,DE : Eins
+http://top-iptv.zapto.org:8000/live/farid/farid/475.ts
+#EXTINF:0,DE : VOX DE
+http://top-iptv.zapto.org:8000/live/farid/farid/487.ts
+#EXTINF:0,DE: Sky Atlantic
+http://top-iptv.zapto.org:8000/live/farid/farid/466.ts
+
+
+

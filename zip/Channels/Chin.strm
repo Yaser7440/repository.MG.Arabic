@@ -1,0 +1,81 @@
+#EXTM3U
+#EXTINF:-1,TVBS link3
+http://59.120.43.183/TVBS.m3u8
+#EXTINF:-1,TVBSNEWS_HD link2
+http://210.200.79.26:1935/live/tvbsnhd/chunklist.m3u8
+#EXTINF:-1,CTTV
+http://210.200.79.26:1935/live/acti_2_sp.sdp/chunklist.m3u8
+#EXTINF:-1,CCTV AMERICA
+http://ktv032.cdnak.ds.kylintv.net/nlds/kylin/etgbl/as/live/etgbl_4.m3u8
+#EXTINF:-1,YOYO TV
+http://ktv051.cdnak.ds.kylintv.net/nlds/kylin/etyoyo/as/live/etyoyo_4.m3u8
+#EXTINF:-1,ASIA link2
+http://210.200.79.26:1935/live/acti_sp.sdp/chunklist.m3u8
+#EXTINF:-1,CBS NEWS america
+http://ktv029.cdnak.ds.kylintv.net/nlds/kylin/etnews/as/live/etnews_4.m3u8
+#EXTINF:-1,CBS NEWS HD,
+http://210.200.79.26:1935/live/swente/chunklist.m3u8
+#EXTINF:-1,CTI
+http://210.200.79.26:1935/live/cti1_sp.sdp/chunklist.m3u8
+#EXTINF:-1,CTI NEWS
+http://210.200.79.26:1935/live/ctinews/chunklist.m3u8
+#EXTINF:-1,CTV
+http://210.200.79.26:1935/live/ctv.sdpchunklist.m3u8
+#EXTINF:-1,CTVHD
+http://210.200.79.26:1935/live/ctvhd/chunklist.m3u8
+#EXTINF:-1,CTV NEWS
+http://210.200.79.26:1935/live/ctv_news.sdp/chunklist.m3u8
+#EXTINF:-1,CTV DRAMA
+http://210.200.79.26:1935/live/ctv_all.sdp/chunklist.m3u8
+#EXTINF:-1,UNBTV
+http://tv.unbtv.tv/app_2/ls_1.stream/playlist.m3u8
+#EXTINF:-1,CATHAY TV
+http://ktv026.cdnak.ds.kylintv.net/nlds/kylin/cathaytv/as/live/cathaytv_4.m3u8
+#EXTINF:-1,CETV
+http://ktv044.cdnak.ds.kylintv.net/nlds/kylin/cetv/droid/live/cetv_4.m3u8
+#EXTINF:-1,CTS
+http://210.200.79.26:1935/live/cts.sdp/chunklist.m3u8
+#EXTINF:-1,CTS HD
+http://210.200.79.26:1935/live/ctshd/chunklist.m3u8
+#EXTINF:-1,CTS HD
+http://ktv037.cdnak.ds.kylintv.net/nlds/kylin/ctshd/as/live/ctshd_4.m3u8
+#EXTINF:-1,CTS HD
+http://ktv037.cdnllnwnl.ds.kylintv.net/nlds/kylin/ctshd/as/live/ctshd_3.m3u8
+#EXTINF:-1,CTS NEWS
+http://210.200.79.26:1935/live/cts_news.sdp/chunklist.m3u8
+#EXTINF:-1,CHINESE1
+http://ktv015.cdnak.ds.kylintv.net/nlds/kylin/hyds/as/live/hyds_4.m3u8
+#EXTINF:-1,CHINESE2
+http://ktv008.cdnak.ds.kylintv.net/nlds/kylin/hyds2/as/live/hyds2_4.m3u8
+#EXTINF:-1,TCC FINANCE
+http://210.200.79.26:1935/live/tcch02/chunklist.m3u8
+#EXTINF:-1,TCC
+http://210.200.79.26:1935/live/tcch06/chunklist.m3u8
+#EXTINF:-1,TCC NEWS HD
+http://210.200.79.26:1935/live/tcch07/chunklist.m3u8
+#EXTINF:-1,TTV
+http://210.200.79.26:1935/live/ttv.sdp/chunklist.m3u8
+#EXTINF:-1,TTV HD
+http://ktv042.cdnak.ds.kylintv.net/nlds/kylin/ttv/as/live/ttv_4.m3u8
+#EXTINF:-1,TTV FINANCE
+http://210.200.79.26:1935/live/ttv_fin.sdp/chunklist.m3u8
+#EXTINF:-1,NEXT TV HD
+http://d2e6xlgy8sg8ji.cloudfront.net/liveedge/eratv3/chunklist.m3u8
+#EXTINF:-1,FORMOSA TV HD1
+http://210.200.79.26:1935/live/ftvw_sp.sdp/chunklist.m3u8
+#EXTINF:-1,FORMOSA TV HD2
+http://ktv051.cdnak.ds.kylintv.net/nlds/kylin/formosatv/as/live/formosatv_4.m3u8
+#EXTINF:-1,FORMOSA TV NEWS
+http://210.200.79.26:1935/live/ftvn_sp.sdp/chunklist.m3u8
+#EXTINF:-1,FORMOSA TV TRAVEL
+http://210.200.79.26:1935/live/ftvtravel_sp.sdp/chunklist.m3u8
+#EXTINF:-1,FORMOSA TV DRAMA
+http://210.200.79.26:1935/live/drama_sp.sdp/chunklist.m3u8
+#EXTINF:-1,FORMOSA TV PROGRAM
+http://210.200.79.26:1935/live/program_sp.sdp/chunklist.m3u8
+#EXTINF:-1,USTVC
+http://210.200.79.26:1935/live/ustvc_sp.sdp/chunklist.m3u8
+#EXTINF:-1,USTVN
+http://210.200.79.26:1935/live/ustvn_sp.sdp/chunklist.m3u8
+
+
