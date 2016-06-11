@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="plugin.video.alqudseyes"
+  version="2.3.1"
+  name="Alqudseyes"
+  provider-name="Bisha">
+  <requires>
+    <import addon="xbmc.python"
+            version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Alqudseyes vod Arabic plugin</summary>
+    <description>Alqudseyes Arabic plugin”</description>
+   
+    <platform>all</platform>
+  </extension>
+</addon>
