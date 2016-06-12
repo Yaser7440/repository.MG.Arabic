@@ -250,9 +250,9 @@
 
 <addon
   id="plugin.video.alarab"
-  version="4.3.1"
+  version="4.3.3"
   name="AlArab"
-  provider-name="bisha">
+  provider-name="MG.Arabic">
   <requires>
    <import addon="xbmc.python"
             version="2.1.0"/>
@@ -262,8 +262,8 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>AlArabNet</summary>
-    <description>AlArabNet.</description>
+    <summary>MG.Arabic</summary>
+    <description>MG.Arabic.</description>
 
     <platform>all</platform>
   </extension>
@@ -405,7 +405,7 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
     </extension>
 </addon>
 
-<addon id="plugin.video.ororotv" name="Ororo TV" version="3.2.4" provider-name="ororo.tv">
+<addon id="plugin.video.ororotv" name="Ororo TV" version="3.2.8" provider-name="ororo.tv">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="repository.ororotv" version="1.0.0" />
@@ -413,6 +413,7 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
 		<import addon="script.module.simplejson" version="2.0.10"/>
 		<import addon="script.common.plugin.cache" version="0.9.1"/>
 		<import addon="script.module.parsedom" version="0.9.1"/>
+		<import addon="script.module.dateutil" version="2.4.2"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
@@ -2291,28 +2292,7 @@ http://informaticglobalworld.altervista.org/
   </extension>
 </addon>
 
-<addon id="plugin.video.ororotv" name="Ororo TV" version="3.2.6" provider-name="ororo.tv">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
-		<import addon="repository.ororotv" version="1.0.0" />
-		<import addon="script.module.metahandler" version="1.0.0"/>
-		<import addon="script.module.simplejson" version="2.0.10"/>
-		<import addon="script.common.plugin.cache" version="0.9.1"/>
-		<import addon="script.module.parsedom" version="0.9.1"/>
-		<import addon="script.module.dateutil" version="2.4.2"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.subtitle.module" library="default.py" />
-	<extension point="xbmc.service" library="service.py" start="startup">
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Learn English by watching TV shows and movies</summary>
-		<description lang="en">Learn English by watching TV shows and movies</description>
-		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
-	</extension>
-</addon>
+
 
 <addon
   id="plugin.video.alqudseyes"
