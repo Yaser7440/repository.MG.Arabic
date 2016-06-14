@@ -1,3 +1,14 @@
+[B]Version 2.0.57[/B]
+- Fix couchtuner
+- Fix MovieWatcher
+- Fix season fanart
+- Fix Movie/Episode detection
+
+[B]Version 2.0.56[/B]
+- Fix Movie25
+- Fix Fardadownload
+- Fix iWatchOnline
+
 [B]Version 2.0.55[/B]
 - Add CinemaMKV
 - Improve yesmovies

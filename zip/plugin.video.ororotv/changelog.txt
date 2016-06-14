@@ -1,4 +1,28 @@
 ------------------------
+Ororo TV v3.3.1 (13-Jun-16)
+------------------------
+
+- Update repository
+
+------------------------
+Ororo TV v3.3.0 (13-Jun-16)
+------------------------
+
+- Fix subscriptions list
+
+------------------------
+Ororo TV v3.2.9 (13-Jun-16)
+------------------------
+
+- Refactor and fixes. Fetch show id if not present
+
+------------------------
+Ororo TV v3.2.8 (12-Jun-16)
+------------------------
+
+- Separate failed to log in error from general error
+
+------------------------
 Ororo TV v3.2.7 (11-Jun-16)
 ------------------------
 

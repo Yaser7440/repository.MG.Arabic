@@ -164,7 +164,11 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.bokra"  version="5.1.0" name="BOKRA" provider-name="Bisha">
+<addon
+  id="plugin.video.bokra"
+  version="5.2.0"
+  name="BOKRA"
+  provider-name="Bisha">
   <requires>
     <import addon="xbmc.python"
             version="2.1.0"/>
@@ -405,10 +409,9 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
     </extension>
 </addon>
 
-<addon id="plugin.video.ororotv" name="Ororo TV" version="3.2.8" provider-name="ororo.tv">
+<addon id="plugin.video.ororotv" name="Ororo TV" version="3.3.1" provider-name="ororo.tv">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
-		<import addon="repository.ororotv" version="1.0.0" />
 		<import addon="script.module.metahandler" version="1.0.0"/>
 		<import addon="script.module.simplejson" version="2.0.10"/>
 		<import addon="script.common.plugin.cache" version="0.9.1"/>
@@ -591,7 +594,7 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
   </extension>
 </addon>
 
-<addon id="plugin.video.salts" version="2.0.55" name="Stream All The Sources" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.57" name="Stream All The Sources" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
@@ -1372,13 +1375,13 @@ Addons Included
   </extension>
 </addon>
 
-<addon id="plugin.video.phstreams" name="Phoenix" version="3.1.0" provider-name="tvaddons.ag">
+<addon id="plugin.video.phstreams" name="Phoenix" version="3.1.1" provider-name="tvaddons.ag">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.pyxbmct" version="1.1.4" />
 		<import addon="script.module.urlresolver" version="3.0.0"/>
 		<import addon="script.module.liveresolver" version="0.1.24"/>
-		<import addon="plugin.video.youtube" optional="true" />
+		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
@@ -1735,7 +1738,7 @@ Addons Included
 	
 <addon
   id="plugin.video.panet"
-  version="1.9.0"
+  version="2.1.1"
   name="Panet"
   provider-name="Bisha">
   <requires>
@@ -2007,7 +2010,7 @@ Addons Included
 	</extension>
 </addon>
 
-<addon id="plugin.video.exodus" version="1.3.6" name="Exodus" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="1.3.7" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.exodus.artwork" version="1.0.1" />
