@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.ororotv" version="1.0.1" name="Ororo repository" provider-name="ororo.tv">
+  <extension point="xbmc.addon.repository" name="Ororo repository">
+    <info compressed="false">https://ororo.tv/kodi/addons.xml</info>
+    <checksum>https://ororo.tv/kodi/addons.xml.md5</checksum>
+    <datadir zip="true">https://ororo.tv/kodi/</datadir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Ororo repository</summary>
+    <description lang="en">Ororo repository</description>
+    <platform>all</platform>
+  </extension>
+</addon>
