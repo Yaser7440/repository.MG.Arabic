@@ -1,4 +1,13 @@
 ------------------------
+Ororo TV v3.4.0 (19-Jun-16)
+------------------------
+
+- Migrate to API v2
+- Add limit reached error message
+- Start refactoring to be passing around less info (ideally only media id)
+- Fix library update and add compatibility for old subscription and favorite types
+
+------------------------
 Ororo TV v3.3.1 (13-Jun-16)
 ------------------------
 
