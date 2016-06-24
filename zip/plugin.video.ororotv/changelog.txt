@@ -1,4 +1,34 @@
 ------------------------
+Ororo TV v3.4.4 (23-Jun-16)
+------------------------
+
+- Remove dateutil
+
+------------------------
+Ororo TV v3.4.3 (22-Jun-16)
+------------------------
+
+- Remove all external metadata
+- Remove unused functionality
+- Add toggleWatched support
+- Optimize codebase
+
+------------------------
+Ororo TV v3.4.2 (22-Jun-16)
+------------------------
+
+- Small fixes
+
+------------------------
+Ororo TV v3.4.1 (22-Jun-16)
+------------------------
+
+- A lof of refactoring
+- Fix subtitle download window
+- Fix playback issues
+- Readd watched functionality
+
+------------------------
 Ororo TV v3.4.0 (19-Jun-16)
 ------------------------
 

@@ -325,11 +325,11 @@
     </extension>
 </addon>
 
-<addon id="script.1channel.themepak" version="0.0.7" name="1Channel Themepak" provider-name="tknorris">
+<addon id="script.1channel.themepak" version="0.0.8" name="1Channel Themepak" provider-name="tknorris">
     <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="kodi.resource" version="1.0.0"/>
     </requires>
-    <extension point="xbmc.python.module"/>
+    <extension point="kodi.resource.images" compile="false" type="themepak" />
     <extension point="xbmc.addon.metadata">
         <summary>Themes for the 1Channel/PrimeWire Addon</summary>
         <description>Themes for 1Channel are maintained separately to make distribution of the the addon itself easier/faster.</description>
@@ -494,18 +494,16 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
     </extension>
 </addon>
 
-<addon id="plugin.video.ororotv" name="Ororo TV" version="3.4.0" provider-name="ororo.tv">
+<addon id="plugin.video.ororotv" name="Ororo TV" version="3.4.4" provider-name="ororo.tv">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
-		<import addon="script.module.metahandler" version="1.0.0"/>
 		<import addon="script.module.simplejson" version="2.0.10"/>
-		<import addon="script.common.plugin.cache" version="0.9.1"/>
-		<import addon="script.module.parsedom" version="0.9.1"/>
-		<import addon="script.module.dateutil" version="2.4.2"/>
+		<import addon="script.common.plugin.cache" version="2.5.8"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
 	</extension>
+  <extension point="xbmc.subtitle.module" library="default.py" />
 	<extension point="xbmc.service" library="service.py" start="startup">
 	</extension>
 	<extension point="xbmc.addon.metadata">
@@ -651,14 +649,12 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
     </extension>
 </addon>
 
-<addon id="plugin.video.mdniter" name="niter" version="1.0.4" provider-name="Mucky Duck">
+<addon id="plugin.video.mdniter" name="niter" version="1.0.6" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.urlresolver"  version="2.1.2"/>
 	<import addon="script.module.addon.common" />
 	<import addon="script.module.metahandler" version="2.5.1"/>
 	<import addon="script.module.requests" />
-	
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
@@ -691,7 +687,7 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
   </extension>
 </addon>
 
-<addon id="plugin.video.salts" version="2.0.59" name="Stream All The Sources" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.60" name="Stream All The Sources" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
@@ -1501,7 +1497,7 @@ Addons Included
 
 <addon id="script.module.liveresolver" 
      name="LiveResolver" 
-     version="0.1.41" 
+     version="0.1.43" 
      provider-name="natko1412">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
@@ -2089,7 +2085,7 @@ Addons Included
   </extension>
 </addon>
 
-<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2016.06.18.1" provider-name="mrknow" >
+<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2016.06.18.4" provider-name="mrknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.requests" version="1.0.0" />
@@ -2304,7 +2300,7 @@ http://informaticglobalworld.altervista.org/
     </extension>
 </addon>
 
-<addon id="plugin.video.theroyalwe" name="The Royal We" provider-name="DudeHere" version="0.9.23">
+<addon id="plugin.video.theroyalwe" name="The Royal We" provider-name="DudeHere" version="0.9.24">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.simplejson" />
@@ -2396,7 +2392,7 @@ http://informaticglobalworld.altervista.org/
   </extension>
 </addon>
 
-<addon id="script.module.dudehere.routines" name="DudeHere Common Routines" provider-name="DudeHere" version="0.4.40">
+<addon id="script.module.dudehere.routines" name="DudeHere Common Routines" provider-name="DudeHere" version="0.4.46">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.addon.common" version="2.0.0" />
