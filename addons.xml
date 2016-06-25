@@ -494,11 +494,11 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
     </extension>
 </addon>
 
-<addon id="plugin.video.ororotv" name="Ororo TV" version="3.4.4" provider-name="ororo.tv">
+<addon id="plugin.video.ororotv" name="Ororo TV" version="3.4.5" provider-name="ororo.tv">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.simplejson" version="2.0.10"/>
-		<import addon="script.common.plugin.cache" version="2.5.8"/>
+		<import addon="script.common.plugin.cache" version="0.9.1"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
@@ -810,7 +810,10 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
   </extension>
 </addon>
 
-<addon id="service.subtitles.subscene" name="Subscene.com" version="1.7.0" provider-name="CrowleyAJ">
+<addon id="service.subtitles.subscene"
+       name="Subscene.com"
+       version="1.7.1"
+       provider-name="CrowleyAJ">
     <requires>
         <import addon="xbmc.python" version="2.14.0"/>
     </requires>
