@@ -1,619 +1,489 @@
-#EXTM3U
-#EXTINF:-1,AlJazeera Doc s1
-rtmp://aljazeeraflashlivefs.fplive.net/aljazeeraflashlive-live//aljazeera_doc_high
-#EXTINF:-1 ,Aljazeera Doc s2
-http://aljazeera-doc-apple-live.adaptive.level3.net/apple/aljazeera/hq-doc/800kStream.m3u8
-#EXTINF:-1 ,Abu Dhabi TV
-http://kardjo-cs.nl:8001/1:0:1:D3D3:829:2:11A0000:0:0:0:
-#EXTINF:-1,EZ TV: FRANCE 24 (AR)
-http://static.france24.com/live/F24_AR_LO_HLS/live_web.m3u8
-#EXTINF:-1, KTV 1
-rtmp://stream03.fasttelco.net:1935/live/_definst_/ktv1_480.stream
-#EXTINF:-1,KTV 2
-rtmp://stream03.fasttelco.net:1935/live/_definst_/ktv2_480.stream
-#EXTINF:-1,KTV Sport
-rtmp://stream03.fasttelco.net:1935/live/_definst_/ktv3_480.stream
-#EXTINF:-1,KTV Sport Plus
-rtmp://stream03.fasttelco.net:1935/live/_definst_/ktv4_480.stream
-#EXTINF:-1,KTV Ethraa
-rtmp://stream03.fasttelco.net:1935/live/_definst_/ktv4_480.stream
-#EXTINF:-1,KTV Arabe
-rtmp://stream03.fasttelco.net:1935/live/_definst_/ktv4_480.stream
-#EXTINF:-1,KTV Al Majlis
-rtmp://stream03.fasttelco.net:1935/live/_definst_/ktv7_480.stream
-#EXTINF:-1,KTV Plus
-rtmp://stream03.fasttelco.net:1935/live/_definst_/ktv8_480.stream
-#EXTINF:-1,AR: Osn AlYawm
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/178.ts
-#EXTINF:-1,AR: Osn Cinema 1
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/177.ts
-#EXTINF:-1,AR: Osn Cinema 2
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/176.ts
-#EXTINF:-1,AR: Osn MBC+ Drama
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/172.ts
-#EXTINF:-1,AR: Osn FNN
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1185.ts
-#EXTINF:-1,AR: Osn Yahla
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1186.ts
-#EXTINF:-1,AR: Osn Yahla Drama
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1194.ts
-#EXTINF:-1,AR: Osn Yahla Shabab
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1197.ts
-#EXTINF:-1,AR: Osn First HD
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1187.ts
-#EXTINF:-1,AR: Osn First Comdy HD
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/175.ts
-#EXTINF:-1,AR: Osn Movies Comedy
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1195.ts
-#EXTINF:-1,AR: Osn Movies Action HD
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/173.ts
-#EXTINF:-1,AR: Osn Movies Action 2 HD
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/174.ts
-#EXTINF:-1,AR: Osn Movies Premier
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1184.ts
-#EXTINF:-1,AR: Osn Movies Premier 2
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/183.ts
-#EXTINF:-1,AR: Osn Movies Drama
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1198.ts
-#EXTINF:-1,AR: Osn Movies Festival
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1192.ts
-#EXTINF:-1,AR: Osn Movies Kids
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/180.ts
-#EXTINF:-1,AR: Osn Movies Disny
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/184.ts
-#EXTINF:-1,AR: Osn Movies Disny XD
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/182.ts
-#EXTINF:-1,AR: Osn Movies GMG
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/179.ts
-#EXTINF:-1,AR: Osn Movies HD
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/171.ts
-#EXTINF:-1,AR: Osn Movie Starz
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1274.ts
-#EXTINF:-1,AR: Osn Starz Edge
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1275.ts
-#EXTINF:-1,AR: Osn Starz Family
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1273.ts
-#EXTINF:-1,AR: Osn Starz Comedy
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1272.ts
-#EXTINF:-1,AR: Osn Dinsey Junior
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1196.ts
-#EXTINF:-1,AR: Osn Star Movies
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1183.ts
-#EXTINF:-1,AR: Osn Star world
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1182.ts
-#EXTINF:-1,AR: Osn Wwe
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1266.ts
-#EXTINF:-1,AR: Osn Animal Planet
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/181.ts
-#EXTINF:-1,AR: Osn Discovry ID
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1193.ts
-#EXTINF:-1,AR: Osn Box Offiec 1
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1191.ts
-#EXTINF:-1,AR: Osn Box Offiec 2
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1190.ts
-#EXTINF:-1,AR: Osn Box Offiec 3
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1188.ts
-#EXTINF:-1,AR: Osn sport 1 wwe
-http://ipsatpro.com:8000/movie/persian.eagle/persian.eagle/1875.mp4
-#EXTINF:-1,AR: Osn sport 2 wwe
-http://ipsatpro.com:8000/movie/persian.eagle/persian.eagle/1876.mp4
-#EXTINF:-1,AR: Osn sport 3 wwe
-http://ipsatpro.com:8000/movie/persian.eagle/persian.eagle/1877.mp4
-#EXTINF:-1,AR: Osn sport 4 wwe
-http://ipsatpro.com:8000/movie/persian.eagle/persian.eagle/1878.mp4
-#EXTINF:-1,AR: Osn sport 5 wwe
-http://ipsatpro.com:8000/movie/persian.eagle/persian.eagle/1879.mp4
-#EXTINF:-1,AR: Osn sport 6 wwe
-http://ipsatpro.com:8000/movie/persian.eagle/persian.eagle/1880.mp4
-#EXTINF:-1,AR: Osn sport 7 wwe
-http://ipsatpro.com:8000/movie/persian.eagle/persian.eagle/1881.mp4
-#EXTINF:-1,AR: Osn sport 8 wwe
-http://ipsatpro.com:8000/movie/persian.eagle/persian.eagle/1882.mp4
-#EXTINF:-1,AR: Osn sport 9 wwe
-http://ipsatpro.com:8000/movie/persian.eagle/persian.eagle/1883.mp4
-#EXTINF:-1,AR: Osn sport 10 wwe
-http://ipsatpro.com:8000/movie/persian.eagle/persian.eagle/1884.mp4
-#EXTINF:-1,AR: Osn sport 11 wwe
-http://ipsatpro.com:8000/movie/persian.eagle/persian.eagle/1885.mp4
-#EXTINF:-1,AR: Osn sport 12 wwe
-http://ipsatpro.com:8000/movie/persian.eagle/persian.eagle/1886.mp4
-#EXTINF:-1,AR: Osn sport 13 wwe
-http://ipsatpro.com:8000/movie/persian.eagle/persian.eagle/1887.mp4
-#EXTINF:-1,AR: Osn sport 15 wwe
-http://ipsatpro.com:8000/movie/persian.eagle/persian.eagle/1888.mp4
-#EXTINF:-1,AR: Osn sport 16 wwe
-http://ipsatpro.com:8000/movie/persian.eagle/persian.eagle/1889.mp4
-#EXTINF:-1,AR: Osn sport 17 wwe
-http://ipsatpro.com:8000/movie/persian.eagle/persian.eagle/1890.mp4
-#EXTINF:-1,AR: Osn sport 18 wwe
-http://ipsatpro.com:8000/movie/persian.eagle/persian.eagle/1891.mp4
-#EXTINF:-1,AR: Osn sport 19 wwe
-http://ipsatpro.com:8000/movie/persian.eagle/persian.eagle/1892.mp4
-#EXTINF:-1,AR: Osn sport 20 wwe
-http://ipsatpro.com:8000/movie/persian.eagle/persian.eagle/1893.mp4
-#EXTINF:-1,AR: Osn sport 21 wwe
-http://ipsatpro.com:8000/movie/persian.eagle/persian.eagle/1894.mp4
-#EXTINF:-1,AR: Osn sport 22 wwe
-http://ipsatpro.com:8000/movie/persian.eagle/persian.eagle/1895.mp4
-#EXTINF:-1,AR: Osn sport 23 wwe
-http://ipsatpro.com:8000/movie/persian.eagle/persian.eagle/1896.mp4
-#EXTINF:-1,AR: Osn sport 24 wwe
-http://ipsatpro.com:8000/movie/persian.eagle/persian.eagle/1897.mp4
-#EXTINF:-1,AR: Mtv Lebanon
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/22.ts
-#EXTINF:-1,AR: Ldc
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/24.ts
-#EXTINF:-1,AR: OTV
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/26.ts
-#EXTINF:-1,AR: Future
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/113.ts
-#EXTINF:-1,AR: Lbc
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/88.ts
-#EXTINF:-1,AR: Nbn Lebanon
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/136.ts
-#EXTINF:-1,AR: Aljadeed
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/23.ts
-#EXTINF:-1,AR: Lebanon tv
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/102.ts
-#EXTINF:-1,AR: Manar tv
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/54.ts
-#EXTINF:-1,AR: OnTV
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/21.ts
-#EXTINF:-1,AR: Orient TV
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/27.ts
-#EXTINF:-1,AR: Sama tv
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1269.ts
-#EXTINF:-1,AR: Syria 1
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/13.ts
-#EXTINF:-1,AR: Syria TV
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/14.ts
-#EXTINF:-1,AR: Syrian Drama
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/52.ts
-#EXTINF:-1,AR: Syria Lkhbaria
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/142.ts
-#EXTINF:-1,AR: Al Rahma
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1270.ts
-#EXTINF:-1,AR: Majd
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/68.ts
-#EXTINF:-1,AR: Al Masriya
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/110.ts
-#EXTINF:-1,AR: Al Thania
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/97.ts
-#EXTINF:-1,AR: Art Aflam 1
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/105.ts
-#EXTINF:-1,AR: Art Aflam 2
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/104.ts
-#EXTINF:-1,AR: Art Hekayat
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/101.ts
-#EXTINF:-1,AR: Art Hekayat 2
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/100.ts
-#EXTINF:-1,AR: Art Cinema
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/103.ts
-#EXTINF:-1,AR: Sha3beyat
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/118.ts
-#EXTINF:-1,AR: Sha3beyat +2
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1253.ts
-#EXTINF:-1,AR: Hob Fee EL Moled
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1268.ts
-#EXTINF:-1,AR: Afrah TV
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/86.ts
-#EXTINF:-1,AR: Haysa
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/59.ts
-#EXTINF:-1,AR: Bolika
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/53.ts
-#EXTINF:-1,AR: Mazika
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/89.ts
-#EXTINF:-1,AR: 4Shbab
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/61.ts
-#EXTINF:-1,AR: Hawa Com
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1259.ts
-#EXTINF:-1,AR: Music plus
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1261.ts
-#EXTINF:-1,AR: Wanasa
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/126.ts
-#EXTINF:-1,AR: Melody Classic
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/65.ts
-#EXTINF:-1,AR: Mbc 1
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/50.ts
-#EXTINF:-1,AR: Mbc 2
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/49.ts
-#EXTINF:-1,AR: Mbc 3
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/48.ts
-#EXTINF:-1,AR: Mbc 4
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/47.ts
-#EXTINF:-1,AR: Mbc Masr
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/46.ts
-#EXTINF:-1,AR: Mbc Masr 2
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/45.ts
-#EXTINF:-1,AR: Mbc Drama
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/42.ts
-#EXTINF:-1,AR: Mbc Action
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/44.ts
-#EXTINF:-1,AR: Mbc Max
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/43.ts
-#EXTINF:-1,AR: Mbc Bollywood
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/41.ts
-#EXTINF:-1,AR: Mbc Sport 1
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1244.ts
-#EXTINF:-1,AR: Mbc Sport 2
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1245.ts
-#EXTINF:-1,AR: Mbc Sport 3
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1246.ts
-#EXTINF:-1,AR: Ad Sport 1HD
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1248.ts
-#EXTINF:-1,AR: Ad Sport 2 HD
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1249.ts
-#EXTINF:-1,AR: El Mehwer
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1247.ts
-#EXTINF:-1,AR: Nile Drama
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/76.ts
-#EXTINF:-1,AR: Nile Comedy
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/75.ts
-#EXTINF:-1,AR: Nile Cinma
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/74.ts
-#EXTINF:-1,AR: Nile Live
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/62.ts
-#EXTINF:-1,AR: Nile News
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/38.ts
-#EXTINF:-1,AR: Nile sport
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/73.ts
-#EXTINF:-1,AR: Panorama Film
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/98.ts
-#EXTINF:-1,AR: Panorama Comedy
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/155.ts
-#EXTINF:-1,AR: Panorama Drama
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/77.ts
-#EXTINF:-1,AR: Panorama Drama 2
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/25.ts
-#EXTINF:-1,AR: Cbc
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/90.ts
-#EXTINF:-1,AR: Cbc Extra
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/92.ts
-#EXTINF:-1,AR: Cbc Drama
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/91.ts
-#EXTINF:-1,AR: Rotana Mosica
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/79.ts
-#EXTINF:-1,AR: Rotana Clip
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/83.ts
-#EXTINF:-1,AR: Rotana Masriya
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/80.ts
-#EXTINF:-1,AR: Rotana Classic
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/82.ts
-#EXTINF:-1,AR: Rotana Cinma
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/81.ts
-#EXTINF:-1,AR: Rotana Khalijiah
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/72.ts
-#EXTINF:-1,AR: Dream 1
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/94.ts
-#EXTINF:-1,AR: Dream 2
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/93.ts
-#EXTINF:-1,AR: Al Nahar
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/154.ts
-#EXTINF:-1,AR: Al Nahar+ 2
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/153.ts
-#EXTINF:-1,AR: Al Nahar Drama
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/152.ts
-#EXTINF:-1,AR: Al Nahar Al Youm
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/151.ts
-#EXTINF:-1,AR: Sada ALbalad HD
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/51.ts
-#EXTINF:-1,AR: Sada Albalad Drama
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/116.ts
-#EXTINF:-1,AR: Abu Dhabi Drama
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/55.ts
-#EXTINF:-1,AR: Cairo Drama
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/85.ts
-#EXTINF:-1,AR: Cinma
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/57.ts
-#EXTINF:-1,AR: Al Emarat tv HD
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/130.ts
-#EXTINF:-1,AR: Time Comedy
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/150.ts
-#EXTINF:-1,AR: Alhayat 1
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/109.ts
-#EXTINF:-1,AR: Alhayat 2
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/111.ts
-#EXTINF:-1,AR: Alhayat Cinma
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/144.ts
-#EXTINF:-1,AR: Alhayat Series
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/108.ts
-#EXTINF:-1,AR: Alkahera wal nas
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/141.ts
-#EXTINF:-1,AR: Alkahera wal nas 2
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/30.ts
-#EXTINF:-1,AR: TEN
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/87.ts
-#EXTINF:-1,AR: TEN +2
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/34.ts
-#EXTINF:-1,AR: Time Cinema
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/115.ts
-#EXTINF:-1,AR: Star Cinema 1
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/99.ts
-#EXTINF:-1,AR: Star Cinema 2
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/78.ts
-#EXTINF:-1,AR: Masraweya_Aflam
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1271.ts
-#EXTINF:-1,AR: Majestic Cinema
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/156.ts
-#EXTINF:-1,AR: Cima Alibaba
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/119.ts
-#EXTINF:-1,AR: LCD Movies
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/124.ts
-#EXTINF:-1,AR: Time Taxi
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/120.ts
-#EXTINF:-1,AR: Time Film
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/112.ts
-#EXTINF:-1,AR: Cairo Cinema
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/84.ts
-#EXTINF:-1,AR: Cinema_Pro
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1260.ts
-#EXTINF:-1,AR: TokTok Cinma
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/64.ts
-#EXTINF:-1,AR: C sat 2
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/71.ts
-#EXTINF:-1,AR: Sat 7
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1257.ts
-#EXTINF:-1,AR: Centre Zahra tv
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1226.ts
-#EXTINF:-1,AR: Funoon
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/127.ts
-#EXTINF:-1,AR: Nat Geoa
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/31.ts
-#EXTINF:-1,AR: Sama Dubai
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/29.ts
-#EXTINF:-1,AR: Abu Dhabi Emarat
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/39.ts
-#EXTINF:-1,AR: Dubai Aloula
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/40.ts
-#EXTINF:-1,AR: Dubai Sport
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/70.ts
-#EXTINF:-1,AR: Dubai one
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/148.ts
-#EXTINF:-1,AR: Dubai Drama
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/145.ts
-#EXTINF:-1,AR: Dubai Zaman
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/146.ts
-#EXTINF:-1,AR: Noor Dubai tv
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/147.ts
-#EXTINF:-1,AR: Spacetoon
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/114.ts
-#EXTINF:-1,AR: Majd Kids HD
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/131.ts
-#EXTINF:-1,AR: Toyor Aljanah
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/129.ts
-#EXTINF:-1,AR: Baraem
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/95.ts
-#EXTINF:-1,AR: Karameesh
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/96.ts
-#EXTINF:-1,AR: Sharqiya
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/133.ts
-#EXTINF:-1,AR: Baghdadia 2
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/137.ts
-#EXTINF:-1,AR: Sumaria TV
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1251.ts
-#EXTINF:-1,AR: Ishtar tv
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1256.ts
-#EXTINF:-1,AR: iraq tv
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1254.ts
-#EXTINF:-1,AR: National Geographic
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/56.ts
-#EXTINF:-1,AR: Hona baghdad
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1250.ts
-#EXTINF:-1,AR: ALShqrqiya News
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1252.ts
-#EXTINF:-1,AR: Fujera
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1255.ts
-#EXTINF:-1,AR: Al Rasheed
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/69.ts
-#EXTINF:-1,AR: Al Aoula Maroc
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/140.ts
-#EXTINF:-1,AR: 2m maroc
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/135.ts
-#EXTINF:-1,AR: Arriadia Maroc
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/32.ts
-#EXTINF:-1,AR: Almaghribia
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/139.ts
-#EXTINF:-1,AR: Tamazight Maroc
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/106.ts
-#EXTINF:-1,AR: Assadisa Maroc
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/67.ts
-#EXTINF:-1,AR: Nessma
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/28.ts
-#EXTINF:-1,AR: Zaytoona
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/17.ts
-#EXTINF:-1,AR: Al Djazairia
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/63.ts
-#EXTINF:-1,AR: Elhiwar Ettounsia
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/60.ts
-#EXTINF:-1,AR: Tunssia 1
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/15.ts
-#EXTINF:-1,AR: Tunssia 2
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/16.ts
-#EXTINF:-1,AR: Al Nsan
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/143.ts
-#EXTINF:-1,AR: TNN Tunisia
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/134.ts
-#EXTINF:-1,AR: Ettounsia
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/132.ts
-#EXTINF:-1,AR: M Tunis
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/20.ts
-#EXTINF:-1,AR: Tunis First
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/19.ts
-#EXTINF:-1,AR: Echorouk tv
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/138.ts
-#EXTINF:-1,AR: Sharqia News
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1258.ts
-#EXTINF:-1,AR: Hannibal
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/107.ts
-#EXTINF:-1,AR: Elheddaf
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1267.ts
-#EXTINF:-1,AR: Canal Algerie
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/122.ts
-#EXTINF:-1,AR: kbc algeria
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/123.ts
-#EXTINF:-1,AR: Algeria 3
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/121.ts
-#EXTINF:-1,AR: Alnahar algeria
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/125.ts
-#EXTINF:-1,AR: Cartoon Network
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/117.ts
-#EXTINF:-1,AR: Sudan TV
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/157.ts
-#EXTINF:-1,AR: palestine
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/128.ts
-#EXTINF:-1,AR: ALqudis
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/149.ts
-#EXTINF:-1,AR: Alarabiya
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/37.ts
-#EXTINF:-1,AR: Al Mayaden
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/58.ts
-#EXTINF:-1,AR: Russia Alyaum
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/66.ts
-#EXTINF:-1,AR: Aljazera News
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/36.ts
-#EXTINF:-1,AR: Aljazera Mobashir
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/33.ts
-#EXTINF:-1,AR: Sky News HD
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/18.ts
-#EXTINF:-1,AR: ALarabia Hadath
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/35.ts
-#EXTINF:-1,AR: Kurd KNN
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1243.ts
-#EXTINF:-1,AR: Kurd Yol Tv
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1239.ts
-#EXTINF:-1,AR: Kurd tv10
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1241.ts
-#EXTINF:-1,AR: Kurd Sterk Tv
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1227.ts
-#EXTINF:-1,AR: Kurd sat TV
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1236.ts
-#EXTINF:-1,AR: Kurd sat News TV
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1235.ts
-#EXTINF:-1,AR: Kurd Ronahi Tv
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1229.ts
-#EXTINF:-1,AR: Kurd NRT2 TV
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1238.ts
-#EXTINF:-1,AR: Kurd NRT TV
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1237.ts
-#EXTINF:-1,AR: Kurd Newroz Tv
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1233.ts
-#EXTINF:-1,AR: Kurd Med Muzîk Tv
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1230.ts
-#EXTINF:-1,AR: Kurd max TV
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1242.ts
-#EXTINF:-1,AR: Kurd Haber TÃ¼rk
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1232.ts
-#EXTINF:-1,AR: Kurd Gali
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1228.ts
-#EXTINF:-1,AR: Kurd rudaw HD
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1240.ts
-#EXTINF:-1,AR: Kurd Cira Tv
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1234.ts
-#EXTINF:-1,AR: Kurd Cihan TV HD
-http://ipsatpro.com:8000/live/persian.eagle/persian.eagle/1231.ts
+
 
 #EXTM3U
-#EXTINF:-1,panorama 1
-rtmp://web5.iptv-planet.com:1937/live2/pd?hashedkey=084104117032074117110032048057032048053032050049
-#EXTINF:-1,panorama 2
-rtmp://web5.iptv-planet.com:1937/live2/pd2?hashedkey=084104117032074117110032048057032048053032050049
-#EXTINF:-1,Rotana Clip
-rtmp://web3.iptv-planet.com:1937/live2/rc?hashedkey=084104117032074117110032048057032048053032050054
-#EXTINF:-1,cbc
-rtmp://web4.iptv-planet.com:1937/live2/cbc?hashedkey=084104117032074117110032048057032048053032050049
-#EXTINF:-1,cbc drama
-rtmp://web4.iptv-planet.com:1937/live2/cbcd?hashedkey=084104117032074117110032048057032048053032050049
-#EXTINF:-1,[COLOR red]mbc action[/COLOR]
-rtmp://web5.iptv-planet.com:81/live2/Hi_mbcaction?hashedkey=084104117032074117110032048057032048053032050048
-#EXTINF:-1,hanibbal
-rtmp://web4.iptv-planet.com:1937/live2/h?hashedkey=084104117032074117110032048057032048053032050048
-#EXTINF:-1,tunisia 1
-rtmp://web1.iptv-planet.com:1937/live2/t1?hashedkey=084104117032074117110032048057032048053032050049
-#EXTINF:-1,tunisia 2
-rtmp://web1.iptv-planet.com:81/live2/t2?hashedkey=084104117032074117110032048057032048053032050049
-#EXTINF:-1,[COLOR red]mbc 1[/COLOR]
-rtmp://web1.iptv-planet.com:81/live2/Hi_mbc1?hashedkey=084104117032074117110032048057032048053032049056
-#EXTINF:-1,mbc masr
-rtmp://web5.iptv-planet.com:1937/live2/mbcmasr?hashedkey=084104117032074117110032048057032048053032049056
-#EXTINF:-1,[COLOR red]mbc drama[/COLOR]
-rtmp://web3.iptv-planet.com:81/live2/Hi_mbcdrama?hashedkey=084104117032074117110032048057032048053032049057
-#EXTINF:-1,mbc max
-rtmp://web3.iptv-planet.com:1937/live2/Hi_mbcmax?hashedkey=084104117032074117110032048057032048053032049053
-#EXTINF:-1,mbc 2
-rtmp://web4.iptv-planet.com:1937/live2/Hi_mbc2?hashedkey=084104117032074117110032048057032048053032049052
-#EXTINF:-1,mbc 3
-rtmp://web1.iptv-planet.com:1937/live2/Hi_mbc3?hashedkey=084104117032074117110032048057032048053032049049
-#EXTINF:-1,mbc 4
-http://63.237.48.3/ios/MBC_4/MBC_4.m3u8
-#EXTINF:-1,[COLOR red]Dzair TV[/COLOR]
-rtmp://web3.iptv-planet.com:81/live2/dzair_tv?hashedkey=084104117032074117110032048057032048053032052054
-#EXTINF:-1,[COLOR red]Cairo Cinema[/COLOR]
-rtmp://web3.iptv-planet.com:81/live2/cc?hashedkey=084104117032074117110032048057032048053032052054
-#EXTINF:-1,[COLOR red]Cairo Drama[/COLOR]
-rtmp://web3.iptv-planet.com:81/live2/cd?hashedkey=084104117032074117110032048057032048053032052054
-#EXTINF:-1,Sky news arabia
-http://skynewsl.skynews.cshls.lldns.net/skynews/skynewsl/skynewsl/skynewsl_800.m3u8
-#EXTINF:-1,beINSPORTSMax1
-http://163.172.17.191:5890/live/azize/azize/1797.ts
-#EXTINF:-1,beINSPORTSMax2
-http://163.172.17.191:5890/live/azize/azize/1796.ts
-#EXTINF:-1,AR-Beinsport9
-http://cp.dmbshare.net:8000/live/cotton/cotton/5920.ts
-#EXTINF:-1,AR-Beinsport8
-http://cp.dmbshare.net:8000/live/cotton/cotton/5919.ts
-#EXTINF:-1,AR-Beinsport7
-http://cp.dmbshare.net:8000/live/cotton/cotton/5918.ts
-#EXTINF:-1,AR-Beinsport6
-http://cp.dmbshare.net:8000/live/cotton/cotton/5917.ts
-#EXTINF:-1,AR-Beinsport5
-http://cp.dmbshare.net:8000/live/cotton/cotton/5916.ts
-#EXTINF:-1,AR-Beinsport4
-http://cp.dmbshare.net:8000/live/cotton/cotton/5915.ts
-#EXTINF:-1,AR-Beinsport3
-http://cp.dmbshare.net:8000/live/cotton/cotton/5914.ts
-#EXTINF:-1,AR-Beinsport2
-http://cp.dmbshare.net:8000/live/cotton/cotton/5913.ts
-#EXTINF:-1,AR-Beinsport10
-http://cp.dmbshare.net:8000/live/cotton/cotton/5921.ts
-#EXTINF:-1,AR-Beinsport1
-http://cp.dmbshare.net:8000/live/cotton/cotton/5912.ts
-#EXTINF: -1,BeinSport-Full-HD1
-http://sat.010e.net:8000/live/7787/7787/333.ts
-#EXTINF: -1,BeinSport-Full-HD2
-http://sat.010e.net:8000/live/7787/7787/334.ts
-#EXTINF: -1,BeinSport-Full-HD3
-http://sat.010e.net:8000/live/7787/7787/335.ts
-#EXTINF: -1,BeinSport-Full-HD4
-http://sat.010e.net:8000/live/7787/7787/336.ts
-#EXTINF: -1,BeinSport-Full-HD5
-http://sat.010e.net:8000/live/7787/7787/337.ts
-#EXTINF: -1,BeinSport-Full-HD6
-http://sat.010e.net:8000/live/7787/7787/338.ts
-#EXTINF: -1,BeinSport-Full-HD7
-http://sat.010e.net:8000/live/7787/7787/339.ts
-#EXTINF: -1,BeinSport-Full-HD8
-http://sat.010e.net:8000/live/7787/7787/340.ts
-#EXTINF: -1,BeinSport-Full-HD9
-http://sat.010e.net:8000/live/7787/7787/341.ts
-#EXTINF: -1,BeinSport-Full-HD10
-http://sat.010e.net:8000/live/7787/7787/342.ts
-#EXTINF: -1, BeinSport-Low_1
-http://sat.010e.net:8000/live/7787/7787/258.ts
-#EXTINF: -1,BeinSport-Low_2
-http://sat.010e.net:8000/live/7787/7787/259.ts
-#EXTINF: -1,BeinSport-Low_3
-http://sat.010e.net:8000/live/7787/7787/260.ts
-#EXTINF: -1,BeinSport-Low_4
-http://sat.010e.net:8000/live/7787/7787/261.ts
-#EXTINF: -1,BeinSport-Low_5
-http://sat.010e.net:8000/live/7787/7787/262.ts
-#EXTINF: -1,BeinSport-Low_6
-http://sat.010e.net:8000/live/7787/7787/263.ts
-#EXTINF: -1,BeinSport-Low_7
-http://sat.010e.net:8000/live/7787/7787/264.ts
-#EXTINF: -1,BeinSport-Low_8
-http://sat.010e.net:8000/live/7787/7787/265.ts
-#EXTINF: -1,BeinSport-Low_9
-http://sat.010e.net:8000/live/7787/7787/266.ts
-#EXTINF: -1,BeinSport-Low_10
-http://sat.010e.net:8000/live/7787/7787/267.ts
+
+
+
+#EXTINF:-1,[COLOR orange]--★ http://mg.esy.es/Kodi/ ★--[/COLOR]
+http://0.0.0.0:1234
+
+
+#EXTINF:-1,[COLOR yellow][I][B]Some channels may not work, have some buffer[/B][/I][/COLOR]
+
+
+#EXTINF:-1,[COLOR yellow][I][B]or goes down after a few seconds[/B][/I][/COLOR]
+
+
+#EXTINF:-1,1121
+http://www.tvspice.com/videogallery/al-jazeera/
+
+
+
+#EXTINF:-1,[COLOR orange]---★ Temporary Channels ★---[/COLOR]
+http://0.0.0.0:1234
+
+#EXTINF:-1 tvg-id="1a40f67027df663ef7af9114b763317e",Al Jazeera
+http://83.154.1.34:9981/stream/channelid/1895186458?ticket=4EC411C4289A383D359BF370CD1C3BDE00A351BF&profile=pass
+#EXTINF:-1 tvg-id="c426f92114643dd4b40effbe4a1c653b",Al Jazeera Documentary
+http://83.154.1.34:9981/stream/channelid/569976516?ticket=C6BE1A07A8CABA553D4D33A7FC1ED526EE838F56&profile=pass
+#EXTINF:-1 tvg-id="656ff9fe0442091ac0c243d22bc273c9",Al Jazeera Intl
+http://83.154.1.34:9981/stream/channelid/2130276197?ticket=73358479C09264124F27DD653F2D82F292C07138&profile=pass
+#EXTINF:-1 tvg-id="1c8a0e2005398957815824ae7081e8d4",Al Jazeera Mubasher
+http://83.154.1.34:9981/stream/channelid/537823772?ticket=2B141F3FF97015CFD5BB87F556F72E4C1491F9B6&profile=pass
+#EXTINF:-1 tvg-id="9d22d8a12b530e619f1ec84598ae70a3",Al Magharibia
+http://83.154.1.34:9981/stream/channelid/567812765?ticket=13440A153F68B19A07CC90DEC5B3901E99A08964&profile=pass
+#EXTINF:-1 tvg-id="a643b619d1509cc7d9bf2236965c9d29",AL-MAYADEEN
+http://83.154.1.34:9981/stream/channelid/431375270?ticket=FE01D765B2F504B1EBF27397C219CD40100C2BF3&profile=pass
+#EXTINF:-1 tvg-id="d4837966f3f719c3d25c07d166d0ad79",KALEMEH TV
+http://83.154.1.34:9981/stream/channelid/1719239636?ticket=21D6E416836CC75279AC6CECF8C6A7D85B709186&profile=pass
+#EXTINF:-1 tvg-id="fad81260c38689c71ebef44b57c3b289",Mekameleen TV
+http://83.154.1.34:9981/stream/channelid/1611847930?ticket=147952D14244BC2EBE9030B73C48EE24D7013B25&profile=pass
+#EXTINF:-1 tvg-id="d68b7ccbaaeeb40b6d92ca832e501a2d",Saamen Tv
+http://83.154.1.34:9981/stream/channelid/1266453462?ticket=CE9BE2970ABDFF67CBEEEDF4C9E604FAF84ABCED&profile=pass
+#EXTINF:-1 tvg-id="b7626f0798117f94eebbeb3bc18adcaf",CANAL+ HD
+http://83.154.1.34:9981/stream/channelid/124740279?ticket=FAFC528B3A26E9600C746142A4D89FA60D25B1FE&profile=pass
+#EXTINF:-1 tvg-id="89418a1919c54c9b169cb5ec6d3cb4bd",FILMBOX HD
+http://83.154.1.34:9981/stream/channelid/428491145?ticket=F11E746F4F714C8400B12DA6ED2DB9588183A0D9&profile=pass
+#EXTINF:-1 tvg-id="34dce6906be2c17df5077ad0aa3e471d",ESP HD
+http://83.154.1.34:9981/stream/channelid/283565108?ticket=5B29383B8A89BC3BD7634037E034FEBC7AD21CC1&profile=pass
+#EXTINF:-1 tvg-id="e92453ca7815ee97a16631cb22dde406",EUROSPORT HD
+http://83.154.1.34:9981/stream/channelid/1246962921?ticket=EFCC84BFB10A603B304E989BABA207BCFCC9FACE&profile=pass
+#EXTINF:-1 tvg-id="cf71157dc1d5429b48bc87f91e217f0f",Samira TV
+http://83.154.1.34:9981/stream/channelid/2098557391?ticket=1DEE3AD76A65F6F4AF3133C2F6FC299E8D8D61C7&profile=pass
+#EXTINF:-1 tvg-id="49a2c5ccf2102aaa26a2d8c96a11385d",Rotana
+http://83.154.1.34:9981/stream/channelid/1288020553?ticket=A34CFA9244134FFC26B9313D07072F4DD8ED5ED3&profile=pass
+#EXTINF:-1 tvg-id="926bff09c858575df65a41e0e59eb00a",Rotana Clip
+http://83.154.1.34:9981/stream/channelid/167734162?ticket=166F13E0BF3EBAE7080408EDD53FD5F8B32485FD&profile=pass
+#EXTINF:-1 tvg-id="91429d1677ac5224cb99843b3a046879",Test
+http://83.154.1.34:9981/stream/channelid/379404945?ticket=0DB159BB85D073EE852D2C0609AD0178508A7F61&profile=pass
+#EXTINF:-1 tvg-id="a3028df2f55e58f631c57d009009e42b",Rotana Khalijiah
+http://83.154.1.34:9981/stream/channelid/1921843875?ticket=2E3987622CE3B52B0D28742306BDEA134BB209C7&profile=pass
+#EXTINF:-1 tvg-id="d253447ff3103615e42c6a07369d4bfb",Rotana Classic
+http://83.154.1.34:9981/stream/channelid/2135184338?ticket=9F2F946D6F0079B0A391FF8E3D06AFE7CC6B63C8&profile=pass
+#EXTINF:-1 tvg-id="bc31a992a35d6fa510b2eb7d1b7e14c2",Rotana Masriya
+http://83.154.1.34:9981/stream/channelid/313078204?ticket=A654273D52D54D3DB793682AE3A270812F114B18&profile=pass
+#EXTINF:-1 tvg-id="890b83c5bf805d0068a1b6865e656a18",Rotana Cinema EGY
+http://83.154.1.34:9981/stream/channelid/1166216073?ticket=5260197D92A68DBBD689F5496B92DF2196884FC3&profile=pass
+#EXTINF:-1 tvg-id="e4f8f47047ab56d5f9a00625d541d816",Test
+http://83.154.1.34:9981/stream/channelid/1895102692?ticket=1B56AAFB7E1B97BF911E25B7C5253C637AA43EE4&profile=pass
+#EXTINF:-1 tvg-id="823326b8e7fc7f577592e0d9af357168",Rotana Cinema KSA
+http://83.154.1.34:9981/stream/channelid/942027650?ticket=EF9E21AF5ADAC4FB443F90090094728DC0C93ED7&profile=pass
+#EXTINF:-1 tvg-id="aaecd0a4cdb7a4fba56bded2a8ba1ebb",AL Resala
+http://83.154.1.34:9981/stream/channelid/617671850?ticket=8A855C05DD15659CD45A51F78649A72FB474A0AC&profile=pass
+#EXTINF:-1 tvg-id="a44efbc36964ae755b5d7a13ceac46e3",Test
+http://83.154.1.34:9981/stream/channelid/1140543140?ticket=045A25AB15B0E89B90959799A55DB7789257A84E&profile=pass
+
+
+#EXTINF:-1,[COLOR red][I][B]---------------------------------------------------------------[/B][/I][/COLOR]
+
+
+#EXTINF:-1,[COLOR yellow]--- ARABIC CHANNELS ---[/COLOR]
+http://0.0.0.0:1234
+
+#EXTINF:-1,MBC 2
+http://51.255.81.190:8080/MBC-2/playlist.m3u8
+#EXTINF:-1,MBC ACTION
+http://51.255.81.190:8080/MBC-Action/playlist.m3u8
+#EXTINF:-1,MBC Bollywood
+http://51.255.81.190:8080/MBC-Bollywood/playlist.m3u8
+#EXTINF:-1,bein Movies 1
+http://51.255.81.190:8080/Bein-MOVIES-1/playlist.m3u8
+#EXTINF:-1,OSN Movies Action
+http://51.255.81.190:8080/OSN_MOVIES_ACTION/playlist.m3u8
+#EXTINF:-1,OSN Movies
+http://51.255.81.190:8080/OSN_MOVIES/playlist.m3u8
+ 
+#EXTINF:-1,Dubai One
+http://dmivll.mangomolo.com/dubaione/smil:dubaione.smil/playlist.m3u8
+ 
+#EXTINF:-1,Dubai TV
+http://dmi.mangomolo.com:1935/dubaitv/smil:dubaitv.smil/playlist.m3u8
+ 
+#EXTINF:-1,AL Arabiya
+http://alarabiya-geo-live.hls.adaptive.level3.net/hls-live/alarabiya-channel01/_definst_/live/stream1.m3u8
+ 
+#EXTINF:-1,Al Hadath
+http://alhadath-geo-live.hls.adaptive.level3.net/hls-live/alhadath-channel01/_definst_/live/stream1.m3u8
+ 
+#EXTINF:-1,Al Aan TV
+http://alaan.cdn.mangomolo.com/alaantv/smil:switch.smil/playlist.m3u8
+ 
+#EXTINF:-1,RT Arabic
+http://rt-a.akamaihd.net/ch_03@325607/master.m3u8
+ 
+#EXTINF:-1,Sama Dubai
+http://dmivll.mangomolo.com/samadubai/smil:samadubai.smil/playlist.m3u8
+ 
+#EXTINF:-1,Dubai Drama
+http://dmivll.mangomolo.com/dubaidrama/smil:dubaidrama.stream.smil/playlist.m3u8
+ 
+#EXTINF:-1,Imagine Movies
+http://2.109.65.143/masa/14328.m3u8
+ 
+#EXTINF:-1,Noor Dubai TV
+http://dmi.mangomolo.com:1935/noordubaitv/smil:noordubaitv.smil/chunklist_w932561967_b1200000.m3u8
+ 
+#EXTINF:-1,Al Dafrah
+http://live.aldafrah.tv:1935/live/myStream3/.m3u8
+ 
+#EXTINF:-1,MBC 2
+http://51.255.81.190:8080/MBC-2/playlist.m3u8
+ 
+#EXTINF:-1,MBC Action
+http://51.255.81.190:8080/MBC-Action/playlist.m3u8
+ 
+#EXTINF:-1,MBC Bollywood
+http://51.255.81.190:8080/MBC-Bollywood/playlist.m3u8
+ 
+#EXTINF:-1,Dubai Zaman
+http://dmivll.mangomolo.com/dubaizaman/smil:dubaizaman.stream.smil/chunklist_b1200000.m3u8
+ 
+#EXTINF:-1,Sharjah
+http://livestreaming.itworkscdn.net/smc1live/smc1tv/playlist.m3u8
+ 
+#EXTINF:-1,Orient News
+http://ls01.orienths.org/hls-live/livepkgr/_definst_/liveevent/live_ios.m3u8
+ 
+#EXTINF:-1,Peace TV
+http://peace.fms.visionip.tv/live//b2b-peace_usa-live-25f-4x3-sdh_1/playlist.m3u8
+ 
+#EXTINF:-1,Citruss TV
+http://live.citrusstv.com/live/watch/chunklist_w2069397388.m3u8
+ 
+#EXTINF:-1,Dubai Racing 1
+http://dmivll.mangomolo.com/events/smil:events.smil/chunklist_b1200000.m3u8
+ 
+#EXTINF:-1,Dubai Sports HD
+http://dmiftvll.mangomolo.com/dubaisportshd/smil:dubaisportshd.smil/chunklist_b2000000.m3u8
+ 
+#EXTINF:-1,Sharjah Sports
+http://livestreaming.itworkscdn.net/smc4sportslive/smc4tv/playlist.m3u8
+ 
+#EXTINF:-1,CNA (Algeria)
+http://str81.creacast.com:80/cna/live.sdp/playlist.m3u8
+ 
+#EXTINF:-1,Ennahar TV (Algeria)
+http://live.ennahartv.net/endz/EnnaharTV/chunklist.m3u8
+ 
+#EXTINF:-1,El Bilad TV (Algeria)
+http://elbilad.streamakaci.com/elbilad/elbilad.stream/playlist.m3u8
+ 
+#EXTINF:-1,Bahrain TV
+http://iaa.flashmediacast.com:2387/live/International/chunklist_w405249386.m3u8
+ 
+#EXTINF:-1,Bahrain Int.
+http://iaa.flashmediacast.com:2387/live/Channel-55/chunklist_w810367281.m3u8
+ 
+#EXTINF:-1,Bahrain Sports
+http://iaa.flashmediacast.com:2387/live/Sports/chunklist_w314573105.m3u8
+ 
+ 
+#EXTINF:-1,Al Hayat (Egypt)
+http://media.islamexplained.com:1935/live/_definst_mp4:ahme.stream_360p/playlist.m3u8
+ 
+#EXTINF:-1,Al Hayat 2 (Egypt)
+http://media.islamexplained.com:1935/live/ngrp:ahusa.stream_all/BratuMarian.m3u8
+ 
+#EXTINF:-1,Al Nahar One (Egypt)
+http://stream138.n-stream.tv:1935/naharch/nahar_tvprofile2.stream/index.m3u8
+ 
+#EXTINF:-1,Al Nahar Alyoum (Egypt)
+http://stream138.n-stream.tv:1935/naharch/nahar_youmprofile2.stream/index.m3u8
+ 
+#EXTINF:-1,Al Nahar Cinema (Egypt)
+http://stream138.n-stream.tv:1935/naharch/nahar_sportprofile2.stream/index.m3u8
+ 
+#EXTINF:-1,Al Nahar Drama (Egypt)
+http://stream138.n-stream.tv:1935/naharch/nahar_dramaprofile2.stream/index.m3u8
+ 
+#EXTINF:-1,Alahly TV (Egypt)
+http://2.109.65.143/masa/14302.m3u8
+ 
+#EXTINF:-1,Al Kahera 2 (Egypt)
+http://2.109.65.143/masa/14306.m3u8
+ 
+#EXTINF:-1,El Mehwar TV (Egypt)
+http://38.111.46.40:8134/hls-live/MehwarTV/_definst_/liveevent/livestream.m3u8?v=1096642953
+ 
+#EXTINF:-1,El Sharq (Egypt)
+http://188.166.156.26:8081/elsharqtv_main/main/elsharqtv_main/live/playlist.m3u8
+ 
+#EXTINF:-1,Mekameleen (Egypt)
+http://mn-i.mncdn.com/mekameleen_ios/smil:mekameleen_ios.smil/playlist.m3u8
+ 
+#EXTINF:-1,Sat7 1 Arabic (Egypt)
+http://208.93.113.90:1935/sat7arabic/sat7arabic1/index.m3u8
+ 
+#EXTINF:-1,Sat7 Kids (Egypt)
+http://unirtmp.tulix.tv:1935/sat7kids/sat7kids1/playlist.m3u8
+ 
+#EXTINF:-1,Al Baghdadia 1 (Iraq)
+http://5.196.84.213:8888/al_baghdadia.m3u8?idu=ukselim_85646860650
+ 
+#EXTINF:-1,Al-Baghdadia 2 (Iraq)
+http://5.196.84.213:8888/al_baghdadia_2.m3u8?idu=ukselim_85646860650
+ 
+#EXTINF:-1,NRT 1 HD (Iraq)
+http://prxy-wza-02.iptv-playoutcenter.de/nrt1/nrt1.stream_1/chunklist_w76649285.m3u8
+ 
+#EXTINF:-1,NRT 2 (Iraq)
+http://prxy-wza-02.iptv-playoutcenter.de/nrt2/nrt2.stream_1/chunklist_w1757825996.m3u8
+ 
+#EXTINF:-1,Al Sumariya (Iraq)
+http://osltv.zackapps.com/apps/best/alsumaria.php?id=osltv
+ 
+#EXTINF:-1,Shabab TV (Iraq)
+http://2.109.65.143/masa/14316.m3u8
+ 
+#EXTINF:-1,Al Forat (Iraq)
+http://alforatlive.nanocdn.com:1935/live/alforat256/BratuMarian.m3u8
+ 
+#EXTINF:-1 tvg-logo="http://www.lyngsat-logo.com/logo/tv/aa/alhurra_tv_iq.png",Alhurra TV HD  (Iraq)
+rtmp://cp51007.live.edgefcs.net/live?ovpfv=2.1.6/Alhurra_Iraq_Flash@7095
+ 
+#EXTINF:-1,Iraqia Amma (Iraq)
+http://iphone-streaming.ustream.tv/ustreamVideo/22169553/streams/live/playlist.m3u8
+ 
+#EXTINF:-1,Speda Channel (Iraq)
+http://2.109.65.143/masa/14342.m3u8
+ 
+#EXTINF:-1,Jordan TV
+http://stream2.joinvisions.net:1935/jorlive//jrtv/playlist.m3u8
+ 
+#EXTINF:-1,Taghier (Jordan)
+http://stream1.joinvisions.net:1935/taglive/taghier/media_b340674_w2040724908.m3u8
+ 
+#EXTINF:-1,Al Yawm (Jordan)
+http://live.paltoday.tv:1935/paltv/live/gmswf.m3u8
+ 
+ 
+#EXTINF:-1,Kuwait TV1 HD
+http://stream03.fasttelco.net:1935/live/_definst_/ktv1_480.stream/chunklist_w716966488.m3u8
+ 
+#EXTINF:-1,Kuwait TV2
+http://stream03.fasttelco.net:1935/live/_definst_/ktv2_480.stream/chunklist_w359517304.m3u8
+ 
+#EXTINF:-1,KTV5 Ethraa (Kuwait)
+http://stream03.fasttelco.net:1935/live/_definst_/ktv5_480.stream/chunklist_w2026955947.m3u8
+ 
+#EXTINF:-1,KTV6 AL Arabi (Kuwait)
+http://stream03.fasttelco.net:1935/live/_definst_/ktv6_480.stream/chunklist_w908056813.m3u8
+ 
+#EXTINF:-1,KTV7 Al Majlis (Kuwait)
+http://stream03.fasttelco.net:1935/live/_definst_/ktv7_480.stream/chunklist_w1118445916.m3u8
+ 
+#EXTINF:-1,KTV8 Plus (Kuwait)
+http://stream03.fasttelco.net:1935/live/_definst_/ktv8_480.stream/chunklist_w195514876.m3u8
+ 
+#EXTINF:-1 tvg-logo="http://www.lyngsat-logo.com/logo/tv/aa/al_kout_tv_kw.png",Al Kout (Kuwait)
+rtmp://66.23.237.233:1935/alkout/alkout
+ 
+#EXTINF:-1,Al Resalah (Kuwait)
+http://2.109.65.143/masa/14320.m3u8
+ 
+#EXTINF:-1,KTV Sport HD (Kuwait)
+http://stream03.fasttelco.net:1935/live/_definst_/ktv3_480.stream/playlist.m3u8
+ 
+#EXTINF:-1,KTV Sport Plus (Kuwait)
+http://stream03.fasttelco.net:1935/live/_definst_/ktv4_480.stream/chunklist_w1664666067.m3u8
+ 
+#EXTINF:-1,Aghani TV (Lebanon)
+http://66.135.32.50/aghanitv/aghanitv/chunklist_w775380517.m3u8
+ 
+#EXTINF:-1,LBC Europe (Lebanon)
+http://osltv.zackapps.com/apps/best/labenon.php?id=osltv
+ 
+#EXTINF:-1,MTV (Lebanon)
+http://livestreaming1.itworkscdn.net/mtvlive/smil:mtvmob.smil/playlist.m3u8
+ 
+#EXTINF:-1,Aljadeed (Lebanon)
+http://livestreaming.itworkscdn.net/aljadeedlive/aljadeed_360p/playlist.m3u8
+ 
+#EXTINF:-1,Future TV (Lebanon)
+http://futuretv.cdn.mangomolo.com/futuretv/smil:futuretv.smil/gmswf.m3u8
+ 
+#EXTINF:-1,OTV (Lebanon)
+http://livestreaming.itworkscdn.net/otvmobile/otvlive_1/playlist.m3u8
+ 
+#EXTINF:-1,Almanar TV (Lebanon)
+http://live.mediaforall.net:1935/liveorigin/livestream_480p/playlist.m3u8
+ 
+#EXTINF:-1,Libya 2
+http://173.224.120.161:1935/live/myStream/gmswf.m3u8
+ 
+#EXTINF:-1,Al Nabaa (Libya)
+http://wpc.C1A9.edgecastcdn.net/hls-live/20C1A9/al_nabaa/ls_satlink/b_,264,528,828,.m3u8
+ 
+#EXTINF:-1,ORTM (Mali)
+http://xmaliactux.api.channel.livestream.com/3.0/playlist.m3u8
+ 
+#EXTINF:-1,Al Maghribya (Morocco)
+http://almaghribya-tv.scdn.arkena.com/almaghribya.isml/almaghribya-audio101_fra=64000-video=350000.m3u8
+ 
+#EXTINF:-1,Al Aoula Int. (Morocco)
+http://alaoulainter-tv.scdn.arkena.com/alaoulainter.isml/alaoulainter-audio101=64000-video=350000.m3u8
+ 
+#EXTINF:-1,Arriadia TV3 (Morocco)
+http://arriadia-tv.scdn.arkena.com/arriadia.isml/arriadia-audio101=64000-video=1130000.m3u8
+ 
+#EXTINF:-1,Arrabiaa TV4 (Morocco)
+http://arrabiaa-tv.scdn.arkena.com/arrabiaa.isml/MOROCCOPES.m3u8
+ 
+#EXTINF:-1,Tamazight TV8 (Morocco)
+http://tamazight-tv.scdn.arkena.com/tamazight.isml/MOROCCOPES.m3u8
+ 
+#EXTINF:-1,Assadissa (Morocco)
+http://assadissa-tv.scdn.arkena.com/assadissa.isml/MOROCCOPES.m3u8
+ 
+#EXTINF:-1 tvg-logo="http://www.lyngsat-logo.com/hires/oo/oman_tv.png",Oman Tv
+rtmp://38.96.148.30/live/omantv1
+ 
+#EXTINF:-1,Oman tv 3
+http://38.96.148.30:1935/live/omantv3/playlist.m3u8
+ 
+#EXTINF:-1,Oman tv 4
+http://38.96.148.30:1935/live/omantv4/playlist.m3u8
+ 
+#EXTINF:-1 tvg-logo="http://www.lyngsat-logo.com/logo/tv/oo/oman_tv_sport.png",Oman Sport
+rtmp://38.96.148.30/live/omantv2
+ 
+#EXTINF:-1,Al Yaum TV (Palestine)
+http://live.paltoday.tv:1935/paltv/live/playlist.m3u8
+ 
+#EXTINF:-1,Alfajer TV (Palestine)
+http://vstream2.hadara.ps:1935/unlimitedalfajer/alfajertv/playlist.m3u8
+ 
+#EXTINF:-1 tvg-logo="http://www.lyngsat-logo.com/logo/tv/pp/palestinian_tv_ps.png",Palestine TV
+rtmp://46.43.64.190:1935/pbc/pbc
+ 
+#EXTINF:-1 tvg-logo="http://www.lyngsat-logo.com/logo/tv/pp/palestine_live_ps.png",Palestine Mubasher
+rtmp://46.43.64.190:1935/pbclive/pbclive
+ 
+#EXTINF:-1,Al-Quds (Palestine)
+http://stream.qudstv.com:8134/hls-live/livepkgr/_definst_/liveevent/livestream.m3u8
+ 
+#EXTINF:-1,Aqsa TV (Palestine)
+http://live.aqsatv.ps:1935/aqsatv/live/tv/playlist.m3u8
+ 
+#EXTINF:-1,Aljazeera News (Qatar)
+http://aljazeera-ara-apple-live.adaptive.level3.net/apple/aljazeera/arabic/800.m3u8
+ 
+#EXTINF:-1,Euronews Arabic (Qatar)
+http://fr-par-iphone-1.cdn.hexaglobe.net/streaming/euronews_ewns/iphone_ar.m3u8
+ 
+#EXTINF:-1,RT Arabic (Qatar)
+http://rt-a.akamaihd.net/ch_03@325607/master.m3u8
+ 
+#EXTINF:-1,BBC Arabic (Qatar)
+http://bbcwshdlive01-lh.akamaihd.net/i/atv_1@61433/master.m3u8
+ 
+#EXTINF:-1 tvg-logo="http://www.lyngsat-logo.com/hires/aa/ann.png",ANN News (Qatar)
+rtmp://ns8.indexforce.com/ann/ann
+ 
+#EXTINF:-1,DW Arabic (Qatar)
+http://www.metafilegenerator.de/DWelle/tv-arabia/ios/master.m3u8
+ 
+#EXTINF:-1,Aljazeera Doc (Qatar)
+http://aljazeera-doc-apple-live.adaptive.level3.net/apple/aljazeera/hq-doc/800kStream.m3u8
+ 
+#EXTINF:-1,Mubasher (Qatar)
+http://aljazeera-mubasher-apple-live.adaptive.level3.net/apple/aljazeera/mubasher/160.m3u8
+ 
+#EXTINF:-1,Al Kass 1 HD (Qatar)
+http://alkass-i.akamaihd.net/hls/live/205534/1/live_23s20.m3u8
+ 
+#EXTINF:-1,Al Kass 2 HD (Qatar)
+http://alkass-i.akamaihd.net/hls/live/205534/2/live_23s20.m3u8
+ 
+#EXTINF:-1,Al Kass 4 HD (Qatar)
+http://alkass-i.akamaihd.net/hls/live/205534/4/live_30s20.m3u8
+ 
+#EXTINF:-1,Al Kass 5 HD (Qatar)
+http://alkass-i.akamaihd.net/hls/live/205534/5/live_15s20.m3u8
+ 
+#EXTINF:-1,Al Jazeera Kids (Qatar)
+http://bcoveliveios-i.akamaihd.net/hls/live/206572/2014288370001/playlist.m3u8
+ 
+#EXTINF:-1,Baraem (Qatar)
+http://5.196.84.213:8888/baraem.m3u8?idu=ukselim_85646860650
+ 
+#EXTINF:-1,Ajyal (Saudi Arabia)
+http://46.43.64.190:1935/ajyal/livestreamm/playlist.m3u8
+ 
+#EXTINF:-1,Al Ekhbariya (Saudi Arabia)
+http://cmt-live.hls.adaptive.level3.net/hls-live/cmt-channel1/_definst_/live/stream1.m3u8
+ 
+#EXTINF:-1,Saudi 2 (Saudi Arabia)
+http://cmt-live.hls.adaptive.level3.net/hls-live/cmt-channel3/_definst_/live/stream1.m3u8
+ 
+#EXTINF:-1,KSA Quran TV (Saudi Arabia)
+http://46.245.160.224/mekke/mekke/media_w1824315188_225988.m3u8
+ 
+#EXTINF:-1,Rotana Masriya (Saudi Arabia)
+http://2.109.65.143/masa/14323.m3u8
+ 
+#EXTINF:-1,Rotana Khalijia (Saudi Arabia)
+http://2.109.65.143/masa/14321.m3u8
+ 
+#EXTINF:-1,Rotana Classic (Saudi Arabia)
+http://2.109.65.143/masa/14322.m3u8
+ 
+#EXTINF:-1,Medina (Saudi Arabia)
+http://46.245.160.224/medine/medine/gmswf.m3u8
+ 
+#EXTINF:-1,Al Thakafiyah
+http://cmt-live.hls.adaptive.level3.net/hls-live/cmt-channel8/_definst_/live/stream1.m3u8
+ 
+#EXTINF:-1,Al Eqtisadiyah
+http://cmt-live.hls.adaptive.level3.net/hls-live/cmt-channel9/_definst_/live/stream1.m3u8
+ 
+#EXTINF:-1,Al Majd (Saudi Arabia)
+http://5.196.84.213:8888/al_majd.m3u8?idu=ukselim_85646860650
+ 
+#EXTINF:-1,Wesal TV (Saudi Arabia)
+http://109.123.123.82:1935/wesal/wesal1/chunklist_w2021646403.m3u8
+ 
+#EXTINF:-1,Saudi Sport 1 (Saudi Arabia)
+http://cmt-live.hls.adaptive.level3.net/hls-live/cmt-channel4/_definst_/live/stream1.m3u8
+ 
+#EXTINF:-1,Syria News
+http://82.137.248.16:1935/Snews/SnewsLive3/playlist.m3u8
+ 
+#EXTINF:-1,Syria Sat
+http://82.137.248.16:1935/Sat/SatLive3/playlist.m3u8
+ 
+#EXTINF:-1,Halab Today (Syria)
+http://streaming.tootvs.com:1935/8010/8010/chunklist_w311743950.m3u8
+ 
+#EXTINF:-1,Aloula (Syria)
+http://82.137.248.21:1935/Aloula/AloulaLive3/playlist.m3u8
+ 
+#EXTINF:-1,Drama TV (Syria)
+http://82.137.248.21:1935/Drama/DramaLive3/playlist.m3u8
+ 
+#EXTINF:-1,Nour (Syria)
+http://82.137.248.21:1935/Nour/NourLive2/playlist.m3u8
+ 
+#EXTINF:-1,Talaqie (Syria)
+http://82.137.248.20:1935/Talaqie/TalaqieLive3/playlist.m3u8
+ 
+#EXTINF:-1,Ugarit (Syria)
+http://82.137.248.21:1935/Ugarit/UgaritLive/playlist.m3u8
+ 
+#EXTINF:-1,Sedu (Syria)
+http://82.137.248.20:1935/SEdu/SEduLive3/playlist.m3u8
+ 
+#EXTINF:-1,Orient News (Syria)
+http://ls01.orienths.org/hls-live/livepkgr/_definst_/liveevent/live_ios.m3u8
+ 
+#EXTINF:-1,Tunisia 1
+http://2.109.65.143/masa/14309.m3u8
+ 
+#EXTINF:-1,Tunisia 2
+http://5.196.84.213:8888/tunisia_national_2.m3u8?idu=ukselim_85646860650
+ 
+#EXTINF:-1 tvg-logo="http://www.lyngsat-logo.com/logo/tv/zz/zitouna_tv_tn.png",Zitouna (Tunisia)
+rtmp://wowzacontrol.com/8088//8088
+ 
+#EXTINF:-1,Almasirah TV (Yemen)
+http://livestreaming4.itworkscdn.com/masira/livetv1/playlist.m3u8
