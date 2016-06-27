@@ -1,4 +1,11 @@
 ------------------------
+Ororo TV v3.4.6 (25-Jun-16)
+------------------------
+
+- Return Play from here option
+- Fix for favourites and subscriptions
+
+------------------------
 Ororo TV v3.4.5 (24-Jun-16)
 ------------------------
 

@@ -494,7 +494,7 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
     </extension>
 </addon>
 
-<addon id="plugin.video.ororotv" name="Ororo TV" version="3.4.5" provider-name="ororo.tv">
+<addon id="plugin.video.ororotv" name="Ororo TV" version="3.4.6" provider-name="ororo.tv">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.simplejson" version="2.0.10"/>
@@ -687,7 +687,7 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
   </extension>
 </addon>
 
-<addon id="plugin.video.salts" version="2.0.60" name="Stream All The Sources" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.61" name="Stream All The Sources" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
@@ -1500,7 +1500,7 @@ Addons Included
 
 <addon id="script.module.liveresolver" 
      name="LiveResolver" 
-     version="0.1.43" 
+     version="0.1.44" 
      provider-name="natko1412">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
@@ -1616,7 +1616,7 @@ Addons Included
   </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="3.0.13" provider-name="Eldorado">
+<addon id="script.module.urlresolver" name="URLResolver" version="3.0.14" provider-name="Eldorado">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -2088,12 +2088,14 @@ Addons Included
   </extension>
 </addon>
 
-<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2016.06.18.4" provider-name="mrknow" >
+<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2016.06.26.2" provider-name="mrknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.requests" version="1.0.0" />
-		<import addon="script.module.metahandler" />
+		<import addon="script.module.metahandler" version="1.0.0" />
 		<import addon="plugin.video.youtube" optional="true" />
+		<import addon="script.specto.media" />
+
 
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
@@ -2108,6 +2110,20 @@ Addons Included
 		<forum>https://github.com/mrknow/filmkodi/issues</forum>
 		<source>http://filmkodi.com/repository/</source>
 		<website>http://filmkodi.com/en/wtyczka-specto-fork-genesis/</website>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="script.specto.media" version="2016.06.30" name="Specto Themepak" provider-name="mrknow" >
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="default.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Themes for Specto</summary>
+		<description>Themes for Specto.</description>
 		<platform>all</platform>
 	</extension>
 </addon>

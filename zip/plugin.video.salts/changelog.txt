@@ -1,3 +1,15 @@
+[B]Version 2.0.61[/B]
+- Add HDFlix scraper
+- Switch ororo scraper to use their API
+- Show scrapers not yet returned in custom progress dialogs
+- Make "cancel" show results (if any exist) rather than just cancelling
+- Add max results setting for EasyNews
+- Make Results waiting 75% of progress rather than 50%
+- Increase farda cache limits
+- Improve CF Logic
+- Fix some non-playable/non-folder items for Krypton
+- Add working dialog to some long running tasks
+
 [B]Version 2.0.60[/B]
 - Get rid of dialog param from strm files
 - Randomize liz_urls to avoid internal kodi watched marks
