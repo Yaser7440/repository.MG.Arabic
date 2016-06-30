@@ -1,3 +1,9 @@
+[B]Version 2.0.63[/B]
+- Fix HDFlix
+- Add authentication to HDFlix
+- Fix 123Movies
+- Improve MovieWatcher
+
 [B]Version 2.0.61[/B]
 - Add HDFlix scraper
 - Switch ororo scraper to use their API

@@ -687,7 +687,7 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
   </extension>
 </addon>
 
-<addon id="plugin.video.salts" version="2.0.61" name="Stream All The Sources" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.63" name="Stream All The Sources" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
@@ -2045,19 +2045,19 @@ Addons Included
   </extension>
 </addon>
 
-<addon id="plugin.video.md123movies" name="123Movies" version="1.1.2" provider-name="MG Arabic">
+<addon id="plugin.video.md123movies" name="123Movies" version="1.1.5" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.urlresolver"  version="2.1.2"/>
 	<import addon="script.module.addon.common" />
 	<import addon="script.module.requests" />
+
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Stream Movies From The 123movies.to WebSite</summary>
-    <description lang="en"></description>
+    <summary lang="en">Stream Movies From The 123movies WebSite</summary>
+    <description lang="en">Special thanks to [COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR] for the iSearch compatibility modifications</description>
 	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon</disclaimer>
     <platform>all</platform>
   </extension>
@@ -2088,7 +2088,7 @@ Addons Included
   </extension>
 </addon>
 
-<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2016.06.26.2" provider-name="mrknow" >
+<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2016.06.26.3" provider-name="mrknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.requests" version="1.0.0" />

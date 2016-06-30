@@ -1,7 +1,9 @@
+Genvideo
+
 Specto v2016.06.26.2
 ------------------------
 Fix - realdebrid
-Add - serieswatch 
+Add - serieswatch
 Add - separate addon called SpectoThemepak
 
 Specto v2016.06.18.1
