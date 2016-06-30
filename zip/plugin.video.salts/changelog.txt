@@ -1,3 +1,7 @@
+[B]Version 2.0.64[/B]
+- Improve HDFlix Scraper
+- Disable monitor to fix crash on slower systems.
+
 [B]Version 2.0.63[/B]
 - Fix HDFlix
 - Add authentication to HDFlix
