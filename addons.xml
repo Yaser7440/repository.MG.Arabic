@@ -494,7 +494,7 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
     </extension>
 </addon>
 
-<addon id="plugin.video.ororotv" name="Ororo TV" version="3.4.6" provider-name="ororo.tv">
+<addon id="plugin.video.ororotv" name="Ororo TV" version="3.4.7" provider-name="ororo.tv">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="script.module.simplejson" version="2.0.10"/>
@@ -687,7 +687,7 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
   </extension>
 </addon>
 
-<addon id="plugin.video.salts" version="2.0.64" name="Stream All The Sources" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.65" name="Stream All The Sources" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>

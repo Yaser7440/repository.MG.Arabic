@@ -1,4 +1,12 @@
 ------------------------
+Ororo TV v3.4.7 (02-Jul-16)
+------------------------
+
+- Update download access according to new API
+- Change episode poster
+- Fix download folder set bug
+
+------------------------
 Ororo TV v3.4.6 (25-Jun-16)
 ------------------------
 
