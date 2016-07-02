@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="2000">
+		<setting label="2007" type="lsep"/>
+		<setting label="2001" type="action" action="RunScript(script.openvpn, import)"/>
+		<setting label="2002" type="action" action="RunScript(script.openvpn, delete)"/>
+		<setting label="2003" type="lsep"/>
+		<setting id="openvpn" type="file" label="2000" default="special://home/script.openvpn/bin/openvpn"/>
+		<setting id="ip" type="ipaddress" label="2004" default="127.0.0.1"/>
+		<setting id="port" type="number" label="2005" default="1337"/>
+		<setting id="args" type="text" label="2006" default=""/>
+	</category>
+	<category label="2010">
+		<setting id="sudo" type="bool" label="2011" default="false"/>
+		<setting id="sudopwdrequired" type="bool" label="2012" default="true" enable="!eq(-1,false)"/>
+	</category>
+	<category label="2020">
+		<setting id="debug" type="bool" label="2021" default="false"/>
+	</category>
+</settings>
