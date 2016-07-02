@@ -5,7 +5,7 @@
 		<setting label="2001" type="action" action="RunScript(script.openvpn, import)"/>
 		<setting label="2002" type="action" action="RunScript(script.openvpn, delete)"/>
 		<setting label="2003" type="lsep"/>
-		<setting id="openvpn" type="file" label="2000" default="special://home/script.openvpn/bin/openvpn"/>
+		<setting id="openvpn" type="file" label="2000" default="special://home/addons/script.openvpn/bin/openvpn"/>
 		<setting id="ip" type="ipaddress" label="2004" default="127.0.0.1"/>
 		<setting id="port" type="number" label="2005" default="1337"/>
 		<setting id="args" type="text" label="2006" default=""/>
