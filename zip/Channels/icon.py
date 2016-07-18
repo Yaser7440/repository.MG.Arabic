@@ -1,5 +1,5 @@
 HARDCODED_STREAMS = [{
-                         'title': 'MBC',
+                         'title': 'MBC1',
                          'thumbnail': 'http://www.teledunet.com//player/icones/mbc_1.jpg',
                          'path': 'mbc_1.jpg'},
                      {
