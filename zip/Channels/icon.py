@@ -1,7 +1,7 @@
 HARDCODED_STREAMS = [{
                          'title': 'MBC',
                          'thumbnail': 'http://www.teledunet.com//player/icones/mbc_1.jpg',
-                         'path': 'http://www.teledunet.com//player/icones/mbc_1.jpg'},
+                         'path': 'mbc_1.jpg'},
                      {
                          'title': 'BeIn Sport 1',
                          'thumbnail': 'http://www.teledunet.com//player/icones/bein_sport_1.jpg',
