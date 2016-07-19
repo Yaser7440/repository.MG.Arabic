@@ -1,4 +1,4 @@
-[B]MG Version 2.0.6[/B]
+[B]MG Version 2.0.9[/B]
 - Initial version
 
 

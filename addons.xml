@@ -122,9 +122,13 @@
   </extension>
 </addon>
 
-<addon id="repository.MG.Arabic" name="..[COLOR red] MG Arabic[/COLOR]" version="2.0.8" provider-name="[COLOR red] MG Arabic[/COLOR]">
+<addon id="repository.MG.Arabic" name="..[COLOR red] MG Arabic[/COLOR]" version="2.0.9" provider-name="[COLOR red] MG Arabic[/COLOR]">
 	<extension point="xbmc.addon.repository" name="MG Arabic">	
-					
+		<dir>
+	        <info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
+	        <checksum>https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5</checksum>
+	        <datadir zip="true">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/</datadir>
+	    </dir>			
 		<info compressed="false">https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip</datadir>
@@ -136,7 +140,7 @@
  </requires>
 	<extension point="xbmc.addon.metadata">
 		<summary>http://mg.esy.es/Kodi/</summary>
-		<description>MG Arabic v2.0.8</description>
+		<description>MG Arabic v2.0.9</description>
 		<platform>all</platform>
 	</extension>
 </addon>
