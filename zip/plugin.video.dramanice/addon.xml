@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.dramanice"
+	   name="Dramanice"
+	   version="1.5"
+	   provider-name="2uk3y-kodim-Ares-Streams">
+  <requires>
+    <import addon="script.module.requests" version="1.0.0" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+			 library="default.py">
+    	<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Watch TV Drama/Movie from Dramanice.to</summary>
+    <description>Watch TV Drama/Movie from Dramanice.to</description>
+    <platform>all</platform>
+  </extension>
+</addon>

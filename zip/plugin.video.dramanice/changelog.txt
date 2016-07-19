@@ -1,0 +1,32 @@
+Version:
+
+20160704: 1.5 
+-------------------------------
+- Option 'Add to Favorites'
+- My Favorite menu
+- Add thumbnail and fix video title for player
+- fix empty stream source
+
+20160207: 1.4
+-------------------------------
+Add more stream source
+
+
+20160120: 1.3
+-------------------------------
+Change domain
+
+
+20151205: 1.2
+-------------------------------
+Code cleanup
+
+
+20151017: 1.1
+-------------------------------
+Improve Performance & Show FanArt
+
+
+20151013: 1.0
+-------------------------------
+First release

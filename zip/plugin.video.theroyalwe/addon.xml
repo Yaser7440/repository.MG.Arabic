@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.video.theroyalwe" name="The Royal We" provider-name="DudeHere" version="0.9.24">
+<addon id="plugin.video.theroyalwe" name="The Royal We" provider-name="DudeHere" version="1.0.7">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
-        <import addon="script.module.simplejson" />
         <import addon="script.module.beautifulsoup" />
-        <import addon="script.module.addon.common" />
         <import addon="script.module.dudehere.routines" />
-        <import addon="script.module.metahandler" />
         <import addon="script.module.myconnpy" />
         <import addon="script.module.urlresolver" />
     </requires>

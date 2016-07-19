@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.shahidmbcnet"  name="Shahid Arabic" version="3.8.0" provider-name="Shahid">
+<addon id="plugin.video.shahidmbcnet"
+       name="Shahid Arabic"
+       version="3.8.1"
+       provider-name="Shahid">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.beautifulsoup" version="3.0.8"/>

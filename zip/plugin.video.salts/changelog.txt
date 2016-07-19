@@ -1,3 +1,58 @@
+[B]Version 2.0.72[/B]
+- Fix WIA ordering
+- Only show MOW on WIA if already watched
+- Fix Bobby scraper 
+
+[B]Version 2.0.71[/B]
+- Fix YesMovies scraper
+- Fix bugs in bobby scraper
+- Add Mark as Watched to WIA always
+- Parallelize WIA
+
+[B]Version 2.0.70[/B]
+- Add hdmoviefree scraper
+- Add tvrush scraper
+- Add Bobby scraper
+- Fix cloudmovie
+- Fix moviesub
+- Fix viooz
+- Fix 0 cache_limits
+- Update translations
+- Clean up scraper code
+- Improve PD code
+- Require at least helix
+
+[B]Version 2.0.69[/B]
+- Fix pftv
+- Fix yshow
+- Fix MovieZone
+- Fix Sezon
+- Fix YesMovies
+- Fix MovieWatcher
+- Fix dizilab
+- Fix dizimag
+- Fix diziay
+- Fix tvonline.tw
+- Fix MoviesHD
+- Improve MovieStorm
+
+[B]Version 2.0.67[/B]
+- Improve xmovies8
+- Fix vivo.to scraper
+- Remove 123Movies
+- Change progress message again
+
+[B]Version 2.0.66[/B]
+- Add MovieGo Scraper
+- Fix HDFlix Scraper
+- Fix TuneMovie
+- Fix Filmikz
+- Fix Mira
+- Fix CloudMovie
+- Improve Putlocker
+- Remove ClickPlay
+- Remove Ganool
+
 [B]Version 2.0.65[/B]
 - Improve service Trakt API handling
 - Add Genre menu item
