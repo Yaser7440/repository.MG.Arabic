@@ -1,133 +1,91 @@
 #EXTM3U
-#EXTINF:-1,--------- Indian -----------
-http://ipsatpro.com:8000/live/10002/100021/447.ts
-#EXTINF:-1,LN: B4U Plus
-http://ipsatpro.com:8000/live/10002/100021/417.ts
-#EXTINF:-1,LN: B4U Aflam
-http://ipsatpro.com:8000/live/10002/100021/414.ts
-#EXTINF:-1,LN: B4U Movie
-http://ipsatpro.com:8000/live/10002/100021/445.ts
-#EXTINF:-1,LN: B4U Music
-http://ipsatpro.com:8000/live/10002/100021/440.ts
-#EXTINF:-1,LN: TEN Sports
-http://ipsatpro.com:8000/live/10002/100021/419.ts
-#EXTINF:-1,LN: Star Sport 1 HD
-http://ipsatpro.com:8000/live/10002/100021/1138.ts
-#EXTINF:-1,LN: Star Sport 2 HD
-http://ipsatpro.com:8000/live/10002/100021/1139.ts
-#EXTINF:-1,LN: Star Sport 3 HD
-http://ipsatpro.com:8000/live/10002/100021/1140.ts
-#EXTINF:-1,LN: Star Sport 4 HD
-http://ipsatpro.com:8000/live/10002/100021/1141.ts
-#EXTINF:-1,LN: ZEE Alwan
-http://ipsatpro.com:8000/live/10002/100021/1137.ts
-#EXTINF:-1,LN: ZEE Aflam
-http://ipsatpro.com:8000/live/10002/100021/1136.ts
-#EXTINF:-1,LN: ZEE Classic
-http://ipsatpro.com:8000/live/10002/100021/430.ts
-#EXTINF:-1,LN: ZEE Tv Us
-http://ipsatpro.com:8000/live/10002/100021/443.ts
-#EXTINF:-1,LN: ZEE tv
-http://ipsatpro.com:8000/live/10002/100021/427.ts
-#EXTINF:-1,LN: ZEE Action
-http://ipsatpro.com:8000/live/10002/100021/429.ts
-#EXTINF:-1,LN: ZEE Business
-http://ipsatpro.com:8000/live/10002/100021/1752.ts
-#EXTINF:-1,LN: ZEE Tamil
-http://ipsatpro.com:8000/live/10002/100021/1764.ts
-#EXTINF:-1,LN: ZEE Bollywood
-http://ipsatpro.com:8000/live/10002/100021/412.ts
-#EXTINF:-1,LN: HQ Hollyoowd
-http://ipsatpro.com:8000/live/10002/100021/413.ts
-#EXTINF:-1,LN: j Movies
-http://ipsatpro.com:8000/live/10002/100021/446.ts
-#EXTINF:-1,LN: J Movies us
-http://ipsatpro.com:8000/live/10002/100021/442.ts
-#EXTINF:-1,LN: Star pluse HD
-http://ipsatpro.com:8000/live/10002/100021/437.ts
-#EXTINF:-1,LN: jaya Plus tv
-http://ipsatpro.com:8000/live/10002/100021/410.ts
-#EXTINF:-1,LN: Sony Max 2
-http://ipsatpro.com:8000/live/10002/100021/415.ts
-#EXTINF:-1,LN: Music Mtunes
-http://ipsatpro.com:8000/live/10002/100021/408.ts
-#EXTINF:-1,LN: Jinga Gold
-http://ipsatpro.com:8000/live/10002/100021/1765.ts
-#EXTINF:-1,LN: Deva TV HD
-http://ipsatpro.com:8000/live/10002/100021/1760.ts
-#EXTINF:-1,LN: Ambaal TV
-http://ipsatpro.com:8000/live/10002/100021/436.ts
-#EXTINF:-1,LN: Music India
-http://ipsatpro.com:8000/live/10002/100021/420.ts
-#EXTINF:-1,LN: 92news
-http://ipsatpro.com:8000/live/10002/100021/1768.ts
-#EXTINF:-1,LN: And TV HD
-http://ipsatpro.com:8000/live/10002/100021/1754.ts
-#EXTINF:-1,LN: Sony us
-http://ipsatpro.com:8000/live/10002/100021/416.ts
-#EXTINF:-1,LN: Rishtey
-http://ipsatpro.com:8000/live/10002/100021/425.ts
-#EXTINF:-1,LN: Masala TV
-http://ipsatpro.com:8000/live/10002/100021/422.ts
-#EXTINF:-1,LN: Aajtak News
-http://ipsatpro.com:8000/live/10002/100021/421.ts
-#EXTINF:-1,LN: Care World TV
-http://ipsatpro.com:8000/live/10002/100021/424.ts
-#EXTINF:-1,LN: Sun Music us
-http://ipsatpro.com:8000/live/10002/100021/444.ts
-#EXTINF:-1,LN: Colors ME
-http://ipsatpro.com:8000/live/10002/100021/418.ts
-#EXTINF:-1,LN: Zing us
-http://ipsatpro.com:8000/live/10002/100021/423.ts
-#EXTINF:-1,LN: And TV
-http://ipsatpro.com:8000/live/10002/100021/426.ts
-#EXTINF:-1,LN: UTV Bindas
-http://ipsatpro.com:8000/live/10002/100021/433.ts
-#EXTINF:-1,LN: UTV Movies US
-http://ipsatpro.com:8000/live/10002/100021/434.ts
-#EXTINF:-1,LN: 9XM
-http://ipsatpro.com:8000/live/10002/100021/428.ts
-#EXTINF:-1,LN: 9X Jhakaas
-http://ipsatpro.com:8000/live/10002/100021/431.ts
-#EXTINF:-1,LN: 9xTashan
-http://ipsatpro.com:8000/live/10002/100021/432.ts
-#EXTINF:-1,LN: Angel TV Europe
-http://ipsatpro.com:8000/live/10002/100021/435.ts
-#EXTINF:-1,LN: Maa Gold
-http://ipsatpro.com:8000/live/10002/100021/441.ts
-#EXTINF:-1,LN: Harvest TV US
-http://ipsatpro.com:8000/live/10002/100021/411.ts
-#EXTINF:-1,LN: Gimeny Comedy
-http://ipsatpro.com:8000/live/10002/100021/439.ts
-#EXTINF:-1,LN: Super tv
-http://ipsatpro.com:8000/live/10002/100021/409.ts
-#EXTINF:-1,LN: Surya tv
-http://ipsatpro.com:8000/live/10002/100021/438.ts
-#EXTINF:-1,LN: Vimbam TV
-http://ipsatpro.com:8000/live/10002/100021/1763.ts
-#EXTINF:-1,LN: TTN Tamil Oli
-http://ipsatpro.com:8000/live/10002/100021/1751.ts
-#EXTINF:-1,LN: Mega 24
-http://ipsatpro.com:8000/live/10002/100021/1761.ts
-#EXTINF:-1,LN: Thanthi Tv
-http://ipsatpro.com:8000/live/10002/100021/1762.ts
-#EXTINF:-1,LN: Sirippoli TV
-http://ipsatpro.com:8000/live/10002/100021/1750.ts
-#EXTINF:-1,LN: Sanjh tv
-http://ipsatpro.com:8000/live/10002/100021/1753.ts
-#EXTINF:-1,LN: Raj TV
-http://ipsatpro.com:8000/live/10002/100021/1749.ts
-#EXTINF:-1,LN: Polymer TV
-http://ipsatpro.com:8000/live/10002/100021/1759.ts
-#EXTINF:-1,LN: Mega
-http://ipsatpro.com:8000/live/10002/100021/1748.ts
-#EXTINF:-1,LN: Isaiaruvi
-http://ipsatpro.com:8000/live/10002/100021/1758.ts
-#EXTINF:-1,LN: EE TV
-http://ipsatpro.com:8000/live/10002/100021/1757.ts
-#EXTINF:-1,LN: WE TV
-http://ipsatpro.com:8000/live/10002/100021/1766.ts
-#EXTINF:-1,LN: Captain TV
-http://ipsatpro.com:8000/live/10002/100021/1756.ts
-#EXTINF:-1,LN: 5 Aab TV
-http://ipsatpro.com:8000/live/10002/100021/1747.ts
+#EXTINF:-1,######## INDIAN ########
+http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/1281.ts
+#EXTINF:-1,HINDI Zoom
+http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/1197.ts
+#EXTINF:-1,HINDI Zing UK
+http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/1198.ts
+#EXTINF:-1,HINDI Zing
+http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/1199.ts
+#EXTINF:-1,HINDI Zee TV UK
+http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/1200.ts
+#EXTINF:-1,HINDI Zee TV HD
+http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/1201.ts
+#EXTINF:-1,HINDI Zee Smile
+http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/1202.ts
+#EXTINF:-1,HINDI ZEE SANGAM
+http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/1203.ts
+#EXTINF:-1,HINDI ZEE SALAM
+http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/1204.ts
+#EXTINF:-1,HINDI Zee Living
+http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/1205.ts
+#EXTINF:-1,HINDI ZEE LAMHE
+http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/1206.ts
+#EXTINF:-1,HINDI ZEE KALINGA
+http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/1207.ts
+#EXTINF:-1,HINDI ZEE GHANTA
+http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/1208.ts
+#EXTINF:-1,HINDI Zee Classic
+http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/1209.ts
+#EXTINF:-1,HINDI Zee Cinema UK
+http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/1210.ts
+#EXTINF:-1,HINDI Zee Business
+http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/1211.ts
+#EXTINF:-1,HINDI ZEE BOLLYWOOD
+http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/1212.ts
+#EXTINF:-1,HINDI ZEE ANMOL
+http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/1213.ts
+#EXTINF:-1,HINDI Zee Action
+http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/1214.ts
+#EXTINF:-1,HINDI WILLOW
+http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/1215.ts
+#EXTINF:-1,HINDI UTV Movies International
+http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/1217.ts
+#EXTINF:-1,HINDI UTV Bindass
+http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/1218.ts
+#EXTINF:-1,HINDI TEN CRICKET
+http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/1191.ts
+#EXTINF:-1,HINDI TEN ACTION
+http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/1196.ts
+#EXTINF:-1,HINDI STAR SPORTS 4
+http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/1195.ts
+#EXTINF:-1,HINDI STAR SPORTS 3
+http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/1194.ts
+#EXTINF:-1,HINDI STAR SPORTS 2
+http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/1193.ts
+#EXTINF:-1,HINDI STAR SPORTS 1
+http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/1192.ts
+#EXTINF:-1,HINDI STAR PLUS UK
+http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/1216.ts
+#EXTINF:-1,HINDI Star Plus
+http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/1219.ts
+#EXTINF:-1,HINDI STAR GOLD
+http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/1220.ts
+#EXTINF:-1,HINDI Sony TV UK
+http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/1221.ts
+#EXTINF:-1,HINDI Sony TV HD
+http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/1222.ts
+#EXTINF:-1,HINDI SONY SIX
+http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/1223.ts
+#EXTINF:-1,HINDI Set Max UK
+http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/1224.ts
+#EXTINF:-1,HINDI Sab TV UK
+http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/1225.ts
+#EXTINF:-1,HINDI Rishtey UK
+http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/1226.ts
+#EXTINF:-1,HINDI Music Xpress
+http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/1227.ts
+#EXTINF:-1,HINDI INDIA TV
+http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/1228.ts
+#EXTINF:-1,HINDI DANGAAL
+http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/1229.ts
+#EXTINF:-1,HINDI Colors HD
+http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/1230.ts
+#EXTINF:-1,HINDI Bindass Play
+http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/1231.ts
+#EXTINF:-1,HINDI B4U MOVIE
+http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/1232.ts
+#EXTINF:-1,HINDI And TV
+http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/1233.ts
+#EXTINF:-1,HINDI AAJ TAKK
+http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/1234.ts
