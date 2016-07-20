@@ -14,6 +14,14 @@
 <channel>
 <name>IT TV</name>
 <thumbnail>http://streamaccess.unas.tv/flash/ittf/itTV_welcome_2.jpg</thumbnail>
+<externallink>http://e2.dgn35.com:2015/get.php?username=ytr55&password=gEl3GHxH74&type=m3u&output=mpegts</externallink>
+<fanart>http://streamaccess.unas.tv/flash/ittf/itTV_welcome_2.jpg</fanart>
+<info>Arabic TV (MG.Arabic)</info>
+</channel>
+
+<channel>
+<name>IT TV</name>
+<thumbnail>http://streamaccess.unas.tv/flash/ittf/itTV_welcome_2.jpg</thumbnail>
 <externallink>http://hd.guardatv.eu:8000/get.php?username=SIMONE&password=SIMONE&type=m3u</externallink>
 <fanart>http://streamaccess.unas.tv/flash/ittf/itTV_welcome_2.jpg</fanart>
 <info>Arabic TV (MG.Arabic)</info>
