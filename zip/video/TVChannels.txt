@@ -1,0 +1,144 @@
+﻿<layouttype>thumbnail</layouttype>
+
+
+<channels>
+
+<channel>
+<name>Arabic Channels</name>
+<thumbnail>http://iptvlinks.info/wp-content/uploads/2016/02/arabictv.jpg</thumbnail>
+<externallink>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/Channels/Arabic.Channels.m3u</externallink>
+<fanart>http://iptvlinks.info/wp-content/uploads/2016/02/arabictv.jpg</fanart>
+<info>Arabic TV (MG.Arabic)</info>
+</channel>
+
+
+<channel>
+<name>BEINSPORT ARABIC Channels</name>
+<thumbnail>http://www.pulsat.com/product_images/f/748/beinsport_logos__05909_zoom.jpg</thumbnail>
+<externallink>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/Channels/BEINSPORT.ARABIC.Channels.m3u</externallink>
+<fanart>http://www.pulsat.com/product_images/f/748/beinsport_logos__05909_zoom.jpg</fanart>
+<info>Arabic TV (MG.Arabic)</info>
+</channel>
+
+<channel>
+<name>BALCAN Channels</name>
+<thumbnail>http://i.ebayimg.com/images/g/3DQAAOSwOtBXTHDh/s-l300.jpg</thumbnail>
+<externallink>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/Channels/BALCAN.Channels.m3u</externallink>
+<fanart>http://i.ebayimg.com/images/g/3DQAAOSwOtBXTHDh/s-l300.jpg</fanart>
+<info>Arabic TV (MG.Arabic)</info>
+</channel>
+
+<channel>
+<name>BELGIUM Channels</name>
+<thumbnail>https://s-media-cache-ak0.pinimg.com/236x/fd/30/ca/fd30cac4c46e184122a7a7bd9c98c95b.jpg</thumbnail>
+<externallink>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/Channels/BELGIUM.Channels.m3u</externallink>
+<fanart>https://s-media-cache-ak0.pinimg.com/236x/fd/30/ca/fd30cac4c46e184122a7a7bd9c98c95b.jpg</fanart>
+<info>Arabic TV (MG.Arabic)</info>
+</channel>
+
+
+
+<channel>
+<name>French Channels</name>
+<thumbnail>http://files.remotecentral.com/screens/files_old/sc000433.gif</thumbnail>
+<externallink>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/Channels/French.Channels.m3u</externallink>
+<fanart>http://files.remotecentral.com/screens/files_old/sc000433.gif</fanart>
+<info>Arabic TV (MG.Arabic)</info>
+</channel>
+
+<channel>
+<name>GERMAN Channels</name>
+<thumbnail>http://i.imgur.com/zc4j8M4.png</thumbnail>
+<externallink>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/Channels/GERMAN.Channels.m3u</externallink>
+<fanart>http://i.imgur.com/zc4j8M4.png</fanart>
+<info>Arabic TV (MG.Arabic)</info>
+</channel>
+
+<channel>
+<name>GREEK Channels</name>
+<thumbnail>http://greekreporter.com/files/2011/01/GRlogo.jpg</thumbnail>
+<externallink>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/Channels/GREC.Channels.m3u</externallink>
+<fanart>http://greekreporter.com/files/2011/01/GRlogo.jpg</fanart>
+<info>Arabic TV (MG.Arabic)</info>
+</channel>
+
+<channel>
+<name>Indian Channels</name>
+<thumbnail>http://hillpost.in/wp-content/uploads/2013/08/Top-7-Indian-Channels-That-Are-Owned-By-Politicians.jpg</thumbnail>
+<externallink>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/Channels/Indian.Channels.m3u</externallink>
+<fanart>http://hillpost.in/wp-content/uploads/2013/08/Top-7-Indian-Channels-That-Are-Owned-By-Politicians.jpg</fanart>
+<info>Arabic TV (MG.Arabic)</info>
+</channel>
+
+<channel>
+<name>ITALIAN Channels</name>
+<thumbnail>https://4fbf3b0b13694d4b7dd9ca9e-amplusnetsrl.netdna-ssl.com/wp-content/uploads/2015/12/italian-streaming-channels.png</thumbnail>
+<externallink>https://github.com/Yaser7440/repository.MG.Arabic/blob/master/zip/Channels/IT.Channels.m3u</externallink>
+<fanart>https://4fbf3b0b13694d4b7dd9ca9e-amplusnetsrl.netdna-ssl.com/wp-content/uploads/2015/12/italian-streaming-channels.png</fanart>
+<info>Arabic TV (MG.Arabic)</info>
+</channel>
+
+<channel>
+<name>PAKISTAN Channels</name>
+<thumbnail>http://1.bp.blogspot.com/-2bRCUkyhoQ8/UQFtHXGOZjI/AAAAAAAABbQ/yWQ6DLuPTiA/s1600/tv-channels-banner.jpg</thumbnail>
+<externallink>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/Channels/PAKISTAN.Channels.m3u</externallink>
+<fanart>http://1.bp.blogspot.com/-2bRCUkyhoQ8/UQFtHXGOZjI/AAAAAAAABbQ/yWQ6DLuPTiA/s1600/tv-channels-banner.jpg</fanart>
+<info>Arabic TV (MG.Arabic)</info>
+</channel>
+
+<channel>
+<name>Poland Channels</name>
+<thumbnail>http://4.bp.blogspot.com/-Tjx1SFYYKAk/Uh2ahD2JenI/AAAAAAAAbwY/XkTAKTfUWSg/s1600/TV+logo+round-up+Jan-Jun+The+Branding+Source.png</thumbnail>
+<externallink>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/Channels/Poland.Channels.m3u</externallink>
+<fanart>http://4.bp.blogspot.com/-Tjx1SFYYKAk/Uh2ahD2JenI/AAAAAAAAbwY/XkTAKTfUWSg/s1600/TV+logo+round-up+Jan-Jun+The+Branding+Source.png</fanart>
+<info>Arabic TV (MG.Arabic)</info>
+</channel>
+
+
+
+<channel>
+<name>PORTUGUESE Channels</name>
+<thumbnail>http://www.team-mediaportal.com/media/com_mtree/images/listings/o/625.png</thumbnail>
+<externallink>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/Channels/PORTUGUES.Channels.m3u</externallink>
+<fanart>http://www.team-mediaportal.com/media/com_mtree/images/listings/o/625.png</fanart>
+<info>Arabic TV (MG.Arabic)</info>
+</channel>
+
+<channel>
+<name>SCANDINAVE Channels</name>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Proposed_flag_of_Greenland_-_Sven_Tito_Achen_design.svg/240px-Proposed_flag_of_Greenland_-_Sven_Tito_Achen_design.svg.png</thumbnail>
+<externallink>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/Channels/SCANDINAVE.Channels.m3u</externallink>
+<fanart>https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Proposed_flag_of_Greenland_-_Sven_Tito_Achen_design.svg/240px-Proposed_flag_of_Greenland_-_Sven_Tito_Achen_design.svg.png</fanart>
+<info>Arabic TV (MG.Arabic)</info>
+</channel>
+
+<channel>
+<name>SPAIN Channels</name>
+<thumbnail>http://www.spain-flag.eu/photos/spain-flag.gif</thumbnail>
+<externallink>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/Channels/SPAIN.Channels.m3u</externallink>
+<fanart>http://www.spain-flag.eu/photos/spain-flag.gif</fanart>
+<info>Arabic TV (MG.Arabic)</info>
+</channel>
+
+<channel>
+<name>Turkish Channels</name>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/2000px-Flag_of_Turkey.svg.png</thumbnail>
+<externallink>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/Channels/Turkish.Channels.m3u</externallink>
+<fanart>https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/2000px-Flag_of_Turkey.svg.png</fanart>
+<info>Arabic TV (MG.Arabic)</info>
+</channel>
+
+<channel>
+<name>All Channels</name>
+<thumbnail>http://ndl.mgccw.com/mu3/app/20140612/17/1402576108781/ss/1_small.png</thumbnail>
+<externallink>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/Channels/world.mix.iptv.channels.playlist.m3u</externallink>
+<fanart>http://ndl.mgccw.com/mu3/app/20140612/17/1402576108781/ss/1_small.png</fanart>
+<info>Arabic TV (MG.Arabic)</info>
+</channel>
+
+</channels>
+
+
+
+
+

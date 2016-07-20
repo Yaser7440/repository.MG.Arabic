@@ -11,13 +11,7 @@
 <info>Arabic TV (MG.Arabic)</info>
 </channel>
 
-<channel>
-<name>Arabic TV2</name>
-<thumbnail>http://ndl.mgccw.com/mu3/app/20140612/17/1402576108781/ss/1_small.png</thumbnail>
-<externallink>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/Channels/NEWARABIC.strm</externallink>
-<fanart>http://ndl.mgccw.com/mu3/app/20140612/17/1402576108781/ss/1_small.png</fanart>
-<info>Arabic TV2 (MG.Arabic)</info>
-</channel>
+
 
 <channel>
 <name>Movies</name>
