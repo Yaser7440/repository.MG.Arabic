@@ -85,4 +85,44 @@
 <info>New_Chin (MG.Arabic)</info>
 </channel>
 
+<channel>
+<name>TEST 1</name>
+<thumbnail></thumbnail>
+<externallink>https://raw.githubusercontent.com/Yaser7440/husham.com/master/Lists/hushamnewlist/events.xml</externallink>
+<fanart>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/image/MG.Arabic.png</fanart>
+<info>TEST 1 (MG.Arabic)</info>
+</channel>
+
+<channel>
+<name>TEST 2</name>
+<thumbnail></thumbnail>
+<externallink>https://raw.githubusercontent.com/Yaser7440/husham.com/master/Lists/hushamnewlist/sportslinksscraped.xml</externallink>
+<fanart>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/image/MG.Arabic.png</fanart>
+<info>TEST 2 (MG.Arabic)</info>
+</channel>
+
+<channel>
+<name>TEST 3</name>
+<thumbnail></thumbnail>
+<externallink>https://raw.githubusercontent.com/Yaser7440/husham.com/master/Lists/hushamnewlist/usascappedlinks.xml</externallink>
+<fanart>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/image/MG.Arabic.png</fanart>
+<info>TEST 3 (MG.Arabic)</info>
+</channel>
+
+<channel>
+<name>TEST 4</name>
+<thumbnail></thumbnail>
+<externallink>https://raw.githubusercontent.com/Yaser7440/husham.com/master/Lists/5Kproject-KGkcZEeU.txt</externallink>
+<fanart>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/image/MG.Arabic.png</fanart>
+<info>TEST 4 (MG.Arabic)</info>
+</channel>
+
+<channel>
+<name>TEST 5</name>
+<thumbnail></thumbnail>
+<externallink>https://raw.githubusercontent.com/Yaser7440/husham.com/master/Lists/hushamepg2-NkbT1qLa.txt</externallink>
+<fanart>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/image/MG.Arabic.png</fanart>
+<info>TEST 5 (MG.Arabic)</info>
+</channel>
+
 </channels>
