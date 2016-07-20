@@ -12,6 +12,14 @@
 </channel>
 
 <channel>
+<name>IT TV</name>
+<thumbnail>http://streamaccess.unas.tv/flash/ittf/itTV_welcome_2.jpg</thumbnail>
+<externallink>http://hd.guardatv.eu:8000/get.php?username=SIMONE&password=SIMONE&type=m3u</externallink>
+<fanart>http://streamaccess.unas.tv/flash/ittf/itTV_welcome_2.jpg</fanart>
+<info>Arabic TV (MG.Arabic)</info>
+</channel>
+
+<channel>
 <name>Arabic TV2</name>
 <thumbnail>http://ndl.mgccw.com/mu3/app/20140612/17/1402576108781/ss/1_small.png</thumbnail>
 <externallink>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/Channels/NEWARABIC.strm</externallink>
