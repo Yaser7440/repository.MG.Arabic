@@ -11,6 +11,10 @@
 <info>Arabic TV (MG.Arabic)</info>
 </channel>
 
+type=playlist
+name=Sorted [COLOR=FF00FF00]Top Movies 2[/COLOR]
+icon=https://mir-s3-cdn-cf.behance.net/project_modules/disp/fdd1c412374317.562678e05a57a.jpg
+URL=http://www.navixtreme.com/playlist/96828/_2005_top_movies_visit_camchance.com.plx
 
 <channel>
 <name>Warning ADULT Content</name>
