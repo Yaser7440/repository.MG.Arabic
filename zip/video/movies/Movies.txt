@@ -6,7 +6,7 @@
 <channel>
 <name>VOD Movies 2015</name>
 <thumbnail>https://s-media-cache-ak0.pinimg.com/736x/98/11/4b/98114b0595c5c46ca45d7a63abd12dce.jpg</thumbnail>
-<externallink>http://www.navixtreme.com/playlist/96828/_2005_top_movies_visit_camchance.com.plx</externallink>
+<externallink>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/video/movies/vod0411-2015.m3u</externallink>
 <fanart>https://s-media-cache-ak0.pinimg.com/736x/98/11/4b/98114b0595c5c46ca45d7a63abd12dce.jpg</fanart>
 <info>Arabic TV (MG.Arabic)</info>
 </channel>
