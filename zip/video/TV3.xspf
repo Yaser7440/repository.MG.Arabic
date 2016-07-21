@@ -1,0 +1,3856 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/" version="1">
+	<title>Playlist</title>
+	<trackList>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/126.ts</location>
+			<title>Bein Sport HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>0</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/408.ts</location>
+			<title>Bein News HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>1</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/12.ts</location>
+			<title>Bein MAX 1 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>2</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/11.ts</location>
+			<title>Bein MAX 2 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>3</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/1.ts</location>
+			<title>Bein Sports 1 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>4</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/2.ts</location>
+			<title>Bein Sports 2 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>5</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/3.ts</location>
+			<title>Bein Sports 3 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>6</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/4.ts</location>
+			<title>Bein Sports 4 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>7</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/5.ts</location>
+			<title>Bein Sports 5 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>8</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/6.ts</location>
+			<title>Bein Sports 6 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>9</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/7.ts</location>
+			<title>Bein Sports 7 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>10</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/8.ts</location>
+			<title>Bein Sports 8 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>11</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/9.ts</location>
+			<title>Bein Sports 9 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>12</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/10.ts</location>
+			<title>Bein Sports 10 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>13</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/127.ts</location>
+			<title>Bein Sport 11 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>14</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/128.ts</location>
+			<title>Bein Sport 12 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>15</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/129.ts</location>
+			<title>Bein Sport 13 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>16</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/130.ts</location>
+			<title>Bein Sport 14 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>17</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/131.ts</location>
+			<title>Bein Sport 15 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>18</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/132.ts</location>
+			<title>Bein Sport 16 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>19</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/394.ts</location>
+			<title>Bein Sport 1 HD Server2</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>20</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/395.ts</location>
+			<title>Bein Sport 2 HD Server2</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>21</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/396.ts</location>
+			<title>Bein Sport 3 HD Server2</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>22</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/397.ts</location>
+			<title>Bein Sport 4 HD Server2</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>23</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/398.ts</location>
+			<title>Bein Sport 5 HD Server2</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>24</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/399.ts</location>
+			<title>Bein Sport 6 HD Server2</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>25</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/400.ts</location>
+			<title>Bein Sport 7 HD Server2</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>26</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/401.ts</location>
+			<title>Bein Sport 8 HD Server2</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>27</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/402.ts</location>
+			<title>Bein Sport 9 HD Server2</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>28</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/403.ts</location>
+			<title>Bein Sport 10 HD Server2</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>29</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/584.ts</location>
+			<title>Beinmax1</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>30</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/585.ts</location>
+			<title>Beinmax2</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>31</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/598.ts</location>
+			<title>Bein Sport HD1</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>32</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/597.ts</location>
+			<title>Bein Sport HD2</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>33</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/596.ts</location>
+			<title>Bein Sport HD3</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>34</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/595.ts</location>
+			<title>Bein Sport HD4</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>35</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/594.ts</location>
+			<title>Bein Sport HD5</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>36</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/593.ts</location>
+			<title>Bein Sport HD6</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>37</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/592.ts</location>
+			<title>Bein Sport HD7</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>38</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/591.ts</location>
+			<title>Bein Sport HD8</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>39</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/590.ts</location>
+			<title>Bein Sport HD9</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>40</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/589.ts</location>
+			<title>Bein Sport HD10</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>41</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/588.ts</location>
+			<title>Bein Sport HD11</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>42</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/587.ts</location>
+			<title>Bein Sport HD12</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>43</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/586.ts</location>
+			<title>Bein Sport HD13</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>44</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/83.ts</location>
+			<title>Bein Sport 1 Low</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>45</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/84.ts</location>
+			<title>Bein Sport 2 Low</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>46</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/85.ts</location>
+			<title>Bein Sport 3 Low</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>47</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/86.ts</location>
+			<title>Bein Sport 4 Low</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>48</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/87.ts</location>
+			<title>Bein Sport 5 Low</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>49</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/88.ts</location>
+			<title>Bein Sport 6 Low</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>50</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/89.ts</location>
+			<title>Bein Sport 7 Low</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>51</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/90.ts</location>
+			<title>Bein Sport 8 Low</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>52</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/91.ts</location>
+			<title>Bein Sport 9 Low</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>53</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/92.ts</location>
+			<title>Bein Sport 10 Low</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>54</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/405.ts</location>
+			<title>Bein Sport 11 Low</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>55</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/119.ts</location>
+			<title>Bein Movies 1 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>56</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/120.ts</location>
+			<title>Bein Movies 2 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>57</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/121.ts</location>
+			<title>Bein Movies 3 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>58</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/122.ts</location>
+			<title>Bein Movies 4 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>59</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/179.ts</location>
+			<title>Bein Jeem HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>60</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/180.ts</location>
+			<title>Bein Baraem HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>61</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/123.ts</location>
+			<title>FR : Bein Sport 1 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>62</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/124.ts</location>
+			<title>FR : Bein Sport 2 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>63</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/125.ts</location>
+			<title>FR : Bein Sport 3 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>64</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/406.ts</location>
+			<title>FR : Bein Max 4 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>65</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/407.ts</location>
+			<title>FR : Bein Max 5 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>66</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/93.ts</location>
+			<title>ART Aflam 1</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>67</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/94.ts</location>
+			<title>ART Aflam 2</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>68</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/96.ts</location>
+			<title>ART Hekayat 1</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>69</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/97.ts</location>
+			<title>ART Hekayat 2</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>70</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/95.ts</location>
+			<title>ART Cinema</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>71</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/606.ts</location>
+			<title>OSN Cinema 1 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>72</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/607.ts</location>
+			<title>OSN Cinema 2 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>73</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/98.ts</location>
+			<title>OSN Cinema 1</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>74</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/99.ts</location>
+			<title>OSN Cinema 2</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>75</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/100.ts</location>
+			<title>OSN alyoum</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>76</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/101.ts</location>
+			<title>OSN Yahala</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>77</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/102.ts</location>
+			<title>OSN Yahala Drama</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>78</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/103.ts</location>
+			<title>OSN Yahala Shabab</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>79</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/118.ts</location>
+			<title>OSN Yahala Cinema</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>80</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/286.ts</location>
+			<title>OSN MBC + Drama HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>81</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/106.ts</location>
+			<title>OSN Movies HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>82</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/133.ts</location>
+			<title>OSN Movies +2 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>83</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/104.ts</location>
+			<title>OSN Movies Action</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>84</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/105.ts</location>
+			<title>OSN Movies Action 2</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>85</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/109.ts</location>
+			<title>OSN Movies Comedy</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>86</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/110.ts</location>
+			<title>OSN Movies Drama</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>87</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/108.ts</location>
+			<title>OSN Movies Festival</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>88</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/107.ts</location>
+			<title>OSN Movies Premiere</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>89</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/134.ts</location>
+			<title>OSN Premiere +2</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>90</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/111.ts</location>
+			<title>OSN Movies Kids</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>91</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/112.ts</location>
+			<title>OSN First HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>92</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/113.ts</location>
+			<title>OSN First Comedy</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>93</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/287.ts</location>
+			<title>OSN FIRST HBO</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>94</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/116.ts</location>
+			<title>OSN Box office 1</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>95</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/138.ts</location>
+			<title>OSN Box office 2</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>96</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/139.ts</location>
+			<title>OSN Box office 3</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>97</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/404.ts</location>
+			<title>Osn Wwe</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>98</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/140.ts</location>
+			<title>OSN Animal Planet</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>99</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/114.ts</location>
+			<title>OSN Nat Geo HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>100</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/115.ts</location>
+			<title>OSN History HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>101</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/117.ts</location>
+			<title>OSN Discovery ID</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>102</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/136.ts</location>
+			<title>OSN AD Sport 1 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>103</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/137.ts</location>
+			<title>OSN AD Sport 2 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>104</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/135.ts</location>
+			<title>OSN AD Sport 3 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>105</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/181.ts</location>
+			<title>OSN_Star-World-HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>106</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/182.ts</location>
+			<title>OSN_Star-Movies-HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>107</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/186.ts</location>
+			<title>OSN_MOVIE_ACTION 2</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>108</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/187.ts</location>
+			<title>OSN_MOVIE_ACTION</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>109</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/188.ts</location>
+			<title>OSN_MOVIES_PREMIEREHD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>110</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/189.ts</location>
+			<title>OSN_Movies-Premiere-HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>111</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/190.ts</location>
+			<title>OSN_Movies-Premiere-2-HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>112</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/191.ts</location>
+			<title>OSN_Movies-Kids-HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>113</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/192.ts</location>
+			<title>OSN_Movies-HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>114</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/193.ts</location>
+			<title>OSN_Movies-Festlval-HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>115</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/194.ts</location>
+			<title>OSN_Movies-Drama-HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>116</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/195.ts</location>
+			<title>OSN_Movies-Comedy-HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>117</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/196.ts</location>
+			<title>OSN_Movies-AMC-HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>118</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/198.ts</location>
+			<title>OSN_MOVIEHD_FESTIVAL</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>119</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/200.ts</location>
+			<title>OSN_FIRSThd</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>120</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/201.ts</location>
+			<title>OSN_First-HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>121</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/202.ts</location>
+			<title>OSN_First-Comedy-HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>122</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/207.ts</location>
+			<title>OSN_Discovery-HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>123</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/210.ts</location>
+			<title>OSN_Box-OFFICE-3-HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>124</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/211.ts</location>
+			<title>OSN_Box-OFFICE-2-HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>125</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/212.ts</location>
+			<title>OSN_Box-OFFICE-1-HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>126</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/213.ts</location>
+			<title>OSN_Animal-Planet-HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>127</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/143.ts</location>
+			<title>AR : MBC 1 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>128</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/168.ts</location>
+			<title>AR : MBC 2 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>129</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/169.ts</location>
+			<title>AR : MBC 3 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>130</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/167.ts</location>
+			<title>AR : MBC 4 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>131</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/155.ts</location>
+			<title>AR : MBC Max HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>132</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/162.ts</location>
+			<title>AR : MBC Action</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>133</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/146.ts</location>
+			<title>AR : MBC Drama</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>134</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/175.ts</location>
+			<title>AR : MBC Masr</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>135</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/265.ts</location>
+			<title>AR : MBC Masr +2</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>136</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/272.ts</location>
+			<title>AR : Art Aflam1</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>137</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/268.ts</location>
+			<title>AR : Art Aflam2</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>138</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/269.ts</location>
+			<title>AR : Art Cinemat</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>139</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/260.ts</location>
+			<title>AR : Art Hekayat</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>140</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/263.ts</location>
+			<title>AR : Art Hekayat2</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>141</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/219.ts</location>
+			<title>AR : Baraem</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>142</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/173.ts</location>
+			<title>AR : Tv Chad</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>143</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/159.ts</location>
+			<title>AR : Toyour Aljennah</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>144</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/165.ts</location>
+			<title>AR : Time Film</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>145</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/178.ts</location>
+			<title>AR : Time Comedy</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>146</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/176.ts</location>
+			<title>AR : Syria Drama</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>147</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/161.ts</location>
+			<title>AR : Star Cinema 1</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>148</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/282.ts</location>
+			<title>AR : Star Cinema 2</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>149</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/166.ts</location>
+			<title>AR : Samira Tv</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>150</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/152.ts</location>
+			<title>AR : Rotana Music HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>151</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/151.ts</location>
+			<title>AR : Rotana Massrya HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>152</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/160.ts</location>
+			<title>AR : Rotana Khalijia HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>153</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/174.ts</location>
+			<title>AR : Rotana Clip</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>154</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/171.ts</location>
+			<title>AR : Rotana Classic HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>155</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/177.ts</location>
+			<title>AR : Rotana Cinema HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>156</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/141.ts</location>
+			<title>AR : Rotana Aflam HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>157</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/145.ts</location>
+			<title>AR : Rotana</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>158</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/154.ts</location>
+			<title>AR : Panorama Food</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>159</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/164.ts</location>
+			<title>AR : Panorama Drama 2</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>160</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/172.ts</location>
+			<title>AR : Panorama Drama</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>161</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/142.ts</location>
+			<title>AR : OTV</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>162</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/150.ts</location>
+			<title>AR : Nile Drama</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>163</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/148.ts</location>
+			<title>AR : NBN</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>164</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/156.ts</location>
+			<title>AR : MTV</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>165</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/144.ts</location>
+			<title>AR : Melody Clasic</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>166</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/153.ts</location>
+			<title>AR : Medi 1TV</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>167</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/163.ts</location>
+			<title>AR : Jazera Mubasher Masr</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>168</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/147.ts</location>
+			<title>AR : Al gerya 4</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>169</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/215.ts</location>
+			<title>AR : Al Hayat 2</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>170</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/217.ts</location>
+			<title>AR : Zaytouna</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>171</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/216.ts</location>
+			<title>AR : Tunisna</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>172</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/214.ts</location>
+			<title>AR : Tunisia Nat1</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>173</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/232.ts</location>
+			<title>AR : Tunisia First</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>174</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/245.ts</location>
+			<title>AR : SKYNEWS ARABIA</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>175</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/226.ts</location>
+			<title>AR : Russia Alyaum</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>176</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/599.ts</location>
+			<title>AR : ONTV</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>177</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/224.ts</location>
+			<title>AR : ONTV Live</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>178</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/221.ts</location>
+			<title>AR : Nessma</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>179</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/223.ts</location>
+			<title>AR : MTunisia</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>180</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/229.ts</location>
+			<title>AR : Lbc</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>181</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/230.ts</location>
+			<title>AR : KBC</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>182</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/241.ts</location>
+			<title>AR : Karameech</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>183</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/235.ts</location>
+			<title>AR : Hannibal</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>184</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/236.ts</location>
+			<title>AR : FRANCE24</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>185</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/238.ts</location>
+			<title>AR : ElHiwar Ettounsi</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>186</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/237.ts</location>
+			<title>AR : El Djazairia</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>187</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/233.ts</location>
+			<title>AR : Dream</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>188</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/239.ts</location>
+			<title>AR : Cbc</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>189</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/227.ts</location>
+			<title>AR : Cbc 2</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>190</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/266.ts</location>
+			<title>AR : CBC Sofra</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>191</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/261.ts</location>
+			<title>AR : CBC Extra</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>192</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/250.ts</location>
+			<title>AR : CBC Drama</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>193</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/231.ts</location>
+			<title>AR : Alhayat</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>194</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/218.ts</location>
+			<title>AR : Attesia</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>195</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/228.ts</location>
+			<title>AR : ALMANAR</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>196</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/225.ts</location>
+			<title>AR : AlJazeera Documentary</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>197</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/220.ts</location>
+			<title>AR : ALjazeera</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>198</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/246.ts</location>
+			<title>AR : Aljanoubia</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>199</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/222.ts</location>
+			<title>AR : Alhadath news</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>200</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/242.ts</location>
+			<title>AR : Alarabiya</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>201</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/234.ts</location>
+			<title>AR : 2M Monde</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>202</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/273.ts</location>
+			<title>AR : ZEE ALWAN</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>203</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/257.ts</location>
+			<title>AR : Spacetoon</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>204</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/259.ts</location>
+			<title>AR : SHAREKAA</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>205</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/247.ts</location>
+			<title>AR : SAUDI SONNA</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>206</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/271.ts</location>
+			<title>AR : SAUDI KORAN</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>207</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/251.ts</location>
+			<title>AR : NOON KIDS</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>208</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/249.ts</location>
+			<title>AR : Nile Sport</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>209</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/276.ts</location>
+			<title>AR : NATIONALGEO ABUDHABI</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>210</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/262.ts</location>
+			<title>AR : IQRA</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>211</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/253.ts</location>
+			<title>AR : Echourouk news</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>212</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/264.ts</location>
+			<title>AR : Echourouk Benna</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>213</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/248.ts</location>
+			<title>AR : Echerouk TV</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>214</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/252.ts</location>
+			<title>AR : Dzair TV</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>215</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/275.ts</location>
+			<title>AR : Dubai one</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>216</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/284.ts</location>
+			<title>AR : Bzaf music</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>217</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/270.ts</location>
+			<title>AR : ASSADISSA</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>218</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/274.ts</location>
+			<title>AR : AlraiTV</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>219</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/254.ts</location>
+			<title>AR : AlRahma</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>220</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/267.ts</location>
+			<title>AR : Alhadef</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>221</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/258.ts</location>
+			<title>AR : AlgeriaChannel</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>222</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/255.ts</location>
+			<title>AR : algeria3</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>223</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/256.ts</location>
+			<title>AR : AL Majd3</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>224</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/532.ts</location>
+			<title>Arena Sport 1 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>225</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/604.ts</location>
+			<title>STAR SPORTS 4</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>226</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/553.ts</location>
+			<title>STAR SPORTS 3</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>227</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/603.ts</location>
+			<title>STAR SPORTS 2</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>228</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/602.ts</location>
+			<title>STAR SPORTS 1</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>229</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/531.ts</location>
+			<title>Arena Sport 2 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>230</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/438.ts</location>
+			<title>Turkman Sport SD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>231</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/17.ts</location>
+			<title>DE: VOX HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>232</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/61.ts</location>
+			<title>DE: Universal HD Germany</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>233</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/58.ts</location>
+			<title>DE: TNT Serie HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>234</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/59.ts</location>
+			<title>DE: TNT Glitz HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>235</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/60.ts</location>
+			<title>DE: TNT Film TCM</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>236</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/20.ts</location>
+			<title>DE: TLC HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>237</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/21.ts</location>
+			<title>DE: Tele 5 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>238</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/31.ts</location>
+			<title>DE: SyFy HD Deutschland</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>239</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/72.ts</location>
+			<title>DE: Super RTL HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>240</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/48.ts</location>
+			<title>DE: Sport1 HD (Germany)</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>241</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/50.ts</location>
+			<title>DE: Sport1  US HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>242</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/49.ts</location>
+			<title>DE: Sport1  HD (Germany)</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>243</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/38.ts</location>
+			<title>DE: Spiegel Geschichte HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>244</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/42.ts</location>
+			<title>DE: Sky Sport News HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>245</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/43.ts</location>
+			<title>DE: Sky Sport HD 1 Germany</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>246</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/44.ts</location>
+			<title>DE: Sky Sport HD 2 Germany</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>247</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/34.ts</location>
+			<title>DE: Sky Nostalgie Germany</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>248</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/35.ts</location>
+			<title>DE: Sky Krimi</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>249</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/28.ts</location>
+			<title>DE: Sky Hits HD Germany</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>250</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/36.ts</location>
+			<title>DE: Sky Emotion Germany</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>251</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/33.ts</location>
+			<title>DE: Sky Comedy Germany</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>252</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/24.ts</location>
+			<title>DE: Sky Cinema HD Germany</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>253</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/26.ts</location>
+			<title>DE: Sky Cinema  24 HD Germany</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>254</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/25.ts</location>
+			<title>DE: Sky Cinema  1 HD Germany</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>255</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/45.ts</location>
+			<title>DE: Sky Bundesliga HD 1</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>256</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/29.ts</location>
+			<title>DE: Sky Atlantic HD Germany</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>257</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/30.ts</location>
+			<title>DE: Sky Atlantic  1 HD Germany</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>258</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/27.ts</location>
+			<title>DE: Sky Action HD Germany</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>259</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/19.ts</location>
+			<title>DE: Sixx HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>260</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/15.ts</location>
+			<title>DE: Sat 1 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>261</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/16.ts</location>
+			<title>DE: Sat 1 Gold HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>262</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/65.ts</location>
+			<title>DE: RTL Passion Germany</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>263</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/14.ts</location>
+			<title>DE: RTL Nitro HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>264</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/64.ts</location>
+			<title>DE: RTL Living</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>265</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/55.ts</location>
+			<title>DE: RTL Crime HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>266</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/13.ts</location>
+			<title>DE: RTL 2 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>267</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/66.ts</location>
+			<title>DE: Romance TV</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>268</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/23.ts</location>
+			<title>DE: ProSieben MAXX HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>269</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/22.ts</location>
+			<title>DE: Prosieben HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>270</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/71.ts</location>
+			<title>DE: Nick HD Germany</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>271</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/41.ts</location>
+			<title>DE: N-TV HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>272</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/79.ts</location>
+			<title>DE: MTV HD Germany</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>273</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/51.ts</location>
+			<title>DE: Motorvision</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>274</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/32.ts</location>
+			<title>DE: MGM HD Germany</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>275</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/56.ts</location>
+			<title>DE: Kinowelt TV</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>276</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/73.ts</location>
+			<title>DE: Kika HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>277</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/18.ts</location>
+			<title>DE: Kabel 1 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>278</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/77.ts</location>
+			<title>DE: Junior</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>279</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/81.ts</location>
+			<title>DE: Jukebox</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>280</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/37.ts</location>
+			<title>DE: History Channel HD Germany</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>281</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/57.ts</location>
+			<title>DE: Heimatkanal</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>282</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/80.ts</location>
+			<title>DE: Goldstar TV</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>283</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/52.ts</location>
+			<title>DE: Fox HD Germany</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>284</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/47.ts</location>
+			<title>DE: Eurosport 2 HD Germany</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>285</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/46.ts</location>
+			<title>DE: Eurosport 1 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>286</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/54.ts</location>
+			<title>DE: E! HD Germany</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>287</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/70.ts</location>
+			<title>DE: Disney XD Deutschland</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>288</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/69.ts</location>
+			<title>DE: Disney Junior HD Germany</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>289</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/68.ts</location>
+			<title>DE: Disney Cinemagic HD Germany</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>290</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/67.ts</location>
+			<title>DE: Disney Channel HD Germany</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>291</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/39.ts</location>
+			<title>DE: Discovery HD Deutschland</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>292</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/78.ts</location>
+			<title>DE: Deluxe Music HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>293</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/82.ts</location>
+			<title>DE: Classica</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>294</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/74.ts</location>
+			<title>DE: Cartoon Network Germany</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>295</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/75.ts</location>
+			<title>DE: Boomerang Germany</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>296</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/63.ts</location>
+			<title>DE: AXN HD Germany</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>297</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/76.ts</location>
+			<title>DE: Animax Deutschland</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>298</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/53.ts</location>
+			<title>DE: A-E Germany</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>299</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/62.ts</location>
+			<title>DE: 13th Street HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>300</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/356.ts</location>
+			<title>PREMIUM STORIES 24</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>301</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/288.ts</location>
+			<title>PREMIUM STORIES</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>302</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/357.ts</location>
+			<title>PREMIUM JOI</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>303</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/289.ts</location>
+			<title>PREMIUM CRIME HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>304</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/358.ts</location>
+			<title>PREMIUM CRIME 24 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>305</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/290.ts</location>
+			<title>PREMIUM CINEMA HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>306</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/359.ts</location>
+			<title>PREMIUM CINEMA EMOTION</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>307</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/291.ts</location>
+			<title>PREMIUM CINEMA COMEDY</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>308</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/360.ts</location>
+			<title>PREMIUM CINEMA 24</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>309</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/361.ts</location>
+			<title>PREMIUM ACTION HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>310</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/318.ts</location>
+			<title>|IT| RAI 1 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>311</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/317.ts</location>
+			<title>|IT| RAI 2 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>312</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/316.ts</location>
+			<title>|IT| RAI 3 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>313</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/315.ts</location>
+			<title>|IT| RAI 4 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>314</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/327.ts</location>
+			<title>|IT| PRIMAFILLA 1 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>315</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/326.ts</location>
+			<title>|IT| PRIMAFILLA 2 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>316</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/325.ts</location>
+			<title>|IT| PRIMAFILLA 3 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>317</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/324.ts</location>
+			<title>|IT| PRIMAFILLA 4 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>318</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/323.ts</location>
+			<title>|IT| PRIMAFILLA 5 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>319</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/322.ts</location>
+			<title>|IT| PRIMAFILLA 6 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>320</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/321.ts</location>
+			<title>|IT| PRIMAFILLA 7 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>321</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/320.ts</location>
+			<title>|IT| PRIMAFILLA 8 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>322</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/319.ts</location>
+			<title>|IT| PRIMAFILLA 9 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>323</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/328.ts</location>
+			<title>|IT| PREMIUM STORIES HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>324</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/329.ts</location>
+			<title>|IT| PREMIUM STORIES  24</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>325</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/330.ts</location>
+			<title>|IT| PREMIUM SPORT HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>326</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/331.ts</location>
+			<title>|IT| PREMIUM SPORT 2 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>327</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/332.ts</location>
+			<title>|IT| PREMIUM EMOTION</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>328</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/333.ts</location>
+			<title>|IT| PREMIUM CRIME HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>329</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/334.ts</location>
+			<title>|IT| PREMIUM COMEDY</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>330</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/335.ts</location>
+			<title>|IT| PREMIUM CINEMA HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>331</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/336.ts</location>
+			<title>|IT| PREMIUM CINEMA EMOTION</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>332</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/337.ts</location>
+			<title>|IT| PREMIUM CINEMA 24 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>333</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/338.ts</location>
+			<title>|IT| PREMIUM CINEMA 2 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>334</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/339.ts</location>
+			<title>|IT| PREMIUM CINEMA 2  24</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>335</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/340.ts</location>
+			<title>|IT| PREMIUM CINEMA  24</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>336</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/341.ts</location>
+			<title>|IT| PREMIUM ACTION HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>337</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/342.ts</location>
+			<title>|IT| PREMIUM ACTION  24</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>338</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/343.ts</location>
+			<title>|IT| NATGEOWILD HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>339</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/344.ts</location>
+			<title>|IT| NATGEO PEOPLE HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>340</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/345.ts</location>
+			<title>|IT| MEDISET EXTRA</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>341</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/346.ts</location>
+			<title>|IT| MEDIASET ITALIA 2</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>342</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/347.ts</location>
+			<title>|IT| MEDIASET EXTRA</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>343</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/348.ts</location>
+			<title>|IT| ITALIA 1 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>344</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/349.ts</location>
+			<title>|IT| FOX HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>345</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/350.ts</location>
+			<title>|IT| FOX CRIME HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>346</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/351.ts</location>
+			<title>|IT| EUROSPORT 2 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>347</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/352.ts</location>
+			<title>|IT| EUROSPORT 1 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>348</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/353.ts</location>
+			<title>|IT| DISNEY JUNIOR</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>349</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/354.ts</location>
+			<title>|IT| DISNEY CHANNEL</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>350</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/355.ts</location>
+			<title>|IT| ANIMAL PLANET</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>351</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/298.ts</location>
+			<title>IT: PRIMAFILA_1</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>352</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/295.ts</location>
+			<title>IT: PRIMAFILA_3</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>353</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/294.ts</location>
+			<title>IT: PRIMAFILA_4</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>354</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/293.ts</location>
+			<title>IT: PRIMAFILA_5</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>355</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/292.ts</location>
+			<title>IT: PRIMAFILA_6</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>356</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/297.ts</location>
+			<title>IT: PRIMAFILA_10</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>357</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/296.ts</location>
+			<title>IT: PRIMAFILA_13</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>358</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/299.ts</location>
+			<title>|IT| SKY_SPORT_1 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>359</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/300.ts</location>
+			<title>|IT| SKY SUPERTENIS HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>360</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/301.ts</location>
+			<title>|IT| SKY SUPERCALCIO HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>361</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/302.ts</location>
+			<title>|IT| SKY SPORTS F1 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>362</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/303.ts</location>
+			<title>|IT| SKY SPORT ITALIA</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>363</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/304.ts</location>
+			<title>|IT| SKY SPORT 3 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>364</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/305.ts</location>
+			<title>|IT| SKY SPORT 2 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>365</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/306.ts</location>
+			<title>|IT| SKY FOX COMEDY HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>366</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/307.ts</location>
+			<title>|IT| SKY CINEMA MAX HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>367</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/308.ts</location>
+			<title>|IT| SKY CINEMA FAMILY HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>368</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/309.ts</location>
+			<title>|IT| SKY CINEMA COMEDY HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>369</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/310.ts</location>
+			<title>|IT| SKY CINEMA 3D</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>370</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/311.ts</location>
+			<title>|IT| SKY CINEMA 24 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>371</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/312.ts</location>
+			<title>|IT| RAI PREMIUN</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>372</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/313.ts</location>
+			<title>|IT| RAI MOVIE</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>373</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/314.ts</location>
+			<title>|IT| RAI 5 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>374</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/367.ts</location>
+			<title>|UK|  SKY SPORTS 3</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>375</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/368.ts</location>
+			<title>|UK|  SKY SPORTS 2</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>376</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/369.ts</location>
+			<title>|UK|  SKY SPORTS 1</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>377</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/370.ts</location>
+			<title>|UK|  SKY MOVIES SHOWCASE</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>378</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/371.ts</location>
+			<title>|UK|  SKY MOVIES SELECT</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>379</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/372.ts</location>
+			<title>|UK|  SKY MOVIES SCI-FI&amp;HORROR</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>380</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/373.ts</location>
+			<title>|UK|  SKY MOVIES PREMIERE</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>381</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/374.ts</location>
+			<title>|UK|  SKY MOVIES GREATS</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>382</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/375.ts</location>
+			<title>|UK|  SKY MOVIES FAMILY</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>383</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/376.ts</location>
+			<title>|UK|  SKY MOVIES DRAMA&amp;ROMANCE</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>384</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/377.ts</location>
+			<title>|UK|  SKY MOVIES DISNEY</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>385</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/378.ts</location>
+			<title>|UK|  SKY MOVIES CRIME&amp;THRILLER</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>386</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/379.ts</location>
+			<title>|UK|  SKY MOVIES COMEDY</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>387</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/380.ts</location>
+			<title>|UK|  SKY MOVIES ACTION&amp;ADVENTURE</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>388</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/381.ts</location>
+			<title>|UK|  SKY ATLANTIC HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>389</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/382.ts</location>
+			<title>|UK|  NATIONAL GEOGRAPHIC HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>390</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/383.ts</location>
+			<title>|UK|  FOX</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>391</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/384.ts</location>
+			<title>|UK|  FIGHTBOX HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>392</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/385.ts</location>
+			<title>|UK|  DISCOVERY SCIENCE CHANNEL</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>393</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/386.ts</location>
+			<title>|UK|  DISCOVERY HOME&amp;HEALTH</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>394</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/387.ts</location>
+			<title>|UK|  DISCOVERY CHANNEL</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>395</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/388.ts</location>
+			<title>|UK|  COMEDY CENTRAL</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>396</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/389.ts</location>
+			<title>|UK|  BT SPORT 1 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>397</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/390.ts</location>
+			<title>|UK|  BBC 4</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>398</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/391.ts</location>
+			<title>|UK|  BBC 3</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>399</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/392.ts</location>
+			<title>|UK|  BBC 2</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>400</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/393.ts</location>
+			<title>|UK|  BBC 1</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>401</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/362.ts</location>
+			<title>UK:Sky_Movies_Select</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>402</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/363.ts</location>
+			<title>UK:NATIONAL-GEO-WILD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>403</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/364.ts</location>
+			<title>UK:DISNEY-CHANNEL</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>404</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/365.ts</location>
+			<title>UK:DISCOVERY-SCIENCE</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>405</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/366.ts</location>
+			<title>UK:ANIMAL-PLANET</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>406</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/450.ts</location>
+			<title>SR: PINK_ZABAVA</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>407</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/494.ts</location>
+			<title>SR: PINK_WESTERN</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>408</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/495.ts</location>
+			<title>SR: PINK_PREMIUM</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>409</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/496.ts</location>
+			<title>SR: PINK_STYLE</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>410</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/497.ts</location>
+			<title>SR: PINK_SHOW</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>411</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/498.ts</location>
+			<title>SR: PINK_SCI-FI&amp;FANTASY</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>412</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/499.ts</location>
+			<title>SR: PINK_REALITY</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>413</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/500.ts</location>
+			<title>SR: PINK_PEDIA</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>414</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/501.ts</location>
+			<title>SR: PINK_M</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>415</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/502.ts</location>
+			<title>SR: PINK_KIDS</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>416</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/503.ts</location>
+			<title>SR: PINK_HORROR</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>417</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/504.ts</location>
+			<title>SR: PINK_FOLK_2</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>418</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/505.ts</location>
+			<title>SR: PINK_FILM</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>419</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/506.ts</location>
+			<title>SR: PINK_EXTRA</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>420</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/507.ts</location>
+			<title>SR: PINK_CRIME&amp;MISTERY</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>421</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/508.ts</location>
+			<title>SR: PINK_COMEDY</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>422</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/509.ts</location>
+			<title>SR: PINK 1</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>423</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/510.ts</location>
+			<title>SR: PINK_ACTION</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>424</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/511.ts</location>
+			<title>SR: PINK_3</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>425</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/512.ts</location>
+			<title>SR: PINK_2</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>426</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/561.ts</location>
+			<title>MEGA</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>427</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/583.ts</location>
+			<title>Barca TV</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>428</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/560.ts</location>
+			<title>CTH STADIUM 5</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>429</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/558.ts</location>
+			<title>CTH STADIUM 3</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>430</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/557.ts</location>
+			<title>CTH STADIUM 2</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>431</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/573.ts</location>
+			<title>CLUB_RTL</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>432</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/570.ts</location>
+			<title>Club RTL</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>433</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/566.ts</location>
+			<title>Canal Liga 2 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>434</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/567.ts</location>
+			<title>Canal DEPORTES 2</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>435</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/565.ts</location>
+			<title>CANAL  FUTBOL HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>436</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/564.ts</location>
+			<title>Canal  Futbol</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>437</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/568.ts</location>
+			<title>Canal  Deportes</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>438</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/563.ts</location>
+			<title>C _Futbol</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>439</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/529.ts</location>
+			<title>Arena Sport 4 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>440</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/580.ts</location>
+			<title>ZIGGO_SPORT_Voetbal</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>441</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/581.ts</location>
+			<title>ZIGGO_SPORT_SELECT</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>442</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/582.ts</location>
+			<title>ZIGGO_SPORT</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>443</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/545.ts</location>
+			<title>VARZESH TV</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>444</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/562.ts</location>
+			<title>TV3_HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>445</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/547.ts</location>
+			<title>TV2</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>446</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/548.ts</location>
+			<title>TRT 1</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>447</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/569.ts</location>
+			<title>SP: BIEN SPORTS</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>448</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/549.ts</location>
+			<title>SHOW TV HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>449</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/550.ts</location>
+			<title>Ptv sport</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>450</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/528.ts</location>
+			<title>PREMIUM CALCIO</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>451</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/574.ts</location>
+			<title>FOX_SPORTS_1</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>452</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/575.ts</location>
+			<title>FOX_SPORTS_2</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>453</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/576.ts</location>
+			<title>FOX_SPORTS_3</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>454</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/577.ts</location>
+			<title>FOX_SPORTS_4</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>455</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/578.ts</location>
+			<title>FOX_SPORTS_5</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>456</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/579.ts</location>
+			<title>FOX_SPORTS_6</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>457</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/442.ts</location>
+			<title>ES: Canal _Liga</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>458</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/543.ts</location>
+			<title>Foot  24</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>459</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/544.ts</location>
+			<title>EN Bein Sport 1</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>460</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/533.ts</location>
+			<title>ZDF</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>461</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/534.ts</location>
+			<title>Sport TV 5</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>462</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/535.ts</location>
+			<title>SPORT TV 4 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>463</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/536.ts</location>
+			<title>SPORT TV 3 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>464</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/537.ts</location>
+			<title>SPORT TV 2 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>465</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/538.ts</location>
+			<title>SPORT TV 1 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>466</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/513.ts</location>
+			<title>Sky Calcio 6 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>467</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/517.ts</location>
+			<title>Sky Calcio 5 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>468</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/521.ts</location>
+			<title>Sky Calcio 3HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>469</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/520.ts</location>
+			<title>SKY CALCIO 2 HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>470</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/519.ts</location>
+			<title>Sky Calcio 1HD</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>471</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/541.ts</location>
+			<title>RTP 1</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>472</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/540.ts</location>
+			<title>RTP 2</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>473</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/539.ts</location>
+			<title>RTP 3</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>474</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/527.ts</location>
+			<title>Premium Calcio 1</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>475</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/526.ts</location>
+			<title>Premium Calcio 2</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>476</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/525.ts</location>
+			<title>Premium Calcio 3</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>477</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/524.ts</location>
+			<title>Premium Calcio 4</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>478</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/523.ts</location>
+			<title>Premium Calcio 5</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>479</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://www.3rabsat.com:8080/live/masrawysatIPTV/NxdGdy8SLZNsu6jb/522.ts</location>
+			<title>Premium Calcio 6</title>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>480</vlc:id>
+			</extension>
+		</track>
+	</trackList>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+			<vlc:item tid="0"/>
+			<vlc:item tid="1"/>
+			<vlc:item tid="2"/>
+			<vlc:item tid="3"/>
+			<vlc:item tid="4"/>
+			<vlc:item tid="5"/>
+			<vlc:item tid="6"/>
+			<vlc:item tid="7"/>
+			<vlc:item tid="8"/>
+			<vlc:item tid="9"/>
+			<vlc:item tid="10"/>
+			<vlc:item tid="11"/>
+			<vlc:item tid="12"/>
+			<vlc:item tid="13"/>
+			<vlc:item tid="14"/>
+			<vlc:item tid="15"/>
+			<vlc:item tid="16"/>
+			<vlc:item tid="17"/>
+			<vlc:item tid="18"/>
+			<vlc:item tid="19"/>
+			<vlc:item tid="20"/>
+			<vlc:item tid="21"/>
+			<vlc:item tid="22"/>
+			<vlc:item tid="23"/>
+			<vlc:item tid="24"/>
+			<vlc:item tid="25"/>
+			<vlc:item tid="26"/>
+			<vlc:item tid="27"/>
+			<vlc:item tid="28"/>
+			<vlc:item tid="29"/>
+			<vlc:item tid="30"/>
+			<vlc:item tid="31"/>
+			<vlc:item tid="32"/>
+			<vlc:item tid="33"/>
+			<vlc:item tid="34"/>
+			<vlc:item tid="35"/>
+			<vlc:item tid="36"/>
+			<vlc:item tid="37"/>
+			<vlc:item tid="38"/>
+			<vlc:item tid="39"/>
+			<vlc:item tid="40"/>
+			<vlc:item tid="41"/>
+			<vlc:item tid="42"/>
+			<vlc:item tid="43"/>
+			<vlc:item tid="44"/>
+			<vlc:item tid="45"/>
+			<vlc:item tid="46"/>
+			<vlc:item tid="47"/>
+			<vlc:item tid="48"/>
+			<vlc:item tid="49"/>
+			<vlc:item tid="50"/>
+			<vlc:item tid="51"/>
+			<vlc:item tid="52"/>
+			<vlc:item tid="53"/>
+			<vlc:item tid="54"/>
+			<vlc:item tid="55"/>
+			<vlc:item tid="56"/>
+			<vlc:item tid="57"/>
+			<vlc:item tid="58"/>
+			<vlc:item tid="59"/>
+			<vlc:item tid="60"/>
+			<vlc:item tid="61"/>
+			<vlc:item tid="62"/>
+			<vlc:item tid="63"/>
+			<vlc:item tid="64"/>
+			<vlc:item tid="65"/>
+			<vlc:item tid="66"/>
+			<vlc:item tid="67"/>
+			<vlc:item tid="68"/>
+			<vlc:item tid="69"/>
+			<vlc:item tid="70"/>
+			<vlc:item tid="71"/>
+			<vlc:item tid="72"/>
+			<vlc:item tid="73"/>
+			<vlc:item tid="74"/>
+			<vlc:item tid="75"/>
+			<vlc:item tid="76"/>
+			<vlc:item tid="77"/>
+			<vlc:item tid="78"/>
+			<vlc:item tid="79"/>
+			<vlc:item tid="80"/>
+			<vlc:item tid="81"/>
+			<vlc:item tid="82"/>
+			<vlc:item tid="83"/>
+			<vlc:item tid="84"/>
+			<vlc:item tid="85"/>
+			<vlc:item tid="86"/>
+			<vlc:item tid="87"/>
+			<vlc:item tid="88"/>
+			<vlc:item tid="89"/>
+			<vlc:item tid="90"/>
+			<vlc:item tid="91"/>
+			<vlc:item tid="92"/>
+			<vlc:item tid="93"/>
+			<vlc:item tid="94"/>
+			<vlc:item tid="95"/>
+			<vlc:item tid="96"/>
+			<vlc:item tid="97"/>
+			<vlc:item tid="98"/>
+			<vlc:item tid="99"/>
+			<vlc:item tid="100"/>
+			<vlc:item tid="101"/>
+			<vlc:item tid="102"/>
+			<vlc:item tid="103"/>
+			<vlc:item tid="104"/>
+			<vlc:item tid="105"/>
+			<vlc:item tid="106"/>
+			<vlc:item tid="107"/>
+			<vlc:item tid="108"/>
+			<vlc:item tid="109"/>
+			<vlc:item tid="110"/>
+			<vlc:item tid="111"/>
+			<vlc:item tid="112"/>
+			<vlc:item tid="113"/>
+			<vlc:item tid="114"/>
+			<vlc:item tid="115"/>
+			<vlc:item tid="116"/>
+			<vlc:item tid="117"/>
+			<vlc:item tid="118"/>
+			<vlc:item tid="119"/>
+			<vlc:item tid="120"/>
+			<vlc:item tid="121"/>
+			<vlc:item tid="122"/>
+			<vlc:item tid="123"/>
+			<vlc:item tid="124"/>
+			<vlc:item tid="125"/>
+			<vlc:item tid="126"/>
+			<vlc:item tid="127"/>
+			<vlc:item tid="128"/>
+			<vlc:item tid="129"/>
+			<vlc:item tid="130"/>
+			<vlc:item tid="131"/>
+			<vlc:item tid="132"/>
+			<vlc:item tid="133"/>
+			<vlc:item tid="134"/>
+			<vlc:item tid="135"/>
+			<vlc:item tid="136"/>
+			<vlc:item tid="137"/>
+			<vlc:item tid="138"/>
+			<vlc:item tid="139"/>
+			<vlc:item tid="140"/>
+			<vlc:item tid="141"/>
+			<vlc:item tid="142"/>
+			<vlc:item tid="143"/>
+			<vlc:item tid="144"/>
+			<vlc:item tid="145"/>
+			<vlc:item tid="146"/>
+			<vlc:item tid="147"/>
+			<vlc:item tid="148"/>
+			<vlc:item tid="149"/>
+			<vlc:item tid="150"/>
+			<vlc:item tid="151"/>
+			<vlc:item tid="152"/>
+			<vlc:item tid="153"/>
+			<vlc:item tid="154"/>
+			<vlc:item tid="155"/>
+			<vlc:item tid="156"/>
+			<vlc:item tid="157"/>
+			<vlc:item tid="158"/>
+			<vlc:item tid="159"/>
+			<vlc:item tid="160"/>
+			<vlc:item tid="161"/>
+			<vlc:item tid="162"/>
+			<vlc:item tid="163"/>
+			<vlc:item tid="164"/>
+			<vlc:item tid="165"/>
+			<vlc:item tid="166"/>
+			<vlc:item tid="167"/>
+			<vlc:item tid="168"/>
+			<vlc:item tid="169"/>
+			<vlc:item tid="170"/>
+			<vlc:item tid="171"/>
+			<vlc:item tid="172"/>
+			<vlc:item tid="173"/>
+			<vlc:item tid="174"/>
+			<vlc:item tid="175"/>
+			<vlc:item tid="176"/>
+			<vlc:item tid="177"/>
+			<vlc:item tid="178"/>
+			<vlc:item tid="179"/>
+			<vlc:item tid="180"/>
+			<vlc:item tid="181"/>
+			<vlc:item tid="182"/>
+			<vlc:item tid="183"/>
+			<vlc:item tid="184"/>
+			<vlc:item tid="185"/>
+			<vlc:item tid="186"/>
+			<vlc:item tid="187"/>
+			<vlc:item tid="188"/>
+			<vlc:item tid="189"/>
+			<vlc:item tid="190"/>
+			<vlc:item tid="191"/>
+			<vlc:item tid="192"/>
+			<vlc:item tid="193"/>
+			<vlc:item tid="194"/>
+			<vlc:item tid="195"/>
+			<vlc:item tid="196"/>
+			<vlc:item tid="197"/>
+			<vlc:item tid="198"/>
+			<vlc:item tid="199"/>
+			<vlc:item tid="200"/>
+			<vlc:item tid="201"/>
+			<vlc:item tid="202"/>
+			<vlc:item tid="203"/>
+			<vlc:item tid="204"/>
+			<vlc:item tid="205"/>
+			<vlc:item tid="206"/>
+			<vlc:item tid="207"/>
+			<vlc:item tid="208"/>
+			<vlc:item tid="209"/>
+			<vlc:item tid="210"/>
+			<vlc:item tid="211"/>
+			<vlc:item tid="212"/>
+			<vlc:item tid="213"/>
+			<vlc:item tid="214"/>
+			<vlc:item tid="215"/>
+			<vlc:item tid="216"/>
+			<vlc:item tid="217"/>
+			<vlc:item tid="218"/>
+			<vlc:item tid="219"/>
+			<vlc:item tid="220"/>
+			<vlc:item tid="221"/>
+			<vlc:item tid="222"/>
+			<vlc:item tid="223"/>
+			<vlc:item tid="224"/>
+			<vlc:item tid="225"/>
+			<vlc:item tid="226"/>
+			<vlc:item tid="227"/>
+			<vlc:item tid="228"/>
+			<vlc:item tid="229"/>
+			<vlc:item tid="230"/>
+			<vlc:item tid="231"/>
+			<vlc:item tid="232"/>
+			<vlc:item tid="233"/>
+			<vlc:item tid="234"/>
+			<vlc:item tid="235"/>
+			<vlc:item tid="236"/>
+			<vlc:item tid="237"/>
+			<vlc:item tid="238"/>
+			<vlc:item tid="239"/>
+			<vlc:item tid="240"/>
+			<vlc:item tid="241"/>
+			<vlc:item tid="242"/>
+			<vlc:item tid="243"/>
+			<vlc:item tid="244"/>
+			<vlc:item tid="245"/>
+			<vlc:item tid="246"/>
+			<vlc:item tid="247"/>
+			<vlc:item tid="248"/>
+			<vlc:item tid="249"/>
+			<vlc:item tid="250"/>
+			<vlc:item tid="251"/>
+			<vlc:item tid="252"/>
+			<vlc:item tid="253"/>
+			<vlc:item tid="254"/>
+			<vlc:item tid="255"/>
+			<vlc:item tid="256"/>
+			<vlc:item tid="257"/>
+			<vlc:item tid="258"/>
+			<vlc:item tid="259"/>
+			<vlc:item tid="260"/>
+			<vlc:item tid="261"/>
+			<vlc:item tid="262"/>
+			<vlc:item tid="263"/>
+			<vlc:item tid="264"/>
+			<vlc:item tid="265"/>
+			<vlc:item tid="266"/>
+			<vlc:item tid="267"/>
+			<vlc:item tid="268"/>
+			<vlc:item tid="269"/>
+			<vlc:item tid="270"/>
+			<vlc:item tid="271"/>
+			<vlc:item tid="272"/>
+			<vlc:item tid="273"/>
+			<vlc:item tid="274"/>
+			<vlc:item tid="275"/>
+			<vlc:item tid="276"/>
+			<vlc:item tid="277"/>
+			<vlc:item tid="278"/>
+			<vlc:item tid="279"/>
+			<vlc:item tid="280"/>
+			<vlc:item tid="281"/>
+			<vlc:item tid="282"/>
+			<vlc:item tid="283"/>
+			<vlc:item tid="284"/>
+			<vlc:item tid="285"/>
+			<vlc:item tid="286"/>
+			<vlc:item tid="287"/>
+			<vlc:item tid="288"/>
+			<vlc:item tid="289"/>
+			<vlc:item tid="290"/>
+			<vlc:item tid="291"/>
+			<vlc:item tid="292"/>
+			<vlc:item tid="293"/>
+			<vlc:item tid="294"/>
+			<vlc:item tid="295"/>
+			<vlc:item tid="296"/>
+			<vlc:item tid="297"/>
+			<vlc:item tid="298"/>
+			<vlc:item tid="299"/>
+			<vlc:item tid="300"/>
+			<vlc:item tid="301"/>
+			<vlc:item tid="302"/>
+			<vlc:item tid="303"/>
+			<vlc:item tid="304"/>
+			<vlc:item tid="305"/>
+			<vlc:item tid="306"/>
+			<vlc:item tid="307"/>
+			<vlc:item tid="308"/>
+			<vlc:item tid="309"/>
+			<vlc:item tid="310"/>
+			<vlc:item tid="311"/>
+			<vlc:item tid="312"/>
+			<vlc:item tid="313"/>
+			<vlc:item tid="314"/>
+			<vlc:item tid="315"/>
+			<vlc:item tid="316"/>
+			<vlc:item tid="317"/>
+			<vlc:item tid="318"/>
+			<vlc:item tid="319"/>
+			<vlc:item tid="320"/>
+			<vlc:item tid="321"/>
+			<vlc:item tid="322"/>
+			<vlc:item tid="323"/>
+			<vlc:item tid="324"/>
+			<vlc:item tid="325"/>
+			<vlc:item tid="326"/>
+			<vlc:item tid="327"/>
+			<vlc:item tid="328"/>
+			<vlc:item tid="329"/>
+			<vlc:item tid="330"/>
+			<vlc:item tid="331"/>
+			<vlc:item tid="332"/>
+			<vlc:item tid="333"/>
+			<vlc:item tid="334"/>
+			<vlc:item tid="335"/>
+			<vlc:item tid="336"/>
+			<vlc:item tid="337"/>
+			<vlc:item tid="338"/>
+			<vlc:item tid="339"/>
+			<vlc:item tid="340"/>
+			<vlc:item tid="341"/>
+			<vlc:item tid="342"/>
+			<vlc:item tid="343"/>
+			<vlc:item tid="344"/>
+			<vlc:item tid="345"/>
+			<vlc:item tid="346"/>
+			<vlc:item tid="347"/>
+			<vlc:item tid="348"/>
+			<vlc:item tid="349"/>
+			<vlc:item tid="350"/>
+			<vlc:item tid="351"/>
+			<vlc:item tid="352"/>
+			<vlc:item tid="353"/>
+			<vlc:item tid="354"/>
+			<vlc:item tid="355"/>
+			<vlc:item tid="356"/>
+			<vlc:item tid="357"/>
+			<vlc:item tid="358"/>
+			<vlc:item tid="359"/>
+			<vlc:item tid="360"/>
+			<vlc:item tid="361"/>
+			<vlc:item tid="362"/>
+			<vlc:item tid="363"/>
+			<vlc:item tid="364"/>
+			<vlc:item tid="365"/>
+			<vlc:item tid="366"/>
+			<vlc:item tid="367"/>
+			<vlc:item tid="368"/>
+			<vlc:item tid="369"/>
+			<vlc:item tid="370"/>
+			<vlc:item tid="371"/>
+			<vlc:item tid="372"/>
+			<vlc:item tid="373"/>
+			<vlc:item tid="374"/>
+			<vlc:item tid="375"/>
+			<vlc:item tid="376"/>
+			<vlc:item tid="377"/>
+			<vlc:item tid="378"/>
+			<vlc:item tid="379"/>
+			<vlc:item tid="380"/>
+			<vlc:item tid="381"/>
+			<vlc:item tid="382"/>
+			<vlc:item tid="383"/>
+			<vlc:item tid="384"/>
+			<vlc:item tid="385"/>
+			<vlc:item tid="386"/>
+			<vlc:item tid="387"/>
+			<vlc:item tid="388"/>
+			<vlc:item tid="389"/>
+			<vlc:item tid="390"/>
+			<vlc:item tid="391"/>
+			<vlc:item tid="392"/>
+			<vlc:item tid="393"/>
+			<vlc:item tid="394"/>
+			<vlc:item tid="395"/>
+			<vlc:item tid="396"/>
+			<vlc:item tid="397"/>
+			<vlc:item tid="398"/>
+			<vlc:item tid="399"/>
+			<vlc:item tid="400"/>
+			<vlc:item tid="401"/>
+			<vlc:item tid="402"/>
+			<vlc:item tid="403"/>
+			<vlc:item tid="404"/>
+			<vlc:item tid="405"/>
+			<vlc:item tid="406"/>
+			<vlc:item tid="407"/>
+			<vlc:item tid="408"/>
+			<vlc:item tid="409"/>
+			<vlc:item tid="410"/>
+			<vlc:item tid="411"/>
+			<vlc:item tid="412"/>
+			<vlc:item tid="413"/>
+			<vlc:item tid="414"/>
+			<vlc:item tid="415"/>
+			<vlc:item tid="416"/>
+			<vlc:item tid="417"/>
+			<vlc:item tid="418"/>
+			<vlc:item tid="419"/>
+			<vlc:item tid="420"/>
+			<vlc:item tid="421"/>
+			<vlc:item tid="422"/>
+			<vlc:item tid="423"/>
+			<vlc:item tid="424"/>
+			<vlc:item tid="425"/>
+			<vlc:item tid="426"/>
+			<vlc:item tid="427"/>
+			<vlc:item tid="428"/>
+			<vlc:item tid="429"/>
+			<vlc:item tid="430"/>
+			<vlc:item tid="431"/>
+			<vlc:item tid="432"/>
+			<vlc:item tid="433"/>
+			<vlc:item tid="434"/>
+			<vlc:item tid="435"/>
+			<vlc:item tid="436"/>
+			<vlc:item tid="437"/>
+			<vlc:item tid="438"/>
+			<vlc:item tid="439"/>
+			<vlc:item tid="440"/>
+			<vlc:item tid="441"/>
+			<vlc:item tid="442"/>
+			<vlc:item tid="443"/>
+			<vlc:item tid="444"/>
+			<vlc:item tid="445"/>
+			<vlc:item tid="446"/>
+			<vlc:item tid="447"/>
+			<vlc:item tid="448"/>
+			<vlc:item tid="449"/>
+			<vlc:item tid="450"/>
+			<vlc:item tid="451"/>
+			<vlc:item tid="452"/>
+			<vlc:item tid="453"/>
+			<vlc:item tid="454"/>
+			<vlc:item tid="455"/>
+			<vlc:item tid="456"/>
+			<vlc:item tid="457"/>
+			<vlc:item tid="458"/>
+			<vlc:item tid="459"/>
+			<vlc:item tid="460"/>
+			<vlc:item tid="461"/>
+			<vlc:item tid="462"/>
+			<vlc:item tid="463"/>
+			<vlc:item tid="464"/>
+			<vlc:item tid="465"/>
+			<vlc:item tid="466"/>
+			<vlc:item tid="467"/>
+			<vlc:item tid="468"/>
+			<vlc:item tid="469"/>
+			<vlc:item tid="470"/>
+			<vlc:item tid="471"/>
+			<vlc:item tid="472"/>
+			<vlc:item tid="473"/>
+			<vlc:item tid="474"/>
+			<vlc:item tid="475"/>
+			<vlc:item tid="476"/>
+			<vlc:item tid="477"/>
+			<vlc:item tid="478"/>
+			<vlc:item tid="479"/>
+			<vlc:item tid="480"/>
+	</extension>
+</playlist>
