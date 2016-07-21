@@ -10,3 +10,11 @@
 <info>Arabic TV (MG.Arabic)</info>
 </channel>
 
+
+<channel>
+<name>TV Shows</name>
+<thumbnail>https://i.imgsafe.org/dbfaa80f6f.jpg</thumbnail>
+<externallink>https://simplekore.com/wp-content/uploads/file-manager/FTA_Boy/Mahvareh/mah.txt</externallink>
+<fanart>https://i.imgsafe.org/dc4b325505.jpg</fanart>
+<info>Arabic TV (MG.Arabic)</info>
+</channel>
