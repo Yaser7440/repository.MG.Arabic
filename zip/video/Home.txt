@@ -11,6 +11,14 @@
 </channel>
 
 <channel>
+<name>Showscen.com</name>
+<thumbnailhttp://www.showscen.com/watch/wp-content/uploads/2016/05/cropped-cropped-10932490_358718531003341_2146272006_a-1-180x180.jpg</thumbnail>
+<externallink>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/video/video.txt</externallink>
+<fanart>http://www.showscen.com/watch/wp-content/uploads/2016/05/cropped-cropped-10932490_358718531003341_2146272006_a-1-180x180.jpg</fanart>
+<info>(MG.Arabic)</info>
+</channel>
+
+<channel>
 <name>TV Shows</name>
 <thumbnail>http://www.androidpolice.com/wp-content/uploads/2012/10/nexusae0_tv-logo-288x300-2.jpg</thumbnail>
 <externallink>https://simplekore.com/wp-content/uploads/file-manager/FTA_Boy/Mahvareh/mah.txt</externallink>
