@@ -12,9 +12,16 @@
 </channel>
 
 
-
 <channel>
 <name>Movies</name>
+<thumbnail>http://i85.photobucket.com/albums/k80/AlonzoTiga/MyMoviesWallpaper.jpg</thumbnail>
+<externallink>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/video/Movies.txt</externallink>
+<fanart>http://i85.photobucket.com/albums/k80/AlonzoTiga/MyMoviesWallpaper.jpg</fanart>
+<info>(MG.Arabic)</info>
+</channel>
+
+<channel>
+<name>Movies 2</name>
 <thumbnail>http://www.iranproud.net/images/ipLogo.png</thumbnail>
 <externallink>https://raw.githubusercontent.com/xldrx/kodi-persian-contents/master/Movies.m3u</externallink>
 <fanart>http://www.iranproud.net/images/ipLogo.png</fanart>
