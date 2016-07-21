@@ -2,7 +2,7 @@
 
 <item>
 <title>Top Movies 4</title>
-<link>http://www.navixtreme.com/playlist/96828/_2005_top_movies_visit_camchance.com.plx</link>
+<link>http://www.navixtreme.com/playlist/96828/_2005_top_movies_visit_camchance.com</link>
 <thumbnail>https://mir-s3-cdn-cf.behance.net/project_modules/disp/fdd1c412374317.562678e05a57a.jpg</thumbnail>
 <fanart>https://mir-s3-cdn-cf.behance.net/project_modules/disp/fdd1c412374317.562678e05a57a.jpg</fanart>
 <info>• Arabic TV (MG.Arabic)</info>
@@ -13,7 +13,7 @@
 <channel>
 <name>Top Movies</name>
 <thumbnail>https://mir-s3-cdn-cf.behance.net/project_modules/disp/fdd1c412374317.562678e05a57a.jpg</thumbnail>
-<externallink>http://www.navixtreme.com/playlist/96828/_2005_top_movies_visit_camchance.com.plx</externallink>
+<externallink>http://www.navixtreme.com/playlist/96828/_2005_top_movies_visit_camchance.com</externallink>
 <fanart>https://mir-s3-cdn-cf.behance.net/project_modules/disp/fdd1c412374317.562678e05a57a.jpg</fanart>
 <info>Arabic TV (MG.Arabic)</info>
 </channel>
@@ -21,12 +21,12 @@
 type=playlist
 name=Sorted [COLOR=FF00FF00]Top Movies 2[/COLOR]
 icon=https://mir-s3-cdn-cf.behance.net/project_modules/disp/fdd1c412374317.562678e05a57a.jpg
-URL=http://www.navixtreme.com/playlist/96828/_2005_top_movies_visit_camchance.com.plx
+URL=http://www.navixtreme.com/playlist/96828/_2005_top_movies_visit_camchance.com
 
 <channel>
 <name>Warning ADULT Content</name>
 <thumbnail>https://mir-s3-cdn-cf.behance.net/project_modules/disp/fdd1c412374317.562678e05a57a.jpg</thumbnail>
-<externallink>http://www.navixtreme.com/playlist/148106/videobronx.plx</externallink>
+<externallink>http://www.navixtreme.com/playlist/148106/videobronx</externallink>
 <fanart>https://mir-s3-cdn-cf.behance.net/project_modules/disp/fdd1c412374317.562678e05a57a.jpg</fanart>
 <info>Arabic TV (MG.Arabic)</info>
 </channel>
