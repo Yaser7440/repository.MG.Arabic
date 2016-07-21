@@ -74,5 +74,29 @@
 <info>TV Deutsch (MG.Arabic)</info>
 </channel>
 
+<channel>
+<name>TV Deutsch_Regio</name>
+<thumbnail>https://upload.wikimedia.org/wikipedia/commons/0/0b/REGIO_TV_Schwaben_Logo.svg</thumbnail>
+<externallink>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/Channels/Deutsch_Regio.strm</externallink>
+<fanart>https://upload.wikimedia.org/wikipedia/commons/0/0b/REGIO_TV_Schwaben_Logo.svg</fanart>
+<info>TV Deutsch_Regio (MG.Arabic)</info>
+</channel>
+
+<channel>
+<name>Music</name>
+<thumbnail>http://p8cdn4static.sharpschool.com/UserFiles/Servers/Server_608213/Image/Music%20Images/music%20banner.jpg</thumbnail>
+<externallink>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/Channels/Music.strm</externallink>
+<fanart>http://p8cdn4static.sharpschool.com/UserFiles/Servers/Server_608213/Image/Music%20Images/music%20banner.jpg</fanart>
+<info>Music (MG.Arabic)</info>
+</channel>
+
+<channel>
+<name>New_Chin</name>
+<thumbnail>https://i.ytimg.com/vi/B2_zFvDYgpE/maxresdefault.jpg</thumbnail>
+<externallink>http://www.anza-mon.com/anosh/TV/New_Chin.strm</externallink>
+<fanart>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/image/MG.Arabic.png</fanart>
+<info>New_Chin (MG.Arabic)</info>
+</channel>
+
 </channels>
 
