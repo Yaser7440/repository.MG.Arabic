@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-﻿<layouttype>thumbnail</layouttype>
-=======
-
->>>>>>> origin/master
+<layouttype>thumbnail</layouttype>
 
 <channels>
 
