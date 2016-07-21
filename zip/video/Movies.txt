@@ -1,19 +1,13 @@
 <layouttype>thumbnail</layouttype>
 
-<item>
-<title>Top Movies 4</title>
-<link>http://www.navixtreme.com/playlist/96828/_2005_top_movies_visit_camchance.com</link>
-<thumbnail>https://mir-s3-cdn-cf.behance.net/project_modules/disp/fdd1c412374317.562678e05a57a.jpg</thumbnail>
-<fanart>https://mir-s3-cdn-cf.behance.net/project_modules/disp/fdd1c412374317.562678e05a57a.jpg</fanart>
-<info>• Arabic TV (MG.Arabic)</info>
-</item>
+
 
 <channels>
 
 <channel>
 <name>Top Movies</name>
 <thumbnail>https://mir-s3-cdn-cf.behance.net/project_modules/disp/fdd1c412374317.562678e05a57a.jpg</thumbnail>
-<externallink>http://www.navixtreme.com/playlist/96828/_2005_top_movies_visit_camchance.com</externallink>
+<externallink>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/video/movies/Movies.txt</externallink>
 <fanart>https://mir-s3-cdn-cf.behance.net/project_modules/disp/fdd1c412374317.562678e05a57a.jpg</fanart>
 <info>Arabic TV (MG.Arabic)</info>
 </channel>
