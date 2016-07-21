@@ -76,9 +76,9 @@
 
 <channel>
 <name>TV Deutsch_Regio</name>
-<thumbnail>https://upload.wikimedia.org/wikipedia/commons/0/0b/REGIO_TV_Schwaben_Logo.svg</thumbnail>
+<thumbnail>https://i.vimeocdn.com/portrait/6869691_300x300</thumbnail>
 <externallink>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/Channels/Deutsch_Regio.strm</externallink>
-<fanart>https://upload.wikimedia.org/wikipedia/commons/0/0b/REGIO_TV_Schwaben_Logo.svg</fanart>
+<fanart>https://i.vimeocdn.com/portrait/6869691_300x300</fanart>
 <info>TV Deutsch_Regio (MG.Arabic)</info>
 </channel>
 
