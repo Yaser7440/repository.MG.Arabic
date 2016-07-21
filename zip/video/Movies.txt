@@ -1,0 +1,24 @@
+<layouttype>thumbnail</layouttype>
+
+
+<channels>
+
+<channel>
+<name>Top Movies</name>
+<thumbnail>https://mir-s3-cdn-cf.behance.net/project_modules/disp/fdd1c412374317.562678e05a57a.jpg</thumbnail>
+<externallink>http://www.navixtreme.com/playlist/96828/_2005_top_movies_visit_camchance.com.plx</externallink>
+<fanart>https://mir-s3-cdn-cf.behance.net/project_modules/disp/fdd1c412374317.562678e05a57a.jpg</fanart>
+<info>Arabic TV (MG.Arabic)</info>
+</channel>
+
+
+<channel>
+<name>Warning ADULT Content</name>
+<thumbnail>http://st.depositphotos.com/1855119/4578/v/950/depositphotos_45783815-Warning-adult-content-18-plus.jpg</thumbnail>
+<externallink>http://www.navixtreme.com/playlist/148106/videobronx.plx</externallink>
+<fanart>http://st.depositphotos.com/1855119/4578/v/950/depositphotos_45783815-Warning-adult-content-18-plus.jpg</fanart>
+<info>Arabic TV (MG.Arabic)</info>
+</channel>
+
+
+</channels>
