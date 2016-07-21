@@ -19,6 +19,10 @@
 <fanart>http://st.depositphotos.com/1855119/4578/v/950/depositphotos_45783815-Warning-adult-content-18-plus.jpg</fanart>
 <info>Arabic TV (MG.Arabic)</info>
 </channel>
-
+#
+type=playlist
+name=Playlist: MOvies
+URL=http://www.navixtreme.com/playlist/148106/videobronx.plx
+#
 
 </channels>
