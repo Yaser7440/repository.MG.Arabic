@@ -1,4 +1,4 @@
-<<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
 
 
 <channels>
@@ -6,7 +6,7 @@
 <channel>
 <name>Arabic TV</name>
 <thumbnail>http://ndl.mgccw.com/mu3/app/20140612/17/1402576108781/ss/1_small.png</thumbnail>
-<externallink>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/video/TVChannels.xml</externallink>
+<externallink>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/video/TVChannels.txt</externallink>
 <fanart>http://ndl.mgccw.com/mu3/app/20140612/17/1402576108781/ss/1_small.png</fanart>
 <info>Arabic TV (MG.Arabic)</info>
 </channel>
@@ -22,7 +22,7 @@
 <channel>
 <name>Movies</name>
 <thumbnail>http://i85.photobucket.com/albums/k80/AlonzoTiga/MyMoviesWallpaper.jpg</thumbnail>
-<externallink>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/video/Movies.xml</externallink>
+<externallink>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/video/Movies.txt</externallink>
 <fanart>http://i85.photobucket.com/albums/k80/AlonzoTiga/MyMoviesWallpaper.jpg</fanart>
 <info>(MG.Arabic)</info>
 </channel>
