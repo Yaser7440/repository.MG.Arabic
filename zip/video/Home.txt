@@ -11,6 +11,14 @@
 </channel>
 
 <channel>
+<name>TV Shows</name>
+<thumbnail>https://i.imgsafe.org/dbfaa80f6f.jpg</thumbnail>
+<externallink>https://simplekore.com/wp-content/uploads/file-manager/FTA_Boy/Mahvareh/mah.txt</externallink>
+<fanart>https://i.imgsafe.org/dc4b325505.jpg</fanart>
+<info>Arabic TV (MG.Arabic)</info>
+</channel>
+
+<channel>
 <name>Showscen.com</name>
 <thumbnailhttp://www.showscen.com/watch/wp-content/uploads/2016/05/cropped-cropped-10932490_358718531003341_2146272006_a-1-180x180.jpg</thumbnail>
 <externallink>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/video/video.txt</externallink>
