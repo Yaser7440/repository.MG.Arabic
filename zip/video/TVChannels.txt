@@ -16,7 +16,7 @@
 <channel>
 <name>Arabic Channels 2</name>
 <thumbnail>http://iptvlinks.info/wp-content/uploads/2016/02/arabictv.jpg</thumbnail>
-<externallink>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/video/TV3.xspf</externallink>
+<externallink>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/video/TV3.xml</externallink>
 <fanart>http://iptvlinks.info/wp-content/uploads/2016/02/arabictv.jpg</fanart>
 <info>Arabic TV (MG.Arabic)</info>
 </channel>
