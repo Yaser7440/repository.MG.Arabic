@@ -1,3 +1,26 @@
+[B]Version 2.0.75[/B]
+- fix sezon scraper
+- Add prune cache to scheduled tasks
+- Improve User Agent generation code
+- Fix add to list
+- Start on Worker Pool function to avoid occasional resource errors starting a thread
+- Migrate MNE, Get Sources, Set Related Url, and WIA to use Worker Pool
+
+[B]Version 2.0.74[/B]
+- Fix set_view not working
+- Add function to prune url cache older than 30 days
+- Fix rlsbb
+- Temporary hack to fix occasionally thread create error
+
+[B]Version 2.0.73[/B]
+- Fix yesmovies
+- Fix Furk.net
+- Fix yshows
+- Improve HDFlix
+- Remove HDMovie14
+- Increase caching where possibe
+- Move common methods to shared module
+
 [B]Version 2.0.72[/B]
 - Fix WIA ordering
 - Only show MOW on WIA if already watched

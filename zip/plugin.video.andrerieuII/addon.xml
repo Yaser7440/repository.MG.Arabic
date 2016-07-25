@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.andrerieuII"
+	name="Andre Rieu"
+	version="1.0.2"
+	provider-name="mfaraj">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>	
+    <import addon="plugin.video.youtube"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Andre Rieu</summary>
+    <description lang="en"> Andre Rieu from youtube!</description>
+    <platform>all</platform>
+  </extension>
+</addon>

@@ -1,0 +1,37 @@
+v2.1.1
+BUG FIX
+v2.1.0
+Search Fix
+v2.0.1
+Addon Version updated to 2.x
+NewLogos design
+Further Addon lists updated
+v1.4.6
+Minor Fix
+v1.4.5
+Minor Fix
+v1.4.4
+Cold as Ice removed as request
+v1.4.3
+Tweak 24/7 Scripts
+v1.4.2
+Custom 24/7 Scripts
+v1.4.0
+added Anime section
+minor tweaks
+v1.3.2
+refined search and code improvements
+added random 3 picks
+v1.3.0
+rewrite: parallel search function and indexing (improving speed of the search and folders)
+code cleanup
+v1.0.9
+Fixed resolvers
+Cleanup codes
+Fancy square icon
+v1.0.8
+Update feature list
+cleanup code
+cleanup resolvers
+v1.0.0
+Initial Release
