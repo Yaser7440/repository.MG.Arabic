@@ -711,6 +711,17 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
 	</extension>
 </addon>
 
+<addon id="script.module.tknorris.shared" name="TKNorris Common Libraries" version="0.0.1" provider-name="tknorris">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Reusable Modules used by several of tknorris's addons</summary>
+	</extension>
+</addon>
+
 <addon id="plugin.video.velocity" version="1.0.7" name="Velocity" provider-name="Blazetamer">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
