@@ -2323,7 +2323,7 @@ http://informaticglobalworld.altervista.org/
 	</extension>
 </addon>
 
-<addon id="plugin.video.alluc.api" name="Alluc" provider-name="DudeHere" version="0.6.3">
+<addon id="plugin.video.alluc.api" name="Alluc" provider-name="DudeHere" version="0.6.6">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.beautifulsoup" />
@@ -2341,7 +2341,8 @@ http://informaticglobalworld.altervista.org/
     </extension>
 </addon>
 
-<addon id="plugin.video.theroyalwe" name="The Royal We" provider-name="DudeHere" version="1.0.7">
+
+<addon id="plugin.video.theroyalwe" name="The Royal We" provider-name="DudeHere" version="1.0.9">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.beautifulsoup" />
@@ -2430,7 +2431,7 @@ http://informaticglobalworld.altervista.org/
   </extension>
 </addon>
 
-<addon id="script.module.dudehere.routines" name="DudeHere Common Routines" provider-name="DudeHere" version="0.5.14">
+<addon id="script.module.dudehere.routines" name="DudeHere Common Routines" provider-name="DudeHere" version="0.5.24">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.beautifulsoup" />
@@ -2452,6 +2453,7 @@ http://informaticglobalworld.altervista.org/
         <source />
     </extension>
 </addon>
+
 
 <addon
   id="plugin.video.alqudseyes"
@@ -4370,6 +4372,183 @@ It broadcasts channels through the internet 24/7. The service is completely free
     <summary lang="en">LaYoumal</summary>
     <description lang="en"> clips of comedy future tv Layouaml</description>
     <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.movizcinma"
+  version="1.0.1"
+  name="Movizcinma"
+  provider-name="Made by mfaraj,opesboy">
+   <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
+	<import addon="script.module.requests" />
+	<import addon="script.module.urlresolver" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>MOVIES Arabic plugin from movizcinma.com</summary>
+    <description>MOVIES Arabic plugin from movizcinma.com</description>
+   
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.movizland"
+  version="1.0.8"
+  name="MoviZland"
+  provider-name="Made by mfaraj,opesboy,khldon">
+ <requires>
+        <import addon="xbmc.python" version="2.1.0" optional="true" />
+		
+       
+		<import addon="script.module.addon.common" version="2.0.0" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>fixed claudflare protection</summary>
+    <description> MOVIES plugin, Arabic , Hollywood, European and Bollywood movies from movizland </description>
+   
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.mytuun"
+  version="1.0.7"
+  name="Mytuun"
+  provider-name="mafraj,kldon,opesboy">
+   <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
+	<import addon="script.module.requests" />
+	<import addon="script.module.urlresolver" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>mytuun movies arabic plugin, Arabic , Hollywood movies </summary>
+    <description>mytuun movies arabic plugin, Arabic , Hollywood movies </description>
+   
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.panettv"
+       name="Panet TV"
+       version="1.0.2"
+       provider-name="mfaraj,opesboy">
+  <requires>
+    <import addon="xbmc.python"
+            version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>libre-stream.com</summary>
+    <description>arabic Movies and series from from Panet tv</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+  id="plugin.video.series4watch"
+  version="2.0.1"
+  name="Series4Watch"
+  provider-name="Made by mfaraj,opesboy">
+   <requires>
+        <import addon="xbmc.python" version="2.1.0" optional="true" />
+		
+        <import addon="script.module.urlresolver" version="1.0.0"/>
+		
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>MOVIES Arabic plugin from Series4Watch.com</summary>
+    <description>Arabic,Hollywood, European and Bollywood movies</description>
+   
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.shahidmbc"
+       name="Shahid Arabic MBC"
+       version="1.0.1"
+       provider-name="shani,modified by mfaraj">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.beautifulsoup"/>
+    <import addon="plugin.video.youtube" />
+	<import addon="script.common.plugin.cache" />
+
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>ShahidMBC.net XBMC Client</summary>
+    <description>Formally known as ShahidMBC.net. This plugin fetches the video sources from ShahidMBC.net, youtube and some Live channels which you can play on XBMC compatible plateforms</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.shayef"
+       name="Shayef"
+       version="1.0.0"
+       provider-name="mfaraj,opesboy">
+ <requires>
+        <import addon="xbmc.python" version="2.1.0" optional="true" />
+		
+        <import addon="script.module.urlresolver" version="1.0.0"/>
+		<import addon="script.module.addon.common" version="2.0.0" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>http://www.shayef.com/</summary>
+    <description>Series from from shayef.com</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+ id="plugin.video.sklns"
+  version="1.0.1"
+ name="sklns TV"
+ provider-name="TSmedia Team">
+ <requires>
+        <import addon="xbmc.python" version="2.1.0" optional="true" />
+
+        <import addon="script.module.addon.common"/>"
+        <import addon="script.module.urlresolver"/>"
+        <import addon="script.module.requests"/>"
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary> http://sklns.com </summary>
+    <description> Movies and series from sklns. </description>
+   <platform>all</platform>
   </extension>
 </addon>
 

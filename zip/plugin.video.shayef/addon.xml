@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.shayef"
+       name="Shayef"
+       version="1.0.0"
+       provider-name="mfaraj,opesboy">
+ <requires>
+        <import addon="xbmc.python" version="2.1.0" optional="true" />
+		
+        <import addon="script.module.urlresolver" version="1.0.0"/>
+		<import addon="script.module.addon.common" version="2.0.0" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>http://www.shayef.com/</summary>
+    <description>Series from from shayef.com</description>
+    <platform>all</platform>
+  </extension>
+</addon>

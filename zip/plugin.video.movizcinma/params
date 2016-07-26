@@ -1,0 +1,15 @@
+column==1
+sortorder==1
+plugin_id==plugin.video.movizcinma
+section==arabic
+subsection==general
+appversion==4
+version==1.0.1
+unicode_str==False
+textsize==16
+textcolor==#EFFFFF
+metadata==False
+fanart==True
+plugin_title==Movizcinma
+thumbnail==True
+playstr==mode=2,mode=2

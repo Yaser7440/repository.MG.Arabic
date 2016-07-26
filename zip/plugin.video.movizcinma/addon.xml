@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="plugin.video.movizcinma"
+  version="1.0.1"
+  name="Movizcinma"
+  provider-name="Made by mfaraj,opesboy">
+   <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
+	<import addon="script.module.requests" />
+	<import addon="script.module.urlresolver" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>MOVIES Arabic plugin from movizcinma.com</summary>
+    <description>MOVIES Arabic plugin from movizcinma.com</description>
+   
+    <platform>all</platform>
+  </extension>
+</addon>
