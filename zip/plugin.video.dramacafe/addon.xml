@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="plugin.video.dramacafe"
+  version="2.0.5"
+  name="DRAMACAFE"
+  provider-name="Bisha.mfaraj,opesboy">
+  <requires>
+        <import addon="xbmc.python" version="2.1.0" optional="true" />
+		
+        <import addon="script.module.urlresolver" version="1.0.0"/>
+		
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>1.1.2-added search for hlloywood-mfaraj</summary>
+    <description>DRAMACAFE Arabic plugin. This plugin is completely FREE</description>
+   
+    <platform>all</platform>
+  </extension>
+</addon>

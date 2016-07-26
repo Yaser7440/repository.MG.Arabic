@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.easycima"
+       name="Easycima"
+       version="1.0.7"
+       provider-name="mfaraj@dreamoem.com">
+  <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.urlresolver" version="3.0"/>
+        <import addon="script.module.addon.common" version="2.0.0" />
+        
+    </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>easycima movies update by opesboy</summary>
+    <description>hollywood and arabic movies Working server8,6or 9</description>
+    <platform>all</platform>
+  </extension>
+</addon>

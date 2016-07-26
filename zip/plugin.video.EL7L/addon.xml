@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="plugin.video.EL7L"
+  version="2.1.6"
+  name="EL7L.CO"
+  provider-name="mfaraj,opesboy">
+  <requires>
+     <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
+	<import addon="script.module.urlresolver" />
+	
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>MOVIES Arabic plugin from EL7L.co</summary>
+    <description>MOVIES Arabic plugin from EL7L.co</description>
+   
+    <platform>all</platform>
+  </extension>
+</addon>
