@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="plugin.video.alshahed.tv"
+  version="1.0.1"
+  name="alshahed.tv"
+  provider-name="Made by mfaraj,kldon">
+   <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
+	<import addon="plugin.video.youtube" />
+	
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>plugin from http://alshahed.tv/</summary>
+    <description> program Arab ,other</description>
+   
+    <platform>all</platform>
+  </extension>
+</addon>

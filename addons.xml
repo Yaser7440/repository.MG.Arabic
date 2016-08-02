@@ -4676,4 +4676,86 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
+<addon
+  id="plugin.video.alshahed.tv"
+  version="1.0.1"
+  name="alshahed.tv"
+  provider-name="Made by mfaraj,kldon">
+   <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
+	<import addon="plugin.video.youtube" />
+	
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>plugin from http://alshahed.tv/</summary>
+    <description> program Arab ,other</description>
+   
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.aljazeerachannel"
+	name="Aljazeera channel"
+	version="2.0.0"
+	provider-name="by:mfaraj,opesboy,kldon">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="plugin.video.youtube" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">aljazeerachannel update 21/5/2015</summary>
+    <description lang="en">aljazeerachannel movies  from youtube!</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.albernameg"
+       name="Al Bernameg"
+       version="1.0.0"
+       provider-name="Moe">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="plugin.video.youtube" version="2.9.2"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>alBernameg.com</summary>
+    <description>الحلقات الكاملة من برنامج البرنامج مع باسم يوسف</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+ id="plugin.video.adnanIbrahim"
+  version="1.0.0"
+ name="Adnan Ibrahim"
+ provider-name="TSmedia Team">
+ <requires>
+        <import addon="xbmc.python" version="2.1.0" optional="true" />
+
+        <import addon="plugin.video.youtube"/>"
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary> youtube.com </summary>
+    <description> adnan ibrahim lectures from yourtube </description>
+   <platform>all</platform>
+  </extension>
+</addon>
+
+
 </addons>
