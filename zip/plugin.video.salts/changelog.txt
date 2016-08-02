@@ -1,3 +1,37 @@
+[B]Version 2.0.79[/B]
+- Add Crazy4TV scraper
+- Add SnagFilms scraper
+- Fix iWatchonline
+- Fix ReleaseBB
+- Fix xmovies8
+- Fix PutMV
+- Fix MovieSub
+- Fix Rainierland
+- Fix Niter.tv
+- Remove Bobby scraper
+- Update Translations
+
+[B]Version 2.0.77[/B]
+- Add MovieHubs scraper
+- Fix MVL scraper
+- Fix dayt scraper
+- Fix MoviesPlanet scraper
+- Fix xmovies8.v2 scraper
+- Fix ReleaseBB scraper
+- Fix MoviesHD scraper
+- Fix MovieGo Search
+- Fix MovieSub
+- Improve Furk Scraper
+- Improve Fardadownload scraper
+- Improve SeriesWatch scraper
+- Remove Moviebox scraper
+- Remove CloudMovie scraper
+- Remove SolarMovie scraper
+- Remove Uflix scraper
+- Improve CF Captcha
+- Improve SRU logic
+- Add support for reusable threads and max threads
+
 [B]Version 2.0.75[/B]
 - fix sezon scraper
 - Add prune cache to scheduled tasks
