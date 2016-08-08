@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="plugin.video.toparabe"
+  version="1.0.0"
+  name="toparabe"
+  provider-name="Made by mafraj,opesboy">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
+	<import addon="script.module.urlresolver" />
+	
+	
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Movies and series from toparabe.com</summary>
+    <description>Movies and series from toparabe.com</description>
+   
+    <platform>all</platform>
+  </extension>
+</addon>

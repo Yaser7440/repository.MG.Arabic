@@ -1,3 +1,10 @@
+[B]Version 2.0.80[/B]
+- Add scene-rls Scraper
+- Add SceneDown Scraper
+- Fix YesMovies
+- Add file size filter for EasyNews
+- Fix Subscription Update not running
+
 [B]Version 2.0.79[/B]
 - Add Crazy4TV scraper
 - Add SnagFilms scraper
