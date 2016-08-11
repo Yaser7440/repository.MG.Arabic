@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon 
+    id="script.pvr.favourites" 
+    name="PVR favourites" 
+    version="1.0.7" 
+    provider-name="YLLOW_DRAGON">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.library" library="default.py"/>
+    <extension point="xbmc.addon.metadata">
+        <description lang="en">Retrieves information from the database and displays the channel PVR additional buttons and widgets on the main menu and submenus.</description>
+        <disclaimer lang="en">Skins support needed for correct display.</disclaimer>
+        <description lang="ru">Извлекает информацию из БД PVR каналов и отображает дополнительные кнопки и виджеты в главном меню и подменю.</description>
+        <disclaimer lang="ru">Необходима поддержка скинов для корректного отображения.</disclaimer>
+        <platform>all</platform>
+        <email>nkvoronov@gmail.com</email>
+        <source>https://github.com/nkvoronov/script.pvr.favourites.git</source>        
+    </extension>
+</addon>
