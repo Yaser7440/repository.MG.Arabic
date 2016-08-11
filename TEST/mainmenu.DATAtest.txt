@@ -1,12 +1,11 @@
 <layouttype>thumbnail</layouttype>
 
-<channels>
 
-<channel>
-<name>الموسيقى</name>
+
+<item>
+<title>الموسيقى</title>
+<link>ActivateWindow(VideoLibrary,"plugin://plugin.audio.6arbyat",return)</link>
 <thumbnail>special://skin/extras/icons/songs.png</thumbnail>
-<externallink>ActivateWindow(VideoLibrary,"plugin://plugin.audio.6arbyat",return)</externallink>
 <fanart>special://skin/extras/icons/stream-music.png</fanart>
 
-</channel>
-</channels>
+</item>
