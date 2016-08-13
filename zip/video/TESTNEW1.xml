@@ -1,0 +1,30 @@
+{
+ "name"         : "Direct [COLOR FF0084FF]-[/COLOR] الافلام العربية ([COLOR FF0084FF]Q[/COLOR])",
+ "repository"   : "repository.MG.Arabic",
+ "plugin"       : "",
+ "priority"     : {},
+ "id"           : "",
+ "filters"      : {},
+ "postprocess"  : "",
+ "movies"       : [
+  [
+   {
+    "link"      : "plugin://plugin.video.4arabz/?url=http%3A%2F%2F4arabz.tv%2Findex.php%3Fpage%3Darticles%26op%3Darg%26id%3D343&amp;mode=100&amp;name=%D8%A7%D9%81%D9%84%D8%A7%D9%85+%D9%87%D9%86%D8%AF%D9%8A%D9%87&amp;page=22",return",
+    "steps"     : [],
+    "action"    : "PLAY"
+   }
+  ]
+ ],
+ "tvshows"      : [
+  [
+   {
+    "link"      : "plugin://plugin.video.alarab/?url=http%3A%2F%2Ftv1.alarab.com%2Fview-1_%25D8%25A7%25D9%2581%25D9%2584%25D8%25A7%25D9%2585-%25D8%25B9%25D8%25B1%25D8%25A8%25D9%258A%25D8%25A9_1&amp;mode=1&amp;name=%D8%A7%D9%84%D8%A7%D9%81%D9%84%D8%A7%D9%85+%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9",return}",
+    "steps"     : [],
+    "action"    : "PLAY"
+   }
+  ]
+ ],
+ "musicvideos"  : [],
+ "music"        : [],
+ "live"         : []
+}
