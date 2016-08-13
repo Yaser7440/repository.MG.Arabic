@@ -15,7 +15,15 @@
 <channel>
 <name>TEST</name>
 <thumbnail>https://mir-s3-cdn-cf.behance.net/project_modules/disp/fdd1c412374317.562678e05a57a.jpg</thumbnail>
-<externallink>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/video/TESTNEW1.txt</externallink>
+<externallink>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/video/TESTNEW1.json</externallink>
+<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHSKFQG6AmdEbapSyFfd2q9OM_3CLMnWfDydWcatGcQbTBJW0j</fanart>
+<info>Arabic TV (MG.Arabic)</info>
+</channel>
+
+<channel>
+<name>TEST</name>
+<thumbnail>https://mir-s3-cdn-cf.behance.net/project_modules/disp/fdd1c412374317.562678e05a57a.jpg</thumbnail>
+<link>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/video/TESTNEW1.json</link>
 <fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHSKFQG6AmdEbapSyFfd2q9OM_3CLMnWfDydWcatGcQbTBJW0j</fanart>
 <info>Arabic TV (MG.Arabic)</info>
 </channel>
