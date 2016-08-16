@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+ id="plugin.video.islambehery"
+  version="1.0.0"
+ name="IslamBehery"
+ provider-name="TSmedia Team">
+ <requires>
+        <import addon="xbmc.python" version="2.1.0" optional="true" />
+
+        <import addon="plugin.video.youtube"/>"
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary> youtube.com </summary>
+    <description> IslamBehery lectures from yourtube </description>
+   <platform>all</platform>
+  </extension>
+</addon>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+ id="plugin.video.maroon5"
+  version="1.0.0"
+ name="Maroon5 VEVO"
+ provider-name="Dr Laith Faraj">
+ <requires>
+        <import addon="xbmc.python" version="2.1.0" optional="true" />
+
+        <import addon="plugin.video.youtube"/>"
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary> youtube channeo for maoon5 </summary>
+    <description> youtube channel for maroon5 </description>
+   <platform>all</platform>
+  </extension>
+</addon>

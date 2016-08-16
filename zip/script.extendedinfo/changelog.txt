@@ -1,50 +1,144 @@
-v4.6.1
-- several bugfixes
+v4.9.9b
+- Added context options to sets and similar.
+- Added option to add TMDb-listitems to kodi library, both seperate as entire list.
+- Fixed afteradd so library-indicator is visible directly after re-entering EIM.
 
-v4.6.0
-- fix character encoding issues for actor names
-- tmdb multisearch fix
-- show correct duration values
-- fix for wrong genre API data
-- WindowManager fix
-- prevent JSON calls with invalid dbids
+v4.9.9a
+- Fixed widget-content
+- Fixed lists in video-addon section
+- Corrected readme
+- Added [COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR] to settings-dialog
 
-v4.5.3
-- properly set mediatype for listitems
-- fix character encoding issues
-- also set userrating when rating tmdb
+v4.9.9
+[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR]
+- Final Helix/Isengard version, if there are going to be updates after this, it will be bugfixes only (at best).
+- Replaced all playback & library options with [COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR]'s, player to be used can be configured in EIM's settings
+- Re-arranged lay-out of main interface to have sets, similar, lists and youtube-videos first
+- Added Play-button to seasons & episodes linked to [COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR]
+- Added Browse-button to tvshows and seasons linked to [COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR]
+- Added context-options in main list-interface
 
-v4.5.2
-- fix filter stuff for python 2.6
-- fix some artwork downloader calls
-- skin cosmetics
-- removed depracated API calls to LastFMs
-- fix error message when cancelling actor selection
-- fix some bugs for data with non-ascii characters
-- fix bug when using filters
+v4.7.6
+- Fixed TVShows
+- Added my repo as a dependency
 
-v4.5.1
-- fix tmdb company info call
-- fix LastFM error for artists without mbid
-- API Changes: several calls have changed. Please check readme.
-- removed Cyanide & Happiness and XKCD webcomics (now separate add-ons)
-- add option to use classic search instead of T9
+v4.7.5
+- Fixed alternate play
+- Fixed tvshow-youtube vids 
 
-v4.5.0
-- big code rework
+v4.7.4
+- Added 1Channel to LibraryAddons
+- Added Online Movies Pro to Alternate Movie Addons
+- Added Quasar to LibraryAddons
+- Added Salts RD Lite
+- Added UMP, does not work well as MainTVShowAddon, works much better as Alternate TVShowAddon so add to library first using 1Channel, iSTREAM, Salts(HD/RD Lite) or Specto. As MainMovieAddon it works pretty well
+- Changed default settings: PulsarMode to "Play", ClassicSearch to "True"
+- Edited Phoenix to the v3.0-update
+- Fixed The Royal We
+- Fixed SALTS
+- Fixed 1Channel
+- Fixed RottenTomatoes Posters. Crappy quality now but better then no posters, right?
+- Fixed runtime & duration for RT & Trakt (synced from official version)
+- Made custom iSearches accessible from outside (see Readme for details)
+- Put all addons in alphabetical order (except for trailer)
+- Rehaul of play & auto-return functions
+- Removed Genesis
+
+v4.7.3
+- Fixed Quasar in AlternatePlay and for TVShows in main script.
+- Fixed "Edit Query" by making a new function for it which also refreshes container so the change in Query is actually visible now.
+
+v4.7.2
+[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR]
+- Added theme color to sidemenu
+- Added Quasar, for Helix: set to use Pulsar as Quasar's id was still pulsar then, for Isengard or higher, set to use Quasar.
+- Added Trailer to main TVaddons
+- Added Super Favourites v1.0.48 as dependency
+- Changed default colors to match Qonfluence
+- Fixed "Edit Query" in custom iSearches
+
+v4.7.1
+[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR]
+- Added option to open custom lists in script-mode (see ReadMe for details)
+- Made colors in script-mode configurable (see settings)
+- Changed default settings ("add" for tvshows, "play" with "auto-add" off for movies)
+
+v4.7.0
+[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR]
+- Fixed update-loop
+
+v4.6.8
+[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR]
+- Fixed non-responsiveness when playback fails or is cancelled. Auto-returning to script might take a bit longer in those cases though it will return within 120s max starting from script-close.
+- Added setting to use classic keyboard instead of t9.
+- Added added custom entries to README.md
+
+v4.6.7
+[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR]
+- Fixed Exodus & Specto Alternate play for TVShows.
+- Added purple instead of white throughout, not just in basic script interface
+- Added "Edit Query" to custom iSearches.
+- Added option to use classic keyboard by default.
+
+v4.6.6
+[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR]
+- Upped version number to 4.6.6 to override auto-update of official version on Jarvis
+- Fixed empty query error.
+- Added TV-Trailers.
+
+v4.1.6
+[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR]
+- Fixed Add/Play for TVShows.
+- Fixed Add/Play with auto-add disabled.
+- Fixed Add/Play when set to just add.
+- Fixed returning history (again ironicly).
+- Changed defaults.
+- Added to LibraryAddons: Salts HD Lite & Specto.
+- Added to MainAddons: Exodus, Salts HD Lite & Specto.
+- Added custom(izable) iSearches. Only under Add/Play, enabled by default but you can disable seperately for movies/tvshows in settings. The lists can be found @ special://home/addons/script.extendedinfo/resources/extras/, if you want to add your own, make an appropriate entry and add it in the appropriate list.
+- Added Extended Youtube: Only under AppIntegration, enabled by default but you can disable seperately for movies/tvshows in settings. Search Extended's YoutubeBrowser using selected title as query. Choose Video/Channel/Playlist or disable so only Video is visible.
+- Probably broke some shit, let me know if you find something broken, please include a full debug log.
+
+v4.1.5
+[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR]
+- Synced with official github
+- Minor bugfixes in preparation of expanded addon compatibility list
+
+v4.1.4
+[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR]
+- Fixed Search
+- Fixed reappearing history
+- Set default to iSearch (Add/Play uses imdb_id, AppIntegration uses Title/TVShowTitle)
+
+v4.1.3
+[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR]
+- Fixed: incompatibility with Helix
+- Fixed: now works on skins with built-in xml for extended info
+- Fixed: posters on rottentomatoes
+
+v4.1.2
+[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR]
+- Added "Add/Play"-button (will auto-return to Extended Info if video is started within 2 minutes of script close)
+- Added "AppIntegration"-button (will close Extended Info)
+- Added "Alternate Play" for Kodi-Library (based on MySubscriptions)
+- Removed studio-logos with non-ascii in filename to make it compatible with various wizards
+
+v3.1.4
+- remove AutoCompletion part
+- fix duration values for RT / Trakt
+
+v3.1.3
 - RottenTomatoes poster fix
 - kodi python api dependency bump
-- API Change: now needs a <views> tag for MovieDB and Youtube browser
+- localization work
+- trailer button fix
+- remove AutoCompletion part
 
-v4.0.0 (for Kodi Jarvis)
- - API change: remove all "movie." and "actor." prefixes in dialogs
- - use new textviewer method instead of own windowXML class
- - use new image resource add-ons
- - make use of ActionHandler module
- - fixes for LastFM and Youtube API
- - misc fixes
+v3.1.2
+- fixes for LastFM and Youtube API
+- misc fixes
 
- v3.1.1
+v3.1.1
 - hebrew fix for keyboard
 - more minor bugfixes
 - url-quote login data for TMDB

@@ -691,7 +691,7 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
   </extension>
 </addon>
 
-<addon id="plugin.video.salts" version="2.0.80" name="Stream All The Sources" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.83" name="Stream All The Sources" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
@@ -711,7 +711,7 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
 	</extension>
 </addon>
 
-<addon id="script.module.tknorris.shared" name="TKNorris Common Libraries" version="0.0.2" provider-name="tknorris">
+<addon id="script.module.tknorris.shared" name="TKNorris Common Libraries" version="0.0.3" provider-name="tknorris">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -1497,7 +1497,7 @@ Addons Included
   </extension>
 </addon>
 
-<addon id="plugin.video.phstreams" name="Phoenix" version="3.1.4" provider-name="tvaddons.ag">
+<addon id="plugin.video.phstreams" name="Phoenix" version="3.1.5" provider-name="tvaddons.ag">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.pyxbmct" version="1.1.4" />
@@ -1636,7 +1636,7 @@ Addons Included
   </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="3.0.16b" provider-name="Eldorado">
+<addon id="script.module.urlresolver" name="URLResolver" version="3.0.17" provider-name="Eldorado">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -2068,19 +2068,19 @@ Addons Included
   </extension>
 </addon>
 
-<addon id="plugin.video.md123movies" name="123Movies" version="1.2.6" provider-name="Mucky Duck">
+<addon id="plugin.video.md123movies" name="123Movies" version="1.2.7" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
 	<import addon="script.module.requests" />
-	
+	<import addon="repository.mdrepo" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Stream Movies From The 123movies WebSite</summary>
-    <description lang="en">This Addon Will Delete Itself Unless You Have http://muckysmediaportal4kodi.ml As A Source In File Manager.  Special thanks to [COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR] for the iSearch compatibility modifications</description>
+    <description lang="en">This Addon Will Delete Itself Unless You Have http://muckys.mediaportal4kodi.ml As A Source In File Manager.  Special thanks to [COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR] for the iSearch compatibility modifications</description>
 	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon</disclaimer>
     <platform>all</platform>
   </extension>
@@ -3551,34 +3551,39 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="script.extendedinfo" name="ExtendedInfo Script" version="4.6.1" provider-name="phil65 (Philipp Temminghoff)">
+<addon id="script.extendedinfo" name="[COLOR ff0084ff]E[/COLOR]xtended [COLOR ff0084ff]I[/COLOR]nfo [COLOR ff0084ff]M[/COLOR]od" version="4.9.9b" provider-name="Modded by [COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR], original work by phil65">
 	<requires>
-		<import addon="xbmc.python" version="2.24.0"/>
-		<import addon="script.module.simplejson" version="2.0.10"/>
-		<import addon="script.module.youtube.dl" version="14.519.1"/>
-		<import addon="resource.images.studios.white" version="0.0.5"/>
-		<import addon="script.module.autocompletion" version="1.0.0"/>
-		<import addon="script.module.actionhandler" version="1.0.1"/>
-		<import addon="script.module.t9.search" version="1.0.0"/>
-		<!-- 		<import addon="script.module.buggalo" version="1.1.6"/>-->
+		<import addon="xbmc.python" version="2.19.0"/>
+		<import addon="plugin.program.super.favourites" version="1.0.48"/>
+		<import addon="plugin.video.metalliq" version="1.1.0"/>
+		
 		<import addon="script.module.pil" version="1.1.7"/>
+		<import addon="script.module.requests" version="1.1.0"/>
+		<import addon="script.module.simplejson" version="2.0.10"/>
+		<import addon="script.module.urlresolver" version="1.0.0"/>
+		<import addon="script.module.youtube.dl" version="14.519.1"/>
 	</requires>
-	<extension point="xbmc.python.script" library="default.py">
+	<extension point="xbmc.python.script"           library="default.py">
 		<provides>executable</provides>
 	</extension>
-	<extension point="xbmc.python.library" library="default.py" />
-	<extension point="xbmc.python.pluginsource" library="plugin.py">
+	<extension point="xbmc.python.library"          library="default.py" />
+	<extension point="xbmc.python.pluginsource"     library="plugin.py">
 		<provides>video</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<language/>
-		<summary lang="en">ExtendedInfo Script</summary>
-		<description lang="en">This script offers various possibilities to display online content inside skins as well as a complete MovieDB browser including info dialogs for various media types. Used services are themoviedb.org, theaudiodb.org, rottentomatoes.com, Trakt.TV, omdbapi.com and a lot more. Needs skin implementation for lot of functions.</description>
+		<summary lang="en">[COLOR ff0084ff]E[/COLOR]xtended [COLOR ff0084ff]I[/COLOR]nfo [COLOR ff0084ff]M[/COLOR]od</summary>
+		<description lang="en">This script offers various possibilities to display online content inside skins as well as a complete MovieDB browser including info dialogs for various media types. Used services are themoviedb.org, theaudiodb.org, rottentomatoes.com, Trakt.TV, omdbapi.com and a lot more. Needs skin implementation for lot of functions. Uses [COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR] for playback and library functions.</description>
+		<summary lang="nl">[COLOR ff0084ff]E[/COLOR]xtended [COLOR ff0084ff]I[/COLOR]nfo [COLOR ff0084ff]M[/COLOR]od</summary>
+		<description lang="nl">Dit script biedt meerdere mogelijkheden om online content weer te geven in skins en bevat ook een complete MovieDB browser inclusief info dialogen voor verscheidene media types. Gebruikte diensten zijn themoviedb.org, theaudiodb.org, rottentomatoes.com, Trakt.TV, omdbapi.com en nog veel meer. Vereist skin implementatie voor de meeste functies. Gebruikt [COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR] voor afspeel en bibliotheek functies.</description>
 		<platform>all</platform>
+		<genre>movies,tv,trailers</genre>
+		<video_guide>3nlzITuJizg</video_guide>
+		<video_preview>OIp3Ry7qml8</video_preview>
 		<license>GNU GENERAL PUBLIC LICENSE Version 2, June 1991</license>
-		<forum>http://forum.kodi.tv/showthread.php?tid=160558</forum>
-		<source>https://github.com/phil65/script.extendedinfo</source>
-		<email>phil65@kodi.tv</email>
+		<forum>http://www.noobsandnerds.com/support/showthread.php?tid=15273</forum>
+		<source>https://github.com/OpenELEQ/repository.q/tree/master/zips/script.extendedinfo</source>
+		<email>OpenELEQ@gmail.com</email>
 	</extension>
 </addon>
 
@@ -4953,6 +4958,182 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
         <platform>all</platform>
         <email>nkvoronov@gmail.com</email>
         <source>https://github.com/nkvoronov/script.pvr.favourites.git</source>        
+    </extension>
+</addon>
+
+<addon
+ id="plugin.video.maroon5"
+  version="1.0.0"
+ name="Maroon5 VEVO"
+ provider-name="Dr Laith Faraj">
+ <requires>
+        <import addon="xbmc.python" version="2.1.0" optional="true" />
+
+        <import addon="plugin.video.youtube"/>"
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary> youtube channeo for maoon5 </summary>
+    <description> youtube channel for maroon5 </description>
+   <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+ id="plugin.video.faselhd"
+  version="1.0.0"
+ name="FaselHD"
+ provider-name="TSmedia Team">
+ <requires>
+        <import addon="xbmc.python" version="2.1.0" optional="true" />
+
+        <import addon="script.module.addon.common"/>"
+        <import addon="script.module.urlresolver"/>"
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary> http://faselhd.com/ </summary>
+    <description> movies from faselhd </description>
+   <platform>all</platform>
+  </extension>
+</addon>
+
+<addon
+ id="plugin.video.islambehery"
+  version="1.0.0"
+ name="IslamBehery"
+ provider-name="TSmedia Team">
+ <requires>
+        <import addon="xbmc.python" version="2.1.0" optional="true" />
+
+        <import addon="plugin.video.youtube"/>"
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary> youtube.com </summary>
+    <description> IslamBehery lectures from yourtube </description>
+   <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.tedtalks"
+       name="Ted talks"
+       version="1.0.1"
+       provider-name="mfaraj,opesboy">
+   <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+       
+        <import addon="script.module.addon.common" version="2.0.0" />
+        
+    </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>ted talks</summary>
+    <description>ted talks</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.metalliq" name="[COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR]" version="1.1.1" provider-name="[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR], Midraal, forked from Meta-video">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+		
+		<import addon="script.module.requests"/>
+		<import addon="script.module.futures" version="2.2.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video audio</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="[login|startup]">
+	</extension>
+	<extension point="kodi.context.item" library="context_playable.py">
+		<provides>executable</provides>	
+			<item>
+				<label>$ADDON[plugin.video.metalliq 30602]</label>
+				<visible>!System.HasAddon(context.metalliq) + [StringCompare(ListItem.dbtype,movie) | StringCompare(ListItem.dbtype,episode)] + SubString(ListItem.FileNameAndPath, plugin.video.metalliq)</visible>
+			</item>
+	</extension>
+	<extension point="kodi.context.item" library="context_tvshow.py">
+		<provides>executable</provides>	
+			<item>
+				<label>$ADDON[plugin.video.metalliq 30622]</label>
+				<visible>StringCompare(ListItem.dbtype,tvshow) + SubString(ListItem.Path, plugin.video.metalliq)</visible>
+			</item>
+	</extension>
+	<extension point="kodi.context.item" library="context_live.py">
+		<provides>executable</provides>	
+			<item>
+				<label>$ADDON[plugin.video.metalliq 30622]</label>
+				<visible>[SubString(ListItem.FileNameAndPath, plugin.video.metalliq\\Live) | SubString(ListItem.FileNameAndPath, plugin.video.metalliq/Live)]</visible>
+			</item>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<language></language>
+		<summary lang="en">TMDb, TVDb, Trakt, AudioDb and LastFM browser</summary>
+		<description lang="en">Browse The MovieDb, The TVDb, Trakt, The AudioDb and LastFM and pass info along to library or an addon to try and play it. Needs player-files and the appropriate addon to actually play.</description>
+		<summary lang="nl">Blader door TMDb, TVDb, Trakt, AudioDb en LastFM</summary>
+		<description lang="nl">Blader door The MovieDb, The TVDb, Trakt, The AudioDb en LastFM en geef info door aan de bibliotheek of een addon om te proberem het af te spelen. Vereist player-bestanden en de bijbehorende addon om daadwerkelijk af te kunnen spelen.</description>
+		<supportedcontent>
+			<content>movies</content>
+			<content>tvshows</content>
+			<content>episodes</content>
+			<content>musicvideos</content>
+			<content>music</content>
+			<content>livetv</content>
+		</supportedcontent>
+		<genre>movies,tv,music,livetv</genre>
+		<!--<video_guide>yt-id</video_guide>
+		<video_preview>yt-id</video_preview>-->
+		<forum>http://www.noobsandnerds.com/support/showthread.php?tid=16682</forum>
+		<source>https://github.com/OpenELEQ/repository.q/tree/master/zips/plugin.video.metalliq</source>
+		<email>OpenELEQ@gmail.com</email>
+	</extension>
+</addon>
+
+<addon id="plugin.video.kodipopcorntime" name="KODI Popcorn Time" version="1.0.1.b" provider-name="Diblo edited by Markop159">
+    <requires>
+        <import addon="xbmc.python" version="2.14.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <website><![CDATA[https://github.com/Diblo/KODI-Popcorn-Time]]></website>
+        <forum><![CDATA[http://forums.tvaddons.ag/threads/32586-KODI-Popcorn-Time]]></forum>
+        <source><![CDATA[https://github.com/Diblo/KODI-Popcorn-Time]]></source>
+        <license><![CDATA[GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007]]></license>
+        <summary lang="de"><![CDATA[Immediately stream movies and tv shows.]]></summary>
+        <summary lang="en"><![CDATA[Immediately stream movies and tv shows.]]></summary>
+        <summary lang="es"><![CDATA[Reproduce películas y series inmediatamente.]]></summary>
+        <summary lang="fr"><![CDATA[Immediately stream movies and tv shows.]]></summary>
+        <summary lang="zh"><![CDATA[Immediately stream movies and tv shows.]]></summary>
+        <summary lang="nl"><![CDATA[Direct streamen van films en tv-shows.]]></summary>
+	    <summary lang="pl"><![CDATA[Oglądaj bezpośrednio filmy i programy TV.]]></summary>
+        <summary lang="pt"><![CDATA[Transmitir imediatamente stream de filmes e séries de tv.]]></summary>
+		<summary lang="pt_BR"><![CDATA[KODI Popcorn Time: Transmitir imediatamente filmes para o KODI.]]></summary>
+        <description lang="de"><![CDATA[With KODI Popcorn Time you can search for movies and tv shows that you can see immediately in KODI. NOTE: KODI Popcorn Time will continue sharing content while watching a movie or TV show.]]></description>
+        <description lang="en"><![CDATA[With KODI Popcorn Time you can search for movies and tv shows that you can see immediately in KODI. NOTE: KODI Popcorn Time will continue sharing content while watching a movie or TV show.]]></description>
+        <description lang="es"><![CDATA[Con KODI Popcorn Time puedes buscar películas y series que puedes ver inmediatamente en KODI. NOTA: KODI Popcorn Time continuará compartiendo contenido mientras ves la película o epidodio de TV.]]></description>
+        <description lang="fr"><![CDATA[With KODI Popcorn Time you can search for movies and tv shows that you can see immediately in KODI. NOTE: KODI Popcorn Time will continue sharing content while watching a movie or TV show.]]></description>
+        <description lang="zh"><![CDATA[With KODI Popcorn Time you can search for movies and tv shows that you can see immediately in KODI. NOTE: KODI Popcorn Time will continue sharing content while watching a movie or TV show.]]></description>
+        <description lang="nl"><![CDATA[Met KODI Popcorn Time kunt u zoeken naar films en tv-series die je onmiddellijk in KODI kunnen zien. OPMERKING: KODI Popcorn zal tijdens het bekijken van de film of tv-serie de content delen met andere.]]></description>
+        <description lang="pl"><![CDATA[Dzięki KODI Popcorn Time możesz wyszukiwać filmy i programy TV oraz oglądać je w twoim KODI. UWAGA: KODI Popcorn Time będzie wymieniać dane podczas oglądania.]]></description>
+        <description lang="pt"><![CDATA[Com KODI Popcorn Time pode procurar por filmes e séries de TV que podem ser vistos de imediato no KODI. NOTA: KODI Popcorn Time continuará a partilhar conteúdo enquanto vê um filme ou uma série de TV.]]></description>
+        <description lang="pt_BR"><![CDATA[Com o KODI Popcorn Time você pode procurar por filmes e assisti-los imediatamente no KODI.]]></description>
     </extension>
 </addon>
 

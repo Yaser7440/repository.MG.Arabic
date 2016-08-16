@@ -1,3 +1,31 @@
+[B]Version 2.0.83[/B]
+- Add MovieFlix scraper
+- Add Ventures scraper
+- Add HeyDL scraper
+- Fix 2DDL scraper
+- Prefer poster over fanart for thumbs
+- Improve Key handling in most scrapers
+
+[B]Version 2.0.82[/B]
+- Improve collection open performance on slower hardware
+- Allow date format to be user overridden
+- More code optimizations
+- Fix KiwiHD scraper
+
+[B]Version 2.0.81[/B]
+- Fix Xmovies8.V2 scraper
+- Fix Stage66 scraper
+- Improve Dizibox scraper
+- Improve Dizimag scraper
+- Improve Filmovizjia scraper
+- Improve scene-rls scraper
+- Improve SeriesWatch scraper
+- Improve Furk scraper
+- Centralize and Improve Episode & Movie Matcher
+    - Improves all Blog style scrapers and EasyNews, Farda, Furk, OneClickTVShows, Premiumize, SceneDown, SeriesWatch
+- Improve image fallback handling
+- Various code improvements/simplifications/centralizations
+
 [B]Version 2.0.80[/B]
 - Add scene-rls Scraper
 - Add SceneDown Scraper

@@ -1,0 +1,153 @@
+v1.1.[COLOR ff0084ff]1[/COLOR]
+- Added option to batch-add movies and/or tvshows to library:
+  Movies: add a file called "movies_to_add.txt" to MetalliQ's addon-data folder. Can be comma seperated values or each id on new line or combination of th
+  two. Takes IMDb-id or TMDb-id or combination of those two.
+  TVShows: add a file called "tvshows_to_add.txt" to MetalliQ's addon-data folder. Can be comma seperated values or each id on new line or combination of those two. Takes IMDb-id or TVDb-id or combination of those two.
+
+v1.1.[COLOR ff0084ff]0[/COLOR]
+- Added (all?) missing translations
+- Added option to set the number of items per page for Trakt sections, default is 42
+- Added a seperate search-sections (both with and without specified query) enabling user to store searches by favouriting them
+- Added players-setup and sources-setup
+- Added seperate guide integration so users can keep their enabled player settings
+- Added another theme (Azure, thanks to Will Martins)
+- Changed playlist-folder locations to use kodi's default playlist locations
+- Fixed auto-adding with default player or tvshows
+- Newly added search section allows searching & browsing of Trakt lists without logging in
+- Removed trakt authorization from settings as it wasn't working properly. To authorize: browse to a personal section and you will be prompted
+- Moved "add to library" to top of contextmenu
+- Moved trailer to 2nd position in contextmenu
+
+v1.0.[COLOR ff0084ff]9[/COLOR]
+- Added channel source for library channels
+- Added live library functionality
+- Added option to force views
+- Added trakt sections
+- Added period setting for Trakt's "Most"-sections
+- Added pagination to all trakt movies and tv shows sections
+- Added some translations
+- Added related movies (Trakt) to contextmenu
+- Fixed Trakt trending movies (was duplicate of blockbusters tmdb)
+- Fixed setting of content on source creation
+- Fixed playlistfolder creation
+- Removed source creation from totalsetup so users can first set desired style and system language to be used in source creation
+
+v1.0.[COLOR ff0084ff]8[/COLOR]
+- Fixed extended info's context menu integration
+- Hid library-folder location in settings (can still be changed by manually editing settings.xml in addon_data)
+- Moved some settings around a little bit
+- Added option to change language for TMDb-lookups (independent from main addon language which is still equal to system language)
+- Fixed playback when Trakt is unreachable
+ 
+v1.0.[COLOR ff0084ff]7[/COLOR]
+- Background changeable independent of theme
+- Added custom theme and background option
+- Added parameters: {shortname/title} = name/title[1:-1], {urlname/title} = urllib.quote(name/title)
+- Changed a couple of defaults in settings
+- Added some context-menu options: Direct link to EIM/[COLOR ff0084ff]Q[/COLOR]lick[COLOR ff0084ff]P[/COLOR]lay, Trailers, Recommended (exits [COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR])
+- Added option to disable library updates
+
+v1.0.[COLOR ff0084ff]6[/COLOR]
+- Added themes
+- Added setting to auto-add stuff played by name to library
+- Added setting to use default library player when adding to library for tv shows (enabled by default)
+- Added parameters: sortname/sorttitle = name or title without article
+- Added hints: @anycontaining:Inc1|Inc2|Inc3 = next steps in dirs containing one (or more) of the inc's specified, @anynotcontaining:Exc1|Exc2|Exc3 = next steps in dirs NOT containing any of the exc's specified
+- Added shortcuts to settings accessible via pluginpath
+- Added direct link to [COLOR ff0084ff]Q[/COLOR]lick[COLOR ff0084ff]P[/COLOR]lay in contextmenu
+- Added some missing translations
+- Changed player format and content (not backwards compatible with older version of [COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR] or Meta-video addon)
+- Changed default player-repo location
+- Merged v1.1.5 of Meta video
+- Added to noobsandnerds-repository to add functionality to TVPortal
+
+v1.0.4
+- Added metadata to addon.xml
+- Fixed trakt next episodes
+- Switched from Meta's trakt-api to [COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR]'s own, unique trakt-api
+v1.0.2
+- Fixed iconpath in source-creation
+v1.0.1
+- Moved images to git
+- Added @anyexcept parameter which is @any with exclusions added. Example: "@anyexcept:Exclusion1|Exclusion2|Exclusion3" (Exclusions need to exactly match dir to be excluded)
+v1.0.0
+- Movies get their own folders
+- Custom artwork (Metal)
+- Added Music
+- Added Musicvideos
+- Added toggle for music/musicvideos
+- Added TotalSetup-button to download, unzip & enable all players and set up all sources
+- Added option to parse specific player in pluginpath
+- When tvshows are added to library, a smartplaylists for that show is created as well
+- Added music categories.
+
+=============================
+[COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR] v1.0.0 forked from Meta v1.1.5
+
+v1.1.5
+- maintenance
+
+v1.1.4
+- Store live searches (can move items or remove them from context menu)
+- Another fix for trakt authentication
+
+v1.1.3
+- Fixed trakt authentication from settings
+
+v1.1.2
+- Fixed settings labels
+
+v1.1.1
+- Initial trakt support (by midraal)
+- Live TV support (by midraal)
+- Bug fixes
+
+v1.1.0
+- Changed keyboard hiding method (enable in advanced settings)
+- Adjustable pool size in advanced settings
+- Fixed keyboard steps bug with RTL languages (only hebrew for now)
+
+v1.0.9
+- Performance improvements
+- Added parameter functions (ws and replace, see wiki)
+- Bugfixes 
+
+v1.0.8
+- Hack to hide keyboard is off by default due to issues on some skins (option available in advanced settings)
+
+v1.0.7
+- Hack to hide keyboard when keyboard steps are used (may not work on all skins)
+
+v1.0.6
+- Added support for replacing whitespace with - and with %252B (turns into + sign after python unquote_plus call)
+- Added fanart behind selection dialog
+- Possible fix to handle nfs paths
+- Change: no longer alters strm modification date (option to set it to release date added to settings)
+
+v1.0.5
+- Fixed clearname parameter
+
+v1.0.4
+- Avoid duplicates in library (considering only real content, not strms).
+- Close notifications while selection dialog is open
+- Bugfixes
+
+v1.0.3
+- Feaure: support keyboard steps
+- Improvement: match "name, The" with "The name"
+- Improvement: better info-labels matching (specify {season}x{episode} to match both)
+- Change: name parameter for anime now uses absolute episode number
+- Fix: bypass TMDB genres bug
+- Fix: avoid display of failed playback message
+
+v1.0.2
+- Fix: timestamp error on add to library
+- {season} and {episode} can now match info-labels
+- RESOLVE now also calls Player.play.
+
+v1.0.1
+- Fix: crash on empty TVDB data
+- Fix: hardcoded language in scraper settings
+
+v1.0.0
+- Initial release
