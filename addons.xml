@@ -2234,7 +2234,7 @@ Addons Included
 
 </addon>
 
-<addon id="plugin.video.sportsmix" name="Sports Mix" version="1.0.4" provider-name="MetalKettle">
+<addon id="plugin.video.sportsmix" name="Sports Mix" version="1.0.5" provider-name="MetalKettle">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -5136,5 +5136,25 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
         <description lang="pt_BR"><![CDATA[Com o KODI Popcorn Time você pode procurar por filmes e assisti-los imediatamente no KODI.]]></description>
     </extension>
 </addon>
+
+<addon id="script.bluray.com" name="Blu-ray.com" version="0.1.6a7" provider-name="Rick Phillips (ruuk)">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.requests" version="2.3.0"/>
+		<import addon="script.module.beautifulsoup4" version="4.3.1" />
+	</requires>
+	<extension point="xbmc.python.script" library="default.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Blu-ray.com reviews, releases, deals and search.</summary>
+		<description lang="en">Enjoy Blu-ray.com content on your TV. Blu-ray.com provides great reviews with 1080p screenshots, which are nice to preview on your actual TV. You can also browse the latest releases and look for the latest Blu-ray deals. Currently in an exprimental stage is access to collections for registerd users, with the ability to mark titles watched.</description>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<forum></forum>
+		<source>http://github.com/ruuk/script.bluray.com</source>
+	</extension>
+</addon>
+
 
 </addons>
