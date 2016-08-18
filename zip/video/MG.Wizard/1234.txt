@@ -37,3 +37,4 @@ kodi="16.1"
 theme="http://"
 icon="http://www.stephen-builds.co.uk/Wizard/icon17.jpg"
 fanart="http://mg.esy.es/Kodi/Logo/MG.es"
+
