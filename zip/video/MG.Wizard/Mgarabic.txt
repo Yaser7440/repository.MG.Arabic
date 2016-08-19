@@ -1,6 +1,6 @@
 id="plugin.program.Mgarabic.zip"
 version="1.0.0"
-zip="https://github.com/Yaser7440/repository.MG.Arabic/blob/master/zip/plugin.program.Mgarabic.zip"
+zip="https://github.com/Yaser7440/repository.MG.Arabic/blob/master/zip/plugin.program.MG.AR.wizard-1.0.0.zip"
 
 name="MG.Wizard_ENG"
 version="5.0.0"
