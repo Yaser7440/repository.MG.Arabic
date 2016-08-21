@@ -1,3 +1,10 @@
+[B]Version 2.0.84[/B]
+- Add Spacemov
+- Fix pubfilm
+- Fix Watch5S
+- Fix YesMovies
+- Improve ReleaseBB
+
 [B]Version 2.0.83[/B]
 - Add MovieFlix scraper
 - Add Ventures scraper

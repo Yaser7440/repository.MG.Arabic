@@ -472,8 +472,8 @@
 
 <addon id="plugin.video.icefilms"
        name="Icefilms"
-       version="1.24.0"
-       provider-name="Eldorado (originator: anarchintosh)">
+       version="1.25.0"
+       provider-name="Eldorado">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.simplejson" version="3.3.0"/>
@@ -691,7 +691,7 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
   </extension>
 </addon>
 
-<addon id="plugin.video.salts" version="2.0.83" name="Stream All The Sources" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.84" name="Stream All The Sources" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
@@ -710,6 +710,7 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
 		<forum>http://forums.tvaddons.ag/forums/180-TKNORRIS-RELEASE-REPOSITORY</forum>
 	</extension>
 </addon>
+
 
 <addon id="script.module.tknorris.shared" name="TKNorris Common Libraries" version="0.0.3" provider-name="tknorris">
 	<requires>
@@ -1497,13 +1498,14 @@ Addons Included
   </extension>
 </addon>
 
-<addon id="plugin.video.phstreams" name="Phoenix" version="3.1.5" provider-name="tvaddons.ag">
+<addon id="plugin.video.phstreams" name="Phoenix" version="3.1.6" provider-name="tvaddons.ag">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
 		<import addon="script.module.pyxbmct" version="1.1.4" />
 		<import addon="script.module.urlresolver" version="3.0.0"/>
 		<import addon="script.module.liveresolver" version="0.1.24"/>
-		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
+		<import addon="script.video.F4mProxy" version="2.2.3"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
@@ -1514,8 +1516,10 @@ Addons Included
 		<platform>all</platform>
 		<forum>http://forums.tvaddons.ag/forums/220-PHOENIX-LIVE-STREAMS</forum>
 		<website>http://www.tvaddons.ag/</website>
+		<news>Updated indexers[CR]Updated scrapers[CR]Updated resolvers</news>
 	</extension>
 </addon>
+
 
 <addon id="script.module.liveresolver" 
      name="LiveResolver" 
@@ -2112,7 +2116,7 @@ Addons Included
   </extension>
 </addon>
 
-<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2016.08.01.2" provider-name="mrknow" >
+<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2016.08.14.1" provider-name="mrknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.requests" version="1.0.0" />
@@ -2152,7 +2156,7 @@ Addons Included
 	</extension>
 </addon>
 
-<addon id="plugin.video.exodus" version="2.0.5" name="Exodus" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="2.0.6" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		
@@ -2168,6 +2172,7 @@ Addons Included
 		<description lang="en">Please visit www.tvaddons.ag for Exodus support and assistance! Kindly note that Exodus is not an official part of the media player you are running, and therefore not to be mentioned within official support channels, this addon has nothing to do with the media player itself, nor it’s intended use, it is simply a third party plugin which has been added to your system.</description>
 		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
 		<platform>all</platform>
+		<news>- Updated providers[CR]- Code cosmetics</news>
 	</extension>
 </addon>
 
@@ -2322,13 +2327,13 @@ http://informaticglobalworld.altervista.org/
 	</extension>
 </addon>
 
-<addon id="plugin.video.alluc.api" name="Alluc" provider-name="DudeHere" version="0.6.6">
+<addon id="plugin.video.alluc.api" name="Alluc" provider-name="DudeHere" version="0.6.7">
     <requires>
-        <import addon="xbmc.python" version="2.1.0" />
-        <import addon="script.module.beautifulsoup" />
-        <import addon="script.module.dudehere.routines" />
-        <import addon="script.module.myconnpy" version="0.3.2" />
-        <import addon="script.module.urlresolver" version="1.1.6" />
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.beautifulsoup"/>
+        <import addon="script.module.dudehere.routines"/>
+        <import addon="script.module.myconnpy" version="0.3.2"/>
+        <import addon="script.module.urlresolver" version="1.1.6"/>
     </requires>
     <extension library="default.py" point="xbmc.python.pluginsource">
         <provides>video</provides>
@@ -2341,22 +2346,22 @@ http://informaticglobalworld.altervista.org/
 </addon>
 
 
-<addon id="plugin.video.theroyalwe" name="The Royal We" provider-name="DudeHere" version="1.0.9">
+<addon id="plugin.video.theroyalwe" name="The Royal We" provider-name="DudeHere" version="1.0.13">
     <requires>
-        <import addon="xbmc.python" version="2.1.0" />
-        <import addon="script.module.beautifulsoup" />
-        <import addon="script.module.dudehere.routines" />
-        <import addon="script.module.myconnpy" />
-        <import addon="script.module.urlresolver" />
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.beautifulsoup"/>
+        <import addon="script.module.dudehere.routines"/>
+        <import addon="script.module.myconnpy"/>
+        <import addon="script.module.urlresolver"/>
     </requires>
     <extension library="default.py" point="xbmc.python.pluginsource">
         <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
-        <language />
+        <language/>
         <summary>The Royal We is about simplicity and sources.</summary>
-        <description>The Royal We is getting better then ever. It&apos;s all about simplicity and lots of sources. No settings. No configuration (except for a Trakt.tv account if you have one).</description>
+        <description>The Royal We is getting better then ever. It's all about simplicity and lots of sources. No settings. No configuration (except for a Trakt.tv account if you have one).</description>
         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
         <forum>http://forums.tvaddons.ag/dudehere-addons/</forum>
         <website>http://www.tvaddons.ag/</website>
@@ -2430,26 +2435,26 @@ http://informaticglobalworld.altervista.org/
   </extension>
 </addon>
 
-<addon id="script.module.dudehere.routines" name="DudeHere Common Routines" provider-name="DudeHere" version="0.5.24">
+<addon id="script.module.dudehere.routines" name="DudeHere Common Routines" provider-name="DudeHere" version="0.5.37">
     <requires>
-        <import addon="xbmc.python" version="2.1.0" />
-        <import addon="script.module.beautifulsoup" />
-        <import addon="script.module.myconnpy" version="0.3.2" />
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.beautifulsoup"/>
+        <import addon="script.module.myconnpy" version="0.3.2"/>
     </requires>
-    <extension library="lib" point="xbmc.python.module" />
-    <extension library="service.py" point="xbmc.service" start="startup" />
+    <extension library="lib" point="xbmc.python.module"/>
+    <extension library="service.py" point="xbmc.service" start="startup"/>
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
         <summary lang="en">Collection of commonly used addon routines</summary>
         <description lang="en">Collection of commonly used addon routines used by DudeHere.</description>
-        <disclaimer lang="en" />
-        <language />
+        <disclaimer lang="en"/>
+        <language/>
         <platform>all</platform>
         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
         <forum>http://forums.tvaddons.ag/dudehere-addons/</forum>
         <website>http://www.tvaddons.ag/</website>
-        <email />
-        <source />
+        <email/>
+        <source/>
     </extension>
 </addon>
 
@@ -3551,7 +3556,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="script.extendedinfo" name="[COLOR ff0084ff]E[/COLOR]xtended [COLOR ff0084ff]I[/COLOR]nfo [COLOR ff0084ff]M[/COLOR]od" version="4.9.9b" provider-name="Modded by [COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR], original work by phil65">
+<addon id="script.extendedinfo" name="[COLOR ff0084ff]E[/COLOR]xtended [COLOR ff0084ff]I[/COLOR]nfo [COLOR ff0084ff]M[/COLOR]od" version="4.9.9c" provider-name="Modded by [COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR], original work by phil65">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 		<import addon="plugin.program.super.favourites" version="1.0.48"/>
@@ -3586,6 +3591,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 		<email>OpenELEQ@gmail.com</email>
 	</extension>
 </addon>
+
 
 <addon id="script.module.actionhandler" name="ActionHandler" version="1.0.3" provider-name="Philipp Temminghoff (phil65)">
 	<extension point="xbmc.python.module" library="lib" />
@@ -5046,7 +5052,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="plugin.video.metalliq" name="[COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR]" version="1.1.1" provider-name="[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR], Midraal, forked from Meta-video">
+<addon id="plugin.video.metalliq" name="[COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR]" version="1.1.2" provider-name="[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR], Midraal, forked from Meta-video">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 		
@@ -5058,11 +5064,18 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 	</extension>
 	<extension point="xbmc.service" library="service.py" start="[login|startup]">
 	</extension>
+	<extension point="kodi.context.item" library="context_toggle.py">
+		<provides>executable</provides>	
+			<item>
+				<label>Preferred toggle</label>
+				<visible>!System.HasAddon(context.metalliq) + Skin.HasSetting(Toggling)</visible>
+			</item>
+	</extension>
 	<extension point="kodi.context.item" library="context_playable.py">
 		<provides>executable</provides>	
 			<item>
 				<label>$ADDON[plugin.video.metalliq 30602]</label>
-				<visible>!System.HasAddon(context.metalliq) + [StringCompare(ListItem.dbtype,movie) | StringCompare(ListItem.dbtype,episode)] + SubString(ListItem.FileNameAndPath, plugin.video.metalliq)</visible>
+				<visible>!System.HasAddon(context.metalliq) + !StringCompare(ListItem.dbtype,tvshow) + !StringCompare(ListItem.dbtype,season)</visible>
 			</item>
 	</extension>
 	<extension point="kodi.context.item" library="context_tvshow.py">
