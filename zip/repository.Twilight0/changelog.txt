@@ -1,0 +1,14 @@
+[B]Version 1.0.4[/B]
+- Migrated to offshoregit
+
+[B]Version 1.0.3[/B]
+- Changed fanart
+
+[B]Version 1.0.2[/B]
+- Reduced icon size
+
+[B]Version 1.0.1[/B]
+- Added logos and fanarts
+
+[B]Version 1.0.0[/B]
+- Initial version

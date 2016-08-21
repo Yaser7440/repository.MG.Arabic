@@ -1,3 +1,6 @@
+v1.1.[COLOR ff0084ff]3[/COLOR]
+- Fixed container error
+
 v1.1.[COLOR ff0084ff]2[/COLOR]
 - Added backup function for movies and tvshows library, makes lists in addon_data-folder which can be used with batch-add-function: change extension from "bak" to "txt" and place in [COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR]'s addon_data-folder. 
 - Added preferred toggling, current options are acceleration and skin.

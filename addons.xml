@@ -3383,7 +3383,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="script.module.israeliveresolver" name="IsraeLiveResolver" version="0.2.9" provider-name="Avigdor (xbmc-israel repo)">
+<addon id="script.module.israeliveresolver" name="IsraeLiveResolver" version="0.3.0" provider-name="Avigdor (xbmc-israel repo)">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
 	<import addon="repository.xbmc-israel" />
@@ -5052,7 +5052,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="plugin.video.metalliq" name="[COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR]" version="1.1.2" provider-name="[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR], Midraal, forked from Meta-video">
+<addon id="plugin.video.metalliq" name="[COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR]" version="1.1.3" provider-name="[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR], Midraal, forked from Meta-video">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 		
@@ -5169,5 +5169,49 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 	</extension>
 </addon>
 
+<addon id="plugin.program.SpeedTester.net" name="SpeedTester.net" version="1.0.2" provider-name="Twilight0">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">SpeedTester.net</summary>
+    <description lang="en">SpeedTester.net will give you accurate Internet speed-ping test results.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="repository.Twilight0" name="Twilight0 Addon Repository" version="1.0.4" provider-name="Twilight0">
+    <extension point="xbmc.addon.repository" name="Twilight0 Addon Repository">
+            <info compressed="false">https://offshoregit.com/thgiliwt/_repo-thgiliwt/addons.xml</info>
+            <checksum>https://offshoregit.com/thgiliwt/_repo-thgiliwt/addons.xml.md5</checksum>
+            <datadir zip="true">https://offshoregit.com/thgiliwt/_repo-thgiliwt/</datadir>
+            <hashes>false</hashes>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+            <summary>Repository for Greek TV and Tune-In Radio add-ons</summary>
+            <description></description>
+            <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="service.rytecepgdownloader" 
+    name="Rytec EPG Downloader"
+    version="16.5.9"
+    provider-name="Jin">
+    <requires>
+        <import addon="xbmc.python" version="2.14.0"/>
+        <import addon="script.module.requests"/>
+    </requires>
+    <extension point="xbmc.service" library="service.py" start="startup" />
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>XMLTV EPG Downloader</summary>
+        <description>XMLTV EPG Downloader</description>
+        <forum>http://kodinerds.net</forum>
+    </extension>
+</addon>
 
 </addons>
