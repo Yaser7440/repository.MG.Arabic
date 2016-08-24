@@ -137,7 +137,7 @@
   </extension>
 </addon>
 
-<addon id="repository.MG.Arabic" name="..[COLOR red] MG Arabic[/COLOR]" version="2.0.9" provider-name="[COLOR red] MG Arabic[/COLOR]">
+<addon id="repository.MG.Arabic" name="..[COLOR red] MG Arabic[/COLOR]" version="3.0.0" provider-name="[COLOR red] MG Arabic[/COLOR]">
 	<extension point="xbmc.addon.repository" name="MG Arabic">	
 		<dir>
 	        <info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
@@ -151,11 +151,11 @@
 			
 	</extension>
 	<requires>
-	<import addon="plugin.video.MG.Wizard" />
+	<import addon="plugin.program.MG.AR.wizard" />
  </requires>
 	<extension point="xbmc.addon.metadata">
 		<summary>http://mg.esy.es/Kodi/</summary>
-		<description>MG Arabic v2.0.9</description>
+		<description>MG Arabic v3.0.0</description>
 		<platform>all</platform>
 	</extension>
 </addon>
