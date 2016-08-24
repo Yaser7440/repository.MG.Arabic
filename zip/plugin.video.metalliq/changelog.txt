@@ -1,8 +1,23 @@
+v1.1.[COLOR ff0084ff]4[/COLOR]
+- Added sortesttitle-parameter which is title without article and/or the word "movie" 
+- Added toggle for context player (advanced settings)
+- Edited context player to use (preferred) context player instead of default player
+- Edited play_by_name route to use (preferred) context player
+- Improved context player label handling: now removes text formatting
+
+v1.1.[COLOR ff0084ff]3[/COLOR]
+- Fixed container error
+
+v1.1.[COLOR ff0084ff]2[/COLOR]
+- Added backup function for movies and tvshows library, makes lists in addon_data-folder which can be used with batch-add-function: change extension from "bak" to "txt" and place in [COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR]'s addon_data-folder. 
+- Added preferred toggling, current options are acceleration and skin.
+- Expanded context player, now usable from almost anywhere (provided addon's dev has not blocked regular context-menu-items)
+
 v1.1.[COLOR ff0084ff]1[/COLOR]
 - Added option to batch-add movies and/or tvshows to library:
-  Movies: add a file called "movies_to_add.txt" to MetalliQ's addon-data folder. Can be comma seperated values or each id on new line or combination of th
+  Movies: add a file called "movies_to_add.txt" to [COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR]'s addon-data folder. Can be comma seperated values or each id on new line or combination of th
   two. Takes IMDb-id or TMDb-id or combination of those two.
-  TVShows: add a file called "tvshows_to_add.txt" to MetalliQ's addon-data folder. Can be comma seperated values or each id on new line or combination of those two. Takes IMDb-id or TVDb-id or combination of those two.
+  TVShows: add a file called "tvshows_to_add.txt" to [COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR]'s addon-data folder. Can be comma seperated values or each id on new line or combination of those two. Takes IMDb-id or TVDb-id or combination of those two.
 
 v1.1.[COLOR ff0084ff]0[/COLOR]
 - Added (all?) missing translations

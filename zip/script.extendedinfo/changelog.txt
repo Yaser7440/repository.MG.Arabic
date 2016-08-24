@@ -1,3 +1,8 @@
+v4.9.9c
+- RottenTomatoes no longer provides external ids so back to crappy resolution posters otherwise loading a list would simply take too long.
+- Replaced all instances of && with & for [COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR]-player compatibility
+- Fixed white letters on white background in youtubebrowser (reverted to dark background)
+
 v4.9.9b
 - Added context options to sets and similar.
 - Added option to add TMDb-listitems to kodi library, both seperate as entire list.

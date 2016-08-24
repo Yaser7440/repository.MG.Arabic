@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repository.Twilight0" name="Twilight0 Addon Repository" version="1.0.4" provider-name="Twilight0">
+    <extension point="xbmc.addon.repository" name="Twilight0 Addon Repository">
+            <info compressed="false">https://offshoregit.com/thgiliwt/_repo-thgiliwt/addons.xml</info>
+            <checksum>https://offshoregit.com/thgiliwt/_repo-thgiliwt/addons.xml.md5</checksum>
+            <datadir zip="true">https://offshoregit.com/thgiliwt/_repo-thgiliwt/</datadir>
+            <hashes>false</hashes>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+            <summary>Repository for Greek TV and Tune-In Radio add-ons</summary>
+            <description></description>
+            <platform>all</platform>
+    </extension>
+</addon>

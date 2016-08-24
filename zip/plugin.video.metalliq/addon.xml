@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.metalliq" name="[COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR]" version="1.1.1" provider-name="[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR], Midraal, forked from Meta-video">
+<addon id="plugin.video.metalliq" name="[COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR]" version="1.1.4" provider-name="[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR], Midraal, forked from Meta-video">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 		
@@ -11,11 +11,18 @@
 	</extension>
 	<extension point="xbmc.service" library="service.py" start="[login|startup]">
 	</extension>
+	<extension point="kodi.context.item" library="context_toggle.py">
+		<provides>executable</provides>	
+			<item>
+				<label>Preferred toggle</label>
+				<visible>!System.HasAddon(context.metalliq) + Skin.HasSetting(Toggling)</visible>
+			</item>
+	</extension>
 	<extension point="kodi.context.item" library="context_playable.py">
 		<provides>executable</provides>	
 			<item>
 				<label>$ADDON[plugin.video.metalliq 30602]</label>
-				<visible>!System.HasAddon(context.metalliq) + [StringCompare(ListItem.dbtype,movie) | StringCompare(ListItem.dbtype,episode)] + SubString(ListItem.FileNameAndPath, plugin.video.metalliq)</visible>
+				<visible>!System.HasAddon(context.metalliq) + !StringCompare(ListItem.dbtype,tvshow) + !StringCompare(ListItem.dbtype,season) + !Skin.HasSetting(Contexting)</visible>
 			</item>
 	</extension>
 	<extension point="kodi.context.item" library="context_tvshow.py">
