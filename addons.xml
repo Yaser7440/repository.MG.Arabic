@@ -5230,7 +5230,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
     </extension>
 </addon>
 
-<<<<<<< HEAD
+
 <addon id="skin.mg.aeonmq7" version="1.4.0" name="Aeon MG 7" provider-name="MG.Arabic">
 	<requires>
 	<import addon="xbmc.gui" version="5.10.0"/>
@@ -5265,13 +5265,11 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 	</extension>
 </addon>
 
-=======
->>>>>>> origin/master
-<addon
-  id="plugin.video.SportsDevil"
-  version="2016.08.22"
-  name="SportsDevil"
-  provider-name="SportsDevil">
+
+<addon  id="plugin.video.SportsDevil"
+		version="2016.08.22"
+		name="SportsDevil"
+		provider-name="SportsDevil">
   <requires>
    <import addon="xbmc.python" version="2.14.0"/>
    <import addon="script.module.simplejson" />
@@ -5296,13 +5294,11 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<<<<<<< HEAD
-=======
-<addon
-  id="plugin.video.animego"
-  version="1.0.5"
-  name="animego"
-  provider-name="Dknight">
+
+<addon  id="plugin.video.animego"
+		version="1.0.5"
+		name="animego"
+		provider-name="Dknight">
   <requires>
         <import addon="xbmc.python" version="2.1.0" optional="true" />
 		<import addon="script.module.simplejson" />
