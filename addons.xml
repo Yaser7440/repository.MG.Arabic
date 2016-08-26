@@ -1655,11 +1655,8 @@ Addons Included
   </extension>
 </addon>
 
-<<<<<<< HEAD
+
 <addon id="script.module.urlresolver" name="URLResolver" version="3.0.19" provider-name="Eldorado">
-=======
-<addon id="script.module.urlresolver" name="URLResolver" version="3.0.18" provider-name="Eldorado">
->>>>>>> origin/master
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
