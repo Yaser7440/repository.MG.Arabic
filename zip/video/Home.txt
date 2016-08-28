@@ -11,6 +11,15 @@
 </channel>
 
 
+<channel>
+<name>SPORTS TV</name>
+<thumbnail>http://ndl.mgccw.com/mu3/app/20140612/17/1402576108781/ss/1_small.png</thumbnail>
+<externallink>http://pastebin.com/raw/z0PrB9Wc</externallink>
+<fanart>http://ndl.mgccw.com/mu3/app/20140612/17/1402576108781/ss/1_small.png</fanart>
+<info>Arabic TV (MG.Arabic)</info>
+</channel>
+
+
 
 <channel>
 <name>TV Shows</name>
