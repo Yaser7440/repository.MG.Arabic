@@ -2087,12 +2087,12 @@ Addons Included
   </extension>
 </addon>
 
-<addon id="plugin.video.md123movies" name="123Movies" version="1.2.7" provider-name="Mucky Duck">
+<addon id="plugin.video.md123movies" name="123Movies" version="1.2.8" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
 	<import addon="script.module.requests" />
-	<import addon="repository.mdrepo" />
+	
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
