@@ -5229,11 +5229,46 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
     </extension>
 </addon>
 
-<addon
-  id="plugin.video.SportsDevil"
-  version="2016.08.22"
-  name="SportsDevil"
-  provider-name="SportsDevil">
+
+<addon id="skin.mg.aeonmq7" version="1.4.0" name="Aeon MG 7" provider-name="MG.Arabic">
+	<requires>
+	<import addon="xbmc.gui" version="5.10.0"/>
+	<import addon="service.skin.widgets" version="0.0.30"/>
+	<import addon="service.library.data.provider" version="0.0.9"/>
+	<import addon="service.nextup.notification" version="1.0.8"/>
+	<import addon="script.favourites"/>
+	<import addon="script.artwork.downloader" version="12.0.29"/>
+	<import addon="script.randomandlastitems" version="2.2.2"/>
+	<import addon="script.games.rom.collection.browser" version="2.1.2"/>
+	<import addon="script.artistslideshow" version="1.8.6"/>
+	<import addon="script.tv.show.next.aired" version="6.0.14"/>
+	<import addon="script.cu.lrclyrics" version="3.2.0"/>
+	<import addon="script.globalsearch" version="5.0.0"/>
+	<import addon="script.extendedinfo" version="3.1.1" />
+	<import addon="script.skin.helper.service" version="1.0.23" />	
+	<import addon="script.image.resource.select" version="0.0.7"/>
+	<import addon="resource.uisounds.aeonmq6" version="1.0.0"/>
+	<import addon="resource.images.moviegenreicons.xzener-flat" version="0.0.1"/>
+	<import addon="resource.images.musicgenreicons.text" version="0.0.5"/>
+	<import addon="resource.images.weathericons.animated" version="0.0.4"/>
+	</requires>
+	<extension point="xbmc.gui.skin" effectslowdown="0.75" debugging="false">
+	<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i"/>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+	<summary lang="en">Aeon MQ 7, improved, more light and more powerful than ever.</summary>
+	<summary lang="pt_br">Aeon MQ 7, melhorada, mais leve e mais poderosa do que nunca.</summary>
+	<description lang="en">The traditional Aeon MQ reaches its seventh edition.[CR]Reformulated, very simple to use, with a new code that provides a lightweight and powerful skin.[CR]The Aeon MQ 7 incorporates new features such as REPLACE which takes the main menu's level of customization to something never seen before.[CR]Aeon MQ 7, you've never seen a skin like this.</description>
+	<description lang="pt_br">A tradicional Aeon MQ chega a sua sétima edição.[CR]Aeon MQ 7 conta com todos os recursos presentes na versão anterior, no entanto, esses recursos foram otimizados afim de proporcionar uma experiência ainda melhor ao usuário.[CR]Aeon MQ 7, você nunca viu uma skin assim.</description>
+	<platform>all</platform>
+	</extension>
+</addon>
+
+
+<addon  id="plugin.video.SportsDevil"
+		version="2016.08.22"
+		name="SportsDevil"
+		provider-name="SportsDevil">
   <requires>
    <import addon="xbmc.python" version="2.14.0"/>
    <import addon="script.module.simplejson" />
@@ -5258,11 +5293,11 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon
-  id="plugin.video.animego"
-  version="1.0.5"
-  name="animego"
-  provider-name="Dknight">
+
+<addon  id="plugin.video.animego"
+		version="1.0.5"
+		name="animego"
+		provider-name="Dknight">
   <requires>
         <import addon="xbmc.python" version="2.1.0" optional="true" />
 		<import addon="script.module.simplejson" />

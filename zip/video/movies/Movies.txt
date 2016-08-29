@@ -20,4 +20,12 @@
 <info>Arabic TV (MG.Arabic)</info>
 </channel>
 
+<channel>
+<name>SPORTS TV</name>
+<thumbnail>https://mir-s3-cdn-cf.behance.net/project_modules/disp/fdd1c412374317.562678e05a57a.jpg</thumbnail>
+<externallink>http://pastebin.com/raw/z0PrB9Wc</externallink>
+<fanart>https://mir-s3-cdn-cf.behance.net/project_modules/disp/fdd1c412374317.562678e05a57a.jpg</fanart>
+<info>Arabic TV (MG.Arabic)</info>
+</channel>
+
 </channels>
