@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.mg.estuary-jarvis" version="1.0.1" name="MG-Estuary-jarvis" provider-name="phil65, Piers, YLLOW_DRAGON">
+<addon id="skin.mg.estuary-jarvis" version="1.0.2" name="MG.Estuary-jarvis" provider-name="MG.Arabic, phil65, Piers, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.gui" version="5.10.0"/>
+        <import addon="script.pvr.favourites" version="1.0.7"/>
+        <import addon="script.skinshortcuts" version="1.0.8"/>
+		<import addon="script.skin.helper.service" version="1.0.90"/>		
 	</requires>
 	<extension
 		point="xbmc.gui.skin"
@@ -11,9 +14,10 @@
 		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
 	</extension>
 	<extension point="xbmc.addon.metadata">
+		<disclaimer lang="zh_CN">MG.Estuary-jarvis</disclaimer>
 		<platform>all</platform>
 		<license>CC BY-SA 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license>
-		<forum>http://forum.kodi.tv/</forum>
-		<source>https://github.com/xbmc/skin.estuary/</source>
+		<email></email>
+		<source>http://mg.esy.es/Kodi/</source>
 	</extension>
 </addon>
