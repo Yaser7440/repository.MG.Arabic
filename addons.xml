@@ -1513,7 +1513,7 @@ Addons Included
   </extension>
 </addon>
 
-<addon id="plugin.video.phstreams" name="Phoenix" version="3.1.6" provider-name="tvaddons.ag">
+<addon id="plugin.video.phstreams" name="Phoenix" version="3.1.7" provider-name="tvaddons.ag">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
@@ -2131,7 +2131,7 @@ Addons Included
   </extension>
 </addon>
 
-<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2016.08.23.3" provider-name="mrknow" >
+<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2016.08.29.1" provider-name="mrknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.requests" version="1.0.0" />
@@ -2147,7 +2147,7 @@ Addons Included
 	<extension point="xbmc.service" library="service.py" start="startup" />
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Mrknow fork of ...</summary>
-		<description lang="en">Mrknow fork of ..., support https://github.com/mrknow/filmkodi/issues.</description>
+		<description lang="en">Specto - ... Fork. Website http://filmkodi.com . Our suport forum https://github.com/mrknow/filmkodi/issues.</description>
 		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.
 		</disclaimer>
 		<forum>https://github.com/mrknow/filmkodi/issues</forum>
@@ -3411,7 +3411,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="script.mrknow.urlresolver" name="Mrknow URLResolver" version="2016.08.23.2" provider-name="mrknow" >
+<addon id="script.mrknow.urlresolver" name="Mrknow URLResolver" version="2016.08.29.1" provider-name="mrknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -3419,7 +3419,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 	<extension point="xbmc.python.pluginsource" library="lib/default.py" />
 	<extension point="xbmc.addon.metadata">
 		<platform>all</platform>
-		<summary lang="en">This addon is almost exact copy Urlresolver from Tknorris repository https://github.com/tknorris/script.module.urlresolver. Resolve common video host URL's to be playable in XBMC/Kodi. </summary>
+		<summary lang="en">This addon is almost exact copy Urlresolver from Tknorris repository https://github.com/tknorris/script.module.urlresolver. Resolve common video host URL's to be playable in XBMC/Kodi. Website http://filmkodi.com . Our suport forum https://github.com/mrknow/filmkodi/issues. </summary>
 		<description lang="en">This addon is almost exact copy Urlresolver from Tknorris repository https://github.com/tknorris/script.module.urlresolver Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
 	</extension>
 </addon>
@@ -5445,5 +5445,43 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 		<source>http://mg.esy.es/Kodi/</source>
 	</extension>
 </addon>
+
+<addon id="plugin.video.shababray2" version="1.0.0" name="Shababray2" provider-name="Made by mfaraj,opesboy">
+   <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
+	<import addon="script.module.urlresolver" />	
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary></summary>
+    <description>shababray2 MOVIES plugin, Arabic and Hollywood,Bollywood movies </description>
+   
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.sumeronline" version="1.0.0" name="Sumeronline" provider-name="TSmedia Team">
+ <requires>
+        <import addon="xbmc.python" version="2.1.0" optional="true" />
+
+        <import addon="script.module.addon.common"/>"
+        <import addon="script.module.urlresolver"/>"
+        <import addon="script.module.requests"/>"
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary> sumeronline.com </summary>
+    <description> videos from sumeronline </description>
+   <platform>all</platform>
+  </extension>
+</addon>
+
 
 </addons>
