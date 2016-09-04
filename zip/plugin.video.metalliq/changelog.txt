@@ -1,3 +1,13 @@
+v1.1.[COLOR ff0084ff]5[/COLOR]
+- Added option to set specific player per movie in library
+- Added option to add entire trakt lists to kodi library, also makes id-lists compatible with batch-add function
+- Added sorting options to movies, tvshows and lists sections
+- Added TVDb-search
+- Fixed the search dialog popping up constantly
+- Improved context player logic
+- Reworked the force-views options: movies, tvshows & lists only so far and it is not perfect but a whole lot better then it was
+- Removed pagination from trakt lists
+
 v1.1.[COLOR ff0084ff]4[/COLOR]
 - Added sortesttitle-parameter which is title without article and/or the word "movie" 
 - Added toggle for context player (advanced settings)

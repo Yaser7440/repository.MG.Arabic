@@ -356,13 +356,9 @@
     </extension>
 </addon>
 
-<addon
-  id="plugin.video.alarab"
-  version="4.3.5"
-  name="AlArab"
-  provider-name="MG.Arabic">
+<addon id="plugin.video.alarab" version="4.3.6" name="AlArab" provider-name="MG.Arabic">
   <requires>
-   <import addon="xbmc.python"
+    <import addon="xbmc.python"
             version="2.1.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource"
@@ -370,8 +366,8 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>MG.Arabic</summary>
-    <description>MG.Arabic.</description>
+    <summary>AlArabNet  (MG.Arabic)</summary>
+    <description>AlArabNet. (MG.Arabic)</description>
 
     <platform>all</platform>
   </extension>
@@ -706,7 +702,7 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
   </extension>
 </addon>
 
-<addon id="plugin.video.salts" version="2.0.85" name="Stream All The Sources" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.86" name="Stream All The Sources" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
@@ -1513,7 +1509,7 @@ Addons Included
   </extension>
 </addon>
 
-<addon id="plugin.video.phstreams" name="Phoenix" version="3.1.7" provider-name="tvaddons.ag">
+<addon id="plugin.video.phstreams" name="Phoenix" version="3.1.8" provider-name="tvaddons.ag">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
@@ -1531,7 +1527,7 @@ Addons Included
 		<platform>all</platform>
 		<forum>http://forums.tvaddons.ag/forums/220-PHOENIX-LIVE-STREAMS</forum>
 		<website>http://www.tvaddons.ag/</website>
-		<news>Updated indexers[CR]Updated scrapers[CR]Updated resolvers</news>
+		<news>Updated scrapers</news>
 	</extension>
 </addon>
 
@@ -2131,7 +2127,7 @@ Addons Included
   </extension>
 </addon>
 
-<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2016.08.29.1" provider-name="mrknow" >
+<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2016.09.01.1" provider-name="mrknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.requests" version="1.0.0" />
@@ -2171,7 +2167,7 @@ Addons Included
 	</extension>
 </addon>
 
-<addon id="plugin.video.exodus" version="2.0.7" name="Exodus" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="2.0.8" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		
@@ -2187,7 +2183,7 @@ Addons Included
 		<description lang="en">Please visit www.tvaddons.ag for Exodus support and assistance! Kindly note that Exodus is not an official part of the media player you are running, and therefore not to be mentioned within official support channels, this addon has nothing to do with the media player itself, nor it’s intended use, it is simply a third party plugin which has been added to your system.</description>
 		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
 		<platform>all</platform>
-		<news>- Updated indexers[CR]- Updated providers[CR]- Code cosmetics</news>
+		<news>Updated providers</news>
 	</extension>
 </addon>
 
@@ -3411,7 +3407,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="script.mrknow.urlresolver" name="Mrknow URLResolver" version="2016.08.29.1" provider-name="mrknow" >
+<addon id="script.mrknow.urlresolver" name="Mrknow URLResolver" version="2016.08.29.2" provider-name="mrknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -5067,7 +5063,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="plugin.video.metalliq" name="[COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR]" version="1.1.4" provider-name="[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR], Midraal, forked from Meta-video">
+<addon id="plugin.video.metalliq" name="[COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR]" version="1.1.5" provider-name="[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR], Midraal, forked from Meta-video">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 		
@@ -5086,25 +5082,32 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 				<visible>!System.HasAddon(context.metalliq) + Skin.HasSetting(Toggling)</visible>
 			</item>
 	</extension>
-	<extension point="kodi.context.item" library="context_playable.py">
+	<extension point="kodi.context.item" library="context_movie.py">
 		<provides>executable</provides>	
 			<item>
 				<label>$ADDON[plugin.video.metalliq 30602]</label>
-				<visible>!System.HasAddon(context.metalliq) + !StringCompare(ListItem.dbtype,tvshow) + !StringCompare(ListItem.dbtype,season)</visible>
+				<visible>StringCompare(ListItem.dbtype,movie) + SubString(ListItem.Path, plugin.video.metalliq)</visible>
 			</item>
 	</extension>
 	<extension point="kodi.context.item" library="context_tvshow.py">
 		<provides>executable</provides>	
 			<item>
-				<label>$ADDON[plugin.video.metalliq 30622]</label>
+				<label>$ADDON[plugin.video.metalliq 30602]</label>
 				<visible>StringCompare(ListItem.dbtype,tvshow) + SubString(ListItem.Path, plugin.video.metalliq)</visible>
 			</item>
 	</extension>
 	<extension point="kodi.context.item" library="context_live.py">
 		<provides>executable</provides>	
 			<item>
-				<label>$ADDON[plugin.video.metalliq 30622]</label>
+				<label>$ADDON[plugin.video.metalliq 30602]</label>
 				<visible>[SubString(ListItem.FileNameAndPath, plugin.video.metalliq\\Live) | SubString(ListItem.FileNameAndPath, plugin.video.metalliq/Live)]</visible>
+			</item>
+	</extension>
+	<extension point="kodi.context.item" library="context_playable.py">
+		<provides>executable</provides>	
+			<item>
+				<label>$ADDON[plugin.video.metalliq 30622]</label>
+				<visible>!System.HasAddon(context.metalliq) + !StringCompare(ListItem.dbtype,tvshow) + !StringCompare(ListItem.dbtype,season) + !Skin.HasSetting(Contexting)</visible>
 			</item>
 	</extension>
 	<extension point="xbmc.addon.metadata">

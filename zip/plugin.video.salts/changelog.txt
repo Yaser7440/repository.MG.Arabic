@@ -1,3 +1,15 @@
+[B]Version 2.0.86[/B]
+- Add "Rescrape All" function
+- Add "Manual Search All" function
+- Remove KiwiHD
+- Fix MoviesHD
+- Fix Watch5s
+- Fix PFTV
+- Fix Flixanity
+- Fix Putlocker
+- Improve SnagFilms
+- Add Past Activity sort to MNE
+
 [B]Version 2.0.85[/B]
 - Improve pool manager
 - Improve IceFilms scraper
