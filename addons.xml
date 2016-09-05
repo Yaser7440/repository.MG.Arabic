@@ -297,7 +297,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.genesis" name="Genesis" version="5.1.5" provider-name="MG Arabic">
+<addon id="plugin.video.genesis" name="Genesis" version="2016.02.06.3" provider-name="mrknow">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.requests" version="1.0.0" />
@@ -309,12 +309,13 @@
 	</extension>
 	<extension point="xbmc.service" library="service.py" start="startup" />
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">The origins of streaming</summary>
-		<description lang="en">Visit TVADDONS.ag for support</description>
-		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
-		<forum>http://forums.tvaddons.ag/forums/148-lambda-s-xbmc-addons</forum>
-		<source>http://mg.esy.es/Kodi/</source>
-		<website>https://offshoregit.com/lambda81/</website>
+		<summary lang="en">Mrknow fork of ...</summary>
+		<description lang="en">Mrknow fork of ..., support https://github.com/mrknow/filmkodi/issues.</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.
+		</disclaimer>
+		<forum>https://github.com/mrknow/filmkodi/issues</forum>
+		<source>http://filmkodi.com/repository/</source>
+		<website>http://filmkodi.com/en/wtyczka-specto-fork-genesis/</website>
 		<platform>all</platform>
 	</extension>
 </addon>
@@ -702,7 +703,7 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
   </extension>
 </addon>
 
-<addon id="plugin.video.salts" version="2.0.86" name="Stream All The Sources" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.87" name="Stream All The Sources" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
@@ -1553,7 +1554,7 @@ Addons Included
 
 
 
-<addon id="plugin.video.livemix" name="Live Mix" version="1.0.8" provider-name="MetalKettle">
+<addon id="plugin.video.livemix" name="Live Mix" version="1.0.9" provider-name="MetalKettle">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.addon.common" version="2.0.0" />
@@ -3407,7 +3408,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="script.mrknow.urlresolver" name="Mrknow URLResolver" version="2016.08.29.2" provider-name="mrknow" >
+<addon id="script.mrknow.urlresolver" name="Mrknow URLResolver" version="2016.09.04.2" provider-name="mrknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -3797,7 +3798,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 	</extension>
 </addon>
 
-<addon id="plugin.video.Evolve" name="[COLOR red]E[/COLOR][COLOR white]volve[/COLOR]" version="0.0.3" provider-name="Team Evolve">
+<addon id="plugin.video.Evolve" name="[COLOR red]E[/COLOR][COLOR white]volve[/COLOR]" version="0.0.4" provider-name="Team Evolve">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.simplejson" version="3.3.0"/>
@@ -5486,5 +5487,212 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
+<addon id="script.tv.show.next.aired" name="TV Show - Next Aired" version="60.0.14" provider-name="Ppic|Frost|ronie|`Black|phil65|WayneD">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.simplejson" version="2.0.10"/>
+	</requires>
+	<extension point="xbmc.python.script" library="default.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="login"/>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="bg">Информация за предстоящите ТВ сериали.</summary>
+		<summary lang="ca">Agafar informació de les sèries de TV que es retransmetran pròximament.</summary>
+		<summary lang="de">Erhalten Sie Infos über die nächsten Ausstrahlungstermine der Serien in Ihrer Bibliothek. </summary>
+		<summary lang="el">Λήψη πληροφοριών για την Επόμενη Προβολή των Τηλ. Σειρών</summary>
+		<summary lang="en">Get info for TV Shows Next Aired.</summary>
+		<summary lang="en_NZ">Get info for TV Shows Next Aired.</summary>
+		<summary lang="en_US">Get info for TV Shows Next Aired.</summary>
+		<summary lang="es">Obtener información de las siguientes emisiones de series.</summary>
+		<summary lang="es_MX">Obtener información de las siguientes emisiones de series.</summary>
+		<summary lang="fr">Récupère les dates de diffusions de vos séries</summary>
+		<summary lang="fr_CA">Obtenir les infos de prochaine diffusion des séries télé.</summary>
+		<summary lang="gl">Obter a info. das Seguintes Emisións das Series de TV.</summary>
+		<summary lang="he">קבל פרטי השידור הבא של תכניות הטלוויזיה.</summary>
+		<summary lang="hr">Nabavite informacije za sljedeću emitiranu TV seriju.</summary>
+		<summary lang="hu">Információ a sorozatok következő vetítési idejéről.</summary>
+		<summary lang="it">Ottieni info per le Serie TV trasmesse prossimamente</summary>
+		<summary lang="ko">TV 쇼 방송 일정을 가져옵니다.</summary>
+		<summary lang="lt">Gauti TV laidos kitos transliacijos informaciją.</summary>
+		<summary lang="nl">Ophalen info voor komende TV afleveringen.</summary>
+		<summary lang="no">Hent informasjon om kommende TV-programmer.</summary>
+		<summary lang="pl">Pobieraj informacje o odcinkach seriali wkrótce na antenie.</summary>
+		<summary lang="pt">Obter info para Próximas Exibições de Séries TV.</summary>
+		<summary lang="pt_BR">Saiba sobre próximas exibições de séries de TV.</summary>
+		<summary lang="ro">Află despre emisiuni care urmează să fie difuzate</summary>
+		<summary lang="ru">Информация о следующих ТВ передачах.</summary>
+		<summary lang="sl">Pridobi informacije TV oddaj ki se bodo predvajale.</summary>
+		<summary lang="sv">Hämta info för nästa sändning av TV-serier.</summary>
+		<summary lang="zh">获取即将播出的剧集的信息。</summary>
+		<description lang="bg">Сваля информация за предстоящите ТВ сериали. Вече никога няма да пропускате епизод от ТВ сериали, които следите.</description>
+		<description lang="ca">Agafar informació de les sèries de TV que es retransmetran pròximament. No te'n perdràs cap mai més.</description>
+		<description lang="de">TV Show Next Aired liefert Termin-Informationen über die anstehenden Episoden der Serien aus der Datenbank. Dazu gibt es eine Wochenansicht mit allen in der nächsten Woche laufenden Episoden sowie (bei vorhandenem Skin Support) die direkte Integration der Informationen in die Ansichten des jeweiligen Skins. Sie werden nie wieder eine Folge verpassen.</description>
+		<description lang="el">Λήψη πληροφοριών για την Επόμενη Προβολή των Τηλ. Σειρών. Δε θα ξαναχάσετε επεισόδιο ποτέ.</description>
+		<description lang="en">Get info for TV Shows Next Aired. You'll never miss one again.</description>
+		<description lang="en_NZ">Get info for TV Shows Next Aired. You'll never miss one again.</description>
+		<description lang="en_US">Get info for TV Shows Next Aired. You'll never miss one again.</description>
+		<description lang="es">Obtener información de las siguientes emisiones de series. Nunca te perderás una de nuevo.</description>
+		<description lang="es_MX">Obtener información de las siguientes emisiones de series. Nunca te perderás una de nuevo.</description>
+		<description lang="fr">Ce script interroge votre médiathèque puis vas récupérer les infos sur les prochaines diffusions de vos séries. vous n'en manquerez plus aucune.</description>
+		<description lang="fr_CA">Obtenir les infos de prochaine diffusion des séries télé. Vous n'en manquerez plus jamais une.</description>
+		<description lang="gl">Obter a info. das Seguintes Emisións das Series de TV. Non esquecerá ningunha.</description>
+		<description lang="he">קבל פרטי השידור הבא של תכניות הטלוויזיה. לעולם לא תחמיץ שוב פרק.</description>
+		<description lang="hr">Nabavite informacije za sljedeću emitiranu TV seriju. Nikada nećete propustiti nijednu.</description>
+		<description lang="hu">Információ a sorozatok következő vetítési idejéről. Soha nem marad le mégegyszer semmiről.</description>
+		<description lang="it">Ottieni info per le Serie TV trasmesse prossimamente. Non ne perderai più una.</description>
+		<description lang="ko">TV 쇼 방송 일정을 가져옵니다. 놓치는 일은 절대 없을 것입니다.</description>
+		<description lang="lt">Gauti TV laidos kitos transliacijos informaciją. Jūs niekada daugiau jos nepraleisite.</description>
+		<description lang="nl">Ophalen info voor komende TV shows. Je zult ze nooit meer missen.</description>
+		<description lang="no">Få informasjon om neste TV-sending. Du vil aldri gå glipp av en episode igjen.</description>
+		<description lang="pl">Pobieraj informacje o odcinkach seriali wkrótce na antenie. Nigdy już żadnego nie przegapisz.</description>
+		<description lang="pt">Obter info para Próximas Exibições de Séries TV. Nunca mais vai perder uma.</description>
+		<description lang="pt_BR">Saiba sobre próximas exibições de séries de TV. Você nunca perderá um episódio.</description>
+		<description lang="ro">Află despre emisiuni care urmează să fie difuzate. Nu vei mai rata nici una.</description>
+		<description lang="ru">Получает информацию о следующих ТВ передачах. Теперь Вы никогда не пропустите ни одну ТВ передачу.</description>
+		<description lang="sl">Pridobi informacije TV oddaj ki se bodo predvajale. Nikoli več ne boste zamudili nobene epizode.</description>
+		<description lang="sv">Hämta info för nästa sändning av TV-Serie. Du kommer inte att missa en igen.</description>
+		<description lang="zh">获取即将播出的剧集的信息。你不会再错过好节目了。</description>
+		<language></language>
+		<platform>all</platform>
+		<license>GPL v2.0</license>
+		<forum>http://forum.xbmc.org/showthread.php?tid=186090</forum>
+		<website>http://github.com/WayneD/script.tv.show.next.aired</website>
+		<source>https://github.com/WayneD/script.tv.show.next.aired.git</source>
+	</extension>
+</addon>
+
+<addon
+    id="plugin.video.xxtrucoxx"   
+    name="XxTRUCOxX"
+    version="1.0.6"
+    provider-name="XxTRUCOxX">
+   <requires>
+     <import addon="xbmc.python" version="2.1.0"/>
+	 <import addon="script.module.urlresolver"  version="2.8.0"/>
+	 <import addon="script.module.addon.common" version="2.0.0" />
+	 <import addon="script.module.metahandler"  version="0.0.1"/>
+	 <import addon="script.common.plugin.cache"/>
+   </requires>
+   <extension point="xbmc.python.pluginsource" library="plugin.py" >
+	 <provides>video</provides>
+   </extension>
+   <extension point="xbmc.python.module" library="lib" />
+   <extension point="xbmc.addon.metadata">
+	 <summary lang="pt">Assista videos e filmes [COLOR red][B]ADULTOS[/COLOR][/B] encodado e upado por XxTRUCOxX.</summary>
+	 <description lang="pt">Assista videos e filmes [COLOR red][B]ADULTOS[/COLOR][/B] encodado e upado por XxTRUCOxX. Atualizado diariamente!</description>
+	 <platform></platform>
+     <language></language>
+	 <license></license>
+	 <forum></forum>
+	 <website></website>
+	 <source></source>
+	 <email></email>
+   </extension>
+</addon>
+
+<addon id="context.salts.tools" version="1.0.5" name="SALTS Context Tools" provider-name="tknorris">
+    <requires>
+        <import addon="xbmc.python" version="2.2.0"/>
+        <import addon="plugin.video.salts" version="1.0.65"/>
+        <import addon="script.module.tknorris.shared" version="0.0.1"/>
+    </requires>
+    <extension point="kodi.context.item" library="default.py">        
+      <item>
+        <label>SALTS Tools...</label>
+        <visible>!StringCompare(ListItem.dbid,)+[StringCompare(ListItem.dbtype,movie)|StringCompare(ListItem.dbtype,tvshow)|StringCompare(ListItem.dbtype,season)|StringCompare(ListItem.dbtype,episode)]</visible>
+      </item>
+    </extension>    
+    <extension point="xbmc.addon.metadata">
+        <summary>Library Context Menu Tools for SALTS</summary>
+        <description>This addon provides context menu items for the SALTS addon</description>
+        <platform>all</platform>
+        <website>http://tvaddons.ag/</website>
+		<forum>http://forums.tvaddons.ag/forums/180-TKNORRIS-RELEASE-REPOSITORY</forum>
+	</extension>
+</addon>
+
+<addon id="plugin.video.pseudo.library" name="PseudoLibrary" version="0.0.2a" provider-name="Sytone, Lunatixz">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.t0mm0.common" version="2.0.0"/>
+        <import addon="script.module.beautifulsoup" version="3.2.1"/>
+        <import addon="script.module.simple.downloader" version="0.9.4"/>
+        <import addon="script.module.beautifulsoup4" />
+        <import addon="script.module.simple.downloader" version="0.9.4"/>
+        <import addon="script.module.requests" />
+        <import addon="script.module.httplib2" />
+        <import addon="script.module.youtube.dl" optional="true"/>
+        <import addon="plugin.video.youtube" version="3.0.0"/>
+        <import addon="script.module.urlresolver" optional="true"/>
+        <import addon="script.module.simplejson" /> 
+        <import addon="script.common.plugin.cache" version="2.5.2"/>
+        <import addon="script.module.metahandler" version="2.5.1"/>	
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en_US">Virtual Library Strm Generator</summary>
+        <description lang="en_US">Generate Strms from Kodi Plugins, UPNP, Youtube, and RSS Sources.</description>
+    </extension>
+</addon>
+
+<addon
+  id="senyor.pvr.iptvsimple"
+  version="2.12.10"
+  name="[COLOR yellow]SENYOR[/COLOR] PVR IPTV Simple Client (Multiple) "
+  provider-name="nightik">
+  <requires>
+    <c-pluff version="0.1"/>
+    <import addon="xbmc.pvr" version="4.1.0"/>
+  </requires>
+  
+  <extension point="xbmc.pvrclient"
+    library_windows="pvr.iptvsimple.dll"
+    library_windx="pvr.iptvsimple.dll"
+    library_android="libpvr.iptvsimple.so"    
+    library_linux="pvr.iptvsimple.so"
+    library_osx="pvr.iptvsimple.dylib"
+    library_freebsd="pvr.iptvsimple.so" />
+
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_AU">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
+    <summary lang="en_GB">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
+    <summary lang="en_NZ">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
+    <summary lang="en_US">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
+
+    <description lang="en_AU">A secondary IPTV Simple Client so that your settings aren't accidently overwritten, and you can also run the default one combining two xmls and m3us.</description>
+    <description lang="en_GB">A secondary IPTV Simple Client so that your settings aren't accidently overwritten, and you can also run the default one combining two xmls and m3us.</description>
+    <description lang="en_NZ">A secondary IPTV Simple Client so that your settings aren't accidently overwritten, and you can also run the default one combining two xmls and m3us.</description>
+    <description lang="en_US">A secondary IPTV Simple Client so that your settings aren't accidently overwritten, and you can also run the default one combining two xmls and m3us.</description>
+
+    <disclaimer lang="en_AU">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
+    <disclaimer lang="en_GB">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
+    <disclaimer lang="en_NZ">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
+    <disclaimer lang="en_US">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
+
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="service.subtitles.bsplayer"
+       name="BSPlayer"
+       version="0.2.1"
+       provider-name="realgam3">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.subtitle.module"
+             library="service.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Kodi / XBMC BSPlayer Subtitles allows for downloading subtitles from the bsplayer subtitles community.</summary>
+    <description lang="en">Search and download various subtitles from the bsplayer subtitles community.</description>
+    <source>https://github.com/realgam3/service.subtitles.bsplayer</source>
+    <email>realgam3@gmail.com</email>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+  </extension>
+</addon>
 
 </addons>

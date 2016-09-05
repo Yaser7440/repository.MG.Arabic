@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="senyor.pvr.iptvsimple"
+  version="2.12.10"
+  name="[COLOR yellow]SENYOR[/COLOR] PVR IPTV Simple Client (Multiple) "
+  provider-name="nightik">
+  <requires>
+    <c-pluff version="0.1"/>
+    <import addon="xbmc.pvr" version="4.1.0"/>
+  </requires>
+  
+  <extension point="xbmc.pvrclient"
+    library_windows="pvr.iptvsimple.dll"
+    library_windx="pvr.iptvsimple.dll"
+    library_android="libpvr.iptvsimple.so"    
+    library_linux="pvr.iptvsimple.so"
+    library_osx="pvr.iptvsimple.dylib"
+    library_freebsd="pvr.iptvsimple.so" />
+
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_AU">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
+    <summary lang="en_GB">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
+    <summary lang="en_NZ">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
+    <summary lang="en_US">Kodi PVR addon for IPTV support. https://github.com/afedchin/Kodi-addon-iptvsimple/wiki/IPTV-Simple-Home</summary>
+
+    <description lang="en_AU">A secondary IPTV Simple Client so that your settings aren't accidently overwritten, and you can also run the default one combining two xmls and m3us.</description>
+    <description lang="en_GB">A secondary IPTV Simple Client so that your settings aren't accidently overwritten, and you can also run the default one combining two xmls and m3us.</description>
+    <description lang="en_NZ">A secondary IPTV Simple Client so that your settings aren't accidently overwritten, and you can also run the default one combining two xmls and m3us.</description>
+    <description lang="en_US">A secondary IPTV Simple Client so that your settings aren't accidently overwritten, and you can also run the default one combining two xmls and m3us.</description>
+
+    <disclaimer lang="en_AU">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
+    <disclaimer lang="en_GB">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
+    <disclaimer lang="en_NZ">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
+    <disclaimer lang="en_US">This is unstable software! The authors are in no way responsible for failed playings, incorrect EPG times, wasted hours, or any other undesirable effects.</disclaimer>
+
+    <platform>all</platform>
+  </extension>
+</addon>
