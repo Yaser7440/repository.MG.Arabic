@@ -1,37 +1,80 @@
 #EXTM3U
 #EXTINF:-1,######## BEINSPORT ARABIC ########
-http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/817.ts
-#EXTINF:-1,AR: BeinHD Movies1
-http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/703.ts
-#EXTINF:-1,AR: BeinHD Movies2
-http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/704.ts
-#EXTINF:-1,AR: BeIN.Movies3
-http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/1460.ts
-#EXTINF:-1,AR: BeIN.Movies4
-http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/1461.ts
-#EXTINF:-1,AR: Bein Max1 HD
-http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/1458.ts
-#EXTINF:-1,AR: Bein Max2 HD
-http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/1459.ts
-#EXTINF:-1,AR: BEIN SPORT 1 HD
-http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/247.ts
-#EXTINF:-1,AR: BEIN SPORT 2 HD
-http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/248.ts
-#EXTINF:-1,AR: BEIN SPORT 3 HD
-http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/249.ts
-#EXTINF:-1,AR: BEIN SPORT 4 HD
-http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/250.ts
-#EXTINF:-1,AR: BEIN SPORT 5HD
-http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/311.ts
-#EXTINF:-1,AR: BEIN SPORT HD6
-http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/175.ts
-#EXTINF:-1,AR: BEIN SPORT HD7
-http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/176.ts
-#EXTINF:-1,AR: BEIN SPORT HD8
-http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/177.ts
-#EXTINF:-1,AR: BEIN SPORT HD9
-http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/178.ts
-#EXTINF:-1,AR: BEIN SPORT 10 HD
-http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/380.ts
-#EXTINF:-1,AR: Beinsport HD12
-http://nlxiptv.no-ip.biz:1994/live/esad.hasanovic10/skype/702.ts
+#EXTINF:-1,====&BEIN-SPORT&====
+http://5.9.118.115:8000/live/hamada/hamada/3572.ts
+#EXTINF:-1,BEINSPORT-1HD
+http://5.9.118.115:8000/live/hamada/hamada/29.ts
+#EXTINF:-1,BEINSPORT-2HD
+http://5.9.118.115:8000/live/hamada/hamada/30.ts
+#EXTINF:-1,BEINSPORT-3HD
+http://5.9.118.115:8000/live/hamada/hamada/31.ts
+#EXTINF:-1,BEINSPORT-4HD
+http://5.9.118.115:8000/live/hamada/hamada/32.ts
+#EXTINF:-1,BEINSPORT-5HD
+http://5.9.118.115:8000/live/hamada/hamada/33.ts
+#EXTINF:-1,BEINSPORT-6HD
+http://5.9.118.115:8000/live/hamada/hamada/34.ts
+#EXTINF:-1,BEINSPORT-7HD
+http://5.9.118.115:8000/live/hamada/hamada/35.ts
+#EXTINF:-1,BEINSPORT-8HD
+http://5.9.118.115:8000/live/hamada/hamada/36.ts
+#EXTINF:-1,BEINSPORT-9HD
+http://5.9.118.115:8000/live/hamada/hamada/37.ts
+#EXTINF:-1,BEINSPORT-10HD
+http://5.9.118.115:8000/live/hamada/hamada/38.ts
+#EXTINF:-1,BEINSPORT-11HD
+http://5.9.118.115:8000/live/hamada/hamada/1033.ts
+#EXTINF:-1,BEINSPORT-12HD
+http://5.9.118.115:8000/live/hamada/hamada/1034.ts
+#EXTINF:-1,BEINSPORT-13HD
+http://5.9.118.115:8000/live/hamada/hamada/1035.ts
+#EXTINF:-1,BEINSPORT-14HD
+http://5.9.118.115:8000/live/hamada/hamada/1036.ts
+#EXTINF:-1,BEINSPORT-15HD
+http://5.9.118.115:8000/live/hamada/hamada/1037.ts
+#EXTINF:-1,BEINSPORT-16HD
+http://5.9.118.115:8000/live/hamada/hamada/1038.ts
+#EXTINF:-1,BeinSport-1SD
+http://5.9.118.115:8000/live/hamada/hamada/48.ts
+#EXTINF:-1,BeinSport-2SD
+http://5.9.118.115:8000/live/hamada/hamada/47.ts
+#EXTINF:-1,BeinSport-3SD
+http://5.9.118.115:8000/live/hamada/hamada/46.ts
+#EXTINF:-1,BeinSport-4SD
+http://5.9.118.115:8000/live/hamada/hamada/45.ts
+#EXTINF:-1,BeinSport-5SD
+http://5.9.118.115:8000/live/hamada/hamada/44.ts
+#EXTINF:-1,BeinSport-6SD
+http://5.9.118.115:8000/live/hamada/hamada/43.ts
+#EXTINF:-1,BeinSport-7SD
+http://5.9.118.115:8000/live/hamada/hamada/41.ts
+#EXTINF:-1,BeinSport-8SD
+http://5.9.118.115:8000/live/hamada/hamada/40.ts
+#EXTINF:-1,BeinSport-9SD
+http://5.9.118.115:8000/live/hamada/hamada/39.ts
+#EXTINF:-1,BeinSport-10SD
+http://5.9.118.115:8000/live/hamada/hamada/42.ts
+#EXTINF:-1,BeinSport-11SD
+http://5.9.118.115:8000/live/hamada/hamada/1064.ts
+#EXTINF:-1,BeinSport-12SD
+http://5.9.118.115:8000/live/hamada/hamada/1065.ts
+#EXTINF:-1,BeinSport-1-low
+http://5.9.118.115:8000/live/hamada/hamada/1070.ts
+#EXTINF:-1,BeinSport-2-low
+http://5.9.118.115:8000/live/hamada/hamada/1071.ts
+#EXTINF:-1,BeinSport-3-low
+http://5.9.118.115:8000/live/hamada/hamada/1072.ts
+#EXTINF:-1,BeinSport-4-low
+http://5.9.118.115:8000/live/hamada/hamada/1073.ts
+#EXTINF:-1,BeinSport-5-low
+http://5.9.118.115:8000/live/hamada/hamada/1074.ts
+#EXTINF:-1,BeinSport-6-low
+http://5.9.118.115:8000/live/hamada/hamada/1075.ts
+#EXTINF:-1,BeinSport-7-low
+http://5.9.118.115:8000/live/hamada/hamada/1076.ts
+#EXTINF:-1,BeinSport-8-low
+http://5.9.118.115:8000/live/hamada/hamada/1077.ts
+#EXTINF:-1,BeinSport-9-low
+http://5.9.118.115:8000/live/hamada/hamada/1078.ts
+#EXTINF:-1,BeinSport-10-low
+http://5.9.118.115:8000/live/hamada/hamada/1079.ts

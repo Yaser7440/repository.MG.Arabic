@@ -75,7 +75,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.f4mTester" version="2.2.4" name="f4mTester" provider-name="Shani">
+<addon id="plugin.video.f4mTester" version="2.2.5" name="f4mTester" provider-name="Shani">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.video.F4mProxy" version="2.2.3"/>
@@ -784,7 +784,7 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
   </extension>
 </addon>
 
-<addon id="plugin.video.youtube" name="YouTube" version="5.2.2" provider-name="h0d3nt3uf3l, jdf76, bromix">
+<addon id="plugin.video.youtube" name="YouTube" version="5.2.4" provider-name="h0d3nt3uf3l, jdf76, bromix">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 	</requires>
@@ -2219,7 +2219,7 @@ Addons Included
 	</extension>
 </addon>
 
-<addon id="plugin.video.moviemix" name="Movie Mix" version="1.0.0" provider-name="MetalKettle">
+<addon id="plugin.video.moviemix" name="Movie Mix" version="1.0.2" provider-name="MetalKettle">
 
   <requires>
 
@@ -5693,6 +5693,26 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
     <email>realgam3@gmail.com</email>
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
   </extension>
+</addon>
+
+<addon id="plugin.video.saltshd.lite" version="1.0.137" name="Salts HD Lite" provider-name="tknorris">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.urlresolver" version="3.0.0"/>
+		
+        <import addon="script.module.myconnpy" version="1.1.6" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+     <extension point="xbmc.service" library="service.py" start="startup"/>
+    <extension point="xbmc.addon.metadata">
+        <summary>Stream video from many difference sources</summary>
+        <description>This is the mod version of Salts by Scott Marten.</description>
+        <platform>all</platform>
+        <website>repository.xvbmc</website>
+		<forum>https://www.facebook.com/groups/XvBMCnederland/</forum>
+	</extension>
 </addon>
 
 </addons>
