@@ -1,3 +1,11 @@
+v1.1.5.
+- Switched to native dialogs.
+- Fixed a few captions.
+- Added option to skip dialog for selecting which textures to keep during cleanup.
+- Added option to decide which action to perform during cleanup (simulate delete, perform delete or move thumbnails).
+- Implemented proper recognition of advancedsettings.xml thumbnail folder redirection.
+- Icon changed for the script to adapt it to Kodi.
+
 v1.1.4.
 - Icon changed for the script.
 - Fixed issues related to the paths of database and thumbnails.
