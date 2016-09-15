@@ -110,13 +110,16 @@ request module in hls
 [B]Version 2.5.1[/B]
 proxy issue in hls
 [B]Version 2.5.2[/B]
-hls stop bug
+auth param for hls if you want to ignore key url and pass yours
 [B]Version 2.5.3[/B]
-iconImage added
-
+ignore unknown m3u8 tags
 [B]Version 2.5.4[/B]
-iconImage added
+m3u8 more wait of no data
 [B]Version 2.5.5[/B]
-hls top when error
+m3u8 more wait of no data
+[B]Version 2.5.6[/B]
+m3u8 fine tuning
+
+
 
 

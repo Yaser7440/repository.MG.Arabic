@@ -1,4 +1,4 @@
-<?xml version="1.0" ?><addon id="script.module.dudehere.routines" name="DudeHere Common Routines" provider-name="DudeHere" version="0.5.37">
+<?xml version="1.0" ?><addon id="script.module.dudehere.routines" name="DudeHere Common Routines" provider-name="DudeHere" version="0.5.56">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.beautifulsoup"/>
@@ -16,7 +16,5 @@
         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
         <forum>http://forums.tvaddons.ag/dudehere-addons/</forum>
         <website>http://www.tvaddons.ag/</website>
-        <email/>
-        <source/>
     </extension>
 </addon>

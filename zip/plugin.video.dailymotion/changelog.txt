@@ -1,0 +1,9 @@
+1.0.0
+initial release
+
+Hebrew support
+
+4K support
+
+Fixed :)
+

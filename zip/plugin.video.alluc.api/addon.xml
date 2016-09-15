@@ -1,4 +1,4 @@
-<?xml version="1.0" ?><addon id="plugin.video.alluc.api" name="Alluc" provider-name="DudeHere" version="0.6.7">
+<?xml version="1.0" ?><addon id="plugin.video.alluc.api" name="Alluc" provider-name="DudeHere" version="1.0.1">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.beautifulsoup"/>
@@ -13,5 +13,8 @@
         <platform>all</platform>
         <summary>I want my All-You-See!</summary>
         <description>Turns kodi into an instant free on-demand media-center. Browse and play movies and series found all over the internet.</description>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <forum>http://forums.tvaddons.ag/dudehere-addons/</forum>
+        <website>http://www.tvaddons.ag/</website>
     </extension>
 </addon>

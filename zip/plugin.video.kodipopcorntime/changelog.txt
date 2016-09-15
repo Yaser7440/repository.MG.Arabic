@@ -1,3 +1,32 @@
+v1.5.3.rc1
+- Fixed Issue #11
+- Added trailers for movies Issue #10
+- Added 480p selection
+
+v1.5.2.b
+- Metadata for TV-Shows
+- Fixed torrents with url=None
+
+v1.5.1.b
+- Show more for TV-Shows and Anime section
+- Cleaned-up settings page (partialy)
+- Cleaned-up code (partialy)
+- Fixed Issue #8
+- Fixed Issue #9
+
+v1.5.0.b
+- Added TV Shows section
+- Added Anime Section
+- Changed API
+
+v1.0.1.b Beta 2
+- Changed Provider
+- Fixed timeout Issue on Raspberry PI
+
+v1.0.0.b Beta 1
+- Movies are working again
+- Fixed Download is Complete Error
+
 v0.7.0 alpha 2
 - Checks whether there is room for movie
 - Improved view and navigation

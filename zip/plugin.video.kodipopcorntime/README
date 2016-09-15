@@ -7,7 +7,7 @@ With KODI Popcorn Time you can search for movies that you can see immediately in
 
 Download
 --------
-Check out http://github.com/Diblo/KODI-Popcorn-Time/releases to download the ZIP file.
+Check out https://github.com/markop159/KODI-Popcorn-Time/tree/master/Releases to download the ZIP file.
 
 Supported Platforms
 -------------------
@@ -21,30 +21,23 @@ Supported Platforms
 
 Discussions/Proposals
 ---------------------
-There is one active threads on http://forums.tvaddons.ag/threads/32586-KODI-Popcorn-Time?p=271031. However, proposals may also be posted under http://github.com/Diblo/KODI-Popcorn-Time/issues.
+Proposals may be posted under https://github.com/markop159/KODI-Popcorn-Time/issues.
 
 Issues
 ------
-Please, file an issue :) - http://github.com/Diblo/KODI-Popcorn-Time/issues
+Please, file an issue :) - https://github.com/markop159/KODI-Popcorn-Time/issues
 
 Credits
 -------
-* http://github.com/anteo/torrent2http
+* Fixed KODI Popcorn Time add-on from https://github.com/Diblo/KODI-Popcorn-Time
+* KODI Popcorn Time is a rewrite of http://github.com/steeve/xbmctorrent.
+* http://github.com/steeve/libtorrent-go
+* http://github.com/steeve/torrent2http
 
 Changelog
 ---------
-Check out http://github.com/Diblo/KODI-Popcorn-Time/releases.
+Check out first README on https://github.com/markop159/KODI-Popcorn-Time.
 
 Need more information
 ---------------------
-Check out our WIKI page http://github.com/Diblo/KODI-Popcorn-Time/wiki/Welcome-to-the-KODI-Popcorn-Time-wiki!
-
-Test releases
--------------
-https://github.com/Diblo/KODI-Popcorn-Time/wiki/Test-releases
-
-HELP WANTED
------------
-Please, see our WIKI page Help wanted - http://github.com/Diblo/KODI-Popcorn-Time/wiki/Help-wanted
-
-Many thanks in advance.
+Check out our WIKI page https://github.com/markop159/KODI-Popcorn-Time/wiki!

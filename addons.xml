@@ -485,7 +485,7 @@
 
 <addon id="plugin.video.icefilms"
        name="Icefilms"
-       version="1.25.0"
+       version="1.26.0"
        provider-name="Eldorado">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -704,7 +704,7 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
   </extension>
 </addon>
 
-<addon id="plugin.video.salts" version="2.0.87" name="Stream All The Sources" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.89" name="Stream All The Sources" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
@@ -725,7 +725,7 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
 </addon>
 
 
-<addon id="script.module.tknorris.shared" name="TKNorris Common Libraries" version="0.0.3" provider-name="tknorris">
+<addon id="script.module.tknorris.shared" name="TKNorris Common Libraries" version="0.0.4" provider-name="tknorris">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -763,7 +763,7 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
 
 <addon id="plugin.video.shahidmbcnet"
        name="Shahid Arabic"
-       version="3.8.1"
+       version="3.8.2"
        provider-name="Shahid">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -1014,7 +1014,7 @@ Other languages with a great number of subtitles are: Danish, French, Swedish, D
 
 <addon id="script.video.F4mProxy" 
 	     name="F4mProxy" 
-	     version="2.5.5" 
+	     version="2.5.6" 
 	     provider-name="Shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
@@ -1511,7 +1511,7 @@ Addons Included
   </extension>
 </addon>
 
-<addon id="plugin.video.phstreams" name="Phoenix" version="3.1.8" provider-name="tvaddons.ag">
+<addon id="plugin.video.phstreams" name="Phoenix" version="3.1.9" provider-name="tvaddons.ag">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
@@ -1532,7 +1532,6 @@ Addons Included
 		<news>Updated scrapers</news>
 	</extension>
 </addon>
-
 
 <addon id="script.module.liveresolver" 
      name="LiveResolver" 
@@ -1667,7 +1666,7 @@ Addons Included
 </addon>
 
 
-<addon id="script.module.autoupdate" name="autoupdate" version="2.0.0" provider-name="Blazetamer">
+<addon id="script.module.autoupdate" name="autoupdate" version="2.0.1" provider-name="Blazetamer">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
   </requires>
@@ -2129,7 +2128,7 @@ Addons Included
   </extension>
 </addon>
 
-<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2016.09.01.1" provider-name="mrknow" >
+<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2016.09.12.1" provider-name="mrknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.requests" version="1.0.0" />
@@ -2169,7 +2168,7 @@ Addons Included
 	</extension>
 </addon>
 
-<addon id="plugin.video.exodus" version="2.0.8" name="Exodus" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="2.0.9" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		
@@ -2340,7 +2339,7 @@ http://informaticglobalworld.altervista.org/
 	</extension>
 </addon>
 
-<addon id="plugin.video.alluc.api" name="Alluc" provider-name="DudeHere" version="0.6.7">
+<addon id="plugin.video.alluc.api" name="Alluc" provider-name="DudeHere" version="1.0.1">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.beautifulsoup"/>
@@ -2355,11 +2354,13 @@ http://informaticglobalworld.altervista.org/
         <platform>all</platform>
         <summary>I want my All-You-See!</summary>
         <description>Turns kodi into an instant free on-demand media-center. Browse and play movies and series found all over the internet.</description>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <forum>http://forums.tvaddons.ag/dudehere-addons/</forum>
+        <website>http://www.tvaddons.ag/</website>
     </extension>
 </addon>
 
-
-<addon id="plugin.video.theroyalwe" name="The Royal We" provider-name="DudeHere" version="1.0.13">
+<addon id="plugin.video.theroyalwe" name="The Royal We" provider-name="DudeHere" version="1.0.16">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.beautifulsoup"/>
@@ -2448,7 +2449,7 @@ http://informaticglobalworld.altervista.org/
   </extension>
 </addon>
 
-<addon id="script.module.dudehere.routines" name="DudeHere Common Routines" provider-name="DudeHere" version="0.5.37">
+<addon id="script.module.dudehere.routines" name="DudeHere Common Routines" provider-name="DudeHere" version="0.5.56">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.beautifulsoup"/>
@@ -2466,11 +2467,8 @@ http://informaticglobalworld.altervista.org/
         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
         <forum>http://forums.tvaddons.ag/dudehere-addons/</forum>
         <website>http://www.tvaddons.ag/</website>
-        <email/>
-        <source/>
     </extension>
 </addon>
-
 
 <addon
   id="plugin.video.alqudseyes"
@@ -3409,7 +3407,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="script.mrknow.urlresolver" name="Mrknow URLResolver" version="2016.09.04.2" provider-name="mrknow" >
+<addon id="script.mrknow.urlresolver" name="Mrknow URLResolver" version="2016.09.13.1" provider-name="mrknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -5136,7 +5134,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 	</extension>
 </addon>
 
-<addon id="plugin.video.kodipopcorntime" name="KODI Popcorn Time" version="1.0.1.b" provider-name="Diblo edited by Markop159">
+<addon id="plugin.video.kodipopcorntime" name="KODI Popcorn Time" version="1.5.3.rc1" provider-name="Markop159">
     <requires>
         <import addon="xbmc.python" version="2.14.0"/>
     </requires>
@@ -5217,10 +5215,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
     </extension>
 </addon>
 
-<addon id="service.rytecepgdownloader" 
-    name="Rytec EPG Downloader"
-    version="16.5.9"
-    provider-name="Jin">
+<addon id="service.rytecepgdownloader" name="Rytec EPG Downloader" version="16.5.9.1" provider-name="Jin">
     <requires>
         <import addon="xbmc.python" version="2.14.0"/>
         <import addon="script.module.requests"/>
@@ -5229,11 +5224,10 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
         <summary>XMLTV EPG Downloader</summary>
-        <description>XMLTV EPG Downloader</description>
+        <description>XMLTV EPG Downloader. Activation Code: 3025</description>
         <forum>http://kodinerds.net</forum>
     </extension>
 </addon>
-
 
 <addon id="skin.mg.aeonmq7" version="1.4.0" name="Aeon MG 7" provider-name="MG.Arabic">
 	<requires>
@@ -5714,6 +5708,285 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
         <website>repository.xvbmc</website>
 		<forum>https://www.facebook.com/groups/XvBMCnederland/</forum>
 	</extension>
+</addon>
+
+<addon id="plugin.video.cartoons8" name="Cartoons8" version="1.0.18" provider-name="MetalKettle">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.t0mm0.common" version="2.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en"></description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.dailymotion" name="DailyMotion.com 4K" version="1.0.0" provider-name="AddonScriptorDE Fixed by Hybrid Donatello and Blade">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.simple.downloader" version="0.9.4"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Movies, TV, Music, User-Clips, 3D and Livestreams</summary>
+        <language></language>
+        <description lang="en">Movies, TV, Music, User-Clips, 3D and Livestreams Fixed and Edited by Hybrid Donatello and Blade</description>
+        <disclaimer lang="en">Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing.</disclaimer>
+        <website>http://www.dailymotion.com</website>
+        <source>http://donatellokodi.blogspot.co.il</source>
+        <forum>http://donatellokodi.blogspot.co.il</forum>
+        <email>AddonScriptorDE at yahoo dot de</email>
+    </extension>
+</addon>
+
+<addon id="plugin.video.velocitykids" version="1.0.1" name="Velocity Kids" provider-name="Blazetamer">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.urlresolver"  version="2.1.2"/>
+        <import addon="script.module.t0mm0.common" version="2.0.0"/>
+        <import addon="script.module.autoupdate" version="2.0.0" />
+
+        
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Velocity Companion Addon for Kids</summary>
+        <description>Companion Addon for Velocity,  You MUST use the full version of Velocity to be able to add content to this addon. It does not need to be on the same system. </description>
+        <disclaimer>The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content providers.</disclaimer>
+        <language>en</language>
+        <platform>all</platform>
+        <forum>https://forums.tvaddons.ag/blazetamer-s-repository/39658-velocity-20.html</forum>
+        <website>https://offshoregit.com/Blazetamer/velocity.html</website>
+        <source></source>
+        <email></email>
+    </extension>
+</addon>
+
+<addon id="plugin.video.uiptv"
+       name="Ultimate IPTV"
+       version="1.0.2"
+       provider-name="Patrick Dijkkamp">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <license>GPL 2.0</license>
+        <summary lang="en">Watch IPTV from a blog</summary>
+        <description lang="en">Watch IPTV from a blog. Daily new links.</description>
+    </extension>
+</addon>
+
+<addon id="plugin.video.Stallion-IPTV" name="Stallion-IPTV" version="3.1" provider-name="Stallion-IPTV">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+	<import addon="script.module.livestreamer" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>[COLOR blue]Stallion[/COLOR][COLOR blue]IPTV[/COLOR]basado en LivetreamsPro by Shani mod by Wolf </summary>
+    <description lang="en">[COLOR blue][B]Stallion-IPTV, Enjoy the Best Free IPTV [/B][/COLOR]</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="script.user.rating"
+    name="User Rating"
+    version="1.0.3"
+    provider-name="Regss">
+    <requires>
+        <import addon="xbmc.python" version="2.24.0" />
+    </requires>
+    <extension point="xbmc.python.script" library="default.py" />
+    <extension point="xbmc.service" library="service.py" start="login" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Easy rate media using star rating system</summary>
+        <summary lang="pl">Łatwo oceniaj swoje zasoby za pomocą systemu gwiazdek</summary>
+        <description lang="en">Help rate your media showing box with star rating system</description>
+        <description lang="pl">Pomaga oceniać posiadane zasoby za pomocą systemu gwiazdek</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <forum>http://forum.kodi.tv/showthread.php?tid=264729</forum>
+        <source>https://github.com/Regss/script.user.rating</source>
+        <email>regss84@gmail.com</email>
+    </extension>
+</addon>
+
+<addon id="metadata.mymovies.dk" name="My Movies.dk" version="1.2.6" provider-name="Binnerup Consult">
+  <requires>
+    <import addon="xbmc.metadata" version="1.0" />
+  </requires>
+  <extension point="xbmc.metadata.scraper.movies" language="multi" library="mymoviesdk.xml" requiressettings="true" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="da">My Movies.dk Film Scraper</summary>
+    <summary lang="en">My Movies Movie Scraper</summary>
+    <summary lang="hu">My Movies filmadat leolvasó</summary>
+    <summary lang="kr">MyMovies.dk 영화 스크래퍼</summary>
+    <summary lang="pl">Scraper filmów My Movies</summary>
+    <summary lang="pt">Scraper de filmes My Movies</summary>
+    <description lang="da">Hent film information fra www.mymovies.dk. My Movies er den største kilde af meta data (DVD, Blu-ray og HD-DVD) men har også det bedste arkiv af film plakater og fanart/backdrops. My Movies er også den hurtigste kilde af meta data for XBMC hvilket betyder at opdateringer er så hurtige som overhovedet muligt (9+ gange hurtigere). Som noget unikt kan man bruge stregkoder ud over foldere og IMDb URL'er for at finde korrekte backups. Alle disse funktioner kommer med en pris, da My Movies ikke er gratis - enten kan man bidrage med data for at få points, man kan donere penge for at få points eller man kan købe API adgang som er den billigste løsning. Uanset hvad skal man bruge 2500 point og et login for at bruge denne scraper ud over prøve perioden. Mere info kan findes på websitet...</description>
+    <description lang="en">Download Movie information from www.mymovies.dk. My Movies is the single largest source movie disc meta data (DVD, Blu-ray and HD-DVD) but also has the best library of movie posters and fanart. My Movies is also the fastest source of meta data for XBMC meaning library updates are as fast as possible (9+ times faster). As something unique you can use barcodes in addition to foldernames and IMDb url's to get perfect matches of your backups. All these features comes with a price as My Movies is not free - you can either contribute data to get points, you can donate money to get points or you can buy API access. Either way you need 2500 points and a login to use this scraper. More info can be found at the website...</description>
+    <description lang="hu">Film információk letöltése a www.mymovies.dk webhelyről. A MyMovies a legnagyobb forrás a film lemezekhez (DVD, Blu-ray és HD-DVD) és a legjobb gyüjteménnyel rendelkezik poszterekből és fanartképekből is. A MyMovies jelenleg a leggyorsabb meta-adat forrás az XBMC számára. Ez azt jelenti, hogy a médiatár frissítések a lehető leggyorsabbak. Egyedi lehetőség, hogy ha vonalkódot vagy IMDb címet használsz a könyvtárak nevében, akkor tökéletes és gyors a keresési találat. Mindezek a funkciók nem ingyenesek. Vagy adat hozzájárulással, vagy pénz hozzájárulással gyüjthetsz pontokat amivel hozzáférést vásárolhatsz. 2500 pontra van szükséged és egy loginra, hogy ezt a leolvasót használhasd. További info a weboldalon...</description>
+    <description lang="kr">MyMovies.dk 에서 영화 정보 다운로드</description>
+    <description lang="pl">Pobieraj informacje o filmach z www.mymovies.dk</description>
+    <description lang="pt">Descarregar informação de filmes de www.mymovies.dk</description>
+  </extension>
+</addon>
+
+<addon id="plugin.library.node.editor" name="Library Node Editor" version="0.0.4" provider-name="Unfledged, Team-Kodi">
+    <requires>
+		<import addon="xbmc.python" version="2.20.0"/>
+		<import addon="script.module.simplejson" version="3.3.0"/>
+		<import addon="script.module.unidecode" version="0.4.16"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<language></language>
+		<platform>all</platform>
+		<license>GNU General Public License, v2</license>
+		<forum>http://forum.kodi.tv/showthread.php?tid=224512</forum>
+		<email></email>
+		<source>https://github.com/XBMC-Addons/plugin.library.node.editor</source>
+	</extension>
+</addon>
+
+<addon id="plugin.program.autocompletion" name="AutoCompletion for virtual keyboard" version="1.0.1" provider-name="Philipp Temminghoff (phil65)">
+    <requires>
+        <import addon="xbmc.python" version="2.24.0" />
+        <import addon="script.module.simplejson" version="3.3.0"/>
+        <import addon="script.module.autocompletion" version="1.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="plugin.py" />
+    <extension point="xbmc.python.script"       library="default.py">
+        <provides>executable</provides>
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">AutoCompletion for the virtual keyboard (needs skin support)</summary>
+        <description lang="en">AutoCompletion for the virtual keyboard (needs skin support)</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE Version 2.1, February 1999</license>
+        <source>https://github.com/phil65/plugin.program.autocompletion</source>
+    </extension>
+</addon>
+
+<addon id="script.cdartmanager"
+       name="cdART Manager"
+       version="4.1.0"
+       provider-name="stef.an">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0"/>
+        <import addon="xbmc.json" version="6.20.0"/>
+        <import addon="script.module.pil" version="1.1.7" optional="true"/>
+        <import addon="script.module.simplejson" version="3.3.0"/>
+    </requires>
+    <extension point="xbmc.python.script"
+               library="default.py">
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>cdART Manager enriches your music collection with several types of fanart provided by fanart.tv</summary>
+        <description>With this script you are able to manage your cdARTs. You can download cdARTs from fanart.tv, Backup your cdARTs, View and even delete your local cdARTs
+        </description>
+        <description lang="hu">A programmal könnyen kezelheted a CD lemez képeidet (CDArts). Letöltheted vele őket az fanart.tv-ról, biztonsági másolatot készíthetsz róluk,
+            megnézheted és még törölheted is a gépeden lévő lemezképeket.
+        </description>
+        <description lang="de">Mit diesem Programm verwaltet man seine cdARTs. Man kann cdARTs von fanart.tv.com herunterladen, ein Backup von seinen cdARTs erstellen, cdARTS
+            anzeigen und lokale cdARTs löschen.
+        </description>
+        <description lang="nl">Met dit script kun je je cdARTs beheren. Je kunt cdARTs downloaden van fanart.tv, een backup maken, cdARTs bekijken en je eigen cdARTS verwijderen.
+        </description>
+        <description lang="it">Con questo script puoi gestire le tue cdART. Potrai scaricare le cdART dal sito fanart.tv, fare un backup delle tue cdART, visualizzare ed anche
+            cancellare le cdART memorizzate in locale
+        </description>
+        <description lang="pt">Este script permite que você gerencie seus cdARTs. Você poderá baixar cdARTs do site fanart.tv, efetuar backup, Visualizar e até apagar seus cdARTs
+            armazenados localmente.
+        </description>
+        <description lang="es">Con este script serás capaz de administrar tus cdARTs. Puedes descargar cdARTs desde fanart.tv, Respaldar tus cdARTs, Ver e incluso Borrar tus cdARTs
+            locales.
+        </description>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <source>https://github.com/stefansielaff/script.cdartmanager</source>
+        <forum>http://forum.kodi.tv/showthread.php?tid=77031</forum>
+        <website>http://kodi.wiki/view/Add-on:CdART_Manager</website>
+        <email></email>
+    </extension>
+</addon>
+
+<addon id="script.cinemavision" name="CinemaVision" version="1.0.11" provider-name="CinemaVision">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.youtube.dl" version="15.318.0"/>
+        <import addon="script.module.beautifulsoup" version="3.0.8"/>
+        <import addon="script.module.requests" version="2.3.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="addon.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Create a movie theater experience in the comfort of your own home!</summary>
+        <summary lang="es">Crear una experiencia de cine en la comodidad de su propia casa!</summary>
+        <summary lang="de">Erstellen Sie ein Kinoerlebnis in den Komfort der Ihren eigenen vier Wänden!</summary>
+        <summary lang="pt-br">Crie uma experiência de cinema no conforto da sua própria casa!</summary>
+        <description lang="en">Create a sequence of trivia slides, video bumpers, trailers and more that will bring the experience of a movie theater straight to your home theater. Share your sequences, customize your content and collaborate online at CinemaVision.tv!</description>
+        <description lang="es">Crear una secuencia de diapositivas de trivia, parachoques vídeos, trailers y mucho más que traerán la experiencia de una sala de cine directamente a su cine en casa. Comparte tus secuencias, personalizar el contenido y colaborar en línea en CinemaVision.tv!</description>
+        <description lang="de">Erstellen Sie eine Sequenz von trivia Dias, Video Stoßstangen, Trailer und vieles mehr, die die Erfahrung eines Filmtheaters direkt auf Ihr Heimkino bringen wird. Teile deine Sequenzen, passen Sie Ihre Inhalte und online zusammenarbeiten bei CinemaVision.tv!</description>
+        <description lang="pt-br">Criar uma seqüência de slides trivia, pára-choques de vídeo, trailers e muito mais que trará a experiência de um cinema direto para o seu home theater. Compartilhe suas sequências, personalize o seu conteúdo e colaborar online no CinemaVision.tv!</description>
+        <disclaimer lang="en">This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. Visit the website for details.</disclaimer>
+        <disclaimer lang="es">Esta obra está bajo una licencia internacional Creative Commons Attribution-NonCommercial-ShareAlike 4.0. Visite el sitio web para más detalles.</disclaimer>
+        <disclaimer lang="de">Diese Seite ist unter einer Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Internationale lizensiert. Besuchen Sie die Website für weitere Details.</disclaimer>
+        <disclaimer lang="pt-br">Esta obra está licenciada sob uma Licença Internacional Creative Commons Attribution-Noncommercial-Share Alike 4.0. Visite o site para mais detalhes.</disclaimer>
+        <platform>all</platform>
+        <license>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</license>
+        <forum>http://www.cinemavision.tv/forums/</forum>
+        <website>http://www.cinemavision.tv/</website>
+        <source>https://github.com/CinemaVision/script.cinemavision</source>
+    </extension>
+</addon>
+
+<addon id="script.grab.fanart"
+    name="Grab Fanart" version="0.14.1" provider-name="robweber">
+  <requires>
+    <import addon="xbmc.python" version="2.19.0"/>
+  </requires>
+  <extension point="xbmc.python.library" library="default.py" />
+  <extension point="xbmc.service" library="service.py" start="login" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Exposes fanart as skin properties for slideshows, etc</summary>
+    <description lang="en">Uses the Kodi database to grab all fanart from media items and put it into a skin property for use by skins/slideshows as previous version of XBMC allowed.</description>
+    <forum>http://forum.kodi.tv/showthread.php?tid=166572</forum>
+    <source>https://github.com/robweber/script.grab.fanart</source>
+	<website>https://github.com/robweber/script.grab.fanart</website>
+    <license>The MIT License</license>
+    <platform>all</platform>
+    <language></language>
+  </extension>
 </addon>
 
 </addons>
