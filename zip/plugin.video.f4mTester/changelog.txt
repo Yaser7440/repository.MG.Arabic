@@ -50,3 +50,5 @@ added swf parameter for hds
 play command
 [B]Version 2.2.5[/B]
 Fixed bbc links
+[B]Version 2.5.6[/B]
+version bump

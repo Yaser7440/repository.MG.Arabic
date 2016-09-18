@@ -75,10 +75,10 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.f4mTester" version="2.2.5" name="f4mTester" provider-name="Shani">
+<addon id="plugin.video.f4mTester" version="2.5.6" name="f4mTester" provider-name="Shani">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.video.F4mProxy" version="2.2.3"/>
+        <import addon="script.video.F4mProxy" version="2.5.6"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
@@ -5263,24 +5263,24 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 	</extension>
 </addon>
 
-
-<addon  id="plugin.video.SportsDevil" version="2016.08.22" name="SportsDevil" provider-name="SportsDevil">
+<addon
+  id="plugin.video.SportsDevil"
+  version="2016.09.16"
+  name="SportsDevil"
+  provider-name="SportsDevil">
   <requires>
    <import addon="xbmc.python" version="2.14.0"/>
    <import addon="script.module.simplejson" />
    <import addon="script.module.six" />
    <import addon="script.module.requests" />
    <import addon="script.module.livestreamer" />
-   <import addon="script.module.pydevd" version="4.4.0" optional="true"/>
+   <import addon="script.module.pydevd" version="3.4.1" />
   </requires>
   <extension 
     point="xbmc.python.pluginsource"
     library="default.py">
    <provides>video</provides>
   </extension>
-  <extension 
-      point="xbmc.python.script"
-      library="lib/livestreamerXBMCLocalProxy.py" />
   <extension point="xbmc.addon.metadata">
     <summary>Play videos of different sports streaming sites</summary>
     <description>Play videos of different sports streaming sites</description>
@@ -5288,7 +5288,6 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
     <platform>all</platform>
   </extension>
 </addon>
-
 
 <addon  id="plugin.video.animego" version="1.0.5"	name="animego"	provider-name="Dknight">
   <requires>
@@ -5987,6 +5986,103 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
     <platform>all</platform>
     <language></language>
   </extension>
+</addon>
+
+<addon id="plugin.video.hotstar-rain"
+       name="Hotstar"
+       version="1.0.10"
+       provider-name="YoColdRain">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.addon.common" version="2.0.0" />
+		<import addon="script.module.requests" version="2.7.0" />
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+		<summary lang="en"> This addon provides Hotstar.com material.  If any errors occur, please email.</summary>
+        <platform>all</platform>
+        <summary>Hotstar.com - Watch Star channels</summary>
+        <email>yocoldrain@gmail.com</email>
+    </extension>
+</addon>
+
+<addon id="plugin.video.mdluckytv" name="LUCKY-TV" version="1.0.0" provider-name="Mucky Duck">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
+	<import addon="script.module.metahandler" version="2.5.1"/>
+	<import addon="script.module.requests" />
+	
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Stream Free content From The Web</summary>
+    <description lang="en">There are 700+ of the latest TV shows to watch for free. Please share lucktv.net with your family and friends. This Addon Will Delete Itself Unless You Have http://muckys.mediaportal4kodi.ml As A Source In File Manager.  Special Thanks Go Out To @McWaine For Spending The Time To Create The Icons For Each Individual Section.</description>
+	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.mdmovieflix" name="MovieFlix" version="1.0.0" provider-name="Mucky Duck">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
+	<import addon="script.module.requests" />
+	
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Stream Free content From The Web</summary>
+    <description lang="en">This Addon Will Delete Itself If You Dont Have http://muckys.mediaportal4kodi.ml As A Source In File Manager.</description>
+	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.white.devil" name="[COLOR white]White Devil Streams[/COLOR]" version="1.0.1" provider-name="Biggy_Ozz">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.pyxbmct" version="1.1.4" />
+		<import addon="script.module.urlresolver" version="3.0.0"/>
+		<import addon="script.module.liveresolver" version="0.1.24"/>
+		<import addon="plugin.video.youtube" optional="true" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">White Devil-Streams</summary>
+		<description lang="en">White Devil-Streams</description>
+		<platform>all</platform>
+		<forum>White Devil-Streams</forum>
+		<website>White Devil-Streams</website>
+	</extension>
+</addon>
+
+<addon id="script.module.pydevd" name="pydevd" version="3.4.1" provider-name="Fabio Zadrozny, Paul Backhouse">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib"/>
+	<extension point="xbmc.addon.metadata">
+	    <summary lang="en">XBMC support for PyDev remote debugging in Eclipse/Aptana.</summary>
+	    <description lang="en">See here for details: http://pydev.org/manual_adv_remote_debugger.html</description>
+	    <platform>all</platform>
+	    <language></language>
+	    <license>Eclipse Public License</license>
+	    <forum></forum>
+	    <website>http://pydev.org/</website>
+	    <source>https://github.com/powlo/script.module.pydevd</source>
+	    <email></email>
+	    <disclaimer lang="en">Use at your own risk. The authors accept no liability. May cause permanent and/or catastrophic damage. Side effects include, but are not limited to, loss of memory, seizures, sudden fits of rage, sudden fits of melancholy, inability to recall prominent capital cities, lack of respect for authority, fear of cats, temporary and/or permanent black outs. Avoid inhalation. Use in a well ventilated space. Keep away from small children.</disclaimer>	
+	</extension>
 </addon>
 
 </addons>
