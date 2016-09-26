@@ -1,6 +1,6 @@
 ﻿#EXTM3U
 #EXTINF:-1 tvg-logo="http://images.alarab.com/data/films/428-295/20160914222300.jpg",اهدة فيلم سلاح التلاميذ مصري 2016 1:26:53
-http://flv2.alarab.com:8080/new/flv/105001.flv
+http://flv2.alarab.com:8080/flv/105001.flv
 #EXTINF:-1 tvg-logo="http://images.alarab.com/data/films/428-295/20160913203649.jpg",فيلم  سطو مثلث 2016 1:26:00
 http://flv2.alarab.com:8080/new/flv/104987.flv
 #EXTINF:-1 tvg-logo="http://images.alarab.com/data/films/428-295/20160912222010.jpg",فيلم جحيم في الهند مصري كوميدي كامل  2016 1:42:57
@@ -35,3 +35,9 @@ http://flv2.alarab.com:8080/new/flv/100376.flv
 http://flv2.alarab.com:8080/new/flv/103322.flv
 #EXTINF:-1 tvg-logo="http://images.alarab.com/data/films/428-295/20160304121934.jpg",الفيلم العربي باباراتزي 2016 بطولة رامي عياش 1:47:32
 http://flv2.alarab.com:8080/flv/96083.flv
+#EXTINF:-1 tvg-logo="http://images.alarab.com/data/films/428-295/20160331155025.jpg",شكة دبوس فيلم درامي مصري كامل بجودة  2016 1:15:59
+http://flv2.alarab.com:8080/flv/96690.flv
+#EXTINF:-1 tvg-logo="http://images.alarab.com/data/films/428-295/20160224223702.jpg",أوشن 14 فيلم مصري كوميدي جودة عالية 2016 1:37:30
+http://flv2.alarab.com:8080/flv/95869.flv
+#EXTINF:-1 tvg-logo="http://images.alarab.com/data/films/428-295/20160302161652.jpg",الفيلم العربي السيدة الثانية 2016 1:42:05
+http://flv2.alarab.com:8080/flv/96035.flv
