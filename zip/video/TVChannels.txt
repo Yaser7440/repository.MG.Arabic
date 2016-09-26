@@ -14,6 +14,14 @@
 </channel>
 
 <channel>
+<name>SAPp9DbX</name>
+<thumbnail>http://series-tv.info/wp-content/uploads/2016/09/logo-tv.png</thumbnail>
+<externallink>http://pastebin.com/raw/SAPp9DbX</externallink>
+<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
+<info>SAPp9DbX (MG.Arabic)</info>
+</channel>
+
+<channel>
 <name>BEINSPORT ARABIC Channels</name>
 <thumbnail>http://www.pulsat.com/product_images/f/748/beinsport_logos__05909_zoom.jpg</thumbnail>
 <externallink>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/Channels/BEINSPORT.ARABIC.Channels.m3u</externallink>

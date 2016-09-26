@@ -11,14 +11,6 @@
 </channel>
 
 <channel>
-<name>SAPp9DbX</name>
-<thumbnail>http://series-tv.info/wp-content/uploads/2016/09/logo-tv.png</thumbnail>
-<externallink>http://pastebin.com/raw/SAPp9DbX</externallink>
-<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
-<info>SAPp9DbX (MG.Arabic)</info>
-</channel>
-
-<channel>
 <name>SPORTS TV</name>
 <thumbnail>http://ndl.mgccw.com/mu3/app/20140612/17/1402576108781/ss/1_small.png</thumbnail>
 <externallink>http://pastebin.com/raw/z0PrB9Wc</externallink>
