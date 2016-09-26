@@ -1,6 +1,6 @@
 ﻿#EXTM3U
 #EXTINF:-1 tvg-logo="http://images.alarab.com/data/films/428-295/20160914222300.jpg",اهدة فيلم سلاح التلاميذ مصري 2016 1:26:53
-http://flv2.alarab.com:8080/flv/105001.flv
+http://flv2.alarab.com:8080/new/flv/105001.flv
 #EXTINF:-1 tvg-logo="http://images.alarab.com/data/films/428-295/20160913203649.jpg",فيلم  سطو مثلث 2016 1:26:00
 http://flv2.alarab.com:8080/new/flv/104987.flv
 #EXTINF:-1 tvg-logo="http://images.alarab.com/data/films/428-295/20160912222010.jpg",فيلم جحيم في الهند مصري كوميدي كامل  2016 1:42:57
@@ -41,3 +41,10 @@ http://flv2.alarab.com:8080/flv/96690.flv
 http://flv2.alarab.com:8080/flv/95869.flv
 #EXTINF:-1 tvg-logo="http://images.alarab.com/data/films/428-295/20160302161652.jpg",الفيلم العربي السيدة الثانية 2016 1:42:05
 http://flv2.alarab.com:8080/flv/96035.flv
+#EXTINF:-1 tvg-logo="http://images.alarab.com/data/films/428-295/20160116225222.jpg",سكر مر فيلم مصري دراما رومانسي 1:53:48
+http://flv2.alarab.com:8080/flv/94788.flv
+#EXTINF:-1 tvg-logo="http://images.alarab.com/data/films/428-295/20151220230403.jpg",عيال حريفه فيلم مصري كوميدي ديفيدي جودة عالية 2015 1:41:24
+http://flv2.alarab.com:8080/flv/94120.flv
+#EXTINF:-1 tvg-logo="http://images.alarab.com/data/films/428-295/20151211152508.jpg",ابو العريف فيلم مصري كوميدي كامل 2015 1:33:30
+http://flv2.alarab.com:8080/flv/93861.flv
+http://flv2.alarab.com:8080/iphone/93861.mp4
