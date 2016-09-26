@@ -1,0 +1,14 @@
+<layouttype>thumbnail</layouttype>
+
+<channels>
+
+<channel>
+<name>Alarab Egy</name>
+<thumbnail>http://tv1.alarab.com/images/logo.png</thumbnail>
+<externallink>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/video/alarab/alarab-egy.m3u</externallink>
+<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
+<info>Arabic TV (MG.Arabic)</info>
+</channel>
+
+
+</channels>
