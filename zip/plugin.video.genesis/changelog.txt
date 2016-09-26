@@ -1,5 +1,12 @@
+2016.09.20.1
+    fix - wsonline
+    fix - sd hosts now are showing
+
+2016.09.20.1
+    fix - putlocker, movieshd, xmovies
+    add - hevcbluray
 2016.09.01.1
-    sfix - fmovie, sezonlukdizi
+    fix - fmovie, sezonlukdizi
 
 2016.08.29.1
     fix cache, and iwatchonline, muchmovies

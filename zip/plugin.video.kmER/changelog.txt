@@ -1,0 +1,14 @@
+[B]Version 0.0.6[/B]
+- fixed spruto.tv links
+
+[B]Version 0.0.5[/B]
+- added princessmovies
+
+[B]Version 0.0.4[/B]
+- Initial version 
+
+[B]Version 0.0.2[/B]
+- Initial version 
+
+[B]Version 0.0.1[/B]
+- Initial version 

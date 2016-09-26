@@ -1,3 +1,9 @@
+v1.5.4.rc2
+- Fixes
+- Polishing
+- Fun stuff
+- More icons
+
 v1.5.3.rc1
 - Fixed Issue #11
 - Added trailers for movies Issue #10
