@@ -8,7 +8,7 @@
 <name>Top Movies</name>
 <thumbnail>https://mir-s3-cdn-cf.behance.net/project_modules/disp/fdd1c412374317.562678e05a57a.jpg</thumbnail>
 <externallink>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/video/movies/Movies.txt</externallink>
-<fanart>https://mir-s3-cdn-cf.behance.net/project_modules/disp/fdd1c412374317.562678e05a57a.jpg</fanart>
+<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
 <info>Arabic TV (MG.Arabic)</info>
 </channel>
 
@@ -16,7 +16,7 @@
 <name>TEST</name>
 <thumbnail>https://mir-s3-cdn-cf.behance.net/project_modules/disp/fdd1c412374317.562678e05a57a.jpg</thumbnail>
 <externallink>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/video/TESTNEW1.json</externallink>
-<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHSKFQG6AmdEbapSyFfd2q9OM_3CLMnWfDydWcatGcQbTBJW0j</fanart>
+<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
 <info>Arabic TV (MG.Arabic)</info>
 </channel>
 
@@ -24,7 +24,7 @@
 <name>TEST</name>
 <thumbnail>https://mir-s3-cdn-cf.behance.net/project_modules/disp/fdd1c412374317.562678e05a57a.jpg</thumbnail>
 <link>plugin://plugin.video.4arabz/?url=http%3A%2F%2F4arabz.tv%2Findex.php%3Fpage%3Darticles%26op%3Darg%26id%3D343&amp;mode=100&amp;name=%D8%A7%D9%81%D9%84%D8%A7%D9%85+%D9%87%D9%86%D8%AF%D9%8A%D9%87&amp;page=22</link>
-<fanart>https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHSKFQG6AmdEbapSyFfd2q9OM_3CLMnWfDydWcatGcQbTBJW0j</fanart>
+<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
 <info>Arabic TV (MG.Arabic)</info>
 </channel>
 
@@ -32,7 +32,7 @@
 <name>Warning ADULT Content</name>
 <thumbnail>https://mir-s3-cdn-cf.behance.net/project_modules/disp/fdd1c412374317.562678e05a57a.jpg</thumbnail>
 <externallink>http://www.navixtreme.com/playlist/148106/videobronx</externallink>
-<fanart>https://mir-s3-cdn-cf.behance.net/project_modules/disp/fdd1c412374317.562678e05a57a.jpg</fanart>
+<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
 <info>Arabic TV (MG.Arabic)</info>
 </channel>
 

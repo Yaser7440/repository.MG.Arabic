@@ -6,16 +6,23 @@
 <name>Arabic TV</name>
 <thumbnail>http://ndl.mgccw.com/mu3/app/20140612/17/1402576108781/ss/1_small.png</thumbnail>
 <externallink>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/video/TVChannels.txt</externallink>
-<fanart>http://ndl.mgccw.com/mu3/app/20140612/17/1402576108781/ss/1_small.png</fanart>
+<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
 <info>Arabic TV (MG.Arabic)</info>
 </channel>
 
+<channel>
+<name>SAPp9DbX</name>
+<thumbnail>http://series-tv.info/wp-content/uploads/2016/09/logo-tv.png</thumbnail>
+<externallink>http://pastebin.com/raw/SAPp9DbX</externallink>
+<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
+<info>SAPp9DbX (MG.Arabic)</info>
+</channel>
 
 <channel>
 <name>SPORTS TV</name>
 <thumbnail>http://ndl.mgccw.com/mu3/app/20140612/17/1402576108781/ss/1_small.png</thumbnail>
 <externallink>http://pastebin.com/raw/z0PrB9Wc</externallink>
-<fanart>http://ndl.mgccw.com/mu3/app/20140612/17/1402576108781/ss/1_small.png</fanart>
+<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
 <info>Arabic TV (MG.Arabic)</info>
 </channel>
 
@@ -25,7 +32,7 @@
 <name>TV Shows</name>
 <thumbnail>http://www.androidpolice.com/wp-content/uploads/2012/10/nexusae0_tv-logo-288x300-2.jpg</thumbnail>
 <externallink>https://simplekore.com/wp-content/uploads/file-manager/FTA_Boy/Mahvareh/mah.txt</externallink>
-<fanart>http://www.androidpolice.com/wp-content/uploads/2012/10/nexusae0_tv-logo-288x300-2.jpg</fanart>
+<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
 <info>Arabic TV (MG.Arabic)</info>
 </channel>
 
@@ -33,7 +40,7 @@
 <name>Movies</name>
 <thumbnail>http://i85.photobucket.com/albums/k80/AlonzoTiga/MyMoviesWallpaper.jpg</thumbnail>
 <externallink>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/video/Movies.txt</externallink>
-<fanart>http://i85.photobucket.com/albums/k80/AlonzoTiga/MyMoviesWallpaper.jpg</fanart>
+<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
 <info>(MG.Arabic)</info>
 </channel>
 
@@ -41,7 +48,7 @@
 <name>Movies 2</name>
 <thumbnail>http://www.iranproud.net/images/ipLogo.png</thumbnail>
 <externallink>https://raw.githubusercontent.com/xldrx/kodi-persian-contents/master/Movies.m3u</externallink>
-<fanart>http://www.iranproud.net/images/ipLogo.png</fanart>
+<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
 <info>(MG.Arabic)</info>
 </channel>
 
@@ -49,7 +56,7 @@
 <name>TV</name>
 <thumbnail>http://www.iranproud.net/images/ipLogo.png</thumbnail>
 <externallink>https://raw.githubusercontent.com/xldrx/kodi-persian-contents/master/Iranian%20Channels.m3u</externallink>
-<fanart>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/image/MG.Arabic.png</fanart>
+<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
 <info>(MG.Arabic)</info>
 </channel>
 
@@ -57,7 +64,7 @@
 <name>TV Farsi</name>
 <thumbnail>http://www.zendetv.com/wp-content/uploads/2014/06/farsi1.png</thumbnail>
 <externallink>https://raw.githubusercontent.com/xldrx/kodi-persian-contents/master/Iranian%20Channels.m3u</externallink>
-<fanart>http://www.zendetv.com/wp-content/uploads/2014/06/farsi1.png</fanart>
+<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
 <info>TV Farsi (MG.Arabic)</info>
 </channel>
 
@@ -65,7 +72,7 @@
 <name>TV Chin</name>
 <thumbnail>https://img.new.livestream.com/accounts/00000000004e6359/f018277b-bf21-43c3-bc5a-cf224b52ae08_170x170.png</thumbnail>
 <externallink>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/Channels/Chin.strm</externallink>
-<fanart>https://img.new.livestream.com/accounts/00000000004e6359/f018277b-bf21-43c3-bc5a-cf224b52ae08_170x170.png</fanart>
+<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
 <info>TV Chin (MG.Arabic)</info>
 </channel>
 
@@ -73,7 +80,7 @@
 <name>TV China</name>
 <thumbnail>https://lh4.ggpht.com/rs9qN83PHIyyvZh3_ZWhLN-A4LEUe42wNRmz1Z8FuDMVHDSn0yS-pUBcrCj8F6hb_VY=h900</thumbnail>
 <externallink>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/Channels/China.strm</externallink>
-<fanart>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/image/MG.Arabic.png</fanart>
+<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
 <info>TV China (MG.Arabic)</info>
 </channel>
 
@@ -81,7 +88,7 @@
 <name>TV Deutsch</name>
 <thumbnail>https://lh3.ggpht.com/C38InkxSYEF8DQ6wKV9p6dHzvPSam5QHvAhM2A5zmAbroWGw8DMkbbh43OB5VWrqZjw=w300</thumbnail>
 <externallink>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/Channels/Deutsch.strm</externallink>
-<fanart>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/image/MG.Arabic.png</fanart>
+<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
 <info>TV Deutsch (MG.Arabic)</info>
 </channel>
 
@@ -89,7 +96,7 @@
 <name>TV Deutsch_Regio</name>
 <thumbnail>https://i.vimeocdn.com/portrait/6869691_300x300</thumbnail>
 <externallink>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/Channels/Deutsch_Regio.strm</externallink>
-<fanart>https://i.vimeocdn.com/portrait/6869691_300x300</fanart>
+<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
 <info>TV Deutsch_Regio (MG.Arabic)</info>
 </channel>
 
@@ -97,7 +104,7 @@
 <name>Music</name>
 <thumbnail>http://p8cdn4static.sharpschool.com/UserFiles/Servers/Server_608213/Image/Music%20Images/music%20banner.jpg</thumbnail>
 <externallink>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/Channels/Music.strm</externallink>
-<fanart>http://p8cdn4static.sharpschool.com/UserFiles/Servers/Server_608213/Image/Music%20Images/music%20banner.jpg</fanart>
+<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
 <info>Music (MG.Arabic)</info>
 </channel>
 
@@ -105,7 +112,7 @@
 <name>New_Chin</name>
 <thumbnail>https://i.ytimg.com/vi/B2_zFvDYgpE/maxresdefault.jpg</thumbnail>
 <externallink>http://www.anza-mon.com/anosh/TV/New_Chin.strm</externallink>
-<fanart>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/image/MG.Arabic.png</fanart>
+<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
 <info>New_Chin (MG.Arabic)</info>
 </channel>
 
