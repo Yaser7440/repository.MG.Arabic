@@ -706,8 +706,8 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
   </extension>
 </addon>
 
-<addon id="plugin.video.salts" version="2.0.91" name="Stream All The Sources" provider-name="tknorris">
-    <requires
+<addon id="plugin.video.salts" version="2.0.93" name="Stream All The Sources" provider-name="tknorris">
+    <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
         <import addon="script.module.myconnpy" version="1.1.6" />
@@ -719,7 +719,10 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
      <extension point="xbmc.service" library="service.py" start="startup"/>
     <extension point="xbmc.addon.metadata">
         <summary>Stream video from many difference sources</summary>
-        <description>This addon uses trakt.tv for most show and movie meta data and uses a variety of websites for hoster sources</description>
+        <description>This addon uses trakt.tv for most show and movie meta data and uses a variety of websites for hoster sources
+
+***This addon is developed and supported at [COLOR blue]www.tvaddons.ag[/COLOR]***        
+        </description>
         <platform>all</platform>
         <website>http://tvaddons.ag/</website>
 		<forum>http://forums.tvaddons.ag/forums/180-TKNORRIS-RELEASE-REPOSITORY</forum>
@@ -5703,13 +5706,13 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="plugin.video.saltshd.lite" version="1.0.145" name="Salts HD Lite" provider-name="tknorris">
+<addon id="plugin.video.saltshd.lite" version="1.0.146a" name="Salts HD Lite" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
         <import addon="script.module.myconnpy" version="1.1.6" />
 		
-        <import addon="script.module.tknorris.shared" version="0.0.2"/>
+        <import addon="script.module.tknorris.shared" version="0.0.7"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
@@ -5721,6 +5724,15 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
         <platform>all</platform>
         <website>repository.xvbmc</website>
 		<forum>https://www.facebook.com/groups/XvBMCnederland/</forum>
+		<assets>
+		  <icon>icon.png</icon>
+		  <fanart>fanart.jpg</fanart>
+		  <screenshot>resources/screenshots/screenshot1.png</screenshot>
+          <screenshot>resources/screenshots/screenshot2.png</screenshot>
+          <screenshot>resources/screenshots/screenshot3.png</screenshot>
+          <screenshot>resources/screenshots/screenshot4.png</screenshot>
+          <screenshot>resources/screenshots/screenshot5.png</screenshot>
+		</assets>
 	</extension>
 </addon>
 
@@ -6311,13 +6323,13 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 	</extension>
 </addon>
 
-<addon id="plugin.video.saltsrd.lite" version="1.0.145a" name="Salts RD Lite" provider-name="TKnorris (EPiC XvBMC MOD)">
+<addon id="plugin.video.saltsrd.lite" version="1.0.146" name="Salts RD Lite" provider-name="TKnorris (EPiC XvBMC MOD)">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
         <import addon="script.module.myconnpy" version="1.1.6" />
 		
-        <import addon="script.module.tknorris.shared" version="0.0.8"/>
+        <import addon="script.module.tknorris.shared" version="0.0.7"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
@@ -6329,6 +6341,15 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
         <platform>all</platform>
         <website>repository.xvbmc</website>
 		<forum>https://www.facebook.com/groups/XvBMCnederland/</forum>
+		<assets>
+		  <icon>icon.png</icon>
+		  <fanart>fanart.jpg</fanart>
+		  <screenshot>resources/screenshots/screenshot1.png</screenshot>
+          <screenshot>resources/screenshots/screenshot2.png</screenshot>
+          <screenshot>resources/screenshots/screenshot3.png</screenshot>
+          <screenshot>resources/screenshots/screenshot4.png</screenshot>
+          <screenshot>resources/screenshots/screenshot5.png</screenshot>
+		</assets>
 	</extension>
 </addon>
 
@@ -6357,7 +6378,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 
 <addon id="plugin.video.AK-47"
        name="[COLOR red]AK[/COLOR] [COLOR yellow]-[/COLOR] [COLOR turquoise]47[/COLOR]"
-       version="1.0.7"
+       version="1.1.0"
        provider-name="[COLOR red][B]COLD[/B][/COLOR][COLOR turquoise][B]FIRE[/B][/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -6371,6 +6392,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
     <import addon="script.module.urlresolver" optional="true"/>
     <import addon="script.module.simplejson" />    
     <import addon="script.module.livestreamer" optional="true"/>
+	<import addon="script.module.liveresolver" optional="true"/>
     <import addon="script.module.pyamf" optional="true"/>
 	<import addon="script.module.t0mm0.common" version="2.0.0"/>
 	<import addon="script.common.plugin.cache" version="2.5.2"/>
@@ -6492,6 +6514,51 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
     <source>https://github.com/html5lib/html5lib-python.git</source>
     <website>https://github.com/html5lib/html5lib-python</website>
   </extension>
+</addon>
+
+<addon id="net.rieter.xot.channel.se"
+       version="4.1.1.15"
+       name="Retrospect Swedish Channels"
+       provider-name="Bas Rieter">
+
+    <requires>
+        <!--import addon="net.rieter.xot" version="x.x.x" optional="false" /-->
+    </requires>
+    
+    <extension point="xbmc.python.pluginsource"
+               library="">
+        <!--provides>video</provides-->
+    </extension>
+             
+    <extension point="xbmc.addon.metadata">
+        <summary>Retrospect (a.k.a. XBMC Online TV) is an add-on that allows the playback of a lot of TV shows that are available (legally) via the broadcasters websites.</summary>
+        <description>Set of Swedish channels for Retrospect</description>
+        <nofanart>true</nofanart>
+        <disclaimer>Retrospect is provided as is. We do not take any responsibility for possible (but highly unlikely) damage cause to your system. Nor do we take responsibility for the content that can be watched via this add-on.</disclaimer>
+        <language>se</language>
+    </extension>
+</addon>
+
+<addon id="net.rieter.xot.channel.be"
+       version="4.1.1.9"
+       name="Retrospect Belgium Channels"
+       provider-name="Bas Rieter">
+
+    <requires>
+        <!--import addon="net.rieter.xot" version="x.x.x" optional="false" /-->
+    </requires>
+
+    <extension point="xbmc.python.pluginsource"
+               library="">
+        <!--provides>video</provides-->
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+        <summary>Retrospect (a.k.a. XBMC Online TV) is an add-on that allows the playback of a lot of TV shows that are available (legally) via the broadcasters websites.</summary>
+        <description>Set of Belgium channels for Retrospect</description>
+        <nofanart>true</nofanart>
+        <disclaimer>Retrospect is provided as is. We do not take any responsibility for possible (but highly unlikely) damage cause to your system. Nor do we take responsibility for the content that can be watched via this add-on.</disclaimer>
+    </extension>
 </addon>
 
 </addons>

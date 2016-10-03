@@ -1,3 +1,16 @@
+[B]Version 2.0.93[/B]
+- Add tvshow.me
+- Fix SeriesWatch
+- Fix PubFilm
+- Fix rlsbb
+- Fix PFTV
+- Fix Farda
+- Fix WSO
+- Fix WMO
+- Add some TVA branding
+- Improve buttons for Jarvis vs Krypton
+- Remove defunct scrapers
+
 [B]Version 2.0.91[/B]
 - Fix Xmovies8.V2
 - Fix vu45

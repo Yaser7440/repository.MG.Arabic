@@ -1,6 +1,12 @@
+Version 1.0.[B]146[/B] EPiC Real-Debrid
++ All Kudos -2- TKnorris (Y)
++ .Lite engine update (#MR-release v2.0.91)
+- openload.co
+
 Version 1.0.[B]145[/B](+a) EPiC Real-Debrid
 + All Kudos -2- TKnorris (Y)
 + some scraper fixes (2.0.91)
+- openload.co
 
 Version 1.0.[B]145[/B] EPiC Real-Debrid
 + All Kudos -2- TKnorris (Y)

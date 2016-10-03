@@ -1,0 +1,22 @@
+﻿[B]Changelog[/B]
+Fixed: Eén updated their site (Fixes #762)
+
+[I]Previous Changes[/I]
+Fixed: Canvas updated their site (Fixes #747)
+Fixed: RTBF live streams broke due to HLS switch (Fixes #742)
+Fixed: De Redactie did not retrieve media url
+Fixed: De Redactie did not show all items
+Fixed: Sporza.be broke (Fixes #740)
+Fixed: Filter out the audio only streams for Vier.be (See #674)
+Added: RTBF.be (Fixes #725)
+Added: Vier.be (Fixes #674)
+Fixed: Eén stream selection issue
+Fixed: Ketnet updated their website
+Fixed: Canvas.be update their layout (Fixes 702)
+Added: Ketnet (VRT) was added again (Fixes #686)
+Fixed: Canvas updated their site (Fixes #677)
+Fixed: VTM site update broke listings (Fixes #656)
+Fixed: Eén stream selection issue (Fixes #557)
+Fixed: VTM Nieuws playback issues
+Fixed: Belgium Een channel did not stream (Issue 508)
+Removed: Cobra.be for now due to incompatible site layout (Issue 508)

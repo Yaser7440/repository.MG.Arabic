@@ -1,3 +1,80 @@
+[B]Version 2.0.91[/B]
+- Fix Xmovies8.V2
+- Fix vu45
+- Fix Dizigold
+- Fix MovieWatch.to
+- Fix MovieZone
+- Fix Movie Sub
+- Fix HDFlix
+- Improve HDMoviesFree
+- Improve YesMovies scraper
+- Remove episodes from HDMovie14
+- Add Torba premium account support
+- Improve open directory scrapers
+- Add screenshots
+
+[B]Version 2.0.90[/B]
+- Add DownloadTube
+- Fix Farda
+- Fix Flixanity
+- Improve HEVCBluRay
+- Fix PFTV
+- Fix 2DDL
+
+[B]Version 2.0.89[/B]
+- Add MovieZone back
+- Fix StreamAllThis
+- Remove MoviesHD
+- Fix filename generation during download
+- Improve http get
+
+[B]Version 2.0.88[/B]
+- Add rlsmovies
+- Fix sezonlukdizi
+- Fix YesMovies
+- Fix afdah.org
+- Fix MVL
+- Fix Miradetodo
+- Fix MovieSub
+- Remove View47
+
+[B]Version 2.0.87[/B]
+- Add MoviePool
+- Fix LosMovies
+- Fix MoviesHd
+- Fix Flixanity
+- Fix ReleaseBB
+- Fix SpaceMov
+- Fix CyberReel
+- Fix Xmovies8.V2
+- Fix PubFilm
+- Disable Stage66
+- Disable MovieZone
+
+[B]Version 2.0.86[/B]
+- Add "Rescrape All" function
+- Add "Manual Search All" function
+- Remove KiwiHD
+- Fix MoviesHD
+- Fix Watch5s
+- Fix PFTV
+- Fix Flixanity
+- Fix Putlocker
+- Improve SnagFilms
+- Add Past Activity sort to MNE
+
+[B]Version 2.0.85[/B]
+- Improve pool manager
+- Improve IceFilms scraper
+- Improve MovieNight scraper
+
+[B]Version 2.0.84[/B]
+- Add Spacemov
+- Fix pubfilm
+- Fix Watch5S
+- Fix YesMovies
+- Improve ReleaseBB
+
 [B]Version 2.0.83[/B]
 - Add MovieFlix scraper
 - Add Ventures scraper

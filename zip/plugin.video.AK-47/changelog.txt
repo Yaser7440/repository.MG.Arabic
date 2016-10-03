@@ -1,3 +1,9 @@
+Version 1.1.0
+	added support for Live-resolver
+Version 1.0.9
+	fixed meta, info
+Version 1.0.8
+	added support for URL-resolver in setings, minor fixes
 Version 1.0.7
 	added support for liveresolver
 version 1.0.6
