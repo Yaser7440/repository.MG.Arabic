@@ -1,3 +1,5 @@
+[B]Version 3.8.3[/B]
+Full Release including non hosted ones
 [B]Version 3.8.2[/B]
 Just combined release to make sure everything is together
 [B]Version 3.8.1[/B]

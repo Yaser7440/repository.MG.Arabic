@@ -1,3 +1,18 @@
+[B]Version 2.0.91[/B]
+- Fix Xmovies8.V2
+- Fix vu45
+- Fix Dizigold
+- Fix MovieWatch.to
+- Fix MovieZone
+- Fix Movie Sub
+- Fix HDFlix
+- Improve HDMoviesFree
+- Improve YesMovies scraper
+- Remove episodes from HDMovie14
+- Add Torba premium account support
+- Improve open directory scrapers
+- Add screenshots
+
 [B]Version 2.0.90[/B]
 - Add DownloadTube
 - Fix Farda
