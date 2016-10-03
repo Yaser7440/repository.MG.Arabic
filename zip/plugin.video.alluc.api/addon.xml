@@ -1,4 +1,4 @@
-<?xml version="1.0" ?><addon id="plugin.video.alluc.api" name="Alluc" provider-name="DudeHere" version="1.0.1">
+<?xml version="1.0" ?><addon id="plugin.video.alluc.api" name="Alluc" provider-name="DudeHere" version="1.0.7">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.beautifulsoup"/>
