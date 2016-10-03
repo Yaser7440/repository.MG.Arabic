@@ -1,0 +1,16 @@
+Version 1.0.7
+	added support for liveresolver
+version 1.0.6
+	new resolvers, new encryption point
+Version 1.0.5
+	new resolvers, fixed depencies
+Version 1.0.4
+    new resolvers, bug fixes, fixed x-forward
+Version 1.0.3
+    server changed, new resolvers, bug fixes
+Version 1.0.2
+    some bug fixes, new resolvers
+Version 1.0.1
+    unicode urls in image
+Version 1.0.0
+    first relase

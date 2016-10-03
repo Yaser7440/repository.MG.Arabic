@@ -707,7 +707,7 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
 </addon>
 
 <addon id="plugin.video.salts" version="2.0.91" name="Stream All The Sources" provider-name="tknorris">
-    <requires>
+    <requires
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
         <import addon="script.module.myconnpy" version="1.1.6" />
@@ -6292,6 +6292,206 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
         <platform>all</platform>
         <disclaimer lang="en"></disclaimer>
     </extension>
+</addon>
+
+<addon id="plugin.video.arabmovies" name="Arabmovies" version="1.0.1" provider-name="justaguy">  
+	<requires>    
+		<import addon="xbmc.python" version="2.1.0"/>    
+		<import addon="script.module.urlresolver"  version="2.10.10"/>    
+	</requires>  
+	<extension point="xbmc.python.pluginsource" library="default.py">        
+		<provides>video</provides>  
+	</extension>  
+	<extension point="xbmc.addon.metadata">    
+			<summary lang="en"></summary>    
+			<description lang="en">Watch from a huge selection of Arabic Movies Tv Shows and Collections...</description>
+			<disclaimer lang="en">The author does not host or distribute any of the content displayed by this add-on</disclaimer>
+			
+			<platform>all</platform>  
+	</extension>
+</addon>
+
+<addon id="plugin.video.saltsrd.lite" version="1.0.145a" name="Salts RD Lite" provider-name="TKnorris (EPiC XvBMC MOD)">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0"/>
+        <import addon="script.module.urlresolver" version="3.0.0"/>
+        <import addon="script.module.myconnpy" version="1.1.6" />
+		
+        <import addon="script.module.tknorris.shared" version="0.0.8"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+     <extension point="xbmc.service" library="service.py" start="startup"/>
+    <extension point="xbmc.addon.metadata">
+        <summary>Stream video from many difference sources with EPiC SALTs RD Lite (RealDebrid)</summary>
+        <description>This is the MOD version of SALTs by EPiC + Scott Marten (Credits -2- TKnorris obviously) -4- RealDebrid usage.</description>
+        <platform>all</platform>
+        <website>repository.xvbmc</website>
+		<forum>https://www.facebook.com/groups/XvBMCnederland/</forum>
+	</extension>
+</addon>
+
+<addon id="plugin.video.titanXXX" name="[COLOR blue]T[/COLOR]ITAN [COLOR red]XXX[/COLOR] " version="1.0.0" provider-name="marifi">
+	<requires>    
+		<import addon="script.module.simplejson" version="3.3.0"/>    
+		<import addon="xbmc.python" version="2.1.0"/>    
+		<import addon="script.module.t0mm0.common" version="2.0.0"/>    
+		<import addon="plugin.video.youtube" version="3.0.0"/>    
+		<import addon="script.module.urlresolver"  version="2.10.10"/>    
+		<import addon="script.common.plugin.cache" version="2.5.2"/>    
+		<import addon="script.module.metahandler" version="2.5.1"/> 
+	</requires>  
+	<extension point="xbmc.python.pluginsource" library="default.py">        
+		<provides>video</provides>  
+	</extension>  
+	<extension point="xbmc.addon.metadata">    
+			<summary lang="en"></summary>    
+			<description lang="en">Watch from a huge selection of [COLOR red]XXX[/COLOR] Collections Credits to Lambda for some resolvers used in this addon
+			credits also goes to schisM for the code used in this addon</description>
+			<disclaimer lang="en">The author does not host or distribute any of the content displayed by this add-on</disclaimer>
+			
+			<platform>all</platform>  
+	</extension>
+</addon>
+
+<addon id="plugin.video.AK-47"
+       name="[COLOR red]AK[/COLOR] [COLOR yellow]-[/COLOR] [COLOR turquoise]47[/COLOR]"
+       version="1.0.7"
+       provider-name="[COLOR red][B]COLD[/B][/COLOR][COLOR turquoise][B]FIRE[/B][/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />    
+    <import addon="script.module.livestreamer" optional="true"/>
+    <import addon="script.module.pyamf" optional="true"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+	<import addon="script.common.plugin.cache" version="2.5.2"/>
+	<import addon="script.module.metahandler" version="2.5.1"/>
+  </requires>
+  
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+        <summary>[COLOR cyan]Best of the best from C0LDFIRE and BillyHope[/COLOR]</summary>
+        <description lang="en">Enjoy watching:
+		[COLOR red]Movies[/COLOR], [COLOR yellow]TV-Shovs[/COLOR], [COLOR turquoise]Documentaries[/COLOR], [COLOR limegreen]Toons[/COLOR] and ofcourse [COLOR red]Live TV[/COLOR]
+		[COLOR pink]PS: Live TV links may up and down, as they are free. Don't check the teeth of a gifted horse![/COLOR]</description>
+        <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.audio.soundcloud" name="SoundCloud" version="2.0.6" provider-name="bromix">
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>audio</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="bg">SoundCloud е платформа за разпространяване на аудио.</summary>
+		<summary lang="en">SoundCloud is an online audio distribution platform.</summary>
+		<summary lang="de">Soundcloud ist ein Online-Audio-Vertriebsplattform.</summary>
+		<summary lang="fr">SoundCloud est une plateforme de streaming audio en ligne.</summary>
+		<summary lang="he">סאונדקלאוד הוא פלטפורמת הפצת אודיו באינטרנט.</summary>
+		<summary lang="nl">SoundCloud is een online audio distributie platform.</summary>
+		<description lang="bg">SoundCloud е платформа за разпространение на аудио, която позволява на потребителите да качват, записват, представят и споделят звуците създадени от тях.</description>
+		<description lang="en">SoundCloud is an online audio distribution platform that enables its users to upload, record, promote and share their originally-created sounds.</description>
+		<description lang="de">Soundcloud ist ein Online-Audio-Vertriebsplattform. Benutzer können ihre ursprünglich erstelle Music hochladen, aufnehmen und unter weiteren Benutzern teilen.</description>
+		<description lang="fr">SoundCloud est une plateforme de streaming audio en ligne qui permet aux utilisateurs d'envoyer, d'enregistrer, de promouvoir et partager leurs créations audio originales.</description>
+		<description lang="he">סאונדקלאוד הוא פלטפורמה הפצת אודיו מקוונת המאפשרת למשתמשים שלה להעלות, להקליט, לקדם ולשתף את היצירות שלהם.</description>
+		<description lang="nl">SoundCloud is een online audio distributie platform dat gebruikers in staat stelt om hun eigen muziekcreaties te uploaden, opnemen, promoten en te delen.</description>
+		<disclaimer lang="en"></disclaimer>
+		<language></language>
+		<platform>all</platform>
+		<license>GNU General Public License v2.0</license>
+		<forum>http://forum.kodi.tv/showthread.php?tid=206635</forum>
+		<website>www.soundcloud.com</website>
+		<email>kodi at bromix dot org</email>
+		<source>https://github.com/bromix/plugin.audio.soundcloud</source>
+	</extension>
+</addon>
+
+<addon id='script.module.xbmc.helpers' version='2.0.0' name='Xbmc helpers module based on Parsedom module' provider-name='mrstealth'>
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+  <extension point='xbmc.addon.metadata'>
+    <platform>all</platform>
+    <summary lang='en'>XbmcHelpers based on Parsedom module.</summary>
+  </extension>
+  <extension point='xbmc.python.module' library='lib' />
+</addon>
+
+<addon id='script.module.translit' version='2.0.0' name='Translit for xbmc plugins' provider-name='mrstealth'>
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+  <extension point='xbmc.service' library="default.py" />
+  <extension point='xbmc.addon.metadata'>
+    <platform>all</platform>
+    <summary lang='en'>Translit for xbmc plugins.</summary>
+  </extension>
+  <extension point='xbmc.python.module' library='lib' />
+</addon>
+
+<addon id="script.module.mctools" name="common tools mc" version="1.3.7" provider-name="mancuniancol">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.beautifulsoup4" optional="false"/>
+    <import addon="script.module.html5lib" optional="false"/>
+    <import addon="script.module.requests" optional="false"/>
+    <import addon="script.module.feedparser" optional="false"/>
+    <import addon="script.module.xbmcswift2" optional="false"/>
+    <import addon="script.module.simplejson" optional="false"/>
+    <import addon="script.module.metahandler" optional="false"/>
+    <import addon="script.module.httplib2" optional="false"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Collection of common tools for addons</summary>
+    <description lang="en">Collection of tools from different authors.  All the credit should be given to them</description>
+    <disclaimer lang="en"></disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forums.tvaddons.ag/addon-releases/37973-torrent-rss-kickass-yts-torrentz-viewers-3.html#post314231</forum>
+    <website>https://github.com/mancuniancol/script.module.mctools</website>
+    <email></email>
+    <source></source>  
+  </extension>
+</addon>
+
+<addon id="script.module.html5lib"
+       name="html5lib-python"
+       version="0.999.0"
+       provider-name="html5lib">
+  <requires>
+    <import addon="xbmc.python" 
+    		version="2.1.0"/>
+    <import addon="script.module.six"
+                      version="1.4.1"
+                     optional="false"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Standards-compliant library for parsing and serializing HTML documents and fragments in Python.</summary>
+    <description>html5lib is a pure-python library for parsing HTML. It is designed to conform to the WHATWG HTML specification, as is implemented by all major web browsers.</description>
+    <platform>all</platform>
+    <license>MIT</license>
+    <source>https://github.com/html5lib/html5lib-python.git</source>
+    <website>https://github.com/html5lib/html5lib-python</website>
+  </extension>
 </addon>
 
 </addons>

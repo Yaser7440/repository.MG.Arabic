@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.AK-47"
+       name="[COLOR red]AK[/COLOR] [COLOR yellow]-[/COLOR] [COLOR turquoise]47[/COLOR]"
+       version="1.0.7"
+       provider-name="[COLOR red][B]COLD[/B][/COLOR][COLOR turquoise][B]FIRE[/B][/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />    
+    <import addon="script.module.livestreamer" optional="true"/>
+    <import addon="script.module.pyamf" optional="true"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+	<import addon="script.common.plugin.cache" version="2.5.2"/>
+	<import addon="script.module.metahandler" version="2.5.1"/>
+  </requires>
+  
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+        <summary>[COLOR cyan]Best of the best from C0LDFIRE and BillyHope[/COLOR]</summary>
+        <description lang="en">Enjoy watching:
+		[COLOR red]Movies[/COLOR], [COLOR yellow]TV-Shovs[/COLOR], [COLOR turquoise]Documentaries[/COLOR], [COLOR limegreen]Toons[/COLOR] and ofcourse [COLOR red]Live TV[/COLOR]
+		[COLOR pink]PS: Live TV links may up and down, as they are free. Don't check the teeth of a gifted horse![/COLOR]</description>
+        <platform>all</platform>
+  </extension>
+</addon>
