@@ -6561,4 +6561,26 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
     </extension>
 </addon>
 
+<addon id="skin.MG.aeon.madnox" version="1.9.1" name="Aeon MG Madnox" provider-name="Mike_Doc|Schimi2k|meowmoo|MG.Arabic">
+  <requires>
+    <import addon="xbmc.gui" version="5.10.0"/>
+    <import addon="script.skinshortcuts" version="1.0.7"/>
+    <import addon="script.skin.helper.service" version="1.0.0"/>
+    <import addon="service.library.data.provider" version="0.0.7"/>
+    <import addon="script.toolbox" version="1.1.0"/>
+    <import addon="script.image.resource.select" version="0.0.5"/>
+	<import addon="resource.images.studios.white" version="0.0.1"/>
+	<import addon="resource.images.studios.coloured" version="0.0.1"/>
+</requires>
+<extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" debugging="false" effectslowdown="1.0">
+    <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
+</extension>
+<extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <source>https://github.com/MadMikeDoc/skin.aeon.madnox</source>
+    <forum>http://forum.kodi.tv/showthread.php?tid=230821</forum>
+    <website>https://github.com/MadMikeDoc/skin.aeon.madnox</website>
+</extension>
+</addon>
+
 </addons>
