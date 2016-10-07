@@ -5,6 +5,12 @@ img="http://i.imgur.com/bbxYfni.jpg"
 fanart="http://mg.esy.es/Kodi/Logo/MG.es"
 description="MG.phenomenal_ENG_V.6 (Kodi 16.0)"
 
+name="MG.phenomenal_AR_V.6"
+url="https://portals.edati.lv/download/?ShareID=29e964a0-6834-4dba-ac91-15e0df3fd1ab&FileID=4bb161e4-9c15-4fe7-a43d-3d4f630a7d92"
+img="http://i.imgur.com/bbxYfni.jpg"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es"
+description="MG.phenomenal_Arabic_V.6 (Kodi 16.0)"
+
 name="MG.Wizard_ENG_V.5"
 url="https://portals.edati.lv/download/?ShareID=feff0f54-490e-4875-b5d2-393b5b895f7b&FileID=b28f5763-3b00-4eaf-9188-478ed438f24d"
 img="http://mg.esy.es/Kodi/Logo/icon.jpg"
