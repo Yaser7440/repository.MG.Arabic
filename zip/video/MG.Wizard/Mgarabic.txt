@@ -13,6 +13,16 @@ icon="http://i.imgur.com/bbxYfni.jpg"
 fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
 
 
+name="MG.phenomenal_Arabic"
+version="6.0.0"
+url="https://portals.edati.lv/download/?ShareID=29e964a0-6834-4dba-ac91-15e0df3fd1ab&FileID=4bb161e4-9c15-4fe7-a43d-3d4f630a7d92"
+gui="http://"
+kodi="16.1"
+theme="http://"
+icon="http://i.imgur.com/bbxYfni.jpg"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+
+
 name="MG.Wizard_ENG"
 version="5.0.0"
 url="https://portals.edati.lv/download/?ShareID=feff0f54-490e-4875-b5d2-393b5b895f7b&FileID=b28f5763-3b00-4eaf-9188-478ed438f24d"
