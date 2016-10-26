@@ -5,7 +5,7 @@ zip="https://github.com/Yaser7440/repository.MG.Arabic/blob/master/zip/plugin.pr
 
 name="MG.phenomenal_ENG"
 version="6.0.0"
-url="https://portals.edati.lv/download/?ShareID=ae46c0c0-dcc4-4fdc-9652-d11c9f3ac452&FileID=9caeba90-87c7-4659-af18-82a0c96c6126"
+url="https://portals.edati.lv/download/?ShareID=6347520c-aedd-44aa-9f2f-810dce9ed713&FileID=48ef14ce-1a86-4aa9-9a68-be20c7904f96"
 gui="http://"
 kodi="16.1"
 theme="http://"
