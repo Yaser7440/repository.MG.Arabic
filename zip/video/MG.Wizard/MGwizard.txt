@@ -6,7 +6,7 @@ fanart="http://mg.esy.es/Kodi/Logo/MG.es"
 description="MG.phenomenal_ENG_V.6 (Kodi 16.0)"
 
 name="MG.phenomenal_AR_V.6"
-url="https://portals.edati.lv/download/?ShareID=29e964a0-6834-4dba-ac91-15e0df3fd1ab&FileID=4bb161e4-9c15-4fe7-a43d-3d4f630a7d92"
+url="https://portals.edati.lv/download/?ShareID=722ab68a-4486-4dea-ab07-f6ab9e93f651&FileID=07eedb13-9a80-41d9-b98f-8d83e8ec30ea"
 img="http://i.imgur.com/bbxYfni.jpg"
 fanart="http://mg.esy.es/Kodi/Logo/MG.es"
 description="MG.phenomenal_Arabic_V.6 (Kodi 16.0)"
