@@ -1,0 +1,6 @@
+Wersja 2016.09.01.2
+    - poprawia sekcji filmów
+------------------------
+FanFilm v2016.05.10.5
+------------------------
+Na razie tylko filmy i dział atylko alltube

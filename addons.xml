@@ -75,14 +75,21 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.f4mTester" version="2.6.1" name="f4mTester" provider-name="Shani">
+<addon id="plugin.video.f4mTester" version="2.6.6" name="f4mTester" provider-name="Shani">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.video.F4mProxy" version="2.6.1"/>
+        <import addon="script.video.F4mProxy" version="2.6.6"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
     </extension>
+    
+    <extension point="xbmc.addon.repository" name="shani repository">
+        <info compressed="false">https://offshoregit.com/Shani-08/main/addons.xml</info>
+        <checksum>https://offshoregit.com/Shani-08/main/addons.xml.md5</checksum>
+        <datadir zip="true">https://offshoregit.com/Shani-08/main/zips/</datadir>
+    </extension>
+
     <extension point="xbmc.addon.metadata">
         <summary>f4mTester</summary>
         <description></description>
@@ -487,7 +494,7 @@
 
 <addon id="plugin.video.icefilms"
        name="Icefilms"
-       version="1.27.0"
+       version="1.99.03"
        provider-name="Eldorado">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -497,6 +504,7 @@
         <import addon="script.module.metahandler" version="2.5.1" />
         <import addon="script.module.addon.common" version="2.0.0" />
         <import addon="script.module.axel.downloader" version="0.2.1" />
+        <import addon="script.module.urlresolver" version="3.0.0"/>
         <!--import addon="script.module.pyxbmct" version="1.1.2" /-->
         <import addon="script.common.plugin.cache" /> 
     </requires>
@@ -706,12 +714,12 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
   </extension>
 </addon>
 
-<addon id="plugin.video.salts" version="2.0.93" name="Stream All The Sources" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.110" name="Stream All The Sources" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
         <import addon="script.module.myconnpy" version="1.1.6" />
-        <import addon="script.module.tknorris.shared" version="0.0.7"/>
+        <import addon="script.module.tknorris.shared" version="0.0.10"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
@@ -738,7 +746,7 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
 	</extension>
 </addon>
 
-<addon id="script.module.tknorris.shared" name="TKNorris Common Libraries" version="0.0.9" provider-name="tknorris">
+<addon id="script.module.tknorris.shared" name="TKNorris Common Libraries" version="0.0.10" provider-name="tknorris">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -880,22 +888,24 @@ Other languages with a great number of subtitles are: Danish, French, Swedish, D
     </extension>
 </addon>
 
-<addon id="service.subtitles.opensubtitles" name="OpenSubtitles.org" provider-name="amet" version="5.0.15">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension library="service.py" point="xbmc.subtitle.module"/>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">OpenSubtitles</summary>
-    <description lang="en">Search and download subtitles from opensubtitles.org</description>
-    <disclaimer lang="en"/>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <forum>http://forum.xbmc.org/showthread.php?tid=183114</forum>
-    <website/>
-    <email/>
-    <source>https://github.com/amet/service.subtitles.opensubtitles</source>    
-  </extension>
+<addon id="service.subtitles.opensubtitles" version="5.0.15a" name="OpenSubtitles.org" provider-name="amet, EPiC, XvBMC">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.subtitle.module" library="service.py"/>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">OpenSubtitles</summary>
+		<summary lang="nl">OpenSubtitles</summary>
+		<description lang="en">Search and download subtitles from opensubtitles.org</description>
+		<description lang="nl">Zoek en Download ondertiteling van opensubtitles.org</description>
+		<disclaimer lang="en">http://forum.xbmc.org/showthread.php?tid=183114</disclaimer>
+		<disclaimer lang="nl">credits to: Zeljko Ametovic</disclaimer>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<forum>http://forum.xbmc.org/showthread.php?tid=183114</forum>
+		<website>http://forum.xbmc.org/showthread.php?tid=183114</website>
+		<source>https://github.com/amet/service.subtitles.opensubtitles</source>    
+	</extension>
 </addon>
 
 <addon id="script.toolbox" name="ToolBox Script" version="1.1.2" provider-name="phil65">
@@ -1027,7 +1037,7 @@ Other languages with a great number of subtitles are: Danish, French, Swedish, D
 
 <addon id="script.video.F4mProxy" 
 	     name="F4mProxy" 
-	     version="2.6.1" 
+	     version="2.6.6" 
 	     provider-name="Shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
@@ -1038,6 +1048,13 @@ Other languages with a great number of subtitles are: Danish, French, Swedish, D
 		<provides>executable</provides>
   </extension>
 
+     <extension point="xbmc.addon.repository" name="shani repository">
+        <info compressed="false">https://offshoregit.com/Shani-08/main/addons.xml</info>
+        <checksum>https://offshoregit.com/Shani-08/main/addons.xml.md5</checksum>
+        <datadir zip="true">https://offshoregit.com/Shani-08/main/zips/</datadir>
+    </extension>
+
+    
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
     <summary lang="en">Proxy for f4m</summary>
@@ -1524,7 +1541,7 @@ Addons Included
   </extension>
 </addon>
 
-<addon id="plugin.video.phstreams" name="Phoenix" version="3.1.11" provider-name="tvaddons.ag">
+<addon id="plugin.video.phstreams" name="Phoenix" version="3.1.15" provider-name="tvaddons.ag">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
@@ -1542,7 +1559,7 @@ Addons Included
 		<platform>all</platform>
 		<forum>http://forums.tvaddons.ag/forums/220-PHOENIX-LIVE-STREAMS</forum>
 		<website>http://www.tvaddons.ag/</website>
-		<news>Updated scrapers</news>
+		<news>Updated scrapers[CR]Cosmetics</news>
 	</extension>
 </addon>
 
@@ -1665,7 +1682,7 @@ Addons Included
   </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="3.0.21" provider-name="Eldorado">
+<addon id="script.module.urlresolver" name="URLResolver" version="3.0.23" provider-name="tvaddons.ag, Eldorado">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -2097,12 +2114,12 @@ Addons Included
   </extension>
 </addon>
 
-<addon id="plugin.video.md123movies" name="123Movies" version="1.2.9" provider-name="Mucky Duck">
+<addon id="plugin.video.md123movies" name="123Movies" version="1.3.1" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
 	<import addon="script.module.requests" />
-	
+	<!-- <import addon="repository.mdrepo" /> -->
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
@@ -2141,7 +2158,7 @@ Addons Included
   </extension>
 </addon>
 
-<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2016.09.30.2" provider-name="mrknow" >
+<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2016.10.28.3" provider-name="mrknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.requests" version="1.0.0" />
@@ -2181,10 +2198,10 @@ Addons Included
 	</extension>
 </addon>
 
-<addon id="plugin.video.exodus" version="2.0.11" name="Exodus" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="2.0.17" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
-		
+		<!-- <import addon="repository.exodus" version="1.0.0" /> -->
 		<import addon="script.exodus.artwork" version="1.0.4" />
 		<import addon="script.module.urlresolver" version="3.0.0" />
 		<import addon="script.module.metahandler" version="1.0.0" />
@@ -2197,7 +2214,7 @@ Addons Included
 		<description lang="en">Please visit www.tvaddons.ag for Exodus support and assistance! Kindly note that Exodus is not an official part of the media player you are running, and therefore not to be mentioned within official support channels, this addon has nothing to do with the media player itself, nor it’s intended use, it is simply a third party plugin which has been added to your system.</description>
 		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
 		<platform>all</platform>
-		<news>- Added openload to filehosts with captchas[CR]- Updated existing providers[CR]- Added new providers</news>
+		<news>- Tweaked metadata</news>
 	</extension>
 </addon>
 
@@ -2232,7 +2249,7 @@ Addons Included
 	</extension>
 </addon>
 
-<addon id="plugin.video.moviemix" name="Movie Mix" version="2.0.0" provider-name="MetalKettle">
+<addon id="plugin.video.moviemix" name="Movie Mix" version="2.0.1" provider-name="MetalKettle">
 
   <requires>
 
@@ -2352,7 +2369,7 @@ http://informaticglobalworld.altervista.org/
 	</extension>
 </addon>
 
-<addon id="plugin.video.alluc.api" name="Alluc" provider-name="DudeHere" version="1.0.7">
+<addon id="plugin.video.alluc.api" name="Alluc" provider-name="DudeHere" version="1.1.2">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.beautifulsoup"/>
@@ -2373,7 +2390,7 @@ http://informaticglobalworld.altervista.org/
     </extension>
 </addon>
 
-<addon id="plugin.video.theroyalwe" name="The Royal We" provider-name="DudeHere" version="1.0.22">
+<addon id="plugin.video.theroyalwe" name="The Royal We" provider-name="DudeHere" version="1.1.4">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.beautifulsoup"/>
@@ -2395,13 +2412,13 @@ http://informaticglobalworld.altervista.org/
     </extension>
 </addon>
 
-<addon id="plugin.video.mdm4u" name="M4U" version="1.1.5" provider-name="Mucky Duck">
+<addon id="plugin.video.mdm4u" name="M4U" version="1.1.6" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
 	<import addon="script.module.metahandler" version="2.5.1"/>
 	<import addon="script.module.requests" />
-	
+	<!-- <import addon="repository.mdrepo" /> -->
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
@@ -2414,13 +2431,13 @@ http://informaticglobalworld.altervista.org/
   </extension>
 </addon>
 
-<addon id="plugin.video.mdpubfilm" name="PubFilm" version="1.0.7" provider-name="Mucky Duck">
+<addon id="plugin.video.mdpubfilm" name="PubFilm" version="1.0.8" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
 	<import addon="script.module.metahandler" version="2.5.1"/>
 	<import addon="script.module.requests" />
-	
+	<!-- <import addon="repository.mdrepo" /> -->
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
@@ -2464,7 +2481,7 @@ http://informaticglobalworld.altervista.org/
   </extension>
 </addon>
 
-<addon id="script.module.dudehere.routines" name="DudeHere Common Routines" provider-name="DudeHere" version="0.5.70">
+<addon id="script.module.dudehere.routines" name="DudeHere Common Routines" provider-name="DudeHere" version="0.6.14">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.beautifulsoup"/>
@@ -3165,7 +3182,7 @@ http://informaticglobalworld.altervista.org/
 
 <addon id="script.module.addon.common" 
 	     name="Common addon methods" 
-	     version="2.0.0" 
+	     version="2.0.1" 
 	     provider-name="Eldorado (original: t0mm0)">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
@@ -3256,10 +3273,10 @@ http://informaticglobalworld.altervista.org/
 
 <addon id="script.module.pyxbmct"
    name="PyXBMCt"
-   version="1.1.7"
-   provider-name="Roman_V_M">
+   version="1.2.0"
+   provider-name="Roman V.M.">
   <requires>
-    <import addon="xbmc.python" version="2.14.0"/>
+    <import addon="xbmc.python" version="2.20.0"/>
   </requires>
   <extension point="xbmc.python.module" library="lib" />
   <extension point="xbmc.addon.metadata">
@@ -3312,7 +3329,7 @@ http://informaticglobalworld.altervista.org/
 	</extension>
 </addon>
 
-<addon id="script.module.youtube.dl" name="youtube-dl Control" version="16.627.0" provider-name="Rick Phillips (ruuk)">
+<addon id="script.module.youtube.dl" name="youtube-dl Control" version="16.1026.0" provider-name="Rick Phillips (ruuk)">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.addon.signals" version="0.0.1"/>
@@ -3424,7 +3441,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="script.mrknow.urlresolver" name="Mrknow URLResolver" version="2016.09.25.1" provider-name="mrknow" >
+<addon id="script.mrknow.urlresolver" name="Mrknow URLResolver" version="2016.10.30.2" provider-name="mrknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -3491,7 +3508,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
     </extension>
 </addon>
 
-<addon id="resource.images.studios.white" name="Studio Icons - White" version="0.0.7" provider-name="Team Kodi">
+<addon id="resource.images.studios.white" name="Studio Icons - White" version="0.0.8" provider-name="Team Kodi">
 	<extension point="kodi.resource.images" compile="true" type="studios" />
 	<requires>
 		<import addon="kodi.resource" version="1.0.0"/>
@@ -3792,7 +3809,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="plugin.video.titan" name="[COLOR blue]T[/COLOR]itan" version="2.1.1" provider-name="Titan">  
+<addon id="plugin.video.titan" name="[COLOR blue]T[/COLOR]itan" version="2.1.3" provider-name="Titan">  
 	<requires>    
 		<import addon="script.module.simplejson" version="3.3.0"/>    
 		<import addon="xbmc.python" version="2.1.0"/>    
@@ -5280,18 +5297,14 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 	</extension>
 </addon>
 
-<addon
-  id="plugin.video.SportsDevil"
-  version="2016.09.24"
-  name="SportsDevil"
-  provider-name="SportsDevil">
+<addon id="plugin.video.SportsDevil" version="2016.10.10" name="SportsDevil" provider-name="SportsDevil">
   <requires>
    <import addon="xbmc.python" version="2.14.0"/>
    <import addon="script.module.simplejson" />
    <import addon="script.module.six" />
    <import addon="script.module.requests" />
    <import addon="script.module.livestreamer" />
-   <import addon="script.module.pydevd" version="3.4.1" />
+   <import addon="script.module.pydevd" version="4.4.0" optional="true"/>
   </requires>
   <extension 
     point="xbmc.python.pluginsource"
@@ -5393,7 +5406,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="script.skinshortcuts" name="Skin Shortcuts" version="1.0.10" provider-name="BigNoid,marcelveldt">
+<addon id="script.skinshortcuts" name="Skin Shortcuts" version="1.0.11" provider-name="BigNoid,marcelveldt">
 	<requires>
 		<import addon="xbmc.python" version="2.20.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
@@ -5602,7 +5615,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
    </extension>
 </addon>
 
-<addon id="context.salts.tools" version="1.0.5" name="SALTS Context Tools" provider-name="tknorris">
+<addon id="context.salts.tools" version="1.0.6" name="SALTS Context Tools" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.2.0"/>
         <import addon="plugin.video.salts" version="1.0.65"/>
@@ -5736,7 +5749,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 	</extension>
 </addon>
 
-<addon id="plugin.video.cartoons8" name="Cartoons8" version="1.0.18" provider-name="MetalKettle">
+<addon id="plugin.video.cartoons8" name="Cartoons8" version="1.0.19" provider-name="MetalKettle">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.t0mm0.common" version="2.0.0"/>
@@ -5816,7 +5829,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
     </extension>
 </addon>
 
-<addon id="plugin.video.Stallion-IPTV" name="Stallion-IPTV" version="3.1" provider-name="Stallion-IPTV">
+<addon id="plugin.video.Stallion.IPTV" name="Stallion-IPTV" version="3.2" provider-name="Stallion-IPTV">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -5834,8 +5847,8 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>[COLOR blue]Stallion[/COLOR][COLOR blue]IPTV[/COLOR]basado en LivetreamsPro by Shani mod by Wolf </summary>
-    <description lang="en">[COLOR blue][B]Stallion-IPTV, Enjoy the Best Free IPTV [/B][/COLOR]</description>
+    <summary>[COLOR blue]Stallion[/COLOR][COLOR blue]IPTV[/COLOR]Base on LivetreamsPro by Shani mod by Wolf </summary>
+    <description lang="en">[COLOR blue][B]Enjoy the Best Free IPTV [/B][/COLOR]</description>
     <platform>all</platform>
   </extension>
 </addon>
@@ -6323,13 +6336,13 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 	</extension>
 </addon>
 
-<addon id="plugin.video.saltsrd.lite" version="1.0.146" name="Salts RD Lite" provider-name="TKnorris (EPiC XvBMC MOD)">
+<addon id="plugin.video.saltsrd.lite" version="1.0.149b" name="Salts RD Lite" provider-name="TKnorris (EPiC XvBMC MOD)">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
         <import addon="script.module.myconnpy" version="1.1.6" />
-		
-        <import addon="script.module.tknorris.shared" version="0.0.7"/>
+		<!-- <import addon="repository.xvbmc" version="4.0.1"/> -->
+        <import addon="script.module.tknorris.shared" version="0.0.10"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
@@ -6465,7 +6478,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   <extension point='xbmc.python.module' library='lib' />
 </addon>
 
-<addon id="script.module.mctools" name="common tools mc" version="1.3.7" provider-name="mancuniancol">
+<addon id="script.module.mctools" name="common tools mc" version="1.4.5" provider-name="mancuniancol">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.beautifulsoup4" optional="false"/>
@@ -6561,26 +6574,146 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
     </extension>
 </addon>
 
-<addon id="skin.MG.aeon.madnox" version="1.9.1" name="Aeon MG Madnox" provider-name="Mike_Doc|Schimi2k|meowmoo|MG.Arabic">
+<addon id="plugin.video.coolmoviezoneER" version="0.1.0" name="Cool Movie Zone" provider-name="@MrEntertainRepo">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.TheYid.common" version="0.1.1"/>
+        <import addon="script.module.urlresolver"  version="2.0.9"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>movies</summary>
+        <description>www.entertainmentrepo.com</description>
+        <platform>all</platform>
+	 <forum>http://entertainmentrepo.weebly.com/</forum>
+	 <website>http://entertainmentrepo.weebly.com/</website>
+        <disclaimer lang="en">All the movies on this website are hosted on the third party sites and uploaded by other people. We are not responsible for any content that hosted on on the third-party sites. If you have any legal issues please contact appropriate video owners hosters.</disclaimer>
+    </extension>
+</addon>
+
+<addon id="plugin.video.fanfilm" name="FanFilm - MrKnow"  version="2016.10.28.2" provider-name="mrknow" >
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.requests" version="1.0.0" />
+		<import addon="script.module.metahandler" />
+		<import addon="plugin.video.youtube" optional="true" />
+		<import addon="script.mrknow.urlresolver" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">FanFilm Alpha version</summary>
+		<description lang="en">FanFilm </description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.
+		</disclaimer>
+		<summary lang="pl">FanFilm wersja Alfa</summary>
+		<description lang="pl">FanFilm wersja Alfa - 70% nie działa.</description>
+		<disclaimer lang="pl">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.
+		</disclaimer>
+		<forum>https://github.com/mrknow/filmkodi/issues</forum>
+		<source>http://filmkodi.com/repository/</source>
+		<website>http://filmkodi.com/</website>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="script.cu.lrclyrics" name="CU LRC Lyrics" version="4.2.2" provider-name="Taxigps, ronie">
+	<requires>
+		<import addon="xbmc.python" version="2.24.0"/>
+		<import addon="script.module.chardet" version="2.2.1"/>
+		<import addon="script.module.simplejson" version="3.3.0"/>
+	</requires>
+	<extension point="xbmc.python.lyrics" library="default.py"/>
+	<extension point="xbmc.service" library="default.py" start="login"/>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="be">CU LRC Lyrics</summary>
+		<summary lang="bg">CU LRC Лирики</summary>
+		<summary lang="ca">CU LRC Lyrics</summary>
+		<summary lang="da">CU LRC Lyrics</summary>
+		<summary lang="de">CU LRC-Songtext</summary>
+		<summary lang="el">Στίχοι CU LRC</summary>
+		<summary lang="en">CU LRC Lyrics</summary>
+		<summary lang="en_NZ">CU LRC Lyrics</summary>
+		<summary lang="en_US">CU LRC Lyrics</summary>
+		<summary lang="es">CU LRC Letras</summary>
+		<summary lang="fr">CU LRC Lyrics</summary>
+		<summary lang="fr_CA">Paroles CU LRC</summary>
+		<summary lang="gl">Letras de CU LRC</summary>
+		<summary lang="he">CU LRC Lyrics</summary>
+		<summary lang="hr">CU LRC tekstovi pjesama</summary>
+		<summary lang="hu">CU LRC Dalszöveg</summary>
+		<summary lang="id">Lirik CU LRC</summary>
+		<summary lang="it">CU LRC Lyrics</summary>
+		<summary lang="ko">CU LRC Lyrics</summary>
+		<summary lang="lt">CU LRC dainų žodžiai</summary>
+		<summary lang="nl">CU LRC songteksten</summary>
+		<summary lang="no">CU LRC sangtekster</summary>
+		<summary lang="pl">CU LRC Lyrics</summary>
+		<summary lang="pt">CU LRC Lyrics</summary>
+		<summary lang="pt_BR">CU LRC Letras</summary>
+		<summary lang="ro">Versuri CU LRC</summary>
+		<summary lang="sk">CU LRC Lyrics</summary>
+		<summary lang="sl">CU LRC Lyrics</summary>
+		<summary lang="sv">CU LRC Lyrics</summary>
+		<summary lang="zh">CU LRC 歌词</summary>
+		<description lang="be">CU LRC Lyrics is a lyrics script for Kodi. It supports regular as well as LRC Lyrics. The script can search synchronized/unsynchronized lyrics embedded, from file or by scrapers. It can read .lrc/.txt lyrics file saved at the same path by same file name with .mp3(or other type of music).</description>
+		<description lang="bg">CU LRC Лирики е добавка за лирики. Поддържа обикновени текстови файлове и .lrc файлове. Може да търси за синхронизирани/несинхронизирани лирики вградени в аудиофайловете или да ги извлича от различни източници. Може да прочита .lrc и .txt файлове съхраняващи лирики, които се намират в папката на дадения аудио файл (с разширение .mp3 например) и носят неговото име.</description>
+		<description lang="ca">CU LRC Lyrics es un script de lletres de cançons per a Kodi. Suporta lletres normal tan com LRC Lyrics. El script busca lletres sincronitzades o no, incrustades al fitxer d'àudio, des de un altre fitxer o per scrapers. Pot llegir fitxers .lrc/.txt guardats al mateix directori i nom de fitxer amb .mp3(o un altre tipus de música).</description>
+		<description lang="da">CU LRC Lyrics er et script til sangtekster til Kodi. Det understøtter almindelige såvel som LRC sangtekster. Script'et kan søge i synkroniserede/usynkroniserede sangtekster som er inkodede i filer eller ved hjælp af scrapere. Det kan læse .lrc/.txt sangtekstfiler som er gemt i den samme mappe og med samme filnavn som mp3'en (eller andre typer af musikfiler).</description>
+		<description lang="de">CU LRC-Songtext ist ein Songtextskript für Kodi, das sowohl normale als auch LRC-Songtexte unterstützt. Das Skript kann nach synchronisierten/unsynchronisierten eingebetteten Songtexten von Datei oder Scraper suchen. Es kann .lrc/.txt-Songtextdateien lesen, die im gleichen Pfad und mit dem gleichen Dateinamen mit .mp3 (oder eine anderen Musikart) gespeichert wurden.</description>
+		<description lang="el">Οι Στίχοι CU LRC είναι ένα script στίχων για το Kodi. Υποστηρίζει συνηθισμένους στίχους καθώς και Στίχους LRC. Το script μπορεί να αναζητήσει συγχρονισμένους και μη στίχους, ενσωματωμένους, από αρχεία ή από scraper. Μπορεί να διαβάσει αρχεία στίχων τύπου .lrc/.txt που βρίσκονται στον ίδιο φάκελο και έχουν το ίδιο όνομα με το .mp3 (ή άλλης κατάληξης μουσική).</description>
+		<description lang="en">CU LRC Lyrics is a lyrics script for Kodi. It supports regular as well as LRC Lyrics. The script can search synchronized/unsynchronized lyrics embedded, from file or by scrapers. It can read .lrc/.txt lyrics file saved at the same path by same file name with .mp3(or other type of music).</description>
+		<description lang="en_NZ">CU LRC Lyrics is a lyrics script for Kodi. It supports regular as well as LRC Lyrics. The script can search synchronised/unsynchronised lyrics embedded, from file or by scrapers. It can read .lrc/.txt lyrics file saved at the same path by same file name with .mp3(or other type of music).</description>
+		<description lang="en_US">CU LRC Lyrics is a lyrics script for Kodi. It supports regular as well as LRC Lyrics. The script can search synchronized/unsynchronized lyrics embedded, from file or by scrapers. It can read .lrc/.txt lyrics file saved at the same path by same file name with .mp3(or other type of music).</description>
+		<description lang="es">Letras de CRI de CU es un script de letras para Kodi. El soporte es regular como el de Lyrics LRC. La secuencia de comandos puede buscar letras sincronizadas/de sincronizadas incrustadas, por archivo o por scrapers. Puede leer .lrc/.txt de archivo de letras guardado en la misma carpeta con el mismo nombre del archivo con. mp3 (u otro tipo de música).</description>
+		<description lang="fr">CU LRC Lyrics est un script pour gérer les paroles dans Kodi. Il supporte les formats de paroles habituels aussi bien que LRC. Le script peut chercher des paroles synchronisées/désynchronisées intégrées dans les fichier ou par collecteurs. Il peut lire les fichiers paroles .lrc/.txt stockés dans le même dossier et avec le même nom que le fichier .mp3 (ou autre type de format musical).</description>
+		<description lang="fr_CA">Paroles CU LRC est un script de paroles pour Kodi. Il prend en charge les paroles régulières et LRC. Le script peut rechercher des paroles synchronisées/désynchronisées intégrées, d'un fichier ou de récupérateurs. Il peut lire les fichiers de paroles .lrc/.txt enregistrés dans le même chemin et avec le me nom que le .mp3 (ou autres types de musique).</description>
+		<description lang="gl">Letras CU LRC é un script de letras para Kodi. Soporta letras normais como as LRC. O script pode buscar letras sincronizadas/non sincronizadas incrustadas, ou buscar a partir dun ficheiro ou de scrapers. Pode ler letras de ficheiros .lrc/.txt gardados na mesma ruta do ficheiro .mp3 (ou outro tipo de música).</description>
+		<description lang="he">CU LRC Lyrics הינו סקריפט מילות שירים עבור Kodi התומך בפורמט LRC והן בטקסט רגיל. הסקריפט מסוגל לחפש מילות שיר מסונכרות/לא מסונכרות המוטמעות בשיר, מקובץ מקומי או בעזרת סקרייפר. הסקריפט מסוגל לקרוא קובץ מילות שיר txt/lrc השמור באותו נתיב עם שם זהה לקובץ ה-mp3 (או סוג אחר של קובץ מוזיקה).</description>
+		<description lang="hr">CU LRC tekstovi pjesama je skripta za Kodi. Podržavna redovne i LRC tekstove pjesama. Skripta može pretraživati usklađivati/uklanjati ugrađene tekstove pjesama, iz datoteke ili sakupljača. Može čitati .lrc/.txt datoteke tekstova pjesama spremljene u istu putanju s istim nazivom datoteke sa .mp3 (ili drugim vrstama glazbe).</description>
+		<description lang="hu">A CU LRC Dalszöveg egy kiegészítő az Kodi-hez, ami támogatja  a hagyományos és az LRC dalszövegek keresését, megjelenítését. A dalszöveg lehet szinkronizált, vagy szinkronizálatlan, a zenefájlba beágyazott, vagy leolvasókkal letöltött, vagy akár származhat a zene könyvtárában található .lrc vagy .txt fájlokból is.</description>
+		<description lang="id">Lirik CU LRC adalah script lirik untuk Kodi. Mendukung lirik regular maupun LRC. Script ini mampu mencari lirik dengan singkronisasi maupun tidak yang tercantum pada berkas atau melalui alat penyalin. Script dapat membaca berkas lirik .lrc/.txt yang disimpan di lokasi dan nama berkas yang sama dengan .mp3 (atau format musik lainnya).</description>
+		<description lang="it">CU LRC Lyrics è uno script per i testi per Kodi. Supporta testi come LRC. Lo script può cercare testi incorporati sincronizzati e non, da file o tramite scapers. Legge file .lrc/.txt salvati nello stesso percorso e con lo stesso nome dell'.mp3 (o altri tipi di musica)</description>
+		<description lang="ko">CU LRC Lyrics는 Kodi를 위한 가사 수집기입니다. 일반 가사와 LRC 가사를 지원하며, 내장 가동기/비동기 가사를 검색하거나 파일 내장 가사를 찾습니다. mp3(또는 다른 형식의 음악 파일)와 같은 경로에 저장되어 있는 .lrc/.txt 형식의 가사를 읽어옵니다.</description>
+		<description lang="lt">CU LRC Lyrics yra dainų žodžių atsiuntimo skriptas, skirtas Kodi. Palaikomi tiek įprasti, tiek LRC dainų žodžiai. Skriptas gali ieškoti sinchronizuotų / nesinchronizuotų dainų žodžių, integruotų failuose arba naudojant skreperius. Jis gali nuskaityti .lrc/.txt dainų žodžių failus, išsaugotus toje pačioje vietoje ir tokiu pačiu pavadinimu kaip ir .mp3 failas (ar kitokio muzikinio failo tipo).</description>
+		<description lang="nl">CU LRC Lyrics is een script voor songteksten in Kodi. Het ondersteunt zowel reguliere als LRC songteksten. Het script ondersteunt gesynchroniseerde of ongesynchroniseerde songteksten die ingebed zijn in een bestand, in een los bestand staan of van een scraper. Het kan .lrc/.txt songtekst-bestanden lezen die opgeslagen zijn op hetzelfde pad en dezelfde bestandsnaam hebben als de .mp3 (of ander type bestand).</description>
+		<description lang="no">CU LRC Lyrics er et skript for å vise sangtekster i Kodi. Den støtter vanlige samt LRC sangtekster. Skriptet kan søke synkroniserte / usynkroniserte sangtekster innebygd, fra en fil eller via skrapere. Den kan lese .lrc / .txt filer som er lagret på den samme banen og med samme filnavn (.mp3 eller annen type musikk).</description>
+		<description lang="pl">CU LRC Lyrics jest dodatkiem obsługującym teksty utworów dla Kodi. Obsługuje teksty utworów zarówno zwykłe jak i zsynchronizowane. Dodatek potrafi wyszukać teksty zapisane lokalnie, wbudowane w pliki utworów, a także pobierać je z Internetu. Potrafi wczytać teksty w formatach .lrc/.txt zapisane w tym samym folderze co pliku utworu .mp3 (lub innym wspierany formacie).</description>
+		<description lang="pt">CU LRC Lyrics é um script de letras para o Kodi. Suporta letras normais e LRC. O script pode encontrar letras sincronizadas/dessincronizadas embutidas, ou procurar a partir de ficheiro ou de colectores. Pode ler letras de ficheiros .lrc/.txt guardados na mesma localização do ficheiro .mp3 (ou outro tipo de música).</description>
+		<description lang="pt_BR">CU LRC Lyrics é script de letras de músicas para Kodi. Ele suporta regular bem como Letras LRC. O script pode procurar por letras embutidas sincronizadas/dessincronizadas, de arquivos ou usando scrapers. Ele pode ler arquivos de letras .lrc/txt salvos no mesmo caminho com o mesmo nome do arquivo .mp3 (ou outro formato de música).</description>
+		<description lang="sk">CU LRC Lyrics je doplnok poskytujúci texty skladieb pre Kodi. Podporuje bežné ako aj LRC formáty. Doplnok môže vyhľadávať synchronizované/nesynchronizované Texty skladieb vložené, v samostatnom súbore alebo cez sťahovače. Dokáže čítať .lrc/.txt súbory v rovnakom priečinku a s rovnakým názvom ako .mp3 súbor (alebo iný hudobný súbor).</description>
+		<description lang="sl">CU LRC Lyrics je skripta za besedila pesmi za Kodi. Podpira redne kot tudi LRC besedila pesmi. Skripta lahko išče sinhronizirana/nesinhronizirana besedila pesmi, vgrajena, iz datoteke ali od ponudnikov. Bere lahko .lrc/.txt formate zapisa datotek iz iste mape kot je istoimenska datoteka .mp3 (ali drigi format zapisa glasbe).</description>
+		<description lang="sv">CU LRC Lyrics är ett skript för Kodi. Det stödjer såväl vanliga som LRC texter. Skriptet kan söka synkroniserade/osynkroniserade texter inbäddade från fil eller från skraport. Det kan läsa .lrc/.txt filer sparade med samma sökväg och filnamn som .mp3 (eller annan typ av musik).</description>
+		<description lang="zh">CU LRC Lyrics 是 Kodi 的歌词插件。它支持原 LRC Lyrics 歌词插件的功能。这个插件会搜索内嵌的、本地文件或通过刮削器获取同步/非同步歌词。它可以读取以相同文件名与歌曲文件保存在相同目录的 .lrc/.txt 歌词文件。</description>
+		<language></language>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE Version 2</license>
+		<forum>http://forum.kodi.tv/showthread.php?tid=147340</forum>
+		<website></website>
+		<email></email>
+		<source>https://github.com/ronie/script.cu.lrclyrics/</source>
+	</extension>
+</addon>
+
+<addon id="plugin.video.bobbycart" name="Bobbys Cartoons" version="1.0.2" provider-name="Dandymedia">
   <requires>
-    <import addon="xbmc.gui" version="5.10.0"/>
-    <import addon="script.skinshortcuts" version="1.0.7"/>
-    <import addon="script.skin.helper.service" version="1.0.0"/>
-    <import addon="service.library.data.provider" version="0.0.7"/>
-    <import addon="script.toolbox" version="1.1.0"/>
-    <import addon="script.image.resource.select" version="0.0.5"/>
-	<import addon="resource.images.studios.white" version="0.0.1"/>
-	<import addon="resource.images.studios.coloured" version="0.0.1"/>
-</requires>
-<extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" debugging="false" effectslowdown="1.0">
-    <res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
-</extension>
-<extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <source>https://github.com/MadMikeDoc/skin.aeon.madnox</source>
-    <forum>http://forum.kodi.tv/showthread.php?tid=230821</forum>
-    <website>https://github.com/MadMikeDoc/skin.aeon.madnox</website>
-</extension>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.urlresolver"  version="3.0.0"/>
+	<import addon="script.module.addon.common" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+	<summary lang="en">Cartoons and Animation</summary>
+	<description lang="en">Hand picked Collection of Cartoon Series from Toonget and Kisspanda...Enjoy</description>
+	<disclaimer lang="en"></disclaimer>
+	<platform>all</platform>
+  </extension>
 </addon>
 
 </addons>

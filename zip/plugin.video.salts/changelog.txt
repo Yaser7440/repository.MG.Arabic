@@ -1,3 +1,73 @@
+[B]Version 2.0.110[/B]
+- Add animated gif poster scraper
+- Remove rainierland scraper
+- Fix afdah.tv
+- Fix Watch5s
+- Fix iWatchOnline
+- Switch tvshow.me to debrid only
+
+[B]Version 2.0.108[/B]
+- Allow image types to be disabled.
+- Fix Watch5s
+- Fix m4ufree
+- Fix flixanity
+- Fix pubfilm
+- Fix wmo
+- Fix DDLSeries
+- Add veocube scraper
+
+[B]Version 2.0.105[/B]
+- Add MaksiDizi scraper
+- Add WatchInHD scraper
+- Fix Putlocker scraper
+- Fix YesMovies
+- Improve xmovies8 scraper
+- Fix fanart disable
+- Add Refresh Images menu item
+- Improve thumbnail handling
+- Improve db_connection management
+
+[B]Version 2.0.103[/B]
+- Fix srt scraper bug
+- Fix salts check
+- Add Fanart.tv Personal API Key
+- Fix MoviesPlanet
+- Fix MovieXK
+- Fix Watch5s
+
+[B]Version 2.0.102[/B]
+- Switch TVDB scraper to use V1 API
+- Improve Season Image Scraping
+- Add yabancidizi scraper
+- Add Dizist scraper
+- Fix Putlocker
+
+[B]Version 2.0.97[/B]
+- Allow no-language and en images for fanart
+- Allow image scrapers to be disabled
+- Add episode screenshots support from MNE, WIA and Season views (ONLY)
+- Add flush image cache function
+- Fix VKFlix
+
+[B]Version 2.0.96[/B]
+- Add fanart.tv, tmdb, tvdb, and omdb as a source for images
+- Improve Easynews (user contribution)
+- Improve PubFilm
+- Improve HDFlix
+- Improve WatchSeries
+- Update MovieXK
+- Fix PutMV
+- Fix Dizibox
+- Fix PubFilm
+- Fix Movie4K
+
+[B]Version 2.0.95[/B]
+- Add SeriesCoco
+- Fix scene-rls
+- Fix flixanity
+- Fix PFTV
+- Remove vu45
+
 [B]Version 2.0.93[/B]
 - Add tvshow.me
 - Fix SeriesWatch

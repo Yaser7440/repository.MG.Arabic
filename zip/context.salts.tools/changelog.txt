@@ -1,3 +1,6 @@
+[B]Version 1.0.6[/B]
+- Handle widgets better
+
 [B]Version 1.0.5[/B]
 - Migration to shared lib
 

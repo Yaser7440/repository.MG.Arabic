@@ -1,3 +1,4 @@
+2016-10-26: https (for XvBMC Netherlands)
 2015-11-24: remove unicodes
 2015-10-18: remove folder, keep all in root
 2015-10-09: Revert "v13"

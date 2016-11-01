@@ -1,3 +1,39 @@
+Version 1.0.[B]149[/B](+b) EPiC Real-Debrid
++ All Kudos -2- TKnorris (Y)
++ rondje scraperzZz ;-p
+
+Version 1.0.[B]149[/B](+a) EPiC Real-Debrid
++ All Kudos -2- TKnorris (Y)
++ code cosmetics ;-p
+
+Version 1.0.[B]149[/B] EPiC Real-Debrid
++ All Kudos -2- TKnorris (Y)
+- Allow no-language and en images for fanart
+- Allow image scrapers to be disabled
+- Add episode screenshots support from MNE, WIA and Season views (ONLY)
+- Add flush image cache function
+
+Version 1.0.[B]148[/B](+a) EPiC Real-Debrid
++ All Kudos -2- TKnorris (Y)
++ openload.co (back-once-again -4- RD usage)
+- remove some defunct scrapers
+
+Version 1.0.[B]148[/B] EPiC Real-Debrid
++ All Kudos -2- TKnorris (Y)
++ some scraper fixes (2.0.96)
++ trakt.tv artwork changes
+- openload.co
+
+Version 1.0.[B]147[/B](+a) EPiC Real-Debrid
++ All Kudos -2- TKnorris (Y)
++ some scraper fixes (2.0.95)
+- openload.co
+
+Version 1.0.[B]147[/B] EPiC Real-Debrid
++ All Kudos -2- TKnorris (Y)
++ some scraper fixes (2.0.93)
+- openload.co
+
 Version 1.0.[B]146[/B] EPiC Real-Debrid
 + All Kudos -2- TKnorris (Y)
 + .Lite engine update (#MR-release v2.0.91)
@@ -86,6 +122,33 @@ Version 1.0.132[B]a[/B] EPiC Real-Debrid
 + Salts HD Lite .130 "engine" (kudos-2-TKnorris though)
 
 ---------------------
+
+[B]Version 2.0.97[/B]
+- Allow no-language and en images for fanart
+- Allow image scrapers to be disabled
+- Add episode screenshots support from MNE, WIA and Season views (ONLY)
+- Add flush image cache function
+- Fix VKFlix
+
+[B]Version 2.0.95[/B]
+- Add SeriesCoco
+- Fix scene-rls
+- Fix flixanity
+- Fix PFTV
+- Remove vu45
+
+[B]Version 2.0.93[/B]
+- Add tvshow.me
+- Fix SeriesWatch
+- Fix PubFilm
+- Fix rlsbb
+- Fix PFTV
+- Fix Farda
+- Fix WSO
+- Fix WMO
+- Add some TVA branding
+- Improve buttons for Jarvis vs Krypton
+- Remove defunct scrapers
 
 [B]Version 2.0.91[/B]
 - Fix Xmovies8.V2
