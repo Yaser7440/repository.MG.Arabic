@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-<addon id="plugin.program.MG.AR.wizard" name="MG AR Wizard" version="1.0.2" provider-name="MG.Arabic">
+<addon id="plugin.program.MG.AR.wizard" name="MG AR Wizard" version="1.0.3" provider-name="MG.Arabic">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -6714,6 +6714,25 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 	<disclaimer lang="en"></disclaimer>
 	<platform>all</platform>
   </extension>
+</addon>
+
+<addon id="plugin.video.sotwesoorahd.tv"
+       name="Sotwesoora.tv"
+       version="1.0.3"
+       provider-name="MG.Arabic">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.beautifulsoup" version="3.0.8"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Sotwesoora.tv</summary>
+        <description>Sotwesoora.tv plugin for XBMC. Scrapes Arabic movies from the famous online service.</description>
+        <platform>all</platform>
+    </extension>
 </addon>
 
 </addons>
