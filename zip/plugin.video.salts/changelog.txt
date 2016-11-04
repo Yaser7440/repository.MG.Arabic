@@ -1,3 +1,17 @@
+[B]Version 2.0.111[/B]
+- Improve animated poster handling
+- Add solarmovie
+- Improve alluc
+- Improve dizilab
+- Improve movietube
+- Improve torba
+- Improve xmovies8.v2
+- Fix tvshow.me
+- Fix WatchItVideos
+- Fix WatchSeries
+- Remove stage66
+- Remove uflix
+
 [B]Version 2.0.110[/B]
 - Add animated gif poster scraper
 - Remove rainierland scraper
