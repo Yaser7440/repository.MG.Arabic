@@ -1,9 +1,3 @@
-[B]1.0.2[/B]
-+ f4mtester (optie)
-
-[B]1.0.1[/B]
-+ icoon'tje d'r bie(r)
-+ 40 items per pagina (ipv 10)
-
-[B]1.0.0[/B]
-First release
+[B]1.0.3[/B]
+Changed: Set the default playback in the settings. Default is F4mProxy
+Added: Set a filter for the results in the settings, like 'Sky' for everything with Sky in the name

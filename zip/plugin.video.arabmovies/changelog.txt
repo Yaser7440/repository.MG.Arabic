@@ -1,2 +1,4 @@
+v1.0.2
+Pages fix
 v1.0.0
 Initial Release

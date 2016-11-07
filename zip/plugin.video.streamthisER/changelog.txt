@@ -1,0 +1,25 @@
+[B]Version 0.0.9[/B]
+- fixed tv shows
+
+[B]Version 0.0.8[/B]
+- fixed tv shows
+
+[B]Version 0.0.7[/B]
+- moved to a temp new site
+
+[B]Version 0.0.6[/B]
+- fixed search
+- code clean up
+
+[B]Version 0.0.5[/B]
+- added www.entertainmentrepo.com fanart
+- code clean up
+- added description in movies and tv shows
+
+[B]Version 0.0.4[/B]
+- beta version 
+- added movies
+- sites search is not good
+
+[B]Version 0.0.2[/B]
+- Initial beta version 
