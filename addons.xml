@@ -807,10 +807,9 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
   </extension>
 </addon>
 
-<addon id="plugin.video.youtube" name="YouTube" version="5.3.0" provider-name="jdf76, bromix">
+<addon id="plugin.video.youtube" name="YouTube" version="5.3.1" provider-name="jdf76, bromix">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.urlresolver" optional="true"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
@@ -823,7 +822,6 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
 - Added 'Subtitle language(s) to download' selection to Settings -> General
 - API key set switching from Settings -> API (this will log you out)
 - Dual login only required if My Subscriptions folder is enabled at sign-in
-- Added optional URLResolver (Debrid) support to Settings -> Advanced -> Enable URLResolver (Debrid) support
         </news>
         <assets>
             <icon>icon.png</icon>
@@ -2215,7 +2213,7 @@ Addons Included
 	</extension>
 </addon>
 
-<addon id="plugin.video.exodus" version="2.0.18" name="Exodus" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="2.0.20" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<!-- <import addon="repository.exodus" version="1.0.0" /> -->
@@ -2232,7 +2230,7 @@ Addons Included
 		<description lang="en">Please visit www.tvaddons.ag for Exodus support and assistance! Kindly note that Exodus is not an official part of the media player you are running, and therefore not to be mentioned within official support channels, this addon has nothing to do with the media player itself, nor it’s intended use, it is simply a third party plugin which has been added to your system.</description>
 		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
 		<platform>all</platform>
-		<news>- Fixed issue with Trakt Progress (missing tv shows)[CR]- Tweaked metadata retrieval[CR]- Tweaked indexers[CR]- Updated providers</news>
+		<news>- Updated indexers[CR]- Tweaked pagination of Trakt lists[CR]- Tweaked flatten of tv shows (for external addons and library)[CR]- Tweaked artwork of episode lists[CR]- Updated providers</news>
 	</extension>
 </addon>
 
@@ -3463,10 +3461,10 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="script.module.israeliveresolver" name="IsraeLiveResolver" version="0.3.0" provider-name="Avigdor (xbmc-israel repo)">
+<addon id="script.module.israeliveresolver" name="IsraeLiveResolver" version="0.3.1" provider-name="Avigdor (xbmc-israel repo)">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
-	<import addon="repository.xbmc-israel" />
+	<!-- <import addon="repository.xbmc-israel" /> -->
   </requires>
   <extension point="xbmc.python.module" library="lib" />
   <extension point="xbmc.addon.metadata">
@@ -5132,11 +5130,11 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="plugin.video.metalliq" name="[COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR]" version="1.1.5" provider-name="[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR], Midraal, forked from Meta-video">
+<addon id="plugin.video.metalliq" name="[COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR]" version="2.0.0" provider-name="[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR], Midraal, forked from Meta-video">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
-		
-		<import addon="script.module.requests"/>
+		<!-- <import addon="repository.q" version="0.0.0.1"/> -->
+		<import addon="script.module.requests" version="2.9.1"/>
 		<import addon="script.module.futures" version="2.2.0"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="addon.py">
@@ -5148,7 +5146,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 		<provides>executable</provides>	
 			<item>
 				<label>Preferred toggle</label>
-				<visible>!System.HasAddon(context.metalliq) + Skin.HasSetting(Toggling)</visible>
+				<visible>!System.HasAddon(context.metalliq) + !Skin.HasSetting(Toggling)</visible>
 			</item>
 	</extension>
 	<extension point="kodi.context.item" library="context_movie.py">
@@ -5176,7 +5174,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 		<provides>executable</provides>	
 			<item>
 				<label>$ADDON[plugin.video.metalliq 30622]</label>
-				<visible>!System.HasAddon(context.metalliq) + !StringCompare(ListItem.dbtype,tvshow) + !StringCompare(ListItem.dbtype,season) + !Skin.HasSetting(Contexting)</visible>
+				<visible>!System.HasAddon(context.metalliq) + !Skin.HasSetting(Contexting)</visible>
 			</item>
 	</extension>
 	<extension point="xbmc.addon.metadata">
@@ -5185,7 +5183,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 		<summary lang="en">TMDb, TVDb, Trakt, AudioDb and LastFM browser</summary>
 		<description lang="en">Browse The MovieDb, The TVDb, Trakt, The AudioDb and LastFM and pass info along to library or an addon to try and play it. Needs player-files and the appropriate addon to actually play.</description>
 		<summary lang="nl">Blader door TMDb, TVDb, Trakt, AudioDb en LastFM</summary>
-		<description lang="nl">Blader door The MovieDb, The TVDb, Trakt, The AudioDb en LastFM en geef info door aan de bibliotheek of een addon om te proberem het af te spelen. Vereist player-bestanden en de bijbehorende addon om daadwerkelijk af te kunnen spelen.</description>
+		<description lang="nl">Blader door The MovieDb, The TVDb, Trakt, The AudioDb en LastFM en geef info door aan de bibliotheek of een addon om te proberen het af te spelen. Vereist player-bestanden en de bijbehorende addon om daadwerkelijk af te kunnen spelen.</description>
 		<supportedcontent>
 			<content>movies</content>
 			<content>tvshows</content>
@@ -6372,7 +6370,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 	</extension>
 </addon>
 
-<addon id="plugin.video.saltsrd.lite" version="1.0.149b" name="Salts RD Lite" provider-name="TKnorris (EPiC XvBMC MOD)">
+<addon id="plugin.video.saltsrd.lite" version="1.0.149c" name="Salts RD Lite" provider-name="TKnorris (EPiC XvBMC MOD)">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>

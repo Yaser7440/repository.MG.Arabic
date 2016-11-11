@@ -1,3 +1,22 @@
+v2.0.[COLOR ff0084ff]0[/COLOR]
+- Added extrafanart & extrathumb paths to fix errors on skins using those paths (Midraal)
+- Added background to "Next"-items
+- Added random play (Midraal)
+- Added setting to in/exclude episodes with unknown airdate when adding to library (default=exclude)
+- Added episode airdate parameters: {epday}, {epmonth} and {epyear}
+- Added "play latest episode"-route: plugin://plugin.video.metalliq/tv/play_latest/<id> (with id being trakt-showid or trakt-slug or imdb-showid)
+- Added custom "Bob"-themed fallback-posters
+- Added trakt-lists-to-library (Midraal)
+- Changed default for context toggle from acceleration to skin and from off to on to improve the skinswitching
+- Changed default number of listitems to 20 on account of longer loading times since Trakt removed images from their api
+- Changed artwork for Trakt sections to TMDb
+- Fixed trakt-list-to-library
+- Fixed music adding (Midraal)
+- Fixed movie genres
+- Fixed specific-player-per-movie
+- Fixed music and misc-views (Midraal)
+- Fixed title-parameters with non-utf8 in them
+
 v1.1.[COLOR ff0084ff]5[/COLOR]
 - Added option to set specific player per movie in library
 - Added option to add entire trakt lists to kodi library, also makes id-lists compatible with batch-add function

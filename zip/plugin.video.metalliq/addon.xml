@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.metalliq" name="[COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR]" version="1.1.5" provider-name="[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR], Midraal, forked from Meta-video">
+<addon id="plugin.video.metalliq" name="[COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR]" version="2.0.0" provider-name="[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR], Midraal, forked from Meta-video">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
-		
-		<import addon="script.module.requests"/>
+		<!-- <import addon="repository.q" version="0.0.0.1"/> -->
+		<import addon="script.module.requests" version="2.9.1"/>
 		<import addon="script.module.futures" version="2.2.0"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="addon.py">
@@ -15,7 +15,7 @@
 		<provides>executable</provides>	
 			<item>
 				<label>Preferred toggle</label>
-				<visible>!System.HasAddon(context.metalliq) + Skin.HasSetting(Toggling)</visible>
+				<visible>!System.HasAddon(context.metalliq) + !Skin.HasSetting(Toggling)</visible>
 			</item>
 	</extension>
 	<extension point="kodi.context.item" library="context_movie.py">
@@ -43,7 +43,7 @@
 		<provides>executable</provides>	
 			<item>
 				<label>$ADDON[plugin.video.metalliq 30622]</label>
-				<visible>!System.HasAddon(context.metalliq) + !StringCompare(ListItem.dbtype,tvshow) + !StringCompare(ListItem.dbtype,season) + !Skin.HasSetting(Contexting)</visible>
+				<visible>!System.HasAddon(context.metalliq) + !Skin.HasSetting(Contexting)</visible>
 			</item>
 	</extension>
 	<extension point="xbmc.addon.metadata">
@@ -52,7 +52,7 @@
 		<summary lang="en">TMDb, TVDb, Trakt, AudioDb and LastFM browser</summary>
 		<description lang="en">Browse The MovieDb, The TVDb, Trakt, The AudioDb and LastFM and pass info along to library or an addon to try and play it. Needs player-files and the appropriate addon to actually play.</description>
 		<summary lang="nl">Blader door TMDb, TVDb, Trakt, AudioDb en LastFM</summary>
-		<description lang="nl">Blader door The MovieDb, The TVDb, Trakt, The AudioDb en LastFM en geef info door aan de bibliotheek of een addon om te proberem het af te spelen. Vereist player-bestanden en de bijbehorende addon om daadwerkelijk af te kunnen spelen.</description>
+		<description lang="nl">Blader door The MovieDb, The TVDb, Trakt, The AudioDb en LastFM en geef info door aan de bibliotheek of een addon om te proberen het af te spelen. Vereist player-bestanden en de bijbehorende addon om daadwerkelijk af te kunnen spelen.</description>
 		<supportedcontent>
 			<content>movies</content>
 			<content>tvshows</content>

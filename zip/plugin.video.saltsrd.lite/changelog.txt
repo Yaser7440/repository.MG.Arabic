@@ -1,3 +1,7 @@
+Version 1.0.[B]149[/B](+c) EPiC Real-Debrid
++ All Kudos -2- TKnorris (Y)
++ VOODOO
+
 Version 1.0.[B]149[/B](+b) EPiC Real-Debrid
 + All Kudos -2- TKnorris (Y)
 + rondje scraperzZz ;-p
