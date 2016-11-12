@@ -1,3 +1,18 @@
+[B]Version 2.0.116[/B]
+- Improve Flush Url Cache to show progress on Kryton
+- Add support for Cast Thumbnails on Krypton
+- Fix image_cache table primary key (overlap of trakt id's)
+- Remove "images" parameter for all trakt calls 
+- Disable remote image look ups on search
+- Add quikr scraper
+- Fix putlocker
+- Fix 2DDL
+- Fix Flixanity
+- Fix SolarMovie
+- Improve torba
+- Improve Watch5s
+- Improve SolarMovie
+
 [B]Version 2.0.111[/B]
 - Improve animated poster handling
 - Add solarmovie
