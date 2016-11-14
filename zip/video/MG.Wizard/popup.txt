@@ -1,3 +1,8 @@
 1
 |||
 Welcome to MG Arabic new Custom Build installer we now host our own build on http://mg.esy.es/Kodi/
+The message displayed here is to keep you all updated on any new build releases
+or general announcements and aim to be as non-intrustive as possible 
+
+IMPORTANT:When installing a build it is recommended to start from a fresh installation of kodi
+Thank you for all your support in what we do and i hope u all enjoy the builds and apps hosted here. 
