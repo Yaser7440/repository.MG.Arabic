@@ -807,7 +807,7 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
   </extension>
 </addon>
 
-<addon id="plugin.video.youtube" name="YouTube" version="5.3.1" provider-name="jdf76, bromix">
+<addon id="plugin.video.youtube" name="YouTube" version="5.3.3" provider-name="jdf76, bromix">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 	</requires>
@@ -822,6 +822,7 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
 - Added 'Subtitle language(s) to download' selection to Settings -> General
 - API key set switching from Settings -> API (this will log you out)
 - Dual login only required if My Subscriptions folder is enabled at sign-in
+- API Tweaking and Various other Updates
         </news>
         <assets>
             <icon>icon.png</icon>
@@ -3474,7 +3475,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="script.mrknow.urlresolver" name="Mrknow URLResolver" version="2016.11.4.1" provider-name="mrknow" >
+<addon id="script.mrknow.urlresolver" name="Mrknow URLResolver" version="2016.11.12.1" provider-name="mrknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -5752,19 +5753,19 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="plugin.video.saltshd.lite" version="1.0.146a" name="Salts HD Lite" provider-name="tknorris">
-    <requires>
-        <import addon="xbmc.python" version="2.19.0"/>
-        <import addon="script.module.urlresolver" version="3.0.0"/>
-        <import addon="script.module.myconnpy" version="1.1.6" />
-		
-        <import addon="script.module.tknorris.shared" version="0.0.7"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-     <extension point="xbmc.service" library="service.py" start="startup"/>
-    <extension point="xbmc.addon.metadata">
+<addon id="plugin.video.saltshd.lite" version="1.0.148b" name="Salts HD Lite" provider-name="tknorris">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+		<import addon="script.module.urlresolver" version="3.0.0"/>
+		<import addon="script.module.myconnpy" version="1.1.6" />
+		<!-- <import addon="repository.xvbmc" version="4.0.0"/> -->
+		<import addon="script.module.tknorris.shared" version="0.0.10"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	 <extension point="xbmc.service" library="service.py" start="startup"/>
+	<extension point="xbmc.addon.metadata">
         <summary>Stream video from many difference sources</summary>
         <description>This is the mod version of Salts by Scott Marten.</description>
         <platform>all</platform>
@@ -6370,19 +6371,19 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 	</extension>
 </addon>
 
-<addon id="plugin.video.saltsrd.lite" version="1.0.149c" name="Salts RD Lite" provider-name="TKnorris (EPiC XvBMC MOD)">
-    <requires>
-        <import addon="xbmc.python" version="2.19.0"/>
-        <import addon="script.module.urlresolver" version="3.0.0"/>
-        <import addon="script.module.myconnpy" version="1.1.6" />
+<addon id="plugin.video.saltsrd.lite" version="1.0.149e" name="Salts RD Lite" provider-name="TKnorris (EPiC XvBMC MOD)">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+		<import addon="script.module.urlresolver" version="3.0.0"/>
+		<import addon="script.module.myconnpy" version="1.1.6" />
 		<!-- <import addon="repository.xvbmc" version="4.0.1"/> -->
-        <import addon="script.module.tknorris.shared" version="0.0.10"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-     <extension point="xbmc.service" library="service.py" start="startup"/>
-    <extension point="xbmc.addon.metadata">
+		<import addon="script.module.tknorris.shared" version="0.0.10"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	 <extension point="xbmc.service" library="service.py" start="startup"/>
+	<extension point="xbmc.addon.metadata">
         <summary>Stream video from many difference sources with EPiC SALTs RD Lite (RealDebrid)</summary>
         <description>This is the MOD version of SALTs by EPiC + Scott Marten (Credits -2- TKnorris obviously) -4- RealDebrid usage.</description>
         <platform>all</platform>
@@ -6587,7 +6588,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 </addon>
 
 <addon id="net.rieter.xot.channel.be"
-       version="4.1.1.9"
+       version="4.1.2.3"
        name="Retrospect Belgium Channels"
        provider-name="Bas Rieter">
 
@@ -6655,7 +6656,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 	</extension>
 </addon>
 
-<addon id="script.cu.lrclyrics" name="CU LRC Lyrics" version="4.3.0" provider-name="Taxigps, ronie">
+<addon id="script.cu.lrclyrics" name="CU LRC Lyrics" version="4.3.1" provider-name="Taxigps, ronie">
 	<requires>
 		<import addon="xbmc.python" version="2.24.0"/>
 		<import addon="script.module.chardet" version="2.2.1"/>
@@ -6848,7 +6849,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="repository.q" name="[COLOR FF8ABEE2]Q[/COLOR]'s Repository" version="0.0.2.2" provider-name="[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR]">
+<addon id="repository.q" name="[COLOR FF8ABEE2]Q[/COLOR]'s Repository" version="0.0.2.3" provider-name="[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR]">
 	<extension point="xbmc.addon.repository"
 		name="[COLOR FF8ABEE2]Q[/COLOR]'s Add-on Repository">
 		<dir minversion="14.0.0">
@@ -6861,7 +6862,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 			<checksum>https://github.com/OpenELEQ/repository.q.jarvis/raw/master/openeleq-addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.github.com/OpenELEQ/repository.q.jarvis/master/zips/</datadir>
 		</dir>
-		<dir minversion="17.0.0">
+		<dir minversion="16.9.9">
 			<info compressed="false">https://github.com/OpenELEQ/repository.q.krypton/raw/master/openeleq-addons.xml</info>
 			<checksum>https://github.com/OpenELEQ/repository.q.krypton/raw/master/openeleq-addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.github.com/OpenELEQ/repository.q.krypton/master/zips/</datadir>
@@ -6876,7 +6877,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 		<disclaimer lang="nl">[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR] heeft niet alle add-ons in dit depot gemaakt en is ook op geen enkele manier verantwoordelijk voor hun inhoud.</disclaimer>
 		<platform>all</platform>
 		<forum>http://www.noobsandnerds.com/support/showthread.php?tid=16754</forum>
-		<source>https://github.com/OpenELEQ/repository.q/tree/master/zips/repository.q-0.0.2.2.zip</source>
+		<source>https://github.com/OpenELEQ/repository.q/tree/master/zips/repository.q-0.0.2.3.zip</source>
 		<email>OpenELEQ@gmail.com</email>
 	</extension>
 </addon>

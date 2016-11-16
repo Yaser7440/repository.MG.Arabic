@@ -1,3 +1,5 @@
+[B]Version 0.0.2.3[/B]
+- Fixed krypton dir
 [B]Version 0.0.2.2[/B]
 - Added krypton dir
 - Added forum info

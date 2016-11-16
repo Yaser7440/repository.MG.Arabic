@@ -1,7 +1,10 @@
 ﻿[B]Changelog[/B]
-Fixed: Eén updated their site (Fixes #762)
+Fixed: Ketnet is switching stream provider (Fixes #780)
 
 [I]Previous Changes[/I]
+Fixed: Eén updated their site again (Fixes #773)
+Fixed: no longer required to log on for playback (See #736)
+Fixed: Eén updated their site (Fixes #762)
 Fixed: Canvas updated their site (Fixes #747)
 Fixed: RTBF live streams broke due to HLS switch (Fixes #742)
 Fixed: De Redactie did not retrieve media url
