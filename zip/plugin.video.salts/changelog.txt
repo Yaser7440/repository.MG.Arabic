@@ -1,3 +1,28 @@
+[B]Version 2.0.121[/B]
+- Fix VKFlix
+- Fix SpaceMov
+- Fix HeyDL
+- Improve TVHD scraper
+- Improve vidics
+- Remove MaksiDizi
+
+[B]Version 2.0.120[/B]
+- Add dailyreleases scraper
+- Add TVHD scraper
+- Add SeeHD scraper
+- Add RLSHD scraper
+- Fix putlocker
+- Fix DDLSeries
+- Fix watch8now
+- Fix vidnow4k
+- Fix PutMV
+- Fix CouchTuner
+- Fix MoviePool
+- Remove crazy4tv scraper
+- Remove HDFlix
+- Add option to use tmdb image api cache module
+- Improve token related scrapers
+
 [B]Version 2.0.116[/B]
 - Improve Flush Url Cache to show progress on Kryton
 - Add support for Cast Thumbnails on Krypton

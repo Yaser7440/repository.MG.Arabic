@@ -715,12 +715,13 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
   </extension>
 </addon>
 
-<addon id="plugin.video.salts" version="2.0.116" name="Stream All The Sources" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.121" name="Stream All The Sources" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
         <import addon="script.module.myconnpy" version="1.1.6" />
-        <import addon="script.module.tknorris.shared" version="0.0.11"/>
+        <import addon="script.module.tknorris.shared" version="0.0.12"/>
+        <import addon="script.module.image_cache" version="0.0.1" optional="true"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
@@ -747,7 +748,7 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
 	</extension>
 </addon>
 
-<addon id="script.module.tknorris.shared" name="TKNorris Common Libraries" version="0.0.11" provider-name="tknorris">
+<addon id="script.module.tknorris.shared" name="TKNorris Common Libraries" version="0.0.12" provider-name="tknorris">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -807,7 +808,7 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
   </extension>
 </addon>
 
-<addon id="plugin.video.youtube" name="YouTube" version="5.3.3" provider-name="jdf76, bromix">
+<addon id="plugin.video.youtube" name="YouTube" version="5.3.4" provider-name="jdf76, bromix">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 	</requires>
@@ -1053,7 +1054,7 @@ Other languages with a great number of subtitles are: Danish, French, Swedish, D
 
 <addon id="script.video.F4mProxy" 
 	     name="F4mProxy" 
-	     version="2.6.6" 
+	     version="2.6.7" 
 	     provider-name="Shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
@@ -1557,7 +1558,7 @@ Addons Included
   </extension>
 </addon>
 
-<addon id="plugin.video.phstreams" name="Phoenix" version="3.1.15" provider-name="tvaddons.ag">
+<addon id="plugin.video.phstreams" name="Phoenix" version="3.1.16" provider-name="tvaddons.ag">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
@@ -1575,7 +1576,7 @@ Addons Included
 		<platform>all</platform>
 		<forum>http://forums.tvaddons.ag/forums/220-PHOENIX-LIVE-STREAMS</forum>
 		<website>http://www.tvaddons.ag/</website>
-		<news>Updated scrapers[CR]Cosmetics</news>
+		<news>Updated indexers[CR]Updated scrapers[CR]Cosmetics</news>
 	</extension>
 </addon>
 
@@ -1600,7 +1601,7 @@ Addons Included
 
 
 
-<addon id="plugin.video.livemix" name="Live Mix" version="1.0.9" provider-name="MetalKettle">
+<addon id="plugin.video.livemix" name="Live Mix" version="2.0.0" provider-name="MetalKettle">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.addon.common" version="2.0.0" />
@@ -2174,7 +2175,7 @@ Addons Included
   </extension>
 </addon>
 
-<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2016.11.11.1" provider-name="mrknow" >
+<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2016.11.18.3" provider-name="mrknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.requests" version="1.0.0" />
@@ -2278,7 +2279,7 @@ Addons Included
 	</extension>
 </addon>
 
-<addon id="plugin.video.moviemix" name="Movie Mix" version="2.0.1" provider-name="MetalKettle">
+<addon id="plugin.video.moviemix" name="Movie Mix" version="2.0.2" provider-name="MetalKettle">
 
   <requires>
 
@@ -5440,7 +5441,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="script.skinshortcuts" name="Skin Shortcuts" version="1.0.11" provider-name="BigNoid,marcelveldt">
+<addon id="script.skinshortcuts" name="Skin Shortcuts" version="1.0.12" provider-name="BigNoid,marcelveldt">
 	<requires>
 		<import addon="xbmc.python" version="2.20.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
@@ -6565,7 +6566,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 </addon>
 
 <addon id="net.rieter.xot.channel.se"
-       version="4.1.1.15"
+       version="4.1.2.6"
        name="Retrospect Swedish Channels"
        provider-name="Bas Rieter">
 
@@ -6588,7 +6589,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 </addon>
 
 <addon id="net.rieter.xot.channel.be"
-       version="4.1.2.3"
+       version="4.1.2.4"
        name="Retrospect Belgium Channels"
        provider-name="Bas Rieter">
 
