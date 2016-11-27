@@ -1,15 +1,17 @@
+Version 1.1.1
+    playlist issue fixed
 Version 1.1.0
-	added support for Live-resolver
+    added support for Live-resolver
 Version 1.0.9
-	fixed meta, info
+    fixed meta, info
 Version 1.0.8
-	added support for URL-resolver in setings, minor fixes
+    added support for URL-resolver in setings, minor fixes
 Version 1.0.7
-	added support for liveresolver
+    added support for liveresolver
 version 1.0.6
-	new resolvers, new encryption point
+    new resolvers, new encryption point
 Version 1.0.5
-	new resolvers, fixed depencies
+    new resolvers, fixed depencies
 Version 1.0.4
     new resolvers, bug fixes, fixed x-forward
 Version 1.0.3

@@ -4,7 +4,7 @@
 		<import addon="xbmc.python" version="2.19.0"/>
 		<import addon="plugin.program.super.favourites" version="1.0.48"/>
 		<import addon="plugin.video.metalliq" version="1.1.0"/>
-		
+		<!-- <import addon="repository.q"/> -->
 		<import addon="script.module.pil" version="1.1.7"/>
 		<import addon="script.module.requests" version="1.1.0"/>
 		<import addon="script.module.simplejson" version="2.0.10"/>

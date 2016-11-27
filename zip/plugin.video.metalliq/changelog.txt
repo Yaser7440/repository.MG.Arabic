@@ -1,3 +1,11 @@
+v2.0.[COLOR ff0084ff]1[/COLOR]
+- Added setting to in/exclude artwork for Trakt lists
+- Corrected differing variables
+- Fixed tv genres
+- Fixed fetching id's (should fix other tv-sections)
+- Re-added missing route
+- Reverted setting preferred player
+
 v2.0.[COLOR ff0084ff]0[/COLOR]
 - Added extrafanart & extrathumb paths to fix errors on skins using those paths (Midraal)
 - Added background to "Next"-items
