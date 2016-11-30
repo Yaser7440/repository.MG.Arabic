@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.audio.6arbyat"
        name="6arbyat"
-       version="1.0.0"
-       provider-name="TSmedia team">
+       version="1.0.2"
+       provider-name="Edit by-MG.Arabic">
    <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         
@@ -14,7 +14,7 @@
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>tvgate.com</summary>
+    <summary>Edit by-MG.Arabic http://mg.esy.es/Kodi/</summary>
     <description>arabic songs from 6arbyat.com</description>
     <platform>all</platform>
   </extension>
