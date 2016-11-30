@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.uiptv"
        name="Ultimate IPTV"
-       version="1.0.3"
-       provider-name="mortael">
+       version="1.0.4"
+       provider-name="Whitecream">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.video.F4mProxy" version="2.5.7" />

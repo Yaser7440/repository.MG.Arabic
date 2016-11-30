@@ -1759,7 +1759,7 @@ Addons Included
   </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="3.0.23.1" provider-name="tvaddons.ag, Eldorado">
+<addon id="script.module.urlresolver" name="URLResolver" version="3.0.25" provider-name="tvaddons.ag, Eldorado">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -5912,8 +5912,8 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 
 <addon id="plugin.video.uiptv"
        name="Ultimate IPTV"
-       version="1.0.3"
-       provider-name="mortael">
+       version="1.0.4"
+       provider-name="Whitecream">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.video.F4mProxy" version="2.5.7" />
