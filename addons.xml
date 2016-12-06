@@ -823,7 +823,7 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
   </extension>
 </addon>
 
-<addon id="plugin.video.youtube" name="YouTube" version="5.3.4" provider-name="jdf76, bromix">
+<addon id="plugin.video.youtube" name="YouTube" version="5.3.6" provider-name="jdf76, bromix">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 	</requires>
@@ -832,13 +832,20 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
 	</extension>
 	<extension point="xbmc.addon.metadata">
         <news>
-- Added MPEG-DASH support for Kodi 17 w/ inputstream.mpd Add-on
-- Added optional History and Watch Later custom playlist to Settings -> Folders, or (My)Playlists context menu to set/remove
-- Added Maintenance section to Settings
-- Added 'Subtitle language(s) to download' selection to Settings -> General
-- API key set switching from Settings -> API (this will log you out)
-- Dual login only required if My Subscriptions folder is enabled at sign-in
-- API Tweaking and Various other Updates
+[add] MPEG-DASH support for Kodi 17 w/ inputstream.adaptive Add-on
+[add] optional History and Watch Later custom playlist to Settings -> Folders, or (My)Playlists context menu to set/remove
+[add] Maintenance section to Settings
+[add] 'Subtitle language(s) to download' selection to Settings -> General
+[add] 'Force SSL Certificate verification' to Settings -> Advanced
+[upd] API key set switching from Settings -> API (this will log you out)
+[upd] Dual login only required if My Subscriptions folder is enabled at sign-in
+[upd] setting content type from episodes, now videos
+[del] override view options
+[upd] Norwegian strings [torstehu]
+[upd] Greek strings [twilight0]
+[upd] Portuguese strings [Wanilton]
+[upd] Dutch strings [flemlion]
+[fix/upd] API tweaking and various other updates
         </news>
         <assets>
             <icon>icon.png</icon>
@@ -2235,7 +2242,7 @@ Addons Included
   </extension>
 </addon>
 
-<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2016.11.18.3" provider-name="mrknow" >
+<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2016.12.03.1" provider-name="mrknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.requests" version="1.0.0" />
@@ -2275,7 +2282,7 @@ Addons Included
 	</extension>
 </addon>
 
-<addon id="plugin.video.exodus" version="2.0.21" name="Exodus" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="2.0.22" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<!-- <import addon="repository.exodus" version="1.0.0" /> -->
@@ -2292,7 +2299,7 @@ Addons Included
 		<description lang="en">Please visit www.tvaddons.ag for Exodus support and assistance! Kindly note that Exodus is not an official part of the media player you are running, and therefore not to be mentioned within official support channels, this addon has nothing to do with the media player itself, nor it’s intended use, it is simply a third party plugin which has been added to your system.</description>
 		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
 		<platform>all</platform>
-		<news>- Tweaked metadata and playback[CR]- Updated existing providers[CR]- Removed dead providers[CR]- Added new providers</news>
+		<news>- Tweaked provider retrieval[CR]- Tweaked stream resolving[CR]- Updated existing providers[CR]- Removed dead providers[CR]- Added new providers</news>
 	</extension>
 </addon>
 
@@ -3603,7 +3610,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
     </extension>
 </addon>
 
-<addon id="resource.images.studios.white" name="Studio Icons - White" version="0.0.8" provider-name="Team Kodi">
+<addon id="resource.images.studios.white" name="Studio Icons - White" version="0.0.9" provider-name="Team Kodi">
 	<extension point="kodi.resource.images" compile="true" type="studios" />
 	<requires>
 		<import addon="kodi.resource" version="1.0.0"/>
@@ -3923,18 +3930,17 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 	</extension>
 </addon>
 
-<addon id="plugin.video.Evolve" name="[COLOR red]E[/COLOR][COLOR white]volve[/COLOR]" version="0.0.7" provider-name="Team Evolve">
+<addon id="plugin.video.Evolve" name="[COLOR red]E[/COLOR][COLOR white]volve[/COLOR]" version="0.0.9" provider-name="Team Evolve">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.simplejson" version="3.3.0"/>
-    <import addon="script.module.urlresolver"  version="2.1.2"/>
-    <import addon="script.module.liveresolver" version="0.1.24"/>
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <!-- <import addon="repository.metalkettle" version="1.7.1"/>
-    <import addon="repository.shani" version="2.9"/>
-    <import addon="repository.unofficialsportsdevil" version="1.0.0"/> -->
+    <import addon="script.module.simplejson" version="0.0.1"/>
+    <import addon="script.module.urlresolver"  version="0.0.1"/>
+    <import addon="script.module.liveresolver" version="0.0.1"/>
+    <import addon="script.common.plugin.cache" version="0.0.1"/>
+<!--     <import addon="repository.metalkettle" version="0.0.1"/>
+    <import addon="repository.shani" version="0.0.1"/> -->
 
-    <import addon="script.module.metahandler" version="2.5.1"/>
+    <import addon="script.module.metahandler" version="0.0.1"/>
     <import addon="plugin.video.youtube" optional="true" />
 
   </requires>
@@ -5506,7 +5512,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="script.skinshortcuts" name="Skin Shortcuts" version="1.0.12" provider-name="BigNoid,marcelveldt">
+<addon id="script.skinshortcuts" name="Skin Shortcuts" version="1.0.13" provider-name="BigNoid,marcelveldt">
 	<requires>
 		<import addon="xbmc.python" version="2.20.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
@@ -7089,6 +7095,24 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 	<extension point="xbmc.addon.metadata">
 		<summary>The Husham.com Repo</summary>
 		<description>Download and install addons from husham.com repo</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.MatsBuilds" name="Goliaths Add-ons repository" version="1.0.17" provider-name="Goliath">
+	<extension point="xbmc.addon.repository" name="Goliaths Repository">
+	<dir>
+		<info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
+		<checksum>https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/</datadir>
+	</dir>
+		<info compressed="false">https://raw.githubusercontent.com/Goliath-Evolve/repository.Goliath/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/Goliath-Evolve/repository.Goliath/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/Goliath-Evolve/repository.Goliath/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install Add-ons from Goliath</summary>
+		<description>Download and install Add-ons from Goliaths repository</description>
 		<platform>all</platform>
 	</extension>
 </addon>
