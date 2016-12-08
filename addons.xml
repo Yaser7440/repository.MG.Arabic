@@ -730,7 +730,7 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
   </extension>
 </addon>
 
-<addon id="plugin.video.salts" version="2.0.122" name="Stream All The Sources" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.126" name="Stream All The Sources" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
@@ -1625,7 +1625,7 @@ Addons Included
   </extension>
 </addon>
 
-<addon id="plugin.video.phstreams" name="Phoenix" version="3.1.16" provider-name="tvaddons.ag">
+<addon id="plugin.video.phstreams" name="Phoenix" version="3.1.18" provider-name="tvaddons.ag">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
@@ -2378,7 +2378,7 @@ Addons Included
 
 </addon>
 
-<addon id="plugin.video.sportsmix" name="Sports Mix" version="1.0.5" provider-name="MetalKettle">
+<addon id="plugin.video.sportsmix" name="Sports Mix" version="1.0.6" provider-name="MetalKettle">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -3543,7 +3543,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="script.mrknow.urlresolver" name="Mrknow URLResolver" version="2016.11.12.1" provider-name="mrknow" >
+<addon id="script.mrknow.urlresolver" name="Mrknow URLResolver" version="2016.12.05.1" provider-name="mrknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -5918,7 +5918,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 
 <addon id="plugin.video.uiptv"
        name="Ultimate IPTV"
-       version="1.0.4"
+       version="1.0.5"
        provider-name="Whitecream">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
