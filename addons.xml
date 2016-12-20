@@ -95,10 +95,10 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.f4mTester" version="2.6.9" name="f4mTester" provider-name="Shani">
+<addon id="plugin.video.f4mTester" version="2.7.1" name="f4mTester" provider-name="Shani">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.video.F4mProxy" version="2.6.8"/>
+        <import addon="script.video.F4mProxy" version="2.7.1"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
@@ -1126,7 +1126,7 @@ v5.1.14 (2016-11-20)
 
 <addon id="script.video.F4mProxy" 
 	     name="F4mProxy" 
-	     version="2.6.9" 
+	     version="2.7.7" 
 	     provider-name="Shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
@@ -1625,7 +1625,7 @@ Addons Included
   </extension>
 </addon>
 
-<addon id="plugin.video.phstreams" name="Phoenix" version="3.1.18" provider-name="tvaddons.ag">
+<addon id="plugin.video.phstreams" name="Phoenix" version="3.1.19" provider-name="tvaddons.ag">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
@@ -1643,7 +1643,7 @@ Addons Included
 		<platform>all</platform>
 		<forum>http://forums.tvaddons.ag/forums/220-PHOENIX-LIVE-STREAMS</forum>
 		<website>http://www.tvaddons.ag/</website>
-		<news>Updated indexers[CR]Updated scrapers[CR]Cosmetics</news>
+		<news>Updated indexers[CR]Updated modules[CR]Updated providers[CR]Cosmetics</news>
 	</extension>
 </addon>
 
@@ -1766,7 +1766,7 @@ Addons Included
   </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="3.0.25" provider-name="tvaddons.ag, Eldorado">
+<addon id="script.module.urlresolver" name="URLResolver" version="3.0.26" provider-name="tvaddons.ag, Eldorado">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -2028,11 +2028,10 @@ Addons Included
   </extension>
 </addon>
 
-<addon id="service.skin.widgets" name="Skin Widgets" version="0.0.32" provider-name="Martijn, phil65">
+<addon id="service.skin.widgets" name="Skin Widgets" version="0.0.33" provider-name="Martijn, phil65">
     <requires>
-        <import addon="xbmc.addon" version="12.0.0"/>
         <import addon="xbmc.json" version="6.0.0"/>
-        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="xbmc.python" version="2.14.0"/>
         <import addon="script.module.simplejson" version="2.0.10"/>
     </requires>
     <extension point="xbmc.service" library="default.py" start="login"/>
@@ -2242,7 +2241,7 @@ Addons Included
   </extension>
 </addon>
 
-<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2016.12.03.1" provider-name="mrknow" >
+<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2016.12.10.1" provider-name="mrknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.requests" version="1.0.0" />
@@ -2282,7 +2281,7 @@ Addons Included
 	</extension>
 </addon>
 
-<addon id="plugin.video.exodus" version="2.0.22" name="Exodus" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="2.0.23" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<!-- <import addon="repository.exodus" version="1.0.0" /> -->
@@ -2299,7 +2298,7 @@ Addons Included
 		<description lang="en">Please visit www.tvaddons.ag for Exodus support and assistance! Kindly note that Exodus is not an official part of the media player you are running, and therefore not to be mentioned within official support channels, this addon has nothing to do with the media player itself, nor it’s intended use, it is simply a third party plugin which has been added to your system.</description>
 		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
 		<platform>all</platform>
-		<news>- Tweaked provider retrieval[CR]- Tweaked stream resolving[CR]- Updated existing providers[CR]- Removed dead providers[CR]- Added new providers</news>
+		<news>- Tweaked indexers[CR]- Updated existing providers[CR]- Removed dead providers[CR]- Added new providers</news>
 	</extension>
 </addon>
 
@@ -3543,7 +3542,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="script.mrknow.urlresolver" name="Mrknow URLResolver" version="2016.12.05.1" provider-name="mrknow" >
+<addon id="script.mrknow.urlresolver" name="Mrknow URLResolver" version="2016.12.10.1" provider-name="mrknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -3908,7 +3907,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="plugin.video.titan" name="[COLOR blue]T[/COLOR]itan" version="2.1.3" provider-name="Titan">  
+<addon id="plugin.video.titan" name="[COLOR blue]T[/COLOR]itan" version="2.1.4" provider-name="Titan">  
 	<requires>    
 		<import addon="script.module.simplejson" version="3.3.0"/>    
 		<import addon="xbmc.python" version="2.1.0"/>    
@@ -5855,7 +5854,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 	</extension>
 </addon>
 
-<addon id="plugin.video.cartoons8" name="Cartoons8" version="1.0.19" provider-name="MetalKettle">
+<addon id="plugin.video.cartoons8" name="Cartoons8" version="1.0.20" provider-name="MetalKettle">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.t0mm0.common" version="2.0.0"/>
@@ -6647,7 +6646,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 </addon>
 
 <addon id="net.rieter.xot.channel.se"
-       version="4.1.2.7"
+       version="4.1.2.8"
        name="Retrospect Swedish Channels"
        provider-name="Bas Rieter">
 
@@ -6693,7 +6692,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 </addon>
 
 <addon id="net.rieter.xot.channel.be"
-       version="4.1.2.4"
+       version="4.1.2.6"
        name="Retrospect Belgium Channels"
        provider-name="Bas Rieter">
 
@@ -7116,5 +7115,69 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 		<platform>all</platform>
 	</extension>
 </addon>
+
+<addon id="metadata.common.fanart.tv"
+       name="fanart.tv Scraper Library"
+       version="3.1.4"
+       provider-name="Team Kodi">
+  <requires>
+    <import addon="xbmc.metadata" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.metadata.scraper.library"
+             library="fanarttv.xml"/>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="bg">Библиотека за сваляне на инф. от fanart.tv</summary>
+    <summary lang="en">fanart.tv Scraper Library</summary>
+    <summary lang="de">Scraper für Hintergründe von fanart.tv</summary>
+    <summary lang="es">Scraper de fanart.tv</summary>
+    <summary lang="fi">fanart.tv taustakuvalataajan kirjasto</summary>
+    <summary lang="fr">Scraper fanart.tv</summary>
+    <summary lang="hu">fanart.tv leolvasó-könyvtár</summary>
+    <summary lang="nl">fanart.tv-scraperfuncties</summary>
+    <summary lang="pl">Scraper biblioteki fanart.tv</summary>
+    <summary lang="pt">Biblioteca de fundos fanart.tv</summary>
+    <summary lang="ru">Обработчик Фоновых изображений с fanart.tv</summary>
+    <summary lang="se">Skrapa för fanart.tv</summary>
+    <summary lang="zh">fanart.tv刮削器代码库</summary>
+    <description lang="bg">Сваля декорации от www.fanart.tv.com</description>
+    <description lang="en">Download backdrops from www.fanart.tv.com</description>
+    <description lang="de">Downloade Hintergründe von www.fanart.tv.com</description>
+    <description lang="es">Descarga fanart y fotos de artistas de www.fanart.tv.com</description>
+    <description lang="fi">Lataa taustakuvia osoitteesta www.fanart.tv.com</description>
+    <description lang="fr">Télécharge les backdrops depuis www.htbackgrops.com</description>
+    <description lang="hu">Fanartképek letöltése www.fanart.tv.com webhelyről</description>
+    <description lang="nl">Achtergronden ophalen van www.fanart.tv.com</description>
+    <description lang="pl">Pobieraj tła z www.fanart.tv.com</description>
+    <description lang="pt">Descarregar fundos de www.fanart.tv.com</description>
+    <description lang="ru">Загружать фоновые изображения с www.fanart.tv.com</description>
+    <description lang="se">Ladda ner bakgrundsbilder från www.fanart.tv.com</description>
+    <description lang="zh">从www.fanart.tv.com下载背景图</description>
+  </extension>
+</addon>
+
+<addon id="net.rieter.xot.channel.sbsnl"
+       version="4.1.2.1"
+       name="Retrospect Dutch SBS Broadcasting Channels"
+       provider-name="Bas Rieter">
+
+    <requires>
+        <!--import addon="net.rieter.xot" version="x.x.x" optional="false" /-->
+    </requires>
+
+    <extension point="xbmc.python.pluginsource" 
+               library="">
+        <!--provides>video</provides-->
+      </extension>
+             
+    <extension point="xbmc.addon.metadata">
+        <summary>Retrospect (a.k.a. XBMC Online TV) is an add-on that allows the playback of a lot of TV shows that are available (legally) via the broadcasters websites.</summary>
+        <description>Set of Dutch SBS Broadcasting (SBS6, NET5 and Veronica) channels for Retrospect</description>
+        <nofanart>true</nofanart>
+        <disclaimer>Retrospect is provided as is. We do not take any responsibility for possible (but highly unlikely) damage cause to your system. Nor do we take responsibility for the content that can be watched via this add-on.</disclaimer>
+        <language>nl</language>
+    </extension>
+</addon>
+
 
 </addons>

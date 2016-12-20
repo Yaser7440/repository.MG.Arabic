@@ -1,3 +1,13 @@
+[B]Version 2.7.7[/B]
+TSDownloader bug in logging
+[B]Version 2.7.6[/B]
+ua randomization
+[B]Version 2.7.5[/B]
+HLS sleep time
+[B]Version 2.7.3[/B]
+HLS fwd error
+[B]Version 2.7.0[/B]
+HLS fwd error
 [B]Version 2.6.9[/B]
 removed extension
 [B]Version 2.6.8[/B]
