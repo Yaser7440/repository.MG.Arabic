@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.thevibe" name="TheVibe Team Repository" version="4.0" provider-name="TheVibe Team">
+  <extension point="xbmc.addon.repository" name=".TheVibe Repository ">
+    <info compressed="false">https://github.com/teamThevibe/thevibe-repo/raw/master/addons.xml</info>
+    <checksum>http://repo.the-vibe.co.il/Repo/md5</checksum>
+    <datadir zip="true">https://github.com/teamThevibe/thevibe-repo/raw/master/repo/</datadir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>The-Vibe Team Repository</summary>
+    <description>The-Vibe Team Repository</description>
+    <platform>all</platform>
+    <website>http://www.the-vibe.co.il</website>
+  </extension>
+</addon>
