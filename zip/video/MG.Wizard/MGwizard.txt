@@ -4,6 +4,12 @@ img="http://mg.esy.es/Kodi/Logo/skin.mg.estuary-extented-s-.jpg"
 fanart="http://mg.esy.es/Kodi/Logo/MG.es"
 description="MG.phenomenal_ENG_V.6 (Kodi 16.0)"
 
+name="MG.estuary-extented-s_Arabic_V.7"
+url="https://portals.edati.lv/download/?ShareID=3ff0fb7b-912a-4218-981f-7b2c9043aacf&FileID=ed2c8dd3-4844-4342-8624-56bf26370781"
+img="http://mg.esy.es/Kodi/Logo/skin.mg.estuary-extented-s-.jpg"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es"
+description="MG.phenomenal_ENG_V.6 (Kodi 16.0)"
+
 name="MG.phenomenal_ENG_V.6"
 url="https://portals.edati.lv/download/?ShareID=6347520c-aedd-44aa-9f2f-810dce9ed713&FileID=48ef14ce-1a86-4aa9-9a68-be20c7904f96"
 img="http://i.imgur.com/bbxYfni.jpg"
