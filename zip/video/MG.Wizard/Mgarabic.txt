@@ -5,7 +5,7 @@ zip="https://github.com/Yaser7440/repository.MG.Arabic/blob/master/zip/plugin.pr
 
 name="MG.estuary-extented-s_ENG"
 version="7.0.0"
-url="https://portals.edati.lv/download/?ShareID=6347520c-aedd-44aa-9f2f-810dce9ed713&FileID=48ef14ce-1a86-4aa9-9a68-be20c7904f96"
+url="https://portals.edati.lv/download/?ShareID=fd3285b8-bf54-4e0f-92d7-6c2843fabc9f&FileID=03cd5154-c137-424d-a59e-34b79715ab8c"
 gui="http://"
 kodi="16.1"
 theme="http://"
