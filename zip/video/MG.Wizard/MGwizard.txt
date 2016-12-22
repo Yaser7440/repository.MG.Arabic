@@ -1,3 +1,8 @@
+name="MG.estuary-extented-s_ENG_V.7"
+url="https://portals.edati.lv/download/?ShareID=fd3285b8-bf54-4e0f-92d7-6c2843fabc9f&FileID=03cd5154-c137-424d-a59e-34b79715ab8c"
+img="http://mg.esy.es/Kodi/Logo/skin.mg.estuary-extented-s-.jpg"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es"
+description="MG.phenomenal_ENG_V.6 (Kodi 16.0)"
 
 name="MG.phenomenal_ENG_V.6"
 url="https://portals.edati.lv/download/?ShareID=6347520c-aedd-44aa-9f2f-810dce9ed713&FileID=48ef14ce-1a86-4aa9-9a68-be20c7904f96"
