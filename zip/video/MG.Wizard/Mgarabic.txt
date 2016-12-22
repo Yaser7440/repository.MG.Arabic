@@ -14,7 +14,7 @@ fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
 
 name="MG.estuary-extented-s_Arabic"
 version="7.0.0"
-url=""
+url="https://portals.edati.lv/download/?ShareID=3ff0fb7b-912a-4218-981f-7b2c9043aacf&FileID=ed2c8dd3-4844-4342-8624-56bf26370781"
 gui="http://"
 kodi="16.1"
 theme="http://"
