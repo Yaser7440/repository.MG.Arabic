@@ -1,0 +1,13 @@
+id="plugin.program.Mgarabic.zip"
+version="1.0.0"
+
+zip="https://github.com/Yaser7440/repository.MG.Arabic/blob/master/zip/plugin.program.MG.AR.wizard/plugin.program.MG.AR.wizard-1.0.0.zip"
+
+name="Estuary_201612"
+version="7.0.0"
+url="https://archive.org/download/Estuary_201612/Estuary.zip"
+gui="http://"
+kodi="16.1"
+theme="http://"
+icon="https://kodi.tv/wp-content/uploads/Estuary-001-600x336.jpg"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
