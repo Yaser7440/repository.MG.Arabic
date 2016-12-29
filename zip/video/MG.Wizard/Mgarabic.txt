@@ -3,6 +3,17 @@ version="1.0.0"
 
 zip="https://github.com/Yaser7440/repository.MG.Arabic/blob/master/zip/plugin.program.MG.AR.wizard/plugin.program.MG.AR.wizard-1.0.0.zip"
 
+ 
+
+name="Estuary_201629-ENG"
+version="8.0.0"
+url="https://portals.edati.lv/download/?ShareID=7277e155-691f-425c-be3e-6ae4cc71063b&FileID=73d2d2d7-c0cf-464b-ba7b-7e1ba8d03b44"
+gui="http://"
+kodi="16.1"
+theme="http://"
+icon="http://mg.esy.es/Kodi/Logo/skin.mg.estuary-extented-s-.jpg"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+
 name="MG.estuary-extented-s_ENG"
 version="7.0.0"
 url="https://portals.edati.lv/download/?ShareID=fd3285b8-bf54-4e0f-92d7-6c2843fabc9f&FileID=03cd5154-c137-424d-a59e-34b79715ab8c"
