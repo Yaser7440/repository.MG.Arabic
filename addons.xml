@@ -823,14 +823,13 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
   </extension>
 </addon>
 
-<addon id="plugin.video.youtube" name="YouTube" version="5.3.7" provider-name="jdf76, bromix">
+<addon id="plugin.video.youtube" name="YouTube" version="5.3.8" provider-name="h0d3nt3uf3l, bromix">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
 	</extension>
-    <extension point="xbmc.service" library="startup.py" start="startup" />
 	<extension point="xbmc.addon.metadata">
         <news>
 [add] MPEG-DASH support for Kodi 17 w/ inputstream.adaptive Add-on
@@ -1127,7 +1126,7 @@ v5.1.14 (2016-11-20)
 
 <addon id="script.video.F4mProxy" 
 	     name="F4mProxy" 
-	     version="2.7.8" 
+	     version="2.8.0" 
 	     provider-name="Shani">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
@@ -1442,8 +1441,8 @@ Addons Included
     </extension>
 </addon>
 
-<addon id="repository.xbmchub" name="TVADDONS.ag Addon Repository" version="1.0.6" provider-name="tvaddons.ag">
-	<extension point="xbmc.addon.repository" name="TVADDONS.ag Addon Repository">
+<addon id="repository.xbmchub" name="TVADDONS.AG Add-on Repository" version="1.0.7" provider-name="tvaddons.ag">
+	<extension point="xbmc.addon.repository" name="TVADDONS.AG Add-on Repository">
 	<dir>
 		<info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
 		<checksum>https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5</checksum>
@@ -1454,11 +1453,14 @@ Addons Included
 		<datadir zip="true">https://offshoregit.com/xbmchub/xbmc-hub-repo/raw/master/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary>The Best Third Party Addons for Kodi, Brought to you by TVADDONS.ag</summary>
-		<description>The Best Third Party Addons for Kodi, Brought to you by TVADDONS.ag</description>
+		<summary>Unofficial Kodi Addons from TVADDONS.AG</summary>
+		<description>Download and install unofficial Kodi add-ons from the TVADDONS.AG add-on repository. Please visit www.tvaddons.ag for addon support.
+                      
+Kodi is a registered trademark of the XBMC Foundation. We are not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</description>
+         <disclaimer>TVADDONS.AG did not make all the add-ons in this repository and is not responsible for their content.</disclaimer>
 		<platform>all</platform>
-                <forum>http://forums.tvaddons.ag/forums/113-TVADDONS-AG-ADDON-REPOSITORY</forum>
-                <website>http://www.tvaddons.ag/</website>
+                <forum>https://forums.tvaddons.ag</forum>
+                <website>https://www.tvaddons.ag</website>
 	</extension>
 </addon>
 
@@ -1626,7 +1628,7 @@ Addons Included
   </extension>
 </addon>
 
-<addon id="plugin.video.phstreams" name="Phoenix" version="3.1.19" provider-name="tvaddons.ag">
+<addon id="plugin.video.phstreams" name="Phoenix" version="3.1.20" provider-name="tvaddons.ag">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
@@ -1644,7 +1646,7 @@ Addons Included
 		<platform>all</platform>
 		<forum>http://forums.tvaddons.ag/forums/220-PHOENIX-LIVE-STREAMS</forum>
 		<website>http://www.tvaddons.ag/</website>
-		<news>Updated indexers[CR]Updated modules[CR]Updated providers[CR]Cosmetics</news>
+		<news>Updated providers[CR]Cosmetics</news>
 	</extension>
 </addon>
 
@@ -2242,7 +2244,7 @@ Addons Included
   </extension>
 </addon>
 
-<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2016.12.10.1" provider-name="mrknow" >
+<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2016.12.24.1" provider-name="mrknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.requests" version="1.0.0" />
@@ -2282,7 +2284,7 @@ Addons Included
 	</extension>
 </addon>
 
-<addon id="plugin.video.exodus" version="2.0.23" name="Exodus" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="2.0.24" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<!-- <import addon="repository.exodus" version="1.0.0" /> -->
@@ -2299,7 +2301,7 @@ Addons Included
 		<description lang="en">Please visit www.tvaddons.ag for Exodus support and assistance! Kindly note that Exodus is not an official part of the media player you are running, and therefore not to be mentioned within official support channels, this addon has nothing to do with the media player itself, nor it’s intended use, it is simply a third party plugin which has been added to your system.</description>
 		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
 		<platform>all</platform>
-		<news>- Tweaked indexers[CR]- Updated existing providers[CR]- Removed dead providers[CR]- Added new providers</news>
+		<news>- Updated existing providers[CR]- Removed dead providers[CR]- Added new providers</news>
 	</extension>
 </addon>
 
@@ -3090,7 +3092,7 @@ http://informaticglobalworld.altervista.org/
   </extension>
 </addon>
 
-<addon id="script.artistslideshow" name="Artist Slideshow" version="2.0.3" provider-name="pkscout,ronie">
+<addon id="script.artistslideshow" name="Artist Slideshow" version="2.0.4" provider-name="pkscout,ronie">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 		<import addon="xbmc.addon" version="14.0.0"/>
@@ -3544,7 +3546,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="script.mrknow.urlresolver" name="Mrknow URLResolver" version="2016.12.10.1" provider-name="mrknow" >
+<addon id="script.mrknow.urlresolver" name="Mrknow URLResolver" version="2016.12.24.1" provider-name="mrknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -5402,7 +5404,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 
 <addon
   id="plugin.video.SportsDevil"
-  version="2016.11.20"
+  version="2016.12.31"
   name="SportsDevil"
   provider-name="SportsDevil">
   <requires>
@@ -5411,7 +5413,6 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
    <import addon="script.module.six" />
    <import addon="script.module.requests" />
    <import addon="script.module.livestreamer" />
-   <import addon="script.module.pydevd" version="4.4.0" optional="true"/>
   </requires>
   <extension 
     point="xbmc.python.pluginsource"
