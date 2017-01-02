@@ -3,9 +3,9 @@ url="http://www.otttv.tech/otttv65325/appinstaller/kodi-16.1-Jarvis.exe"
 icon="http://www.otttv.tech/otttv65325/icon/kodi.png"
 fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
 
-name="Kodi(v17not fully stable) Apk"
-url="http://www.otttv.tech/otttv65325/appinstaller/kodi17.apk"
-icon="https://www.dropbox.com/s/129cw3lnhqkpi0d/kodi17.jpg?dl=1"
+name="Development builds: Kodi v17.0 “Krypton” "
+url="http://mirrors.kodi.tv/nightlies/android/arm/Krypton/kodi-20161231-08255bc-Krypton-armeabi-v7a.apk"
+icon="https://kodi.tv/wp-content/uploads/side-by-side-dark-transparent.png"
 fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
 
 name="L7IPTV Apk (وقم بكتابة الكود: (0000000"
