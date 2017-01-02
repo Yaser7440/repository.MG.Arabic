@@ -4,7 +4,7 @@
 
 <channel>
 <name>All Channels</name>
-<thumbnail>http://ndl.mgccw.com/mu3/app/20140612/17/1402576108781/ss/1_small.png</thumbnail>
+<thumbnail>http://mg.esy.es/Kodi/Logo/logo.jpg</thumbnail>
 <externallink>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/Channels/world.mix.iptv.channels.playlist.m3u</externallink>
 <fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
 <info>Channels(MG.Arabic)</info>
