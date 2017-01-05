@@ -5601,12 +5601,12 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 	</extension>
 </addon>
 
-<addon id="skin.mg.estuary-jarvis" version="1.0.2" name="MG.Estuary-jarvis" provider-name="MG.Arabic, phil65, Piers, YLLOW_DRAGON">
+<addon id="skin.mg.estuary-jarvis" version="1.0.4" name="MG.Estuary-jarvis" provider-name="MG.Arabic,phil65, Piers, YLLOW_DRAGON - SchisM Mod - nkvoronov">
 	<requires>
-		<import addon="xbmc.gui" version="5.10.0"/>
-        <import addon="script.pvr.favourites" version="1.0.7"/>
-        <import addon="script.skinshortcuts" version="1.0.8"/>
-		<import addon="script.skin.helper.service" version="1.0.90"/>		
+	   <import addon="xbmc.gui" version="5.10.0"/>
+           <import addon="script.module.autocompletion" version="1.1.2"/>
+           <import addon="script.skinshortcuts"/>
+	   <import addon="script.skin.helper.service"/>		
 	</requires>
 	<extension
 		point="xbmc.gui.skin"
