@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.audio.6arbyat"
        name="6arbyat"
-       version="1.0.2"
+       version="1.0.3"
        provider-name="Edit by-MG.Arabic">
    <requires>
         <import addon="xbmc.python" version="2.1.0"/>

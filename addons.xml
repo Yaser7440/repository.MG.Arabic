@@ -4201,7 +4201,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 
 <addon id="plugin.audio.6arbyat"
        name="6arbyat"
-       version="1.0.2"
+       version="1.0.3"
        provider-name="Edit by-MG.Arabic">
    <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -7006,7 +7006,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="plugin.video.wweonline" name="WWE Online" version="0.1.9" provider-name="[COLOR blue]X[/COLOR]unity[COLOR blue]T[/COLOR]alk">
+<addon id="plugin.video.wweonline" name="WWE Online" version="0.2.0" provider-name="[COLOR blue]X[/COLOR]unity[COLOR blue]T[/COLOR]alk">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.urlresolver" version="0.0.1"/>
