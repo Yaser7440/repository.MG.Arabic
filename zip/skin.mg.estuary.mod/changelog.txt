@@ -1,3 +1,19 @@
+1.7.4 :
+• Add pattern to extended info windows
+• Fix missing changes for new Skin Helper Service addons
+• Fix clearlogos aspect ratio for TV Shows widgets
+• Minnor fix
+
+1.7.3 :
+• Add possibility to choose number of items to display on widgets
+• Add possibility to disable pattern
+• Add duration flag icon for widgets
+• Add first aired date on dialog video info
+• Add disc to home menu
+• Fix animated posters issue
+• Fix TMDB/TVDB flag icons
+• Minnor fix
+
 1.7.2 :
 • Add genre for list view
 • Add possibility to show rating of TMDB rather than IMDB
