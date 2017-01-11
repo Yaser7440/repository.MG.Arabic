@@ -1,0 +1,14 @@
+<!--MG.Arabic website: http://mg.esy.es/Kodi/ -->
+<advancedsettings>
+    <network>
+        <cachemembuffersize>0</cachemembuffersize>
+        <curlclienttimeout>45</curlclienttimeout>
+    </network>
+    <gui>    
+        <algorithmdirtyregions>3</algorithmdirtyregions>
+        <nofliptimeout>0</nofliptimeout>
+    </gui>
+    <videoscanner>
+        <ignoreerrors>true</ignoreerrors>
+    </videoscanner>
+</advancedsettings>

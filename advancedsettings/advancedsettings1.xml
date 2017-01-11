@@ -1,0 +1,10 @@
+<!--MG.Arabic website: http://mg.esy.es/Kodi/ -->
+<advancedsettings>
+	<network>
+		<buffermode>2</buffermode>
+		<cachemembuffersize>104857600</cachemembuffersize>
+		<readbufferfactor>10</readbufferfactor>
+		<curlclienttimeout>19</curlclienttimeout>
+		<curllowspeedtime>19</curllowspeedtime>
+	</network>
+</advancedsettings>
