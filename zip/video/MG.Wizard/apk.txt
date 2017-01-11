@@ -1,0 +1,1967 @@
+name="Kodi(v16.1)Windows"
+url="http://www.otttv.tech/otttv65325/appinstaller/kodi-16.1-Jarvis.exe"
+icon="http://www.otttv.tech/otttv65325/icon/kodi.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Kodi(v16.1)Windows from MG.Arabic Wizard"
+
+
+name="Development builds: Kodi v17.0 “Krypton” "
+url="http://mirrors.kodi.tv/nightlies/android/arm/Krypton/kodi-20161231-08255bc-Krypton-armeabi-v7a.apk"
+icon="https://kodi.tv/wp-content/uploads/side-by-side-dark-transparent.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Development builds: Kodi v17.0 “Krypton”  from MG.Arabic Wizard"
+
+
+name="L7IPTV Apk (وقم بكتابة الكود: (0000000"
+url="http://apkfind.com/root/apk/2016/4/8/com.L7IPTV_3.apk?id=com.L7IPTV&f=l7%20IPTV_2.0_apk-dl.com.apk&dl=1"
+icon="http://cdn.apk-cloud.com/detail/image/com.L7IPTV-w150.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download L7IPTV Apk (وقم بكتابة الكود: (0000000 from MG.Arabic Wizard"
+
+
+name="Appstarter 4.0 Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/appstarter.apk"
+icon="http://www.otttv.tech/otttv65325/icon/appstarter.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Appstarter 4.0 Apk from MG.Arabic Wizard"
+
+
+name="PokemonGo Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/pokemongo.apk"
+icon="https://www.dropbox.com/s/nzzooclyjv647cv/pokemon.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download PokemonGo Apk from MG.Arabic Wizard"
+
+
+name="Plex Android Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/plex.apk"
+icon="https://www.dropbox.com/s/rm872rwd3p5dwsi/plex.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Plex Android Apk from MG.Arabic Wizard"
+
+
+name="CloudVPN Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/cloudVPN.apk"
+icon="https://www.dropbox.com/s/nutsp2f8tx0r1rb/cloud.png?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download CloudVPN Apk from MG.Arabic Wizard"
+
+
+name="VPN MasterFree Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/VPNmaster.apk"
+icon="https://www.dropbox.com/s/k9ppexd1q0m9w8i/vpnmaster.png?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download VPN MasterFree Apk from MG.Arabic Wizard"
+
+
+name="TeamViewer Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/teamviwer.apk"
+icon="https://www.dropbox.com/s/rlkccqo9ajri8bt/teamviwer.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download TeamViewer Apk from MG.Arabic Wizard"
+
+
+name="Kore Offical Remote Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/kore%20official%20.apk"
+icon="https://www.dropbox.com/s/6iuc7lv70s5u83j/kore.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Kore Offical Remote Apk from MG.Arabic Wizard"
+
+
+name="Showbox Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/showbox.apk"
+icon="https://www.dropbox.com/s/vtwy2tmzrjrqf5t/showbox.png?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Showbox Apk from MG.Arabic Wizard"
+
+
+name="Mouse Toggle Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/Mouse%20Toggle%20for%20Fire%20TV.1.06.apk"
+icon="https://www.dropbox.com/s/hc9ajyn9p6kvd4p/mousetoggle.png?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Mouse Toggle Apk from MG.Arabic Wizard"
+
+
+name="Modbro Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/mobdro.apk"
+icon="https://www.dropbox.com/s/lsmrf15sp7ot5h5/mobdro.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Modbro Apk from MG.Arabic Wizard"
+
+
+name="Easy Fire Tool Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/easy%20fire%20Tools_v1.0.8_apkpure.com.apk"
+icon="https://www.dropbox.com/s/xxzl40nxvquz62q/easyfiretool.png?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Easy Fire Tool Apk from MG.Arabic Wizard"
+
+
+name="Es File Explorer Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/es_file_explorer_4.0.3-244.apk"
+icon="https://www.dropbox.com/s/xm750cvgji5zf77/esfileexplorer.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Es File Explorer Apk from MG.Arabic Wizard"
+
+
+name="Cloud TV Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/cloudtv.apk"
+icon="https://www.dropbox.com/s/2f9soiy4mshod2i/cloudtv.png?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Cloud TV Apk from MG.Arabic Wizard"
+
+
+name="CEMC Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/cemc.apk"
+icon="https://www.dropbox.com/s/j3qh1eq01jdqpku/cemc.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download CEMC Apk from MG.Arabic Wizard"
+
+
+name="Dropbox Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/dropbox.apk"
+icon="https://www.dropbox.com/s/n38z06ntb68rfsi/dropbox.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Dropbox Apk from MG.Arabic Wizard"
+
+
+name="FilmOnLive Tv Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/filmon.apk"
+icon="https://www.dropbox.com/s/3zm9bssd86372ha/filmontv.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download FilmOnLive Tv Apk from MG.Arabic Wizard"
+
+
+name="JesusBOX Media Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/jesusbox.apk"
+icon="https://www.dropbox.com/s/plq86w6u4wi4tfr/jesusbox.png?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download JesusBOX Media Apk from MG.Arabic Wizard"
+
+
+name="Kodi Tool Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/koditool.apk"
+icon="https://www.dropbox.com/s/n15uu56t3th8ioe/koditool.png?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Kodi Tool Apk from MG.Arabic Wizard"
+
+
+name="Lodi 16 Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/Lodi.16.apk"
+icon="https://www.dropbox.com/s/emuryh0g35pdb3k/lodi.png?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Lodi 16 Apk from MG.Arabic Wizard"
+
+
+name="Live Stream Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/LiveStream.apk"
+icon="https://www.dropbox.com/s/pfxfdu0p1n49j8r/livestream.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Live Stream Apk from MG.Arabic Wizard"
+
+
+name="Navix Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/navix.apk"
+icon="https://www.dropbox.com/s/ec6c1yywmej5u0g/navix.png?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Navix Apk from MG.Arabic Wizard"
+
+
+name="Olweb Tv Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/olweb%20tv.apk"
+icon="https://www.dropbox.com/s/6rgsxv80of9vu77/olwebtv.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Olweb Tv Apk from MG.Arabic Wizard"
+
+
+name="Perfect Player Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/perfectplayer.apk"
+icon="https://www.dropbox.com/s/p4i8piadaagfdjg/perfectplayer.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Perfect Player Apk from MG.Arabic Wizard"
+
+
+name="Terraium Tv Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/terrarium%20tv.apk"
+icon="https://www.dropbox.com/s/xk7ap20uqe5v4pj/tvshows.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Terraium Tv Apk from MG.Arabic Wizard"
+
+
+name="Toonmaina Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/toonmania.apk"
+icon="https://www.dropbox.com/s/muso05cdo3lip1s/toonmaina.png?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Toonmaina Apk from MG.Arabic Wizard"
+
+
+name="Torrent Stream Controller Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/torrent-stream-controller-1.6.7.apk"
+icon="https://www.dropbox.com/s/wrb51brzvwwdjdd/torrent.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Torrent Stream Controller Apk from MG.Arabic Wizard"
+
+
+name="UKTV Now Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/uktvnow.apk"
+icon="https://www.dropbox.com/s/xpp48fq2uoetdh8/uktv%20now.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download UKTV Now Apk from MG.Arabic Wizard"
+
+
+name="Watch Movies 2.1.0 Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/watchmovies.apk"
+icon="https://www.dropbox.com/s/uivxvgkr3pi5ei3/watchmovies.png?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Watch Movies 2.1.0 Apk from MG.Arabic Wizard"
+
+
+name="WWS Sports 1.7 Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/wws%201.7.apk"
+icon="https://www.dropbox.com/s/4i95hqt6avgvkji/wwssports.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download WWS Sports 1.7 Apk from MG.Arabic Wizard"
+
+
+name="Movie HD Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/moviehd.apk"
+icon="https://www.dropbox.com/s/fkz92xmoyoud5rg/moviehd.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Movie HD Apk from MG.Arabic Wizard"
+
+
+name="Wookie Fixtures Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/wookie%20fixturesnew.apk"
+icon="https://www.dropbox.com/s/j0m216quft1fc2f/wookie.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Wookie Fixtures Apk from MG.Arabic Wizard"
+
+
+name="Vplayer Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/vplayer.apk"
+icon="https://www.dropbox.com/s/1exps0r321bbchn/vplayer.png?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Vplayer Apk from MG.Arabic Wizard"
+
+
+name="123 Movies Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/123movies.apk"
+icon="https://www.dropbox.com/s/jmzjoyx1627nm2w/123movies.png?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download 123 Movies Apk from MG.Arabic Wizard"
+
+
+name="Az Screen Recorder Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/azscreen%20recorder.apk"
+icon="https://www.dropbox.com/s/6a4qurwo7ky7dcx/azscreen.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Az Screen Recorder Apk from MG.Arabic Wizard"
+
+
+name="BT Sports Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/btsports.apk"
+icon="https://www.dropbox.com/s/keogpeqyfec7wzr/btsports.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download BT Sports Apk from MG.Arabic Wizard"
+
+
+name="Cartoon HD Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/cartoonhd.apk"
+icon="https://www.dropbox.com/s/6d9gjvczgey4dwt/cartoonhd.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Cartoon HD Apk from MG.Arabic Wizard"
+
+
+name="Clean Master Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/cleanmaster.apk"
+icon="https://www.dropbox.com/s/h3foapplbjwq4t6/clean%20master.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Clean Master Apk from MG.Arabic Wizard"
+
+
+name="H20Droid Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/h20driod.apk"
+icon="https://www.dropbox.com/s/q06n279paf5nawa/h20droid.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download H20Droid Apk from MG.Arabic Wizard"
+
+
+name="Kodi Apps Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/kodiapps.apk"
+icon="https://www.dropbox.com/s/xiveumugzlsxt9h/kodiapps.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Kodi Apps Apk from MG.Arabic Wizard"
+
+
+name="Netflix Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/netflix.apk"
+icon="https://www.dropbox.com/s/l8sc2hdnw9luks4/netflix.png?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Netflix Apk from MG.Arabic Wizard"
+
+
+name="STReAM Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/stream.apk"
+icon="https://www.dropbox.com/s/v6p6fxcs11436g5/stream.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download STReAM Apk from MG.Arabic Wizard"
+
+
+name="Spotify Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/spotify.apk"
+icon="https://www.dropbox.com/s/1g9c2sk2ljn6q1c/spotify.png?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Spotify Apk from MG.Arabic Wizard"
+
+
+name="Fire Fox Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/firefox.apk"
+icon="https://www.dropbox.com/s/71lpw81pe9uojdq/firefox.png?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Fire Fox Apk from MG.Arabic Wizard"
+
+
+name="Cinema Box Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/cinemabox.apk"
+icon="https://www.dropbox.com/s/zsq5ip5bu6dveyd/cinemabox.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Cinema Box Apk from MG.Arabic Wizard"
+
+
+name="Halow Tv Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/halowtv.apk"
+icon="https://www.dropbox.com/s/xcw6t6uzl6hlulx/halowtv.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Halow Tv Apk from MG.Arabic Wizard"
+
+
+name="Bobby Movie Box Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/bobby%20movie%20box.apk"
+icon="https://www.dropbox.com/s/rz0scry11ga9kly/bobbymovies.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Bobby Movie Box Apk from MG.Arabic Wizard"
+
+
+name="DBMC Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/dbmc.apk"
+icon="https://www.dropbox.com/s/msff71n2ejfzqb6/dbmc.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download DBMC Apk from MG.Arabic Wizard"
+
+
+name="WWE Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/wwe.apk"
+icon="https://www.dropbox.com/s/vqqc25c2th2bu6o/wwe.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download WWE Apk from MG.Arabic Wizard"
+
+
+name="IPTV Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/iptv.apk"
+icon="https://www.dropbox.com/s/as2owt32r96odmo/iptv.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download IPTV Apk from MG.Arabic Wizard"
+
+
+name="Lazy IPTV Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/lazyiptv.apk"
+icon="https://www.dropbox.com/s/0fyhsctqm3nm27r/lazyiptv.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Lazy IPTV Apk from MG.Arabic Wizard"
+
+
+name="MFT Installer Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/mtf.apk"
+icon="https://www.dropbox.com/s/r49wtirurr3gx90/mtf%20installer.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download MFT Installer Apk from MG.Arabic Wizard"
+
+
+name="Google Play Servives Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/google.apk"
+icon="https://www.dropbox.com/s/qdb6xfff82g3psf/goggleplay.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Google Play Servives Apk from MG.Arabic Wizard"
+
+
+name="Genie Tv Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/genie.apk"
+icon="https://www.dropbox.com/s/9cz30sfq3v0vd0a/genie.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Genie Tv Apk from MG.Arabic Wizard"
+
+
+name="SportsTv1.10 Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/sportstv1.10.apk"
+icon="https://www.dropbox.com/s/4cotkvxl7lderq3/sportstv.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download SportsTv1.10 Apk from MG.Arabic Wizard"
+
+
+name="App2Fire Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/apps2fire.apk"
+icon="https://www.dropbox.com/s/vh1pr0pnr7xdsv0/app2fire.png?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download App2Fire Apk from MG.Arabic Wizard"
+
+
+name="MegaBox HD Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/megaboxhd.apk"
+icon="https://www.dropbox.com/s/85ings17fv1bmkj/megabox.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download MegaBox HD Apk from MG.Arabic Wizard"
+
+
+name="Aptoide Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/aptoide.apk"
+icon="https://www.dropbox.com/s/cnr7b6gwprhtioa/aptoide.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Aptoide Apk from MG.Arabic Wizard"
+
+
+name="MX Player Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/mxplayer.apk"
+icon="https://www.dropbox.com/s/m04g4xwwwq76tqu/mxplayer.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download MX Player Apk from MG.Arabic Wizard"
+
+
+name="Direct TV Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/directtv.apk"
+icon="https://www.dropbox.com/s/axpkeydn0m4lrx4/directtv.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Direct TV Apk from MG.Arabic Wizard"
+
+
+name="BestForKodi Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/bestforkodi.apk"
+icon="https://www.dropbox.com/s/mcpic2vmrhecp88/best4kodi.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download BestForKodi Apk from MG.Arabic Wizard"
+
+
+name="VLC Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/vlc.apk"
+icon="https://www.dropbox.com/s/td7oks70bpnydh2/vlc.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download VLC Apk from MG.Arabic Wizard"
+
+
+name="Kodi Tips Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/kodi%20tips.apk"
+icon="https://www.dropbox.com/s/14p67baxjdeaup0/koditips.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Kodi Tips Apk from MG.Arabic Wizard"
+
+
+name="Wukong Remote Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/wukong%20remote.apk"
+icon="https://www.dropbox.com/s/wgc9pedhkk71k0m/wukong.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Wukong Remote Apk from MG.Arabic Wizard"
+
+
+name="STB Emulator Pro Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/STB%20Emulator%20(pro).apk"
+icon="https://www.dropbox.com/s/k0ryhwmpxkaaqep/stb.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download STB Emulator Pro Apk from MG.Arabic Wizard"
+
+
+name="Yatse Kodi Remote Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/yatse.apk"
+icon="https://www.dropbox.com/s/95kz7fex2ib9me1/yaste.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Yatse Kodi Remote Apk from MG.Arabic Wizard"
+
+
+name="Total Commander Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/total%20comnander.apk"
+icon="https://www.dropbox.com/s/qu89fbngm5yqqop/totalcommander.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Total Commander Apk from MG.Arabic Wizard"
+
+
+name="Retromania Apk(paid join fb group to gain access"
+url="http://www.otttv.tech/otttv65325/appinstaller/retromaina.apk"
+icon="https://www.dropbox.com/s/yrnvkvljfg2o03d/retro.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Retromania Apk(paid join fb group to gain access from MG.Arabic Wizard"
+
+
+name="GooglePlayStore Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/goggleplaystore.apk"
+icon="https://www.dropbox.com/s/kaq6mdq6l5lmetd/goggleplaystore.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download GooglePlayStore Apk from MG.Arabic Wizard"
+
+
+name="Deezer Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/deezer.apk"
+icon="https://www.dropbox.com/s/k5k6uqkci2b9lqk/deezer.png?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Deezer Apk from MG.Arabic Wizard"
+
+
+name="BBC IPlayer Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/bbciplayer.apk"
+icon="https://www.dropbox.com/s/qm9slwqaxhedu03/bbciplayer.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download BBC IPlayer Apk from MG.Arabic Wizard"
+
+
+name="Sky Go Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/skygo.apk"
+icon="https://www.dropbox.com/s/g1xp2hghve00ckx/skygo.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Sky Go Apk from MG.Arabic Wizard"
+
+
+name="Itv News Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/itvnews.apk"
+icon="https://www.dropbox.com/s/rdl5r6nvuvqfgac/itvnews.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Itv News Apk from MG.Arabic Wizard"
+
+
+name="BBC IPlayer Kids Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/bbckids.apk"
+icon="https://www.dropbox.com/s/d2y3b9lviovdfc4/iplayerkids.png?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download BBC IPlayer Kids Apk from MG.Arabic Wizard"
+
+
+name="BBC IPlayer Radio Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/bbcradio.apk"
+icon="https://www.dropbox.com/s/0o2d5mx8vhpvigu/bbcradio.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download BBC IPlayer Radio Apk from MG.Arabic Wizard"
+
+
+name="Sky News Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/skynews.apk"
+icon="https://www.dropbox.com/s/t2qnrvdo0361equ/skynews.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Sky News Apk from MG.Arabic Wizard"
+
+
+name="My 5 Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/channel5.apk"
+icon="https://www.dropbox.com/s/bl0qazmfdl3b0ik/channel5.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download My 5 Apk from MG.Arabic Wizard"
+
+
+name="All 4 Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/all4.apk"
+icon="https://www.dropbox.com/s/d2lyzjsdqj1ysrf/channel4.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download All 4 Apk from MG.Arabic Wizard"
+
+
+name="Stv Player Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/stvplayer.apk"
+icon="https://www.dropbox.com/s/n3yv1lh12pjpyif/stvplayer.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Stv Player Apk from MG.Arabic Wizard"
+
+
+name="Itv Hub Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/itvhub.apk"
+icon="https://www.dropbox.com/s/pefjm6vp1pfl3zf/itvhub.png?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Itv Hub Apk from MG.Arabic Wizard"
+
+
+name="Goggle Play Music Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/goggleplaymusic.apk"
+icon="https://www.dropbox.com/s/uqyd33pr39dj6n4/gogglemusic.png?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Goggle Play Music Apk from MG.Arabic Wizard"
+
+
+name="AD Free Blocker Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/adblocker.apk"
+icon="https://www.dropbox.com/s/qfe15cdpf6ywm2z/freeadblocker.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download AD Free Blocker Apk from MG.Arabic Wizard"
+
+
+name="Uktv Play Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/uktvPLay.apk"
+icon="https://www.dropbox.com/s/ebbpa4zj4sowo5c/uktvplay.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Uktv Play Apk from MG.Arabic Wizard"
+
+
+name="Tv Player Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/tvplayer.apk"
+icon="https://www.dropbox.com/s/beqzgb9msp946q6/tvplayer.png?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Tv Player Apk from MG.Arabic Wizard"
+
+
+name="UFC Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/ufc.apk"
+icon="https://www.dropbox.com/s/56uktgaf4ptmucl/ufc.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download UFC Apk from MG.Arabic Wizard"
+
+
+name="Boxnation Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/boxnation.apk"
+icon="https://www.dropbox.com/s/qjlz5rfs3t0laq2/boxnation.png?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Boxnation Apk from MG.Arabic Wizard"
+
+
+name="Flixster Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/flixster.apk"
+icon="https://www.dropbox.com/s/snktucz1ulp3tmu/flixster.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Flixster Apk from MG.Arabic Wizard"
+
+
+name="TuneIn Radio Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/tuneinradio.apk"
+icon="https://www.dropbox.com/s/el4k1cxfvtek5w9/tuneradio.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download TuneIn Radio Apk from MG.Arabic Wizard"
+
+
+name="Tubemate Youtube Downloader Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/tubemate.apk"
+icon="https://www.dropbox.com/s/a6tmrkxmpgo7gfn/tubemate.jpg?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Tubemate Youtube Downloader Apk from MG.Arabic Wizard"
+
+
+name="Tv Guide+ Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/tvguide.apk"
+icon="https://www.dropbox.com/s/s1lo432jwbq3j8y/tvguide%2B.png?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Tv Guide+ Apk from MG.Arabic Wizard"
+
+
+name="Film On Kids Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/filmonkids.apk"
+icon="http://www.otttv.tech/otttv65325/icon/filmonk.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Film On Kids Apk from MG.Arabic Wizard"
+
+
+name="YouTube Kids Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/youtbekids.apk"
+icon="http://www.otttv.tech/otttv65325/icon/youtube.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download YouTube Kids Apk from MG.Arabic Wizard"
+
+
+name="All Cast Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/allcast.apk"
+icon="http://www.otttv.tech/otttv65325/icon/all%20cast.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download All Cast Apk from MG.Arabic Wizard"
+
+
+name="Mediahhh Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/mediahhh.apk"
+icon="http://www.otttv.tech/otttv65325/icon/mediahh.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Mediahhh Apk from MG.Arabic Wizard"
+
+
+name="Raiz Media Centre Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/raizmediacenter.apk"
+icon="http://www.otttv.tech/otttv65325/icon/raiztv.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Raiz Media Centre Apk from MG.Arabic Wizard"
+
+
+name="Lucky Patcher Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/lucky%20patcher.apk"
+icon="http://www.otttv.tech/otttv65325/icon/lucky.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Lucky Patcher Apk from MG.Arabic Wizard"
+
+
+name="Xplore File Manager Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/xploredilemanager.apk"
+icon="http://www.otttv.tech/otttv65325/icon/xplore.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Xplore File Manager Apk from MG.Arabic Wizard"
+
+
+name="PornHub Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/pornhub.apk"
+icon="http://www.otttv.tech/otttv65325/icon/pornhub.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download PornHub Apk from MG.Arabic Wizard"
+
+
+name="Sex Tube Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/sextube.apk"
+icon="http://www.otttv.tech/otttv65325/icon/sextube.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Sex Tube Apk from MG.Arabic Wizard"
+
+
+name="Brazzers Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/brazzers.apk"
+icon="http://www.otttv.tech/otttv65325/icon/brazzers.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Brazzers Apk from MG.Arabic Wizard"
+
+
+name="VideoMix Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/videomix.apk"
+icon="http://www.otttv.tech/otttv65325/icon/videomix.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download VideoMix Apk from MG.Arabic Wizard"
+
+
+name="Afdah Films Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/afdah.apk"
+icon="http://www.otttv.tech/otttv65325/icon/afdah.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Afdah Films Apk from MG.Arabic Wizard"
+
+
+name="Codi Media Centre Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/codimediacenter.apk"
+icon="http://www.otttv.tech/otttv65325/icon/codi.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Codi Media Centre Apk from MG.Arabic Wizard"
+
+
+name="FireTV Media Centre Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/firemediacenter.apk"
+icon="http://www.otttv.tech/otttv65325/icon/firemc.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download FireTV Media Centre Apk from MG.Arabic Wizard"
+
+
+name="Daft Media Centre Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/daftmediacenter.apk"
+icon="http://www.otttv.tech/otttv65325/icon/daft.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Daft Media Centre Apk from MG.Arabic Wizard"
+
+
+name="Sbs Media Centre Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/sbsmediacenter.apk"
+icon="http://www.otttv.tech/otttv65325/icon/sbs.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Sbs Media Centre Apk from MG.Arabic Wizard"
+
+
+name="Ac Market Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/acmarket.apk"
+icon="http://www.otttv.tech/otttv65325/icon/acmarket.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Ac Market Apk from MG.Arabic Wizard"
+
+
+name="Discord Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/discord.apk"
+icon="http://www.otttv.tech/otttv65325/icon/discord.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Discord Apk from MG.Arabic Wizard"
+
+
+name="Tv Catch Up Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/tvcatchup.apk"
+icon="http://www.otttv.tech/otttv65325/icon/tvcatchup.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Tv Catch Up Apk from MG.Arabic Wizard"
+
+
+name="Nick Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/nick.apk"
+icon="http://www.otttv.tech/otttv65325/icon/nick.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Nick Apk from MG.Arabic Wizard"
+
+
+name="Pluto Tv Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/pluto.apk"
+icon="http://www.otttv.tech/otttv65325/icon/pluto.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Pluto Tv Apk from MG.Arabic Wizard"
+
+
+name="MTv Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/mtv.apk"
+icon="http://www.otttv.tech/otttv65325/icon/mtv.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download MTv Apk from MG.Arabic Wizard"
+
+
+name="Nba Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/nba.apk"
+icon="http://www.otttv.tech/otttv65325/icon/nba.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Nba Apk from MG.Arabic Wizard"
+
+
+name="Hbo Go Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/hbogo.apk"
+icon="http://www.otttv.tech/otttv65325/icon/hbogo.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Hbo Go Apk from MG.Arabic Wizard"
+
+
+name="Hulu Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/hulu.apk"
+icon="http://www.otttv.tech/otttv65325/icon/hulu.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Hulu Apk from MG.Arabic Wizard"
+
+
+name="Espn Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/espn.apk"
+icon="http://www.otttv.tech/otttv65325/icon/espn.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Espn Apk from MG.Arabic Wizard"
+
+
+name="Disny Channel Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/disney.apk"
+icon="http://www.otttv.tech/otttv65325/icon/disney.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Disny Channel Apk from MG.Arabic Wizard"
+
+
+name="Crackle Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/crackle.apk"
+icon="http://www.otttv.tech/otttv65325/icon/crackle.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Crackle Apk from MG.Arabic Wizard"
+
+
+name="Comedy Central Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/comedy.apk"
+icon="http://www.otttv.tech/otttv65325/icon/comedy.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Comedy Central Apk from MG.Arabic Wizard"
+
+
+name="CrunchyRoll Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/crunchyroll.apk"
+icon="http://www.otttv.tech/otttv65325/icon/crunchyroll.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download CrunchyRoll Apk from MG.Arabic Wizard"
+
+
+name="Ustv Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/ustv.apk"
+icon="http://www.otttv.tech/otttv65325/icon/ustv.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Ustv Apk from MG.Arabic Wizard"
+
+
+name="HALauncher Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/halauncher.apk"
+icon="http://www.otttv.tech/otttv65325/icon/halauncher.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download HALauncher Apk from MG.Arabic Wizard"
+
+
+name="Ace Player Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/aceplayer.apk"
+icon="http://www.otttv.tech/otttv65325/icon/aceplayer.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Ace Player Apk from MG.Arabic Wizard"
+
+
+name="Local Cast Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/localcast.apk"
+icon="http://www.otttv.tech/otttv65325/icon/localcast.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Local Cast Apk from MG.Arabic Wizard"
+
+
+name="Amazon Underground Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/amazonunder.apk"
+icon="http://www.otttv.tech/otttv65325/icon/amazonunder.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Amazon Underground Apk from MG.Arabic Wizard"
+
+
+name="Sideload Launcher Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/sideload.apk"
+icon="http://www.otttv.tech/otttv65325/icon/sideload.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Sideload Launcher Apk from MG.Arabic Wizard"
+
+
+name="Apk Extractor Pro Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/apkextractor.apk"
+icon="http://www.otttv.tech/otttv65325/icon/apkextractor.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Apk Extractor Pro Apk from MG.Arabic Wizard"
+
+
+name="Playbox HD Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/playboxhd.apk"
+icon="http://www.otttv.tech/otttv65325/icon/playboxhd.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Playbox HD Apk from MG.Arabic Wizard"
+
+
+name="FireStream Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/firestream.apk"
+icon="http://www.otttv.tech/otttv65325/icon/firestream.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download FireStream Apk from MG.Arabic Wizard"
+
+
+name="Complete Kodi Setup Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/completekodisetup.apk"
+icon="http://www.otttv.tech/otttv65325/icon/completekodisetup.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Complete Kodi Setup Apk from MG.Arabic Wizard"
+
+
+name="Cbs Sports Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/cbssports.apk"
+icon="http://www.otttv.tech/otttv65325/icon/cbssports.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Cbs Sports Apk from MG.Arabic Wizard"
+
+
+name="CCN News Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/ccn.apk"
+icon="http://www.otttv.tech/otttv65325/icon/ccn.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download CCN News Apk from MG.Arabic Wizard"
+
+
+name="Nbc News Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/nbcnews.apk"
+icon="http://www.otttv.tech/otttv65325/icon/nbcnews.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Nbc News Apk from MG.Arabic Wizard"
+
+
+name="BlueStacks Emulator For Windows"
+url="http://www.otttv.tech/otttv65325/appinstaller/BlueStacks2_native_590d420ead4c31023b04aec6872ec9ef.exe"
+icon="http://www.otttv.tech/otttv65325/icon/bluestacks.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download BlueStacks Emulator For Windows from MG.Arabic Wizard"
+
+
+name="Andy Emulator For Windows"
+url="http://www.otttv.tech/otttv65325/appinstaller/Andy_46.2_207_x64bit.exe"
+icon="http://www.otttv.tech/otttv65325/icon/andys.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Andy Emulator For Windows from MG.Arabic Wizard"
+
+
+name="Gaming Retroarch Emulator"
+url="http://www.otttv.tech/otttv65325/appinstaller/retroarch.apk"
+icon="http://www.otttv.tech/otttv65325/icon/retroarch.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Gaming Retroarch Emulator from MG.Arabic Wizard"
+
+
+name="Gaming Gensoid Emulator"
+url="http://www.otttv.tech/otttv65325/appinstaller/gensoid.apk"
+icon="http://www.otttv.tech/otttv65325/icon/gensoid.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Gaming Gensoid Emulator from MG.Arabic Wizard"
+
+
+name="Advanced_Task_Killer_Free_2.0.0 Apk"
+url="http://mega-tron.tv/transform/APKs/Advanced_Task_Killer_Free_2.0.0.apk"
+icon="http://1.bp.blogspot.com/-MIJRNn_R6bk/VNo4IbyLebI/AAAAAAAAA98/WayEFjTz1Ek/s1600/Advanced-Task-Killer-PRO-APK-FULL-FREE.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Advanced_Task_Killer_Free_2.0.0 Apk from MG.Arabic Wizard"
+
+
+name="AirDroid_3.1.5.2 Apk"
+url="http://mega-tron.tv/transform/APKs/AirDroid_3.1.5.2.apk"
+icon="https://i2.wp.com/jtgeek.com/wp-content/uploads/AirDroid-logo-by-c-leblanc.jpeg"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download AirDroid_3.1.5.2 Apk from MG.Arabic Wizard"
+
+
+name="AirPinLITE_1.8.9 Apk"
+url="http://mega-tron.tv/transform/APKs/AirPinLITE_1.8.9.apk"
+icon="https://lh6.ggpht.com/RM-k2dPN36lWeQiMD_9ZVz7ruoKGZ6LqNeFh5w1PuZGf7SZ7n8gDQxqE5aNmSOoPzxg=w300"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download AirPinLITE_1.8.9 Apk from MG.Arabic Wizard"
+
+
+name="Amazon.Instant.Video.US-1.39-4 Apk"
+url="http://mega-tron.tv/transform/APKs/Amazon.Instant.Video.US-1.39-4.apk"
+icon="http://www.apkdash.com/admin/uploads/Amazon%20Instant%20Video%20for%20Android%20TV.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Amazon.Instant.Video.US-1.39-4 Apk from MG.Arabic Wizard"
+
+
+name="Android.TV.Remote-1.1.0.1943337.apk"
+url="http://mega-tron.tv/transform/APKs/Android.TV.Remote-1.1.0.1943337.apk"
+icon="http://www.apk20.com/image/icon-1292383"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Android.TV.Remote-1.1.0.1943337.apk from MG.Arabic Wizard"
+
+
+name="Android_Terminal_Emulator.apk"
+url="http://mega-tron.tv/transform/APKs/Android_Terminal_Emulator.apk"
+icon="http://restek.wwu.edu/wp-content/uploads/2011/08/cmd.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Android_Terminal_Emulator.apk from MG.Arabic Wizard"
+
+
+name="Aptoide-6.5.3.apk"
+url="http://mega-tron.tv/transform/APKs/Aptoide-6.5.3.apk"
+icon="http://cdn.apkzoko.com/2016/0812/aptoide-653_ee492.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Aptoide-6.5.3.apk from MG.Arabic Wizard"
+
+
+name="AutoPilot.apk"
+url="http://mega-tron.tv/transform/APKs/AutoPilot.apk"
+icon="https://lh3.googleusercontent.com/MhPAH0bw0xI3fOCq057vwXsngbZQEfOPckZzzBsst7EbcYSskIe04k5KWfRb_5BDb-162Q=s85"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download AutoPilot.apk from MG.Arabic Wizard"
+
+
+name="BionicTCP_1.2.apk"
+url="http://mega-tron.tv/transform/APKs/BionicTCP_1.2.apk"
+icon="http://cdn.apk-cloud.com/detail/image/com.spirilis.bionictcp-w130.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download BionicTCP_1.2.apk from MG.Arabic Wizard"
+
+
+name="C64.emu_1.5.23.apk"
+url="http://mega-tron.tv/transform/APKs/C64.emu_1.5.23.apk"
+icon="http://bestandroidappsdownload.com/img/54/24/c_69f565e474640320da309a4f2b03172a_w120.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download C64.emu_1.5.23.apk from MG.Arabic Wizard"
+
+
+name="Cartoon_HD_2.0.5.apk"
+url="http://mega-tron.tv/transform/APKs/Cartoon_HD_2.0.5.apk"
+icon="https://i0.wp.com/cartoonhdapk.com/wp-content/uploads/2014/10/Cartoon-HD-Icon.jpg?resize=300%2C300"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Cartoon_HD_2.0.5.apk from MG.Arabic Wizard"
+
+
+name="Clean_Master_5.10.8.apk"
+url="http://mega-tron.tv/transform/APKs/Clean_Master_5.10.8.apk"
+icon="http://www.androidapksfree.com/wp-content/uploads/2014/10/clean-master-phone-boost-apk-85x85.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Clean_Master_5.10.8.apk from MG.Arabic Wizard"
+
+
+name="CodeRed_1.1.apk"
+url="http://mega-tron.tv/transform/APKs/CodeRed_1.1.apk"
+icon="https://i1.wp.com/img.android-apk.org/imgs/8/9/2/89299c4e004737b8210d78db7794f316_icon_127x127.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download CodeRed_1.1.apk from MG.Arabic Wizard"
+
+
+name="Crunchyroll_1.1.8.apk"
+url="http://mega-tron.tv/transform/APKs/Crunchyroll_1.1.8.apk"
+icon="http://i.utdstc.com/icons/120/crunchyroll-android.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Crunchyroll_1.1.8.apk from MG.Arabic Wizard"
+
+
+name="ES_FileExplorer_4.0.2.9-243.apk"
+url="http://mega-tron.tv/transform/APKs/ES_FileExplorer_4.0.2.9-243.apk"
+icon="https://oceanofapk.com/wp-content/uploads/2016/01/ES-File-Explorer-Pro-APK-Free-Download.jpg"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download ES_FileExplorer_4.0.2.9-243.apk from MG.Arabic Wizard"
+
+
+name="ES_File_Explorer_4.0.3-244.apk"
+url="http://mega-tron.tv/transform/APKs/ES_File_Explorer_4.0.3-244.apk"
+icon="https://oceanofapk.com/wp-content/uploads/2016/01/ES-File-Explorer-Pro-APK-Free-Download.jpg"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download ES_File_Explorer_4.0.3-244.apk from MG.Arabic Wizard"
+
+
+name="FilmOn_2.1.7.apk"
+url="http://mega-tron.tv/transform/APKs/FilmOn_2.1.7.apk"
+icon="https://lh5.ggpht.com/RtS3OLWDcH4zdbe6hz5NLDXR8k8RJ0PDycZuypaMAq9wIf8eZhOMFcmjJLQ5ttOyJZY"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download FilmOn_2.1.7.apk from MG.Arabic Wizard"
+
+
+name="GBA.emu_1.5.28.apk"
+url="http://mega-tron.tv/transform/APKs/GBA.emu_1.5.28.apk"
+icon="https://lh5.ggpht.com/W-vrf2C2LsmvP0TAsu2fNOqV13LD5sRPogRlwruSB-K20QI7UDuo0X5DJblPnMQ-YL-F=h310"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download GBA.emu_1.5.28.apk from MG.Arabic Wizard"
+
+
+name="GBC.emu_1.5.23.apk"
+url="http://mega-tron.tv/transform/APKs/GBC.emu_1.5.23.apk"
+icon="http://cs5-3.4pda.to/1457710.jpg"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download GBC.emu_1.5.23.apk from MG.Arabic Wizard"
+
+
+name="GENPLUSDroid_1.9.3.apk"
+url="http://mega-tron.tv/transform/APKs/GENPLUSDroid_1.9.3.apk"
+icon="http://images.mobilism.org/?dm=HOQG"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download GENPLUSDroid_1.9.3.apk from MG.Arabic Wizard"
+
+
+name="HALauncher_1.3.1.0.apk"
+url="http://mega-tron.tv/transform/APKs/HALauncher_1.3.1.0.apk"
+icon="https://i.ytimg.com/vi/wd4EHS3TDCA/maxresdefault.jpg"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download HALauncher_1.3.1.0.apk from MG.Arabic Wizard"
+
+
+name="Cloud TV Apk"
+url="http://www.otttv.tech/otttv65325/appinstaller/cloudtv.apk"
+icon="https://www.dropbox.com/s/2f9soiy4mshod2i/cloudtv.png?dl=1"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Cloud TV Apk from MG.Arabic Wizard"
+
+
+name="HBO.Now.Android.TV-1.0.0.apk"
+url="http://mega-tron.tv/transform/APKs/HBO.Now.Android.TV-1.0.0.apk"
+icon="http://www.apkmirror.com/wp-content/themes/APKMirror/ap_resize/ap_resize.php?src=http%3A%2F%2Fwww.apkmirror.com%2Fwp-content%2Fuploads%2F2015%2F10%2F560f22e2c20d6.png&w=96&h=96&q=100"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download HBO.Now.Android.TV-1.0.0.apk from MG.Arabic Wizard"
+
+
+name="HBO_NOW_1.3.0.apk"
+url="http://mega-tron.tv/transform/APKs/HBO_NOW_1.3.0.apk"
+icon="http://www.apkmirror.com/wp-content/themes/APKMirror/ap_resize/ap_resize.php?src=http%3A%2F%2Fwww.apkmirror.com%2Fwp-content%2Fuploads%2F2015%2F11%2F564e6376c068a.png&w=96&h=96&q=100"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download HBO_NOW_1.3.0.apk from MG.Arabic Wizard"
+
+
+name="HBO_Now_1.3.0_x86.apk"
+url="http://mega-tron.tv/transform/APKs/HBO_Now_1.3.0_x86.apk"
+icon="http://www.apkmirror.com/wp-content/themes/APKMirror/ap_resize/ap_resize.php?src=http%3A%2F%2Fwww.apkmirror.com%2Fwp-content%2Fuploads%2F2015%2F11%2F564e6376c068a.png&w=96&h=96&q=100"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download HBO_Now_1.3.0_x86.apk from MG.Arabic Wizard"
+
+
+name="HULU.Plus_2.22.0.202468.apk"
+url="http://mega-tron.tv/transform/APKs/HULU.Plus_2.22.0.202468.apk"
+icon="http://cdn.appdow123.info/2015/1118/hulu-plus-2220202468_827d7.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download HULU.Plus_2.22.0.202468.apk from MG.Arabic Wizard"
+
+
+name="MD.emu_1.5.28.apk"
+url="http://mega-tron.tv/transform/APKs/MD.emu_1.5.28.apk"
+icon="https://lh6.ggpht.com/Rh8kI_d9EGO-v26jcOJQbMA34a1UtjXD8LCI9Ztag7FNOI-fjZesavsikSeuzd6lRpJZ=h900"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download MD.emu_1.5.28.apk from MG.Arabic Wizard"
+
+
+name="MX.Player.Ads.1.7.40.apk"
+url="http://mega-tron.tv/transform/APKs/MX.Player.Ads.1.7.40.apk"
+icon="http://www.apkmirror.com/wp-content/themes/APKMirror/ap_resize/ap_resize.php?src=http%3A%2F%2Fwww.apkmirror.com%2Fwp-content%2Fuploads%2F2015%2F06%2F5579c4cd6be71.png&w=96&h=96&q=100"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download MX.Player.Ads.1.7.40.apk from MG.Arabic Wizard"
+
+
+name="Material.Terminal_2.0.3-6.apk"
+url="http://mega-tron.tv/transform/APKs/Material.Terminal_2.0.3-6.apk"
+icon="https://apkdot.com/media/resizer/96x96/r/icon.apkdot.com/yarolegovich.materialterminal.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Material.Terminal_2.0.3-6.apk from MG.Arabic Wizard"
+
+
+name="Megatron-Transformer-v2.apk"
+url="http://mega-tron.tv/transform/APKs/Megatron-Transformer-v2.apk"
+icon="https://droidapk.org/wp-content/uploads/2016/12/TRANSFORMERS-FORGED-TO-FIGHT-apk.jpg"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Megatron-Transformer-v2.apk from MG.Arabic Wizard"
+
+
+name="Mobdro.apk"
+url="http://mega-tron.tv/transform/APKs/Mobdro.apk"
+icon="http://mobdroapp.com/wp-content/uploads/Mobdro-Icon.jpg"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Mobdro.apk from MG.Arabic Wizard"
+
+
+name="MovieHD_1.1.0.apk"
+url="http://mega-tron.tv/transform/APKs/MovieHD_1.1.0.apk"
+icon="http://technosprout.net/wp-content/uploads/2015/10/12.jpg"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download MovieHD_1.1.0.apk from MG.Arabic Wizard"
+
+
+name="Mupen64_Plus_AE_2.4.4.apk"
+url="http://mega-tron.tv/transform/APKs/Mupen64_Plus_AE_2.4.4.apk"
+icon="http://i.utdstc.com/icons/120/mupen64-plus-ae-android.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Mupen64_Plus_AE_2.4.4.apk from MG.Arabic Wizard"
+
+
+name="NES.emu_1.5.28.apk"
+url="http://mega-tron.tv/transform/APKs/NES.emu_1.5.28.apk"
+icon="http://proapkmod.com/wp-content/uploads/2015/10/nes.emu_.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download NES.emu_1.5.28.apk from MG.Arabic Wizard"
+
+
+name="Netflix_3.15.3_build_5269.apk"
+url="http://mega-tron.tv/transform/APKs/Netflix_3.15.3_build_5269.apk"
+icon="http://www.apk20.com/image/icon-4886"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Netflix_3.15.3_build_5269.apk from MG.Arabic Wizard"
+
+
+name="PLEX_4.14.0.459.apk"
+url="http://mega-tron.tv/transform/APKs/PLEX_4.14.0.459.apk"
+icon="http://cdn.appdow123.info/2015/1118/plex-4140459_beb04.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download PLEX_4.14.0.459.apk from MG.Arabic Wizard"
+
+
+name="PPSSPP_1.1.1.0.apk"
+url="http://mega-tron.tv/transform/APKs/PPSSPP_1.1.1.0.apk"
+icon="https://apkdot.com/media/resizer/96x96/r/icon.apkdot.com/org.ppsspp.ppsspp.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download PPSSPP_1.1.1.0.apk from MG.Arabic Wizard"
+
+
+name="Popcorn.Time.Android_0.2.5.2-2000966.apk"
+url="http://mega-tron.tv/transform/APKs/Popcorn.Time.Android_0.2.5.2-2000966.apk"
+icon="http://apk.co/images/popcorn-time-0252.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Popcorn.Time.Android_0.2.5.2-2000966.apk from MG.Arabic Wizard"
+
+
+name="ProgTV_2.05.5.apk"
+url="http://mega-tron.tv/transform/APKs/ProgTV_2.05.5.apk"
+icon="https://i.downloadatoz.com/download/icon2/b/9/b/2dec507dc0fceb66bfc11468f47870d8.jpg"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download ProgTV_2.05.5.apk from MG.Arabic Wizard"
+
+
+name="QuickShortcutMaker_2.4.0.apk"
+url="http://mega-tron.tv/transform/APKs/QuickShortcutMaker_2.4.0.apk"
+icon="https://icon.apkdot.com/com.sika524.android.quickshortcut.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download QuickShortcutMaker_2.4.0.apk from MG.Arabic Wizard"
+
+
+name="Quick_Boot_4.7.apk"
+url="http://mega-tron.tv/transform/APKs/Quick_Boot_4.7.apk"
+icon="https://pic.apk4fun.com/d0/ff/08/com.siriusapplications.quickboot-icon.jpg"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Quick_Boot_4.7.apk from MG.Arabic Wizard"
+
+
+name="Quicksupport-10.0.3224.apk"
+url="http://mega-tron.tv/transform/APKs/Quicksupport-10.0.3224.apk"
+icon="http://www.apkmirror.com/wp-content/themes/APKMirror/ap_resize/ap_resize.php?src=http%3A%2F%2Fwww.apkmirror.com%2Fwp-content%2Fuploads%2F2015%2F05%2F555bae1708773.png&w=96&h=96&q=100"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Quicksupport-10.0.3224.apk from MG.Arabic Wizard"
+
+
+name="RetroArch_1.2.2.apk"
+url="http://mega-tron.tv/transform/APKs/RetroArch_1.2.2.apk"
+icon="http://www.apkmirror.com/wp-content/themes/APKMirror/ap_resize/ap_resize.php?src=http%3A%2F%2Fwww.apkmirror.com%2Fwp-content%2Fuploads%2F2015%2F07%2F55a6bdcd22569.png&w=96&h=96&q=100"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download RetroArch_1.2.2.apk from MG.Arabic Wizard"
+
+
+name="Root_Check_2.4.7.apk"
+url="http://mega-tron.tv/transform/APKs/Root_Check_2.4.7.apk"
+icon="https://lh3.ggpht.com/M2CQtYqHh-M-VwCAqYZE2XwkBQO--G9XFecIo4gbLiaMFNkKRazjCWUId1jo_Xey8kg=w300-rw"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Root_Check_2.4.7.apk from MG.Arabic Wizard"
+
+
+name="SSH_sftp_Server_12.0.apk"
+url="http://mega-tron.tv/transform/APKs/SSH_sftp_Server_12.0.apk"
+icon="https://i.downloadatoz.com/download/icon2/4/1/4/3e31f5c5eb1913abf9f3b73f4d95b414.jpg"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download SSH_sftp_Server_12.0.apk from MG.Arabic Wizard"
+
+
+name="Set_Orientation_1.1.4.apk"
+url="http://mega-tron.tv/transform/APKs/Set_Orientation_1.1.4.apk"
+icon="http://ts02.spac.me/tfil/8cc8402811744b9f43ac6f70582e4fd6/54758578.ft.500.500.0.jpg?1437098719"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Set_Orientation_1.1.4.apk from MG.Arabic Wizard"
+
+
+name="Showbox_4.27-64.apk"
+url="http://mega-tron.tv/transform/APKs/Showbox_4.27-64.apk"
+icon="https://apkdot.com/media/resizer/96x96/r/icon.apkdot.com/com.tdo.showbox.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Showbox_4.27-64.apk from MG.Arabic Wizard"
+
+
+name="Sixaxis_Compatibility_Checker_0.4.3.apk"
+url="http://mega-tron.tv/transform/APKs/Sixaxis_Compatibility_Checker_0.4.3.apk"
+icon="http://cdn.apk-cloud.com/detail/image/com.dancingpixelstudios.sixaxiscompatibilitychecker-w130.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Sixaxis_Compatibility_Checker_0.4.3.apk from MG.Arabic Wizard"
+
+
+name="Sixaxis_Controller_0.8.3.apk"
+url="http://mega-tron.tv/transform/APKs/Sixaxis_Controller_0.8.3.apk"
+icon="http://www.apknool.com/wp-content/uploads/2015/07/Sixaxis-Controller.jpg"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Sixaxis_Controller_0.8.3.apk from MG.Arabic Wizard"
+
+
+name="Speedtest-3.2.14-6602.apk"
+url="http://mega-tron.tv/transform/APKs/Speedtest-3.2.14-6602.apk"
+icon="http://www.apkmirror.com/wp-content/themes/APKMirror/ap_resize/ap_resize.php?src=http%3A%2F%2Fwww.apkmirror.com%2Fwp-content%2Fuploads%2F2015%2F09%2F55f9cb272d3f8.png&w=96&h=96&q=100"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Speedtest-3.2.14-6602.apk from MG.Arabic Wizard"
+
+
+name="SuperRetro16_1.6.7.apk"
+url="http://mega-tron.tv/transform/APKs/SuperRetro16_1.6.7.apk"
+icon="http://www.todoapk.net/wp-content/uploads/2015/12/superretro16-300x300.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download SuperRetro16_1.6.7.apk from MG.Arabic Wizard"
+
+
+name="SuperSU_2.46.apk"
+url="http://mega-tron.tv/transform/APKs/SuperSU_2.46.apk"
+icon="http://i.imgur.com/rxxSRxt.jpg"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download SuperSU_2.46.apk from MG.Arabic Wizard"
+
+
+name="TV_Go_2.4.4.012.apk"
+url="http://mega-tron.tv/transform/APKs/TV_Go_2.4.4.012.apk"
+icon="http://www.apkmirror.com/wp-content/themes/APKMirror/ap_resize/ap_resize.php?src=http%3A%2F%2Fwww.apkmirror.com%2Fwp-content%2Fuploads%2F2015%2F12%2F568334e03bc10.png&w=96&h=96&q=100"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download TV_Go_2.4.4.012.apk from MG.Arabic Wizard"
+
+
+name="Telegram_3.2.6.apk"
+url="http://mega-tron.tv/transform/APKs/Telegram_3.2.6.apk"
+icon="http://img.apkbot.com/2015/11/2015-11-04_114228.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Telegram_3.2.6.apk from MG.Arabic Wizard"
+
+
+name="Tincore KeyMapper_3.7.3.apk"
+url="http://mega-tron.tv/transform/APKs/Tincore%20KeyMapper_3.7.3.apk"
+icon="https://pic.apk4fun.com/68/07/d1/com.tincore.and.keymapper-icon.jpg"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Tincore KeyMapper_3.7.3.apk from MG.Arabic Wizard"
+
+
+name="TitaniumBackup_7.2.4-373.apk"
+url="http://mega-tron.tv/transform/APKs/TitaniumBackup_7.2.4-373.apk"
+icon="http://www.androidapksfree.com/wp-content/uploads/2015/03/titanium-backup-root-apk-85x85.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download TitaniumBackup_7.2.4-373.apk from MG.Arabic Wizard"
+
+
+name="Torrent-stream-controller-1.5.6.apk"
+url="http://mega-tron.tv/transform/APKs/Torrent-stream-controller-1.5.6.apk"
+icon="https://i1.wp.com/img.android-apk.org/imgs/d/c/6/dc6f141a6dfbefefde6412f3ef69c05a_icon_127x127.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Torrent-stream-controller-1.5.6.apk from MG.Arabic Wizard"
+
+
+name="TotalCommander-2.62-132.apk"
+url="http://mega-tron.tv/transform/APKs/TotalCommander-2.62-132.apk"
+icon="https://apkdot.com/media/resizer/96x96/r/icon.apkdot.com/com.ghisler.android.TotalCommander.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download TotalCommander-2.62-132.apk from MG.Arabic Wizard"
+
+
+name="TuneIn_Radio_Pro_13.9.4.apk"
+url="http://mega-tron.tv/transform/APKs/TuneIn_Radio_Pro_13.9.4.apk"
+icon="https://www.apk4market.com/wp-content/uploads/2015/10/TuneIn-Radio-Pro-13.9.4-APK.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download TuneIn_Radio_Pro_13.9.4.apk from MG.Arabic Wizard"
+
+
+name="Unblock_Us_2.1.3.apk"
+url="http://mega-tron.tv/transform/APKs/Unblock_Us_2.1.3.apk"
+icon="http://image.apkfeed.com/?p=com.github.unblockus.manager&w=96"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Unblock_Us_2.1.3.apk from MG.Arabic Wizard"
+
+
+name="UnoTelly_1.1.apk"
+url="http://mega-tron.tv/transform/APKs/UnoTelly_1.1.apk"
+icon="https://cdn.apkmonk.com/logos/com.app.unotelly_150x150.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download UnoTelly_1.1.apk from MG.Arabic Wizard"
+
+
+name="WSS.apk"
+url="http://mega-tron.tv/transform/APKs/WSS.apk"
+icon="https://lh3.ggpht.com/nB1BJ9kEGcojjIMS1xImVHKbr3dmgpMCI7dKXB6lYMYfhKKbb51K7AzFfF6BTY_1zQGU=w100"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download WSS.apk from MG.Arabic Wizard"
+
+
+name="WiFi_ADB_1.45.apk"
+url="http://mega-tron.tv/transform/APKs/WiFi_ADB_1.45.apk"
+icon="http://cdn.apk-cloud.com/detail/image/com.ttxapps.wifiadb-w130.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download WiFi_ADB_1.45.apk from MG.Arabic Wizard"
+
+
+name="Wifi_Analyzer_3.9.1.apk"
+url="http://mega-tron.tv/transform/APKs/Wifi_Analyzer_3.9.1.apk"
+icon="https://pic.apk4fun.com/91/ff/a9/com.farproc.wifi.analyzer-icon.jpg"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Wifi_Analyzer_3.9.1.apk from MG.Arabic Wizard"
+
+
+name="XBMC_Launcher_2.2.apk"
+url="http://mega-tron.tv/transform/APKs/XBMC_Launcher_2.2.apk"
+icon="http://cdn.apk-cloud.com/detail/image/se.blunden.xbmclauncher-w130.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download XBMC_Launcher_2.2.apk from MG.Arabic Wizard"
+
+
+name="Xposed.installer-3.0_alpha4-37.apk"
+url="http://mega-tron.tv/transform/APKs/Xposed.installer-3.0_alpha4-37.apk"
+icon="http://www.apkmirror.com/wp-content/themes/APKMirror/ap_resize/ap_resize.php?src=http%3A%2F%2Fwww.apkmirror.com%2Fwp-content%2Fuploads%2F2015%2F06%2F5591bd87e86e5.png&w=96&h=96&q=100"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Xposed.installer-3.0_alpha4-37.apk from MG.Arabic Wizard"
+
+
+name="ePSXe_1.9.37.apk"
+url="http://mega-tron.tv/transform/APKs/ePSXe_1.9.37.apk"
+icon="http://1.bp.blogspot.com/-Xy4KD6P-kck/VMT0vsf3SmI/AAAAAAAAPL8/cKB69GIaVx4/s1600/unnamed1.PNG"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download ePSXe_1.9.37.apk from MG.Arabic Wizard"
+
+
+name="privateinternetaccess.com_1.1.7.apk"
+url="http://mega-tron.tv/transform/APKs/privateinternetaccess.com_1.1.7.apk"
+icon="http://cdn.apk-cloud.com/detail/image/com.privateinternetaccess.android-w130.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download privateinternetaccess.com_1.1.7.apk from MG.Arabic Wizard"
+
+
+name="SpinzTV Pr0"
+url="http://p.brosgit.pro/spinz/apk/SpinzTV.apk"
+icon="http://spinztv.com/wizard/images/Spinz-KC39a-A02_512x512.png"
+fanart="http://spinztv.com/wizard/images/Background1920x1080.jpg"
+adult="no"
+description="Download SpinzTV Pr0 from MG.Arabic Wizard"
+
+
+name="Lean Back Launcher"
+url="http://spez.tv/spinz/APK/systemtools/LeanbackLauncher.apk"
+icon="http://spez.tv/APK/apkimages/leanback.png"
+fanart="http://spez.tv/APK/apkimages/spinzapk.png"
+adult="no"
+description="Download Lean Back Launcher from MG.Arabic Wizard"
+
+
+name="SideLoad Launcher"
+url="http://spez.tv/spinz/APK/systemtools/SideloadLauncher.apk"
+icon="http://spez.tv/APK/apkimages/sideload.png"
+fanart="http://spez.tv/APK/apkimages/spinzapk.png"
+adult="no"
+description="Download SideLoad Launcher from MG.Arabic Wizard"
+
+
+name="Cyber Ghost"
+url="http://download.cyberghostvpn.com/android/CG_Android_5.5.0.12.apk"
+icon="http://spez.tv/APK/apkimages/cg.png"
+fanart="http://spez.tv/APK/apkimages/spinzapk.png"
+adult="no"
+description="Download Cyber Ghost from MG.Arabic Wizard"
+
+
+name="ES File Explorer"
+url="http://spez.tv/APK/ES.File.Explorer.apk"
+icon="http://spez.tv/APK/apkimages/esfile.png"
+fanart="http://spez.tv/APK/apkimages/spinzapk.png"
+adult="no"
+description="Download ES File Explorer from MG.Arabic Wizard"
+
+
+name="Mobdro"
+url="http://spez.tv/APK/mobdro.apk"
+icon="http://spez.tv/APK/apkimages/mobdro.png"
+fanart="http://spez.tv/APK/apkimages/spinzapk.png"
+adult="no"
+description="Download Mobdro from MG.Arabic Wizard"
+
+
+name="Showbox"
+url="http://spez.tv/APK/showbox_4.68-89.apk"
+icon="http://spez.tv/APK/apkimages/showbox.png"
+fanart="http://spez.tv/APK/apkimages/spinzapk.png"
+adult="no"
+description="Download Showbox from MG.Arabic Wizard"
+
+
+name="Cartoon HD"
+url="http://www.dropbox.com/s/fwjk6ul58o9i1y7/CartoonHD_202.apk?dl=1"
+icon="http://spez.tv/APK/apkimages/cartoonhd.png"
+fanart="http://spez.tv/APK/apkimages/spinzapk.png"
+adult="no"
+description="Download Cartoon HD from MG.Arabic Wizard"
+
+
+name="STB Emulator"
+url="http://spez.tv/APK/STBEmulator_v0.8.05_apkpure.com.apk"
+icon="http://spez.tv/APK/apkimages/stb.png"
+fanart="http://spez.tv/APK/apkimages/spinzapk.png"
+adult="no"
+description="Download STB Emulator from MG.Arabic Wizard"
+
+
+name="Kingroot"
+url="http://spez.tv/APK/com.kingroot.kinguser_v4.9.3-146_Android-2.3.apk"
+icon="http://spez.tv/APK/apkimages/KingRoot-APK-168x137.png"
+fanart="http://spez.tv/APK/apkimages/spinzapk.png"
+adult="no"
+description="Download Kingroot from MG.Arabic Wizard"
+
+
+name="Root Checker"
+url="http://spez.tv/APK/com.joeykrim.rootcheck_v5.8.9-131_Android-2.3.apk"
+icon="http://spez.tv/APK/apkimages/root-checker-apk-168x137.png"
+fanart="http://spez.tv/APK/apkimages/spinzapk.png"
+adult="no"
+description="Download Root Checker from MG.Arabic Wizard"
+
+
+name="YouTube"
+url="http://spez.tv/APK/com.google.android.youtube_v11.25.55-112555130_Android-4.1.apk"
+icon="http://spez.tv/APK/apkimages/youtube.png"
+fanart="http://spez.tv/APK/apkimages/spinzapk.png"
+adult="no"
+description="Download YouTube from MG.Arabic Wizard"
+
+
+name="NetFlix"
+url="http://spez.tv/APK/com.netflix.mediaclient_v4.7.1_build_8008-8008_Android-4.4.apk"
+icon="http://spez.tv/APK/apkimages/netflix.png"
+fanart="http://spez.tv/APK/apkimages/spinzapk.png"
+adult="no"
+description="Download NetFlix from MG.Arabic Wizard"
+
+
+name="Hola Launcher"
+url="http://spez.tv/APK/com.hola.launcher_v2.2.6-2261_Android-2.3.3.apk"
+icon="http://spez.tv/APK/apkimages/hola.png"
+fanart="http://spez.tv/APK/apkimages/spinzapk.png"
+adult="no"
+description="Download Hola Launcher from MG.Arabic Wizard"
+
+
+name="Go Launcher"
+url="http://spez.tv/APK/golauncherv2.11.apk"
+icon="http://spez.tv/APK/apkimages/golauncher.png"
+fanart="http://spez.tv/APK/apkimages/spinzapk.png"
+adult="no"
+description="Download Go Launcher from MG.Arabic Wizard"
+
+
+name="Microsoft Office"
+url="http://spez.tv/APK/com.microsoft.office.officehub_v15.0.5329.2000-15865200_Android-4.0.apk"
+icon="http://spez.tv/APK/apkimages/Microsoft-Office-Mobile-APK-168x137.png"
+fanart="http://spez.tv/APK/apkimages/spinzapk.png"
+adult="no"
+description="Download Microsoft Office from MG.Arabic Wizard"
+
+
+name="Angry Birds Action"
+url="http://spez.tv/APK/angrybirdsactionv2.4.3-324_Android-4.1.apk"
+icon="http://spez.tv/APK/apkimages/Angry-Birds-Action-apk-1-168x137.png"
+fanart="http://spez.tv/APK/apkimages/spinzapk.png"
+adult="no"
+description="Download Angry Birds Action from MG.Arabic Wizard"
+
+
+name="Asphalt Nitro"
+url="http://spez.tv/APK/asphaltnitro_v1.4.0k-14031_Android-4.0.apk"
+icon="http://spez.tv/APK/apkimages/Asphalt-Nitro-APK-1-168x137.png"
+fanart="http://spez.tv/APK/apkimages/spinzapk.png"
+adult="no"
+description="Download Asphalt Nitro from MG.Arabic Wizard"
+
+
+name="Mobile Strike"
+url="http://spez.tv/APK/mobilestrike_Android-2.3.3.apk"
+icon="http://spez.tv/APK/apkimages/Mobile-Strike-APK-168x137.png"
+fanart="http://spez.tv/APK/apkimages/spinzapk.png"
+adult="no"
+description="Download Mobile Strike from MG.Arabic Wizard"
+
+
+name="Pokemon GO"
+url="http://spez.tv/APK/pokemongo_v0.29.0-2016070500_Android-4.4.apk"
+icon="http://spez.tv/APK/apkimages/Pokémon-GO-APK-168x137.png"
+fanart="http://spez.tv/APK/apkimages/spinzapk.png"
+adult="no"
+description="Download Pokemon GO from MG.Arabic Wizard"
+
+
+name="Slither"
+url="http://spez.tv/APK/slither_v1.4.2-1004002_Android-2.3.apk"
+icon="http://spez.tv/APK/apkimages/slither.io-APK-168x137.png"
+fanart="http://spez.tv/APK/apkimages/spinzapk.png"
+adult="no"
+description="Download Slither from MG.Arabic Wizard"
+
+
+name="NBC Sports Live Extra"
+url="https://appraw.com/dl/4pHQqCxVT7"
+icon="https://appraw.com/static/previews/downloads/i/4/p/s-icon-nbc-sports-live-extra-4pHQqCxVT7-1.png"
+fanart="http://spez.tv/APK/apkimages/spinzapk.png"
+adult="no"
+description="Download NBC Sports Live Extra from MG.Arabic Wizard"
+
+
+name="Mediahh"
+url="http://www.apkthing.com/url/3Az"
+icon="http://kobracustombuilds.com/apks/img/mediahhh.png"
+fanart="http://spez.tv/APK/apkimages/spinzapk.png"
+adult="no"
+description="Download Mediahh from MG.Arabic Wizard"
+
+
+name="TV Launcher Firestarter Replacement"
+url="http://tinyurl.com/jslo3yt"
+icon="http://kobracustombuilds.com/apks/img/tvlauncher.png"
+fanart="http://spez.tv/APK/apkimages/spinzapk.png"
+adult="no"
+description="Download TV Launcher Firestarter Replacement from MG.Arabic Wizard"
+
+
+name="APP Starter Firestarter Replacement"
+url="https://github.com/sphinx02/AppStarter/releases/download/v4.0/AppStarter-v4.0.apk"
+icon="http://kobracustombuilds.com/apks/img/tvlauncher.png"
+fanart="http://spez.tv/APK/apkimages/spinzapk.png"
+adult="no"
+description="Download APP Starter Firestarter Replacement from MG.Arabic Wizard"
+
+
+name="Cartoon Network"
+url="https://download.apkpure.com/c/APK/1558/020b88dc6d0f3008?_fn=Q2FydG9vbiBOZXR3b3JrIEFwcF92My41LjIwMTYwNjE0LXJjNF9hcGtwdXJlLmNvbS5hcGs%3D&k=53d6ce6fde197272aa0497effe61baf2578ec752&_p=Y29tLnR1cm5lci5jbnZpZGVvYXBw&c=1%7CMEDIA_AND_VIDEO"
+icon="http://a229.phobos.apple.com/us/r30/Purple/v4/aa/59/24/aa59243e-08e6-b578-cec6-cf13fd549b92/mzl.fcxzqkpf.png"
+fanart="http://spez.tv/APK/apkimages/spinzapk.png"
+adult="no"
+description="Download Cartoon Network from MG.Arabic Wizard"
+
+
+name="Cinema Box HD"
+url="http://spez.tv/APK/CinemaBoxHD.apk"
+icon="http://spez.tv/APK/apkimages/Cinema-Box-Icon.png"
+fanart="http://spez.tv/APK/apkimages/spinzapk.png"
+adult="no"
+description="Download Cinema Box HD from MG.Arabic Wizard"
+
+
+name="Megabox"
+url="http://spez.tv/APK/MegaBoxHD.apk"
+icon="http://spez.tv/APK/apkimages/megabox.png"
+fanart="http://spez.tv/APK/apkimages/spinzapk.png"
+adult="no"
+description="Download Megabox from MG.Arabic Wizard"
+
+
+name="MX Player"
+url="http://spez.tv/APK/MXPlayer.apk"
+icon="http://spez.tv/APK/apkimages/mxplayer.png"
+fanart="http://spez.tv/APK/apkimages/spinzapk.png"
+adult="no"
+description="Download MX Player from MG.Arabic Wizard"
+
+
+name="Spotify"
+url="http://spez.tv/APK/Spotify.apk"
+icon="http://spez.tv/APK/apkimages/spotify.png"
+fanart="http://spez.tv/APK/apkimages/spinzapk.png"
+adult="no"
+description="Download Spotify from MG.Arabic Wizard"
+
+
+name="TerrariumTV"
+url="http://spez.tv/APK/TerrariumTV.apk"
+icon="http://spez.tv/APK/apkimages/terrariumtv.png"
+fanart="http://spez.tv/APK/apkimages/spinzapk.png"
+adult="no"
+description="Download TerrariumTV from MG.Arabic Wizard"
+
+
+name="UKTV Now"
+url="http://spez.tv/APK/UkTVNow(FireStick).apk"
+icon="http://spez.tv/APK/apkimages/uktvnow.png"
+fanart="http://spez.tv/APK/apkimages/spinzapk.png"
+adult="no"
+description="Download UKTV Now from MG.Arabic Wizard"
+
+
+name="VPlayer"
+url="http://spez.tv/APK/VPlayer.apk"
+icon="http://spez.tv/APK/apkimages/vplayer.png"
+fanart="http://spez.tv/APK/apkimages/spinzapk.png"
+adult="no"
+description="Download VPlayer from MG.Arabic Wizard"
+
+
+name="GTA Vice City"
+url="http://spez.tv/APK/GTAViceCity.apk"
+icon="http://spez.tv/APK/apkimages/vicecity.png"
+fanart="http://spez.tv/APK/apkimages/spinzapk.png"
+adult="no"
+description="Download GTA Vice City from MG.Arabic Wizard"
+
+
+name="GTA 10 Year Anniv Pack"
+url="http://spez.tv/APK/GTAIII10-YEARANNIVERSARY.apk"
+icon="http://spez.tv/APK/apkimages/gtaanniv.png"
+fanart="http://spez.tv/APK/apkimages/spinzapk.png"
+adult="no"
+description="Download GTA 10 Year Anniv Pack from MG.Arabic Wizard"
+
+
+name="Aptoid"
+url="http://spez.tv/APK/Aptoide.apk"
+icon="http://spez.tv/APK/apkimages/aptoid.png"
+fanart="http://spez.tv/APK/apkimages/spinzapk.png"
+adult="no"
+description="Download Aptoid from MG.Arabic Wizard"
+
+
+name="CCleaner"
+url="http://spez.tv/APK/CCleaner.apk"
+icon="http://spez.tv/APK/apkimages/ccleaner.png"
+fanart="http://spez.tv/APK/apkimages/spinzapk.png"
+adult="no"
+description="Download CCleaner from MG.Arabic Wizard"
+
+
+name="Chrome"
+url="http://spez.tv/APK/Chrome.apk"
+icon="http://spez.tv/APK/apkimages/chrome.png"
+fanart="http://spez.tv/APK/apkimages/spinzapk.png"
+adult="no"
+description="Download Chrome from MG.Arabic Wizard"
+
+
+name="Advanced Task Killer"
+url="http://spez.tv/APK/AdvancedTaskKiller.apk"
+icon="http://spez.tv/APK/apkimages/taskkiller.png"
+fanart="http://spez.tv/APK/apkimages/spinzapk.png"
+adult="no"
+description="Download Advanced Task Killer from MG.Arabic Wizard"
+
