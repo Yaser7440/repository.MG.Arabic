@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.MG.AR.wizard" name="MG AR Wizard" version="1.0.5" provider-name="MG.Arabic">
+<addon id="plugin.program.MG.AR.wizard" name="MG.Arabic Wizard" version="1.0.6" provider-name="MG.Arabic">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>executable</provides>
+        <provides>executable</provides>
   </extension>
   <extension point="xbmc.service" library="startup.py" start="startup" />
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">MG AR Wizard</summary>
-    <description lang="en">This is the new MG AR wizard were you can download our custom build and many others.</description>
+    <summary lang="en">MG.Arabic Wizard</summary>
+    <description lang="en">MG.Arabic Wizard allows you to get access to the latest MG.Arabic Custom Builds and apks.</description>
     <platform>all</platform>
   </extension>
 </addon>
