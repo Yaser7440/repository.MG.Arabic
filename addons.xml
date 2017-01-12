@@ -4111,7 +4111,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 
 <addon id="plugin.audio.6arbyat"
        name="6arbyat"
-       version="1.0.3"
+       version="1.0.4"
        provider-name="Edit by-MG.Arabic">
    <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -4127,6 +4127,11 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
     <summary>Edit by-MG.Arabic http://mg.esy.es/Kodi/</summary>
     <description>arabic songs from 6arbyat.com</description>
     <platform>all</platform>
+	<source>http://mg.esy.es/Kodi/</source>
+		<assets>
+ 			<icon>resources/icon.png</icon>
+ 			<fanart>resources/fanart.jpg</fanart>
+ 		</assets>
   </extension>
 </addon>
 
