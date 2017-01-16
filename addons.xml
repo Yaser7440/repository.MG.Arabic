@@ -2,12 +2,16 @@
 <addons>
 
 <addon id="repository.MG.Arabic" name="..[COLOR red] MG Arabic[/COLOR]" version="3.0.1" provider-name="[COLOR red] MG Arabic[/COLOR]">
-	<extension point="xbmc.addon.repository" name="MG Arabic">
-	
-		<info compressed="false">https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip</datadir>
-		<hashes>true</hashes>
+	<extension point="xbmc.addon.repository" name="MG Arabic">	
+		<dir>
+	        <info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
+	        <checksum>https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5</checksum>
+	        <datadir zip="true">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/</datadir>
+	    </dir>			
+		    <info compressed="false">https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip</datadir>
+		
 			
 	</extension>
 	<requires>
@@ -40,7 +44,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.program.MG.AR.wizard" name="MG.Arabic Wizard" version="1.0.6" provider-name="MG.Arabic">
+<addon id="plugin.program.MG.AR.wizard" name="MG.Arabic Wizard" version="1.0.7" provider-name="MG.Arabic">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -4111,7 +4115,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 
 <addon id="plugin.audio.6arbyat"
        name="6arbyat"
-       version="1.0.3"
+       version="1.0.4"
        provider-name="Edit by-MG.Arabic">
    <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -4127,6 +4131,11 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
     <summary>Edit by-MG.Arabic http://mg.esy.es/Kodi/</summary>
     <description>arabic songs from 6arbyat.com</description>
     <platform>all</platform>
+	<source>http://mg.esy.es/Kodi/</source>
+		<assets>
+ 			<icon>resources/icon.png</icon>
+ 			<fanart>resources/fanart.jpg</fanart>
+ 		</assets>
   </extension>
 </addon>
 
