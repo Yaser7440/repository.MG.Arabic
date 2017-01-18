@@ -3317,7 +3317,7 @@ http://informaticglobalworld.altervista.org/
 
 <addon id="script.module.requests"
        name="requests"
-       version="2.9.1"
+       version="2.12.4"
        provider-name="kennethreitz, beenje">
   <requires>
     <import addon="xbmc.python" version="2.14.0"/>
@@ -3377,12 +3377,12 @@ http://informaticglobalworld.altervista.org/
     </extension>
 </addon>
 
-<addon id="script.module.kodi65" name="Kodi65 Library" version="1.0.0" provider-name="Philipp Temminghoff (phil65)">
+<addon id="script.module.kodi65" name="Kodi65 Library" version="1.2.1" provider-name="Philipp Temminghoff (phil65)">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0"/>
 		<import addon="script.module.youtube.dl" version="14.519.1"/>
 		<import addon="script.module.pil" version="1.1.7"/>
-		<import addon="script.module.t9.search" version="1.0.0"/>
+		<import addon="script.module.autocompletion" version="1.0.0"/>
 		<import addon="script.module.requests" version="2.9.1"/>
 	</requires>
 	<extension point="xbmc.python.module" library="lib" />
@@ -3392,6 +3392,7 @@ http://informaticglobalworld.altervista.org/
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE Version 2.1, February 1999</license>
 		<source>https://github.com/phil65/script.module.kodi65</source>
+		<news>Adjust to latest core changes, bugfixes, API extensions</news>
 	</extension>
 </addon>
 
@@ -7241,7 +7242,7 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
 	</extension>
 </addon>
 
-<addon id="skin.mg.estuary.mod" version="1.7.4" name="MG Estuary MOD (KODI 17)" provider-name="Guilouz">
+<addon id="skin.mg.estuary.mod" version="1.7.5" name="MG Estuary MOD (KODI 17)" provider-name="Guilouz">
 	<requires>
 		<import addon="xbmc.gui" version="5.12.0"/>
 		<import addon="script.skinshortcuts" version="0.6.0"/>
@@ -7329,6 +7330,61 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
     <website></website>
     <email>Demonstratorz.TDB@gmail.com</email>
   </extension>
+</addon>
+
+<addon id="script.module.unidecode" name="unidecode" version="0.4.16" provider-name="Tomaz Solc (Tomaz.solc@tablix.org)">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<language></language>
+		<summary lang="en">ASCII transliterations of Unicode text by Sean M. Burke and Tomaz Solc</summary>
+		<description lang="en">ASCII transliterations of Unicode text by Sean M. Burke and Tomaz Solc</description>
+		<disclaimer lang="en">Code taken from https://pypi.python.org/pypi/Unidecode</disclaimer>
+		<license>GNU General Public License v.2</license>
+		<website>https://pypi.python.org/pypi/Unidecode</website>
+		<source>https://pypi.python.org/pypi/Unidecode</source>
+	</extension>
+</addon>
+
+<addon id="script.skin.helper.widgets" name="Skin Helper Service Widgets" version="1.0.14" provider-name="marcelveldt">
+	<requires>
+		<import addon="xbmc.python" version="2.24.0"/>
+		<import addon="xbmc.addon" version="12.0.0"/>
+        <import addon="script.module.skin.helper.artutils" version="1.0.0" />
+        <import addon="script.module.simplecache" version="1.0.0"/>
+	</requires>
+
+	<extension point="xbmc.python.pluginsource" library="plugin.py">
+        <provides>video audio</provides>
+    </extension>
+
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Ready to use widgets for all kind of media types</summary>
+        <description></description>
+		<language></language>
+		<platform>all</platform>
+		<license>GPL v2.0</license>
+		<forum>http://forum.kodi.tv/showthread.php?tid=235676</forum>
+		<website></website>
+		<source>https://github.com/marcelveldt/script.skin.helper.widgets</source>
+	</extension>
+</addon>
+
+<addon id="script.module.simplecache" name="Simple Cache Module" version="1.0.11" provider-name="marcelveldt">
+    <requires>
+        <import addon="xbmc.python" version="2.24.0"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary>Provides a simple file- and memory based cache for Kodi addons</summary>
+        <description>Provides a simple file- and memory based cache for Kodi addons</description>
+        <license>Apache 2.0</license>
+        <source>https://github.com/marcelveldt/script.module.simplecache</source>
+        <platform>all</platform>
+    </extension>
 </addon>
 
 </addons>
