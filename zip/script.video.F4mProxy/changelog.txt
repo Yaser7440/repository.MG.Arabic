@@ -1,3 +1,15 @@
+[B]Version 2.8.6[/B]
+revert URL status, no error to be shown now
+[B]Version 2.8.5[/B]
+HSL bug
+[B]Version 2.8.4[/B]
+fixing wrong incoming URL
+[B]Version 2.8.3[/B]
+relaxed init check
+[B]Version 2.8.2[/B]
+return quickly if not playable - better message
+[B]Version 2.8.1[/B]
+return quickly if not playable
 [B]Version 2.8.0[/B]
 fixes for krypton, still in beta
 [B]Version 2.7.9[/B]

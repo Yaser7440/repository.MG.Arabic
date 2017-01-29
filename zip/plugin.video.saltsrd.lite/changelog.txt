@@ -1,3 +1,7 @@
+Version [B]2.0.136[/B]
+- MaintenanceRelease RD.lite
++ All Kudos -2- TKnorris (Y)
+
 Version 1.0.[B]149[/B](+e)
 - OODOOV
 
@@ -133,6 +137,86 @@ Version 1.0.132[B]a[/B] EPiC Real-Debrid
 + Salts HD Lite .130 "engine" (kudos-2-TKnorris though)
 
 ---------------------
+[B]Version 2.0.136[/B]
+- Fix Watch5s
+- Fix MVL
+- Fix xmovies8.v2
+- Fix Putlockers
+- Fix rls-movies
+- Update sezonlukdizi
+
+[B]Version 2.0.133[/B]
+- Add YabanciDizi
+- Add RealMovies
+- Fix PutMV
+- Fix Pelispedia
+- Fix Watch5s
+- Fix MovieGo
+- Fix MovieWatcher
+- Fix SpaceMov
+- Fix MovieHubs
+- Fix Afdah
+- Improve MovieXK
+- Fix TuneMovie
+- Fix WMO
+- Handle reserved windows filenames
+
+[B]Version 2.0.129[/B]
+- Fix MVL
+- Fix Watch5s
+- Fix MovieHut
+
+[B]Version 2.0.128[/B]
+- Add OLMovies scraper
+- Fix Pelispedia scraper
+- Fix PFTV
+- Disable yabanzi scraper
+- Improve putmv scraper
+- Improve pubfilm scraper
+- Improve solar scraper
+
+[B]Version 2.0.126[/B]
+- Fix RLSHD
+- Fix MVL
+- Fix dizist
+- Fix PFTV
+- Improve DDLSeries
+
+[B]Version 2.0.122[/B]
+- Fix WSO
+- Fix DDLSeries
+- Fix Quikr
+- Improve TVHD
+- Improve People Image Scraper
+- Improve CF Handling
+- Improve DB Handling
+- Add Download Source option to source in directory mode
+
+[B]Version 2.0.121[/B]
+- Fix VKFlix
+- Fix SpaceMov
+- Fix HeyDL
+- Improve TVHD scraper
+- Improve vidics
+- Remove MaksiDizi
+
+[B]Version 2.0.120[/B]
+- Add dailyreleases scraper
+- Add TVHD scraper
+- Add SeeHD scraper
+- Add RLSHD scraper
+- Fix putlocker
+- Fix DDLSeries
+- Fix watch8now
+- Fix vidnow4k
+- Fix PutMV
+- Fix CouchTuner
+- Fix MoviePool
+- Remove crazy4tv scraper
+- Remove HDFlix
+- Add option to use tmdb image api cache module
+- Improve token related scrapers
+
 [B]Version 2.0.116[/B]
 - Improve Flush Url Cache to show progress on Kryton
 - Add support for Cast Thumbnails on Krypton
@@ -206,15 +290,24 @@ Version 1.0.132[B]a[/B] EPiC Real-Debrid
 - Add Dizist scraper
 - Fix Putlocker
 
-[B]Version 2.0.100[/B]
-- some fixing & scraping and shit ;-p
-
 [B]Version 2.0.97[/B]
 - Allow no-language and en images for fanart
 - Allow image scrapers to be disabled
 - Add episode screenshots support from MNE, WIA and Season views (ONLY)
 - Add flush image cache function
 - Fix VKFlix
+
+[B]Version 2.0.96[/B]
+- Add fanart.tv, tmdb, tvdb, and omdb as a source for images
+- Improve Easynews (user contribution)
+- Improve PubFilm
+- Improve HDFlix
+- Improve WatchSeries
+- Update MovieXK
+- Fix PutMV
+- Fix Dizibox
+- Fix PubFilm
+- Fix Movie4K
 
 [B]Version 2.0.95[/B]
 - Add SeriesCoco

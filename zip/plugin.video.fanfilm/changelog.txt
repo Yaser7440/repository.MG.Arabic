@@ -1,8 +1,7 @@
-Wersja 2016.11.01.1
-    - poprawia sekcji filmów
+2017.01.26.4 - poprawki do alltube
 
-Wersja 2016.09.01.2
-    - poprawia sekcji filmów
+Wersja 2016.11.01.1    - poprawia sekcji filmów
+Wersja 2016.09.01.2    - poprawia sekcji filmów
 ------------------------
 FanFilm v2016.05.10.5
 ------------------------
