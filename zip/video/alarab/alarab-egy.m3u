@@ -1,4 +1,8 @@
 ﻿#EXTM3U
+#EXTINF:-1 tvg-logo="http://images.alarab.com/data/films/146-100/20170118105447.jpg",فيلم الدارما المغربي غرام وانتقام 2015 بجودة HD
+http://flv2.alarab.com:8080/new/flv/108355.flv
+#EXTINF:-1 tvg-logo="http://images.alarab.com/data/films/146-100/20170121193320.jpg",حرام الجسد فيلم جريمة دراما رومنسي مصري 2016 جودة HD
+http://flv2.alarab.com:8080/new/flv/108424.flv
 #EXTINF:-1 tvg-logo="http://images.alarab.com/data/films/428-295/20160914222300.jpg",اهدة فيلم سلاح التلاميذ مصري 2016 1:26:53
 http://flv2.alarab.com:8080/new/flv/105001.flv
 http://flv2.alarab.com:8080/new/iphone/105001.mp4
