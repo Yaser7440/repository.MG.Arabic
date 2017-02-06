@@ -1,3 +1,9 @@
+v3.0.1
+- simplify code
+
+v3.0.0
+- remove simplejson support
+
 v2.0.2
 - cosmetics
 

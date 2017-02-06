@@ -829,13 +829,14 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
   </extension>
 </addon>
 
-<addon id="plugin.video.youtube" name="YouTube" version="5.3.8" provider-name="h0d3nt3uf3l, bromix">
+<addon id="plugin.video.youtube" name="YouTube" version="5.3.8x" provider-name="jdf76, bromix">
 	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="xbmc.python" version="2.19.0"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
 	</extension>
+    <extension point="xbmc.service" library="startup.py" start="startup" />
 	<extension point="xbmc.addon.metadata">
         <news>
 [add] MPEG-DASH support for Kodi 17 w/ inputstream.adaptive Add-on
@@ -933,7 +934,7 @@ Other languages with a great number of subtitles are: Danish, French, Swedish, D
     </extension>
 </addon>
 
-<addon id="service.subtitles.opensubtitles" name="OpenSubtitles.org" version="5.1.14" provider-name="opensubtitles">
+<addon id="service.subtitles.opensubtitles" name="OpenSubtitles.org by OpenSubtitles" version="5.2.14"  provider-name="amet, opensubtitles">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -983,8 +984,9 @@ Other languages with a great number of subtitles are: Danish, French, Swedish, D
     <disclaimer>Works without log-in</disclaimer>                                               
 	<news>
 Improved add-on by OpenSubtitles.org
-v5.1.14 (2016-11-20)
+v5.2.14 (2017-01-23)
 - Users are able to download subtitles as anonymous without authentication. Added localized descriptions, media files
+- New feature: Users are able to check for subtitles when Kodi is not playing, by using the manual search or by standing on an item and opening the subtitles search dialog (By key or by an external addon)  | @burekas
 	</news>
     <platform>all</platform>
 	<language></language>
@@ -1646,7 +1648,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   </extension>
 </addon>
 
-<addon id="plugin.video.phstreams" name="Phoenix" version="3.1.22" provider-name="tvaddons.ag">
+<addon id="plugin.video.phstreams" name="Phoenix" version="3.2.1" provider-name="tvaddons.ag">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
@@ -1664,7 +1666,14 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<platform>all</platform>
 		<forum>http://forums.tvaddons.ag/forums/220-PHOENIX-LIVE-STREAMS</forum>
 		<website>http://www.tvaddons.ag/</website>
-		<news>Updated providers[CR]Cosmetics</news>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
+		</assets>
+		<news>Updated providers</news>
 	</extension>
 </addon>
 
@@ -2218,7 +2227,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   </extension>
 </addon>
 
-<addon id="plugin.video.md123movies" name="123Movies" version="2.0.1" provider-name="Mucky Duck">
+<addon id="plugin.video.md123movies" name="123Movies" version="2.0.2" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.metahandler" version="2.5.1"/>
@@ -2262,7 +2271,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   </extension>
 </addon>
 
-<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2017.01.20.2" provider-name="mrknow" >
+<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2017.01.28.1" provider-name="mrknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.requests" version="1.0.0" />
@@ -2302,7 +2311,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="plugin.video.exodus" version="3.0.1" name="Exodus" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="3.0.5" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<!-- <import addon="repository.exodus" version="1.0.0" /> -->
@@ -2326,7 +2335,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
 			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
-		<news>- Tweaked indexers[CR]- Tweaked sorting of streams[CR]- Tweaked labels of available streams[CR]- Added support for localized trailers when available[CR]- Tweaked Providers Language support[CR]- NOTE: It has to be set again for non English options[CR]- Tweaked Providers caching[CR]- Updated existing providers[CR]- Removed dead providers[CR]- Added new providers</news>
+		<news>- Updated existing providers</news>
 	</extension>
 </addon>
 
@@ -2541,7 +2550,7 @@ http://informaticglobalworld.altervista.org/
     </extension>
 </addon>
 
-<addon id="plugin.video.mdm4u" name="M4U" version="2.0.1" provider-name="Mucky Duck">
+<addon id="plugin.video.mdm4u" name="M4U" version="2.0.3" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.metahandler" version="2.5.1"/>
@@ -3533,7 +3542,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="script.mrknow.urlresolver" name="Mrknow URLResolver" version="2017.01.20.1" provider-name="mrknow" >
+<addon id="script.mrknow.urlresolver" name="Mrknow URLResolver" version="2017.01.28.1" provider-name="mrknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -7242,7 +7251,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="script.module.muckys.common" name="Muckys Common Libraries" version="1.1.5" provider-name="Mucky Duck">
+<addon id="script.module.muckys.common" name="Muckys Common Libraries" version="1.1.6" provider-name="Mucky Duck">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -7531,7 +7540,7 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
 	</extension>
 </addon>
 
-<addon id="service.nextup.notification" name="Nextup Service Notification" provider-name="im85288" version="1.0.33">
+<addon id="service.nextup.notification" name="Nextup Service Notification" provider-name="im85288" version="1.0.35">
     <requires>
         <import addon="xbmc.python" version="2.20.0"/>
         <import addon="script.module.addon.signals" version="0.0.1"/>
@@ -7545,6 +7554,13 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
         <disclaimer lang="en">This plugin is a standalone plugin.</disclaimer>
         <platform>all</platform>
         <language/>
+        <assets>
+            <icon>icon.png</icon>
+            <screenshot>resources/screenshot-01.jpg</screenshot>
+            <screenshot>resources/screenshot-02.jpg</screenshot>
+            <screenshot>resources/screenshot-03.jpg</screenshot>
+            <screenshot>resources/screenshot-04.jpg</screenshot>
+        </assets>
     </extension>
 </addon>
 
@@ -7615,10 +7631,9 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
 	</extension>
 </addon>
 
-<addon id="script.playalbum" name="Play Album Script" version="2.0.2" provider-name="ronie">
+<addon id="script.playalbum" name="Play Album Script" version="3.0.1" provider-name="ronie">
 	<requires>
-		<import addon="xbmc.python" version="2.19.0"/>
-		<import addon="script.module.simplejson" version="3.3.0"/>
+		<import addon="xbmc.python" version="2.25.0"/>
 	</requires>
 	<extension point="xbmc.python.library" library="default.py" />
 	<extension point="xbmc.addon.metadata">	
@@ -7857,6 +7872,20 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
     <forum>http://forum.xbmc.org/showthread.php?tid=129499</forum>
     <source>https://github.com/robweber/xbmcbackup</source>
   </extension>
+</addon>
+
+<addon id="repository.team.expat" name="Team eXpat Repository" version="1.0.9" provider-name="Team-eXpat">
+	<extension point="xbmc.addon.repository" name="Demonstration Add-on Repository">
+		<info compressed="false">https://cdn.rawgit.com/teamexpat/team.expat/master/addons.xml</info>
+		<checksum>https://cdn.rawgit.com/teamexpat/team.expat/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://cdn.rawgit.com/teamexpat/team.expat/master/repo</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Team eXpat Addon</summary>
+		<description>Build Addon Installer</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
 </addon>
 
 </addons>
