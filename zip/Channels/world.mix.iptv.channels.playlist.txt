@@ -1,0 +1,254 @@
+<layouttype>thumbnail</layouttype>
+
+<channels>
+
+<channel>
+<name>Arab, SC, UK,... |</name>
+<thumbnail></thumbnail>
+<externallink>http://137.74.93.219:8000/get.php?username=hai1&password=hai1&type=m3u</externallink>
+<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
+<info>Channels(MG.Arabic)</info>
+</channel>
+
+<channel>
+<name>TRT Kurdi | </name>
+<thumbnail></thumbnail>
+<externallink>http://iptv11.iptvfannansat10.com:8000/live/ssss/ssss/4174.ts</externallink>
+<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
+<info>Channels(MG.Arabic)</info>
+</channel>
+
+<channel>
+<name>UK, Sport,... | </name>
+<thumbnail></thumbnail>
+<externallink>http://149.202.92.133:8000/get.php?username=Jonny&password=Jonny&type=m3u</externallink>
+<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
+<info>Channels(MG.Arabic)</info>
+</channel>
+
+<channel>
+<name>AR, FR, EN |</name>
+<thumbnail></thumbnail>
+<externallink>http://192.99.66.78:8585/get.php?username=justin&password=justin&type=m3u</externallink>
+<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
+<info>Channels(MG.Arabic)</info>
+</channel>
+
+<channel>
+<name>AR, FR, DE, USA,... |</name>
+<thumbnail></thumbnail>
+<externallink>http://137.74.200.81:8000/get.php?username=moroco&password=moroco&type=m3u</externallink>
+<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
+<info>Channels(MG.Arabic)</info>
+</channel>
+
+<channel>
+<name>FR, UK,... |</name>
+<thumbnail></thumbnail>
+<externallink>http://5.199.161.135:8000/get.php?username=salmane&password=salmane&type=m3u</externallink>
+<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
+<info>Channels(MG.Arabic)</info>
+</channel>
+
+<channel>
+<name>CANAL RICOS | </name>
+<thumbnail></thumbnail>
+<externallink>http://painel.tvdigitalhd.org:1935/canalricos548/canalricos548/playlist.m3u8</externallink>
+<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
+<info>Channels(MG.Arabic)</info>
+</channel>
+
+<channel>
+<name>Planet TV |</name>
+<thumbnail></thumbnail>
+<externallink>http://pcdn-08.sdn.si/22ba7f2471e9f5e894f3c50f4f16ea68/planettv/planettv.isml/planettv-video=2500000-audio101=128000.m3u8</externallink>
+<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
+<info>Channels(MG.Arabic)</info>
+</channel>
+
+<channel>
+<name>NL, World |</name>
+<thumbnail></thumbnail>
+<externallink>http://149.202.201.60:8000/get.php?username=damian&password=damian&type=m3u</externallink>
+<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
+<info>Channels(MG.Arabic)</info>
+</channel>
+
+<channel>
+<name>Arab, UK, USA, DE, FR,... | </name>
+<thumbnail></thumbnail>
+<externallink>http://193.70.44.113:2500/get.php?username=124D7E441&password=124D7E441&type=m3u</externallink>
+<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
+<info>Channels(MG.Arabic)</info>
+</channel>
+
+<channel>
+<name>IT, DE, UK, FR,... | </name>
+<thumbnail></thumbnail>
+<externallink>http://51.254.196.199:8080/get.php?username=magro1&password=jF92U0mS3G&type=m3u</externallink>
+<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
+<info>Channels(MG.Arabic)</info>
+</channel>
+
+<channel>
+<name>World mix playlist |</name>
+<thumbnail></thumbnail>
+<externallink>http://51.255.89.131:8000/get.php?username=MaxxFiber&password=68998Pe6KhNXC2SFJ77p&type=m3u</externallink>
+<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
+<info>Channels(MG.Arabic)</info>
+</channel>
+
+<channel>
+<name>Loris Stream |</name>
+<thumbnail></thumbnail>
+<externallink>http://iptv.fastcccam.tv:8080/get.php?username=magro1&password=jF92U0mS3G&type=m3u&output=ts</externallink>
+<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
+<info>Channels(MG.Arabic)</info>
+</channel>
+
+<channel>
+<name>TV1</name>
+<thumbnail></thumbnail>
+<externallink>http://212.79.96.134:8001</externallink>
+<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
+<info>Channels(MG.Arabic)</info>
+</channel>
+
+<channel>
+<name>TV2</name>
+<thumbnail></thumbnail>
+<externallink>http://212.79.96.134:8001</externallink>
+<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
+<info>Channels(MG.Arabic)</info>
+</channel>
+
+<channel>
+<name>IT, USA |</name>
+<thumbnail></thumbnail>
+<externallink>http://51.15.2.85:8000/get.php?username=Test&password=Test&type=m3u</externallink>
+<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
+<info>Channels(MG.Arabic)</info>
+</channel>
+
+<channel>
+<name>world test |</name>
+<thumbnail></thumbnail>
+<externallink>http://149.202.70.190:8000/get.php?username=test&password=test&type=m3u</externallink>
+<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
+<info>Channels(MG.Arabic)</info>
+</channel>
+
+<channel>
+<name>OSN channels |</name>
+<thumbnail></thumbnail>
+<externallink>http://149.202.198.186:50100/get.php?username=mado&password=mado&type=m3u</externallink>
+<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
+<info>Channels(MG.Arabic)</info>
+</channel>
+
+
+<channel>
+<name>UK, Dutch, USA,...</name>
+<thumbnail></thumbnail>
+<externallink>http://144.76.195.147:88/get.php?username=PBVeqCE7Cy&password=AnGL3qJ5gt&type=m3u</externallink>
+<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
+<info>Channels(MG.Arabic)</info>
+</channel>
+
+<channel>
+<name>World playlist |</name>
+<thumbnail></thumbnail>
+<externallink>http://193.70.12.239:8080/get.php?username=ster&password=ster&type=m3u</externallink>
+<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
+<info>Channels(MG.Arabic)</info>
+</channel>
+
+<channel>
+<name>Sports |</name>
+<thumbnail></thumbnail>
+<externallink>http://51.15.2.85:8000/get.php?username=SPORTS&password=SPORTS&type=m3u</externallink>
+<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
+<info>Channels(MG.Arabic)</info>
+</channel>
+
+<channel>
+<name>Canal HD |</name>
+<thumbnail></thumbnail>
+<externallink>http://picapiedra.comyr.com/SPORT1.m3u8</externallink>
+<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
+<info>Channels(MG.Arabic)</info>
+</channel>
+
+<channel>
+<name>tv2 |</name>
+<thumbnail></thumbnail>
+<externallink>http://test.cardshare.cc/live/27581/index.m3u8?auth=19:C0:95:60:70:70</externallink>
+<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
+<info>Channels(MG.Arabic)</info>
+</channel>
+
+<channel>
+<name>RT HD |</name>
+<thumbnail></thumbnail>
+<externallink>http://109.226.67.142:4022/udp/232.0.1.36:1234</externallink>
+<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
+<info>Channels(MG.Arabic)</info>
+</channel> 
+
+<channel>
+<name>ITaly + World |</name>
+<thumbnail></thumbnail>
+<externallink>http://93.190.143.200:15000/get.php?username=lhtdhzdj&password=uU7p4oP3g3&type=m3u</externallink>
+<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
+<info>Channels(MG.Arabic)</info>
+</channel> 
+
+<channel>
+<name>Portugal |</name>
+<thumbnail></thumbnail>
+<externallink>http://149.202.72.15:8000/get.php?username=Costa&password=Costa&type=m3u</externallink>
+<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
+<info>Channels(MG.Arabic)</info>
+</channel>
+
+<channel>
+<name>Channel 39 | </name>
+<thumbnail></thumbnail>
+<externallink>http://169.57.142.110:25461/get.php?username=C3oppncu4n&password=Vfqjqjbeok&type=m3u</externallink>
+<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
+<info>Channels(MG.Arabic)</info>
+</channel> 
+
+<channel>
+<name>Channel 11 |</name>
+<thumbnail></thumbnail>
+<externallink>http://169.57.142.110:25461/get.php?username=6oHdLlrWdf&password=ecIgaO6mws&type=m3u</externallink>
+<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
+<info>Channels(MG.Arabic)</info>
+</channel>
+ 
+<channel>
+<name>Channel 103 |</name>
+<thumbnail></thumbnail>
+<externallink>http://169.57.142.110:25461/get.php?username=YL6wdqDmAe&password=JXrT1V9qwq&type=m3u</externallink>
+<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
+<info>Channels(MG.Arabic)</info>
+</channel> 
+
+<channel>
+<name>Channel 79 |</name>
+<thumbnail></thumbnail>
+<externallink>http://169.57.142.110:25461/get.php?username=gCvB1pCtMo&password=MzAMDs5CeZ&type=m3u</externallink>
+<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
+<info>Channels(MG.Arabic)</info>
+</channel> 
+ 
+<channel>
+<name>C More |</name>
+<thumbnail></thumbnail>
+<externallink>http://25.ddns.net:8800/get.php?username=Kalle_Bromölla&password=KlVzc69hHF&type=m3u</externallink>
+<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
+<info>Channels(MG.Arabic)</info>
+</channel> 
+
+</channels>
