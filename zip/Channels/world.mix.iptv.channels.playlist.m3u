@@ -1,7 +1,10 @@
-Arab, SC, UK,... | http://137.74.93.219:8000/get.php?username=hai1&password=hai1&type=m3u
-TRT Kurdi | http://iptv11.iptvfannansat10.com:8000/live/ssss/ssss/4174.ts
-UK, Sport,... | http://149.202.92.133:8000/get.php?username=Jonny&password=Jonny&type=m3u
 #EXTM3U
+#EXTINF:-1Arab, SC, UK,... | 
+http://137.74.93.219:8000/get.php?username=hai1&password=hai1&type=m3u
+#EXTINF:-1TRT Kurdi | 
+http://iptv11.iptvfannansat10.com:8000/live/ssss/ssss/4174.ts
+#EXTINF:-1UK, Sport,... | 
+http://149.202.92.133:8000/get.php?username=Jonny&password=Jonny&type=m3u
 #EXTINF:-1,AR, FR, EN | 
 http://192.99.66.78:8585/get.php?username=justin&password=justin&type=m3u
 #EXTINF:-1,AR, FR, DE, USA,... | 
