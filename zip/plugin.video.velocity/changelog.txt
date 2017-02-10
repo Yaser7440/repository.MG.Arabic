@@ -1,10 +1,20 @@
 Official Velocity addon For Kodi
 
+
+V1.0.8
+Slimmed down addon size
+Removed "Dead" scrapers
+Implemented class type scrapers
+to increase spedd on larger returns
+Repaired Scrapers
+Added iWatchonline
+K17 Updates
+
+
 V1.0.7
 Added Add to Collection from TV Search
 Small bug fixes
 This is a partial update only
-
 
 
 V1.0.6

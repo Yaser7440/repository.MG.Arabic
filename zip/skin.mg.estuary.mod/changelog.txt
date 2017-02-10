@@ -1,7 +1,21 @@
+1.7.6 :
+• Add finish time flag icons for preconfigured widgets
+• Justify all plots
+• Remove TVTunes workaround
+• Fix RSS Editor support with new XML
+
+1.7.5 :
+• Workaround for fanarts on video/music info dialog
+• Changes on scrollbars
+• Fix overlapping rating with TV Shows
+• Minnor fix
+
 1.7.4 :
+• Add support for postplay screen from Nextup Service Notification addon
 • Add pattern to extended info windows
 • Fix missing changes for new Skin Helper Service addons
 • Fix clearlogos aspect ratio for TV Shows widgets
+• Fix rss on widgets focus
 • Minnor fix
 
 1.7.3 :

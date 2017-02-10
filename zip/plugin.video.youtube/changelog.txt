@@ -1,7 +1,3 @@
-5.3.8x
-[fix] resolve 'No videos streams found'
-[txt] 5.3.8x XvBMC-NL *version control*
-
 5.3.5
 [add] MPEG-DASH support for Kodi 17 w/ inputstream.adaptive Add-on
 [add] optional History and Watch Later custom playlist to Settings -> Folders, or (My)Playlists context menu to set/remove
