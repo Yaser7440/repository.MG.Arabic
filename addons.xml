@@ -5972,7 +5972,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
     </extension>
 </addon>
 
-<addon id="plugin.video.Stallion.IPTV" name="Stallion-IPTV" version="3.2" provider-name="Stallion-IPTV">
+<addon id="plugin.video.Stallion.IPTV" name="Stallion-IPTV" version="3.3" provider-name="Stallion-IPTV">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -7936,6 +7936,70 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
     <platform>all</platform>
     <forum>n/a</forum>
     <website>n/a</website>
+  </extension>
+</addon>
+<addon id="repository.echo" name="[COLOR greenyellow]ECHO[/COLOR] [COLOR white]Repository[/COLOR]" version="1.04" provider-name="Echo Coder">
+	<extension point="xbmc.addon.repository" name="Echo Coder Repository">
+		<dir>
+			<info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
+			<checksum>https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/</datadir>
+		</dir>
+		<info compressed="false">https://raw.githubusercontent.com/echocoderkodi/repository.echo/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/echocoderkodi/repository.echo/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/echocoderkodi/repository.echo/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>The official Echo Coder Repository.</summary>
+		<description>Support available at Twitter: @EchoCoder</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.xxxecho" name="ECHO XXX Repository" version="1.04" provider-name="Echo Coder">
+	<extension point="xbmc.addon.repository" name="Echo Coder XXX Repository">
+		<dir>
+			<info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
+			<checksum>https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/</datadir>
+		</dir>
+		<info compressed="false">https://raw.githubusercontent.com/echocoderkodi/repository.xxxecho/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/echocoderkodi/repository.xxxecho/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/echocoderkodi/repository.xxxecho/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>The official Echo Coder XXX Repository.</summary>
+		<description>Support available at Twitter: @EchoCoder</description>
+		<disclaimer>None</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.4KMedia" name="[COLOR yellow]4K Media [/COLOR]" version="0.0.1" provider-name="@TheAlphaP">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="2.0.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" version="3.0.0"/>
+	<import addon="script.module.urlresolver" />
+	<import addon="script.module.liveresolver" />
+    <import addon="script.module.simplejson" /> 
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+    <import addon="script.module.metahandler" version="2.5.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">@TheAlphaP Originals</summary>
+    <description lang="en">4K Content Warning! Links Go Up And Down. </description>
+    <platform>all</platform>
   </extension>
 </addon>
 
