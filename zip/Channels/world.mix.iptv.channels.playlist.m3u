@@ -1,5 +1,7 @@
 #EXTM3U
 #EXTINF:-1,-------ARABIC------
+#EXTINF:-1,LOCAL:BeIN-Sport3
+http://ch4.mykora.net/
 http://137.74.93.219:8000/live/hai1/hai1/3791.ts
 #EXTINF:-1,AR-Tunisia-NAT_1
 http://137.74.93.219:8000/live/hai1/hai1/560.ts
@@ -4014,8 +4016,7 @@ http://149.202.201.60:8000/live/damian/damian/3204.ts
 http://149.202.201.60:8000/live/damian/damian/3203.ts
 #EXTINF:-1,LOCAL:BeIN-Sport4
 http://149.202.201.60:8000/live/damian/damian/3202.ts
-#EXTINF:-1,LOCAL:BeIN-Sport3
-http://149.202.201.60:8000/live/damian/damian/3201.ts
+
 #EXTINF:-1,LOCAL:BeIN-Sport2
 http://149.202.201.60:8000/live/damian/damian/3200.ts
 #EXTINF:-1,LOCAL:BeIN-Sport12
