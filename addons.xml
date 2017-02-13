@@ -4200,26 +4200,24 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon
-  id="plugin.video.aflamy"
-  version="1.0.6"
-  name="Aflamy"
-  provider-name="Made by mfaraj,opesboy">
+<addon id="plugin.video.aflamy" version="1.0.7" name="Aflamy" provider-name="MG.Arabic">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="2.3.1"/>
         <import addon="script.module.addon.common" version="2.0.0" />
-        
     </requires>
   <extension point="xbmc.python.pluginsource"
-             library="default.py">
+             library="Aflamy.py">
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary></summary>
     <description> MOVIES plugin, Arabic , Hollywood, European and Bollywood movies </description>
-   
     <platform>all</platform>
+	   <assets>
+ 			<icon>img/icon.png</icon>
+ 			<fanart>img/fanart.jpg</fanart>
+ 		</assets>
   </extension>
 </addon>
 
