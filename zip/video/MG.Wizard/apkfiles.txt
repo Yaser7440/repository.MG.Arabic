@@ -1,3 +1,11 @@
+name="Quick IPTV - Free Online TV APK"
+url="http://www.otttv.tech/otttv65325/appinstaller/kodi-16.1-Jarvis.exe"
+icon="http://mg.esy.es/apk/Quick_IPTV.jpg"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Quick IPTV - Free Online TV from MG.Arabic Wizard"
+
+
 name="Kodi(v16.1)Windows"
 url="http://www.otttv.tech/otttv65325/appinstaller/kodi-16.1-Jarvis.exe"
 icon="http://www.otttv.tech/otttv65325/icon/kodi.png"
