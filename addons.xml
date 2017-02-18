@@ -543,9 +543,10 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
     </extension>
 </addon>
 
-<addon id="plugin.video.ororotv" name="Ororo TV" version="3.4.7" provider-name="ororo.tv">
+<addon id="plugin.video.ororotv" name="Ororo TV" version="3.4.9" provider-name="ororo.tv">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="repository.ororotv" version="1.0.1" />
 		<import addon="script.module.simplejson" version="2.0.10"/>
 		<import addon="script.common.plugin.cache" version="0.9.1"/>
 	</requires>
@@ -4833,24 +4834,30 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon
-  id="plugin.video.anakbnet"
-  version="1.0.4"
-  name="Anakbnet"
-  provider-name="mafraj,opesboy">
-  <requires>
-    <import addon="xbmc.python"
-            version="1.0"/>
+<addon id="plugin.video.anakbnet" version="1.0.5" name="Anakbnet" provider-name="MG.Arabic">
+ <requires>
+        <import addon="xbmc.python" version="2.1.0" optional="true" />
+
+        <import addon="script.module.addon.common"/>"
+        <import addon="script.module.urlresolver"/>"
+		<import addon="script.module.requests"/>"
+        <import addon="repository.MG.Arabic" />
   </requires>
   <extension point="xbmc.python.pluginsource"
-             library="default.py">
+            library="anakbnet.py">
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>AnakbnetTV Arabic plugin</summary>
-    <description>AnakbnetTV plugin.</description>
-   
-    <platform>all</platform>
+    <summary> http://www.anakbnet.com </summary>
+    <description> videos from http://www.anakbnet.com </description>
+   <platform>all</platform>
+	   <assets>
+ 			<icon>img/icon.png</icon>
+ 			<fanart>img/fanart.jpg</fanart>
+			<screenshot>img/screenshot-01.jpg</screenshot>
+			<screenshot>img/screenshot-02.jpg</screenshot>
+			<screenshot>img/screenshot-03.jpg</screenshot>
+ 		</assets>
   </extension>
 </addon>
 
@@ -7256,7 +7263,21 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="script.module.muckys.common" name="Muckys Common Libraries" version="1.1.9" provider-name="Mucky Duck">
+<addon id="plugin.video.usbwizard" name=".Backup Restore WIZARD" version="1.2.2" provider-name=".[COLOR blue]X[/COLOR]unity[COLOR blue]T[/COLOR]alk">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">USB-SDCARD WIZARD</summary>
+    <description lang="en">Configure XBMC with all the Best Goodies!</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="script.module.muckys.common" name="Muckys Common Libraries" version="1.2.3" provider-name="Mucky Duck">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -7467,7 +7488,7 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
     </extension>
 </addon>
 
-<addon id="script.globalsearch" name="Global Search" version="7.4.4" provider-name="ronie">
+<addon id="script.globalsearch" name="Global Search" version="7.4.6" provider-name="ronie">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0"/>
 	</requires>
@@ -7475,66 +7496,6 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
 		<provides>executable</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="bg">Търси в библиотеката Ви.</summary>
-		<summary lang="ca">Cerca a la teva biblioteca.</summary>
-		<summary lang="cs">Hledej v knihovně</summary>
-		<summary lang="de">Durchsuchen Sie Ihre Bibliothek.</summary>
-		<summary lang="el">Αναζήτηση στη Συλλογή σας.</summary>
-		<summary lang="en">Search your library.</summary>
-		<summary lang="en_NZ">Search your library.</summary>
-		<summary lang="en_US">Search your library.</summary>
-		<summary lang="es">Busca tu biblioteca.</summary>
-		<summary lang="fr">Chercher dans la médiathèque.</summary>
-		<summary lang="fr_CA">Chercher dans votre bibliothèque</summary>
-		<summary lang="gl">Buscar a súa biblioteca.</summary>
-		<summary lang="he">חיפוש בספריית המדיה.</summary>
-		<summary lang="hr">Pretražite svoju zbirku.</summary>
-		<summary lang="hu">Keresés a médiatárban</summary>
-		<summary lang="id">Cari pustaka Anda.</summary>
-		<summary lang="it">Ricerca nella la tua libreria.</summary>
-		<summary lang="ko">라이브러리 찾기</summary>
-		<summary lang="lt">Ieškoti bibliotekoje.</summary>
-		<summary lang="nl">Zoek in je bibliotheek.</summary>
-		<summary lang="no">Søk i biblioteket ditt</summary>
-		<summary lang="pl">Przeszukaj swoją bibliotekę</summary>
-		<summary lang="pt">Faça buscas na sua biblioteca.</summary>
-		<summary lang="pt_BR">Pesquise sua coleção.</summary>
-		<summary lang="ro">Căutați în mediateca dumneavoastră.</summary>
-		<summary lang="ru">Поиск в вашей медиатеке.</summary>
-		<summary lang="sl">Iščite v svoji knjižnici.</summary>
-		<summary lang="sv">Sök i ditt bibliotek.</summary>
-		<summary lang="tr">Kitaplığını ara</summary>
-		<summary lang="zh">资料库搜索</summary>
-		<description lang="bg">Добавката може да намери всеки елемент във вашата видео и музикална библиотека.</description>
-		<description lang="ca">Aquest complement pot trobat qualsevol article en la teva biblioteca de vídeo i música</description>
-		<description lang="cs">Tento dopněk dokáže najít libovolnou položku ve vaší audio a video knihovně.</description>
-		<description lang="de">Dieses Add-on kann jeden Eintrag in Ihrer Video- und Musikbibliothek finden.</description>
-		<description lang="el">Αυτό το πρόσθετο μπορεί να βρει κάθε αντικείμενο στις συλλογές σας.</description>
-		<description lang="en">This addon can find any item in your video and music library.</description>
-		<description lang="en_NZ">This addon can find any item in your video and music library.</description>
-		<description lang="en_US">This addon can find any item in your video and music library.</description>
-		<description lang="es">Este complemento puede encontrar cualquier elemento en tu biblioteca de vídeo y música.</description>
-		<description lang="fr">Cette extension peut trouver tout élément dans la vidéothèque et l'audiothèque.</description>
-		<description lang="fr_CA">Cet addiciel peut trouver tout élément dans votre vidéothèque et dans votre audiothèque.</description>
-		<description lang="gl">Este complemento pode atopar calquera elemento na súa biblioteca de medios.</description>
-		<description lang="he">הרחבה זו יכולה למצוא כל פריט בספריות הווידאו והמוזיקה.</description>
-		<description lang="hr">Ovaj dodatak može pronaći svaku stavku u vašoj videoteci ili fonoteci.</description>
-		<description lang="hu">Ez a kiegészítő bármely elemet megtalálja a videó és audió médiatárban.</description>
-		<description lang="id">Addon ini dapat mencari item apa saja di pustaka video dan musik Anda.</description>
-		<description lang="it">Questo addon può trovare ogni elemento nella tua libreria video ed in quella musicale.</description>
-		<description lang="ko">비디오와 음악 라이브러리의 모든 항목을 검색합니다.</description>
-		<description lang="lt">Šis priedas gali rasti bet kokį elementą jūsų vaizdo ir garso bibliotekoje.</description>
-		<description lang="nl">Deze addon kan elk item in je video- en muziekbibliotheken vinden.</description>
-		<description lang="no">Dette tillegget kan finne hva som helst i ditt film eller musikk bibliotek.</description>
-		<description lang="pl">Ten plugin może odnaleźć dowolną pozycję w twojej bibliotece wideo oraz muzycznej.</description>
-		<description lang="pt">Este addon pode encontrar qualquer item na sua biblioteca de vídeos e de músicas.</description>
-		<description lang="pt_BR">Este addon pode encontrar qualquer item na sua coleção de vídeos e música.</description>
-		<description lang="ro">Acest supliment poate găsi orice element în mediateca dumneavoastră video și audio.</description>
-		<description lang="ru">Это дополнение поможет найти любую запись в вашей медиатеке.</description>
-		<description lang="sl">Ta dodatek lahko poišče katerokoli podatek v vaši knjižnici filmov in glasbe.</description>
-		<description lang="sv">Detta tillägg kan hitta vilket objekt som helst i ditt video och musikbibliotek.</description>
-		<description lang="tr">Bu eklenti video ve müzik kitaplığınızdaki herhangi bir öğeyi bulabilir.</description>
-		<description lang="zh">此插件搜索你的视频和音乐资料库项目。</description>
 		<language></language>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE Version 2</license>
