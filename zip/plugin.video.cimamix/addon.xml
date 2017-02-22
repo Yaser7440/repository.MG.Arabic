@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.cimamix" version="1.0.2" name="CimaMix" provider-name="MG.Arabic">
+  <requires>
+     <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
+	<import addon="script.module.urlresolver" />
+	<import addon="repository.MG.Arabic" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+             library="cimamix.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>MOVIES Arabic plugin from cimamix.net</summary>
+    <description>MOVIES Arabic plugin from cimamix.net</description>
+    <platform>all</platform>
+	   <assets>
+ 			<icon>img/icon.png</icon>
+ 			<fanart>img/fanart.jpg</fanart>
+			<screenshot>img/screenshot-01.jpg</screenshot>
+			<screenshot>img/screenshot-02.jpg</screenshot>
+			<screenshot>img/screenshot-03.jpg</screenshot>
+ 		</assets>
+  </extension>
+</addon>
