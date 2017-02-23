@@ -7327,7 +7327,7 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
 	</extension>
 </addon>
 
-<addon id="skin.mg.estuary.mod" version="1.7.8" name="MG Estuary MOD (KODI 17)" provider-name="Guilouz">
+<addon id="skin.mg.estuary.mod" version="1.7.9" name="MG Estuary MOD (KODI 17)" provider-name="Guilouz">
 	<requires>
 		<import addon="xbmc.gui" version="5.12.0"/>
 		<import addon="script.skinshortcuts" version="0.6.0"/>
