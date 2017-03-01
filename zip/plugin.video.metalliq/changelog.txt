@@ -1,3 +1,28 @@
+v2.0.[COLOR ff0084ff]2[/COLOR]
+- Added TMDb, Trakt and TVMaze route for episode playback
+- Added new, seperate add-to-library path with parsable player
+- Added parsable player to play-latest-route
+- Added thumbnails
+- Added setting to add tags to strm-filenames, needs preceding dot (.) and when using multiple tags also seperating dots (i.e. ".tag1.tag2.tag3")
+- Added setting to specify library-update-interval
+- Added specials to tvshows
+- Added filter to Trakt playlists: empty lists will not show
+- Added item-count-indicator to Trakt playlists
+- Added option to edit search string (can be used to pre-parse search string)
+- Added option to clean labels in command-step (start step with: "><")
+- Added option to specify max-depth for @nextpage
+- Added option to remove library channels
+- Added option to clear trakt settings
+- Changed order of movie & tvshow items (TMDb first)
+- Changed Trakt artwork-fetches from OMDb to TMDb
+- Changed default preferred players to custom_<type>
+- Fixed search's keyboard popping up
+- Fixed missing converters for getSettings
+- Fixed @containing
+- Reworked translations so most parts should be available in any of Kodi's 70+ languages now
+- Reworked notifications, silent by default now
+- Reworked search
+
 v2.0.[COLOR ff0084ff]1[/COLOR]
 - Added setting to in/exclude artwork for Trakt lists
 - Corrected differing variables

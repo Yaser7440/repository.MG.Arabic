@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.mg.estuary.mod" version="1.7.10" name="MG Estuary MOD (KODI 17)" provider-name="Guilouz">
+<addon id="skin.mg.estuary.mod" version="1.7.11" name="MG Estuary MOD (KODI 17)" provider-name="Guilouz">
 	<requires>
 		<import addon="xbmc.gui" version="5.12.0"/>
 		<import addon="script.skinshortcuts" version="0.6.0"/>

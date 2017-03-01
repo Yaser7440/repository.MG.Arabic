@@ -770,7 +770,7 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
 	</extension>
 </addon>
 
-<addon id="script.module.tknorris.shared" name="TKNorris Common Libraries" version="0.0.13" provider-name="tknorris">
+<addon id="script.module.tknorris.shared" name="TKNorris Common Libraries" version="0.0.15" provider-name="tknorris">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -2387,7 +2387,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="plugin.video.moviemix" name="Movie Mix" version="2.0.2" provider-name="MetalKettle">
+<addon id="plugin.video.moviemix" name="Movie Mix" version="2.0.3" provider-name="MetalKettle">
 
   <requires>
 
@@ -3150,7 +3150,7 @@ http://informaticglobalworld.altervista.org/
 	</extension>
 </addon>
 
-<addon id="script.artistslideshow" name="Artist Slideshow" version="2.0.6" provider-name="pkscout,ronie">
+<addon id="script.artistslideshow" name="Artist Slideshow" version="2.0.7" provider-name="pkscout,ronie">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 		<import addon="xbmc.addon" version="14.0.0"/>
@@ -5231,14 +5231,14 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="plugin.video.metalliq" name="[COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR]" version="2.0.1" provider-name="[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR], Midraal, forked from Meta-video">
+<addon id="plugin.video.metalliq" name="[COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR]" version="2.0.2" provider-name="[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR], Midraal, forked from Meta-video">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
-		<!-- <import addon="repository.q" version="0.0.0.1"/> -->
+		<import addon="repository.q" version="0.0.0.1"/>
 		<import addon="script.module.requests" version="2.9.1"/>
 		<import addon="script.module.futures" version="2.2.0"/>
 	</requires>
-	<extension point="xbmc.python.pluginsource" library="addon.py">
+	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video audio</provides>
 	</extension>
 	<extension point="xbmc.service" library="service.py" start="[login|startup]">
@@ -5907,7 +5907,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 	</extension>
 </addon>
 
-<addon id="plugin.video.cartoons8" name="Cartoons8" version="1.0.25" provider-name="MetalKettle">
+<addon id="plugin.video.cartoons8" name="Cartoons8" version="1.0.28" provider-name="MetalKettle">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.t0mm0.common" version="2.0.0"/>
@@ -7327,7 +7327,7 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
 	</extension>
 </addon>
 
-<addon id="skin.mg.estuary.mod" version="1.7.10" name="MG Estuary MOD (KODI 17)" provider-name="Guilouz">
+<addon id="skin.mg.estuary.mod" version="1.7.11" name="MG Estuary MOD (KODI 17)" provider-name="Guilouz">
 	<requires>
 		<import addon="xbmc.gui" version="5.12.0"/>
 		<import addon="script.skinshortcuts" version="0.6.0"/>
@@ -7493,7 +7493,7 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
     </extension>
 </addon>
 
-<addon id="script.globalsearch" name="Global Search" version="7.4.6" provider-name="ronie">
+<addon id="script.globalsearch" name="Global Search" version="7.4.7" provider-name="ronie">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0"/>
 	</requires>
@@ -7999,5 +7999,122 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
   </extension>
 </addon>
 
+<addon id="plugin.program.super.favourites" name="Super Favourites" version="1.0.56" provider-name="spoyser">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+    <import addon="script.module.metahandler" optional="true" />
+  </requires>
+
+
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video audio image executable</provides>
+  </extension>
+
+  
+  <extension point="xbmc.service" library="service.py" start="startup" />
+
+  
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Put all your favourites bits of all your favourites addons into one easy to use addon.</summary>
+    <description lang="en">Super Favourites is a better way of managing your Kodi Favourites.[CR][CR]Virtually any menu item within Kodi can be added to Super Favourites, even from addons that don't normally provide this feature.[CR][CR]Super Favourites allows you to better manage your Kodi favourites, including the creation of sub-folders, into which your Kodi favourites can then be copied or moved into.[CR][CR]This allows you to create you own custom addon with just the best bits of your favourite addons. Search your favourite addons, play your favourite music, read your favourite comic strips, select your favourite playlists, browse your favourite movies, listen to your favourite radio stations, watch your favourite cartoons, the possibilities are endless, all from within one easy to use addon.</description>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.xbmc.org/showthread.php?tid=192662</forum>
+    <website></website>
+    <source>https://github.com/spoyser/spoyser-repo/tree/master/plugin.program.super.favourites</source>
+    <email>seanpoyser at gmail.com</email>
+
+    <news>
+1.0.56: 19th February 2017
+    - added optional initial path, and include play folder parameters to quicklaunch script
+        usage: xbmc.runscript(special://home/addons/plugin.program.super.favourites/quicklaunch.py,folder1/folder2,True)
+    - fixed playlist parsing
+    - fixed quicklaunch in Krypton
+    - fixed launching ExecuteBuiltin types from the quick launch dialog
+    - fixed launching playable items added from FileManager
+    - fixed launching playable items from widgets
+    - various other fixes due to changes in Krypton
+    </news>
+
+  </extension>
+
+
+  <extension point="kodi.context.item">
+    <menu id="kodi.core.main">
+
+      <item library="capture.py">
+        <label>$ADDON[plugin.program.super.favourites 30002]</label>
+        <visible>!IsEmpty(Window(Home).Property(SF_STD_CONTEXTMENU_ENABLED)) + !StringCompare(Container.PluginName,plugin.program.super.favourites)</visible>
+      </item>
+
+      <item library="menu_addtofaves.py">
+        <label>$ADDON[plugin.program.super.favourites 30047]</label>
+        <visible>!IsEmpty(Window(Home).Property(SF_STD_ADDTOFAVES_ENABLED)) + !StringCompare(Container.PluginName,plugin.program.super.favourites)</visible>
+      </item>
+
+      <item library="menu_download.py">
+        <label>$ADDON[plugin.program.super.favourites 30259]</label>
+        <visible>!IsEmpty(Window(Home).Property(SF_STD_DOWNLOAD_ENABLED)) + Player.IsInternetStream</visible>
+      </item>
+
+    </menu>
+  </extension>
+
+</addon>
+
+<addon id="plugin.video.arab-moviezcom" version="1.0.1" name="Arab-Aoviez.Com" provider-name="MG.Arabic">
+ <requires>
+        <import addon="xbmc.python" version="2.1.0" optional="true" />
+
+        <import addon="script.module.addon.common"/>"
+        <import addon="script.module.urlresolver"/>"
+		<import addon="script.module.requests"/>"
+        <import addon="repository.MG.Arabic" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="arabmoviezcom.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary> http://www.arab-moviez.com </summary>
+    <description> videos from http://www.arab-moviez.com </description>
+   <platform>all</platform>
+	   <assets>
+ 			<icon>img/icon.png</icon>
+ 			<fanart>img/fanart.jpg</fanart>
+			<screenshot>img/screenshot-01.jpg</screenshot>
+			<screenshot>img/screenshot-02.jpg</screenshot>
+			<screenshot>img/screenshot-03.jpg</screenshot>
+ 		</assets>
+  </extension>
+</addon>
+
+<addon id="plugin.video.arab-moviezorg" version="1.0.1" name="Arab-Aoviez.Org" provider-name="MG.Arabic">
+ <requires>
+        <import addon="xbmc.python" version="2.1.0" optional="true" />
+
+        <import addon="script.module.addon.common"/>"
+        <import addon="script.module.urlresolver"/>"
+		<import addon="script.module.requests"/>"
+        <import addon="repository.MG.Arabic" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="arabmoviezorg.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary> http://arab-moviez.org </summary>
+    <description> videos from http://arab-moviez.org </description>
+   <platform>all</platform>
+	   <assets>
+ 			<icon>img/icon.png</icon>
+ 			<fanart>img/fanart.jpg</fanart>
+			<screenshot>img/screenshot-01.jpg</screenshot>
+			<screenshot>img/screenshot-02.jpg</screenshot>
+			<screenshot>img/screenshot-03.jpg</screenshot>
+ 		</assets>
+  </extension>
+</addon>
 
 </addons>
