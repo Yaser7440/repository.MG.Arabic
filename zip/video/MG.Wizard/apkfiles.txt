@@ -1,7 +1,39 @@
+name="CinemaBox HD APK"
+url="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/apk/CinemaBox%20HD.apk"
+icon="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/apk/CinemaBoxHD.jpg"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download CinemaBox HD from MG.Arabic Wizard"
+
+
+name="Koko Time APK"
+url="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/apk/KokoTime.apk"
+icon="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/apk/KokoTime.jpg"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Koko Time from MG.Arabic Wizard"
+
+
+name="Movie HD APK"
+url="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/apk/Movie%20HD.apk"
+icon="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/apk/Movie-HD-Icon.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Movie HD from MG.Arabic Wizard"
+
+
+name="Newest Movies HD APK"
+url="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/apk/NewestMoviesHD.apk"
+icon="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/apk/Movie-HD-Icon.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download Newest Movies HD from MG.Arabic Wizard"
+
+
 name="Quick IPTV - Free Online TV APK"
 url="https://github.com/Yaser7440/repository.MG.Arabic/blob/master/apk/Quick_IPTV_Free_Online_TV_v2.4.1_apkpure.com.apk?raw=true"
-icon="http://mg.esy.es/apk/Quick_IPTV.jpg"
-fanart="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/apk/Quick_IPTV.jpg"
+icon="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/apk/Quick_IPTV.jpg"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
 adult="no"
 description="Download Quick IPTV - Free Online TV from MG.Arabic Wizard"
 
