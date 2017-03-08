@@ -1,3 +1,13 @@
+v2.0.[COLOR ff0084ff]4[/COLOR]
+- Fixed smartplaylist creation
+- Fixed TVshow-source creation
+- Changed default "include specials"-setting to disabled
+- Improved batch adding lists slightly
+
+v2.0.[COLOR ff0084ff]3[/COLOR]
+- Fixed erratic playback
+- Added option to ex/include specials (enabled by default)
+
 v2.0.[COLOR ff0084ff]2[/COLOR]
 - Added TMDb, Trakt and TVMaze route for episode playback
 - Added new, seperate add-to-library path with parsable player

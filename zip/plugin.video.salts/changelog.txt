@@ -1,3 +1,123 @@
+[B]Version 2.0.155[/B]
+- Improve service code to reduce globals
+- Improve DB upgrade handling since it depends on DB Recovery now
+- Fix several bugs in image proxy that caused occasional crashes
+- Improve Hidden List caching
+- Fix RLSBB
+- Fix Vumoo 
+
+[B]Version 2.0.152[/B]
+- Improve Image Proxy
+- Move FL to single addon settings
+- Add Settings item to Repair Corrupt URLResolver
+- Improve Vumoo
+- Fix DDLSeries
+- Fix Afdah.org
+- Fix Xmovies8
+- Fix 2DDL
+- Fix WatchItVideos
+- Fix Afdah
+- Fix MovieHut
+- Fix IWatchOnline
+- Fix CMZ
+- Fix Putlocker
+- Fix MovieHubs
+- Fix MovieWatcher
+- Fix Pubfilm
+- Remove Filmstreaming.in
+- Remove Yshows
+- Remove MVL
+
+[B]Version 2.0.149[/B]
+- Add **EXPERIMENTAL** Image Proxy
+- Add setting to set Debrid Highlight color (Green is unreadable on Estuary)
+- Add SceneHDTV
+- Add Best-Moviez
+- Add MyDDL
+- 30 or so scrapers fixed/improved
+- Remove DailyReleases
+- Remove ventures 
+- Remove OCW
+- Remove RLSeries
+
+[B]Version 2.0.142[/B]
+- Add option to force fresh on Personal Lists and My Subscriptions
+- Switch trakt API to new host
+- Add new gvideo qualities
+- Add MovyTvy scraper
+- Add Vumoo scraper
+- Add Vebup scraper
+- Add Treasureen scraper
+- Fix hevcbluray
+- Fix Quikr
+- Fix 2ddl
+- Fix dizilab
+- Fix iWatchOnline
+- Fix LosMovies
+- Fix PutMV
+- Fix Yabananci scraper
+- Fix SceneDown
+- Fix Flixanity
+- Fix WatchitVideos
+- Fix SolarMovie
+- Fix putlocker
+- Fix Movie25
+- Fix SpaceMov
+- Improve SeriesWatch
+- Improve dayt
+- Improve MVL scraper
+- Improve SeeHD scraper
+- Improve Xmovies8.V2
+- Improve VKFlix
+- Improve YesMovies
+- Improve TVOnline
+- Remove SantaSeries
+
+[B]Version 2.0.136[/B]
+- Fix Watch5s
+- Fix MVL
+- Fix xmovies8.v2
+- Fix Putlockers
+- Fix rls-movies
+- Update sezonlukdizi
+
+[B]Version 2.0.133[/B]
+- Add YabanciDizi
+- Add RealMovies
+- Fix PutMV
+- Fix Pelispedia
+- Fix Watch5s
+- Fix MovieGo
+- Fix MovieWatcher
+- Fix SpaceMov
+- Fix MovieHubs
+- Fix Afdah
+- Improve MovieXK
+- Fix TuneMovie
+- Fix WMO
+- Handle reserved windows filenames
+
+[B]Version 2.0.129[/B]
+- Fix MVL
+- Fix Watch5s
+- Fix MovieHut
+
+[B]Version 2.0.128[/B]
+- Add OLMovies scraper
+- Fix Pelispedia scraper
+- Fix PFTV
+- Disable yabanzi scraper
+- Improve putmv scraper
+- Improve pubfilm scraper
+- Improve solar scraper
+
+[B]Version 2.0.126[/B]
+- Fix RLSHD
+- Fix MVL
+- Fix dizist
+- Fix PFTV
+- Improve DDLSeries
+
 [B]Version 2.0.122[/B]
 - Fix WSO
 - Fix DDLSeries

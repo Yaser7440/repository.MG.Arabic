@@ -1,3 +1,6 @@
+[B]Version 1.0.7[/B]
+- Further improve widget parsing
+
 [B]Version 1.0.6[/B]
 - Handle widgets better
 

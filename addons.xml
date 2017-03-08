@@ -737,7 +737,7 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
   </extension>
 </addon>
 
-<addon id="plugin.video.salts" version="2.0.126" name="Stream All The Sources" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.155" name="Stream All The Sources" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
@@ -770,7 +770,7 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
 	</extension>
 </addon>
 
-<addon id="script.module.tknorris.shared" name="TKNorris Common Libraries" version="0.0.15" provider-name="tknorris">
+<addon id="script.module.tknorris.shared" name="TKNorris Common Libraries" version="0.0.16" provider-name="tknorris">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -1649,7 +1649,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   </extension>
 </addon>
 
-<addon id="plugin.video.phstreams" name="Phoenix" version="3.2.1" provider-name="tvaddons.ag">
+<addon id="plugin.video.phstreams" name="Phoenix" version="3.2.3" provider-name="tvaddons.ag">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
@@ -1674,13 +1674,13 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
 			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
-		<news>Updated providers</news>
+		<news>Updated Providers</news>
 	</extension>
 </addon>
 
 <addon id="script.module.liveresolver" 
      name="LiveResolver" 
-     version="0.1.48" 
+     version="0.1.49" 
      provider-name="natko1412">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
@@ -1797,7 +1797,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="3.0.27" provider-name="tvaddons.ag, Eldorado">
+<addon id="script.module.urlresolver" name="URLResolver" version="3.0.29" provider-name="tvaddons.ag, Eldorado">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -2555,7 +2555,7 @@ http://informaticglobalworld.altervista.org/
     </extension>
 </addon>
 
-<addon id="plugin.video.mdm4u" name="M4U" version="2.0.3" provider-name="Mucky Duck">
+<addon id="plugin.video.mdm4u" name="M4U" version="2.0.7" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.metahandler" version="2.5.1"/>
@@ -3547,7 +3547,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="script.mrknow.urlresolver" name="Mrknow URLResolver" version="2017.02.08.1" provider-name="mrknow" >
+<addon id="script.mrknow.urlresolver" name="Mrknow URLResolver" version="2017.03.06.2" provider-name="mrknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -3583,19 +3583,20 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 
 <addon id="script.module.beautifulsoup4"
        name="BeautifulSoup4"
-       version="4.4.1.1"
-       provider-name="Leonard Richardson">
+       version="4.5.3"
+       provider-name="Leonard Richardson (leonardr@segfault.org)">
   <requires>
-    <import addon="xbmc.python" version="2.7.0"/>
+    <import addon="xbmc.python" 
+             version="2.25.0"/>
   </requires>
   <extension point="xbmc.python.module"
              library="lib" />
   <extension point="xbmc.addon.metadata">
-    <summary>Beautiful Soup Screen-scraping library</summary>
-    <description>Beautiful Soup sits atop an HTML or XML parser, providing Pythonic idioms for iterating, searching, and modifying the parse tree.</description>
+    <summary>HTML/XML parser for quick-turnaround applications like screen-scraping</summary>
+    <description>Beautiful Soup parses arbitrarily invalid SGML and provides a variety of methods and Pythonic idioms for iterating and searching the parse tree.</description>
+    <license>BSD</license>
     <platform>all</platform>
-    <license>MIT</license>
-    <website>http://www.crummy.com/software/BeautifulSoup/bs4/</website>
+    <website>http://www.crummy.com/software/BeautifulSoup/</website>
   </extension>
 </addon>
 
@@ -5231,7 +5232,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="plugin.video.metalliq" name="[COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR]" version="2.0.2" provider-name="[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR], Midraal, forked from Meta-video">
+<addon id="plugin.video.metalliq" name="[COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR]" version="2.0.4" provider-name="[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR], Midraal, forked from Meta-video">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 		<import addon="repository.q" version="0.0.0.1"/>
@@ -5433,11 +5434,12 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 
 <addon
   id="plugin.video.SportsDevil"
-  version="2016.12.31"
+  version="2017.02.29"
   name="SportsDevil"
   provider-name="SportsDevil">
   <requires>
    <import addon="xbmc.python" version="2.14.0"/>
+   <import addon="script.module.dateutil" />
    <import addon="script.module.simplejson" />
    <import addon="script.module.six" />
    <import addon="script.module.requests" />
@@ -5773,7 +5775,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
    </extension>
 </addon>
 
-<addon id="context.salts.tools" version="1.0.6" name="SALTS Context Tools" provider-name="tknorris">
+<addon id="context.salts.tools" version="1.0.7" name="SALTS Context Tools" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.2.0"/>
         <import addon="plugin.video.salts" version="1.0.65"/>
@@ -7327,7 +7329,7 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
 	</extension>
 </addon>
 
-<addon id="skin.mg.estuary.mod" version="1.7.11" name="MG Estuary MOD (KODI 17)" provider-name="Guilouz">
+<addon id="skin.mg.estuary.mod" version="1.7.12" name="MG Estuary MOD (KODI 17)" provider-name="Guilouz">
 	<requires>
 		<import addon="xbmc.gui" version="5.12.0"/>
 		<import addon="script.skinshortcuts" version="0.6.0"/>
