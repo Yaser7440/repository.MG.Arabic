@@ -24,13 +24,14 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.showscen" version="2.0.1" name="Showscen" provider-name="MG.Arabic">
+<addon id="plugin.video.showscen" version="2.1.0" name="Showscen" provider-name="MG.Arabic">
  <requires>
         <import addon="xbmc.python" version="2.1.0" optional="true" />
-
-        <import addon="script.module.addon.common"/>"
-        <import addon="script.module.urlresolver"/>"
-		<import addon="script.module.requests"/>"
+        <import addon="script.module.muckys.common"/>
+		<import addon="script.module.metahandler" version="2.5.1"/>
+        <import addon="script.module.addon.common"/>
+        <import addon="script.module.urlresolver"/>
+		<import addon="script.module.requests"/>
         <import addon="repository.MG.Arabic" />
   </requires>
   <extension point="xbmc.python.pluginsource"
@@ -42,11 +43,11 @@
     <description> videos from Showscen </description>
    <platform>all</platform>
 	   <assets>
- 			<icon>img/icon.png</icon>
- 			<fanart>img/fanart.jpg</fanart>
-			<screenshot>img/screenshot-01.jpg</screenshot>
-			<screenshot>img/screenshot-02.jpg</screenshot>
-			<screenshot>img/screenshot-03.jpg</screenshot>
+ 			<icon>resources/icon.png</icon>
+ 			<fanart>resources/fanart.jpg</fanart>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
  		</assets>
   </extension>
 </addon>
@@ -737,7 +738,7 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
   </extension>
 </addon>
 
-<addon id="plugin.video.salts" version="2.0.155" name="Stream All The Sources" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.159" name="Stream All The Sources" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
@@ -2276,7 +2277,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   </extension>
 </addon>
 
-<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2017.01.29.2" provider-name="mrknow" >
+<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2017.03.07.1" provider-name="mrknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.requests" version="1.0.0" />
@@ -2316,7 +2317,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="plugin.video.exodus" version="3.0.5" name="Exodus" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="3.1.1" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<!-- <import addon="repository.exodus" version="1.0.0" /> -->
@@ -3547,7 +3548,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="script.mrknow.urlresolver" name="Mrknow URLResolver" version="2017.03.06.2" provider-name="mrknow" >
+<addon id="script.mrknow.urlresolver" name="Mrknow URLResolver" version="2017.03.08.1" provider-name="mrknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -5232,7 +5233,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="plugin.video.metalliq" name="[COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR]" version="2.0.4" provider-name="[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR], Midraal, forked from Meta-video">
+<addon id="plugin.video.metalliq" name="[COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR]" version="2.0.5" provider-name="[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR], Midraal, forked from Meta-video">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 		<import addon="repository.q" version="0.0.0.1"/>
@@ -6487,10 +6488,14 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
     </extension>
 </addon>
 
-<addon id="plugin.video.arabmovies" name="Arabmovies" version="1.0.2" provider-name="Edit by MG.Arabic">  
+<addon id="plugin.video.arabmovies" name="Arabmovies" version="1.1.0" provider-name="Husham">  
 	<requires>    
 		<import addon="xbmc.python" version="2.1.0"/>    
-		<import addon="script.module.urlresolver"  version="2.10.10"/>    
+		<import addon="script.module.urlresolver" />
+		<import addon="script.module.requests" />
+		<import addon="script.module.beautifulsoup" />		
+		
+	
 	</requires>  
 	<extension point="xbmc.python.pluginsource" library="default.py">        
 		<provides>video</provides>  
@@ -6938,10 +6943,9 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
     </extension>
 </addon>
 
-<addon id="script.image.resource.select" name="Image Resource Select Addon" version="1.1.2" provider-name="ronie">
+<addon id="script.image.resource.select" name="Image Resource Select Addon" version="2.0.2" provider-name="ronie">
 	<requires>
-		<import addon="xbmc.python" version="2.24.0"/>
-		<import addon="script.module.simplejson" version="3.3.0" />
+		<import addon="xbmc.python" version="2.25.0"/>
 	</requires>
 	<extension point="xbmc.python.library" library="default.py"/>
 	<extension point="xbmc.addon.metadata">
@@ -7256,10 +7260,10 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 	</extension>
 </addon>
 
-<addon id="repository.thevibe" name="TheVibe Team Repository" version="4.0" provider-name="TheVibe Team">
+<addon id="repository.thevibe" name="The-Vibe Team Repository" version="6.0" provider-name="The-Vibe Team">
   <extension point="xbmc.addon.repository" name=".TheVibe Repository ">
-    <info compressed="false">https://github.com/teamThevibe/thevibe-repo/raw/master/addons.xml</info>
-    <checksum>http://repo.the-vibe.co.il/Repo/md5</checksum>
+    <info compressed="false">http://bit.do/vibexml</info>
+    <checksum>http://bit.do/vibemd5</checksum>
     <datadir zip="true">https://github.com/teamThevibe/thevibe-repo/raw/master/repo/</datadir>
   </extension>
   <extension point="xbmc.addon.metadata">
@@ -7329,7 +7333,7 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
 	</extension>
 </addon>
 
-<addon id="skin.mg.estuary.mod" version="1.7.12" name="MG Estuary MOD (KODI 17)" provider-name="Guilouz">
+<addon id="skin.mg.estuary.mod" version="1.7.13" name="MG Estuary MOD (KODI 17)" provider-name="Guilouz">
 	<requires>
 		<import addon="xbmc.gui" version="5.12.0"/>
 		<import addon="script.skinshortcuts" version="0.6.0"/>
@@ -8117,6 +8121,40 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
 			<screenshot>img/screenshot-03.jpg</screenshot>
  		</assets>
   </extension>
+</addon>
+
+<addon id="skin.estuary_MG" version="1.4.0" name="Estuary MG MOD" provider-name="phil65, Piers, SchisM">
+	<requires>
+		<import addon="xbmc.gui" version="5.12.0"/>
+		<import addon="script.skinshortcuts" version="0.6.0"/>
+		<import addon="script.skin.helper.service" version="0.0.1"/>
+		<import addon="resource.images.studios.white" />
+	</requires>
+	<extension point="xbmc.gui.skin" debugging="false">
+		<res width="1920" height="1440" aspect="4:3" default="false" folder="xml" />
+		<res width="1920" height="1280" aspect="3:2" default="false" folder="xml" />
+		<res width="1920" height="1200" aspect="16:10" default="false" folder="xml" />
+		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
+		<res width="2560" height="1080" aspect="21:9" default="false" folder="xml" />
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<license>CC BY-SA 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license>
+		<forum>http://forum.kodi.tv/</forum>
+		<source>https://github.com/xbmc/skin.estuary/</source>
+			<assets>
+				<icon>resources/icon.png</icon>
+				<fanart>resources/fanart.jpg</fanart>
+				<screenshot>resources/screenshot-01.jpg</screenshot>
+				<screenshot>resources/screenshot-02.jpg</screenshot>
+				<screenshot>resources/screenshot-03.jpg</screenshot>
+				<screenshot>resources/screenshot-04.jpg</screenshot>
+				<screenshot>resources/screenshot-05.jpg</screenshot>
+				<screenshot>resources/screenshot-06.jpg</screenshot>
+				<screenshot>resources/screenshot-07.jpg</screenshot>
+				<screenshot>resources/screenshot-08.jpg</screenshot>
+			</assets>
+	</extension>
 </addon>
 
 </addons>

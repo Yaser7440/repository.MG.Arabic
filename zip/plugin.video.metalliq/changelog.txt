@@ -1,3 +1,8 @@
+v2.0.[COLOR ff0084ff]5[/COLOR]
+- Changed most notifications and dialogs to translated strings
+- Corrected typos
+- Removed afteradd
+
 v2.0.[COLOR ff0084ff]4[/COLOR]
 - Fixed smartplaylist creation
 - Fixed TVshow-source creation

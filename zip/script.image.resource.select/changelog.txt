@@ -1,12 +1,21 @@
-v1.1.2
-- fix python dependency
+v2.0.2
+- required changes for kodi leia
 
-v1.1.1
+v2.0.1
+- typo
+
+v2.0.0
 - don't set extention if we have subfolders
 
-v0.1.1
-- display addon summary
+v1.1.0
+- use select dialog
+
+v1.0.1
 - fix broken window history when clickin "get more"
+
+v1.0.0
+- remove simplejson support
+- add cancel button
 
 v0.1.0
 - fix typo in readme
