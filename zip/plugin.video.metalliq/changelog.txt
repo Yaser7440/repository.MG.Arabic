@@ -1,3 +1,9 @@
+v2.0.[COLOR ff0084ff]6[/COLOR]
+- Added item indicator to extended selector
+- Added images to path-players (folder.jpg)
+- Added Trakt collection & watchlist sync, disabled by default. Credits to Midraal
+- Fixed context player from external addons
+
 v2.0.[COLOR ff0084ff]5[/COLOR]
 - Changed most notifications and dialogs to translated strings
 - Corrected typos
