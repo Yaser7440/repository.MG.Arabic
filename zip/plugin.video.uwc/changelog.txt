@@ -1,3 +1,14 @@
+[B]Version 1.1.51[/B]
+Fixed: Pornhub, Elreyx, HDZog, Porntrex
+Fixed: xxxstreams(org)
+Changed: Xtheatre is now Krypton only because of ssl
+
+
+[B]Version 1.1.50[/B]
+Fixed: Pornhub, HQporner
+Added: Slow option for Chaturbate
+
+
 [B]Version 1.1.49[/B]
 Fixed: Hentaihaven, Chaturbate
 

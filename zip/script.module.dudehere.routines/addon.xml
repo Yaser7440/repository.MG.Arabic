@@ -1,7 +1,9 @@
-<?xml version="1.0" ?><addon id="script.module.dudehere.routines" name="DudeHere Common Routines" provider-name="DudeHere" version="0.6.14">
+<?xml version="1.0" ?><addon id="script.module.dudehere.routines" name="DudeHere Common Routines" provider-name="DudeHere" version="0.7.11">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.beautifulsoup"/>
+        <import addon="script.module.requests"/>
+        <import addon="script.module.urlresolver"/>
         <import addon="script.module.myconnpy" version="0.3.2"/>
     </requires>
     <extension library="lib" point="xbmc.python.module"/>

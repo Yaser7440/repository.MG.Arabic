@@ -1,6 +1,21 @@
 Navi-X Changelog:
 
+V4.0.1
+- updated code to work with Kodi 17
+- updated resolutions to work with Kodi 17 default skin
+- changed to only have Navi-X availible from programs menu because of restrictions of the new Kodi 17 default skin
+- changed menu selection to remove player select for kodi 17 that is no longer available
+-- while keeping menu player select is still available for older versions of kodi
+- fixed list view and menu alignments for 1080i
+- brought back updated status in list views for all lists and resolutions
+- fixed the text window to enable scrolling for list and movie description
+- more work on thumbnail view to get it to operate correctly
+- added show and list description to context menu so they are available in all views
+-- more work on viewer for further updates
+- made view changes save in settings now that thumbnailview seems operational
+- Some other bug fixes
 
+-------------------------------------------------------------------------------
 V4.0
 Starting with this version you can view all update and change info in the Updates section of the Navi-X add-on
 
