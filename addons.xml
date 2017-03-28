@@ -7873,7 +7873,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
 	</extension>
 </addon>
 
-<addon id="skin.estuary" version="1.9.11" name="Estuary" provider-name="phil65, Ichabod Fletchman, Edit BY MG">
+<addon id="skin.estuary" version="1.9.13" name="Estuary" provider-name="phil65, Ichabod Fletchman Edit By MG Arabic">
 	<requires>
 		<import addon="xbmc.gui" version="5.12.0"/>
 	</requires>
