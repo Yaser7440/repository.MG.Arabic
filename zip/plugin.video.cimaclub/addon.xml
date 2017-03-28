@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.video.cimaclub" version="0.0.1" name="CimaClub" provider-name="MG.Arabic">
+<addon id="plugin.video.cimaclub" version="2.0.0" name="CimaClub" provider-name="MG.Arabic">
  <requires>
         <import addon="xbmc.python" version="2.1.0" optional="true" />
-
-        <import addon="script.module.addon.common"/>"
-        <import addon="script.module.urlresolver"/>"
-		<import addon="script.module.requests"/>"
+		<import addon="script.module.metahandler" version="2.5.1"/>
+        <import addon="script.module.addon.common"/>
+        <import addon="script.module.urlresolver"/>
+		<import addon="script.module.requests"/>
         <import addon="repository.MG.Arabic" />
   </requires>
   <extension point="xbmc.python.pluginsource"

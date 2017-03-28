@@ -515,7 +515,7 @@
 
 <addon id="plugin.video.icefilms"
        name="Icefilms"
-       version="1.99.10"
+       version="1.99.71"
        provider-name="Eldorado">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -736,12 +736,12 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
   </extension>
 </addon>
 
-<addon id="plugin.video.salts" version="2.0.159" name="Stream All The Sources" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.166" name="Stream All The Sources" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
         <import addon="script.module.myconnpy" version="1.1.6" />
-        <import addon="script.module.tknorris.shared" version="0.0.12"/>
+        <import addon="script.module.tknorris.shared" version="0.0.19"/>
         <import addon="script.module.image_cache" version="0.0.1" optional="true"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
@@ -769,7 +769,7 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
 	</extension>
 </addon>
 
-<addon id="script.module.tknorris.shared" name="TKNorris Common Libraries" version="0.0.16" provider-name="tknorris">
+<addon id="script.module.tknorris.shared" name="TKNorris Common Libraries" version="0.0.19" provider-name="tknorris">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -1026,31 +1026,43 @@ v5.2.14 (2017-01-23)
 	</extension>
 </addon>
 
-<addon id="script.navi-x" name="Navi-X" version="4.0" provider-name="Team Navi-X and TVADDONS.ag">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.urlresolver"  />
-    <import addon="script.module.t0mm0.common"  />
-    <import addon="script.module.addon.common" optional="false" />
-    <import addon="repository.xbmchub" optional="true" />
-    <import addon="plugin.video.youtube" optional="false" />
-  </requires>
-  <extension point="xbmc.python.script" library="default.py" >
-    <provides>executable video</provides>
-  </extension>
-  <extension point="xbmc.service" library="service.py" start="startup">
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <minversion>28764</minversion>
-    <summary>Media Browser Addon for Kodi</summary>
-    <description>Navi-X is the oldest and most trusted add-on for Kodi, used by millions of people worldwide. You'll find everything from live television to your favourite movies and television shows, easily accessible.</description>
-    <disclaimer>http://www.navixtreme.com/terms/</disclaimer>
-    <forum>http://forums.tvaddons.ag/forums/38-NAVI-X-MEDIA-BROWSER-FOR-KODI</forum>
-    <website>http://www.navixtreme.com/</website>
-    <source></source>
-    <email></email>
-  </extension>
+<addon id="script.navi-x"
+       name="Navi-X"
+       version="4.0.1"
+       provider-name="tvaddons, crzen, Blazetamer">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.urlresolver"/>
+        <import addon="script.module.t0mm0.common"/>
+        <import addon="script.module.addon.common" optional="false"/>
+        <!-- <import addon="repository.xbmchub" optional="true"/> -->
+        <import addon="plugin.program.indigo" optional="true"/>
+        <import addon="plugin.video.youtube" optional="false"/>
+    </requires>
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <language></language>
+        <minversion>28764</minversion>
+        <summary lang="en">Media Browser Addon for Kodi</summary>
+        <description lang="en">Please visit www.tvaddons.ag for addon support and information! [CR][CR]Navi-X is the oldest and most trusted add-on for Kodi, used by millions of people worldwide. [CR]You'll find everything from live television to your favourite movies and television shows, easily accessible.</description>
+        <disclaimer>http://www.navixtreme.com/terms/</disclaimer>
+        <forum>http://forums.tvaddons.ag/forums/38-NAVI-X-MEDIA-BROWSER-FOR-KODI</forum>
+        <website>http://www.navixtreme.com/</website>
+        <source>https://dev.tvaddons.ag/tvaddons/script.navi-x</source>
+        <news>v4.0.1  (3-10-2017)
+- updated code to work with Kodi 17
+- updated resolutions to work with Kodi 17 default skin
+- changed to only have Navi-X availible from programs menu because of restrictions of the new Kodi 17 default skin
+- fixed list view and menu alignments for 1080i
+- brought back updated status in list views for all lists and resolutions
+- more work on thumbnail view to get it to operate correctly
+- made view changes save in settings now that thumbnailview seems operational
+- added show and list description to context menu so they are available in all views
+        </news>
+    </extension>
 </addon>
 
 <addon id="service.libraryautoupdate"  name="XBMC Library Auto Update" version="0.9.8" provider-name="robweber">
@@ -1179,7 +1191,7 @@ v5.2.14 (2017-01-23)
   </extension>
 </addon>
 
-<addon id="script.trakt" name="Trakt" version="3.1.9" provider-name="Trakt.tv, Razzeee">
+<addon id="script.trakt" name="Trakt" version="3.1.10" provider-name="Trakt.tv, Razzeee">
 	<requires>
         <import addon="xbmc.python" version="2.24.0"/>
         <import addon="script.module.simplejson" version="3.3.0"/>
@@ -1187,7 +1199,7 @@ v5.2.14 (2017-01-23)
         <import addon="script.module.dateutil" version="2.4.2"/>
         <import addon="script.module.addon.signals" version="0.0.1"/>
 	</requires>
-	<extension point="xbmc.python.script" library="script.py">
+	<extension point="xbmc.python.script" library="defaultscript.py">
 		<provides>executable</provides>
 	</extension>
 	<extension point="xbmc.service" name="trakt.service" library="default.py" start="login" />
@@ -2275,10 +2287,10 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   </extension>
 </addon>
 
-<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2017.03.07.1" provider-name="mrknow" >
+<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2017.03.20.1" provider-name="mrknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
-		<import addon="script.module.requests" version="1.0.0" />
+		<import addon="script.module.requests" />
 		<import addon="script.module.metahandler" />
 		<import addon="plugin.video.youtube" optional="true" />
 		<import addon="script.mrknow.urlresolver" />
@@ -2315,7 +2327,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="plugin.video.exodus" version="3.1.1" name="Exodus" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="3.1.3" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<!-- <import addon="repository.exodus" version="1.0.0" /> -->
@@ -2511,13 +2523,10 @@ http://informaticglobalworld.altervista.org/
 	</extension>
 </addon>
 
-<addon id="plugin.video.alluc.api" name="Alluc" provider-name="DudeHere" version="1.1.2">
+<addon id="plugin.video.alluc.api" name="Alluc" provider-name="DudeHere" version="1.2.10">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.beautifulsoup"/>
         <import addon="script.module.dudehere.routines"/>
-        <import addon="script.module.myconnpy" version="0.3.2"/>
-        <import addon="script.module.urlresolver" version="1.1.6"/>
     </requires>
     <extension library="default.py" point="xbmc.python.pluginsource">
         <provides>video</provides>
@@ -2532,13 +2541,10 @@ http://informaticglobalworld.altervista.org/
     </extension>
 </addon>
 
-<addon id="plugin.video.theroyalwe" name="The Royal We" provider-name="DudeHere" version="1.1.4">
+<addon id="plugin.video.theroyalwe" name="The Royal We" provider-name="DudeHere" version="1.3.7">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.beautifulsoup"/>
         <import addon="script.module.dudehere.routines"/>
-        <import addon="script.module.myconnpy"/>
-        <import addon="script.module.urlresolver"/>
     </requires>
     <extension library="default.py" point="xbmc.python.pluginsource">
         <provides>video</provides>
@@ -2622,10 +2628,12 @@ http://informaticglobalworld.altervista.org/
   </extension>
 </addon>
 
-<addon id="script.module.dudehere.routines" name="DudeHere Common Routines" provider-name="DudeHere" version="0.6.14">
+<addon id="script.module.dudehere.routines" name="DudeHere Common Routines" provider-name="DudeHere" version="0.7.11">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.beautifulsoup"/>
+        <import addon="script.module.requests"/>
+        <import addon="script.module.urlresolver"/>
         <import addon="script.module.myconnpy" version="0.3.2"/>
     </requires>
     <extension library="lib" point="xbmc.python.module"/>
@@ -3434,7 +3442,7 @@ http://informaticglobalworld.altervista.org/
 	</extension>
 </addon>
 
-<addon id="script.module.youtube.dl" name="youtube-dl Control" version="16.1026.0" provider-name="Rick Phillips (ruuk)">
+<addon id="script.module.youtube.dl" name="youtube-dl Control" version="17.310.1a1" provider-name="Rick Phillips (ruuk)">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.addon.signals" version="0.0.1"/>
@@ -3546,7 +3554,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="script.mrknow.urlresolver" name="Mrknow URLResolver" version="2017.03.08.1" provider-name="mrknow" >
+<addon id="script.mrknow.urlresolver" name="Mrknow URLResolver" version="2017.03.18.3" provider-name="mrknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -5230,10 +5238,10 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="plugin.video.metalliq" name="[COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR]" version="2.0.5" provider-name="[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR], Midraal, forked from Meta-video">
+<addon id="plugin.video.metalliq" name="[COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR]" version="2.0.6k" provider-name="[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR], Midraal, forked from Meta-video">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
-		<import addon="repository.q" version="0.0.0.1"/>
+		<!-- <import addon="repository.q" version="0.0.0.1"/> -->
 		<import addon="script.module.requests" version="2.9.1"/>
 		<import addon="script.module.futures" version="2.2.0"/>
 	</requires>
@@ -5432,22 +5440,25 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 
 <addon
   id="plugin.video.SportsDevil"
-  version="2017.02.29"
+  version="2017.03.20.NL1"
   name="SportsDevil"
-  provider-name="SportsDevil">
+  provider-name="MaxMustermann, Al101, Hubbab3, Jairox, Sattekop">
   <requires>
    <import addon="xbmc.python" version="2.14.0"/>
+   <import addon="repository.xvbmc" version="4.0.1"/>
    <import addon="script.module.dateutil" />
    <import addon="script.module.simplejson" />
    <import addon="script.module.six" />
    <import addon="script.module.requests" />
    <import addon="script.module.livestreamer" />
+   <!-- <import addon="repository.unofficialsportsdevil" version="1.0.0" optional="true"/> -->
   </requires>
   <extension 
     point="xbmc.python.pluginsource"
     library="default.py">
    <provides>video</provides>
   </extension>
+  <extension point="xbmc.service" library="service/proxy_service.py" start="startup" />
   <extension point="xbmc.addon.metadata">
     <summary>Play videos of different sports streaming sites</summary>
     <description>Play videos of different sports streaming sites</description>
@@ -5543,7 +5554,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="script.skinshortcuts" name="Skin Shortcuts" version="1.0.15" provider-name="BigNoid,marcelveldt">
+<addon id="script.skinshortcuts" name="Skin Shortcuts" version="1.0.17" provider-name="BigNoid,marcelveldt">
 	<requires>
 		<import addon="xbmc.python" version="2.20.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
@@ -6734,7 +6745,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 </addon>
 
 <addon id="net.rieter.xot.channel.mtg"
-       version="4.1.2.2"
+       version="4.1.3.1"
        name="Retrospect Modern Time Group (Swedish, Lithuanian and Letvian) Channels"
        provider-name="Bas Rieter">
 
@@ -6797,7 +6808,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
     </extension>
 </addon>
 
-<addon id="plugin.video.fanfilm" name="FanFilm - MrKnow"  version="2017.01.26.4" provider-name="mrknow" >
+<addon id="plugin.video.fanfilm" name="FanFilm - MrKnow"  version="2017.03.18.1" provider-name="mrknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.requests"/>
@@ -7372,13 +7383,13 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
 	</extension>
 </addon>
 
-<addon id="plugin.video.cimaclub" version="0.0.1" name="CimaClub" provider-name="MG.Arabic">
+<addon id="plugin.video.cimaclub" version="2.0.0" name="CimaClub" provider-name="MG.Arabic">
  <requires>
         <import addon="xbmc.python" version="2.1.0" optional="true" />
-
-        <import addon="script.module.addon.common"/>"
-        <import addon="script.module.urlresolver"/>"
-		<import addon="script.module.requests"/>"
+		<import addon="script.module.metahandler" version="2.5.1"/>
+        <import addon="script.module.addon.common"/>
+        <import addon="script.module.urlresolver"/>
+		<import addon="script.module.requests"/>
         <import addon="repository.MG.Arabic" />
   </requires>
   <extension point="xbmc.python.pluginsource"
@@ -7461,7 +7472,7 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
 	</extension>
 </addon>
 
-<addon id="script.module.simplecache" name="Simple Cache Module" version="1.0.11" provider-name="marcelveldt">
+<addon id="script.module.simplecache" name="Simple Cache Module" version="1.0.12" provider-name="marcelveldt">
     <requires>
         <import addon="xbmc.python" version="2.24.0"/>
     </requires>
@@ -7708,7 +7719,7 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
 
 <addon id="plugin.video.uwc"
        name="Ultimate Whitecream"
-       version="1.1.49"
+       version="1.1.51"
        provider-name="Whitecream">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -8178,6 +8189,49 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
 			<screenshot>img/screenshot-03.jpg</screenshot>
  		</assets>
   </extension>
+</addon>
+
+<addon id="script.module.metadatautils"
+       name="Metadata and Artwork module"
+       version="1.0.5"
+       provider-name="marcelveldt">
+    <requires>
+        <import addon="xbmc.python" version="2.24.0"/>
+        <import addon="script.module.requests" version="2.3.0"/>
+        <import addon="script.module.beautifulsoup" version="3.0.8" />
+        <import addon="script.module.thetvdb" version="0.0.1" />
+        <import addon="script.module.musicbrainz" version="0.0.1" />
+        <import addon="script.module.simplecache" version="1.0.0"/>
+        <import addon="script.module.arrow" version="0.6.0"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary>Metadata and artwork from common sources like TMDB, IMDB, TADB and fanart.tv </summary>
+        <description>
+            The metadata and artwork module for Kodi provides rich metadata, including artwork for 
+            various metatypes by scraping (and caching) this information from sites like TMDB, musicbrainz and fanart.tv.
+        </description>
+        <license>Apache 2.0</license>
+        <source>https://github.com/marcelveldt/script.module.metadatautils</source>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="repository.kaosbox2" name="KAOSbox Repo" version="5.0.2" provider-name="KAOSbox">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="KAOSbox Repo">
+            <info compressed="false">https://offshoregit.com/kaosbox/addons.xml</info>
+            <checksum>https://offshoregit.com/kaosbox/addons.xml.md5</checksum>
+            <datadir zip="true">https://offshoregit.com/kaosbox/zips/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Official New Repo for the KAOSbox (www.kaosbox.tv)</summary>
+            <description>Download and install addons for the KAOSbox (www.kaosbox.tv)</description>
+            <platform>all</platform>
+    </extension>
 </addon>
 
 </addons>
