@@ -1,3 +1,35 @@
+[B]3.1.8[/B]
+- Updated existing providers (satanuke)
+- Added and Updated French providers
+- Added and Updated German providers
+- Updated Polish providers (homik)
+- Add Blazingfast support
+- Remove old Debrid-Code
+- Note: You might have to reconfigure your Debrid Service in URLResolver Settings
+
+
+[B]3.1.7[/B]
+- Updated existing providers (satanuke, somebody)
+- Tweaked German providers
+- Added Mega-Debrid
+
+[B]3.1.6[/B]
+- Updated existing providers (satanuke)
+- Tweaked French providers
+- Tweaked German providers
+- Added Korean providers (Martopotamus)
+- Fixed website-parser
+- Use gzip on requests
+
+[B]3.1.5[/B]
+- HotFix for 3.1.4 (fix Next-Page-Bug)
+
+[B]3.1.4[/B]
+- Updated existing providers
+- Removed dead providers
+- Added Polish providers (homik)
+- Added imdb/tvdb-id to directory-items
+
 [B]3.1.3[/B]
 - HotFix for 3.1.2 (fix Caching-Bug)
 

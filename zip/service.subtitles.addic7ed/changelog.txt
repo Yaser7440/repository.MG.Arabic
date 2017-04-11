@@ -1,0 +1,8 @@
+5.0.1C
+- services.py (query)
+
+5.0.1
+- New release (CFlannagan)
+
+5.0.0
+- move the service out of XBMC Subtitles (Amet)
