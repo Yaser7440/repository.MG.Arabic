@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon
- id="plugin.video.arbcinema"
-  version="1.0.0"
- name="Arbcinema"
- provider-name="TSmedia Team">
+<addon id="plugin.video.arbcinema" version="1.0.1" name="Arbcinema" provider-name="MG Arabic">
  <requires>
         <import addon="xbmc.python" version="2.1.0" optional="true" />
-
         <import addon="script.module.addon.common"/>"
         <import addon="script.module.urlresolver"/>"
-		<import addon="script.module.requests"/>"
-        
+		<import addon="script.module.requests"/>"        
   </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
+  <extension point="xbmc.python.pluginsource" library="arbcinema.py">
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
