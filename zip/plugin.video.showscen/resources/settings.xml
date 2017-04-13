@@ -19,7 +19,12 @@
 	</category>
 	
 	<category label="Site-Url">
-		<setting id="base_url" type="text" label="BaseUrl" default="http://www.showscen.com" visible="true"/>
+		<setting id="base_url" type="text" label="[B][COLOR gold]ShowScen Url[/COLOR][/B]" default="http://www.showscen.com" visible="true"/>
+		<setting id="Series4Watch_url" type="text" label="[B][COLOR purple]Series4Watch Url[/COLOR][/B]" default="http://www.series4watch.tv" visible="true"/>
+		<setting id="3lbh_url" type="text" label="[B][COLOR blue]3lbh Net Url[/COLOR][/B]" default="http://3lbh.net" visible="true"/>
+		<setting id="shahid4u_url" type="text" label="[B][COLOR purple]Shahid4u Url[/COLOR][/B]" default="http://shahid4u.com" visible="true"/>
+		<setting id="FooF_url" type="text" label="[B][COLOR orange]4ooF Url[/COLOR][/B]" default="http://www.4oof.com" visible="true"/>
+		<setting id="6arbyat_url" type="text" label="[B][COLOR tan]6arbyat Url[/COLOR][/B]" default="http://www.6arbyat.com" visible="true"/>
 	</category>
 	
 	<category label="Update">
@@ -30,8 +35,12 @@
 	</category>
 	
 	<category label="Enable Sections">
-		<setting id="enable_shows" type="bool" label="Enable TV-Shows" default="true"/>
-		<setting id="enable_movies" type="bool" label="Enable Movies" default="true"/>
-		<setting id="enable_music" type="bool" label="Enable MUSIC" default="true"/>
+		<!-- <setting id="enable_shows" type="bool" label="Enable TV-Shows" default="true"/> -->
+		<setting id="enable_movies" type="bool" label="[B][COLOR gold]Enable ShowsCen[/COLOR][/B]" default="true"/>
+		<setting id="enable_Series4Watch" type="bool" label="[B][COLOR purple]Enable Series4Watch[/COLOR][/B]" default="true"/>
+		<setting id="enable_3lbhnet" type="bool" label="[B][COLOR blue]Enable 3lbh Net[/COLOR][/B]" default="true"/>
+		<setting id="enable_shahid4u" type="bool" label="[B][COLOR purple]Enable Shahid4u[/COLOR][/B]" default="true"/>
+		<setting id="enable_FooF" type="bool" label="[B][COLOR orange]Enable 4ooF[/COLOR][/B]" default="true"/>
+		<setting id="enable_6arbyat" type="bool" label="[B][COLOR tan]Enable 6arbyat[/COLOR][/B]" default="true"/>
 	</category>
 </settings>
