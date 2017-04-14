@@ -4427,15 +4427,15 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="plugin.video.EL7L" version="2.1.7" name="EL7L.CO" provider-name="MG.Arabic">
+<addon id="plugin.video.EL7L" version="2.1.8" name="EL7L.CO" provider-name="MG.Arabic">
   <requires>
      <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
 	<import addon="script.module.urlresolver" />
+	<import addon="script.module.requests"/>
 	<import addon="repository.MG.Arabic" />
   </requires>
-  <extension point="xbmc.python.pluginsource"
-             library="el7l.py">
+  <extension point="xbmc.python.pluginsource" library="el7l.py">
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
