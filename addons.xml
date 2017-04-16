@@ -1797,9 +1797,10 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   </extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="3.0.29" provider-name="tvaddons.ag, Eldorado">
+<addon id="script.module.urlresolver" name="URLResolver" version="3.0.30" provider-name="tvaddons.ag, Eldorado">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="plugin.video.youtube" optional="true" />
 	</requires>
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.python.pluginsource" library="lib/default.py" />
@@ -2276,7 +2277,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   </extension>
 </addon>
 
-<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2017.04.10.1" provider-name="mrknow" >
+<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2017.04.12.1" provider-name="mrknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.requests" />
@@ -3612,7 +3613,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
     </extension>
 </addon>
 
-<addon id="resource.images.studios.white" name="Studio Icons - White" version="0.0.9" provider-name="Team Kodi">
+<addon id="resource.images.studios.white" name="Studio Icons - White" version="0.0.11" provider-name="Team Kodi">
 	<extension point="kodi.resource.images" compile="true" type="studios" />
 	<requires>
 		<import addon="kodi.resource" version="1.0.0"/>
@@ -3935,16 +3936,14 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 	</extension>
 </addon>
 
-<addon id="plugin.video.Evolve" name="[COLOR red]E[/COLOR][COLOR white]volve[/COLOR]" version="0.0.13" provider-name="Team Evolve">
+<addon id="plugin.video.Evolve" name="[COLOR red]E[/COLOR][COLOR white]volve[/COLOR]" version="2.0.3" provider-name="Team Evolve">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.simplejson" version="0.0.1"/>
     <import addon="script.module.urlresolver"  version="0.0.1"/>
     <import addon="script.module.liveresolver" version="0.0.1"/>
+    <import addon="script.module.nanscrapers" version="0.5"/>
     <import addon="script.common.plugin.cache" version="0.0.1"/>
-    <!-- <import addon="repository.metalkettle" version="0.0.1"/> -->
-    <!-- <import addon="repository.shani" version="0.0.1"/> -->
-
     <import addon="script.module.metahandler" version="0.0.1"/>
     <import addon="plugin.video.youtube" optional="true" />
 
@@ -6199,11 +6198,10 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 
 <addon id="plugin.video.hotstar-rain"
        name="Hotstar"
-       version="1.0.10"
+       version="1.0.16"
        provider-name="YoColdRain">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.addon.common" version="2.0.0" />
 		<import addon="script.module.requests" version="2.7.0" />
     </requires>
     <extension point="xbmc.python.pluginsource"
@@ -6211,9 +6209,10 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
         <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
-		<summary lang="en"> This addon provides Hotstar.com material.  If any errors occur, please email.</summary>
+		<summary lang="en"> This addon provides Hotstar.com material.  If any errors occur, please visit forum listed below.</summary>
         <platform>all</platform>
         <summary>Hotstar.com - Watch Star channels</summary>
+		<forum>http://forum.kodi.tv/showthread.php?tid=241506</forum>
         <email>yocoldrain@gmail.com</email>
     </extension>
 </addon>
@@ -7173,12 +7172,17 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 	</extension>
 </addon>
 
-<addon id="repository.MatsBuilds" name="Goliaths Unofficial Add-ons repository" version="1.0.18" provider-name="Goliath">
-	<extension point="xbmc.addon.repository" name="Goliaths Repository">
+<addon id="repository.MatsBuilds" name="Goliaths BACKUP repository" version="1.2" provider-name="Goliath">
+	<extension point="xbmc.addon.repository" name="Goliaths BACKUP Repository">
 	<dir>
 		<info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
 		<checksum>https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5</checksum>
 		<datadir zip="true">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/</datadir>
+	</dir>
+	<dir>
+		<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
 	</dir>
 		<info compressed="false">https://raw.githubusercontent.com/Goliath-Evolve/repository.Goliath/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/Goliath-Evolve/repository.Goliath/master/addons.xml.md5</checksum>
@@ -8319,6 +8323,111 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
         <website/>
         <email/>
         <source>https://github.com/cflannagan/service.subtitles.addic7ed</source>
+    </extension>
+</addon>
+
+<addon id="plugin.video.streamhub" name="[B][COLOR red]Stream Hub[/COLOR][/B]" version="1.7" provider-name="sClarke">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
+		<import addon="script.module.pyxbmct" version="1.1.4" />
+		<import addon="script.module.urlresolver" version="3.0.0"/>
+		<import addon="script.module.liveresolver" version="0.1.24"/>
+		<import addon="script.video.F4mProxy" version="2.2.3"/>
+        <import addon="script.streamhub.artwork"/>
+        <import addon="script.streamhub.metadata"/>
+        <import addon="script.module.streamhub"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en"></summary>
+		<description lang="en">StreamHub - All Content feautured in this Addon is freely Available on the Internet - Making use of Already Written Code and Writing our own. Make sure you Join our facebook page for News and Support. http://facebook.com/groups/streamh  - Credit to Lambda/Exodus For Movies and TV Shows. Credit to Phoenix for the Addon's Base Code</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="script.module.streamhub" name="[B][COLOR red]Stream Hub[/COLOR][/B]" version="2.2" provider-name="sClarke">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.addon.common" />
+	<import addon="script.module.requests" />
+	<import addon="script.module.urlresolver" />
+	<import addon="script.module.liveresolver" version="0.1.24"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>all</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Dependency Addon for StreamHub</summary>
+    <description lang="en">Dependency Addon for StreamHub</description>
+	<disclaimer lang="en">Dependency Addon for StreamHub</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="script.streamhub.artwork" version="1.0.0" name="Streamhub Artwork" provider-name="sClarke">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Themes for the StreamHub Addon</summary>
+		<description>Themes for StreamHub are maintained separately to make distribution of the the addon itself easier/faster.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="script.streamhub.metadata" version="1.0.0" name="StreamHub Metadata" provider-name="sClarke">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Metadata for the StreamHub Addon</summary>
+		<description>Metadata for StreamHub are maintained separately to make distribution of the the addon itself easier/faster.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.yocoldrain" name="YoColdRain's Repository" version="1.0.0" provider-name="YoColdRain">
+	<extension point="xbmc.addon.repository" name="YoColdRain's Repository">
+		<info compressed="false">https://offshoregit.com/YoColdRain/addons.xml</info>
+		<checksum>https://offshoregit.com/YoColdRain/addons.xml.md5</checksum>
+		<datadir zip="true">https://offshoregit.com/YoColdRain/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>YoColdRain's Addon Repository</summary>
+		<description>Download and install YoColdRain's addon repository, includes Indian addons such as hotstar, erosnow, spuul etc.!</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="script.module.nanscrapers" name="NaN Scrapers" version="0.5.14" provider-name="Team NaN">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.beautifulsoup" version="3.2.1"/>
+        <import addon="script.module.futures" version="2.2.0"/>
+        <import addon="script.module.requests"/>
+        <import addon="script.module.six"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib"/>
+    <extension point="xbmc.python.pluginsource" library="lib/default.py">
+        <provides>executable</provides>
+    </extension>
+    <import addon="script.module.urlresolver" version="2.0" optional="true"/>
+    <import addon="script.mrknow.urlresolver" version="2016.10.30.2" optional="true"/>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Scrape common video host for URL's to be playable in XBMC/Kodi.</summary>
+        <description lang="en">Scrape common video host for URL's to be playable in XBMC/Kodi, simplifying addon development of video plugins requiring multi video hosts.
+        </description>
+        <license>GPL v3</license>
+        <source>https://github.com/noobsandnerds/noobsandnerds/tree/master/script.module.nanscrapers</source>
+        <forum>http://www.noobsandnerds.com/support/showthread.php?tid=17212</forum>
+        <website>http://noobsandnerds.com</website>
     </extension>
 </addon>
  

@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.video.hotstar-rain"
        name="Hotstar"
-       version="1.0.10"
+       version="1.0.16"
        provider-name="YoColdRain">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.addon.common" version="2.0.0" />
 		<import addon="script.module.requests" version="2.7.0" />
     </requires>
     <extension point="xbmc.python.pluginsource"
@@ -13,9 +12,10 @@
         <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
-		<summary lang="en"> This addon provides Hotstar.com material.  If any errors occur, please email.</summary>
+		<summary lang="en"> This addon provides Hotstar.com material.  If any errors occur, please visit forum listed below.</summary>
         <platform>all</platform>
         <summary>Hotstar.com - Watch Star channels</summary>
+		<forum>http://forum.kodi.tv/showthread.php?tid=241506</forum>
         <email>yocoldrain@gmail.com</email>
     </extension>
 </addon>
