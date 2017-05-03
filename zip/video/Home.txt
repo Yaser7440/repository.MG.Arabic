@@ -3,6 +3,16 @@
 <channels>
 
 <channel>
+<name>web test</name>
+<thumbnail>http://mg.esy.es/Kodi/Logo/logo.jpg</thumbnail>
+<externallink>http://cera.online/feed/</externallink>
+<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
+<info>Channels(MG.Arabic)</info>
+</channel>
+
+
+
+<channel>
 <name>TV</name>
 <thumbnail>http://mg.esy.es/Kodi/Logo/logo.jpg</thumbnail>
 <externallink>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/Channels/world.mix.iptv.channels.playlist.m3u</externallink>
