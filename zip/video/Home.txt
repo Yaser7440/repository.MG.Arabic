@@ -5,7 +5,7 @@
 <channel>
 <name>web test</name>
 <thumbnail>http://mg.esy.es/Kodi/Logo/logo.jpg</thumbnail>
-<externallink>http://cera.online/feed/</externallink>
+<externallink>http://cera.online/movies-cinema-translated-arablionz-download-cima4u-watch-tvegy.html/feed/</externallink>
 <fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
 <info>Channels(MG.Arabic)</info>
 </channel>
