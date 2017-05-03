@@ -13,7 +13,7 @@
 <channel>
 <name>CEN test</name>
 <thumbnail>http://mg.esy.es/Kodi/Logo/logo.jpg</thumbnail>
-<externallink>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/video/video.txt</externallink>
+<externallink>http://www.showscen.com/watch/category/movies/feed/</externallink>
 <fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
 <info>Channels(MG.Arabic)</info>
 </channel>
