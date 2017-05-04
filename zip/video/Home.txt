@@ -8,6 +8,7 @@
 <externallink>http://cera.online/movies-cinema-translated-arablionz-download-cima4u-watch-tvegy.html/feed/</externallink>
 <fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
 <info>Channels(MG.Arabic)</info>
+<genre>اثارة</genre>
 </channel>
 
 <channel>
@@ -16,6 +17,7 @@
 <externallink>http://www.showscen.com/watch/category/movies/feed/</externallink>
 <fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
 <info>Channels(MG.Arabic)</info>
+<genre>اثارة</genre>
 </channel>
 
 </channels>
