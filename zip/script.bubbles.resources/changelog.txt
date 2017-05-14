@@ -1,4 +1,12 @@
 
+[B]1.4.2 (2017.05.12)[/B]
+- Fixed version numbering.
+
+[B]1.4.0 (2017.05.11)[/B]
+- Moved default icons and skin to the resource addon.
+- Added default skin.
+- Added Trakt, UrlResolver, and MetaHandler icons.
+
 [B]1.2.1 (2017.05.01)[/B]
 - Renamed the error notification icon.
 

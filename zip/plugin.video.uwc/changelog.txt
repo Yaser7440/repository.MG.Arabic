@@ -1,3 +1,9 @@
+[B]Version 1.1.54[/B]
+Added: Streamate and Bongacams (thanks hdgdl)
+Fixed: MrSexe, Pornhub, Rapidvideo
+Fixed: Tubepornclassics, Daftsex, Naked
+
+
 [B]Version 1.1.53[/B]
 Fixed: Myfreecams
 Added: Rapidvideo support in utils (for Ero-tik)

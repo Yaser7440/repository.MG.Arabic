@@ -1,4 +1,10 @@
 
+[B]1.4.2 (2017.05.12)[/B]
+- Fixed version numbering.
+
+[B]1.4.0 (2017.05.11)[/B]
+- Change the database file extension.
+
 [B]1.2.0 (2017.04.21)[/B]
 - Split resources module into smaller modules.
 - Fixed the corrupted artwork database.

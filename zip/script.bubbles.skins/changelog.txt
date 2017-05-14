@@ -1,4 +1,11 @@
 
+[B]1.4.2 (2017.05.12)[/B]
+- Fixed version numbering.
+
+[B]1.4.0 (2017.05.11)[/B]
+- Moved default skin to the resource addon.
+- Compressed background images.
+
 [B]1.2.0 (2017.04.21)[/B]
 - Split resources module into smaller modules.
 - Added two new bubbles skins.

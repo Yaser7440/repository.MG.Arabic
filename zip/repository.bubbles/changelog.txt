@@ -1,4 +1,7 @@
 
+[B]1.4.0 (2017.05.12)[/B]
+- Fixed version numbering.
+
 [B]1.2.0 (2017.04.21)[/B]
 - Updated repository icon.
 - Removed TVAddons common repository.

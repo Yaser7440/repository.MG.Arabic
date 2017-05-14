@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.bubbles" version="1.2.0" name="Bubbles Repository" provider-name="Bubbles">
+<addon id="repository.bubbles" version="1.4.0" name="Bubbles Repository" provider-name="Bubbles">
 	<extension point="xbmc.addon.repository" name="Bubbles Repository">
 		<dir>
 			<info compressed="false">https://offshoregit.com/bubbles/repository/common/addons.xml</info>
