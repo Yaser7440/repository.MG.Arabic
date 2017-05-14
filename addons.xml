@@ -87,7 +87,7 @@
 
 <addon id="service.watchedlist"
 	name="WatchedList"
-	version="1.1.2"
+	version="1.1.4"
 	provider-name="schapplm">
 	<requires>
 		<import addon="xbmc.python" version="2.20.0"/>
@@ -95,7 +95,7 @@
 		<import addon="script.module.buggalo" version="1.1.3" /> <!-- min. version 1.1.3 for email report -->
 		<import addon="script.module.myconnpy" version="1.1.7" /> <!-- mySQL Connector for python. Default in XBMC since Frodo -->
 		<!--<import addon="script.module.pydevd" version="3.4.1"/> --> <!-- Required for remote debugging in Linux -->
-		<import addon="script.module.dropbox" version="2.2.1"/> <!-- For Dropbox synchronisation -->
+		<import addon="script.module.dropbox" version="2.2.2"/> <!-- For Dropbox synchronisation -->
 	</requires>
 	<extension point="xbmc.python.script" library="manual.py"> <!--Python code for manual start in the addons menu-->
 		<provides>executable</provides> <!-- Addon is shown under Programs -->
@@ -736,12 +736,13 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
   </extension>
 </addon>
 
-<addon id="plugin.video.salts" version="2.0.171" name="Stream All The Sources" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.185" name="Stream All The Sources" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
         <import addon="script.module.myconnpy" version="1.1.6" />
         <import addon="script.module.tknorris.shared" version="0.0.19"/>
+        <import addon="script.module.six"/>
         <import addon="script.module.image_cache" version="0.0.1" optional="true"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
@@ -780,11 +781,10 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
 	</extension>
 </addon>
 
-<addon id="plugin.video.velocity" version="1.0.9" name="Velocity" provider-name="Blazetamer">
+<addon id="plugin.video.velocity" version="1.1.1" name="Velocity" provider-name="Blazetamer">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver"  version="2.1.2"/>
-        <import addon="script.module.t0mm0.common" version="2.0.0"/>
         <import addon="script.module.autoupdate" version="2.0.0" />
 
         
@@ -794,14 +794,27 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>Stream Videos from multiple sources</summary>
-        <description>Stream Videos from multiple sources via Information obtained from Trakt.tv, and or your Trakt Account</description>
+        <description>Stream Videos from multiple sources via Information obtained from Trakt.tv, and or your Trakt Account
+        This addon is developed and supported at [COLOR blue]www.tvaddons.ag[/COLOR]
+        </description>
         <disclaimer>The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content providers.</disclaimer>
         <language>en</language>
         <platform>all</platform>
         <forum>https://forums.tvaddons.ag/blazetamer-s-repository/39658-velocity-20.html</forum>
         <website>https://offshoregit.com/Blazetamer/velocity.html</website>
-        <source></source>
-        <email></email>
+        <assets>
+		  <icon>icon.png</icon>
+		  <fanart>fanart.jpg</fanart>
+		  <screenshot>resources/screenshots/ScreenShot1.png</screenshot>
+          <screenshot>resources/screenshots/ScreenShot2.png</screenshot>
+          <screenshot>resources/screenshots/ScreenShot3.png</screenshot>
+          <screenshot>resources/screenshots/ScreenShot4.png</screenshot>
+		</assets>
+        <news>Added Source Sorting
+              Extra Providers
+              Code Cleanup
+              Dialog Progress on source searches
+              Other code cleanup</news>
     </extension>
 </addon>
 
@@ -1485,7 +1498,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="repository.xunitytalk" name=".[COLOR blue]X[/COLOR]unity[COLOR blue]T[/COLOR]alk Repository" version="1.1.1" provider-name=".[COLOR blue]X[/COLOR]unity[COLOR blue]T[/COLOR]alk">
+<addon id="repository.xunitytalk" name=".[COLOR blue]X[/COLOR]unity[COLOR blue]T[/COLOR]alk Repository" version="1.1.4" provider-name=".[COLOR blue]X[/COLOR]unity[COLOR blue]T[/COLOR]alk">
 	<extension point="xbmc.addon.repository" name="Mikey1234 Addon Repository">
 		<info compressed="false">http://xtyrepo.me/xunitytalk/addons/addons.xml</info>
 		<checksum>http://xtyrepo.me/xunitytalk/addons/addons.xml.md5</checksum>
@@ -1649,7 +1662,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   </extension>
 </addon>
 
-<addon id="plugin.video.phstreams" name="Phoenix" version="3.2.9" provider-name="tvaddons.ag">
+<addon id="plugin.video.phstreams" name="Phoenix" version="3.3.1" provider-name="tvaddons.ag">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
@@ -1674,7 +1687,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
 			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
-		<news>Source repair</news>
+		<news>Scraper Updates - F4M tweak</news>
 	</extension>
 </addon>
 
@@ -1767,15 +1780,22 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon id="script.module.simplejson"
        name="simplejson"
-       version="2.0.10" 
-       provider-name="code.google.com/simplejson">
+       version="3.4.0" 
+       provider-name="Bob Ippolito">
   <requires>
-    <import addon="xbmc.python" version="1.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
   </requires>
   <extension point="xbmc.python.module"
              library="lib" />
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
+    <language></language>
+    <summary lang="en">Simple, fast, extensible JSON encoder/decoder for Python</summary>
+    <description lang="en">Simple, fast, extensible JSON encoder/decoder for Python</description>
+    <disclaimer lang="en">Code taken from https://pypi.python.org/pypi/simplejson/</disclaimer>
+    <license>MIT License, Academic Free License v. 2.1</license>
+    <website>https://pypi.python.org/pypi/simplejson/</website>
+    <source>https://pypi.python.org/pypi/simplejson/</source>
   </extension>
 </addon>
 
@@ -2277,7 +2297,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
   </extension>
 </addon>
 
-<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2017.04.12.1" provider-name="mrknow" >
+<addon id="plugin.video.specto" name="Specto - ... Fork"  version="2017.04.27.1" provider-name="mrknow" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.requests" />
@@ -2506,12 +2526,17 @@ http://informaticglobalworld.altervista.org/
 </extension>
 </addon>
 
-<addon id="repository.noobsandnerds" name="noobsandnerds Repository" version="1.6" provider-name="noobsandnerds">
+<addon id="repository.noobsandnerds" name="noobsandnerds Repository" version="1.7" provider-name="noobsandnerds">
 	<extension point="xbmc.addon.repository" name="noobsandnerds Repository">
 		<dir>
 			<info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
 			<checksum>https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5</checksum>
 			<datadir zip="true">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
 		</dir>
 		<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/noobsandnerds/master/zips/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/noobsandnerds/noobsandnerds/master/zips/addons.xml.md5</checksum>
@@ -2561,12 +2586,12 @@ http://informaticglobalworld.altervista.org/
     </extension>
 </addon>
 
-<addon id="plugin.video.mdm4u" name="M4U" version="2.0.7" provider-name="Mucky Duck">
+<addon id="plugin.video.mdm4u" name="M4U" version="2.0.9" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.metahandler" version="2.5.1"/>
 	<import addon="script.module.muckys.common"/>
-	<!-- <import addon="repository.mdrepo" /> -->
+	<import addon="repository.mdrepo" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
@@ -2579,13 +2604,12 @@ http://informaticglobalworld.altervista.org/
   </extension>
 </addon>
 
-<addon id="plugin.video.mdpubfilm" name="PubFilm" version="1.0.8" provider-name="Mucky Duck">
+<addon id="plugin.video.mdpubfilm" name="PubFilm" version="2.0.8" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.addon.common" />
-	<import addon="script.module.metahandler" version="2.5.1"/>
-	<import addon="script.module.requests" />
-	<!-- <import addon="repository.mdrepo" /> -->
+	<import addon="script.module.muckys.common"/>
+	<import addon="script.module.metahandler"/>
+	<import addon="repository.mdrepo" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
@@ -3925,7 +3949,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="plugin.video.titan" name="[COLOR blue]T[/COLOR]itan" version="2.1.4" provider-name="Titan">  
+<addon id="plugin.video.titan" name="[COLOR blue]T[/COLOR]itan" version="3.0.0" provider-name="Titan">  
 	<requires>    
 		<import addon="script.module.simplejson" version="3.3.0"/>    
 		<import addon="xbmc.python" version="2.1.0"/>    
@@ -3947,7 +3971,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 	</extension>
 </addon>
 
-<addon id="plugin.video.Evolve" name="[COLOR red]E[/COLOR][COLOR white]volve[/COLOR]" version="2.0.3" provider-name="Team Evolve">
+<addon id="plugin.video.Evolve" name="[COLOR red]E[/COLOR][COLOR white]volve[/COLOR]" version="2.0.5" provider-name="Team Evolve">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.simplejson" version="0.0.1"/>
@@ -3955,6 +3979,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
     <import addon="script.module.liveresolver" version="0.0.1"/>
     <import addon="script.module.nanscrapers" version="0.5"/>
     <import addon="script.common.plugin.cache" version="0.0.1"/>
+    <!-- <import addon="repository.metalkettle" version="0.0.1"/> -->
     <import addon="script.module.metahandler" version="0.0.1"/>
     <import addon="plugin.video.youtube" optional="true" />
 
@@ -5226,10 +5251,10 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="plugin.video.metalliq" name="[COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR]" version="2.0.6k" provider-name="[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR], Midraal, forked from Meta-video">
+<addon id="plugin.video.metalliq" name="[COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR]" version="2.0.9k" provider-name="[COLOR FF8ABEE2]Open[/COLOR][COLOR FF757677]ELEQ[/COLOR], Midraal, forked from Meta-video">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
-		<!-- <import addon="repository.q" version="0.0.0.1"/> -->
+		<import addon="repository.q" version="0.0.0.1"/>
 		<import addon="script.module.requests" version="2.9.1"/>
 		<import addon="script.module.futures" version="2.2.0"/>
 	</requires>
@@ -5238,40 +5263,32 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 	</extension>
 	<extension point="xbmc.service" library="service.py" start="[login|startup]">
 	</extension>
-	<extension point="kodi.context.item" library="context_toggle.py">
-		<provides>executable</provides>	
-			<item>
-				<label>Preferred toggle</label>
-				<visible>!System.HasAddon(context.metalliq) + !Skin.HasSetting(Toggling)</visible>
-			</item>
-	</extension>
-	<extension point="kodi.context.item" library="context_movie.py">
-		<provides>executable</provides>	
-			<item>
-				<label>$ADDON[plugin.video.metalliq 30602]</label>
-				<visible>StringCompare(ListItem.dbtype,movie) + SubString(ListItem.Path, plugin.video.metalliq)</visible>
-			</item>
-	</extension>
-	<extension point="kodi.context.item" library="context_tvshow.py">
-		<provides>executable</provides>	
-			<item>
-				<label>$ADDON[plugin.video.metalliq 30602]</label>
-				<visible>StringCompare(ListItem.dbtype,tvshow) + SubString(ListItem.Path, plugin.video.metalliq)</visible>
-			</item>
-	</extension>
-	<extension point="kodi.context.item" library="context_live.py">
-		<provides>executable</provides>	
-			<item>
-				<label>$ADDON[plugin.video.metalliq 30602]</label>
-				<visible>[SubString(ListItem.FileNameAndPath, plugin.video.metalliq\\Live) | SubString(ListItem.FileNameAndPath, plugin.video.metalliq/Live)]</visible>
-			</item>
-	</extension>
-	<extension point="kodi.context.item" library="context_playable.py">
-		<provides>executable</provides>	
-			<item>
-				<label>$ADDON[plugin.video.metalliq 30622]</label>
-				<visible>!System.HasAddon(context.metalliq) + !Skin.HasSetting(Contexting)</visible>
-			</item>
+	<extension point="kodi.context.item">
+		<menu id="kodi.core.main">
+			<menu>
+				<label>[COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR]</label>
+				<item library="context_toggle.py">
+					<label>Preferred toggle</label>
+					<visible>!System.HasAddon(context.metalliq) + !Skin.HasSetting(Toggling)</visible>
+				</item>
+				<item library="context_movie.py">
+					<label>$ADDON[plugin.video.metalliq 30602]</label>
+					<visible>StringCompare(ListItem.dbtype,movie) + SubString(ListItem.Path, plugin.video.metalliq)</visible>
+				</item>
+				<item library="context_tvshow.py">
+					<label>$ADDON[plugin.video.metalliq 30602]</label>
+					<visible>StringCompare(ListItem.dbtype,tvshow) + SubString(ListItem.Path, plugin.video.metalliq)</visible>
+				</item>
+				<item library="context_live.py">
+					<label>$ADDON[plugin.video.metalliq 30602]</label>
+					<visible>[SubString(ListItem.FileNameAndPath, plugin.video.metalliq\\Live) | SubString(ListItem.FileNameAndPath, plugin.video.metalliq\\Live)]</visible>
+				</item>
+				<item library="context_playable.py">
+					<label>$ADDON[plugin.video.metalliq 30622]</label>
+					<visible>!System.HasAddon(context.metalliq) + !Skin.HasSetting(Contexting)</visible>
+				</item>
+			</menu>
+		</menu>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<platform>all</platform>
@@ -5428,16 +5445,18 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 
 <addon
   id="plugin.video.SportsDevil"
-  version="2017.03.28"
+  version="2017.04.29.NL4"
   name="SportsDevil"
-  provider-name="SportsDevil">
+  provider-name="MaxMustermann, Al101, Hubbab3, Jairox, Sattekop">
   <requires>
    <import addon="xbmc.python" version="2.14.0"/>
+   <!-- <import addon="repository.xvbmc" version="4.0.1"/> -->
    <import addon="script.module.dateutil" />
    <import addon="script.module.simplejson" />
    <import addon="script.module.six" />
    <import addon="script.module.requests" />
    <import addon="script.module.livestreamer" />
+   <!-- <import addon="repository.unofficialsportsdevil" version="1.0.0" optional="true"/> -->
   </requires>
   <extension 
     point="xbmc.python.pluginsource"
@@ -5453,7 +5472,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="script.module.schism.common" name="SchisM Common Libraries" version="2017.04.09" provider-name="SchisM">
+<addon id="script.module.schism.common" name="SchisM Common Libraries" version="2017.04.27" provider-name="SchisM">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.six" />
@@ -5521,7 +5540,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="script.module.universal" name="Universal - An Addons Toolkit" version="2.0.1" provider-name="the-one">
+<addon id="script.module.universal" name="Universal - An Addons Toolkit" version="2.0.2" provider-name="the-one">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.t0mm0.common" version="0.0.1"/>
@@ -5920,7 +5939,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 	</extension>
 </addon>
 
-<addon id="plugin.video.cartoons8" name="Cartoons8" version="1.0.30" provider-name="MetalKettle">
+<addon id="plugin.video.cartoons8" name="Cartoons8" version="1.0.31" provider-name="MetalKettle">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.t0mm0.common" version="2.0.0"/>
@@ -6110,13 +6129,12 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 
 <addon id="script.cdartmanager"
        name="cdART Manager"
-       version="4.1.0"
+       version="4.2.0"
        provider-name="stef.an">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="xbmc.json" version="6.20.0"/>
         <import addon="script.module.pil" version="1.1.7" optional="true"/>
-        <import addon="script.module.simplejson" version="3.3.0"/>
     </requires>
     <extension point="xbmc.python.script"
                library="default.py">
@@ -6795,7 +6813,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
     </extension>
 </addon>
 
-<addon id="plugin.video.coolmoviezoneER" version="0.1.0" name="Cool Movie Zone" provider-name="@MrEntertainRepo">
+<addon id="plugin.video.coolmoviezoneER" version="0.1.1" name="Cool Movie Zone" provider-name="@MrEntertainRepo">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.TheYid.common" version="0.1.1"/>
@@ -6921,7 +6939,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 	</extension>
 </addon>
 
-<addon id="plugin.video.bobbycart" name="Bobbys Cartoons" version="1.0.2" provider-name="Dandymedia">
+<addon id="plugin.video.bobbycart" name="Bobbys Cartoons" version="1.0.8" provider-name="Dandymedia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.urlresolver"  version="3.0.0"/>
@@ -7124,7 +7142,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 
 </addon>
 
-<addon id="plugin.video.zen" version="2017.04.09" name=" Zen" provider-name="Zen">
+<addon id="plugin.video.zen" version="2017.05.05" name=" Zen" provider-name="Zen">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.zen.artwork" />
@@ -7145,7 +7163,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 		<disclaimer lang="en">The Author does not host or share any content, nor is affiliated with the content providers.</disclaimer>
 		<platform>all</platform>
 		
-		<news>Update Providers - Added Ability to Display only watchlisted Shows in TV Calendar</news>
+		<news>Update Providers</news>
 		<assets>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
@@ -7310,7 +7328,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="script.module.muckys.common" name="Muckys Common Libraries" version="1.2.3" provider-name="Mucky Duck">
+<addon id="script.module.muckys.common" name="Muckys Common Libraries" version="1.3.0" provider-name="Mucky Duck">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -7486,7 +7504,7 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
 	</extension>
 </addon>
 
-<addon id="script.module.simplecache" name="Simple Cache Module" version="1.0.12" provider-name="marcelveldt">
+<addon id="script.module.simplecache" name="Simple Cache Module" version="1.0.13" provider-name="marcelveldt">
     <requires>
         <import addon="xbmc.python" version="2.24.0"/>
     </requires>
@@ -7502,7 +7520,7 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
 
 <addon id="script.module.thetvdb"
        name="The TVDB API v2"
-       version="1.0.12"
+       version="1.0.17"
        provider-name="marcelveldt">
     <requires>
         <import addon="xbmc.python" version="2.24.0"/>
@@ -7600,7 +7618,7 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
 	</extension>
 </addon>
 
-<addon id="service.library.data.provider" name="Library Data Provider" provider-name="BigNoid" version="0.3.0">
+<addon id="service.library.data.provider" name="Library Data Provider" provider-name="BigNoid" version="0.3.1">
 	<requires>
 		<import addon="xbmc.json" version="7.9.0"/>
 		<import addon="xbmc.python" version="2.25.0"/>
@@ -7622,7 +7640,7 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
 		<website>https://github.com/BigNoid/service.library.data.provider</website>
 		<email>big.noid@kodi.tv</email>
 		<source>https://github.com/BigNoid/service.library.data.provider</source>
-		<news>Fixed playlist statistics</news>
+		<news>Fixed "Recent videos"</news>
 		<assets>
 			<icon>resources/icon.png</icon>
 			<fanart>resources/fanart.jpg</fanart>
@@ -7662,7 +7680,7 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
 	</extension>
 </addon>
 
-<addon id="script.skin.helper.skinbackup" name="Skin Helper Service Skin Backup" version="1.0.11" provider-name="marcelveldt">
+<addon id="script.skin.helper.skinbackup" name="Skin Helper Service Skin Backup" version="1.0.18" provider-name="marcelveldt">
 	<requires>
 		<import addon="xbmc.python" version="2.13.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
@@ -7733,7 +7751,7 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
 
 <addon id="plugin.video.uwc"
        name="Ultimate Whitecream"
-       version="1.1.51"
+       version="1.1.53"
        provider-name="Whitecream">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -8207,7 +8225,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
 
 <addon id="script.module.metadatautils"
        name="Metadata and Artwork module"
-       version="1.0.5"
+       version="1.0.7"
        provider-name="marcelveldt">
     <requires>
         <import addon="xbmc.python" version="2.24.0"/>
@@ -8337,7 +8355,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
     </extension>
 </addon>
 
-<addon id="plugin.video.streamhub" name="[B][COLOR red]Stream Hub[/COLOR][/B]" version="1.7" provider-name="sClarke">
+<addon id="plugin.video.streamhub" name="[B][COLOR red]Stream Hub[/COLOR][/B]" version="2.1" provider-name="sClarke">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
@@ -8359,16 +8377,19 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
 	</extension>
 </addon>
 
-<addon id="script.module.streamhub" name="[B][COLOR red]Stream Hub[/COLOR][/B]" version="2.2" provider-name="sClarke">
+<addon id="script.module.streamhub" name="[B][COLOR red]Stream Hub[/COLOR][/B]" version="2.7" provider-name="sClarke">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
 	<import addon="script.module.requests" />
 	<import addon="script.module.urlresolver" />
 	<import addon="script.module.liveresolver" version="0.1.24"/>
+	<import addon="plugin.video.streamhub"/>
+    <import addon="script.module.beautifulsoup4" />
   </requires>
+  <extension point="xbmc.service" library="service.py" start="login" />
   <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>all</provides>
+        <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Dependency Addon for StreamHub</summary>
@@ -8416,7 +8437,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
 	</extension>
 </addon>
 
-<addon id="script.module.nanscrapers" name="NaN Scrapers" version="0.5.14" provider-name="Team NaN">
+<addon id="script.module.nanscrapers" name="NaN Scrapers" version="0.5.15" provider-name="Team NaN">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -8428,7 +8449,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
     <extension point="xbmc.python.pluginsource" library="lib/default.py">
         <provides>executable</provides>
     </extension>
-    <import addon="script.module.urlresolver" version="2.0" optional="true"/>
+    <import addon="script.module.urlresolver" version="3.0.0" optional="true"/>
     <import addon="script.mrknow.urlresolver" version="2016.10.30.2" optional="true"/>
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
@@ -8442,4 +8463,394 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
     </extension>
 </addon>
  
+ <addon id="repository.istream" name="iSTREAM XBMC Addons Repository" version="10.2" provider-name="iSTREAM">
+	<extension point="xbmc.addon.repository" name="iSTREAM">
+	<dir>
+		<info compressed="false">http://istreamrepo.me/istream/repo/addons.xml</info>
+		<checksum>http://istreamrepo.me/istream/repo/addons.xml.md5</checksum>
+		<datadir zip="true">http://istreamrepo.me/istream/repo/zips</datadir>
+	</dir>
+		<info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
+		<checksum>https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>iSTREAM XBMC Addons and Extensions</summary>
+		<description>iSTREAM XBMC Addons and Extensions</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.1080pmovies_gw" name="1080p Movies" version="2.0.1" provider-name="Dandymedia">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.urlresolver"  version="3.0.0"/>
+	<import addon="script.module.addon.common" />
+	<import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+	<summary lang="en">Movies</summary>
+	<description lang="en">[COLOR red][B]This addon source requires a HTTPS compatible device.[CR]Kodi 17 or Elec 16 and above.[/COLOR][/B][CR][CR]Googlelinks with Openload back up. Varying resolutions[CR][B][COLOR blue]Pairing your device may be required.[/COLOR][/B][CR]This can be done before starting the addon by visiting [B][COLOR blue]https://openload.co/pair[/COLOR][/B] from any device on the same home network and remains valid for 4 hours....enjoy.</description>
+	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
+	<platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.bob" name="Bob" version="1.3.13" provider-name="Team Bob">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="plugin.video.youtube" version="5.2.1" />
+		<import addon="script.module.pyxbmct" version="1.1.4" />
+		<import addon="script.mrknow.urlresolver" version="2017.03.30.1" />
+		<import addon="script.module.liveresolver" version="0.1.47" />
+		<import addon="script.module.beautifulsoup" version="3.2.1"/>
+		<import addon="script.module.requests" version="2.9.1" />
+		<import addon="script.module.nanscrapers" version="0.5.12" />
+		<import addon="script.module.addon.common" version="2.0.0" />
+		<import addon="script.module.xmltodict" version="0.9.0"/>
+        <import addon="script.module.m3u8" version="0.2.10"/>
+        <import addon="script.module.python.koding.aio" version="0.4"/>
+		<!--<import addon="script.video.F4mProxy" version="2.6.4" />-->
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video audio</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Bob</summary>
+		<description lang="en">Bob - Unrestricted. I Am Not A Dev... I Am Bob</description>
+		<platform>all</platform>
+		<forum>http://www.noobsandnerds.com/support/forumdisplay.php?fid=253</forum>
+		<website>www.noobsandnerds.com</website>
+		<video_guide>y0w8zIH4lOY</video_guide>
+		<video_preview>WdKIzajiBBI</video_preview>
+	</extension>
+</addon>
+
+<addon id="repository.bubbles" version="1.2.0" name="Bubbles Repository" provider-name="Bubbles">
+	<extension point="xbmc.addon.repository" name="Bubbles Repository">
+		<dir>
+			<info compressed="false">https://offshoregit.com/bubbles/repository/common/addons.xml</info>
+			<checksum>https://offshoregit.com/bubbles/repository/common/addons.xml.md5</checksum>
+			<datadir zip="true">https://offshoregit.com/bubbles/repository/common/</datadir>
+		</dir>
+		<info compressed="false">https://offshoregit.com/bubbles/repository/addons.xml</info>
+		<checksum>https://offshoregit.com/bubbles/repository/addons.xml.md5</checksum>
+		<datadir zip="true">https://offshoregit.com/bubbles/repository/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Bubbles Repository</summary>
+		<description lang="en">The Bubbles repository for the addon, resources, extensions, and external addons.</description>
+		<disclaimer lang="en">Bubbles and its developers are not in any way affiliated with Kodi, TVAddons, OffshoreGit, Premiumize, RealDebrid, or any of the sites and providers used in the addon. Bubbles is and always will be free and open-source. None of its code and resources may be sold or redistributed for any commercial purposes. Bubbles and its developers do not host, create, or distribute any of the content displayed in the addon.</disclaimer>
+		<platform>all</platform>
+		<license>GPL 3.0</license>
+		<website>https://offshoregit.com/bubbles</website>
+		<forum>https://www.tvaddons.ag/forums/addon-releases/56140-bubbles-stream-movies-tv-kodi.html</forum>
+	</extension>
+</addon>
+
+<addon id="script.icechannel.extn.xunitytalk" version="1.3.6" name=".[COLOR blue]X[/COLOR]unity Talk iStream Extensions" provider-name="[COLOR blue]X[/COLOR]unity[COLOR blue]T[/COLOR]alk">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+	<extension library="default.py" point="xbmc.service" />
+		<summary lang="en">iStream Extensions by xunitytalk.com</summary>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+		<description lang="en">iStream Extensions by Xunity Talk Movies Tv Shows Kids Live</description>
+		<!--<provides>video</provides>-->
+		<platform></platform>
+		<language></language>
+		<license></license>
+		<forum></forum>
+		<website></website>
+		<source></source>
+		<email></email>
+    </extension>
+  <extension point="xbmc.service" library="service.py" start="login" />
+</addon>
+
+<addon id="script.module.f4mproxy" 
+	     name="f4m proxy" 
+	     version="1.0.16" 
+	     provider-name="Shani">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Proxy for f4m</summary>
+    <description lang="en">Use this addon to play F4m v1 and v2 streams</description>
+  </extension>
+</addon>
+
+<addon id="script.module.xmltodict" name="xmltodict" version="0.9.0" provider-name="martinblech">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib"/>
+    <extension point="xbmc.addon.metadata">
+        <language></language>
+        <summary lang="en">Python helper module</summary>
+        <description lang="en">xmltodict is a Python module that makes working with XML feel like you are working with JSON, as in this "spec".[CR]</description>
+        <license>MIT</license>
+        <platform>all</platform>
+        <website>https://github.com/martinblech/xmltodict</website>
+        <source>https://github.com/martinblech/xmltodict</source>
+        <forum></forum>
+    </extension>
+</addon>
+
+<addon id="script.module.socksipy"
+       name="SocksiPy"
+       version="2.0.0"
+       provider-name="Mossy">
+  <requires>
+    <import addon="xbmc.python" 
+    		version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>A Python SOCKS client module</summary>
+    <description>Provides a socket-like interface that supports connections to any TCP service through the use of a SOCKS4, SOCKS5 or HTTP proxy. For usage see http://code.google.com/p/socksipy-branch/</description>
+    <license>BSD</license>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="script.module.python.koding.aio"
+   name="Python Koding AIO"
+   version="0.9"
+   provider-name="TotalRevolution, noobsandnerds">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.urlresolver" version="1.2.0"/>
+    <import addon="script.module.requests" version="2.3.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Python Koding All In One</summary>
+    <description lang="en">Python Koding AIO contains a bunch of time saving modules that allows for quick and simple development. Although developed at totalrevolution.tv this also contains unique features which hook into the noobsandnerds.com framework so a big thanks to the team and users who keep the portals updated.</description>
+    <disclaimer lang="en"></disclaimer>
+    <language></language>
+    <license>Creative Commons 4.0-NC-ND</license>
+    <forum>http://noobsandnerds.com/support/showthread.php?tid=17614</forum>
+    <website>http://totalrevolution.tv</website>
+    <news>Added exception in Get_ID - the function is not available on every platform</news>
+    <source>https://github.com/totalrevolution/totalrevolution/tree/master/script.module.python.koding.aio</source>
+  </extension>  
+</addon>
+
+<addon id="script.module.m3u8" name="m3u8" version="0.2.10" provider-name="globocom, Timewasted">
+	<requires>
+        <import addon="xbmc.python" version="2.14.0"/>
+        <import addon="script.module.iso8601" version="0.1.11"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib"/>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Python m3u8 Parser for HTTP Live Streaming (HLS) Transmissions</summary>
+		<description lang="en">Packed for XBMC from https://github.com/globocom/m3u8</description>
+		<language>en</language>
+		<platform>all</platform>
+		<license>MIT</license>
+		<forum></forum>
+		<website>https://github.com/globocom/m3u8</website>
+		<source>https://github.com/timewasted/script.module.m3u8</source>
+		<email>ryan@timewasted.me</email>
+	</extension>
+</addon>
+
+<addon id="script.module.iso8601"
+       name="iso8601"
+       version="0.1.11"
+       provider-name="">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Simple module to parse ISO 8601 dates</summary>
+    <platform>all</platform>
+    <license>The MIT License (MIT)</license>
+    <website>https://pypi.python.org/pypi/iso8601</website>
+    <source>https://bitbucket.org/micktwomey/pyiso8601</source>
+  </extension>
+</addon>
+
+<addon id="script.module.dnspython"
+       name="DNS Python"
+	   version="1.12.0"
+	   provider-name="dnspython">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+	<summary>A Pure Python DNS module</summary>
+	<description>A Pure Python DNS module</description>
+	<disclaimer lang="en"></disclaimer>
+	<language>en</language>
+    <platform>all</platform>
+	<license>BSD-style license</license>
+	<forum></forum>
+	<website>http://www.dnspython.org/</website>
+	<email></email>
+	<source>https://github.com/rthalley/dnspython</source>
+  </extension>
+</addon>
+
+<addon id="script.module.addon.signals"
+	name="Addon Signals"
+	version="0.0.2"
+	provider-name="Rick Phillips (ruuk)">
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Inter-addon signalling</summary>
+		<description lang="en">Provides signal/slot mechanism for inter-addon communication</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE Version 2.1, February 1999</license>
+		<source>https://github.com/ruuk/script.module.addon.signals</source>
+	</extension>
+</addon>
+
+<addon id="script.istream.dialogs" version="0.1.21" name="iSTREAM Custom Windows and Dialogs" provider-name="iSTREAM">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+	<extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+		<summary lang="en">iSTREAM Custom Windows and Dialogs</summary>
+		<description lang="en">Custom UI (Windows and Dialogs) for iSTREAM</description>
+		<platform></platform>
+		<language></language>
+		<license></license>
+		<forum></forum>
+		<website></website>
+		<source></source>
+		<email></email>
+    </extension>
+</addon>
+
+<addon id="script.icechannel" version="1.0.0.57" name="iSTREAM" provider-name="iSTREAM">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.urlresolver" version="0.0.1"/>
+		<import addon="script.module.universal" version="0.0.1" />
+		<import addon="script.module.beautifulsoup" version="0.0.1"/>		
+		<import addon="script.module.metahandler" version="0.0.1"/>
+		<import addon="script.module.feedparser" version="0.0.1"/>
+		<import addon="script.module.pyamf" version="0.0.1"/>
+		<import addon="script.icechannel.extn.common" version="0.0.9"/>
+		<import addon="script.module.unidecode" version="0.0.1"/>
+		<import addon="script.module.socksipy" version="0.0.1"/>
+		<import addon="script.module.dnspython" version="0.0.1"/>
+		<import addon="script.module.f4mproxy" version="0.0.1"/>
+		<import addon="script.istream.dialogs" version="0.0.1"/>
+		<import addon="script.icechannel.extn.xunity.tv.common" version="0.0.1"/>
+                <import addon="script.module.elementtree" version="1.2.8" />
+                <import addon="script.module.requests" version="0.0.1" />
+    </requires>
+	<extension point="xbmc.python.pluginsource" library="plugin.py" >
+		<provides>video</provides>
+	</extension>
+    <extension point="xbmc.python.module" library="lib" />
+	<extension library="service.py" point="xbmc.service"  start="startup"/>	
+    <extension point="xbmc.addon.metadata">
+		<summary lang="en">iSTREAM</summary>
+		<description lang="en">iSTREAM</description>
+		<platform></platform>
+		<language></language>
+		<license></license>
+		<forum></forum>
+		<website></website>
+		<source></source>
+		<email></email>
+    </extension>
+</addon>
+
+<addon id="script.bubbles.skins" version="1.2.0" name="Bubbles Skins" provider-name="Bubbles">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Bubbles Skins</summary>
+		<description>The theme skins for Bubbles</description>
+		<disclaimer lang="en">Bubbles and its developers are not in any way affiliated with Kodi, TVAddons, OffshoreGit, Premiumize, RealDebrid, or any of the sites and providers used in the addon. Bubbles is and always will be free and open-source. None of its code and resources may be sold or redistributed for any commercial purposes. Bubbles and its developers do not host, create, or distribute any of the content displayed in the addon.</disclaimer>
+		<platform>all</platform>
+		<license>GPL 3.0</license>
+		<website>https://offshoregit.com/bubbles</website>
+		<forum>https://www.tvaddons.ag/forums/addon-releases/56140-bubbles-stream-movies-tv-kodi.html</forum>
+	</extension>
+</addon>
+
+<addon id="script.bubbles.resources" version="1.2.1" name="Bubbles Resources" provider-name="Bubbles">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Bubbles Resources</summary>
+		<description>The general resources for Bubbles</description>
+		<disclaimer lang="en">Bubbles and its developers are not in any way affiliated with Kodi, TVAddons, OffshoreGit, Premiumize, RealDebrid, or any of the sites and providers used in the addon. Bubbles is and always will be free and open-source. None of its code and resources may be sold or redistributed for any commercial purposes. Bubbles and its developers do not host, create, or distribute any of the content displayed in the addon.</disclaimer>
+		<platform>all</platform>
+		<license>GPL 3.0</license>
+		<website>https://offshoregit.com/bubbles</website>
+		<forum>https://www.tvaddons.ag/forums/addon-releases/56140-bubbles-stream-movies-tv-kodi.html</forum>
+	</extension>
+</addon>
+
+<addon id="script.bubbles.icons" version="1.2.1" name="Bubbles Icons" provider-name="Bubbles">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Bubbles Icons</summary>
+		<description>The theme icons for Bubbles</description>
+		<disclaimer lang="en">Bubbles and its developers are not in any way affiliated with Kodi, TVAddons, OffshoreGit, Premiumize, RealDebrid, or any of the sites and providers used in the addon. Bubbles is and always will be free and open-source. None of its code and resources may be sold or redistributed for any commercial purposes. Bubbles and its developers do not host, create, or distribute any of the content displayed in the addon.</disclaimer>
+		<platform>all</platform>
+		<license>GPL 3.0</license>
+		<website>https://offshoregit.com/bubbles</website>
+		<forum>https://www.tvaddons.ag/forums/addon-releases/56140-bubbles-stream-movies-tv-kodi.html</forum>
+	</extension>
+</addon>
+
+<addon id="script.bubbles.binaries" version="1.2.0" name="Bubbles Binaries" provider-name="Bubbles">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Bubbles Binaries</summary>
+		<description>The external binaries for Bubbles</description>
+		<disclaimer lang="en">Bubbles and its developers are not in any way affiliated with Kodi, TVAddons, OffshoreGit, Premiumize, RealDebrid, or any of the sites and providers used in the addon. Bubbles is and always will be free and open-source. None of its code and resources may be sold or redistributed for any commercial purposes. Bubbles and its developers do not host, create, or distribute any of the content displayed in the addon.</disclaimer>
+		<platform>all</platform>
+		<license>GPL 3.0</license>
+		<website>https://offshoregit.com/bubbles</website>
+		<forum>https://www.tvaddons.ag/forums/addon-releases/56140-bubbles-stream-movies-tv-kodi.html</forum>
+	</extension>
+</addon>
+
+<addon id="script.bubbles.artwork" version="1.2.0" name="Bubbles Artwork" provider-name="Bubbles">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Bubbles Artwork</summary>
+		<description>The artwork for Bubbles</description>
+		<disclaimer lang="en">Bubbles and its developers are not in any way affiliated with Kodi, TVAddons, OffshoreGit, Premiumize, RealDebrid, or any of the sites and providers used in the addon. Bubbles is and always will be free and open-source. None of its code and resources may be sold or redistributed for any commercial purposes. Bubbles and its developers do not host, create, or distribute any of the content displayed in the addon.</disclaimer>
+		<platform>all</platform>
+		<license>GPL 3.0</license>
+		<website>https://offshoregit.com/bubbles</website>
+		<forum>https://www.tvaddons.ag/forums/addon-releases/56140-bubbles-stream-movies-tv-kodi.html</forum>
+	</extension>
+</addon>
+
 </addons>

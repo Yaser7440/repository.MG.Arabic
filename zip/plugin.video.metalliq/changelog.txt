@@ -1,3 +1,22 @@
+v2.0.[COLOR ff0084ff]9[/COLOR]
+- Added parameters for movies & tvshows: actors, writers, directors & slug
+
+v2.0.[COLOR ff0084ff]8[/COLOR]
+- Added more sorting methods
+- Added seperate sorting methods for Trakt / TMDb
+- Fixed UnicodeEncodeErrors
+- Fixed duration in Trakt metadata
+- Removed "by date"-sorting method
+- Synced sorting methods with system settings
+
+v2.0.[COLOR ff0084ff]7[/COLOR]
+- Added offset-option for episode-airdates (can prevent episodes showing up in your library early)
+- Added multi-selection for helix & isengard 
+- Added .nomedia path (dummy)
+- Changed sorting-default for Trakt's next-episode & calendar-section to year
+- Fixed double-episode adding?
+- Reverted library player to only use enabled players instead of all players (as prep for implementation of player-manager in next update)
+
 v2.0.[COLOR ff0084ff]6[/COLOR]
 - Added item indicator to extended selector
 - Added images to path-players (folder.jpg)

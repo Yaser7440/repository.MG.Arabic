@@ -1,0 +1,12 @@
+v1.0.0
+Initial Release
+v1.0.1
+Added Content
+v1.0.5
+Removed xmas stuff
+v1.0.6
+Reslover fixed
+v1.0.7
+Changed art and layout, cleaned code
+v1.0.8
+Changed resolver (temp I hope)

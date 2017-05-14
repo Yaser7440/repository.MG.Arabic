@@ -1,3 +1,8 @@
+v3.00 added 3d section
+removed j midnight
+can be found in sanctuary addon
+
+
 v2.14 REMOVED Anime
 
 v2.13

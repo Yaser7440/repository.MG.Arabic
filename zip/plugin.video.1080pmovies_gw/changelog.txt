@@ -1,0 +1,12 @@
+v1.0.0
+Initial Release
+v1.0.3
+Site changes to end link
+v1.0.4
+Code changes added alt link if main unavailable
+v1.1.0
+Added additional Googlelinks 
+v2.0.0
+Changed source / Old source died
+v2.0.1
+https req - fixed resolve

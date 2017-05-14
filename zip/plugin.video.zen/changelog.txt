@@ -1,3 +1,20 @@
+[B]2017.05.05[/B]
+- Update Providers
+- Fixed Local Watched Marks
+- Fix broken caching in episodes
+- Improved some call method
+
+[B]2017.05.02[/B]
+- Update Providers
+
+[B]2017.04.30[/B]
+- Update Providers
+
+[B]2017.04.27.02[/B]
+- Update Providers - Add/Delete Providers
+- Menu Cleanups
+- Added Local Watchmarks for Tv Shows/Seasons/Episodes
+
 [B]2017.04.09[/B]
 - Update Providers
 - Easter Break fixes
