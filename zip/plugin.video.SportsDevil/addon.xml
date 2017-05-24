@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon
   id="plugin.video.SportsDevil"
-  version="2017.04.29.NL4"
+  version="2017.05.19"
   name="SportsDevil"
-  provider-name="MaxMustermann, Al101, Hubbab3, Jairox, Sattekop">
+  provider-name="SportsDevil">
   <requires>
    <import addon="xbmc.python" version="2.14.0"/>
-   <!-- <import addon="repository.xvbmc" version="4.0.1"/> -->
    <import addon="script.module.dateutil" />
    <import addon="script.module.simplejson" />
    <import addon="script.module.six" />
    <import addon="script.module.requests" />
    <import addon="script.module.livestreamer" />
-   <!-- <import addon="repository.unofficialsportsdevil" version="1.0.0" optional="true"/> -->
   </requires>
   <extension 
     point="xbmc.python.pluginsource"

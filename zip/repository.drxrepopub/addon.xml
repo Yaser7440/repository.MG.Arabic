@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.drxrepopub" name="Durex Repo Public" version="1.0" provider-name="Durex Repo Public">
+	<extension point="xbmc.addon.repository" name="Durex Repo Public">
+		<info compressed="false">http://drxbld.com/pluginspub/addons.xml</info>
+		<checksum>http://drxbld.com/pluginspub/addons.xml.md5</checksum>
+		<datadir zip="true">http://drxbld.com/pluginspub/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Durex Repository Public</summary>
+		<description>Kodi Repository to Durex Build Installer</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+

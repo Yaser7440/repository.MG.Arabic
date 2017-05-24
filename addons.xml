@@ -87,7 +87,7 @@
 
 <addon id="service.watchedlist"
 	name="WatchedList"
-	version="1.1.4"
+	version="1.2"
 	provider-name="schapplm">
 	<requires>
 		<import addon="xbmc.python" version="2.20.0"/>
@@ -98,10 +98,10 @@
 		<import addon="script.module.dropbox" version="2.2.2"/> <!-- For Dropbox synchronisation -->
 	</requires>
 	<extension point="xbmc.python.script" library="manual.py"> <!--Python code for manual start in the addons menu-->
-		<provides>executable</provides> <!-- Addon is shown under Programs -->
+	  <provides>executable</provides> <!-- Addon is shown under Programs -->
 	</extension>
-	<extension point="xbmc.service" library="default.py" start="login"> <!-- Python code for autostart -->
-	</extension>
+	<extension point="xbmc.service" library="default.py" start="login" /> <!-- Python code for autostart -->
+  <extension point="xbmc.python.module" library="lib" /> <!-- entry to access the WatchedList from other addons -->
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Save watched Movies and TV Episodes independent from filenames</summary>
 		<summary lang="de">Gesehen-Status von Filmen und Serien-Episoden unabhängig von Dateinamen speichern</summary>
@@ -736,13 +736,14 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
   </extension>
 </addon>
 
-<addon id="plugin.video.salts" version="2.0.185" name="Stream All The Sources" provider-name="tknorris">
+<addon id="plugin.video.salts" version="2.0.187" name="Stream All The Sources" provider-name="tknorris">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
         <import addon="script.module.myconnpy" version="1.1.6" />
         <import addon="script.module.tknorris.shared" version="0.0.19"/>
         <import addon="script.module.six"/>
+        <import addon="script.module.dateutil"/>
         <import addon="script.module.image_cache" version="0.0.1" optional="true"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
@@ -770,7 +771,7 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
 	</extension>
 </addon>
 
-<addon id="script.module.tknorris.shared" name="TKNorris Common Libraries" version="0.0.21" provider-name="tknorris">
+<addon id="script.module.tknorris.shared" name="TKNorris Common Libraries" version="0.0.22" provider-name="tknorris">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -1193,7 +1194,7 @@ v5.2.14 (2017-01-23)
   </extension>
 </addon>
 
-<addon id="script.trakt" name="Trakt" version="3.1.10" provider-name="Trakt.tv, Razzeee">
+<addon id="script.trakt" name="Trakt" version="3.1.11" provider-name="Trakt.tv, Razzeee">
 	<requires>
         <import addon="xbmc.python" version="2.24.0"/>
         <import addon="script.module.simplejson" version="3.3.0"/>
@@ -2338,7 +2339,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="plugin.video.exodus" version="3.1.12" name="Exodus" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="3.1.13" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="repository.exodus" version="1.0.0" />
@@ -2587,7 +2588,7 @@ http://informaticglobalworld.altervista.org/
     </extension>
 </addon>
 
-<addon id="plugin.video.mdm4u" name="M4U" version="2.0.9" provider-name="Mucky Duck">
+<addon id="plugin.video.mdm4u" name="M4U" version="2.1.1" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.metahandler" version="2.5.1"/>
@@ -2605,7 +2606,7 @@ http://informaticglobalworld.altervista.org/
   </extension>
 </addon>
 
-<addon id="plugin.video.mdpubfilm" name="PubFilm" version="2.0.8" provider-name="Mucky Duck">
+<addon id="plugin.video.mdpubfilm" name="PubFilm" version="2.1.0" provider-name="Mucky Duck">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.muckys.common"/>
@@ -3468,7 +3469,7 @@ http://informaticglobalworld.altervista.org/
 	</extension>
 </addon>
 
-<addon id="script.module.youtube.dl" name="youtube-dl Control" version="17.310.1a1" provider-name="Rick Phillips (ruuk)">
+<addon id="script.module.youtube.dl" name="youtube-dl Control" version="17.518.0" provider-name="Rick Phillips (ruuk)">
     <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.addon.signals" version="0.0.1"/>
@@ -5446,18 +5447,16 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 
 <addon
   id="plugin.video.SportsDevil"
-  version="2017.04.29.NL4"
+  version="2017.05.19"
   name="SportsDevil"
-  provider-name="MaxMustermann, Al101, Hubbab3, Jairox, Sattekop">
+  provider-name="SportsDevil">
   <requires>
    <import addon="xbmc.python" version="2.14.0"/>
-   <!-- <import addon="repository.xvbmc" version="4.0.1"/> -->
    <import addon="script.module.dateutil" />
    <import addon="script.module.simplejson" />
    <import addon="script.module.six" />
    <import addon="script.module.requests" />
    <import addon="script.module.livestreamer" />
-   <!-- <import addon="repository.unofficialsportsdevil" version="1.0.0" optional="true"/> -->
   </requires>
   <extension 
     point="xbmc.python.pluginsource"
@@ -6694,7 +6693,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   <extension point='xbmc.python.module' library='lib' />
 </addon>
 
-<addon id="script.module.mctools" name="common tools mc" version="1.4.5" provider-name="mancuniancol">
+<addon id="script.module.mctools" name="common tools mc" version="1.5.0" provider-name="mancuniancol">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.beautifulsoup4" optional="false"/>
@@ -6769,7 +6768,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 </addon>
 
 <addon id="net.rieter.xot.channel.mtg"
-       version="4.1.3.1"
+       version="4.1.3.2"
        name="Retrospect Modern Time Group (Swedish, Lithuanian and Letvian) Channels"
        provider-name="Bas Rieter">
 
@@ -8438,7 +8437,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
 	</extension>
 </addon>
 
-<addon id="script.module.nanscrapers" name="NaN Scrapers" version="0.5.16" provider-name="Team NaN">
+<addon id="script.module.nanscrapers" name="NaN Scrapers" version="0.5.18" provider-name="Team NaN">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -8552,7 +8551,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
 	</extension>
 </addon>
 
-<addon id="script.icechannel.extn.xunitytalk" version="1.3.8" name=".[COLOR blue]X[/COLOR]unity Talk iStream Extensions" provider-name="[COLOR blue]X[/COLOR]unity[COLOR blue]T[/COLOR]alk">
+<addon id="script.icechannel.extn.xunitytalk" version="1.3.9" name=".[COLOR blue]X[/COLOR]unity Talk iStream Extensions" provider-name="[COLOR blue]X[/COLOR]unity[COLOR blue]T[/COLOR]alk">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
@@ -8919,6 +8918,19 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
 			<screenshot>resources/media/screenshots/screenshot09.jpg</screenshot>
 			<screenshot>resources/media/screenshots/screenshot10.jpg</screenshot>
 		</assets>
+	</extension>
+</addon>
+
+<addon id="repository.drxrepopub" name="Durex Repo Public" version="1.0" provider-name="Durex Repo Public">
+	<extension point="xbmc.addon.repository" name="Durex Repo Public">
+		<info compressed="false">http://drxbld.com/pluginspub/addons.xml</info>
+		<checksum>http://drxbld.com/pluginspub/addons.xml.md5</checksum>
+		<datadir zip="true">http://drxbld.com/pluginspub/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Durex Repository Public</summary>
+		<description>Kodi Repository to Durex Build Installer</description>
+		<platform>all</platform>
 	</extension>
 </addon>
 
