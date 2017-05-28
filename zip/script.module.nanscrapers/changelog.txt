@@ -1,6 +1,10 @@
+v0.5.19
+- corrected indent
+- removed misplaced file
+
 v0.5.18
 - updated m4ufree (thanks ARB)
-- added hostedlink (thanks ARB)
+- updated hostedlink
 
 v0.5.17
 - updated m4ufree
