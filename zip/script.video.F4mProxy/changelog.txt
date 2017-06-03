@@ -1,3 +1,5 @@
+[B]Version 2.8.7[/B]
+Support for HLSDIR which will return m3u8 but with local address so the f4mproxy will fetch the contents now kodi player, also fixed the bug at close
 [B]Version 2.8.6[/B]
 revert URL status, no error to be shown now
 [B]Version 2.8.5[/B]
