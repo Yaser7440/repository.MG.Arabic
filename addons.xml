@@ -24,11 +24,12 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.showscen" version="2.1.5" name="ShowsCen" provider-name="MG.Arabic">
+<addon id="plugin.video.showscen" version="2.1.6" name="ShowsCen" provider-name="MG.Arabic">
  <requires>
         <import addon="xbmc.python" version="2.1.0" optional="true" />
-        <import addon="script.module.addon.common"/>
+		<import addon="script.module.mg.arabic.common"/>
         <import addon="script.module.urlresolver"/>
+		<import addon="script.mrknow.urlresolver"/>
 		<import addon="script.module.requests"/>
         <import addon="repository.MG.Arabic" />
   </requires>
@@ -324,10 +325,10 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.genesis" name="Genesis"  version="2016.11.18.3" provider-name="mrknow Edit by MG.Arabic" >
+<addon id="plugin.video.genesis" name="Genesis"  version="2017.04.12.1" provider-name="mrknow Edit by MG.Arabic" >
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
-		<import addon="script.module.requests" version="1.0.0" />
+		<import addon="script.module.requests" />
 		<import addon="script.module.metahandler" />
 		<import addon="plugin.video.youtube" optional="true" />
 		<import addon="script.mrknow.urlresolver" />
@@ -4299,16 +4300,16 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="plugin.video.arabhd" version="1.0.2" name="ArabHD" provider-name="MG.Arabic">
+<addon id="plugin.video.arabhd" version="1.0.3" name="ArabHD" provider-name="MG.Arabic">
   <requires>
-        <import addon="xbmc.python" version="2.1.0" optional="true" />
-        <import addon="script.module.addon.common"/>"
-        <import addon="script.module.urlresolver"/>"
-		<import addon="script.module.requests"/>"
+        <import addon="xbmc.python" version="2.1.0" />
+        <import addon="script.module.mg.arabic.common"/>
+        <import addon="script.module.urlresolver" />
+		<import addon="script.mrknow.urlresolver" />
+		<import addon="script.module.requests" />
         <import addon="repository.MG.Arabic" />
   </requires>
-  <extension point="xbmc.python.pluginsource"
-             library="arabhd.py">
+  <extension point="xbmc.python.pluginsource" library="arabhd.py">
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
@@ -4323,6 +4324,20 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 			<screenshot>img/screenshot-03.jpg</screenshot>
  		</assets>
   </extension>
+</addon>
+
+<addon id="script.module.mg.arabic.common" name="MG.Arabic Common Libraries" version="1.0.2" provider-name="MG.Arabic">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Collection of modules used by MG.Arabic  Addons</summary>
+		<description lang="en">Collection of modules used by MG.Arabic  Addons
+		</description>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+	</extension>
 </addon>
 
 <addon id="plugin.video.arablionz" version="1.0.1" name="Arablionz" provider-name="MG Arabic">
@@ -4869,13 +4884,13 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="plugin.video.anakbnet" version="1.0.5" name="Anakbnet" provider-name="MG.Arabic">
+<addon id="plugin.video.anakbnet" version="1.0.6" name="Anakbnet" provider-name="MG.Arabic">
  <requires>
         <import addon="xbmc.python" version="2.1.0" optional="true" />
-
-        <import addon="script.module.addon.common"/>"
-        <import addon="script.module.urlresolver"/>"
-		<import addon="script.module.requests"/>"
+        <import addon="script.module.mg.arabic.common"/>
+        <import addon="script.module.urlresolver"/>
+		<import addon="script.mrknow.urlresolver" />
+		<import addon="script.module.requests"/>
         <import addon="repository.MG.Arabic" />
   </requires>
   <extension point="xbmc.python.pluginsource"
@@ -7415,12 +7430,12 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
 	</extension>
 </addon>
 
-<addon id="plugin.video.cimaclub" version="2.0.0" name="CimaClub" provider-name="MG.Arabic">
+<addon id="plugin.video.cimaclub" version="2.0.1" name="CimaClub" provider-name="MG.Arabic">
  <requires>
         <import addon="xbmc.python" version="2.1.0" optional="true" />
-		<import addon="script.module.metahandler" version="2.5.1"/>
-        <import addon="script.module.addon.common"/>
-        <import addon="script.module.urlresolver"/>
+        <import addon="script.module.mg.arabic.common"/>
+        <import addon="script.module.urlresolver" />
+		<import addon="script.mrknow.urlresolver" />
 		<import addon="script.module.requests"/>
         <import addon="repository.MG.Arabic" />
   </requires>
