@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.3lbh.Net" version="1.0.0" name="3lbh.Net" provider-name="MG.Arabic">
+ <requires>
+        <import addon="xbmc.python" version="2.1.0" optional="true" />
+		<import addon="script.module.mg.arabic.common"/>
+        <import addon="script.module.urlresolver"/>
+		<import addon="script.mrknow.urlresolver"/>
+		<import addon="script.module.requests"/>
+        <import addon="repository.MG.Arabic" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="3lbh.Net.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary> https://3lbh.net/ </summary>
+    <description> احدث المسلسلات العربية </description>
+   <platform>all</platform>
+	   <assets>
+ 			<icon>resources/icon.png</icon>
+ 			<fanart>resources/fanart.jpg</fanart>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+ 		</assets>
+  </extension>
+</addon>
