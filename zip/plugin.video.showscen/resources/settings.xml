@@ -19,28 +19,29 @@
 	</category>
 	
 	<category label="Site-Url">
-		<setting id="base_url" type="text" label="[B][COLOR gold]ShowScen Url[/COLOR][/B]" default="http://www.showscen.com" visible="true"/>
+		<setting id="ShowScen_url" type="text" label="[B][COLOR gold]ShowScen Url[/COLOR][/B]" default="http://www.showscen.com" visible="true"/>
 		<setting id="Series4Watch_url" type="text" label="[B][COLOR purple]Series4Watch Url[/COLOR][/B]" default="http://www.series4watch.tv" visible="true"/>
-		<setting id="3lbh_url" type="text" label="[B][COLOR blue]3lbh Net Url[/COLOR][/B]" default="http://3lbh.net" visible="true"/>
+		<setting id="hdarab_url" type="text" label="[B][COLOR blue]HD-Arab Url[/COLOR][/B]" default="https://hd-arab.com" visible="true"/>
 		<setting id="shahid4u_url" type="text" label="[B][COLOR purple]Shahid4u Url[/COLOR][/B]" default="http://shahid4u.com" visible="true"/>
 		<setting id="FooF_url" type="text" label="[B][COLOR orange]4ooF Url[/COLOR][/B]" default="http://www.4oof.com" visible="true"/>
 		<setting id="6arbyat_url" type="text" label="[B][COLOR tan]6arbyat Url[/COLOR][/B]" default="http://www.6arbyat.com" visible="true"/>
+		<setting id="fushaar_url" type="text" label="[B][COLOR white]Fushaar Url[/COLOR][/B]" default="http://www.fushaar.com" visible="true"/>
+		<setting id="kamshe_url" type="text" label="[B][COLOR white]Cera Online Url[/COLOR][/B]" default="http://www.kamshe.com" visible="true"/>
 	</category>
-	
-	<category label="Update">
-		<setting type="lsep" label="When You Click Check For Updates It will Appear As"/>
-		<setting type="lsep" label="If Nothing Happened If Their Is Any Available"/>
-		<setting type="lsep" label="Updates You Will See The Appropriate Notifications"/>
-		<setting label="  [COLOR red]Click Here To Check For Updates For All Your Addons&Repos[/COLOR]" type="action" action="UpdateAddonRepos"/>
-	</category>
-	
 	<category label="Enable Sections">
-		<!-- <setting id="enable_shows" type="bool" label="Enable TV-Shows" default="true"/> -->
+		<setting id="enable_fushaar" type="bool" label="Enable Fushaar" default="true"/>
+		<setting id="enable_cera" type="bool" label="Enable Cera Online" default="true"/>
 		<setting id="enable_movies" type="bool" label="[B][COLOR gold]Enable ShowsCen[/COLOR][/B]" default="true"/>
 		<setting id="enable_Series4Watch" type="bool" label="[B][COLOR purple]Enable Series4Watch[/COLOR][/B]" default="true"/>
-		<setting id="enable_3lbhnet" type="bool" label="[B][COLOR blue]Enable 3lbh Net[/COLOR][/B]" default="true"/>
+		<setting id="enable_hdarab" type="bool" label="[B][COLOR blue]Enable HD-Arab[/COLOR][/B]" default="true"/>
 		<setting id="enable_shahid4u" type="bool" label="[B][COLOR purple]Enable Shahid4u[/COLOR][/B]" default="true"/>
 		<setting id="enable_FooF" type="bool" label="[B][COLOR orange]Enable 4ooF[/COLOR][/B]" default="true"/>
 		<setting id="enable_6arbyat" type="bool" label="[B][COLOR tan]Enable 6arbyat[/COLOR][/B]" default="true"/>
+	</category>
+		<category label="Tools">
+		<setting type="lsep" label="If Updates are Available You Will See The Appropriate Notifications"/>
+		<setting label="  [COLOR red]Click Here To Check For Updates For All Your Addons/Repos[/COLOR]" type="action" action="UpdateAddonRepos"/>
+		<setting label="Open URL Resolver Settings" type="action" option="close"
+                 action="RunPlugin(plugin://plugin.video.showscen/?mode=200&url=unused)"/>
 	</category>
 </settings>
