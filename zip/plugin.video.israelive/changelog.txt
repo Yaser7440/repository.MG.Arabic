@@ -1,3 +1,51 @@
+[B]v5.0.8[/B]
+- Support differents guide-name and channel-name.
+[B]v5.0.7[/B]
+- Auto enable Video InputStream addons on Kodi 17
+- Addon move back to my repository.
+- Addon's name changesd to GlobeTV.
+- Addon's icon changed.
+[B]v5.0.6[/B]
+- Bugfix for LiveTV disapears at startup (on Kodi < 17)
+- Remove automatic refresh for LiveTV on Kodi 17 (it's stuck Kodi 17.)
+- Added an option to force refresh LiveTV from inside the addon (at settings section).
+[B]v5.0.5[/B]
+- Bugfix for last version (Kodi stuck sometimes when LiveTV PVR refresh 17)
+[B]v5.0.4[/B]
+- Bugfix for LiveTV PVR not refreshed (on Kodi < 17)
+[B]v5.0.3[/B]
+- Bugfix for last version (script error on Kodi 17)
+[B]v5.0.2[/B]
+- Fix for Kodi 17: Prompt to choose what to do in case of LiveTV setting enable in addon settings but IPTV Simple Client disable.
+[B]v5.0.1[/B]
+- Local proxy for LiveTV dynamic links, move from IsraeLIVE to IsraeLiveResolver.
+- Fix Kodi stuck at exit after playing LiveTV dinamic links with Livestreamer player.
+[B]v5.0.0[/B]
+- Fix EPG not shown in Kodi 17.
+- Default view for channels list change to channel names without program names.
+- Added option in addon settings (Appearance) to show/hide program names in channels list.
+[B]v4.9.9[/B]
+- Added search channels in categories.
+- Added option to choose the lists view mode in addon settings (Appearance tab).
+- Fix for channels not playing if EPG is disable in addon settings.
+[B]v4.9.8[/B]
+- Fix for empty lists for selected categories.
+[B]v4.9.7[/B]
+- Fix for program description of channel disapeares after playing it.
+- Code improvements (If you added channels or categories to Kodi favourites, you may re-add them.)
+- Direct link to channel or category by ID (from israelive.list): plugin://plugin.video.israelive/?channelid=ID
+[B]v4.9.6[/B]
+- Group all links of channel.
+- Automatic enable IPTV Simple Client.
+- Automatic enable LiveTV setting in Kodi settings.
+- Prompt to choose what to do in case of LiveTV setting disable in Kodi settings but enable in addon settings.
+- Shows Now-playing and next program in program details too.
+- Direct link to channel by ID (from israelive.list): plugin://plugin.video.israelive/?mode=1&channelid=ID
+[B]v4.9.5[/B]
+- Bugfix for last version error on fresh install.
+[B]v4.9.4[/B]
+- Added option to clean addon-profile folder and refresh channels list and tv-guides.
+- Maintenance.
 [B]v4.9.3[/B]
 - Added 'Settings' folder to addon.
 - Maintenance.

@@ -1,4 +1,72 @@
 
+[B]2.0.1 (2017.06.04)[/B]
+- VPN detection fix.
+
+[B]2.0.0 (2017.06.04)[/B]
+- Support for season packs.
+- VPN support and automatic verification.
+- Fixed the movie lists bug causing few movies to be shown in the results.
+- Major improvements for free hoster stream detection.
+- Backup facility for settings, accounts, and databases.
+- Scraping preemptive termination if quality streams were found.
+- Added a Premium category for Premiumize, RealDebrid, and EasyNews.
+- Sort streams according to premium status.
+- Moved EasyNews to the debrid services.
+- Updated EasyNews providers, account, and other functionality.
+- Split the old extras module into verification and metadata modules.
+- Added German provider Cinenator to settings.
+- Updated provider verification.
+- Made the artwork addon required again.
+- Changed the stream details label.
+- Moved calendar to favourites.
+- Added EasyNews account features and dialog.
+- Added cached indicator to stream details dialog.
+- Removed RarBg torrent provider, due to its replacement by TorrentApi.
+- Better detection of archives.
+- Added cam and screener quality to filters.
+- Fixed incorrect video quality ordering.
+- Improved automatic removal of Premiumize and RealDebrid items.
+- Updated the splash dialog.
+- Fixed parental lock.
+- Changed manner in which internal settings are read from file.
+- Set default provider presets.
+- Fixed the preset encoding bug in the settings.
+- Removed sound on clear notification.
+- Updated internal core code.
+- Added language to foreign title setting.
+- Better language support and foreign title search.
+- Made foreign title scraping part of the main title scraping.
+- Improved UTF encoding and Umlauts.
+- Updated speed test, added global and EasyNews servers.
+- Improved network tools and section.
+- Updated indexers.
+- Remove OMDb as information provider.
+- Moved movie collections to categories.
+- Removed default duration for items with an unknown duration.
+- Improved the scraping process and progress dialog.
+- Added found streams to scraping dialog.
+- Fixed TorrentApi provider.
+- Allow debrid inspection after scraping cancellation.
+- Support unrating with the new Trakt addon.
+- Improved fanart, posters, and thumbnails.
+- Faster foreign title detection.
+- Show unwatched episode count next to shows and seasons.
+- Added Russian providers.
+- Updated existing and added new hoster providers.
+- Fixed the bug of cached streams not showing on subsequent runs.
+- Improved foreign title searches.
+- Improved external addon download and installation.
+- Reduced provider initialization time.
+- Fixed the time thread issue when the scraping dialog is cancelled.
+- Added provider optimization.
+- Added air time and weekday settings for episodes.
+- Added French T411 member torrent provider.
+- Added multi language audio support.
+- Improved Alluc provider search process and detection rate.
+- Major improvement for handling languages in various parts of the addon.
+- Filter out streams according to the audio language.
+- Fixed IMDb list posters.
+
 [B]1.4.3 (2017.05.13)[/B]
 - Fixed the UrlResolver setting causing no hoster links to show.
 

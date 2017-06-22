@@ -16,3 +16,13 @@ v2.0.3
 temp source
 v2.0.4
 Flipped source back
+v2.0.5
+Fixed resolve ? only sd on most multi options on PC? guess urlresover issue
+v2.0.6
+Opened all links - Google only SD droid/elec
+v2.0.7
+Google down .....again
+v2.0.8
+Google added still not all
+v2.0.9
+Fix resolve

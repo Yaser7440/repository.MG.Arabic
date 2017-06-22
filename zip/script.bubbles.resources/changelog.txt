@@ -1,4 +1,8 @@
 
+[B]2.0.0 (2017.06.04)[/B]
+- Added new EasyNews, website, backup, network, speedtest, VPN, and donations icons.
+- Removed dark edges on Quasar and EasyNews icons.
+
 [B]1.4.2 (2017.05.12)[/B]
 - Fixed version numbering.
 
