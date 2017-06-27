@@ -1,3 +1,27 @@
+v2.0.[COLOR ff0084ff]11[/COLOR]
+- Added configurabl labels to yesno-dialog
+- Added new & unique tmdb api-key
+- Added fallback premiered-date to tmdb-info
+- Added library options to main movie & tv sections
+- Added multipage-adding-to-library-paths. Seperate pages with "|", use "-" to specify ranges, all pages mentioned will be added (i.e. 1-5 = 1 + 2 + 3 + 4 + 5)
+- Added batch-adding to service for automatic import of id-lists
+- Fixed error loading Channels-section if no library-channels are present
+- Fixed combining "><" and @any-parameters
+- Prep for expanding of sync-options
+- Removed colorize
+- Removed some of the un-used code
+- Reverted library updating for tvshows, should hopefully & finally get rid of duplicate episodes
+- Tweaked some language strings
+- Upped quality of artwork used
+
+v2.0.[COLOR ff0084ff]10[/COLOR]
+- Added seasons & episodes view
+- Fixed batch-adding not using default library player
+- Fixed empty sections
+- Fixed double episode-entries after library updates
+- Changed Music source setup to use audiodb instead of imvdb
+- Changed Music(-video) source's name to "Music videos" (localized)
+
 v2.0.[COLOR ff0084ff]9[/COLOR]
 - Added parameters for movies & tvshows: actors, writers, directors & slug
 
@@ -111,15 +135,15 @@ v1.1.[COLOR ff0084ff]3[/COLOR]
 - Fixed container error
 
 v1.1.[COLOR ff0084ff]2[/COLOR]
-- Added backup function for movies and tvshows library, makes lists in addon_data-folder which can be used with batch-add-function: change extension from "bak" to "txt" and place in [COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR]'s addon_data-folder. 
+- Added backup function for movies and tvshows library, makes lists in addon_data-folder which can be used with batch-add-function: change extension from "bak" to "txt" and place in MetalliQ's addon_data-folder. 
 - Added preferred toggling, current options are acceleration and skin.
 - Expanded context player, now usable from almost anywhere (provided addon's dev has not blocked regular context-menu-items)
 
 v1.1.[COLOR ff0084ff]1[/COLOR]
 - Added option to batch-add movies and/or tvshows to library:
-  Movies: add a file called "movies_to_add.txt" to [COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR]'s addon-data folder. Can be comma seperated values or each id on new line or combination of th
+  Movies: add a file called "movies_to_add.txt" to MetalliQ's addon-data folder. Can be comma seperated values or each id on new line or combination of th
   two. Takes IMDb-id or TMDb-id or combination of those two.
-  TVShows: add a file called "tvshows_to_add.txt" to [COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR]'s addon-data folder. Can be comma seperated values or each id on new line or combination of those two. Takes IMDb-id or TVDb-id or combination of those two.
+  TVShows: add a file called "tvshows_to_add.txt" to MetalliQ's addon-data folder. Can be comma seperated values or each id on new line or combination of those two. Takes IMDb-id or TVDb-id or combination of those two.
 
 v1.1.[COLOR ff0084ff]0[/COLOR]
 - Added (all?) missing translations
@@ -161,7 +185,7 @@ v1.0.[COLOR ff0084ff]7[/COLOR]
 - Added custom theme and background option
 - Added parameters: {shortname/title} = name/title[1:-1], {urlname/title} = urllib.quote(name/title)
 - Changed a couple of defaults in settings
-- Added some context-menu options: Direct link to EIM/[COLOR ff0084ff]Q[/COLOR]lick[COLOR ff0084ff]P[/COLOR]lay, Trailers, Recommended (exits [COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR])
+- Added some context-menu options: Direct link to EIM/[COLOR ff0084ff]Q[/COLOR]lick[COLOR ff0084ff]P[/COLOR]lay, Trailers, Recommended (exits MetalliQ)
 - Added option to disable library updates
 
 v1.0.[COLOR ff0084ff]6[/COLOR]
@@ -173,7 +197,7 @@ v1.0.[COLOR ff0084ff]6[/COLOR]
 - Added shortcuts to settings accessible via pluginpath
 - Added direct link to [COLOR ff0084ff]Q[/COLOR]lick[COLOR ff0084ff]P[/COLOR]lay in contextmenu
 - Added some missing translations
-- Changed player format and content (not backwards compatible with older version of [COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR] or Meta-video addon)
+- Changed player format and content (not backwards compatible with older version of MetalliQ or Meta-video addon)
 - Changed default player-repo location
 - Merged v1.1.5 of Meta video
 - Added to noobsandnerds-repository to add functionality to TVPortal
@@ -181,7 +205,7 @@ v1.0.[COLOR ff0084ff]6[/COLOR]
 v1.0.4
 - Added metadata to addon.xml
 - Fixed trakt next episodes
-- Switched from Meta's trakt-api to [COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR]'s own, unique trakt-api
+- Switched from Meta's trakt-api to MetalliQ's own, unique trakt-api
 v1.0.2
 - Fixed iconpath in source-creation
 v1.0.1
@@ -199,7 +223,7 @@ v1.0.0
 - Added music categories.
 
 =============================
-[COLOR ff0084ff]M[/COLOR]etalli[COLOR ff0084ff]Q[/COLOR] v1.0.0 forked from Meta v1.1.5
+MetalliQ v1.0.0 forked from Meta v1.1.5
 
 v1.1.5
 - maintenance
