@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.streamlord" version="1.0.3" name="StreamLord" provider-name="MG.Arabic">
+  <requires>
+     <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.mg.arabic.common" />
+	<import addon="repository.MG.Arabic" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="streamlord.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>MOVIES Arabic plugin from http://www.streamlord.com</summary>
+    <description>MOVIES Arabic plugin from http://www.streamlord.com</description>
+    <platform>all</platform>
+	   <assets>
+ 			<icon>img/icon.png</icon>
+ 			<fanart>img/fanart.jpg</fanart>
+			<screenshot>img/screenshot-01.jpg</screenshot>
+			<screenshot>img/screenshot-02.jpg</screenshot>
+			<screenshot>img/screenshot-03.jpg</screenshot>
+ 		</assets>
+  </extension>
+</addon>
