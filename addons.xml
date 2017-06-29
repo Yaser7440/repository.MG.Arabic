@@ -4491,7 +4491,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="plugin.video.EL7L" version="2.2.0" name="EL7L.CO" provider-name="MG.Arabic">
+<addon id="plugin.video.EL7L" version="2.2.1" name="EL7L.CO" provider-name="MG.Arabic">
   <requires>
      <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.mg.arabic.common" />
@@ -8963,13 +8963,10 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
 	</extension>
 </addon>
 
-<addon id="plugin.video.3lbh.Net" version="1.0.2" name="3lbh.Net" provider-name="MG.Arabic">
+<addon id="plugin.video.3lbh.Net" version="1.0.3" name="3lbh.Net" provider-name="MG.Arabic">
  <requires>
         <import addon="xbmc.python" version="2.1.0" optional="true" />
 		<import addon="script.module.mg.arabic.common"/>
-        <import addon="script.module.urlresolver"/>
-		<import addon="script.mrknow.urlresolver"/>
-		<import addon="script.module.requests"/>
         <import addon="repository.MG.Arabic" />
   </requires>
   <extension point="xbmc.python.pluginsource"
@@ -8979,6 +8976,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
   <extension point="xbmc.addon.metadata">
     <summary> https://3lbh.net/ </summary>
     <description> احدث المسلسلات العربية </description>
+	<description>   احدث الافلام </description>
    <platform>all</platform>
 	   <assets>
  			<icon>resources/icon.png</icon>
