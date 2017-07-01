@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.video.3lbh.Net" version="1.0.3" name="3lbh.Net" provider-name="MG.Arabic">
+<addon id="plugin.video.3lbh.Net" version="1.0.4" name="3lbh.Net" provider-name="MG.Arabic">
  <requires>
         <import addon="xbmc.python" version="2.1.0" optional="true" />
 		<import addon="script.module.mg.arabic.common"/>
@@ -11,8 +11,7 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary> https://3lbh.net/ </summary>
-    <description> احدث المسلسلات العربية </description>
-	<description>   احدث الافلام </description>
+    <description> احدث الافلام والمسلسلات</description>
    <platform>all</platform>
 	   <assets>
  			<icon>resources/icon.png</icon>
