@@ -14,7 +14,7 @@
 <channel>
 <name>CEN test</name>
 <thumbnail>http://mg.esy.es/Kodi/Logo/logo.jpg</thumbnail>
-<externallink>http://www.showscen.com/watch/category/movies/feed/</externallink>
+<externallink>https://fmovies.is/ajax/film/tooltip/oj2o8?1499616250</externallink>
 <fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
 <info>Channels(MG.Arabic)</info>
 <genre>اثارة</genre>
