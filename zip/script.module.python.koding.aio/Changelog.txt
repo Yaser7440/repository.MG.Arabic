@@ -1,3 +1,38 @@
+v.0.9.6.5:
+- Fixed Check_Repos, was a bug if scanning full paths
+
+v.0.9.6.4.2:
+- Added a timeout to Validate_Link function
+- Validate_Link will now return False if https cannot be accessed
+- Check_Repos now returns False if https being used on Python 2.6
+
+v.0.9.6.4.1:
+- Fixed indentation in toggle_addons
+
+v.0.9.6.4:
+- Still a bug with toggle_addons locking up system so reverted that code to old.
+
+v.0.9.6.3:
+- Redone Addon_Toggle a little as there are still bugs
+
+v.0.9.6.2:
+- Bug fix for misplaced variable in Addon_Toggle
+
+v.0.9.6.1:
+- Added Check_Repo() function to check if the xml links can be resolved
+- Fixed bug in Toggle_Addons, was failing to enable recently unzipped
+- Updated some missing info from the README file
+
+v.0.9.6:
+- Added Requirements function to return min and max requirements for kodi dependencies
+- Added Highest_Version function for returning highest version in a list
+- Improved some video.py functionality, thanks to midraal
+- Fixed Adult_Toggle, had had a typo in there which was occasionally causing an error
+- Fixed exception in adult toggele for when no id can be found natively
+- Fixed the strings so error message works for run of online code when in debug mode
+- Removed Install_Addon due to high server loads at NaN. This is hopefully temporary
+but at this moment in time the future of this function is uncertain.
+
 v.0.9.5:
 - Fixed bug in sleep_if_function_active, was closing dialog busy
 

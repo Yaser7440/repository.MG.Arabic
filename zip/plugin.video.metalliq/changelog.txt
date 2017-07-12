@@ -1,5 +1,10 @@
+v2.0.[COLOR ff0084ff]12[/COLOR]krypton
+- Added imdb option to parsed-tvshow-add-to-library path
+- Added setting to install custom players
+- Fixed tmdb movie search
+
 v2.0.[COLOR ff0084ff]11[/COLOR]
-- Added configurabl labels to yesno-dialog
+- Added configurable labels to yesno-dialog
 - Added new & unique tmdb api-key
 - Added fallback premiered-date to tmdb-info
 - Added library options to main movie & tv sections

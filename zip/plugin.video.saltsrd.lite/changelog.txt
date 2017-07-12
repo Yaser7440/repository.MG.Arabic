@@ -1,3 +1,11 @@
+Version [B]2.0.196[/B]
++ All Kudos -2- k3l3vra/TKnorris
+! Fixed Trakt
+
+Version [B]2.0.187[/B]
++ All Kudos -2- TKnorris/k3l3vra
+- MaintenanceRelease RD.lite
+
 Version [B]2.0.171[/B]
 + All Kudos -2- TKnorris (Y)
 - MaintenanceRelease RD.lite
@@ -140,7 +148,93 @@ Version 1.0.132[B]a[/B] EPiC Real-Debrid
 [B]Version 1.0.130[/B] EPiC Real-Debrid          #BETA#
 + Salts HD Lite .130 "engine" (kudos-2-TKnorris though)
 
----------------------
+----------------------
+
+[B]Version 2.0.195[/B]
+Take over addon from TK
+Update translations
+Improve gvideo parsing
+
+[B]Version 2.0.194[/B]
+- Add sit2play
+- Add pubfilm.to
+- Add Mehliz
+- Improve 2DDL
+- Improve xmovies8.v2
+- Improve filmovizjia
+- Improve Dizimag
+- Improve Mehliz
+- Fix Dizigold
+- Fix Dizilab
+- Fix Dizipas
+- Fix Dizibox
+- Fix tvonline
+- Fix SeriesCoco
+- Fix pubfilm
+- Fix Flixanity
+- Fix DDLSeries
+- Fix RLSSource
+- Remove SolarMovie
+- Remove Torba
+- Fix episode thumbnail caching
+- Improve premiumize scraper
+
+[B]Version 2.0.187[/B]
+- Make episode detection faster across all scrapers
+- Fix m4ufree
+- Fix MovieHubs
+- Fix diziay
+- Fix iwatch
+- Fix MovieSub
+- Fix MovieWatcher
+- Fix Sezon
+- Fix MovieXK
+- Fix Quikr
+- Fix Pubfilm
+- Migrate to logger class
+- Improve js2py
+- Improve jsunfuck
+
+[B]Version 2.0.185[/B]
+- Improve image scraping (fix using thumbnails as fanart)
+- Add RMZ
+- Improve Premiumize.V2
+- Improve/Fix Furk
+- Improve YesMovies
+- Improve 2DDL
+- Improve DDLValley
+- Improve MyDDL
+- Improve Quikr
+- Improve rls-movies
+- Remove scrapers for defunct sites
+- Fix Dizist
+- Fix Watch5s
+- Fix Dizipas
+- Fix pubfilm
+- Fix Vumoo
+- Fix Solar
+- Fix SceneHDTV
+- Fix Vidics
+- Fix SeeHD
+- Fix Dizipas
+- Fix Putlocker
+- Update MVL
+- Update Flixanity
+
+[B]Version 2.0.175[/B]
+- Add SeriesOnline
+- Make ImageProxy multi-threaded
+- Remove old Artwork scraping method
+- Improve xmovies8.v2
+- Improve YesMovies
+- Improve emovies
+- Improve m4ufree
+- Improve HEVCBluray
+- Improve WatchOnline
+- Fix Scenedown
+- Fix MovieSub
+- Fix Watch5s
+
 [B]Version 2.0.171[/B]
 - Fix onlinediz
 - Fix DDLSeries

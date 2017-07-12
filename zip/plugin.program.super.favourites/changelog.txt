@@ -2,6 +2,21 @@
 PLEASE READ IT!![/COLOR][/B]
 
 
+[COLOR chartreuse]1.0.59: 29th May 2017[/COLOR]
+    - 'Now playing' text now defined by SF due to skin variations
+
+
+[COLOR chartreuse]1.0.58: 14th May 2017[/COLOR]
+    - fixes for global menu
+    - fixes for adding items from File Manager
+    - fixes for Show fanart setting
+
+
+[COLOR chartreuse]1.0.57: 6th May 2017[/COLOR]
+    - numerous fixes for running on Krypton
+    - numerous fixes for running in Estuary
+
+
 [COLOR chartreuse]1.0.56: 19th February 2017[/COLOR]
     - added optional initial path, and include play folder parameters to quicklaunch script
         usage: xbmc.runscript(special://home/addons/plugin.program.super.favourites/quicklaunch.py,folder1/folder2,True)

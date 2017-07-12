@@ -1,6 +1,24 @@
 [COLOR FF00FFFF]NOTE: Visit [COLOR orange]http://ares-project.com[/COLOR] for support.[/COLOR]
 
 ----------------------------
+Version 2.0 (24-Jan-16)
+----------------------------
+- Fix broken My Favourites list if Metadata disable in Add-on Settings
+- Fix empty movie/tvshows list if Next Page
+- remove Next Page if reach last page
+- remove Year in title if MetaData disable
+- Code cleanup
+
+----------------------------
+Version 1.9 (22-Jan-16)
+----------------------------
+- Add-on Settings now available
+   - enable / disable Metadata (list load faster if disable)
+   - enable / disable English Subtitle (if available)
+   - set Auto View value (default is 502)
+   - more to come...
+
+----------------------------
 Version 1.8 (16-Jan-16)
 ----------------------------
 - Fix some Genre not show list due to metadata not found

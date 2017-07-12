@@ -1,4 +1,5 @@
-<?xml version="1.0" ?><addon id="plugin.video.theroyalwe" name="The Royal We" provider-name="DudeHere" version="1.3.7">
+<?xml version="1.0" ?>
+<addon id="plugin.video.theroyalwe" name="The Royal We" provider-name="DudeHere" version="1.3.8">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.dudehere.routines"/>
@@ -14,5 +15,6 @@
         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
         <forum>http://forums.tvaddons.ag/dudehere-addons/</forum>
         <website>http://www.tvaddons.ag/</website>
+		<news>[B]1.3.8 Update fix I Fixed Trakt.api some users got failed should be fixed [/B] [CR] This is The Last Version Dudehere Made - no one knows if he is coming back</news>
     </extension>
 </addon>

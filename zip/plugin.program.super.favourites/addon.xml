@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.super.favourites" name="Super Favourites" version="1.0.56.rus" provider-name="spoyser">
+<addon id="plugin.program.super.favourites" name="Super Favourites" version="1.0.59" provider-name="spoyser">
   <requires>
     <import addon="xbmc.python" version="2.14.0"/>
     <import addon="script.module.metahandler" optional="true" />
@@ -16,9 +16,7 @@
   
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Put all your favourites bits of all your favourites addons into one easy to use addon.</summary>
-    <summary lang="ru">Ваша мультимедийная библиотека.</summary>
     <description lang="en">Super Favourites is a better way of managing your Kodi Favourites.[CR][CR]Virtually any menu item within Kodi can be added to Super Favourites, even from addons that don't normally provide this feature.[CR][CR]Super Favourites allows you to better manage your Kodi favourites, including the creation of sub-folders, into which your Kodi favourites can then be copied or moved into.[CR][CR]This allows you to create you own custom addon with just the best bits of your favourite addons. Search your favourite addons, play your favourite music, read your favourite comic strips, select your favourite playlists, browse your favourite movies, listen to your favourite radio stations, watch your favourite cartoons, the possibilities are endless, all from within one easy to use addon.</description>
-    <description lang="ru">Super Favorites - лучший способ управления вашим Избранным в Kodi.[CR][CR]Фактически любой пункт меню в Kodi может быть добавлен в Super Favorites, даже из аддонов, которые обычно не предоставляют эту функцию.</description>
     <platform>all</platform>
     <language>en</language>
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
@@ -28,15 +26,8 @@
     <email>seanpoyser at gmail.com</email>
 
     <news>
-1.0.56: 19th February 2017
-    - added optional initial path, and include play folder parameters to quicklaunch script
-        usage: xbmc.runscript(special://home/addons/plugin.program.super.favourites/quicklaunch.py,folder1/folder2,True)
-    - fixed playlist parsing
-    - fixed quicklaunch in Krypton
-    - fixed launching ExecuteBuiltin types from the quick launch dialog
-    - fixed launching playable items added from FileManager
-    - fixed launching playable items from widgets
-    - various other fixes due to changes in Krypton
+1.0.59: 29th May 2017
+    - 'Now playing' text now defined by SF due to skin variations
     </news>
 
   </extension>

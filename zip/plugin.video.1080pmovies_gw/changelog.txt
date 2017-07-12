@@ -32,3 +32,5 @@ v.2.1.1
 Google links
 v2.1.2
 Fixed resolve
+v2.1.3
+Resolve edit

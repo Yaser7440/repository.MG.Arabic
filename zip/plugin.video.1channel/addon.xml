@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--suppress ALL -->
-<addon id="plugin.video.1channel" version="2.5.77" name="1Channel" provider-name="Bstrdsmkr, tuxen, tknorris">
+<addon id="plugin.video.1channel" version="2.5.78" name="1Channel" provider-name="k3l3vra">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="3.0"/>
         <import addon="script.module.addon.common" version="2.0.0" />
         <import addon="script.module.metahandler" version="2.6.0" />
         <import addon="script.module.myconnpy" version="1.1.6" />
-        <import addon="script.module.axel.downloader" version="0.2.0"/>
+        <import addon="script.module.axel.downloader" version="0.2.0" optional="true"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
