@@ -1,0 +1,25 @@
+<settings>
+	
+	<category label="AutoView">
+		<setting id="auto-view" type="bool" label="Enable Automatic View" default="false"/>
+		<setting id="show-view" type="labelenum" label="TV Show View" values="Default View|Info|Info2|Info3|Fanart|Big list|Low List|Poster Wrap" default="Info3" enable="!eq(-1,false)+!eq(-2,false)"/>
+		<setting id="movie-view" type="labelenum" label="Movies View" values="Info|Info2|Info3|Fanart|Big list|Poster Wrap" default="Info3" enable="!eq(-1,false)+!eq(-2,false)+!eq(-3,false)"/>
+		<setting id="default-view" type="number" label="Default View" default="500" enable="!eq(-3,false)"/>
+	</category>
+	
+	<category label="Site-Url">
+		<setting id="base_url" type="text" label="[B]ArabHD Url[/B]" default="http://arabhd.co" visible="true"/>
+	</category>
+	
+	<category label="Update">
+		<setting type="lsep" label="When You Click Check For Updates It will Appear As"/>
+		<setting type="lsep" label="If Nothing Happened If Their Is Any Available"/>
+		<setting type="lsep" label="Updates You Will See The Appropriate Notifications"/>
+		<setting label="  [COLOR red]Click Here To Check For Updates For All Your Addons&Repos[/COLOR]" type="action" action="UpdateAddonRepos"/>
+	</category>
+	
+	<category label="Enable Sections">
+		<setting id="enable_Movies" type="bool" label="[B]Enable Movies[/B]" default="true"/>
+		<setting id="enable_Music" type="bool" label="[B]Enable Music[/B]" default="true"/>		
+	</category>
+</settings>

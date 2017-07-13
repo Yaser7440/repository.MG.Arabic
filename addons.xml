@@ -4233,11 +4233,12 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="plugin.video.aflamy" version="1.0.7" name="Aflamy" provider-name="MG.Arabic">
+<addon id="plugin.video.aflamy" version="1.0.8" name="Aflamy" provider-name="MG.Arabic">
     <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.urlresolver" version="2.3.1"/>
-        <import addon="script.module.addon.common" version="2.0.0" />
+        <import addon="xbmc.python" version="2.1.0" optional="true" />
+		<import addon="script.module.mg.arabic.common"/>
+        <import addon="repository.MG.Arabic" />
+        <import addon="script.module.urlresolver" version="2.3.1"/>       
     </requires>
   <extension point="xbmc.python.pluginsource"
              library="Aflamy.py">
@@ -4291,7 +4292,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="plugin.video.arabhd" version="1.0.3" name="ArabHD" provider-name="MG.Arabic">
+<addon id="plugin.video.arabhd" version="1.0.4" name="ArabHD" provider-name="MG.Arabic">
   <requires>
         <import addon="xbmc.python" version="2.1.0" />
         <import addon="script.module.mg.arabic.common"/>
@@ -4317,7 +4318,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="script.module.mg.arabic.common" name="MG.Arabic Common Libraries" version="1.0.3" provider-name="MG.Arabic">
+<addon id="script.module.mg.arabic.common" name="MG.Arabic Common Libraries" version="1.0.4" provider-name="MG.Arabic">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.metahandler"/>
@@ -4332,11 +4333,12 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 	</extension>
 </addon>
 
-<addon id="plugin.video.arablionz" version="1.0.1" name="Arablionz" provider-name="MG Arabic">
+<addon id="plugin.video.arablionz" version="1.0.2" name="Arablionz" provider-name="MG Arabic">
   <requires>
         <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.addon.common"/>
-        <import addon="script.module.urlresolver"/>
+        <import addon="script.module.mg.arabic.common"/>
+        <import addon="script.module.urlresolver" />
+		<import addon="script.mrknow.urlresolver" />
 		<import addon="script.module.requests"/>
         <import addon="repository.MG.Arabic" />
     </requires>
@@ -4621,7 +4623,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="plugin.video.movizland" version="2.0.8" name="MoviZland" provider-name="MG.Arabic">
+<addon id="plugin.video.movizland" version="2.0.9" name="MoviZland" provider-name="MG.Arabic">
  <requires>
         <import addon="xbmc.python" version="2.1.0" optional="true" />
         <import addon="script.module.mg.arabic.common"/>
@@ -4634,6 +4636,10 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
     <summary>MOVIES plugin from MoviZland</summary>
     <description>MOVIES plugin from MoviZland</description>   
     <platform>all</platform>
+		  <assets>
+ 			<icon>img/icon.png</icon>
+ 			<fanart>img/fanart.jpg</fanart>
+ 		</assets>
   </extension>
 </addon>
 
@@ -4868,7 +4874,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="plugin.video.anakbnet" version="1.0.6" name="Anakbnet" provider-name="MG.Arabic">
+<addon id="plugin.video.anakbnet" version="1.0.7" name="Anakbnet" provider-name="MG.Arabic">
  <requires>
         <import addon="xbmc.python" version="2.1.0" optional="true" />
         <import addon="script.module.mg.arabic.common"/>
@@ -7430,7 +7436,7 @@ unshortenit v0.3.0 from https://github.com/jkehler/unshortenit :
 	</extension>
 </addon>
 
-<addon id="plugin.video.cimaclub" version="2.0.1" name="CimaClub" provider-name="MG.Arabic">
+<addon id="plugin.video.cimaclub" version="2.0.2" name="CimaClub" provider-name="MG.Arabic">
  <requires>
         <import addon="xbmc.python" version="2.1.0" optional="true" />
         <import addon="script.module.mg.arabic.common"/>
@@ -7952,11 +7958,12 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
 	</extension>
 </addon>
 
-<addon id="plugin.video.arabictv" name="ARABIC Tv" version="1.0.0" provider-name="husham.hifi2007,edit by MG.Arabic">
+<addon id="plugin.video.arabictv" name="ARABIC Tv" version="1.0.2" provider-name="MG.Arabic">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.addon.common" version="0.0.1"/>
     <import addon="plugin.video.youtube" version="5.0.0"/>
+	<import addon="repository.MG.Arabic" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
@@ -7966,11 +7973,17 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
     <description lang="en">credits to Dandymedia for some code used</description>
     <description lang="en">Subscribe to HiFI 2007 reviews Youtube Chanel </description>
     <description lang="en">Subscribe to Husham Memar Youtube Chanel </description>
+	<description lang="en">Subscribe to MG.Arabic</description>
     <platform>all</platform>
     <forum>n/a</forum>
     <website>n/a</website>
+	<assets>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+	</assets>
   </extension>
 </addon>
+
 <addon id="repository.echo" name="[COLOR greenyellow]ECHO[/COLOR] [COLOR white]Repository[/COLOR]" version="1.04" provider-name="Echo Coder">
 	<extension point="xbmc.addon.repository" name="Echo Coder Repository">
 		<dir>
@@ -8948,7 +8961,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
 	</extension>
 </addon>
 
-<addon id="plugin.video.3lbh.Net" version="1.0.4" name="3lbh.Net" provider-name="MG.Arabic">
+<addon id="plugin.video.3lbh.Net" version="1.0.5" name="3lbh.Net" provider-name="MG.Arabic">
  <requires>
         <import addon="xbmc.python" version="2.1.0" optional="true" />
 		<import addon="script.module.mg.arabic.common"/>

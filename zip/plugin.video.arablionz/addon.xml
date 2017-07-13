@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.video.arablionz" version="1.0.1" name="Arablionz" provider-name="MG Arabic">
+<addon id="plugin.video.arablionz" version="1.0.2" name="Arablionz" provider-name="MG Arabic">
   <requires>
         <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.addon.common"/>
-        <import addon="script.module.urlresolver"/>
+        <import addon="script.module.mg.arabic.common"/>
+        <import addon="script.module.urlresolver" />
+		<import addon="script.mrknow.urlresolver" />
 		<import addon="script.module.requests"/>
         <import addon="repository.MG.Arabic" />
     </requires>

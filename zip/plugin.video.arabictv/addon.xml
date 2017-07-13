@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.arabictv" name="ARABIC Tv" version="1.0.0" provider-name="husham.hifi2007,edit by MG.Arabic">
+<addon id="plugin.video.arabictv" name="ARABIC Tv" version="1.0.2" provider-name="MG.Arabic">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.addon.common" version="0.0.1"/>
     <import addon="plugin.video.youtube" version="5.0.0"/>
+	<import addon="repository.MG.Arabic" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
@@ -13,8 +14,13 @@
     <description lang="en">credits to Dandymedia for some code used</description>
     <description lang="en">Subscribe to HiFI 2007 reviews Youtube Chanel </description>
     <description lang="en">Subscribe to Husham Memar Youtube Chanel </description>
+	<description lang="en">Subscribe to MG.Arabic</description>
     <platform>all</platform>
     <forum>n/a</forum>
     <website>n/a</website>
+	<assets>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+	</assets>
   </extension>
 </addon>
