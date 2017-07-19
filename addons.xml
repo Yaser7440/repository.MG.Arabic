@@ -4318,7 +4318,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="script.module.mg.arabic.common" name="MG.Arabic Common Libraries" version="1.0.4" provider-name="MG.Arabic">
+<addon id="script.module.mg.arabic.common" name="MG.Arabic Common Libraries" version="1.0.5" provider-name="MG.Arabic">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.metahandler"/>
@@ -7927,7 +7927,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
 	</extension>
 </addon>
 
-<addon id="skin.estuary" version="1.9.13" name="Estuary" provider-name="phil65, Ichabod Fletchman Edit By MG Arabic">
+<addon id="skin.estuary" version="1.9.17" name="Estuary" provider-name="phil65, Ichabod Fletchman, Edit By MG Arabic">
 	<requires>
 		<import addon="xbmc.gui" version="5.12.0"/>
 	</requires>
