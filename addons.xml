@@ -7958,7 +7958,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
 	</extension>
 </addon>
 
-<addon id="plugin.video.arabictv" name="ARABIC Tv" version="1.0.2" provider-name="MG.Arabic">
+<addon id="plugin.video.arabictv" name="ARABIC Tv" version="1.0.3" provider-name="MG.Arabic">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.addon.common" version="0.0.1"/>
