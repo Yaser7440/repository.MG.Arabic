@@ -4448,12 +4448,12 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="plugin.video.easycima" version="1.0.9" name="EasyCima" provider-name="MG.Arabic">
+<addon id="plugin.video.easycima" version="1.1.0" name="EasyCima" provider-name="MG.Arabic">
  <requires>
         <import addon="xbmc.python" version="2.1.0" optional="true" />
-        <import addon="script.module.addon.common"/>"
-        <import addon="script.module.urlresolver"/>"
-		<import addon="script.module.requests"/>"
+        <import addon="script.module.mg.arabic.common"/>
+        <import addon="script.module.urlresolver"/>
+		<import addon="script.module.requests"/>
         <import addon="repository.MG.Arabic" />
   </requires>
   <extension point="xbmc.python.pluginsource"
@@ -8167,12 +8167,11 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
   </extension>
 </addon>
 
-<addon id="plugin.video.arab-moviezorg" version="1.0.1" name="Arab-Aoviez.Org" provider-name="MG.Arabic">
+<addon id="plugin.video.arab-moviezorg" version="1.0.2" name="Arab-Aoviez.Org" provider-name="MG.Arabic">
  <requires>
         <import addon="xbmc.python" version="2.1.0" optional="true" />
-
-        <import addon="script.module.addon.common"/>"
-        <import addon="script.module.urlresolver"/>"
+        <import addon="script.module.mg.arabic.common"/>
+        <import addon="script.module.urlresolver"/>
 		<import addon="script.module.requests"/>"
         <import addon="repository.MG.Arabic" />
   </requires>

@@ -1,10 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.video.arab-moviezorg" version="1.0.1" name="Arab-Aoviez.Org" provider-name="MG.Arabic">
+<addon id="plugin.video.arab-moviezorg" version="1.0.2" name="Arab-Aoviez.Org" provider-name="MG.Arabic">
  <requires>
         <import addon="xbmc.python" version="2.1.0" optional="true" />
-
-        <import addon="script.module.addon.common"/>"
-        <import addon="script.module.urlresolver"/>"
+        <import addon="script.module.mg.arabic.common"/>
+        <import addon="script.module.urlresolver"/>
 		<import addon="script.module.requests"/>"
         <import addon="repository.MG.Arabic" />
   </requires>
