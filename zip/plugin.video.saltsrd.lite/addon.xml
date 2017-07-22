@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.video.saltsrd.lite" version="2.0.196" name="Salts RD Lite" provider-name="k3l3vra (EPiC XvBMC MOD)">
+<addon id="plugin.video.saltsrd.lite" version="2.0.196MR" name="Salts RD Lite" provider-name="SALTs (EPiC XvBMC MOD)">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
-        <import addon="repository.xvbmc" version="4.0.2"/>
-        <!--<import addon="repository.tknorris.beta" version="1.0.5"/> -->
-        <import addon="repository.k3l3vra" version="1.0.1"/>
+        <import addon="repository.xvbmc" version="4.0.2"/>							<!--	RD Lite			-->
+        <!--	<import addon="repository.tknorris.beta" version="1.0.5"/>					Stopped!!!		-->
+        <import addon="repository.k3l3vra" version="1.0.1" optional="true"/>		<!--	Stopped?!?		-->
+        <import addon="repository.Cypherslocker" version="1.0.2" optional="true"/>	<!--	New_takeover?!?	-->
         <import addon="script.module.urlresolver" version="3.0.0"/>
         <import addon="script.module.myconnpy" version="1.1.6" />
         <import addon="script.module.tknorris.shared" version="0.0.19"/>
         <import addon="script.module.six"/>
         <import addon="script.module.dateutil"/>
-        <import addon="script.module.image_cache" version="0.0.1" optional="true"/>
+        <import addon="script.module.image_cache" version="0.0.8" optional="true"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
@@ -18,14 +19,14 @@
         <extension point="xbmc.service" library="service.py" start="startup"/>
     <extension point="xbmc.addon.metadata">
         <summary>Stream video from many difference sources with EPiC SALTs RD Lite (RealDebrid)</summary>
-        <description>This is the MOD version of SALTs by EPiC + Scott Marten (Credits -2- k3l3vra obviously) -4- RealDebrid usage (als a big thx to TKnorris).</description>
-        <disclaimer>MOD info @ http://bit.ly/XvBMC-NL (USE_AT_YOUR_OWN!_RISK!) ---> *C*R*E*D*I*T*S* -2- k3l3vra obviously (and TKnorris also)</disclaimer>
+        <description>This is the MOD version of SALTs by EPiC -4- RealDebrid usage (als a big thx to: TKnorris/k3l3vra/Cypher).</description>
+        <disclaimer>MOD info @ http://bit.ly/XvBMC-NL (USE_AT_YOUR_OWN!_RISK!) ---> *C*R*E*D*I*T*S* TKnorris/k3l3vra/Cypher</disclaimer>
         <platform>all</platform>
         <license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
 		<forum>https://www.facebook.com/groups/XvBMCnederland/</forum>
         <website>repository.xvbmc</website>
         <source>http://bit.ly/XvBMC-NL</source>
-        <news>[B]Version 2.0.196[/B]: Trakt fix</news>
+        <news>[B]Version 2.0.196MR[/B]: Fixed Images Loading</news>
 		<assets>
 		  <icon>icon.png</icon>
 		  <fanart>fanart.jpg</fanart>

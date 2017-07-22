@@ -1,3 +1,6 @@
+v0.5.23
+- added 4 scrapers (thanks to everyone in scraper chat and otherwise involved)
+
 v0.5.22
 - fixed solar
 

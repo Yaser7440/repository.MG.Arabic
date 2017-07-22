@@ -1,4 +1,10 @@
-v2.0.[COLOR ff0084ff]12[/COLOR]krypton
+v2.0.[COLOR ff0084ff]13[/COLOR]
+- Added option to use your own api-keys for all the databases used
+- Added option to patch block-code towards external pulling of add-ons
+- Edited title parameter (to use %26 instead of &)
+- New attempt at fixing double entries for tvshowepisodes
+
+v2.0.[COLOR ff0084ff]12[/COLOR]
 - Added imdb option to parsed-tvshow-add-to-library path
 - Added setting to install custom players
 - Fixed tmdb movie search

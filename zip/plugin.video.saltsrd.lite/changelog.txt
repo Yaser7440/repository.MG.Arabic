@@ -1,3 +1,7 @@
+Version [B]2.0.196MR[/B]
++ All Kudos -2- TKnorris/k3l3vra/Cypher
+! Fixed Images Loading
+
 Version [B]2.0.196[/B]
 + All Kudos -2- k3l3vra/TKnorris
 ! Fixed Trakt
