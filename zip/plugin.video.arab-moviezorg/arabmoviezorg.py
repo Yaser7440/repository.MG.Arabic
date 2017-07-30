@@ -195,7 +195,7 @@ def getmatch(match):
                     server=href.split("/")[2].replace('www.',"").replace("embed.","").split(".")[0]
                     # if 'hqq' in server or "myvi" in server or 'videomeh' in server:
                             # return
-                    addLink('[B][COLOR white][%s][/COLOR][/B]'%server,href,2,'')
+                    addDir('[B][COLOR white][%s][/COLOR][/B]'%server,href,2,'')
 
         
 def get_servers(name,urlmain):
