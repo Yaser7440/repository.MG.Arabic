@@ -175,7 +175,7 @@ fanart="http://mediarepos.net/Repos/smashrepo/repository.streamhub/fanart.jpg"
 adult="no"
 description="Steamhub Repo"
 
-name="[COLOR red][B]M[/B][/COLOR][COLOR red][B]G[/B][/COLOR][COLOR ghostwhite][B].[/B][/COLOR][COLOR dimgray][B]Arabic[/B][/COLOR][COLOR ghostwhite][B]Wizard[/B][/COLOR] [COLOR cyan] [Wizard] [/COLOR]"
+name="[COLOR red][B]M[/B][/COLOR][COLOR red][B]G[/B][/COLOR][COLOR ghostwhite][B].[/B][/COLOR][COLOR dimgray][B]Arabic[/B][/COLOR][COLOR ghostwhite][B]Wizard[/B][/COLOR]"
 plugin="section"
 url="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/plugin.program.MG.AR.wizard/"
 repository="plugin.program.MG.AR.wizard"
