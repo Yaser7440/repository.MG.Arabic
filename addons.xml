@@ -47,7 +47,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.program.MG.AR.wizard" name="MG.Arabic Wizard" version="1.0.8" provider-name="MG.Arabic">
+<addon id="plugin.program.MG.AR.wizard" name="[COLOR red][B]M[/B][/COLOR][COLOR red][B]G[/B][/COLOR][COLOR ghostwhite][B].[/B][/COLOR][COLOR dimgray][B]Arabic[/B][/COLOR][COLOR ghostwhite][B]Wizard[/B][/COLOR]" version="1.0.9" provider-name="MG.Arabic">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -2263,8 +2263,8 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 
 <addon id="script.module.metahandler" 
      name="metahandler" 
-     version="3.0.0" 
-     provider-name="eldorado, jsergio">
+     version="3.0.1" 
+     provider-name="Eldorado, jsergio">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
     <import addon="script.module.simplejson" version="3.3.0"/>
@@ -2279,6 +2279,8 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
     <language></language>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum></forum>
+    <website></website>
     <email></email>
     <source></source>
   </extension>
