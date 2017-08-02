@@ -196,7 +196,7 @@ fanart="https://"
 adult="no"
 description="ArabClassic"
 
-name="ArabCollection [COLOR cyan] [VIDEO ADDON] [/COLOR]"
+name="ArabCollection [COLOR cyan] [VIDEO ADDON] [/COLOR] [COLOR red] [Out Of Service] [/COLOR]"
 plugin="plugin.video.arabCollection"
 url="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/plugin.video.arabCollection/"
 repository="repository.MG.Arabic"
@@ -218,7 +218,7 @@ fanart="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/
 adult="no"
 description="ArabHd"
 
-name="Arabic-VOD [COLOR cyan] [VIDEO ADDON] [/COLOR]"
+name="Arabic-VOD [COLOR cyan] [VIDEO ADDON] [/COLOR] [COLOR red] [Out Of Service] [/COLOR]"
 plugin="plugin.video.Arabic-VOD"
 url="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/plugin.video.Arabic-VOD/"
 repository="repository.MG.Arabic"
@@ -229,7 +229,7 @@ fanart="https://"
 adult="no"
 description="Arabic-VOD"
 
-name="Arabic-VOD2 [COLOR cyan] [VIDEO ADDON] [/COLOR]"
+name="Arabic-VOD2 [COLOR cyan] [VIDEO ADDON] [/COLOR] [COLOR red] [Out Of Service] [/COLOR]"
 plugin="plugin.video.Arabic-VOD2"
 url="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/plugin.video.Arabic-VOD2/"
 repository="repository.MG.Arabic"
@@ -284,7 +284,7 @@ fanart="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/
 adult="no"
 description="ArbCinema"
 
-name="Ashams [COLOR cyan] [VIDEO ADDON] [/COLOR]"
+name="Ashams [COLOR cyan] [VIDEO ADDON] [/COLOR] [COLOR red] [Out Of Service] [/COLOR]"
 plugin="plugin.video.ashams"
 url="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/plugin.video.ashams/"
 repository="repository.MG.Arabic"
@@ -295,7 +295,7 @@ fanart="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/
 adult="no"
 description="Ashams"
 
-name="Bokra [COLOR cyan] [VIDEO ADDON] [/COLOR]"
+name="Bokra [COLOR cyan] [VIDEO ADDON] [/COLOR] [COLOR red] [Out Of Service] [/COLOR]"
 plugin="plugin.video.bokra"
 url="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/plugin.video.bokra/"
 repository="repository.MG.Arabic"
@@ -317,7 +317,7 @@ fanart="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/
 adult="no"
 description="CimaClub"
 
-name="CimaMix [COLOR cyan] [VIDEO ADDON] [/COLOR]"
+name="CimaMix [COLOR cyan] [VIDEO ADDON] [/COLOR] [COLOR red] [Out Of Service] [/COLOR]"
 plugin="plugin.video.cimamix"
 url="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/plugin.video.cimamix/"
 repository="repository.MG.Arabic"
@@ -339,7 +339,7 @@ fanart="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/
 adult="no"
 description="CinemaLek"
 
-name="City4Online [COLOR cyan] [VIDEO ADDON] [/COLOR]"
+name="City4Online [COLOR cyan] [VIDEO ADDON] [/COLOR] [COLOR red] [Out Of Service] [/COLOR]"
 plugin="plugin.video.city4online"
 url="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/plugin.video.city4online/"
 repository="repository.MG.Arabic"
@@ -350,7 +350,7 @@ fanart="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/
 adult="no"
 description="City4Online"
 
-name="Drama2 [COLOR cyan] [VIDEO ADDON] [/COLOR]"
+name="Drama2 [COLOR cyan] [VIDEO ADDON] [/COLOR] [COLOR red] [Out Of Service] [/COLOR]"
 plugin="plugin.video.drama2"
 url="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/plugin.video.drama2/"
 repository="repository.MG.Arabic"
@@ -361,7 +361,7 @@ fanart="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/
 adult="no"
 description="Drama2"
 
-name="Dramacafe [COLOR cyan] [VIDEO ADDON] [/COLOR]"
+name="Dramacafe [COLOR cyan] [VIDEO ADDON] [/COLOR] [COLOR red] [Out Of Service] [/COLOR]"
 plugin="plugin.video.dramacafe"
 url="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/plugin.video.dramacafe/"
 repository="repository.MG.Arabic"
@@ -403,7 +403,7 @@ repositoryurl="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/
 icon="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/plugin.video.EmKalthoum/icon.png"
 fanart="https://"
 adult="no"
-description="EmKalthoum"
+description="EmKalthoum [COLOR red] [Out Of Service] [/COLOR]"
 
 name="farfesh [COLOR cyan] [VIDEO ADDON] [/COLOR]"
 plugin="plugin.video.farfesh"
@@ -427,7 +427,7 @@ fanart="https://"
 adult="no"
 description="FaselHd"
 
-name="FoxEyg [COLOR cyan] [VIDEO ADDON] [/COLOR]"
+name="FoxEyg [COLOR cyan] [VIDEO ADDON] [/COLOR] [COLOR red] [Out Of Service] [/COLOR]"
 plugin="plugin.video.foxeyg"
 url="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/plugin.video.foxeyg/"
 repository="repository.MG.Arabic"
@@ -471,7 +471,7 @@ fanart="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/
 adult="no"
 description="Htshof"
 
-name="Islambehery [COLOR cyan] [VIDEO ADDON] [/COLOR]"
+name="Islambehery [COLOR cyan] [VIDEO ADDON] [/COLOR] [COLOR red] [Out Of Service] [/COLOR]"
 plugin="plugin.video.islambehery"
 url="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/plugin.video.islambehery/"
 repository="repository.MG.Arabic"
@@ -482,7 +482,7 @@ fanart="https://"
 adult="no"
 description="Islambehery"
 
-name="LaYoumal [COLOR cyan] [VIDEO ADDON] [/COLOR]"
+name="LaYoumal [COLOR cyan] [VIDEO ADDON] [/COLOR] [COLOR red] [Out Of Service] [/COLOR]"
 plugin="plugin.video.LaYoumal"
 url="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/plugin.video.LaYoumal/"
 repository="repository.MG.Arabic"
@@ -493,7 +493,7 @@ fanart="https://"
 adult="no"
 description="LaYoumal"
 
-name="MovizCinma [COLOR cyan] [VIDEO ADDON] [/COLOR]"
+name="MovizCinma [COLOR cyan] [VIDEO ADDON] [/COLOR] [COLOR red] [Out Of Service] [/COLOR]"
 plugin="plugin.video.movizcinma"
 url="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/plugin.video.movizcinma/"
 repository="repository.MG.Arabic"
@@ -515,7 +515,7 @@ fanart="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/
 adult="no"
 description="MovizLand"
 
-name="MyTuun [COLOR cyan] [VIDEO ADDON] [/COLOR]"
+name="MyTuun [COLOR cyan] [VIDEO ADDON] [/COLOR] [COLOR red] [Out Of Service] [/COLOR]"
 plugin="plugin.video.mytuun"
 url="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/plugin.video.mytuun/"
 repository="repository.MG.Arabic"
@@ -526,7 +526,7 @@ fanart="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/
 adult="no"
 description="MyTuun"
 
-name="Panet [COLOR cyan] [VIDEO ADDON] [/COLOR]"
+name="Panet [COLOR cyan] [VIDEO ADDON] [/COLOR] [COLOR red] [Out Of Service] [/COLOR]"
 plugin="plugin.video.panet"
 url="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/plugin.video.panet/"
 repository="repository.MG.Arabic"
@@ -537,7 +537,7 @@ fanart="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/
 adult="no"
 description="Panet"
 
-name="PanetTv [COLOR cyan] [VIDEO ADDON] [/COLOR]"
+name="PanetTv [COLOR cyan] [VIDEO ADDON] [/COLOR] [COLOR red] [Out Of Service] [/COLOR]"
 plugin="plugin.video.panettv"
 url="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/plugin.video.panettv/"
 repository="repository.MG.Arabic"
@@ -548,7 +548,7 @@ fanart="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/
 adult="no"
 description="PanetTv"
 
-name="Series4Watch [COLOR cyan] [VIDEO ADDON] [/COLOR]"
+name="Series4Watch [COLOR cyan] [VIDEO ADDON] [/COLOR] [COLOR red] [Out Of Service] [/COLOR]"
 plugin="plugin.video.series4watch"
 url="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/plugin.video.series4watch/"
 repository="repository.MG.Arabic"
@@ -592,7 +592,7 @@ fanart="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/
 adult="no"
 description="ShahidMbcNet"
 
-name="Shayef [COLOR cyan] [VIDEO ADDON] [/COLOR]"
+name="Shayef [COLOR cyan] [VIDEO ADDON] [/COLOR] [COLOR red] [Out Of Service] [/COLOR]"
 plugin="plugin.video.shayef"
 url="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/plugin.video.shayef/"
 repository="repository.MG.Arabic"
@@ -603,7 +603,7 @@ fanart="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/
 adult="no"
 description="Shayef"
 
-name="ShofOnline [COLOR cyan] [VIDEO ADDON] [/COLOR]"
+name="ShofOnline [COLOR cyan] [VIDEO ADDON] [/COLOR] [COLOR red] [Out Of Service] [/COLOR]"
 plugin="plugin.video.shofonline"
 url="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/plugin.video.shofonline/"
 repository="repository.MG.Arabic"
@@ -625,7 +625,7 @@ fanart="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/
 adult="no"
 description="ShowsCen"
 
-name="Sklns [COLOR cyan] [VIDEO ADDON] [/COLOR]"
+name="Sklns [COLOR cyan] [VIDEO ADDON] [/COLOR] [COLOR red] [Out Of Service] [/COLOR]"
 plugin="plugin.video.sklns"
 url="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/plugin.video.sklns/"
 repository="repository.MG.Arabic"
@@ -636,7 +636,7 @@ fanart="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/
 adult="no"
 description="Sklns"
 
-name="Sonara [COLOR cyan] [VIDEO ADDON] [/COLOR]"
+name="Sonara [COLOR cyan] [VIDEO ADDON] [/COLOR] [COLOR red] [Out Of Service] [/COLOR]"
 plugin="plugin.video.sonara"
 url="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/plugin.video.sonara/"
 repository="repository.MG.Arabic"
@@ -647,7 +647,7 @@ fanart="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/
 adult="no"
 description="Sonara"
 
-name="Sotwesoorahd.Tv [COLOR cyan] [VIDEO ADDON] [/COLOR]"
+name="Sotwesoorahd.Tv [COLOR cyan] [VIDEO ADDON] [/COLOR] [COLOR red] [Out Of Service] [/COLOR]"
 plugin="plugin.video.sotwesoorahd.tv"
 url="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/plugin.video.sotwesoorahd.tv/"
 repository="repository.MG.Arabic"
@@ -680,7 +680,7 @@ fanart="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/
 adult="no"
 description="TeledUnet"
 
-name="SumerOnline [COLOR cyan] [VIDEO ADDON] [/COLOR]"
+name="SumerOnline [COLOR cyan] [VIDEO ADDON] [/COLOR] [COLOR red] [Out Of Service] [/COLOR]"
 plugin="plugin.video.sumeronline"
 url="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/plugin.video.sumeronline/"
 repository="repository.MG.Arabic"
@@ -691,7 +691,7 @@ fanart="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/
 adult="no"
 description="SumerOnline"
 
-name="TellyMov [COLOR cyan] [VIDEO ADDON] [/COLOR]"
+name="TellyMov [COLOR cyan] [VIDEO ADDON] [/COLOR] [COLOR red] [Out Of Service] [/COLOR]"
 plugin="plugin.video.tellymov"
 url="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/plugin.video.tellymov/"
 repository="repository.MG.Arabic"
@@ -702,7 +702,7 @@ fanart="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/
 adult="no"
 description="TellyMov"
 
-name="TopArabe [COLOR cyan] [VIDEO ADDON] [/COLOR]"
+name="TopArabe [COLOR cyan] [VIDEO ADDON] [/COLOR] [COLOR red] [Out Of Service] [/COLOR]"
 plugin="plugin.video.toparabe"
 url="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/plugin.video.toparabe/"
 repository="repository.MG.Arabic"
@@ -713,7 +713,7 @@ fanart="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/
 adult="no"
 description="TopArabe"
 
-name="TopVideos [COLOR cyan] [VIDEO ADDON] [/COLOR]"
+name="TopVideos [COLOR cyan] [VIDEO ADDON] [/COLOR] [COLOR red] [Out Of Service] [/COLOR]"
 plugin="plugin.video.topvideos"
 url="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/plugin.video.topvideos/"
 repository="repository.MG.Arabic"
