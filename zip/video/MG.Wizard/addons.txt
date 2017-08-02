@@ -9,7 +9,7 @@ fanart="https://"
 adult="no"
 description=" "
 
-name="Arabic Addons"
+name="[COLOR cyan]Arabic Addons[/COLOR]"
 plugin="section"
 url="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/video/MG.Wizard/arabicaddons.txt"
 repository="none"

@@ -20,7 +20,7 @@ fanart="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/
 adult="no"
 description="3lbh.Net"
 
-name="3sktv [COLOR cyan] [VIDEO ADDON] [/COLOR]"
+name="3sktv [COLOR cyan] [VIDEO ADDON] [/COLOR] [COLOR red] [Out Of Service] [/COLOR]"
 plugin="plugin.video.3sktv"
 url="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/plugin.video.3sktv/"
 repository="repository.MG.Arabic"
@@ -31,7 +31,7 @@ fanart="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/
 adult="no"
 description="3sktv"
 
-name="4arabz [COLOR cyan] [VIDEO ADDON] [/COLOR]"
+name="4arabz [COLOR cyan] [VIDEO ADDON] [/COLOR] [COLOR red] [Out Of Service] [/COLOR]"
 plugin="plugin.video.4arabz"
 url="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/plugin.video.4arabz/"
 repository="repository.MG.Arabic"
@@ -42,7 +42,7 @@ fanart="https://"
 adult="no"
 description="4arabz"
 
-name="AdnanIbrahim [COLOR cyan] [VIDEO ADDON] [/COLOR]"
+name="AdnanIbrahim [COLOR cyan] [VIDEO ADDON] [/COLOR] [COLOR red] [Out Of Service] [/COLOR]"
 plugin="plugin.video.adnanIbrahim"
 url="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/plugin.video.adnanIbrahim/"
 repository="repository.MG.Arabic"
@@ -53,7 +53,7 @@ fanart="http://"
 adult="no"
 description="AdnanIbrahim"
 
-name="Aflam4all [COLOR cyan] [VIDEO ADDON] [/COLOR]"
+name="Aflam4all [COLOR cyan] [VIDEO ADDON] [/COLOR] [COLOR red] [Out Of Service] [/COLOR]"
 plugin="plugin.video.aflam4all"
 url="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/plugin.video.aflam4all/"
 repository="repository.MG.Arabic"
@@ -75,7 +75,7 @@ fanart="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/
 adult="no"
 description="Aflamy"
 
-name="Akoam [COLOR cyan] [VIDEO ADDON] [/COLOR]"
+name="Akoam [COLOR cyan] [VIDEO ADDON] [/COLOR] [COLOR red] [Out Of Service] [/COLOR]"
 plugin="plugin.video.akoam"
 url="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/plugin.video.akoam/"
 repository="repository.MG.Arabic"
@@ -86,7 +86,7 @@ fanart="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/
 adult="no"
 description="Akoam"
 
-name="Alarab [COLOR cyan] [VIDEO ADDON] [/COLOR]"
+name="Alarab [COLOR cyan] [VIDEO ADDON] [/COLOR] [COLOR red] [Out Of Service] [/COLOR]"
 plugin="plugin.video.alarab"
 url="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/plugin.video.alarab/"
 repository="repository.MG.Arabic"
@@ -97,7 +97,7 @@ fanart="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/
 adult="no"
 description="Alarab"
 
-name="Albernameg [COLOR cyan] [VIDEO ADDON] [/COLOR]"
+name="Albernameg [COLOR cyan] [VIDEO ADDON] [/COLOR] [COLOR red] [Out Of Service] [/COLOR]"
 plugin="plugin.video.albernameg"
 url="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/plugin.video.albernameg/"
 repository="repository.MG.Arabic"
@@ -108,7 +108,7 @@ fanart="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/
 adult="no"
 description="Albernameg"
 
-name="Alfajertv [COLOR cyan] [VIDEO ADDON] [/COLOR]"
+name="Alfajertv [COLOR cyan] [VIDEO ADDON] [/COLOR] [COLOR red] [Out Of Service] [/COLOR]"
 plugin="plugin.video.alfajertv"
 url="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/plugin.video.alfajertv/"
 repository="repository.MG.Arabic"
@@ -119,7 +119,7 @@ fanart="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/
 adult="no"
 description="Alfajertv"
 
-name="Aljazeerachannel [COLOR cyan] [VIDEO ADDON] [/COLOR]"
+name="Aljazeerachannel [COLOR cyan] [VIDEO ADDON] [/COLOR] [COLOR red] [Out Of Service] [/COLOR]"
 plugin="plugin.video.aljazeerachannel"
 url="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/plugin.video.aljazeerachannel/"
 repository="repository.MG.Arabic"
@@ -130,7 +130,7 @@ fanart="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/
 adult="no"
 description="Aljazeerachannel"
 
-name="Alqaheraalyoum [COLOR cyan] [VIDEO ADDON] [/COLOR]"
+name="Alqaheraalyoum [COLOR cyan] [VIDEO ADDON] [/COLOR] [COLOR red] [Out Of Service] [/COLOR]"
 plugin="plugin.video.alqaheraalyoum"
 url="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/plugin.video.alqaheraalyoum/"
 repository="repository.MG.Arabic"
@@ -141,7 +141,7 @@ fanart="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/
 adult="no"
 description="Alqaheraalyoum"
 
-name="Alqudseyes [COLOR cyan] [VIDEO ADDON] [/COLOR]"
+name="Alqudseyes [COLOR cyan] [VIDEO ADDON] [/COLOR] [COLOR red] [Out Of Service] [/COLOR]"
 plugin="plugin.video.alqudseyes"
 url="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/plugin.video.alqudseyes/"
 repository="repository.MG.Arabic"
@@ -152,7 +152,7 @@ fanart="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/
 adult="no"
 description="Alqudseyes"
 
-name="Alshahed.Tv [COLOR cyan] [VIDEO ADDON] [/COLOR]"
+name="Alshahed.Tv [COLOR cyan] [VIDEO ADDON] [/COLOR] [COLOR red] [Out Of Service] [/COLOR]"
 plugin="plugin.video.alshahed.tv"
 url="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/plugin.video.alshahed.tv/"
 repository="repository.MG.Arabic"
@@ -174,7 +174,7 @@ fanart="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/
 adult="no"
 description="Anakbnet"
 
-name="AndrerieuII [COLOR cyan] [VIDEO ADDON] [/COLOR]"
+name="AndrerieuII [COLOR cyan] [VIDEO ADDON] [/COLOR] [COLOR red] [Out Of Service] [/COLOR]"
 plugin="plugin.video.andrerieuII"
 url="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/plugin.video.andrerieuII/"
 repository="repository.MG.Arabic"
@@ -185,7 +185,7 @@ fanart="https://"
 adult="no"
 description="AndrerieuII"
 
-name="ArabClassic [COLOR cyan] [VIDEO ADDON] [/COLOR]"
+name="ArabClassic [COLOR cyan] [VIDEO ADDON] [/COLOR] [COLOR red] [Out Of Service] [/COLOR]"
 plugin="plugin.video.arabclassic"
 url="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/plugin.video.arabclassic/"
 repository="repository.MG.Arabic"
