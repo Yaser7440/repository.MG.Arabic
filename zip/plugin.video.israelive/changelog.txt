@@ -1,3 +1,5 @@
+[B]v5.0.9[/B]
+- Better support of playing plugins links.
 [B]v5.0.8[/B]
 - Support differents guide-name and channel-name.
 [B]v5.0.7[/B]

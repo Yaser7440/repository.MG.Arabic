@@ -743,7 +743,7 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
   </extension>
 </addon>
 
-<addon id="plugin.video.salts" version="2.0.200" name="Stream All The Sources" provider-name="k3l3vra">
+<addon id="plugin.video.salts" version="2.0.203" name="Stream All The Sources" provider-name="k3l3vra, Movie/TVShow Images Fixed By Smash">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
@@ -757,7 +757,7 @@ Turns your XBMC into an instant free on-demand media-center. Stream and download
     </extension>
      <extension point="xbmc.service" library="service.py" start="startup"/>
     <extension point="xbmc.addon.metadata">
-        <summary>Last Version Made From The TVA Guys</summary>
+        <summary>Last Version Made From The TVA Guys, movie/tvshow images fixed by smash</summary>
         <description>Last Version Made From The TVA Guys, trying to fix the install fail probs some are getting        
         </description>
         <platform>all</platform>
@@ -1380,21 +1380,39 @@ v5.2.14 (2017-01-23)
     </extension>
 </addon>
 
-<addon id="repository.eldorado" name="Eldorado's XBMC Addons" version="2.0.2" provider-name="eldorado">
+<addon id="repository.eldorado" name="Eldorado's XBMC Addons" version="2.1.0" provider-name="eldorado">
 	<extension point="xbmc.addon.repository" name="Eldorado's XBMC Addon Repository">
 		<info compressed="false">http://raw.github.com/Eldorados/eldorado-xbmc-addons/master/addons.xml</info>
 		<checksum>http://raw.github.com/Eldorados/eldorado-xbmc-addons/master/addons.xml.md5</checksum>
 		<datadir zip="true">http://raw.github.com/Eldorados/eldorado-xbmc-addons/master/repo/</datadir>
-		<dir>
-			<info compressed="false">https://offshoregit.com/Eldorado/xbmc-addons/raw/master/addons.xml</info>
-			<checksum>https://offshoregit.com/Eldorado/xbmc-addons/raw/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://offshoregit.com/Eldorado/xbmc-addons/raw/master/repo/</datadir>
-		</dir>        
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Install Eldorado's Addons</summary>
-		<forum>http://forums.tvaddons.ag/forums/23-ELDORADO-S-XBMC-ADDONS</forum>
+		<forum>http://tvaddons.co/forums</forum>
 		<description>Download and install addons by Eldorado</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.Goliath" name="Goliaths Add-ons repository" version="1.4" provider-name="Goliath">
+	<extension point="xbmc.addon.repository" name="Goliaths Repository">
+	<dir>
+        <info compressed="false">https://github.com/zqfaen/tva-common/raw/master/addons.xml</info>
+        <checksum>https://github.com/zqfaen/tva-common/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/zqfaen/tva-common/raw/master/zips/</datadir>
+	</dir>
+	<dir>
+		<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
+	</dir>
+		<info compressed="false">https://raw.githubusercontent.com/Goliath-Evolve/repository.Goliath/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/Goliath-Evolve/repository.Goliath/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/Goliath-Evolve/repository.Goliath/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Home of Goliaths Addons</summary>
+		<description>Download and install all unofficial Add-ons from Goliath</description>
 		<platform>all</platform>
 	</extension>
 </addon>
@@ -1480,26 +1498,29 @@ Addons Included
     </extension>
 </addon>
 
-<addon id="repository.xbmchub" name="TVADDONS.AG Add-on Repository" version="1.0.7" provider-name="tvaddons.ag">
-	<extension point="xbmc.addon.repository" name="TVADDONS.AG Add-on Repository">
+<addon id="repository.xbmchub" name="TVADDONS.CO Add-on Repository" version="3.0.0" provider-name="tvaddons">
+	<extension point="xbmc.addon.repository" name="TVADDONS.CO Add-on Repository">
 	<dir>
-		<info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
-		<checksum>https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/</datadir>
+		<info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
+		<checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
 	</dir>
-		<info compressed="false">https://offshoregit.com/xbmchub/xbmc-hub-repo/raw/master/addons.xml</info>
-		<checksum>https://offshoregit.com/xbmchub/xbmc-hub-repo/raw/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://offshoregit.com/xbmchub/xbmc-hub-repo/raw/master/</datadir>
+
+    <dir>
+		<info compressed="false">https://github.com/tvaddonsco/tva-release-repo/raw/master/addons.xml</info>
+		<checksum>https://github.com/tvaddonsco/tva-release-repo/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/tvaddonsco/tva-release-repo/raw/master/</datadir>
+    </dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary>Unofficial Kodi Addons from TVADDONS.AG</summary>
-		<description>Download and install unofficial Kodi add-ons from the TVADDONS.AG add-on repository. Please visit www.tvaddons.ag for addon support.
+		<summary>Unofficial Kodi Addons from TVADDONS.CO</summary>
+		<description>Unofficial Kodi Addons from the TVADDONS.CO Add-on Repository. Please visit www.tvaddons.co for support!
                       
 Kodi is a registered trademark of the XBMC Foundation. We are not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</description>
-         <disclaimer>TVADDONS.AG did not make all the add-ons in this repository and is not responsible for their content.</disclaimer>
+         <disclaimer>TVADDONS.CO did not make all the add-ons in this repository and is not responsible for their content.</disclaimer>
 		<platform>all</platform>
-                <forum>https://forums.tvaddons.ag</forum>
-                <website>https://www.tvaddons.ag</website>
+                <forum>https://www.tvaddons.co/forums</forum>
+                <website>https://www.tvaddons.co</website>
 	</extension>
 </addon>
 
@@ -2650,7 +2671,7 @@ http://informaticglobalworld.altervista.org/</description>
   </extension>
 </addon>
 
-<addon id="script.module.dudehere.routines" name="DudeHere Common Routines" provider-name="DudeHere" version="0.7.11">
+<addon id="script.module.dudehere.routines" name="APEP Common Routines" provider-name="APEP" version="0.7.12">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.beautifulsoup"/>
@@ -2668,8 +2689,8 @@ http://informaticglobalworld.altervista.org/</description>
         <language/>
         <platform>all</platform>
         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-        <forum>http://forums.tvaddons.ag/dudehere-addons/</forum>
-        <website>http://www.tvaddons.ag/</website>
+        <forum></forum>
+        <website></website>
     </extension>
 </addon>
 
@@ -3543,7 +3564,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="plugin.video.israelive" name="GlobeTV" version="5.0.8" provider-name="Benny123, Avigdor">
+<addon id="plugin.video.israelive" name="GlobeTV" version="5.0.9" provider-name="Benny123, Avigdor">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="repository.xbmc-avigdork" />
@@ -3563,12 +3584,14 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="script.module.israeliveresolver" name="IsraeLiveResolver" version="0.3.1" provider-name="Avigdor (xbmc-israel repo)">
+<addon id="script.module.israeliveresolver" name="GlobeTVresolver" version="0.3.5" provider-name="Avigdor">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
-	<!-- <import addon="repository.xbmc-israel" /> -->
+	<import addon="repository.xbmc-avigdork" />
   </requires>
   <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.python.pluginsource" library="lib/default.py" />
+  <extension point="xbmc.service" library="lib/service.py" start="[login|startup]"/>
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
     <summary lang="en">Resolve dynamic URL's to be playable in XBMC/Kodi.</summary>
@@ -5261,7 +5284,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="plugin.video.metalliq" name="MetalliQ" version="2.0.13krypton" provider-name="OpenELEQ, Midraal">
+<addon id="plugin.video.metalliq" name="MetalliQ" version="2.0.15krypton" provider-name="OpenELEQ, Midraal">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 		<import addon="repository.q" version="0.0.0.1"/>
@@ -5321,7 +5344,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 		<forum>http://www.noobsandnerds.com/support/showthread.php?tid=17118</forum>
 		<source>https://github.com/OpenELEQ/repository.q/tree/master/zips/plugin.video.metalliq/</source>
 		<email>OpenELEQ@gmail.com</email>
-		<news>Added imdb option to parsed-tvshow-add-to-library path / Added setting to install custom players / Fixed tmdb movie search</news>
+		<news>Fixed duration error on non-default version of kodi</news>
 	</extension>
 </addon>
 
@@ -5456,20 +5479,18 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 
 <addon
   id="plugin.video.SportsDevil"
-  version="2017.07.16.NL0715"
+  version="2017.07.22"
   name="SportsDevil"
-  provider-name="MaxMustermann, Al101, Hubbab3, Jairox, Sattekop">
+  provider-name="SportsDevil">
   <requires>
    <import addon="xbmc.python" version="2.14.0"/>
-   <import addon="repository.xvbmc" version="4.0.2"/>
    <import addon="script.module.dateutil" />
    <import addon="script.module.simplejson" />
    <import addon="script.module.six" />
    <import addon="script.module.requests" />
    <import addon="script.module.livestreamer" />
-   <!-- <import addon="script.video.F4mProxy" />
-   <import addon="plugin.video.f4mTester" /> -->
-   <!-- *broken* <import addon="repository.unofficialsportsdevil" version="1.0.0" optional="true"/> *broken* -->
+   <!--<import addon="script.video.F4mProxy" />
+   <import addon="plugin.video.f4mTester" />-->
   </requires>
   <extension 
     point="xbmc.python.pluginsource"
@@ -5478,24 +5499,15 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
   <extension point="xbmc.service" library="service/proxy_service.py" start="startup" />
   <extension point="xbmc.addon.metadata">
-    <summary>Play videos of different ad-financed sports streaming sites (XvBMC acts only as a mirror).</summary>
+    <summary>Play videos of different ad-financed sports streaming sites</summary>
     <description>Play videos of different ad-financed sports streaming sites.
     
-SportsDevil does not provide any streams of its own; stream quality, content and copyright are responsibility of the ad-financed source web site (XvBMC acts only as a mirror).
+SportsDevil does not provide any streams of its own; stream quality, content and copyright are responsibility of the ad-financed source web site.
     
 For updates check the readme.
     </description>
-    <disclaimer>SportsDevil does not provide any streams of its own; stream quality, content and copyright are responsibility of the ad-financed source web site (XvBMC acts only as a mirror).</disclaimer>
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
     <platform>all</platform>
-    <forum>http://forums.koditips.com/index.php?topic=11.0</forum>
-    <website>http://forums.koditips.com/index.php?topic=11.0</website>
-    <source>http://forums.koditips.com/index.php?topic=11.0</source>
-    <news>Sportsdevil (build_20170630NL) mirror@xvbmc</news>
-  <assets>
-    <icon>icon.png</icon>
-    <fanart>fanart.jpg</fanart>
-  </assets>
   </extension>
 </addon>
 
@@ -6970,7 +6982,7 @@ For updates check the readme.
 	</extension>
 </addon>
 
-<addon id="plugin.video.bobbycart" name="Bobbys Cartoons" version="1.0.8" provider-name="Dandymedia">
+<addon id="plugin.video.bobbycart" name="Bobbys Cartoons" version="1.1.0" provider-name="Dandymedia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.urlresolver"  version="3.0.0"/>
@@ -7318,14 +7330,11 @@ For updates check the readme.
     </extension>
 </addon>
 
-<addon id="repository.goodfellas" name="GoodFellas" version="1.6" provider-name="GoodFellas">
-	<requires>
-		<import addon="repository.gfservers" />
-	</requires>
+<addon id="repository.goodfellas" name="GoodFellas" version="1.6.1" provider-name="GoodFellas">
 	<extension point="xbmc.addon.repository" name="Good Fellas">
-		<info compressed="false">http://www.goodfellasteam.com/Plugins/addons.xml</info>
-		<checksum>http://www.goodfellasteam.com/Plugins/addons.xml.md5</checksum>
-		<datadir zip="true">http://www.goodfellasteam.com/Plugins/</datadir>
+		<info compressed="false">https://raw.githubusercontent.com/goodfellasteam/addonrepo/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/goodfellasteam/addonrepo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/goodfellasteam/addonrepo/master/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Welcome to the GoodFellas Repository where you will find all the Live Tv, Movies, and Documentaries</summary>
@@ -8526,10 +8535,9 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
 	</extension>
 </addon>
 
-<addon id="plugin.video.1080pmovies_gw" name="1080p Movies" version="2.1.4" provider-name="Dandymedia">
+<addon id="plugin.video.1080pmovies_gw" name="1080p Movies" version="2.2.0" provider-name="Dandymedia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.urlresolver"  version="3.0.0"/>
 	<import addon="script.module.addon.common" />
 	<import addon="script.module.requests" />
   </requires>
@@ -8538,7 +8546,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
   </extension>
   <extension point="xbmc.addon.metadata">
 	<summary lang="en">Movies</summary>
-	<description lang="en">[COLOR red][B]This addon source requires a HTTPS compatible device.[CR]Kodi 17 or Elec 16 and above.[/COLOR][/B][CR][CR]Googlelinks with varying resolutions...enjoy.</description>
+	<description lang="en">Direct link TV and Movie with varying resolutions...enjoy.</description>
 	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
 	<platform>all</platform>
   </extension>
@@ -8669,8 +8677,8 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
 
 <addon id="script.module.python.koding.aio"
    name="Python Koding AIO"
-   version="0.9.6.5"
-   provider-name="TotalRevolution, noobsandnerds">
+   version="0.9.6.7"
+   provider-name="Total Revolution, noobsandnerds">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.urlresolver" version="1.2.0"/>
@@ -8686,7 +8694,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
     <license>Creative Commons 4.0-NC-ND</license>
     <forum>http://noobsandnerds.com/support/showthread.php?tid=17614</forum>
     <website>http://totalrevolution.tv</website>
-    <news>Added Highest_Version and Requirements function</news>
+    <news>Added new Custom_Dialog function for a fully customisable text dialog with multiple buttons</news>
     <source>https://github.com/totalrevolution/totalrevolution/tree/master/script.module.python.koding.aio</source>
   </extension>  
 </addon>
@@ -9017,15 +9025,28 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
 	</extension>
 </addon>
 
-<addon id="repository.tva.common" name="TVADDONS.ag Libraries Repository" version="1.0.3" provider-name="tvaddons.ag">
-    <extension point="xbmc.addon.repository" name="TVADDONS.ag Libraries Repository">
-        <info compressed="false">https://github.com/lewblack125/tva-common/raw/master/addons.xml</info>
-        <checksum>https://github.com/lewblack125/tva-common/raw/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://github.com/lewblack125/tva-common/raw/master/zips/</datadir>
+<addon id="repository.xbmc-avigdork" name="Avigdor's Kodi Repository" version="1.0.4" provider-name="Avigdor">
+    <extension point="xbmc.addon.repository" name="Avigdor's Kodi Repository">
+        <info compressed="false">https://github.com/avigdork/xbmc-avigdork/raw/master/addons.xml</info>
+        <checksum>https://github.com/avigdork/xbmc-avigdork/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/avigdork/xbmc-avigdork/raw/master/repo</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>Faster Updating of Common Libraries for Kodi</summary>
-        <description>This repository contains intermediate builds of libraries commonly used by TVAddons Kodi addons, Brought to you by TVADDONS.ag</description>
+        <summary>Avigdor's Kodi Repository</summary>
+        <description>Download and install addons for Kodi by Avigdor</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="repository.tva.common" name="TVADDONS.CO Resolvers Repository" version="2.0.0" provider-name="tvaddons">
+    <extension point="xbmc.addon.repository" name="TVADDONS.CO Resolvers Repository">
+        <info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
+        <checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Unofficial Resolvers for the Kodi Media Center</summary>
+        <description>Unofficial Resolvers for the Kodi Media Center. Please visit www.tvaddons.co for support!</description>
         <platform>all</platform>
     </extension>
 </addon>
@@ -9314,6 +9335,28 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
         <description></description>
         <platform>all</platform>
     </extension>
+</addon>
+
+<addon id="plugin.video.picasso" name="[B][COLOR cyan]PICASSO[/COLOR][/B]" version="1.0.1" provider-name="Goliath/Slim">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.simplejson" version="0.0.1"/>
+    <import addon="script.module.urlresolver"  version="0.0.1"/>
+    <import addon="script.module.liveresolver" version="0.0.1"/>
+    <import addon="script.module.nanscrapers" version="0.5"/>
+    <import addon="script.common.plugin.cache" version="0.0.1"/>
+    <import addon="script.module.metahandler" version="0.0.1"/>
+    <import addon="plugin.video.youtube" optional="true" />
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Picaso Addon</summary>
+    <description lang="en">I would like to thank @4yoursak for art work on this work of art!</description>
+    <platform>all</platform>
+  </extension>
 </addon>
 
 </addons>

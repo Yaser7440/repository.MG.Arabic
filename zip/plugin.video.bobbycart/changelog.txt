@@ -10,3 +10,7 @@ v1.0.7
 Changed art and layout, cleaned code
 v1.0.8
 Changed resolver (temp I hope)
+v1.0.9
+Added Meta
+v1.1.0
+Removed Meta

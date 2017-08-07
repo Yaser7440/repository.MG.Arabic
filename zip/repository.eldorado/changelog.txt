@@ -1,3 +1,6 @@
+[B]Version 2.1.0[/B]
+- Updated repo locations
+
 [B]Version 2.0.2[/B]
 - Changed github repo location to use http://raw.github.com instead of https
 

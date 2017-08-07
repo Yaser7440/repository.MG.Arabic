@@ -1,3 +1,11 @@
+v2.0.[COLOR ff0084ff]15[/COLOR]
+- Fixed duration error on non-default version of kodi
+
+v2.0.[COLOR ff0084ff]14[/COLOR]
+- Fixed Trakt list error
+- Fixed duration on isengard and up
+- Fixed TVShows Trakt played-section
+
 v2.0.[COLOR ff0084ff]13[/COLOR]
 - Added option to use your own api-keys for all the databases used
 - Added option to patch block-code towards external pulling of add-ons

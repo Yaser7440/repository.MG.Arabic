@@ -1,3 +1,12 @@
+v.0.9.6.7:
+- New Custom_Dialog function allowing for multiple buttons and custom size dialogs
+- Add_Dir now automatically converts dictionary items for multiple urls
+
+v.0.9.6.6:
+- Allow for metadata to be passed through to Play_Video (as a dictionary)
+- Fixed typo in Play_Video when sending through an item param
+- Added some missing functions in README.
+
 v.0.9.6.5:
 - Fixed Check_Repos, was a bug if scanning full paths
 
