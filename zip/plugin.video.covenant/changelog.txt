@@ -1,11 +1,17 @@
+[B]1.1.5[/B]
+- Dayt update
+- Onseries bug fix
+- Allow users to hide  movies currently in theaters (released within the last 90 days), 
+except in the following sections: Trakt/IMDB Lists, In Theatres, Search
+
 [B]1.1.4[/B]
-- Fixed New Episodes List
+- Kingmovies fix
+- Onmovies update
 
 [B]1.1.3[/B]
 - Pubfilm fix
 - Kingmovies fix
 - Juicy Codes decoder
-- show unaired seasons/episodes 
 
 [B]1.1.2[/B]
 - Trakt workaround in tools for Leia

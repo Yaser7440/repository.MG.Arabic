@@ -1,5 +1,16 @@
-v0.5.23
-- added 4 scrapers (thanks to everyone in scraper chat and otherwise involved)
+v0.5.25
+- added yesmovies
+- added gostream
+- improved m4u
+
+v0.5.24
+- removed broken scrapers
+- added QuickMovies
+- added KingMovies
+- added MovieGrabber
+- added Watchfrees
+- fixed dizi720
+- Thank You to all involved with NaN Scraper Project
 
 v0.5.22
 - fixed solar

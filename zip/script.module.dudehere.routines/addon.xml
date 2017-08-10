@@ -1,4 +1,4 @@
-<?xml version="1.0" ?><addon id="script.module.dudehere.routines" name="APEP Common Routines" provider-name="APEP" version="0.7.12">
+<addon id="script.module.dudehere.routines" name="APEP Common Routines" provider-name="APEP" version="0.7.14">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.beautifulsoup"/>

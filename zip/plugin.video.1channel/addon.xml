@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--suppress ALL -->
-<addon id="plugin.video.1channel" version="2.5.78" name="1Channel" provider-name="k3l3vra">
+<addon id="plugin.video.1channel" version="3.0.00" name="[COLOR lime]1Channel[/COLOR][COLOR white] FIX[/COLOR]" provider-name="apep">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="3.0"/>
@@ -15,12 +13,13 @@
     <extension point="xbmc.service" library="service.py" start="startup">
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>Browse 1channel.ch</summary>
-        <description>Play a wide selection of movies and TV shows from PrimeWire.ag.
-***This addon is supported at [COLOR blue]www.tvaddons.ag[/COLOR], [COLOR white][B]NOT[/B][/COLOR] [COLOR red]xbmc.org[/COLOR]. ***
-        </description>
-        <platform>all</platform>
-        <website>http://tvaddons.ag/</website>
-		<forum>http://forums.tvaddons.ag/forums/32-BSTRDSMKR-S-REPOSITORY</forum>
+		<summary lang="en">Thank You For Installing 1Channel Fix, Remember This Addon Scrapes Nothing Is Hosted, With That Said This Will Be A Fun Journey So Join Us As We Make This Your New Loved Addon</summary>
+		<description lang="en">[COLOR lime][B]Welcome To 1Channel[/B][/COLOR] [CR]Watch movies and TV shows in high quality! [CR]Please note that this addon is not an official part of the Kodi media player</description>
+		<disclaimer lang="en">[COLOR yellow]The author does not host any content, nor is he affiliated with any of the content providers.[/COLOR]</disclaimer>
+		<platform>all</platform>
+		<forum></forum>
+		<website></website>
+		<source></source>
+		<news>This is a Fixed 1Channel</news>
     </extension>
 </addon>

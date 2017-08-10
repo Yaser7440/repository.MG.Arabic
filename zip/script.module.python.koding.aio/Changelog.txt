@@ -1,3 +1,7 @@
+v.0.9.6.8:
+- Added Decode_String function to clean up unicode chars
+- Updated the readme info, had outdated info for Custom_Dialog
+
 v.0.9.6.7:
 - New Custom_Dialog function allowing for multiple buttons and custom size dialogs
 - Add_Dir now automatically converts dictionary items for multiple urls

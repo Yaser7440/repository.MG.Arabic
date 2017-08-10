@@ -1,8 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.icefilms"
-       name="Icefilms (Meta Popup Removed-Fixed By SMASH)"
-       version="1.99.72"
-       provider-name="Eldorado">
+       name="[COLOR cyan] Icefilms[/COLOR] [COLOR white]FIX[/COLOR]"
+       version="1.99.73"
+       provider-name="apep">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.simplejson" version="3.3.0"/>
@@ -20,11 +19,13 @@
         <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary>Stream and download scene releases from the links listed on Icefilms.info</summary>
-        <description>Visit www.tvaddons.ag for support.
-        
-Turns your XBMC into an instant free on-demand media-center. Stream and download to your library DVD and HD720p quality videos. Browse and search the library of over 77,000 videos with metadata and posters. Never experience the frustration of dead video links!</description>
-    </extension>
-	<news>fixed the meta database popup so its gone enjoy</news>
+		<summary lang="en">Thank You For Installing Iceflims Fix, Remember This Addon Scrapes Nothing Is Hosted, With That Said This Will Be A Fun Journey So Join Us As We Make This Your New Loved Addon</summary>
+		<description lang="en">[COLOR lime][B]Welcome To IceFilms[/B][/COLOR] [CR]Watch movies and TV shows in high quality! [CR]Please note that this addon is not an official part of the Kodi media player</description>
+		<disclaimer lang="en">[COLOR yellow]The author does not host any content, nor is he affiliated with any of the content providers.[/COLOR]</disclaimer>
+		<platform>all</platform>
+		<forum></forum>
+		<website></website>
+		<source></source>
+		<news>This is a Fixed Icefilms (before checking it out default settings via settings and hit the default button)</news>
+	</extension>
 </addon>
