@@ -1,3 +1,17 @@
+[B]1.1.8[/B]
+- CF fix (thanks to gujal)
+- added alluc to DE sources
+- new fanart api key
+- deleted hidded option from non password fields in settings.xml
+
+[B]1.1.7[/B]
+- Updated dizigold urls
+- Fixed streamlord
+- Updated and fixed seriesonline
+
+[B]1.1.6[/B]
+- Added alluc provider (thanks to weekendsource)
+
 [B]1.1.5[/B]
 - Dayt update
 - Onseries bug fix

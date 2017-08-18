@@ -1,3 +1,12 @@
+v.0.9.6.9.1:
+- Removed auto resolving of m3u in Play_Video as it was causing bugs in some links
+
+v.0.9.6.9:
+- New M3U_Selector function for playing m3u/m3u8 playlists
+- Added new Parse_XML function
+- Added button colour options for Custom_Dialog function
+- Added midraals new code in check_playback which hopefully should get rid of the dialog appearing on top of playback on some systems.
+
 v.0.9.6.8:
 - Added Decode_String function to clean up unicode chars
 - Updated the readme info, had outdated info for Custom_Dialog

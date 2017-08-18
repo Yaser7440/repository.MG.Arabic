@@ -2536,37 +2536,42 @@ http://informaticglobalworld.altervista.org/</description>
 </extension>
 </addon>
 
-<addon id="repository.noobsandnerds" name="noobsandnerds Repository" version="2.1" provider-name="noobsandnerds">
-	<extension point="xbmc.addon.repository" name="noobsandnerds Repository">
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
-		</dir>
-		<dir>
-	        <info compressed="true">https://github.com/dandy0850/dandymedia/raw/master/addons.xml</info>
-	        <checksum>https://github.com/dandy0850/dandymedia/raw/master/addons.xml.md5</checksum>
-	        <datadir zip="true">https://github.com/dandy0850/dandymedia/raw/master/repo</datadir>
-		</dir>
-		<dir>
-			<info compressed="false">https://github.com/OpenELEQ/repository.elysium/raw/master/elysium.xml</info>
-			<checksum>https://github.com/OpenELEQ/repository.elysium/raw/master/elysium.xml.md5</checksum>
-			<datadir zip="true">https://raw.github.com/OpenELEQ/repository.elysium/master/</datadir>
-		</dir>
-		<dir>
-	        <info compressed="true">https://raw.githubusercontent.com/catchup4kodi/catchup4kodi/master/zips/addons.xml</info>
-	        <checksum>https://raw.githubusercontent.com/catchup4kodi/catchup4kodi/master/zips/addons.xml.md5</checksum>
-	        <datadir zip="true">https://raw.githubusercontent.com/catchup4kodi/catchup4kodi/master/zips/</datadir>
-		</dir>
-		<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/noobsandnerds/master/zips/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/noobsandnerds/noobsandnerds/master/zips/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/noobsandnerds/master/zips/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Home of The Community Portal</summary>
-		<description>Visit www.noobsandnerds.com and become a part of our great family, you get to choose what The Community Portal holds!</description>
-		<platform>all</platform>
-	</extension>
+<addon id="repository.noobsandnerds" name="noobsandnerds Repository" version="2.2" provider-name="noobsandnerds">
+        <extension point="xbmc.addon.repository" name="noobsandnerds Repository">
+                <dir>
+                        <info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
+                        <checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
+                        <datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
+                </dir>
+                <dir>
+                <info compressed="true">https://github.com/dandy0850/dandymedia/raw/master/addons.xml</info>
+                <checksum>https://github.com/dandy0850/dandymedia/raw/master/addons.xml.md5</checksum>
+                <datadir zip="true">https://github.com/dandy0850/dandymedia/raw/master/repo</datadir>
+                </dir>
+                <dir>
+                        <info compressed="false">https://github.com/OpenELEQ/repository.elysium/raw/master/elysium.xml</info>
+                        <checksum>https://github.com/OpenELEQ/repository.elysium/raw/master/elysium.xml.md5</checksum>
+                        <datadir zip="true">https://raw.github.com/OpenELEQ/repository.elysium/master/</datadir>
+                </dir>
+                <dir>
+                <info compressed="true">https://raw.githubusercontent.com/catchup4kodi/catchup4kodi/master/zips/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/catchup4kodi/catchup4kodi/master/zips/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/catchup4kodi/catchup4kodi/master/zips/</datadir>
+                </dir>
+                <dir>
+                        <info compressed="false">https://raw.githubusercontent.com/midraal/repository.midraal/master/zips/addons.xml</info>
+                        <checksum>https://raw.githubusercontent.com/midraal/repository.midraal/master/zips/addons.xml.md5</checksum>
+                        <datadir zip="true">https://raw.github.com/midraal/repository.midraal/master/zips/</datadir>
+                </dir>
+                <info compressed="false">https://raw.githubusercontent.com/noobsandnerds/noobsandnerds/master/zips/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/noobsandnerds/noobsandnerds/master/zips/addons.xml.md5</checksum>
+                <datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/noobsandnerds/master/zips/</datadir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+                <summary>Home of The Community Portal</summary>
+                <description>Visit www.noobsandnerds.com and become a part of our great family, you get to choose what The Community Portal holds!</description>
+                <platform>all</platform>
+        </extension>
 </addon>
 
 <addon id="plugin.video.alluc.api" name="Alluc" provider-name="DudeHere" version="1.2.10">
@@ -8680,7 +8685,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
 
 <addon id="script.module.python.koding.aio"
    name="Python Koding AIO"
-   version="0.9.6.8"
+   version="0.9.6.9.1"
    provider-name="Total Revolution, noobsandnerds">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -8697,7 +8702,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
     <license>Creative Commons 4.0-NC-ND</license>
     <forum>http://noobsandnerds.com/support/showthread.php?tid=17614</forum>
     <website>http://totalrevolution.tv</website>
-    <news>Added new Custom_Dialog function for a fully customisable text dialog with multiple buttons</news>
+    <news>Added new M3U_Selector function for playback of playlists</news>
     <source>https://github.com/totalrevolution/totalrevolution/tree/master/script.module.python.koding.aio</source>
   </extension>  
 </addon>
@@ -9249,7 +9254,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
     </extension>
 </addon>
 
-<addon id="plugin.video.covenant" version="1.1.5" name="Covenant" provider-name="Covenant">
+<addon id="plugin.video.covenant" version="1.1.8" name="Covenant" provider-name="Covenant">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.covenant.artwork" version="1.0.0" />
