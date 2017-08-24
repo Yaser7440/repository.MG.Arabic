@@ -1,3 +1,39 @@
+v.0.9.6.9.9:
+- Fixed bug with Addon_Genre not deleting old failed temp files
+
+v.0.9.6.9.8:
+- Fixed bug with dependency check, wasn't showing all recursive deps
+
+v.0.9.6.9.7:
+- Added Link_Tester function, returns whether or not a link is locked to users IP
+- Added fix for Play_Video so it doesn't close dp if ignore_dp is set to True.
+
+v.0.9.6.9.6:
+- Added Last_Played function to return the real url of the last played item
+- Updated Addon_Genre, now fully unlocked and working for all developers to hook into.
+
+v.0.9.6.9.5:
+- Added Last_Played function to return the real url of the last played item
+- Added new Split_List function for creating new lists out of elements of another
+- Added new Table_Convert function, this will allow you to pull data from a html
+page conaining a table and convert into a list of dictionaries with your own custom keys.
+- Updated Addon_Genre, now fully unlocked and working for all developers to hook into.
+- Updated Open_URL so it can now take send a request via a proxy
+
+v.0.9.6.9.4:
+- Changed Add_Dir and route function so it auto converts physical paths into special paths when sending through any urls or creating routes. These are then auto converted back once returned to the function. This means all paths will work when using community shared content - no need for manually editing special paths.
+
+v.0.9.6.9.3:
+- Added new functionality to Convert_Special, can now set string to True and it will replace any instances of physical paths to special in the string which was sent through.
+
+v.0.9.6.9.2:
+- IMPORTANT FOR DEVS: Moved some functions around in preparation for upcoming stable 1.0 release. A new module has been created called vartools, all variable/string related functions can now be found in here as we seem to be accumilating rather a lof of these new functions!
+- Added new Fuzzy_Search function which searches for similar matches to a string
+- Fixed Open_Settings, wasn't opening into custom addon id's settings.
+- Changed the return of Keyboard, was returning as unicode.
+- Re-done some of the live example code with better dialogs and wording.
+- Re-formatted the README to reflect new changes.
+
 v.0.9.6.9.1:
 - Removed auto resolving of m3u in Play_Video as it was causing bugs in some links
 

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.metalliq" name="MetalliQ" version="2.0.15krypton" provider-name="OpenELEQ, Midraal">
+<addon id="plugin.video.metalliq" name="MetalliQ" version="2.0.16krypton" provider-name="OpenELEQ, Midraal">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 		<import addon="repository.q" version="0.0.0.1"/>

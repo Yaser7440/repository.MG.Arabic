@@ -5292,7 +5292,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="plugin.video.metalliq" name="MetalliQ" version="2.0.15krypton" provider-name="OpenELEQ, Midraal">
+<addon id="plugin.video.metalliq" name="MetalliQ" version="2.0.16krypton" provider-name="OpenELEQ, Midraal">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
 		<import addon="repository.q" version="0.0.0.1"/>
@@ -5487,7 +5487,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 
 <addon
   id="plugin.video.SportsDevil"
-  version="2017.07.22"
+  version="2017.08.20"
   name="SportsDevil"
   provider-name="SportsDevil">
   <requires>
@@ -5497,8 +5497,8 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
    <import addon="script.module.six" />
    <import addon="script.module.requests" />
    <import addon="script.module.livestreamer" />
-   <!--<import addon="script.video.F4mProxy" />
-   <import addon="plugin.video.f4mTester" />-->
+   <!-- <import addon="script.video.F4mProxy" /> -->
+   <!-- <import addon="plugin.video.f4mTester" /> -->
   </requires>
   <extension 
     point="xbmc.python.pluginsource"
@@ -7277,7 +7277,7 @@ For updates check the readme.
 
 <addon id="metadata.common.fanart.tv"
        name="fanart.tv Scraper Library"
-       version="3.1.4"
+       version="3.1.5"
        provider-name="Team Kodi">
   <requires>
     <import addon="xbmc.metadata" version="2.1.0"/>
@@ -8685,7 +8685,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
 
 <addon id="script.module.python.koding.aio"
    name="Python Koding AIO"
-   version="0.9.6.9.1"
+   version="0.9.6.9.9"
    provider-name="Total Revolution, noobsandnerds">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -9254,7 +9254,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
     </extension>
 </addon>
 
-<addon id="plugin.video.covenant" version="1.1.8" name="Covenant" provider-name="Covenant">
+<addon id="plugin.video.covenant" version="1.1.10" name="Covenant" provider-name="Covenant">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.covenant.artwork" version="1.0.0" />

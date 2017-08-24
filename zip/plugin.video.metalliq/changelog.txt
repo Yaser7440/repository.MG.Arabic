@@ -1,3 +1,8 @@
+v2.0.[COLOR ff0084ff]16[/COLOR]
+- Added player-manager (settings > custom > Edit movies/tvshows library player)
+- Updated settings by including new players
+- Definately fixed the multiple-episode-entries-issue (credit & thanks to qahanik)
+
 v2.0.[COLOR ff0084ff]15[/COLOR]
 - Fixed duration error on non-default version of kodi
 
