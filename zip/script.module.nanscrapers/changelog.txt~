@@ -1,19 +1,8 @@
-v0.5.26
-- added a few RD scrapers (converted from elysium)
-- fixed/improved a few scrapers
-- respects timeout parameter now (throws error on timeout for non dialog methods)
-
-v0.5.25
-- added yesmovies
-- added gostream
-- improved m4u
-
-v0.5.24
+v0.5.23
 - removed broken scrapers
 - added QuickMovies
 - added KingMovies
 - added MovieGrabber
-- added Watchfrees
 - fixed dizi720
 - Thank You to all involved with NaN Scraper Project
 
