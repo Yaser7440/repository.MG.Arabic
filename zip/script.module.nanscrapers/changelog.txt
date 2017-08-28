@@ -1,3 +1,5 @@
+v0.5.27
+- fix older kodi versions on android (no set compression on 2.6)
 v0.5.26
 - added a few RD scrapers (converted from elysium)
 - fixed/improved a few scrapers

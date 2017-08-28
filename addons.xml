@@ -4994,7 +4994,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="plugin.video.arabcinema" name="Arab Cinema" version="1.0.2" provider-name="MG.Arabic">
+<addon id="plugin.video.arabcinema" name="Arab Cinema" version="1.0.3" provider-name="MG.Arabic">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver"  version="3.0.12" />
@@ -8504,7 +8504,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
 	</extension>
 </addon>
 
-<addon id="script.module.nanscrapers" name="NaN Scrapers" version="0.5.26" provider-name="Team NaN">
+<addon id="script.module.nanscrapers" name="NaN Scrapers" version="0.5.27" provider-name="Team NaN">
         <requires>
                 <import addon="xbmc.python" version="2.1.0"/>
                 <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -9365,6 +9365,24 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
     <description lang="en">I would like to thank @4yoursak for art work on this work of art!</description>
     <platform>all</platform>
   </extension>
+</addon>
+
+<addon id="repository.smash" name="[COLOR indigo][B]-[/B][/COLOR][COLOR gold][B]S[/B][/COLOR][COLOR indigo][B]M[/B][/COLOR][COLOR gold][B]A[/B][/COLOR][COLOR indigo][B]S[/B][/COLOR][COLOR gold][B]H[/B][/COLOR] [COLOR ghostwhite]Repo[/COLOR]" version="1.2.7" provider-name="SMASH">
+	<extension point="xbmc.addon.repository" name="SMASH Repo">
+	<dir>
+        <info compressed="false">http://mediarepos.net/Repos/smashrepo/addons.xml</info>
+        <checksum>http://mediarepos.net/Repos/smashrepo/addons.xml.md5</checksum>
+        <datadir zip="true">http://mediarepos.net/Repos/smashrepo/</datadir>
+	</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Under This Repo, I Will Host Addons With No Home,Bring Life To Dead Addons That Are Fully Work, Link To Repos From Devs (This will install current version the Dev Has) </summary>
+		<description lang="en">ADDONS UNDER THIS SCRAPE THE NET, NO CONTENT IS HOSTED/DISTRIBUTED HERE, CONTACT WEBSITES IF WANT REMOVED [CR] Wanna Help With Server Cost Donate www.paypal.me/BrianSMASH [CR] [B]Smash Repo Change Log 1.2.7[/B] [CR] Added Some New Addons Time For Change People [CR] check for updates before going into vid addons</description>
+		<platform>all</platform>
+		<forum></forum>
+        <website></website>
+		<news>IF YOU DO WANNA HELP YOU CAN FOLLOW ME ON TWITTER @XSMASHX88X AND SUB TO MY CHANNEL WWW.YOUTUBE.COM/XSMASHX88X</news>
+	</extension>
 </addon>
 
 </addons>
