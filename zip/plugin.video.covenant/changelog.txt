@@ -1,3 +1,13 @@
+[B]1.1.11[/B]
+- updated primewire
+- fixed sezonlukdizi (geo-blocked in some locations)
+- updated rlsbb url (not tested)
+- updated watchfree and projectfree
+- fixed pubfilmto
+- bugfix in movies.py
+- update french texts
+- scenedown fix
+
 [B]1.1.10[/B]
 - fixed kingmovies
 - removed pmovies and watch5s
@@ -9,7 +19,7 @@
 - updated streamflix url
 - set default action to Directory
 - added gostream source
-- added container refreshs to syncronize watched status with Trakt (thanks to rw86)
+- added container refreshs to syncronize watched status with Trakt
 
 [B]1.1.8[/B]
 - CF fix (thanks to gujal)
@@ -23,7 +33,7 @@
 - Updated and fixed seriesonline
 
 [B]1.1.6[/B]
-- Added alluc provider (thanks to weekendsource)
+- Added alluc provider
 
 [B]1.1.5[/B]
 - Dayt update
@@ -55,4 +65,4 @@
 - Fix trakt support
 - Updated existing providers
 - Added new providers
-- Artwork (thanks to jokstergfx)
+- Artwork

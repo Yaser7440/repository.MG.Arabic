@@ -4994,12 +4994,12 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="plugin.video.arabcinema" name="Arab Cinema" version="1.0.3" provider-name="MG.Arabic">
+<addon id="plugin.video.arabcinema" name="Arab Cinema" version="1.0.4" provider-name="MG.Arabic">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.urlresolver"  version="3.0.12" />
+        <import addon="script.module.urlresolver" version="3.0.0" />
         <import addon="script.video.F4mProxy" version="2.5.7" />
-		<import addon="script.module.requests" />
+		<!-- <import addon="script.module.requests" /> -->
     </requires>
     <extension point="xbmc.python.pluginsource"
                library="default.py">
@@ -8996,7 +8996,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
 	</extension>
 </addon>
 
-<addon id="plugin.video.3lbh.Net" version="1.1.2" name="3lbh.Net" provider-name="MG.Arabic">
+<addon id="plugin.video.3lbh.Net" version="1.1.3" name="3lbh.Net" provider-name="MG.Arabic">
  <requires>
         <import addon="xbmc.python" version="2.1.0" optional="true" />
 		<import addon="script.module.mg.arabic.common"/>
@@ -9254,7 +9254,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
     </extension>
 </addon>
 
-<addon id="plugin.video.covenant" version="1.1.10" name="Covenant" provider-name="Covenant">
+<addon id="plugin.video.covenant" version="1.1.11" name="Covenant" provider-name="Covenant">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.covenant.artwork" version="1.0.0" />
@@ -9311,7 +9311,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
 	</extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="4.0.01" provider-name="Eldorado, tknorris, jsergio">
+<addon id="script.module.urlresolver" name="URLResolver" version="4.0.02" provider-name="Eldorado, tknorris, jsergio">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" optional="true" />
