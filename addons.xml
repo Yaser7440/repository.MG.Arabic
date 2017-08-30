@@ -4994,7 +4994,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="plugin.video.arabcinema" name="Arab Cinema" version="1.0.4" provider-name="MG.Arabic">
+<addon id="plugin.video.arabcinema" name="Arab Cinema" version="1.0.5" provider-name="MG.Arabic">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="3.0.0" />
@@ -6392,7 +6392,7 @@ For updates check the readme.
 
 <addon id="plugin.audio.mixcloud"
        name="MixCloud"
-       version="2.2.0"
+       version="2.2.1"
        provider-name="jackyNIX">
   <requires>
     <import addon="xbmc.python" version="2.14.0"/>
