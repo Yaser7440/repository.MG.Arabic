@@ -1,3 +1,16 @@
+[B]1.1.13[/B]
+- HEVC filter added to settings
+- filmyto polish source added
+- foxx fix
+- alluc polish added
+
+[B]1.1.12[/B]
+- added imdark
+- gave alluc individual ids per language
+- updated seriesonline url
+- updated putlocker
+- added playback setting to toggle container refresh
+
 [B]1.1.11[/B]
 - updated primewire
 - fixed sezonlukdizi (geo-blocked in some locations)

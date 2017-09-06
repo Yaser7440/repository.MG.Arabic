@@ -1,4 +1,4 @@
-<addon id="repository.smash" name="[COLOR indigo][B]-[/B][/COLOR][COLOR gold][B]S[/B][/COLOR][COLOR indigo][B]M[/B][/COLOR][COLOR gold][B]A[/B][/COLOR][COLOR indigo][B]S[/B][/COLOR][COLOR gold][B]H[/B][/COLOR] [COLOR ghostwhite]Repo[/COLOR]" version="1.2.7" provider-name="SMASH">
+﻿<addon id="repository.smash" name="[COLOR indigo][B]-[/B][/COLOR][COLOR gold][B]S[/B][/COLOR][COLOR indigo][B]M[/B][/COLOR][COLOR gold][B]A[/B][/COLOR][COLOR indigo][B]S[/B][/COLOR][COLOR gold][B]H[/B][/COLOR] [COLOR ghostwhite]Repo[/COLOR]" version="1.2.9" provider-name="SMASH">
 	<extension point="xbmc.addon.repository" name="SMASH Repo">
 	<dir>
         <info compressed="false">http://mediarepos.net/Repos/smashrepo/addons.xml</info>

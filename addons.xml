@@ -4994,7 +4994,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="plugin.video.arabcinema" name="Arab Cinema" version="1.0.5" provider-name="MG.Arabic">
+<addon id="plugin.video.arabcinema" name="Arab Cinema" version="1.0.6" provider-name="MG.Arabic">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="3.0.0" />
@@ -8685,7 +8685,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
 
 <addon id="script.module.python.koding.aio"
    name="Python Koding AIO"
-   version="0.9.7.4"
+   version="0.9.7.6"
    provider-name="Total Revolution, noobsandnerds">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -9186,54 +9186,54 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
   </extension>
 </addon>
 
-<addon id="repository.xvbmc" name=" [COLOR lime][B]X[/B][/COLOR]vBMC (Add-ons) REPOsitory" version="4.0.2" provider-name="EPiC XvBMC Nederland">
-	<extension point="xbmc.addon.repository" name=" [COLOR lime][B]X[/B][/COLOR]vBMC (Add-ons) REPOsitory">
-		<dir>
-			<info compressed="false">https://github.com/zqfaen/tva-common/raw/master/addons.xml</info>
-			<checksum>https://github.com/zqfaen/tva-common/raw/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://github.com/zqfaen/tva-common/raw/master/zips/</datadir>
-		</dir>
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
-		</dir>
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/Dependencies/xvbmc-addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/Dependencies/xvbmc-addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/Dependencies/zips/</datadir>
-			<hashes>false</hashes>
-		</dir>
-		<dir>
-			<info compressed="false">https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/REPOsitory/xvbmc-addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/REPOsitory/xvbmc-addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/REPOsitory/zips/</datadir>
-			<hashes>false</hashes>
-		</dir>
-			<info compressed="false">https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/xvbmc-addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/xvbmc-addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/zips/</datadir>
-			<hashes>false</hashes>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">XvBMC The Netherlands (Add-ons) REPOsitory #DUTCH #NL</summary>
-		<summary lang="nl">XvBMC Nederland (Add-ons) REPOsitory #NL #DUTCH</summary>
-		<description lang="en">XvBMC The Netherlands (Add-ons) Repository | XvBMC-NL (Add-on) Depot  |  be sure to check out our FB-page: http://bit.ly/XvBMC-NL !!! USE AT YOUR OWN RISK !!!</description>
-		<description lang="nl">XvBMC Nederland (Add-ons) Repository | XvBMC-NL (Add-on) Depot  |  en volg zeker ook onze Facebook pagina: http://bit.ly/XvBMC-NL !!! USE AT YOUR OWN RISK !!!</description>
-		<disclaimer lang="en">The owners and submitters to this repository do not host or distribute any of the content displayed by these add-ons nor do they have any affiliation with its content. Please Read: https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/LICENSE ...just because you can  ;)  !!! USE-AT-YOUR-OWN-RISK !!!</disclaimer>
-		<disclaimer lang="nl">The owners and submitters to this repository do not host or distribute any of the content displayed by these add-ons nor do they have any affiliation with its content. Please Read: https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/LICENSE ...just because you can  ;)  !!! USE-AT-YOUR-OWN-RISK !!!</disclaimer>
-		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
-		<forum>https://www.fb.com/groups/XvBMCnederland/</forum>
-		<website>http://bit.ly/XvBMC-NL</website>
-		<source>https://archive.org/download/repository.xvbmc/</source>
-		<news>Maintenance Release v4.0.2</news>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-			<screenshot></screenshot>
-		</assets>
-	</extension>
+<addon id="repository.xvbmc" name=" [COLOR lime][B]X[/B][/COLOR]vBMC (Add-ons) REPOsitory" version="4.1.0" provider-name="XvBMC Nederland">
+    <extension point="xbmc.addon.repository" name=" [COLOR lime][B]X[/B][/COLOR]vBMC (Add-ons) REPOsitory">
+        <dir>
+            <info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
+            <checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
+        </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
+        </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/Dependencies/xvbmc-addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/Dependencies/xvbmc-addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/Dependencies/zips/</datadir>
+            <hashes>false</hashes>
+        </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/REPOsitory/xvbmc-addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/REPOsitory/xvbmc-addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/REPOsitory/zips/</datadir>
+            <hashes>false</hashes>
+        </dir>
+            <info compressed="false">https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/xvbmc-addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/xvbmc-addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/zips/</datadir>
+            <hashes>false</hashes>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">XvBMC The Netherlands (Add-ons) REPOsitory #DUTCH #NL</summary>
+        <summary lang="nl">XvBMC Nederland (Add-ons) REPOsitory #NL #DUTCH</summary>
+        <description lang="en">XvBMC The Netherlands (Add-ons) Repository | XvBMC-NL (Add-on) Depot  |  be sure to check out our FB-page: http://bit.ly/XvBMC-NL !!! USE AT YOUR OWN RISK !!!</description>
+        <description lang="nl">XvBMC Nederland (Add-ons) Repository | XvBMC-NL (Add-on) Depot  |  en volg zeker ook onze Facebook pagina: http://bit.ly/XvBMC-NL !!! USE AT YOUR OWN RISK !!!</description>
+        <disclaimer lang="en">The owners and submitters to this repository do not host or distribute any of the content displayed by these add-ons nor do they have any affiliation with its content. Please Read: https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/LICENSE ...just because you can  ;)  !!! USE-AT-YOUR-OWN-RISK !!!</disclaimer>
+        <disclaimer lang="nl">The owners and submitters to this repository do not host or distribute any of the content displayed by these add-ons nor do they have any affiliation with its content. Please Read: https://raw.githubusercontent.com/XvBMC/repository.xvbmc/master/LICENSE ...just because you can  ;)  !!! USE-AT-YOUR-OWN-RISK !!!</disclaimer>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
+        <forum>https://www.fb.com/groups/XvBMCnederland/</forum>
+        <website>http://bit.ly/XvBMC-NL</website>
+        <source>https://archive.org/download/repository.xvbmc/</source>
+        <news>Release v4.1.0</news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+            <screenshot></screenshot>
+        </assets>
+    </extension>
 </addon>
 
 <addon id="repository.k3l3vra" name="K3l3vra's Repository" version="1.0.1" provider-name="k3l3vra">
@@ -9254,7 +9254,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
     </extension>
 </addon>
 
-<addon id="plugin.video.covenant" version="1.1.11" name="Covenant" provider-name="Covenant">
+<addon id="plugin.video.covenant" version="1.1.13" name="Covenant" provider-name="Covenant">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.covenant.artwork" version="1.0.0" />
@@ -9283,7 +9283,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
     			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
     			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
 		</assets>
-		<news>[B]1.1.3[/B][CR]Code cosmetics</news>
+		<news>[B]1.1.13[/B][CR]Code cosmetics</news>
 	</extension>
 </addon>
 
@@ -9367,7 +9367,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
   </extension>
 </addon>
 
-<addon id="repository.smash" name="[COLOR indigo][B]-[/B][/COLOR][COLOR gold][B]S[/B][/COLOR][COLOR indigo][B]M[/B][/COLOR][COLOR gold][B]A[/B][/COLOR][COLOR indigo][B]S[/B][/COLOR][COLOR gold][B]H[/B][/COLOR] [COLOR ghostwhite]Repo[/COLOR]" version="1.2.7" provider-name="SMASH">
+<addon id="repository.smash" name="[COLOR indigo][B]-[/B][/COLOR][COLOR gold][B]S[/B][/COLOR][COLOR indigo][B]M[/B][/COLOR][COLOR gold][B]A[/B][/COLOR][COLOR indigo][B]S[/B][/COLOR][COLOR gold][B]H[/B][/COLOR] [COLOR ghostwhite]Repo[/COLOR]" version="1.2.9" provider-name="SMASH">
 	<extension point="xbmc.addon.repository" name="SMASH Repo">
 	<dir>
         <info compressed="false">http://mediarepos.net/Repos/smashrepo/addons.xml</info>
