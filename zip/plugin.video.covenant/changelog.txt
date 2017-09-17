@@ -1,3 +1,19 @@
+[B]1.1.15[/B]
+- fixed kingmovies
+- added cmovieshd
+- disabled pubfilmto
+- added setting for custom alluc search result limit
+- removed flixtor
+- myddl url update
+- fixed movie25
+
+[B]1.1.14[/B]
+- added flixtor
+- updated movieshd aka flixanity
+- Films/TV Movies populated list
+- filiser url resolver fixed
+- updates on DE-providers
+
 [B]1.1.13[/B]
 - HEVC filter added to settings
 - filmyto polish source added
