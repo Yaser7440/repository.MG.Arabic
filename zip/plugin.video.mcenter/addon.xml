@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.mcenter" name="Arabic Media Center" version="1.5.8" provider-name="MG.Arabic">
+<addon id="plugin.video.mcenter" name="Arabic Media Center" version="1.5.9" provider-name="MG.Arabic">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests" version="2.3.0"/>
@@ -11,7 +11,7 @@
   <extension library="service.py" point="xbmc.service"/>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Arabic Media Center.</summary>
-    <description lang="en">[B][COLOR red]•••Please Download this link(http://mg.esy.es/Kodi/Resource/plugin.video.mcenter/plugin.video.mcenter.rar)and Extract into (userdata\addon_data)•••[/COLOR][/B] |
+    <description lang="en">[B][COLOR red]•••ARABIC Media Center•••[/COLOR][/B] |
 	HD Movies  |  Arabic Movies  |  3D Movies  |  4K Movies  |  Shows  |  Cartoon Movies  |  Documentary  |  Cartoon Series  |  TV Programs </description>
     <disclaimer lang="en"></disclaimer>
     <language></language>
