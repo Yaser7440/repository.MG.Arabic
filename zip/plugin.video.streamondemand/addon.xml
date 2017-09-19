@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.streamondemand"
+       name="Stream On Demand"
+       version="5.6.0"
+       provider-name="iSOD Crew">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.libtorrent" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="it">SOD Media</summary>
+        <description lang="it">SOD Media</description>
+        <summary lang="en">SOD Media</summary>
+        <description lang="en">SOD Media</description>
+        <platform>all</platform>
+        <license>GNU GPL v3</license>
+        <forum>http://www.mimediacenter.info/foro/viewforum.php?f=36</forum>
+        <source>https://github.com/streamondemand/plugin.video.streamondemand</source>
+    </extension>
+    <extension point="xbmc.service" library="library_service.py" start="login|startup">
+    </extension>
+</addon>
