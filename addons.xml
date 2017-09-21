@@ -363,13 +363,15 @@
 	</extension>
 </addon>
 
-<addon id="plugin.video.1channel" version="3.0.00" name="[COLOR lime]1Channel[/COLOR][COLOR white] FIX[/COLOR]" provider-name="apep">
+<addon id="plugin.video.1channel" version="4.0.02" name="PrimeWire" provider-name="k3l3vra">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="3.0"/>
         <import addon="script.module.addon.common" version="2.0.0" />
         <import addon="script.module.metahandler" version="2.6.0" />
         <import addon="script.module.myconnpy" version="1.1.6" />
+        <import addon="plugin.program.indigo" version="3.0.2" />
+        <import addon="repository.xbmchub" version="3.0.0" />
         <import addon="script.module.axel.downloader" version="0.2.0" optional="true"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
@@ -378,14 +380,13 @@
     <extension point="xbmc.service" library="service.py" start="startup">
     </extension>
     <extension point="xbmc.addon.metadata">
-		<summary lang="en">Thank You For Installing 1Channel Fix, Remember This Addon Scrapes Nothing Is Hosted, With That Said This Will Be A Fun Journey So Join Us As We Make This Your New Loved Addon</summary>
-		<description lang="en">[COLOR lime][B]Welcome To 1Channel[/B][/COLOR] [CR]Watch movies and TV shows in high quality! [CR]Please note that this addon is not an official part of the Kodi media player</description>
-		<disclaimer lang="en">[COLOR yellow]The author does not host any content, nor is he affiliated with any of the content providers.[/COLOR]</disclaimer>
-		<platform>all</platform>
-		<forum></forum>
-		<website></website>
-		<source></source>
-		<news>This is a Fixed 1Channel</news>
+        <summary>Browse PrimeWire.ag</summary>
+        <description>Play a wide selection of movies and TV shows from PrimeWire.ag.
+***This addon is supported at [COLOR blue]www.tvaddons.co[/COLOR], [COLOR white][B]NOT[/B][/COLOR] [COLOR red]kodi.tv[/COLOR]. ***
+        </description>
+        <platform>all</platform>
+        <website>https://www.tvaddons.co/</website>
+		<forum>https://www.tvaddons.co/forums</forum>
     </extension>
 </addon>
 
@@ -757,24 +758,43 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.salts" version="2.0.203" name="Stream All The Sources" provider-name="k3l3vra, Movie/TVShow Images Fixed By Smash">
-    <requires>
-        <import addon="xbmc.python" version="2.19.0"/>
+<addon id="plugin.video.salts" version="3.0.00" name="Stream All The Sources" provider-name="k3l3vra">
+    <requires>        
+		<import addon="xbmc.python" version="2.19.0"/>
+        <import addon="script.module.pyxbmct" version="1.1.4"/>
         <import addon="script.module.urlresolver" version="3.0.0"/>
+		<import addon="script.module.metahandler" version="1.0.0" />
+		<import addon="script.module.futures"/>
         <import addon="script.module.myconnpy" version="1.1.6" />
-        <import addon="script.module.tknorris.shared" version="0.0.19"/>
+        <import addon="script.module.tknorris.shared"/>
         <import addon="script.module.six"/>
         <import addon="script.module.dateutil"/>
+        <import addon="repository.xbmchub"/>
+        <import addon="plugin.program.indigo"/>
+        <import addon="script.module.image_cache" optional="true" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
     </extension>
      <extension point="xbmc.service" library="service.py" start="startup"/>
     <extension point="xbmc.addon.metadata">
-        <summary>Last Version Made From The TVA Guys, movie/tvshow images fixed by smash</summary>
-        <description>Last Version Made From The TVA Guys, trying to fix the install fail probs some are getting        
+        <summary>Stream video from many difference sources</summary>
+        <description>This addon uses trakt.tv for most show and movie meta data and uses a variety of websites for hoster sources
+
+***This addon is developed and supported at [COLOR blue]www.tvaddons.co[/COLOR]***        
         </description>
         <platform>all</platform>
+        <website>https://www.tvaddons.co/</website>
+		<forum>https://www.tvaddons.co/forums/</forum>
+		<assets>
+		  <icon>icon.png</icon>
+		  <fanart>fanart.jpg</fanart>
+		  <screenshot>resources/screenshots/screenshot1.png</screenshot>
+          <screenshot>resources/screenshots/screenshot2.png</screenshot>
+          <screenshot>resources/screenshots/screenshot3.png</screenshot>
+          <screenshot>resources/screenshots/screenshot4.png</screenshot>
+          <screenshot>resources/screenshots/screenshot5.png</screenshot>
+		</assets>
 	</extension>
 </addon>
 
@@ -1488,16 +1508,29 @@ v5.2.14 (2017-01-23)
 	</extension>
 </addon>
 
-<addon id="repository.tknorris.release" name="tknorris Release Repository" version="1.0.2" provider-name="tknorris">
+<addon id="repository.tknorris.release" name="tknorris Release Repository" version="2.0.0" provider-name="tknorris">
     <extension point="xbmc.addon.repository" name="tknorris release repository">
         <dir>
-            <info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
-            <checksum>https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/</datadir>
-        </dir>
-        <info compressed="false">https://offshoregit.com/tknorris/tknorris-release-repo/raw/master/addons.xml</info>
-        <checksum>https://offshoregit.com/tknorris/tknorris-release-repo/raw/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://offshoregit.com/tknorris/tknorris-release-repo/raw/master/zips/</datadir>
+		<info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
+		<checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
+	</dir>
+
+    <dir>
+		<info compressed="false">https://github.com/nrwzum/freelance/raw/master/fun-stuff/addons.xml</info>
+		<checksum>https://github.com/nrwzum/freelance/raw/master/fun-stuff/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/nrwzum/freelance/raw/master/fun-stuff/</datadir>
+    </dir>
+    <dir>
+		<info compressed="false">https://github.com/bridgegirl/lonelycode/raw/master/puffpuffpass/addons.xml</info>
+		<checksum>https://github.com/bridgegirl/lonelycode/raw/master/puffpuffpass/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/bridgegirl/lonelycode/raw/master/puffpuffpass/</datadir>
+    </dir>
+    <dir>
+		<info compressed="false">https://github.com/bradonfire/winnerwinnerchickendinner/raw/master/reference-work/addons.xml</info>
+		<checksum>https://github.com/bradonfire/winnerwinnerchickendinner/raw/master/reference-work/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/bradonfire/winnerwinnerchickendinner/raw/master/reference-work/</datadir>
+    </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>This is tknorris's release repository</summary>
@@ -8559,7 +8592,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
 	</extension>
 </addon>
 
-<addon id="plugin.video.1080pmovies_gw" name="1080p Movies" version="2.2.1" provider-name="Dandymedia">
+<addon id="plugin.video.1080pmovies_gw" name="1080p Movies" version="2.2.2" provider-name="Dandymedia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
@@ -9329,7 +9362,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
 	</extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="4.0.05" provider-name="Eldorado, tknorris, jsergio">
+<addon id="script.module.urlresolver" name="URLResolver" version="4.0.06" provider-name="Eldorado, tknorris, jsergio">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" optional="true" />
@@ -9342,6 +9375,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
 		<platform>all</platform>
 		<summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
 		<description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
+        <source>https://github.com/jsergio123/script.module.urlresolver</source>
 	</extension>
 </addon>
 
@@ -9363,7 +9397,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
     </extension>
 </addon>
 
-<addon id="plugin.video.picasso" name="[B][COLOR cyan]PICASSO[/COLOR][/B]" version="1.0.7" provider-name="Goliath/Slim">
+<addon id="plugin.video.picasso" name="[B][COLOR cyan]PICASSO[/COLOR][/B]" version="1.0.9" provider-name="Goliath/Slim">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.simplejson" version="0.0.1"/>
