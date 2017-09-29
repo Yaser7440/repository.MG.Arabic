@@ -2593,7 +2593,7 @@ http://informaticglobalworld.altervista.org/</description>
 </extension>
 </addon>
 
-<addon id="repository.noobsandnerds" name="noobsandnerds Repository" version="2.2" provider-name="noobsandnerds">
+<addon id="repository.noobsandnerds" name="noobsandnerds Repository" version="2.3.0" provider-name="noobsandnerds">
         <extension point="xbmc.addon.repository" name="noobsandnerds Repository">
                 <dir>
                         <info compressed="false">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/addons.xml</info>
@@ -2601,24 +2601,54 @@ http://informaticglobalworld.altervista.org/</description>
                         <datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
                 </dir>
                 <dir>
-                <info compressed="true">https://github.com/dandy0850/dandymedia/raw/master/addons.xml</info>
-                <checksum>https://github.com/dandy0850/dandymedia/raw/master/addons.xml.md5</checksum>
-                <datadir zip="true">https://github.com/dandy0850/dandymedia/raw/master/repo</datadir>
+                        <info compressed="true">https://github.com/dandy0850/dandymedia/raw/master/addons.xml</info>
+                        <checksum>https://github.com/dandy0850/dandymedia/raw/master/addons.xml.md5</checksum>
+                        <datadir zip="true">https://github.com/dandy0850/dandymedia/raw/master/repo</datadir>
                 </dir>
+                <dir>
+                        <info compressed="true">https://github.com/dandy0850/dandymedia/raw/master/addons.xml</info>
+                        <checksum>https://github.com/dandy0850/dandymedia/raw/master/addons.xml.md5</checksum>
+                        <datadir zip="true">https://github.com/dandy0850/dandymedia/raw/master/repo</datadir>
+                </dir>
+                <dir>
+                        <info compressed="false">https://raw.githubusercontent.com/alfreddempsey3/repository.rage/master/zips/addons.xml</info>
+                        <checksum>https://raw.githubusercontent.com/alfreddempsey3/repository.rage/master/zips/addons.xml.md5</checksum>
+                        <datadir zip="true">https://raw.githubusercontent.com/alfreddempsey3/repository.rage/master/zips/</datadir>
+                </dir>
+                <dir>
+                        <info compressed="false">https://raw.githubusercontent.com/bromerzz/repository.bromcy/master/zips/addons.xml</info>
+                        <checksum>https://raw.githubusercontent.com/bromerzz/repository.bromcy/master/zips/addons.xml.md5</checksum>
+                        <datadir zip="true">https://raw.githubusercontent.com/bromerzz/repository.bromcy/master/zips/</datadir>
+                        </dir>
                 <dir>
                         <info compressed="false">https://github.com/OpenELEQ/repository.elysium/raw/master/elysium.xml</info>
                         <checksum>https://github.com/OpenELEQ/repository.elysium/raw/master/elysium.xml.md5</checksum>
                         <datadir zip="true">https://raw.github.com/OpenELEQ/repository.elysium/master/</datadir>
                 </dir>
-                <dir>
-                <info compressed="true">https://raw.githubusercontent.com/catchup4kodi/catchup4kodi/master/zips/addons.xml</info>
-                <checksum>https://raw.githubusercontent.com/catchup4kodi/catchup4kodi/master/zips/addons.xml.md5</checksum>
-                <datadir zip="true">https://raw.githubusercontent.com/catchup4kodi/catchup4kodi/master/zips/</datadir>
+                        <dir>
+                        <info compressed="true">https://raw.githubusercontent.com/catchup4kodi/catchup4kodi/master/zips/addons.xml</info>
+                        <checksum>https://raw.githubusercontent.com/catchup4kodi/catchup4kodi/master/zips/addons.xml.md5</checksum>
+                        <datadir zip="true">https://raw.githubusercontent.com/catchup4kodi/catchup4kodi/master/zips/</datadir>
                 </dir>
                 <dir>
                         <info compressed="false">https://raw.githubusercontent.com/midraal/repository.midraal/master/zips/addons.xml</info>
                         <checksum>https://raw.githubusercontent.com/midraal/repository.midraal/master/zips/addons.xml.md5</checksum>
                         <datadir zip="true">https://raw.github.com/midraal/repository.midraal/master/zips/</datadir>
+                </dir>
+                <dir minversion="14.0.0">
+                        <info compressed="false">https://github.com/OpenELEQ/repository.q/raw/master/openeleq-addons.xml</info>
+                        <checksum>https://github.com/OpenELEQ/repository.q/raw/master/openeleq-addons.xml.md5</checksum>
+                        <datadir zip="true">https://raw.github.com/OpenELEQ/repository.q/master/zips/</datadir>
+                </dir>
+                <dir minversion="16.0.0">
+                        <info compressed="false">https://github.com/OpenELEQ/repository.q.jarvis/raw/master/openeleq-addons.xml</info>
+                        <checksum>https://github.com/OpenELEQ/repository.q.jarvis/raw/master/openeleq-addons.xml.md5</checksum>
+                        <datadir zip="true">https://raw.github.com/OpenELEQ/repository.q.jarvis/master/zips/</datadir>
+                </dir>
+                <dir minversion="16.9.9">
+                        <info compressed="false">https://github.com/OpenELEQ/repository.q.krypton/raw/master/openeleq-addons.xml</info>
+                        <checksum>https://github.com/OpenELEQ/repository.q.krypton/raw/master/openeleq-addons.xml.md5</checksum>
+                        <datadir zip="true">https://raw.github.com/OpenELEQ/repository.q.krypton/master/zips/</datadir>
                 </dir>
                 <info compressed="false">https://raw.githubusercontent.com/noobsandnerds/noobsandnerds/master/zips/addons.xml</info>
                 <checksum>https://raw.githubusercontent.com/noobsandnerds/noobsandnerds/master/zips/addons.xml.md5</checksum>
@@ -3609,7 +3639,7 @@ It broadcasts channels through the internet 24/7. The service is completely free
 
 <addon id="plugin.video.dramanice"
 	   name="Dramanice"
-	   version="2.0"
+	   version="3.1"
 	   provider-name="2uk3y-Kodim-Ares-Streams">
   <requires>
     <import addon="script.module.requests" version="1.0.0" />
@@ -5058,7 +5088,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="plugin.video.arabcinema" name="Arab Cinema" version="1.1.4" provider-name="MG.Arabic">
+<addon id="plugin.video.arabcinema" name="Arab Cinema" version="1.1.5" provider-name="MG.Arabic">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="3.0.0" />
@@ -5551,7 +5581,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 
 <addon
   id="plugin.video.SportsDevil"
-  version="2017.09.09"
+  version="2017.09.23"
   name="SportsDevil"
   provider-name="SportsDevil">
   <requires>
@@ -8607,7 +8637,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
 	</extension>
 </addon>
 
-<addon id="plugin.video.1080pmovies_gw" name="1080p Movies" version="2.2.2" provider-name="Dandymedia">
+<addon id="plugin.video.1080pmovies_gw" name="1080p Movies" version="2.2.3" provider-name="Dandymedia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
