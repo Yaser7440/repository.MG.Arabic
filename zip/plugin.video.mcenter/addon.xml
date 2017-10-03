@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.mcenter" name="Arabic Media Center" version="1.5.9" provider-name="MG.Arabic">
+<addon id="plugin.video.mcenter" name="Arabic Media Center" version="1.6.0" provider-name="MG.Arabic">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests" version="2.3.0"/>
@@ -8,7 +8,7 @@
   <extension point="xbmc.python.pluginsource"         library="default.py">
     <provides>video</provides>
   </extension>
-  <extension library="service.py" point="xbmc.service"/>
+<!--   <extension library="service.py" point="xbmc.service"/> -->
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Arabic Media Center.</summary>
     <description lang="en">[B][COLOR red]•••ARABIC Media Center•••[/COLOR][/B] |
