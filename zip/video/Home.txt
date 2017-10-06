@@ -1,11 +1,11 @@
-<layouttype>thumbnail</layouttype>
+﻿<layouttype>thumbnail</layouttype>
 
 <channels>
 
 <channel>
-<name>web test</name>
+<name>TV</name>
 <thumbnail>http://mg.esy.es/Kodi/Logo/logo.jpg</thumbnail>
-<externallink>http://cera.online/movies-cinema-translated-arablionz-download-cima4u-watch-tvegy.html/feed/</externallink>
+<externallink>https://freeworldwideiptv.com/feed/</externallink>
 <fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
 <info>Channels(MG.Arabic)</info>
 <genre>اثارة</genre>
