@@ -5,20 +5,25 @@
 <channel>
 <name>TV</name>
 <thumbnail>http://mg.esy.es/Kodi/Logo/logo.jpg</thumbnail>
-<externallink>https://freeworldwideiptv.com/comments/feed/</externallink>
-<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
-<info>Channels(MG.Arabic)</info>
-<genre>اثارة</genre>
+<externallink>http://freeiptv.geantsat.com:58888/get.php?username=free-geantsat.2017&amp;password=26g07fgf2017fgvgolf&amp;type=m3u</externallink>
 </channel>
 
 <channel>
-<name>CEN test</name>
+<name>TV2</name>
 <thumbnail>http://mg.esy.es/Kodi/Logo/logo.jpg</thumbnail>
 <externallink>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/Channels/Arabic.Channels.m3u</externallink>
-<fanart>http://mg.esy.es/Kodi/Logo/MG.es.jpg</fanart>
-<info>Channels(MG.Arabic)</info>
-<genre>اثارة</genre>
 </channel>
 
+<channel>
+<name>TV3</name>
+<thumbnail>http://mg.esy.es/Kodi/Logo/logo.jpg</thumbnail>
+<externallink>http://yek-hd.net:1795/get.php?username=sherif&amp;password=sherif1&amp;type=m3u</externallink>
+</channel>
+
+<channel>
+<name>TV3</name>
+<thumbnail>http://mg.esy.es/Kodi/Logo/logo.jpg</thumbnail>
+<externallink>http://major2.ipfox.co:8080/get.php?username=winsor_BRKdS5&amp;password=G4lOS1yD&amp;type=m3u</externallink>
+</channel>
 </channels>
 
