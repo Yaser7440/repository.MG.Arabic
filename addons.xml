@@ -758,7 +758,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.salts" version="3.0.00" name="Stream All The Sources" provider-name="k3l3vra">
+<addon id="plugin.video.salts" version="3.0.01" name="Stream All The Sources" provider-name="k3l3vra">
     <requires>        
 		<import addon="xbmc.python" version="2.19.0"/>
         <import addon="script.module.pyxbmct" version="1.1.4"/>
@@ -766,12 +766,11 @@
 		<import addon="script.module.metahandler" version="1.0.0" />
 		<import addon="script.module.futures"/>
         <import addon="script.module.myconnpy" version="1.1.6" />
-        <import addon="script.module.tknorris.shared"/>
+        <import addon="script.module.salts"/>
         <import addon="script.module.six"/>
         <import addon="script.module.dateutil"/>
         <import addon="repository.xbmchub"/>
         <!-- <import addon="plugin.program.indigo"/> -->
-        <import addon="script.module.image_cache" optional="true" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
@@ -5581,7 +5580,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 
 <addon
   id="plugin.video.SportsDevil"
-  version="2017.09.23"
+  version="2017.10.01"
   name="SportsDevil"
   provider-name="SportsDevil">
   <requires>
@@ -5645,6 +5644,17 @@ For updates check the readme.
     <description>Watch anime on animego</description>
     <platform>all</platform>
   </extension>
+</addon>
+
+<addon id="script.module.salts" name="SALTS Common Libraries" version="0.1.9" provider-name="k3l3vra">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Credit to TKnorris</summary>
+	</extension>
 </addon>
 
 <addon id="script.module.singledispatch" name="singledispatch" version="3.4.0.3" provider-name="Łukasz Langa">
@@ -9454,7 +9464,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
     </extension>
 </addon>
 
-<addon id="plugin.video.picasso" name="[B][COLOR cyan]PICASSO[/COLOR][/B]" version="1.0.9" provider-name="Goliath/Slim">
+<addon id="plugin.video.picasso" name="[B][COLOR cyan]PICASSO[/COLOR][/B]" version="1.0.11" provider-name="Goliath/Slim">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.simplejson" version="0.0.1"/>
