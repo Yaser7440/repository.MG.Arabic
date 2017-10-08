@@ -5,7 +5,7 @@
 <channel>
 <name>TV</name>
 <thumbnail>http://mg.esy.es/Kodi/Logo/logo.jpg</thumbnail>
-<externallink>http://freeiptv.geantsat.com:58888/get.php?username=free-geantsat.2017&amp;password=26g07fgf2017fgvgolf&amp;type=m3u</externallink>
+<externallink>http://cafe-tv.net/wp-content/uploads/2017/10/Arab081017-2.m3u</externallink>
 </channel>
 
 <channel>
@@ -17,7 +17,7 @@
 <channel>
 <name>TV3</name>
 <thumbnail>http://mg.esy.es/Kodi/Logo/logo.jpg</thumbnail>
-<externallink>http://yek-hd.net:1795/get.php?username=sherif&amp;password=sherif1&amp;type=m3u</externallink>
+<externallink>http://cafe-tv.net/wp-content/uploads/2017/10/Arab080717.m3u</externallink>
 </channel>
 
 <channel>
