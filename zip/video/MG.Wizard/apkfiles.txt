@@ -1,4 +1,11 @@
-﻿name="[PREM] StbEmu Pro [Ver 1.0.3].apk"
+﻿name="MG-IPTV"
+url="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/apk/MG-IPTV-1.3.8.apk"
+icon="https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/apk/MG-IPTV.png"
+fanart="http://mg.esy.es/Kodi/Logo/MG.es.jpg"
+adult="no"
+description="Download MG-IPTV from MG.Arabic Wizard"
+
+name="[PREM] StbEmu Pro [Ver 1.0.3].apk"
 section="no"
 url="http://mediarepos.net/Apkz/%5bPREM%5d%20StbEmu%20Pro%20%5bVer%201.0.3%5d.apk"
 icon="http://" 
