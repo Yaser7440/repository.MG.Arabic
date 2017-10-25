@@ -3638,7 +3638,7 @@ It broadcasts channels through the internet 24/7. The service is completely free
 
 <addon id="plugin.video.dramanice"
 	   name="Dramanice"
-	   version="3.1"
+	   version="3.3"
 	   provider-name="2uk3y-Kodim-Ares-Streams">
   <requires>
     <import addon="script.module.requests" version="1.0.0" />
@@ -3648,13 +3648,16 @@ It broadcasts channels through the internet 24/7. The service is completely free
     	<provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary>Sit Back &amp; Relax</summary>
-    <description>Watch TV Drama/Movie from Dramanice.eu</description>
-    <description lang="en">Watch Your Favorite Korean Movies &amp; TV Shows Online From Dramanice.eu.
-Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assistance.</description>
-    <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+    <summary>Dramanice</summary>
+    <description lang="en">Watch Your Favorite Korean Drama &amp; TV Shows Online From Dramanice.[CR][CR]Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assistance.[CR][CR]This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.[CR][CR]The author does not host any of the content in this addon and takes no responsibility for content found.</description>
+    <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+    <news>[B]3.3[/B][CR]Fix source.</news>
   </extension>
 </addon>
 
@@ -5087,7 +5090,7 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
 </addon>
 
-<addon id="plugin.video.arabcinema" name="Arab Cinema" version="1.2.0" provider-name="MG.Arabic">
+<addon id="plugin.video.arabcinema" name="Arab Cinema" version="1.2.1" provider-name="MG.Arabic">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="script.module.urlresolver" version="3.0.0" />
@@ -5580,18 +5583,20 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
 
 <addon
   id="plugin.video.SportsDevil"
-  version="2017.10.01"
+  version="2017.10.17.NL1017"
   name="SportsDevil"
-  provider-name="SportsDevil">
+  provider-name="MaxMustermann, Al101, Hubbab3, Jairox, Sattekop">
   <requires>
    <import addon="xbmc.python" version="2.14.0"/>
+   <import addon="repository.xvbmc" version="4.2"/>
    <import addon="script.module.dateutil" />
    <import addon="script.module.simplejson" />
    <import addon="script.module.six" />
    <import addon="script.module.requests" />
    <import addon="script.module.livestreamer" />
    <!-- <import addon="script.video.F4mProxy" /> -->
-   <!-- <import addon="plugin.video.f4mTester" /> -->
+   <!-- <import addon="plugin.video.f4mTester"/> -->
+   <!-- *broken* <import addon="repository.unofficialsportsdevil" version="1.0.0" optional="true"/> *broken* -->
   </requires>
   <extension 
     point="xbmc.python.pluginsource"
@@ -5600,15 +5605,24 @@ Please visit [COLOR orange]https://ares-project.uk[/COLOR] for support and assis
   </extension>
   <extension point="xbmc.service" library="service/proxy_service.py" start="startup" />
   <extension point="xbmc.addon.metadata">
-    <summary>Play videos of different ad-financed sports streaming sites</summary>
+    <summary>Play videos of different ad-financed sports streaming sites (XvBMC acts only as a mirror).</summary>
     <description>Play videos of different ad-financed sports streaming sites.
     
-SportsDevil does not provide any streams of its own; stream quality, content and copyright are responsibility of the ad-financed source web site.
+SportsDevil does not provide any streams of its own; stream quality, content and copyright are responsibility of the ad-financed source web site (XvBMC acts only as a mirror).
     
 For updates check the readme.
     </description>
+    <disclaimer>SportsDevil does not provide any streams of its own; stream quality, content and copyright are responsibility of the ad-financed source web site (XvBMC acts only as a mirror).</disclaimer>
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
     <platform>all</platform>
+    <forum>http://forums.koditips.com/index.php?topic=11.0</forum>
+    <website>http://forums.koditips.com/index.php?topic=11.0</website>
+    <source>http://forums.koditips.com/index.php?topic=11.0</source>
+    <news>version="2017.03.28.NL1017" (mirror@xvbmc)</news>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+  </assets>
   </extension>
 </addon>
 
@@ -6687,43 +6701,52 @@ For updates check the readme.
 	</extension>
 </addon>
 
-<addon id="plugin.video.saltsrd.lite" version="2.0.196MR" name="Salts RD Lite" provider-name="SALTs (EPiC XvBMC MOD)">
+<addon id="plugin.video.saltsrd.lite" version="2.0.233" name="Salts RD Lite" provider-name="XvBMC-NL">
     <requires>
         <import addon="xbmc.python" version="2.19.0"/>
-        <import addon="repository.xvbmc" version="4.0.2"/>							<!--	RD Lite			-->
-        <!--	<import addon="repository.tknorris.beta" version="1.0.5"/>					Stopped!!!		-->
-        <import addon="repository.k3l3vra" version="1.0.1" optional="true"/>		<!--	Stopped?!?		-->
-        <import addon="repository.Cypherslocker" version="1.0.2" optional="true"/>	<!--	New_takeover?!?	-->
-        <import addon="script.module.urlresolver" version="3.0.0"/>
-        <import addon="script.module.myconnpy" version="1.1.6" />
-        <import addon="script.module.tknorris.shared" version="0.0.19"/>
-        <import addon="script.module.six"/>
-        <import addon="script.module.dateutil"/>
-        <import addon="script.module.image_cache" version="0.0.8" optional="true"/>
+        <import addon="repository.xvbmc" version="4.2"/>                           <!--     RD Lite MOD     -->
+        <import addon="script.module.futures" version="2.2.0"/>                             <!--    NEW     -->
+        <import addon="script.module.metahandler" version="3.0.2" />                        <!--    NEW     -->
+        <import addon="script.module.pyxbmct" version="1.2.0"/>                             <!--    NEW     -->
+        <!--    <import addon="repository.tknorris.beta" version="1.0.5" optional="true"/>  !!stopped!!     -->
+        <!--    <import addon="repository.k3l3vra" version="1.0.1"/ optional="true"/>       !!stopped!!     -->
+        <!--    <import addon="repository.Cypherslocker" version="1.0.2"/ optional="true"/> !!stopped!!     -->
+        <import addon="script.module.dateutil" version="2.5.3"/>
+        <import addon="script.module.myconnpy" version="1.1.7"/>
+        <import addon="script.module.saltsrd.shared" version="0.0.23"/>  <!-- script.module.tknorris.shared -->
+        <import addon="script.module.six" version="1.9.0"/>
+        <import addon="script.module.urlresolver" version="4.0.07"/>
+        <!-- <import addon="script.module.image_cache" version="0.0.8" optional="true"/>    BROKEN !!!      -->
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
     </extension>
         <extension point="xbmc.service" library="service.py" start="startup"/>
     <extension point="xbmc.addon.metadata">
-        <summary>Stream video from many difference sources with EPiC SALTs RD Lite (RealDebrid)</summary>
-        <description>This is the MOD version of SALTs by EPiC -4- RealDebrid usage (als a big thx to: TKnorris/k3l3vra/Cypher).</description>
-        <disclaimer>MOD info @ http://bit.ly/XvBMC-NL (USE_AT_YOUR_OWN!_RISK!) ---> *C*R*E*D*I*T*S* TKnorris/k3l3vra/Cypher</disclaimer>
+        <summary>Stream video from many difference sources with XvBMC SALTs RD Lite (RealDebrid)</summary>
+        <description>This is the MOD version of SALTs by XvBMC -4- RealDebrid usage (also a big thx to: TKnorris/k3l3vra/Cypher/MR.Blamo)</description>
+        <disclaimer>MOD info @ http://bit.ly/XvBMC-NL (USE_AT_YOUR_OWN!_RISK!) ---> *C*R*E*D*I*T*S* TKnorris/k3l3vra/Cypher/MR.Blamo</disclaimer>
         <platform>all</platform>
         <license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
-		<forum>https://www.facebook.com/groups/XvBMCnederland/</forum>
+        <forum>https://www.facebook.com/groups/XvBMCnederland/</forum>
         <website>repository.xvbmc</website>
         <source>http://bit.ly/XvBMC-NL</source>
-        <news>[B]Version 2.0.196MR[/B]: Fixed Images Loading</news>
-		<assets>
-		  <icon>icon.png</icon>
-		  <fanart>fanart.jpg</fanart>
-		  <screenshot>resources/screenshots/screenshot1.png</screenshot>
-          <screenshot>resources/screenshots/screenshot2.png</screenshot>
-          <screenshot>resources/screenshots/screenshot3.png</screenshot>
-          <screenshot>resources/screenshots/screenshot4.png</screenshot>
-          <screenshot>resources/screenshots/screenshot5.png</screenshot>
-		</assets>
+        <news>[B]Version 2.0.233[/B]: VoOdOo</news>
+        <assets>
+          <icon>icon.png</icon>
+          <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="script.module.saltsrd.shared" name="Salts RD Lite - Common Libraries" version="0.0.23" provider-name="XvBMC-NL">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Credits -2- TKnorris</summary>
 	</extension>
 </addon>
 
@@ -8647,7 +8670,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
 	</extension>
 </addon>
 
-<addon id="plugin.video.1080pmovies_gw" name="1080p Movies" version="2.2.3" provider-name="Dandymedia">
+<addon id="plugin.video.1080pmovies_gw" name="1080p Movies" version="2.2.7" provider-name="Dandymedia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
@@ -9364,7 +9387,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
     </extension>
 </addon>
 
-<addon id="plugin.video.covenant" version="1.1.22" name="Covenant" provider-name="Covenant">
+<addon id="plugin.video.covenant" version="1.1.24" name="Covenant" provider-name="Covenant">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.covenant" />
@@ -9381,6 +9404,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
 		<summary lang="en">Covenant</summary>
 		<description lang="en">[I]A New Generation[/I][CR][CR][B]Covenant Movies and TV[/B][CR][CR]This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.[CR][CR]The author does not host any of the content in this addon and takes no responsibility for content found.</description>
 		<description lang="hr">[I]Nova generacija[/I][CR][CR][B]Covenant Filmova i TV serija[/B][CR][CR]Ovaj dodatak ne sadrži dijelove Kodi Medijskog Centra. Ne tažite pomoć za ovaj dodatak na službenim kanalima podrške za Kodi.[CR][CR]Autor ne posjeduje bilo kakav sadržaj u ovom dodatku i ne preuzima bilo kakvu odgovornost za pronađeni sadržaj.</description>
+		<description lang="he">[I]הדור החדש[/I][CR][CR][B]Covenant סרטים וסדרות[/B][CR][CR]ההרחבה הזו אינה חלק של Kodi Media Center. אנא אל תבקש עזרה עם ההרחבה זה מכל אחד מערוצי התמיכה הרשמיים של Kodi [CR][CR]. אין למחבר תוכן בהרחבה הזו והמחבר אינו אחראי לתוכן שנמצא.</description>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
 		<forum></forum>
@@ -9388,7 +9412,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
 		<source></source>
 		<disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
 		<disclaimer lang="hr">Autor ovog dodatka ne posjeduje bilo kakav sadržaj koji je pronađen i nije povezan sa bilo kojim izvorom sadržaja. Ovaj dodatak samo pretražuje sadržaj na web stranicama. Koristite ga na vlastitu odgovornost!</disclaimer>
-
+		<disclaimer lang="he">מחבר ההרחבה זה אינו מארח את התוכן שיתכן ויימצא ואין לו זיקה לאף אחד מספקי התוכן. הרחבה רק מחפשת תוכן שקיים באתרי אינטרנט. השימוש בהרחבה הוא על אחריותך בלבד!</disclaimer>
 		<assets>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
@@ -9412,7 +9436,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
 	</extension>
 </addon>
 
-<addon id="script.module.covenant" name="Covenant Module" version="1.00.012" provider-name="Covenant">
+<addon id="script.module.covenant" name="Covenant Module" version="1.00.014" provider-name="Covenant">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 	</requires>
@@ -9435,7 +9459,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
 	</extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="4.0.07" provider-name="Eldorado, tknorris, jsergio">
+<addon id="script.module.urlresolver" name="URLResolver" version="4.0.08" provider-name="Eldorado, tknorris, jsergio">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" optional="true" />
@@ -9447,7 +9471,9 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
 	<extension point="xbmc.addon.metadata">
 		<platform>all</platform>
 		<summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
+		<summary lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju.</summary>
 		<description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
+		<description lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj priključaka za video dodatke koji zahtjevaju višestruke video izvore.</description>
         <source>https://github.com/jsergio123/script.module.urlresolver</source>
 	</extension>
 </addon>
@@ -9470,7 +9496,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
     </extension>
 </addon>
 
-<addon id="plugin.video.picasso" name="[B][COLOR cyan]PICASSO[/COLOR][/B]" version="1.0.11" provider-name="Goliath/Slim">
+<addon id="plugin.video.picasso" name="[B][COLOR cyan]PICASSO[/COLOR][/B]" version="1.0.13" provider-name="Goliath/Slim">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.simplejson" version="0.0.1"/>
@@ -9486,13 +9512,13 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
         <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Picaso Addon</summary>
+    <summary lang="en">Picasso Addon</summary>
     <description lang="en">Any problems tweet me @Goliath_Evolve</description>
     <platform>all</platform>
   </extension>
 </addon>
 
-<addon id="repository.smash" name="[COLOR indigo][B]-[/B][/COLOR][COLOR gold][B]S[/B][/COLOR][COLOR indigo][B]M[/B][/COLOR][COLOR gold][B]A[/B][/COLOR][COLOR indigo][B]S[/B][/COLOR][COLOR gold][B]H[/B][/COLOR] [COLOR ghostwhite]Repo[/COLOR]" version="1.3.4" provider-name="SMASH">
+<addon id="repository.smash" name="[COLOR indigo][B]-[/B][/COLOR][COLOR gold][B]S[/B][/COLOR][COLOR indigo][B]M[/B][/COLOR][COLOR gold][B]A[/B][/COLOR][COLOR indigo][B]S[/B][/COLOR][COLOR gold][B]H[/B][/COLOR] [COLOR ghostwhite]Repo[/COLOR]" version="1.3.6" provider-name="SMASH">
 	<extension point="xbmc.addon.repository" name="SMASH Repo">
 	<dir>
         <info compressed="false">http://mediarepos.org/Repos/smashrepo/addons.xml</info>
@@ -9502,7 +9528,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Under This Repo, I Will Host Addons With No Home,Bring Life To Dead Addons That Are Fully Work, Link To Repos From Devs (This will install current version the Dev Has) </summary>
-		<description lang="en">ADDONS UNDER THIS SCRAPE THE NET, NO CONTENT IS HOSTED/DISTRIBUTED HERE, CONTACT WEBSITES IF WANT REMOVED [CR]Help With Server Cost Donate via [CR] BTC ADDRESS: 33PBm4UrL7ide58SMYTCgdMB5SoLBDo3hz [CR] [B]Smash Repo Change Log 1.3.0[/B] [CR] Added Some New Addons Time For Change People [CR] check for updates before going into vid addons</description>
+		<description lang="en">ADDONS UNDER THIS SCRAPE THE NET, NO CONTENT IS HOSTED/DISTRIBUTED HERE, CONTACT WEBSITES IF WANT REMOVED [CR]Help With Server Cost Donate via [CR]BTC ADDRESS: 33PBm4UrL7ide58SMYTCgdMB5SoLBDo3hz [CR] [B]Smash Repo Change Log 1.3.0[/B] [CR] Added Some New Addons Time For Change People [CR] check for updates before going into vid addons</description>
 		<platform>all</platform>
 		<forum></forum>
         <website></website>
@@ -9533,6 +9559,38 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
     </extension>
     <extension point="xbmc.service" library="library_service.py" start="login|startup">
     </extension>
+</addon>
+
+<addon id="plugin.video.bennu" name="Bennu" version="17.10.19" provider-name="Bennu">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+        <import addon="repository.colossus" /> 
+		<import addon="plugin.video.youtube" version="5.2.1" />
+		<import addon="script.module.covenant" />
+		<import addon="script.module.pyxbmct" version="1.1.4" />
+		<import addon="script.module.urlresolver" version="3.0.0"/>
+		<import addon="script.module.liveresolver" version="0.1.24"/>
+		<import addon="script.video.F4mProxy" version="2.2.3"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Bennu</summary>
+		<description lang="en">We Rise From The Ashes</description>
+		<description lang="hr">Podigli smo se iz pepela</description>
+		<platform>all</platform>
+		<forum></forum>
+		<website></website>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
+		</assets>
+		<news>release</news>
+	</extension>
 </addon>
 
 </addons>
