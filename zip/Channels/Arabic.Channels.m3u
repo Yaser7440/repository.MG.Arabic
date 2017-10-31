@@ -1,796 +1,683 @@
-#EXTINF:-1,beIN SPORTS NEWS HD
-http://abc.myplay.live:8000/live/1223/1223/4029.ts
-#EXTINF:-1,beIN SPORTS 1HD
-http://abc.myplay.live:8000/live/1223/1223/50.ts
-#EXTINF:-1,beIN SPORTS 1HD 4.MB
-http://abc.myplay.live:8000/live/1223/1223/4039.ts
-#EXTINF:-1,beIN SPORTS 2HD
-http://abc.myplay.live:8000/live/1223/1223/49.ts
-#EXTINF:-1,beIN SPORTS 2HD 4.MB
-http://abc.myplay.live:8000/live/1223/1223/4038.ts
-#EXTINF:-1,beIN SPORTS 3HD
-http://abc.myplay.live:8000/live/1223/1223/48.ts
-#EXTINF:-1,beIN SPORTS 3HD 4.MB
-http://abc.myplay.live:8000/live/1223/1223/4037.ts
-#EXTINF:-1,beIN SPORTS 4HD
-http://abc.myplay.live:8000/live/1223/1223/47.ts
-#EXTINF:-1,beIN SPORTS 4HD 4.MB
-http://abc.myplay.live:8000/live/1223/1223/4036.ts
-#EXTINF:-1,beIN SPORTS 5HD
-http://abc.myplay.live:8000/live/1223/1223/46.ts
-#EXTINF:-1,beIN SPORTS 5HD 4.MB
-http://abc.myplay.live:8000/live/1223/1223/4035.ts
-#EXTINF:-1,beIN SPORTS 6HD
-http://abc.myplay.live:8000/live/1223/1223/45.ts
-#EXTINF:-1,beIN SPORTS 6HD 4.MB
-http://abc.myplay.live:8000/live/1223/1223/4034.ts
-#EXTINF:-1,beIN SPORTS 7HD
-http://abc.myplay.live:8000/live/1223/1223/44.ts
-#EXTINF:-1,beIN SPORTS 7HD 4.MB
-http://abc.myplay.live:8000/live/1223/1223/4033.ts
-#EXTINF:-1,beIN SPORTS 8HD
-http://abc.myplay.live:8000/live/1223/1223/43.ts
-#EXTINF:-1,beIN SPORTS 8HD 4.MB
-http://abc.myplay.live:8000/live/1223/1223/4032.ts
-#EXTINF:-1,beIN SPORTS 9HD
-http://abc.myplay.live:8000/live/1223/1223/42.ts
-#EXTINF:-1,beIN SPORTS 9HD 4.MB
-http://abc.myplay.live:8000/live/1223/1223/4031.ts
-#EXTINF:-1,beIN SPORTS 10HD
-http://abc.myplay.live:8000/live/1223/1223/41.ts
-#EXTINF:-1,beIN SPORTS 10HD 4.MB
-http://abc.myplay.live:8000/live/1223/1223/4030.ts
-#EXTINF:-1,beIN SPORTS 11HD EN
-http://abc.myplay.live:8000/live/1223/1223/40.ts
-#EXTINF:-1,beIN SPORTS 12HD EN
-http://abc.myplay.live:8000/live/1223/1223/39.ts
-#EXTINF:-1,beIN SPORTS 13HD EN
-http://abc.myplay.live:8000/live/1223/1223/38.ts
-#EXTINF:-1,beIN SPORTS 14HD FR
-http://abc.myplay.live:8000/live/1223/1223/37.ts
-#EXTINF:-1,beIN SPORTS NBA
-http://abc.myplay.live:8000/live/1223/1223/28.ts
-#EXTINF:-1,beIN MAX 1HD
-http://abc.myplay.live:8000/live/1223/1223/2626.ts
-#EXTINF:-1,beIN MAX 2HD
-http://abc.myplay.live:8000/live/1223/1223/2627.ts
-#EXTINF:-1,||||||||  (   beIN MOVIES   )  ||||||||
-http://abc.myplay.live:8000/live/1223/1223/607.ts
-#EXTINF:-1,beIN MOVIES 1 HD
-http://abc.myplay.live:8000/live/1223/1223/33.ts
-#EXTINF:-1,beIN MOVIES 2 HD
-http://abc.myplay.live:8000/live/1223/1223/32.ts
-#EXTINF:-1,beIN MOVIES 3 HD
-http://abc.myplay.live:8000/live/1223/1223/31.ts
-#EXTINF:-1,beIN MOVIES 4 HD
-http://abc.myplay.live:8000/live/1223/1223/30.ts
-#EXTINF:-1,beIN Fox Movies HD
-http://abc.myplay.live:8000/live/1223/1223/27.ts
-#EXTINF:-1,beIN Fox Action Movies HD
-http://abc.myplay.live:8000/live/1223/1223/2914.ts
-#EXTINF:-1,beIN Fox Family Movies HD
-http://abc.myplay.live:8000/live/1223/1223/2915.ts
-#EXTINF:-1,beIN Star Movies HD
-http://abc.myplay.live:8000/live/1223/1223/29.ts
-#EXTINF:-1,beIN Star World HD
-http://abc.myplay.live:8000/live/1223/1223/14.ts
-#EXTINF:-1,beIN SERIES HD
-http://abc.myplay.live:8000/live/1223/1223/2695.ts
-#EXTINF:-1,||||||||( BeIN BoxOffice )||||||||
-http://abc.myplay.live:8000/live/1223/1223/2742.ts
-#EXTINF:-1,beIN Box Office 1HD
-http://abc.myplay.live:8000/live/1223/1223/2741.ts
-#EXTINF:-1,beIN Box Office 2HD
-http://abc.myplay.live:8000/live/1223/1223/2740.ts
-#EXTINF:-1,beIN Box Office 3HD
-http://abc.myplay.live:8000/live/1223/1223/2739.ts
-#EXTINF:-1,beIN Box Office 4HD
-http://abc.myplay.live:8000/live/1223/1223/2738.ts
-#EXTINF:-1,beIN Box Office 5HD
-http://abc.myplay.live:8000/live/1223/1223/2737.ts
-#EXTINF:-1,||||||||  (   beIN Ente    )  ||||||||
-http://abc.myplay.live:8000/live/1223/1223/612.ts
-#EXTINF:-1,beIN Fatafeat HD
-http://abc.myplay.live:8000/live/1223/1223/13.ts
-#EXTINF:-1,beIN Nat Geo Wild HD
-http://abc.myplay.live:8000/live/1223/1223/2.ts
-#EXTINF:-1,beIN Animal Planet HD
-http://abc.myplay.live:8000/live/1223/1223/6.ts
-#EXTINF:-1,beIN DMAX
-http://abc.myplay.live:8000/live/1223/1223/12.ts
-#EXTINF:-1,||||||||  (    beIN Kids    )  ||||||||
-http://abc.myplay.live:8000/live/1223/1223/613.ts
-#EXTINF:-1,beIN Jeem HD
-http://abc.myplay.live:8000/live/1223/1223/5.ts
-#EXTINF:-1,beIN beJunir
-http://abc.myplay.live:8000/live/1223/1223/2622.ts
-#EXTINF:-1,beIN Baraem
-http://abc.myplay.live:8000/live/1223/1223/19.ts
-#EXTINF:-1,beIN Baby Tv
-http://abc.myplay.live:8000/live/1223/1223/1528.ts
-#EXTINF:-1,|||||||| ( WWE ) ||||||||
-http://abc.myplay.live:8000/live/1223/1223/4103.ts
-#EXTINF:-1,OSN WWE Network HD
-http://abc.myplay.live:8000/live/1223/1223/83.ts
-#EXTINF:-1,WWE Smakdown HD
-http://abc.myplay.live:8000/live/1223/1223/4099.ts
-#EXTINF:-1,WWE RAW HD
-http://abc.myplay.live:8000/live/1223/1223/4101.ts
-#EXTINF:-1,WWE UFC HD
-http://abc.myplay.live:8000/live/1223/1223/4100.ts
-#EXTINF:-1,WWE  PPV HD
-http://abc.myplay.live:8000/live/1223/1223/4102.ts
-#EXTINF:-1,||||||||  (  AD Sport  )  ||||||||
-http://abc.myplay.live:8000/live/1223/1223/614.ts
-#EXTINF:-1,AR | AD Sports 1 HD
-http://abc.myplay.live:8000/live/1223/1223/948.ts
-#EXTINF:-1,AR | AD Sports 2 HD
-http://abc.myplay.live:8000/live/1223/1223/937.ts
-#EXTINF:-1,OSN AD Sport 3 HD
-http://abc.myplay.live:8000/live/1223/1223/116.ts
-#EXTINF:-1,OSN AD Sport 4 HD
-http://abc.myplay.live:8000/live/1223/1223/94.ts
-#EXTINF:-1,OSN AD Sport 5 HD
-http://abc.myplay.live:8000/live/1223/1223/84.ts
-#EXTINF:-1,OSN AD Sport 6 HD
-http://abc.myplay.live:8000/live/1223/1223/58.ts
-#EXTINF:-1,AR | MBC PRO SPORT 1 HD
-http://abc.myplay.live:8000/live/1223/1223/421.ts
-#EXTINF:-1,AR | MBC PRO SPORT 2 HD
-http://abc.myplay.live:8000/live/1223/1223/420.ts
-#EXTINF:-1,AR | MBC PRO SPORT 3 HD
-http://abc.myplay.live:8000/live/1223/1223/419.ts
-#EXTINF:-1,||||||||  ( OSN Sport )  ||||||||
-http://abc.myplay.live:8000/live/1223/1223/610.ts
-#EXTINF:-1,OSN Sport 1 HD
-http://abc.myplay.live:8000/live/1223/1223/104.ts
-#EXTINF:-1,OSN Sport 2HD
-http://abc.myplay.live:8000/live/1223/1223/103.ts
-#EXTINF:-1,OSN Sport 3HD
-http://abc.myplay.live:8000/live/1223/1223/102.ts
-#EXTINF:-1,OSN Sport 4HD
-http://abc.myplay.live:8000/live/1223/1223/101.ts
-#EXTINF:-1,OSN Sports Cricket HD
-http://abc.myplay.live:8000/live/1223/1223/105.ts
-#EXTINF:-1,OSN Ten Cricket International
-http://abc.myplay.live:8000/live/1223/1223/106.ts
-#EXTINF:-1,||||||||  (  OSN  Arabic  )  ||||||||
-http://abc.myplay.live:8000/live/1223/1223/609.ts
-#EXTINF:-1,OSN CINEMA 1
-http://abc.myplay.live:8000/live/1223/1223/100.ts
-#EXTINF:-1,OSN CINEMA 2
-http://abc.myplay.live:8000/live/1223/1223/99.ts
-#EXTINF:-1,OSN Series 1 HD
-http://abc.myplay.live:8000/live/1223/1223/81.ts
-#EXTINF:-1,OSN Series +2 HD
-http://abc.myplay.live:8000/live/1223/1223/119.ts
-#EXTINF:-1,OSN Yahala HD
-http://abc.myplay.live:8000/live/1223/1223/90.ts
-#EXTINF:-1,OSN Yahala Cinema HD
-http://abc.myplay.live:8000/live/1223/1223/115.ts
-#EXTINF:-1,OSN Yahala Oula HD
-http://abc.myplay.live:8000/live/1223/1223/2896.ts
-#EXTINF:-1,OSN Yahala Oula +2h
-http://abc.myplay.live:8000/live/1223/1223/69.ts
-#EXTINF:-1,OSN Series HD
-http://abc.myplay.live:8000/live/1223/1223/91.ts
-#EXTINF:-1,||||||||  (     ART     )  ||||||||
-http://abc.myplay.live:8000/live/1223/1223/708.ts
-#EXTINF:-1,OSN ART Aflam 1
-http://abc.myplay.live:8000/live/1223/1223/63.ts
-#EXTINF:-1,OSN ART Aflam 2
-http://abc.myplay.live:8000/live/1223/1223/62.ts
-#EXTINF:-1,OSN ART Cinema
-http://abc.myplay.live:8000/live/1223/1223/61.ts
-#EXTINF:-1,OSN ART HEKAYAT 1
-http://abc.myplay.live:8000/live/1223/1223/436.ts
-#EXTINF:-1,OSN ART HEKAYAT 2
-http://abc.myplay.live:8000/live/1223/1223/437.ts
-#EXTINF:-1,||||||||  (    OSN Factual     )  ||||||||
-http://abc.myplay.live:8000/live/1223/1223/714.ts
-#EXTINF:-1,OSN Animal Planet HD
-http://abc.myplay.live:8000/live/1223/1223/72.ts
-#EXTINF:-1,OSN Discovery HD
-http://abc.myplay.live:8000/live/1223/1223/380.ts
-#EXTINF:-1,OSN Discovery Family HD
-http://abc.myplay.live:8000/live/1223/1223/376.ts
-#EXTINF:-1,OSN Discovery Science HD
-http://abc.myplay.live:8000/live/1223/1223/369.ts
-#EXTINF:-1,OSN Nat Geo Wild HD
-http://abc.myplay.live:8000/live/1223/1223/71.ts
-#EXTINF:-1,OSN Nat Geo HD
-http://abc.myplay.live:8000/live/1223/1223/370.ts
-#EXTINF:-1,OSN Nat Geo People HD
-http://abc.myplay.live:8000/live/1223/1223/371.ts
-#EXTINF:-1,OSN History2 HD
-http://abc.myplay.live:8000/live/1223/1223/57.ts
-#EXTINF:-1,OSN Travel Channel
-http://abc.myplay.live:8000/live/1223/1223/55.ts
-#EXTINF:-1,OSN Crime & Investigation
-http://abc.myplay.live:8000/live/1223/1223/110.ts
-#EXTINF:-1,OSN IDX HD
-http://abc.myplay.live:8000/live/1223/1223/65.ts
-#EXTINF:-1,||||||||  (   OSN MOVIES   )  ||||||||
-http://abc.myplay.live:8000/live/1223/1223/608.ts
-#EXTINF:-1,OSN Movies HD
-http://abc.myplay.live:8000/live/1223/1223/98.ts
-#EXTINF:-1,OSN Movies HD+2h
-http://abc.myplay.live:8000/live/1223/1223/108.ts
-#EXTINF:-1,OSN Movies Action HD
-http://abc.myplay.live:8000/live/1223/1223/96.ts
-#EXTINF:-1,OSN Movies Thriller HD
-http://abc.myplay.live:8000/live/1223/1223/97.ts
-#EXTINF:-1,OSN Movies Thriller +2h
-http://abc.myplay.live:8000/live/1223/1223/107.ts
-#EXTINF:-1,OSN Movies Premiere HD
-http://abc.myplay.live:8000/live/1223/1223/95.ts
-#EXTINF:-1,OSN Movies First HD
-http://abc.myplay.live:8000/live/1223/1223/113.ts
-#EXTINF:-1,OSN Movies First+2 HD
-http://abc.myplay.live:8000/live/1223/1223/89.ts
-#EXTINF:-1,OSN Movies Festival HD
-http://abc.myplay.live:8000/live/1223/1223/93.ts
-#EXTINF:-1,OSN Movies Family HD
-http://abc.myplay.live:8000/live/1223/1223/114.ts
-#EXTINF:-1,OSN Movies Comedy HD
-http://abc.myplay.live:8000/live/1223/1223/92.ts
-#EXTINF:-1,OSN Movies Kids HD
-http://abc.myplay.live:8000/live/1223/1223/70.ts
-#EXTINF:-1,OSN First HBO
-http://abc.myplay.live:8000/live/1223/1223/78.ts
-#EXTINF:-1,OSN SERIES First HD
-http://abc.myplay.live:8000/live/1223/1223/79.ts
-#EXTINF:-1,OSN Star Movies HD
-http://abc.myplay.live:8000/live/1223/1223/87.ts
-#EXTINF:-1,OSN Star World HD
-http://abc.myplay.live:8000/live/1223/1223/86.ts
-#EXTINF:-1,||||||||  (    Box Office     )  ||||||||
-http://abc.myplay.live:8000/live/1223/1223/709.ts
-#EXTINF:-1,OSN Box Office 1 HD
-http://abc.myplay.live:8000/live/1223/1223/712.ts
-#EXTINF:-1,OSN Box Office 2 HD
-http://abc.myplay.live:8000/live/1223/1223/711.ts
-#EXTINF:-1,OSN Box Office 3 HD
-http://abc.myplay.live:8000/live/1223/1223/710.ts
-#EXTINF:-1,||||||||( OSN HomeCinema )||||||||
-http://abc.myplay.live:8000/live/1223/1223/2743.ts
-#EXTINF:-1,OSN HomeCinema 1HD
-http://abc.myplay.live:8000/live/1223/1223/2736.ts
-#EXTINF:-1,OSN HomeCinema 2HD
-http://abc.myplay.live:8000/live/1223/1223/2735.ts
-#EXTINF:-1,OSN HomeCinema 3HD
-http://abc.myplay.live:8000/live/1223/1223/2734.ts
-#EXTINF:-1,OSN HomeCinema 4HD
-http://abc.myplay.live:8000/live/1223/1223/2733.ts
-#EXTINF:-1,OSN HomeCinema 5HD
-http://abc.myplay.live:8000/live/1223/1223/2732.ts
-#EXTINF:-1,OSN HomeCinema 6HD
-http://abc.myplay.live:8000/live/1223/1223/2731.ts
-#EXTINF:-1,OSN HomeCinema 7HD
-http://abc.myplay.live:8000/live/1223/1223/2730.ts
-#EXTINF:-1,OSN HomeCinema 8HD
-http://abc.myplay.live:8000/live/1223/1223/2729.ts
-#EXTINF:-1,OSN HomeCinema 9HD
-http://abc.myplay.live:8000/live/1223/1223/2728.ts
-#EXTINF:-1,OSN HomeCinema 10HD
-http://abc.myplay.live:8000/live/1223/1223/2727.ts
-#EXTINF:-1,||||||||  ( OSN ENTR  )  ||||||||
-http://abc.myplay.live:8000/live/1223/1223/615.ts
-#EXTINF:-1,OSN Food Network HD
-http://abc.myplay.live:8000/live/1223/1223/109.ts
-#EXTINF:-1,OSN E! Entertainment HD
-http://abc.myplay.live:8000/live/1223/1223/389.ts
-#EXTINF:-1,OSN SYFYHD
-http://abc.myplay.live:8000/live/1223/1223/67.ts
-#EXTINF:-1,OSN H2 HD
-http://abc.myplay.live:8000/live/1223/1223/367.ts
-#EXTINF:-1,||||||||  (    GMA     )   ||||||||
-http://abc.myplay.live:8000/live/1223/1223/387.ts
-#EXTINF:-1,OSN TFC
-http://abc.myplay.live:8000/live/1223/1223/382.ts
-#EXTINF:-1,OSN Cinema One
-http://abc.myplay.live:8000/live/1223/1223/51.ts
-#EXTINF:-1,OSN CineMo
-http://abc.myplay.live:8000/live/1223/1223/379.ts
-#EXTINF:-1,OSN Kapatid TV5
-http://abc.myplay.live:8000/live/1223/1223/52.ts
-#EXTINF:-1,OSN ANC
-http://abc.myplay.live:8000/live/1223/1223/377.ts
-#EXTINF:-1,OSN AKSYON
-http://abc.myplay.live:8000/live/1223/1223/80.ts
-#EXTINF:-1,OSN VIVA
-http://abc.myplay.live:8000/live/1223/1223/372.ts
-#EXTINF:-1,OSN GMA News TV
-http://abc.myplay.live:8000/live/1223/1223/385.ts
-#EXTINF:-1,OSN GMA Pinoy TV
-http://abc.myplay.live:8000/live/1223/1223/384.ts
-#EXTINF:-1,OSN GMA Life TV
-http://abc.myplay.live:8000/live/1223/1223/381.ts
-#EXTINF:-1,OSN ABC-CBN
-http://abc.myplay.live:8000/live/1223/1223/2898.ts
-#EXTINF:-1,OSN DZMM
-http://abc.myplay.live:8000/live/1223/1223/2897.ts
-#EXTINF:-1,OSN MAX-TV
-http://abc.myplay.live:8000/live/1223/1223/2899.ts
-#EXTINF:-1,||||||||  (    OSN  Kids   )  ||||||||
-http://abc.myplay.live:8000/live/1223/1223/713.ts
-#EXTINF:-1,OSN Nickelodeon HD
-http://abc.myplay.live:8000/live/1223/1223/368.ts
-#EXTINF:-1,OSN Baby TV Europe
-http://abc.myplay.live:8000/live/1223/1223/374.ts
-#EXTINF:-1,OSN Disney XD
-http://abc.myplay.live:8000/live/1223/1223/88.ts
-#EXTINF:-1,OSN Disney Junior
-http://abc.myplay.live:8000/live/1223/1223/73.ts
-#EXTINF:-1,OSN Disney Channel
-http://abc.myplay.live:8000/live/1223/1223/383.ts
-#EXTINF:-1,OSN Nick Jr
-http://abc.myplay.live:8000/live/1223/1223/373.ts
-#EXTINF:-1,||||||||  ( OSN Music )  ||||||||
-http://abc.myplay.live:8000/live/1223/1223/990.ts
-#EXTINF:-1,OSN MTV Live HD
-http://abc.myplay.live:8000/live/1223/1223/112.ts
-#EXTINF:-1,OSN VH1
-http://abc.myplay.live:8000/live/1223/1223/53.ts
-#EXTINF:-1,OSN Music Now
-http://abc.myplay.live:8000/live/1223/1223/66.ts
-#EXTINF:-1,OSN ITV Choice HD
-http://abc.myplay.live:8000/live/1223/1223/68.ts
-#EXTINF:-1,||||||||(  myHD  )||||||||
-http://abc.myplay.live:8000/live/1223/1223/2696.ts
-#EXTINF:-1,myHD | MBC 1 HD
-http://abc.myplay.live:8000/live/1223/1223/2227.ts
-#EXTINF:-1,myHD | MBC 2 HD
-http://abc.myplay.live:8000/live/1223/1223/2226.ts
-#EXTINF:-1,myHD | MBC 3 HD
-http://abc.myplay.live:8000/live/1223/1223/2225.ts
-#EXTINF:-1,myHD | MBC 4 HD
-http://abc.myplay.live:8000/live/1223/1223/2224.ts
-#EXTINF:-1,myHD | MBC Drama HD
-http://abc.myplay.live:8000/live/1223/1223/2222.ts
-#EXTINF:-1,myHD | MBC Plus Drama HD
-http://abc.myplay.live:8000/live/1223/1223/2220.ts
-#EXTINF:-1,myHD | MBC Action HD
-http://abc.myplay.live:8000/live/1223/1223/2223.ts
-#EXTINF:-1,myHD | MBC MAX HD
-http://abc.myplay.live:8000/live/1223/1223/2221.ts
-#EXTINF:-1,myHD | MBC Variety HD
-http://abc.myplay.live:8000/live/1223/1223/2219.ts
-#EXTINF:-1,myHD | MBC Bollywood HD
-http://abc.myplay.live:8000/live/1223/1223/4043.ts
-#EXTINF:-1,myHD | MBC Sport Pro 1 HD
-http://abc.myplay.live:8000/live/1223/1223/2699.ts
-#EXTINF:-1,myHD | MBC Sport Pro 2 HD
-http://abc.myplay.live:8000/live/1223/1223/2698.ts
-#EXTINF:-1,myHD | SeeVii Al Aoula HD
-http://abc.myplay.live:8000/live/1223/1223/2515.ts
-#EXTINF:-1,myHD | SeeVii Doc HD
-http://abc.myplay.live:8000/live/1223/1223/2516.ts
-#EXTINF:-1,myHD | SeeVii Drama HD
-http://abc.myplay.live:8000/live/1223/1223/2517.ts
-#EXTINF:-1,myHD | SeeVii Shamiya HD
-http://abc.myplay.live:8000/live/1223/1223/2518.ts
-#EXTINF:-1,myHD | Baraem HD
-http://abc.myplay.live:8000/live/1223/1223/2725.ts
-#EXTINF:-1,myHD | Jeem channel HD
-http://abc.myplay.live:8000/live/1223/1223/2721.ts
-#EXTINF:-1,myHD | Fox Action Movies HD
-http://abc.myplay.live:8000/live/1223/1223/2718.ts
-#EXTINF:-1,myHD | Fox Family Movies HD
-http://abc.myplay.live:8000/live/1223/1223/2717.ts
-#EXTINF:-1,myHD | Fox Movies HD
-http://abc.myplay.live:8000/live/1223/1223/2716.ts
-#EXTINF:-1,myHD | H2 HD
-http://abc.myplay.live:8000/live/1223/1223/2715.ts
-#EXTINF:-1,myHD | AnniMaux
-http://abc.myplay.live:8000/live/1223/1223/2697.ts
-#EXTINF:-1,myHD | Extreme Sports
-http://abc.myplay.live:8000/live/1223/1223/2720.ts
-#EXTINF:-1,||||||||  ( Arabic CH )  ||||||||
-http://abc.myplay.live:8000/live/1223/1223/611.ts
-#EXTINF:-1,AR | MBC 1HD
-http://abc.myplay.live:8000/live/1223/1223/397.ts
-#EXTINF:-1,AR | MBC 2HD
-http://abc.myplay.live:8000/live/1223/1223/877.ts
-#EXTINF:-1,AR | MBC 3HD
-http://abc.myplay.live:8000/live/1223/1223/396.ts
-#EXTINF:-1,AR | MBC 4HD
-http://abc.myplay.live:8000/live/1223/1223/395.ts
-#EXTINF:-1,AR | MBC ACTION
-http://abc.myplay.live:8000/live/1223/1223/390.ts
-#EXTINF:-1,AR | MBC Bollywood
-http://abc.myplay.live:8000/live/1223/1223/391.ts
-#EXTINF:-1,AR | MBC Drama HD
-http://abc.myplay.live:8000/live/1223/1223/392.ts
-#EXTINF:-1,AR | MBC MASR
-http://abc.myplay.live:8000/live/1223/1223/394.ts
-#EXTINF:-1,AR | MBC MASR 2
-http://abc.myplay.live:8000/live/1223/1223/393.ts
-#EXTINF:-1,AR | MBC MAX
-http://abc.myplay.live:8000/live/1223/1223/1460.ts
-#EXTINF:-1,AR | CBC
-http://abc.myplay.live:8000/live/1223/1223/413.ts
-#EXTINF:-1,AR | CBC Drama
-http://abc.myplay.live:8000/live/1223/1223/411.ts
-#EXTINF:-1,AR | CBC Extra
-http://abc.myplay.live:8000/live/1223/1223/410.ts
-#EXTINF:-1,AR | CBC Sofra
-http://abc.myplay.live:8000/live/1223/1223/409.ts
-#EXTINF:-1,AR | Rotana Aflam
-http://abc.myplay.live:8000/live/1223/1223/1465.ts
-#EXTINF:-1,AR | Rotana Cinema
-http://abc.myplay.live:8000/live/1223/1223/1464.ts
-#EXTINF:-1,AR | Rotana Classic
-http://abc.myplay.live:8000/live/1223/1223/1463.ts
-#EXTINF:-1,AR | ROTANA CLIP
-http://abc.myplay.live:8000/live/1223/1223/430.ts
-#EXTINF:-1,AR | Rotana Khalijiah
-http://abc.myplay.live:8000/live/1223/1223/971.ts
-#EXTINF:-1,AR | Rotana Masriya
-http://abc.myplay.live:8000/live/1223/1223/1462.ts
-#EXTINF:-1,AR | Rotana Moussica
-http://abc.myplay.live:8000/live/1223/1223/969.ts
-#EXTINF:-1,AR | KTV ALArabi
-http://abc.myplay.live:8000/live/1223/1223/967.ts
-#EXTINF:-1,AR | ktv1HD
-http://abc.myplay.live:8000/live/1223/1223/888.ts
-#EXTINF:-1,AR | Kuwait 1 HD
-http://abc.myplay.live:8000/live/1223/1223/1476.ts
-#EXTINF:-1,AR | Kuwait 2
-http://abc.myplay.live:8000/live/1223/1223/1477.ts
-#EXTINF:-1,AR | Kuwait 3 Sport
-http://abc.myplay.live:8000/live/1223/1223/1478.ts
-#EXTINF:-1,AR | Kuwait 4 Sport pluse
-http://abc.myplay.live:8000/live/1223/1223/977.ts
-#EXTINF:-1,AR | Kuwait 6 AL Arabi
-http://abc.myplay.live:8000/live/1223/1223/1479.ts
-#EXTINF:-1,AR | ktv7-almagls
-http://abc.myplay.live:8000/live/1223/1223/976.ts
-#EXTINF:-1,AR | Kuwait 7 Almagls
-http://abc.myplay.live:8000/live/1223/1223/1480.ts
-#EXTINF:-1,AR | Kuwait 8 Plus
-http://abc.myplay.live:8000/live/1223/1223/1481.ts
-#EXTINF:-1,AR | ZEE AFLAM
-http://abc.myplay.live:8000/live/1223/1223/404.ts
-#EXTINF:-1,AR | ZEE ALWAN
-http://abc.myplay.live:8000/live/1223/1223/405.ts
-#EXTINF:-1,AR |  CBC+2
-http://abc.myplay.live:8000/live/1223/1223/412.ts
-#EXTINF:-1,AR | AL Mayadeen
-http://abc.myplay.live:8000/live/1223/1223/401.ts
-#EXTINF:-1,AR | Mekameleen TV
-http://abc.myplay.live:8000/live/1223/1223/880.ts
-#EXTINF:-1,AR |CINEMA PRO
-http://abc.myplay.live:8000/live/1223/1223/424.ts
-#EXTINF:-1,AR |  Dijlah
-http://abc.myplay.live:8000/live/1223/1223/942.ts
-#EXTINF:-1,AR |  Sirya TV
-http://abc.myplay.live:8000/live/1223/1223/422.ts
-#EXTINF:-1,AR |  STAR CINEMA 2
-http://abc.myplay.live:8000/live/1223/1223/426.ts
-#EXTINF:-1,AR | 2M Monde
-http://abc.myplay.live:8000/live/1223/1223/1501.ts
-#EXTINF:-1,AR | Al Rayyan TV 2
-http://abc.myplay.live:8000/live/1223/1223/918.ts
-#EXTINF:-1,AR | 4 SHABAB
-http://abc.myplay.live:8000/live/1223/1223/427.ts
-#EXTINF:-1,AR | Al Aoula Inter
-http://abc.myplay.live:8000/live/1223/1223/1497.ts
-#EXTINF:-1,AR | Saudi Sport 1
-http://abc.myplay.live:8000/live/1223/1223/957.ts
-#EXTINF:-1,AR | Abu Dabi 1
-http://abc.myplay.live:8000/live/1223/1223/1470.ts
-#EXTINF:-1,AR | AD Drama HD
-http://abc.myplay.live:8000/live/1223/1223/1471.ts
-#EXTINF:-1,AR | AD Emarat
-http://abc.myplay.live:8000/live/1223/1223/973.ts
-#EXTINF:-1,AR | NatGeo AbuDahbi
-http://abc.myplay.live:8000/live/1223/1223/1472.ts
-#EXTINF:-1,AR | Al Araby 2 HD
-http://abc.myplay.live:8000/live/1223/1223/965.ts
-#EXTINF:-1,AR | AJ Jazeera Ch
-http://abc.myplay.live:8000/live/1223/1223/1516.ts
-#EXTINF:-1,AR | Al Aoula Morroco
-http://abc.myplay.live:8000/live/1223/1223/876.ts
-#EXTINF:-1,AR | Al Arabiya
-http://abc.myplay.live:8000/live/1223/1223/962.ts
-#EXTINF:-1,AR | AL IRAQIA News
-http://abc.myplay.live:8000/live/1223/1223/952.ts
-#EXTINF:-1,AR | AL JADEED
-http://abc.myplay.live:8000/live/1223/1223/399.ts
-#EXTINF:-1,AR | Al Maghribia
-http://abc.myplay.live:8000/live/1223/1223/1500.ts
-#EXTINF:-1,AR | Al majd Kids
-http://abc.myplay.live:8000/live/1223/1223/1523.ts
-#EXTINF:-1,AR | AL MANAR
-http://abc.myplay.live:8000/live/1223/1223/1511.ts
-#EXTINF:-1,AR | RT Arab
-http://abc.myplay.live:8000/live/1223/1223/1507.ts
-#EXTINF:-1,AR | AlJazeera Doc
-http://abc.myplay.live:8000/live/1223/1223/1506.ts
-#EXTINF:-1,AR | Al NaharTV
-http://abc.myplay.live:8000/live/1223/1223/944.ts
-#EXTINF:-1,AR | Al Rai
-http://abc.myplay.live:8000/live/1223/1223/1505.ts
-#EXTINF:-1,AR | Al Rasheed TV
-http://abc.myplay.live:8000/live/1223/1223/1504.ts
-#EXTINF:-1,AR | SAUDI 1 HD
-http://abc.myplay.live:8000/live/1223/1223/1518.ts
-#EXTINF:-1,AR | AL SHARQIYA
-http://abc.myplay.live:8000/live/1223/1223/928.ts
-#EXTINF:-1,AR | Al Sumaria
-http://abc.myplay.live:8000/live/1223/1223/1502.ts
-#EXTINF:-1,AR | Al-NaharDrama
-http://abc.myplay.live:8000/live/1223/1223/924.ts
-#EXTINF:-1,AR | Alanwar TV
-http://abc.myplay.live:8000/live/1223/1223/1522.ts
-#EXTINF:-1,AR | Alanwar 2 TV
-http://abc.myplay.live:8000/live/1223/1223/949.ts
-#EXTINF:-1,AR |  KARBALA TV
-http://abc.myplay.live:8000/live/1223/1223/4098.ts
-#EXTINF:-1,AR | Al-Resalah
-http://abc.myplay.live:8000/live/1223/1223/900.ts
-#EXTINF:-1,AR | IQRAA
-http://abc.myplay.live:8000/live/1223/1223/930.ts
-#EXTINF:-1,AR | ALEKHBARIA ALSORIYAH
-http://abc.myplay.live:8000/live/1223/1223/1512.ts
-#EXTINF:-1,AR | Ajial
-http://abc.myplay.live:8000/live/1223/1223/921.ts
-#EXTINF:-1,AR | alkout
-http://abc.myplay.live:8000/live/1223/1223/925.ts
-#EXTINF:-1,AR | AlMagharibia
-http://abc.myplay.live:8000/live/1223/1223/898.ts
-#EXTINF:-1,AR | AlRasheedTV
-http://abc.myplay.live:8000/live/1223/1223/905.ts
-#EXTINF:-1,AR | ALSHARJAH
-http://abc.myplay.live:8000/live/1223/1223/1503.ts
-#EXTINF:-1,AR | Arabica TV
-http://abc.myplay.live:8000/live/1223/1223/1509.ts
-#EXTINF:-1,AR | Space toon
-http://abc.myplay.live:8000/live/1223/1223/955.ts
-#EXTINF:-1,AR | Assadissa
-http://abc.myplay.live:8000/live/1223/1223/947.ts
-#EXTINF:-1,AR | B4U AFLAM
-http://abc.myplay.live:8000/live/1223/1223/1487.ts
-#EXTINF:-1,AR | B4U PLUS
-http://abc.myplay.live:8000/live/1223/1223/1486.ts
-#EXTINF:-1,AR | Baraem Europe
-http://abc.myplay.live:8000/live/1223/1223/945.ts
-#EXTINF:-1,AR | Aljazeera Mubasher
-http://abc.myplay.live:8000/live/1223/1223/1517.ts
-#EXTINF:-1,AR | BBC Arabic
-http://abc.myplay.live:8000/live/1223/1223/887.ts
-#EXTINF:-1,AR | beIN JEEM Europe
-http://abc.myplay.live:8000/live/1223/1223/1524.ts
-#EXTINF:-1,AR | CIMA TV
-http://abc.myplay.live:8000/live/1223/1223/1482.ts
-#EXTINF:-1,AR | Dubai AlOula
-http://abc.myplay.live:8000/live/1223/1223/403.ts
-#EXTINF:-1,AR | Dubai Racing 1
-http://abc.myplay.live:8000/live/1223/1223/1467.ts
-#EXTINF:-1,AR | Dubai Racing 2
-http://abc.myplay.live:8000/live/1223/1223/956.ts
-#EXTINF:-1,AR | Dubai Sports 3
-http://abc.myplay.live:8000/live/1223/1223/1468.ts
-#EXTINF:-1,AR | Dubai Zaman
-http://abc.myplay.live:8000/live/1223/1223/1474.ts
-#EXTINF:-1,AR | Panorama Drama
-http://abc.myplay.live:8000/live/1223/1223/2864.ts
-#EXTINF:-1,AR | Panorama Drama 2
-http://abc.myplay.live:8000/live/1223/1223/2863.ts
-#EXTINF:-1,AR | Panorama Film
-http://abc.myplay.live:8000/live/1223/1223/2862.ts
-#EXTINF:-1,AR | Tunisie 1
-http://abc.myplay.live:8000/live/1223/1223/2857.ts
-#EXTINF:-1,AR | Tunisie 2
-http://abc.myplay.live:8000/live/1223/1223/2858.ts
-#EXTINF:-1,AR | Nile Cinema
-http://abc.myplay.live:8000/live/1223/1223/2085.ts
-#EXTINF:-1,AR | Nile Culture
-http://abc.myplay.live:8000/live/1223/1223/2084.ts
-#EXTINF:-1,AR | Nile Drama
-http://abc.myplay.live:8000/live/1223/1223/2083.ts
-#EXTINF:-1,AR | Nile Family
-http://abc.myplay.live:8000/live/1223/1223/2082.ts
-#EXTINF:-1,AR | Nile Life
-http://abc.myplay.live:8000/live/1223/1223/2081.ts
-#EXTINF:-1,AR | Nile News
-http://abc.myplay.live:8000/live/1223/1223/2080.ts
-#EXTINF:-1,AR | Nile TV
-http://abc.myplay.live:8000/live/1223/1223/2078.ts
-#EXTINF:-1,AR | Nile Sport
-http://abc.myplay.live:8000/live/1223/1223/2079.ts
-#EXTINF:-1,AR | Halaba
-http://abc.myplay.live:8000/live/1223/1223/4042.ts
-#EXTINF:-1,KUR | Ronahi TV
-http://abc.myplay.live:8000/live/1223/1223/1484.ts
-#EXTINF:-1,KUR | Rudaw TV
-http://abc.myplay.live:8000/live/1223/1223/1475.ts
-#EXTINF:-1,KUR | Med-Muzik
-http://abc.myplay.live:8000/live/1223/1223/1469.ts
-#EXTINF:-1,KUR | Gali Kurdistan
-http://abc.myplay.live:8000/live/1223/1223/2865.ts
-#EXTINF:-1,KUR | Kurdsat News SD
-http://abc.myplay.live:8000/live/1223/1223/2866.ts
-#EXTINF:-1,KUR | Speda
-http://abc.myplay.live:8000/live/1223/1223/2868.ts
-#EXTINF:-1,SU | Somalil and National TV
-http://abc.myplay.live:8000/live/1223/1223/909.ts
-#EXTINF:-1,FR | BEIN SPORT 1HD
-http://abc.myplay.live:8000/live/1223/1223/688.ts
-#EXTINF:-1,FR | BEIN SPORT 2HD
-http://abc.myplay.live:8000/live/1223/1223/689.ts
-#EXTINF:-1,FR | BEIN SPORT 3HD
-http://abc.myplay.live:8000/live/1223/1223/690.ts
-#EXTINF:-1,FR | CANAL CINEMA HD
-http://abc.myplay.live:8000/live/1223/1223/681.ts
-#EXTINF:-1,FR | CANAL DECALE
-http://abc.myplay.live:8000/live/1223/1223/675.ts
-#EXTINF:-1,FR | CANAL FAMILY HD
-http://abc.myplay.live:8000/live/1223/1223/680.ts
-#EXTINF:-1,FR | CANAL HD
-http://abc.myplay.live:8000/live/1223/1223/674.ts
-#EXTINF:-1,FR | CANAL SPORT HD
-http://abc.myplay.live:8000/live/1223/1223/692.ts
-#EXTINF:-1,FR | Cartoon Network
-http://abc.myplay.live:8000/live/1223/1223/703.ts
-#EXTINF:-1,FR | CINE Classic HD
-http://abc.myplay.live:8000/live/1223/1223/686.ts
-#EXTINF:-1,FR | CINE EMOTION
-http://abc.myplay.live:8000/live/1223/1223/684.ts
-#EXTINF:-1,FR | CINE FAMIZ
-http://abc.myplay.live:8000/live/1223/1223/683.ts
-#EXTINF:-1,FR | CINE FRISSON HD
-http://abc.myplay.live:8000/live/1223/1223/685.ts
-#EXTINF:-1,FR | CINE PREMIER HD
-http://abc.myplay.live:8000/live/1223/1223/682.ts
-#EXTINF:-1,FR | COMEDIE
-http://abc.myplay.live:8000/live/1223/1223/706.ts
-#EXTINF:-1,FR | Discovery Science HD
-http://abc.myplay.live:8000/live/1223/1223/698.ts
-#EXTINF:-1,FR | Disney Channel
-http://abc.myplay.live:8000/live/1223/1223/702.ts
-#EXTINF:-1,FR | Disney Channel 1 HD
-http://abc.myplay.live:8000/live/1223/1223/701.ts
-#EXTINF:-1,FR | DISNEY CINEMA HD
-http://abc.myplay.live:8000/live/1223/1223/700.ts
-#EXTINF:-1,FR | DisneyXD HD
-http://abc.myplay.live:8000/live/1223/1223/699.ts
-#EXTINF:-1,FR | EURO SPORT 2
-http://abc.myplay.live:8000/live/1223/1223/691.ts
-#EXTINF:-1,FR | FRANCE 24HD
-http://abc.myplay.live:8000/live/1223/1223/670.ts
-#EXTINF:-1,FR | FRANCE 2HD
-http://abc.myplay.live:8000/live/1223/1223/672.ts
-#EXTINF:-1,FR | FRANCE 3HD
-http://abc.myplay.live:8000/live/1223/1223/671.ts
-#EXTINF:-1,FR | FRANCE 4 HD
-http://abc.myplay.live:8000/live/1223/1223/765.ts
-#EXTINF:-1,FR | FR FRANCE 5 HD
-http://abc.myplay.live:8000/live/1223/1223/764.ts
-#EXTINF:-1,FR | HISTOIRE HD
-http://abc.myplay.live:8000/live/1223/1223/696.ts
-#EXTINF:-1,FR | M6 Music HD
-http://abc.myplay.live:8000/live/1223/1223/669.ts
-#EXTINF:-1,FR | MTV Hits HD
-http://abc.myplay.live:8000/live/1223/1223/704.ts
-#EXTINF:-1,FR | NAT GEO WILD HD
-http://abc.myplay.live:8000/live/1223/1223/694.ts
-#EXTINF:-1,FR | NATIONAL Geo GRAPHIC
-http://abc.myplay.live:8000/live/1223/1223/693.ts
-#EXTINF:-1,FR | Ocs Choc HD
-http://abc.myplay.live:8000/live/1223/1223/678.ts
-#EXTINF:-1,FR | OCS CITY HD
-http://abc.myplay.live:8000/live/1223/1223/677.ts
-#EXTINF:-1,FR | Ocs Max HD
-http://abc.myplay.live:8000/live/1223/1223/676.ts
-#EXTINF:-1,FR | PIWI HD
-http://abc.myplay.live:8000/live/1223/1223/667.ts
-#EXTINF:-1,FR | PLANETE CI HD
-http://abc.myplay.live:8000/live/1223/1223/697.ts
-#EXTINF:-1,FR | PLANETE_A&E_HD
-http://abc.myplay.live:8000/live/1223/1223/695.ts
-#EXTINF:-1,FR | SERIE CLUB HD
-http://abc.myplay.live:8000/live/1223/1223/687.ts
-#EXTINF:-1,FR | Serie HD
-http://abc.myplay.live:8000/live/1223/1223/679.ts
-#EXTINF:-1,FR | TF1 HD
-http://abc.myplay.live:8000/live/1223/1223/766.ts
-#EXTINF:-1,FR | USHUAIA TV
-http://abc.myplay.live:8000/live/1223/1223/673.ts
-#EXTINF:-1,FR | W9
-http://abc.myplay.live:8000/live/1223/1223/668.ts
-#EXTINF:-1,FR | WEO
-http://abc.myplay.live:8000/live/1223/1223/705.ts
-#EXTINF:-1,FR: CANALPLAY1
-http://tv2iptv.com:8000/live/pierre/12345678/5374.ts
-#EXTINF:-1,FR: CANALPLAY10
-http://tv2iptv.com:8000/live/pierre/12345678/5382.ts
-#EXTINF:-1,FR: CANALPLAY11
-http://tv2iptv.com:8000/live/pierre/12345678/5383.ts
-#EXTINF:-1,FR: CANALPLAY12
-http://tv2iptv.com:8000/live/pierre/12345678/5384.ts
-#EXTINF:-1,FR: CANALPLAY13
-http://tv2iptv.com:8000/live/pierre/12345678/5385.ts
-#EXTINF:-1,FR: CANALPLAY14
-http://tv2iptv.com:8000/live/pierre/12345678/5386.ts
-#EXTINF:-1,FR: CANALPLAY2
-http://tv2iptv.com:8000/live/pierre/12345678/5375.ts
-#EXTINF:-1,FR: CANALPLAY3
-http://tv2iptv.com:8000/live/pierre/12345678/5376.ts
-#EXTINF:-1,FR: CANALPLAY4
-http://tv2iptv.com:8000/live/pierre/12345678/5377.ts
-#EXTINF:-1,FR: CANALPLAY5
-http://tv2iptv.com:8000/live/pierre/12345678/5378.ts
-#EXTINF:-1,FR: CANALPLAY7
-http://tv2iptv.com:8000/live/pierre/12345678/5379.ts
-#EXTINF:-1,FR: CANALPLAY8
-http://tv2iptv.com:8000/live/pierre/12345678/5380.ts
-#EXTINF:-1,FR: CANALPLAY9
-http://tv2iptv.com:8000/live/pierre/12345678/5381.ts
-#EXTINF:-1,FR: FRANCE2
-http://tv2iptv.com:8000/live/pierre/12345678/5369.ts
-#EXTINF:-1,FR: FRANCE3
-http://tv2iptv.com:8000/live/pierre/12345678/5370.ts
-#EXTINF:-1,FR: FRANCE4
-http://tv2iptv.com:8000/live/pierre/12345678/5371.ts
-#EXTINF:-1,FR: FRANCE5
-http://tv2iptv.com:8000/live/pierre/12345678/5372.ts
-#EXTINF:-1,FR: PIWI
-http://tv2iptv.com:8000/live/pierre/12345678/5373.ts
-#EXTINF:-1,FR::6ter_hd
-http://tv2iptv.com:8000/live/pierre/12345678/7451.ts
-#EXTINF:-1,FR::ALACARTE-1
-http://tv2iptv.com:8000/live/pierre/12345678/7477.ts
-#EXTINF:-1,FR::ALACARTE-10
-http://tv2iptv.com:8000/live/pierre/12345678/7468.ts
-#EXTINF:-1,FR::ALACARTE-2
-http://tv2iptv.com:8000/live/pierre/12345678/7476.ts
-#EXTINF:-1,FR::ALACARTE-3
-http://tv2iptv.com:8000/live/pierre/12345678/7475.ts
-#EXTINF:-1,FR::ALACARTE-4
-http://tv2iptv.com:8000/live/pierre/12345678/7474.ts
-#EXTINF:-1,FR::ALACARTE_5
-http://tv2iptv.com:8000/live/pierre/12345678/7473.ts
-#EXTINF:-1,FR::ALACARTE_6
-http://tv2iptv.com:8000/live/pierre/12345678/7472.ts
-#EXTINF:-1,FR::ALACARTE_7
-http://tv2iptv.com:8000/live/pierre/12345678/7471.ts
-#EXTINF:-1,FR::ALACARTE_8
-http://tv2iptv.com:8000/live/pierre/12345678/7470.ts
-#EXTINF:-1,FR::ALACARTE_9
-http://tv2iptv.com:8000/live/pierre/12345678/7469.ts
-#EXTINF:-1,FR::ANIMAUX_HD
-http://tv2iptv.com:8000/live/pierre/12345678/7450.ts
-#EXTINF:-1,FR::ARTE_HD
-http://tv2iptv.com:8000/live/pierre/12345678/7449.ts
-#EXTINF:-1,FR::CANAL DECALE
-http://tv2iptv.com:8000/live/pierre/12345678/7448.ts
-#EXTINF:-1,FR::CANAL FAMILY
-http://tv2iptv.com:8000/live/pierre/12345678/7447.ts
-#EXTINF:-1,FR::CANAL SERIES
-http://tv2iptv.com:8000/live/pierre/12345678/7446.ts
-#EXTINF:-1,FR::CANALPLAY-1
-http://tv2iptv.com:8000/live/pierre/12345678/7467.ts
-#EXTINF:-1,FR::CANALPLAY-10
-http://tv2iptv.com:8000/live/pierre/12345678/7458.ts
-#EXTINF:-1,FR::CANALPLAY-11
-http://tv2iptv.com:8000/live/pierre/12345678/7457.ts
-#EXTINF:-1,FR::CANALPLAY-12
-http://tv2iptv.com:8000/live/pierre/12345678/7456.ts
-#EXTINF:-1,FR::CANALPLAY-13
-http://tv2iptv.com:8000/live/pierre/12345678/7455.ts
-#EXTINF:-1,FR::CANALPLAY-14
-http://tv2iptv.com:8000/live/pierre/12345678/7454.ts
-#EXTINF:-1,FR::CANALPLAY-15
-http://tv2iptv.com:8000/live/pierre/12345678/7453.ts
-#EXTINF:-1,FR::CANALPLAY-16
-http://tv2iptv.com:8000/live/pierre/12345678/7452.ts
-#EXTINF:-1,FR::CANALPLAY-2
-http://tv2iptv.com:8000/live/pierre/12345678/7466.ts
-#EXTINF:-1,FR::CANALPLAY-3
-http://tv2iptv.com:8000/live/pierre/12345678/7465.ts
-#EXTINF:-1,FR::CANALPLAY-4
-http://tv2iptv.com:8000/live/pierre/12345678/7464.ts
-#EXTINF:-1,FR::CANALPLAY-5
-http://tv2iptv.com:8000/live/pierre/12345678/7463.ts
+#EXTM3U
+#EXTINF:-1,▁ ▂ ▄ ▅ ▆☆ARABIC CHANNEL☆▆ ▅ ▄ ▂ ▁
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/348.ts
+#EXTINF:-1,------|NEWS|------
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/347.ts
+#EXTINF:-1,GeantSat.com > AR:AL Arabiya *
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/346.ts
+#EXTINF:-1,GeantSat.com > AR:AL Jazeera Arabic Live *
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/345.ts
+#EXTINF:-1,GeantSat.com > AR:AL Jazeera Mubasher *
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/344.ts
+#EXTINF:-1,GeantSat.com > AR:AL MANAR lbn *
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/343.ts
+#EXTINF:-1,GeantSat.com > AR:AL Mayadeen lbn *
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/342.ts
+#EXTINF:-1,GeantSat.com > AR:BBC Arabic *
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/341.ts
+#EXTINF:-1,GeantSat.com > AR:DW ARABIC *
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/340.ts
+#EXTINF:-1,GeantSat.com > AR:Extranews *
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/339.ts
+#EXTINF:-1,GeantSat.com > AR:France24 *
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/338.ts
+#EXTINF:-1,GeantSat.com > AR:ON live msr *
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/337.ts
+#EXTINF:-1,GeantSat.com > AR:RT Arabic (Russia Today) *
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/336.ts
+#EXTINF:-1,GeantSat.com > AR:Saudi EL EKHBARIA *
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/335.ts
+#EXTINF:-1,------|DOCUMENT|------
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/334.ts
+#EXTINF:-1,GeantSat.com > AR:AD NATIONAL GEO
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/333.ts
+#EXTINF:-1,GeantSat.com > AR:AL Jazeera Documentary *
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/332.ts
+#EXTINF:-1,------|ISLAMIC|------
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/331.ts
+#EXTINF:-1,GeantSat.com > AR:AL Majd3
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/330.ts
+#EXTINF:-1,GeantSat.com > AR:AL Rahma
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/329.ts
+#EXTINF:-1,GeantSat.com > AR:AL Resalah
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/328.ts
+#EXTINF:-1,GeantSat.com > AR:AL SUNNA NABAWIYA *
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/327.ts
+#EXTINF:-1,GeantSat.com > AR:IQRAA
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/326.ts
+#EXTINF:-1,GeantSat.com > AR:SAUDI QURAN *
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/325.ts
+#EXTINF:-1,GeantSat.com > AR:TAYBA TV
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/324.ts
+#EXTINF:-1,------|MBC|------
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/323.ts
+#EXTINF:-1,GeantSat.com > AR:MBC 1 HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/322.ts
+#EXTINF:-1,GeantSat.com > AR:MBC 2 HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/321.ts
+#EXTINF:-1,GeantSat.com > AR:MBC 3 HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/320.ts
+#EXTINF:-1,GeantSat.com > AR:MBC 4 HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/319.ts
+#EXTINF:-1,GeantSat.com > AR:MBC ACTION HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/318.ts
+#EXTINF:-1,GeantSat.com > AR:MBC PROSPORT 1 HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/317.ts
+#EXTINF:-1,GeantSat.com > AR:MBC PROSPORT 2 HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/316.ts
+#EXTINF:-1,------|SPORT|------
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/315.ts
+#EXTINF:-1,GeantSat.com > AR:ABU DHABI SPORT 1
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/314.ts
+#EXTINF:-1,GeantSat.com > AR:ABU DHABI SPORT 2
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/313.ts
+#EXTINF:-1,GeantSat.com > AR:ALKASS1 HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/312.ts
+#EXTINF:-1,GeantSat.com > AR:ALKASS2 HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/311.ts
+#EXTINF:-1,GeantSat.com > AR:AL Sharjah SPORTS
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/310.ts
+#EXTINF:-1,GeantSat.com > AR:Kuwait Sport PLUS *
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/309.ts
+#EXTINF:-1,GeantSat.com > AR:Kuwait Sport TV *
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/308.ts
+#EXTINF:-1,GeantSat.com > AR:ON Sport HD *
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/307.ts
+#EXTINF:-1,GeantSat.com > AR:SAUDI SPORT *
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/306.ts
+#EXTINF:-1,------|IRAQ|------
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/305.ts
+#EXTINF:-1,GeantSat.com > AR:IRQ-AFAQ TV *
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/304.ts
+#EXTINF:-1,GeantSat.com > AR:IRQ-Aghanina
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/303.ts
+#EXTINF:-1,GeantSat.com > AR:IRQ-AL BAGHDADIA (Baghdad) *
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/302.ts
+#EXTINF:-1,GeantSat.com > AR:IRQ-AL Fallujah *
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/301.ts
+#EXTINF:-1,GeantSat.com > AR:IRQ-AL HURRA IRAQ
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/300.ts
+#EXTINF:-1,GeantSat.com > AR:IRQ-AL SHARQIA NEWS
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/299.ts
+#EXTINF:-1,GeantSat.com > AR:IRQ-AL SHARQIA TV
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/298.ts
+#EXTINF:-1,GeantSat.com > AR:IRQ-AlMasar Aloula *
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/297.ts
+#EXTINF:-1,GeantSat.com > AR:IRQ-ANB TV *
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/296.ts
+#EXTINF:-1,GeantSat.com > AR:IRQ-IRAQI Sport *
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/295.ts
+#EXTINF:-1,GeantSat.com > AR:IRQ-IRAQIA
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/294.ts
+#EXTINF:-1,GeantSat.com > AR:IRQ-Ishtar TV *
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/293.ts
+#EXTINF:-1,GeantSat.com > AR:IRQ-Samarra tv *
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/292.ts
+#EXTINF:-1,------|SYRIE|------
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/291.ts
+#EXTINF:-1,GeantSat.com > AR:SR-AL IKHBARIYA SYRIA NEWS *
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/290.ts
+#EXTINF:-1,GeantSat.com > AR:SR-NABD SYRIA TV
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/289.ts
+#EXTINF:-1,GeantSat.com > AR:SR-ORIENT NEWS
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/288.ts
+#EXTINF:-1,GeantSat.com > AR:SR-SAMA SYRIA *
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/287.ts
+#EXTINF:-1,GeantSat.com > AR:SR-SYRIA ALAOULA *
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/286.ts
+#EXTINF:-1,GeantSat.com > AR:SR-SYRIA DRAMA *
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/285.ts
+#EXTINF:-1,GeantSat.com > AR:SR-SYRIA EDUCATION (el tarbaouia) *
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/284.ts
+#EXTINF:-1,GeantSat.com > AR:SR-SYRIA SOUYANA
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/283.ts
+#EXTINF:-1,------|MAROC|------
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/282.ts
+#EXTINF:-1,GeantSat.com > AR:MR-2M
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/281.ts
+#EXTINF:-1,GeantSat.com > AR:MR-Almaghribia el-Ekhbaria
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/280.ts
+#EXTINF:-1,GeantSat.com > AR:MR-Magharibia 1
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/279.ts
+#EXTINF:-1,GeantSat.com > AR:MR-Magharibia 2
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/278.ts
+#EXTINF:-1,GeantSat.com > AR:MR-Medi 1 Sat
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/277.ts
+#EXTINF:-1,GeantSat.com > AR:MR-Arriadia
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/276.ts
+#EXTINF:-1,GeantSat.com > AR:MR-Al Oula
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/275.ts
+#EXTINF:-1,GeantSat.com > AR:MR-Arrabiaa
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/274.ts
+#EXTINF:-1,GeantSat.com > AR:MR-Assadissa
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/273.ts
+#EXTINF:-1,GeantSat.com > AR:MR-Tamazight
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/272.ts
+#EXTINF:-1,------|TUNISIE|------
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/271.ts
+#EXTINF:-1,GeantSat.com > AR:TN-Aljanoubia
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/270.ts
+#EXTINF:-1,GeantSat.com > AR:TN-Attessia *
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/269.ts
+#EXTINF:-1,GeantSat.com > AR:TN-ElHiwar Ettounsi
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/268.ts
+#EXTINF:-1,GeantSat.com > AR:TN-Hannibal
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/267.ts
+#EXTINF:-1,GeantSat.com > AR:TN-M TUNISIA
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/266.ts
+#EXTINF:-1,GeantSat.com > AR:TN-NESSMA
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/265.ts
+#EXTINF:-1,GeantSat.com > AR:TN-Tunisna
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/264.ts
+#EXTINF:-1,GeantSat.com > AR:TN-Tunisia Nat1
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/263.ts
+#EXTINF:-1,GeantSat.com > AR:TN-Tunisia First
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/262.ts
+#EXTINF:-1,GeantSat.com > AR:TN-Tunisia Nat2
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/261.ts
+#EXTINF:-1,GeantSat.com > AR:TN-Zaytouna Hidaya
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/260.ts
+#EXTINF:-1,------|ALGERIEN|------
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/259.ts
+#EXTINF:-1,GeantSat.com > AR:DZ-ENTV (PROGRAMME NATIONAL)
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/258.ts
+#EXTINF:-1,GeantSat.com > AR:DZ-Algerie 1(Canal Algerie)
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/257.ts
+#EXTINF:-1,GeantSat.com > AR:DZ-Algerie 3
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/256.ts
+#EXTINF:-1,GeantSat.com > AR:DZ-ALGERIAN4 amazight
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/255.ts
+#EXTINF:-1,GeantSat.com > AR:DZ-Echourook
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/254.ts
+#EXTINF:-1,GeantSat.com > AR:DZ-Echourook News
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/253.ts
+#EXTINF:-1,GeantSat.com > AR:DZ-Echourook Beena
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/252.ts
+#EXTINF:-1,GeantSat.com > AR:DZ-ELNAHAR ALG
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/251.ts
+#EXTINF:-1,GeantSat.com > AR:DZ-ENNAHAR LAKI
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/250.ts
+#EXTINF:-1,GeantSat.com > AR:DZ-EL Biled
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/249.ts
+#EXTINF:-1,GeantSat.com > AR:DZ-KBC Algerie
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/248.ts
+#EXTINF:-1,GeantSat.com > AR:DZ-Dzaier TV
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/247.ts
+#EXTINF:-1,GeantSat.com > AR:DZ-EL Djazairia
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/246.ts
+#EXTINF:-1,GeantSat.com > AR:DZ-El Heddaf
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/245.ts
+#EXTINF:-1,GeantSat.com > AR:DZ-Beur Tv
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/244.ts
+#EXTINF:-1,GeantSat.com > AR:DZ-NUMIDIA TV NEWS
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/243.ts
+#EXTINF:-1,GeantSat.com > AR:DZ-SAMIRA TV
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/242.ts
+#EXTINF:-1,▁ ▂ ▄ ▅ ▆☆FRENICE☆▆ ▅ ▄ ▂ ▁
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/241.ts
+#EXTINF:-1,GeantSat.com > FR:CANAL  HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/240.ts
+#EXTINF:-1,GeantSat.com > FR:CANAL CINEMA HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/239.ts
+#EXTINF:-1,GeantSat.com > FR:CANAL DECALE HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/238.ts
+#EXTINF:-1,GeantSat.com > FR:CANAL FAMILY HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/237.ts
+#EXTINF:-1,GeantSat.com > FR:CANAL SERIE HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/236.ts
+#EXTINF:-1,GeantSat.com > FR:CANAL SPORT HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/235.ts
+#EXTINF:-1,GeantSat.com > FR:CINE CLASSIC
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/234.ts
+#EXTINF:-1,GeantSat.com > FR:CINE EMOTION HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/233.ts
+#EXTINF:-1,GeantSat.com > FR:CINE FAMIZ HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/232.ts
+#EXTINF:-1,GeantSat.com > FR:CINE FRISSON HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/231.ts
+#EXTINF:-1,GeantSat.com > FR:CINE FX
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/230.ts
+#EXTINF:-1,GeantSat.com > FR:CINE POLAR HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/229.ts
+#EXTINF:-1,GeantSat.com > FR:CINE PREMIER HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/228.ts
+#EXTINF:-1,GeantSat.com > FR:OCS CHOC HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/227.ts
+#EXTINF:-1,GeantSat.com > FR:OCS CITY HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/226.ts
+#EXTINF:-1,GeantSat.com > FR:OCS Geants HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/225.ts
+#EXTINF:-1,GeantSat.com > FR:OCS MAX HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/224.ts
+#EXTINF:-1,▁ ▂ ▄ ▅ ▆☆BIEN FR HD☆▆ ▅ ▄ ▂ ▁
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/223.ts
+#EXTINF:-1,GeantSat.com > FR:Bein_Sport.1
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/222.ts
+#EXTINF:-1,GeantSat.com > FR:Bein_Sport.2
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/221.ts
+#EXTINF:-1,GeantSat.com > FR:Bein_Sport.3
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/220.ts
+#EXTINF:-1,▁ ▂ ▄ ▅ ▆☆FR_SPORT HD☆▆ ▅ ▄ ▂ ▁
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/219.ts
+#EXTINF:-1,GeantSat.com > FR:SFR_SPORT_1 HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/218.ts
+#EXTINF:-1,GeantSat.com > FR:SFR_SPORT_2 HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/217.ts
+#EXTINF:-1,GeantSat.com > FR:SFR.SPORT_3 HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/216.ts
+#EXTINF:-1,GeantSat.com > FR:SFR_SPORT_5 HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/215.ts
+#EXTINF:-1,▁ ▂ ▄ ▅ ▆☆SKY GERMANY☆▆ ▅ ▄ ▂ ▁
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/214.ts
+#EXTINF:-1,GeantSat.com > DE:Sky_Cinema
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/213.ts
+#EXTINF:-1,GeantSat.com > DE:Sky_Cinema 1
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/212.ts
+#EXTINF:-1,GeantSat.com > DE:Sky_Cinema 24
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/211.ts
+#EXTINF:-1,GeantSat.com > DE:Sky_Cinema_Action
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/210.ts
+#EXTINF:-1,GeantSat.com > DE:Sky_Cinema_Comedy
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/209.ts
+#EXTINF:-1,GeantSat.com > DE:Sky_Cinema_Emotion
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/208.ts
+#EXTINF:-1,GeantSat.com > DE:Sky_Cinema_Family
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/207.ts
+#EXTINF:-1,GeantSat.com > DE:Sky_Cinema_Hits
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/206.ts
+#EXTINF:-1,GeantSat.com > DE:Sky_Cinema_Nostalgie
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/205.ts
+#EXTINF:-1,GeantSat.com > DE:Sky_Sport.1
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/204.ts
+#EXTINF:-1,GeantSat.com > DE:Sky_Sport.2
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/203.ts
+#EXTINF:-1,GeantSat.com > DE:Sky_Sport_Austria
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/202.ts
+#EXTINF:-1,GeantSat.com > DE:Sky_Sport_Fanzone
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/201.ts
+#EXTINF:-1,GeantSat.com > DE:Sky_Sport_News
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/200.ts
+#EXTINF:-1,▁ ▂ ▄ ▅ ▆☆UNITED KINGDOM☆▆ ▅ ▄ ▂ ▁
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/199.ts
+#EXTINF:-1,GeantSat.com > UK:EIR SPORT 1
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/198.ts
+#EXTINF:-1,GeantSat.com > UK:EIR SPORT 2
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/197.ts
+#EXTINF:-1,GeantSat.com > UK:SKY-Sport-1-HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/196.ts
+#EXTINF:-1,GeantSat.com > UK:SKY-Sport-2-HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/195.ts
+#EXTINF:-1,GeantSat.com > UK:SKY-Sport-3-HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/194.ts
+#EXTINF:-1,GeantSat.com > UK:SKY-Sport-4-HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/193.ts
+#EXTINF:-1,GeantSat.com > UK:SKY-Sport-5-HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/192.ts
+#EXTINF:-1,GeantSat.com > UK:Sky_1
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/191.ts
+#EXTINF:-1,GeantSat.com > UK:Sky_2
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/190.ts
+#EXTINF:-1,GeantSat.com > UK:Sky_Atlantic
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/189.ts
+#EXTINF:-1,GeantSat.com > UK:Sky_Living
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/188.ts
+#EXTINF:-1,GeantSat.com > UK:Sky_Movies_Action
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/187.ts
+#EXTINF:-1,GeantSat.com > UK:Sky_Movies_Drama
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/186.ts
+#EXTINF:-1,GeantSat.com > UK:Sky_Movies_Family
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/185.ts
+#EXTINF:-1,GeantSat.com > UK:Sky_Movies_Greats
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/184.ts
+#EXTINF:-1,GeantSat.com > UK:Sky_Movies_Premiere
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/183.ts
+#EXTINF:-1,GeantSat.com > UK:Sky_Movies_ScFi-Horror
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/182.ts
+#EXTINF:-1,GeantSat.com > UK:Sky_Movies_Select
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/181.ts
+#EXTINF:-1,▁ ▂ ▄ ▅ ▆☆SKY IT☆▆ ▅ ▄ ▂ ▁
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/180.ts
+#EXTINF:-1,GeantSat.com > IT:Premium-Action
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/179.ts
+#EXTINF:-1,GeantSat.com > IT:Premium-Action 24
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/178.ts
+#EXTINF:-1,GeantSat.com > IT:Premium-Cinema
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/177.ts
+#EXTINF:-1,GeantSat.com > IT:Premium-Cinema 2
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/176.ts
+#EXTINF:-1,GeantSat.com > IT:Premium-Cinema 24
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/175.ts
+#EXTINF:-1,GeantSat.com > IT:Sky Cinema 1 HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/174.ts
+#EXTINF:-1,GeantSat.com > IT:Sky Cinema Classic HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/173.ts
+#EXTINF:-1,GeantSat.com > IT:Sky Cinema Comedy HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/172.ts
+#EXTINF:-1,GeantSat.com > IT:Sky Cinema Cult HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/171.ts
+#EXTINF:-1,GeantSat.com > IT:Sky Cinema Family HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/170.ts
+#EXTINF:-1,GeantSat.com > IT:Sky Sport 24
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/169.ts
+#EXTINF:-1,GeantSat.com > IT:Sky Sports 1
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/168.ts
+#EXTINF:-1,GeantSat.com > IT:Sky Sports 2
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/167.ts
+#EXTINF:-1,GeantSat.com > IT:Sky Sports 3
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/166.ts
+#EXTINF:-1,▁ ▂ ▄ ▅ ▆☆PORTUGAL☆▆ ▅ ▄ ▂ ▁
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/165.ts
+#EXTINF:-1,GeantSat.com > PT:Sportv HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/164.ts
+#EXTINF:-1,GeantSat.com > PT:SPORT TV 1 HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/163.ts
+#EXTINF:-1,GeantSat.com > PT:SPORT TV 2 HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/162.ts
+#EXTINF:-1,GeantSat.com > PT:SPORT TV 3 HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/161.ts
+#EXTINF:-1,GeantSat.com > PT:SPORT TV 4 HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/160.ts
+#EXTINF:-1,GeantSat.com > PT:SPORT TV 5 HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/159.ts
+#EXTINF:-1,GeantSat.com > PT:TV CINE 1 HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/158.ts
+#EXTINF:-1,GeantSat.com > PT:TV CINE 2 HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/157.ts
+#EXTINF:-1,GeantSat.com > PT:TV CINE 3 HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/156.ts
+#EXTINF:-1,GeantSat.com > PT:TV CINE 4 HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/155.ts
+#EXTINF:-1,▁ ▂ ▄ ▅ ▆☆BIEN ARABIC HD☆▆ ▅ ▄ ▂ ▁
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/154.ts
+#EXTINF:-1,GeantSat.com > AR:Bein-Sports-News *
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/153.ts
+#EXTINF:-1,GeantSat.com > AR_beIN_Sports1_HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/152.ts
+#EXTINF:-1,GeantSat.com > AR_beIN_Sports2_HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/151.ts
+#EXTINF:-1,GeantSat.com > AR_beIN_Sports3_HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/150.ts
+#EXTINF:-1,GeantSat.com > AR_beIN_Sports4_HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/149.ts
+#EXTINF:-1,GeantSat.com > AR_beIN_Sports5_HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/148.ts
+#EXTINF:-1,GeantSat.com > AR_beIN_Sports6_HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/147.ts
+#EXTINF:-1,GeantSat.com > AR_beIN_Sports7_HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/146.ts
+#EXTINF:-1,GeantSat.com > AR_beIN_Sports8_HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/145.ts
+#EXTINF:-1,GeantSat.com > AR_beIN_Sports9_HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/144.ts
+#EXTINF:-1,GeantSat.com > AR_beIN_Sports10_HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/143.ts
+#EXTINF:-1,GeantSat.com > AR:BeIN_Movies_1HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/142.ts
+#EXTINF:-1,GeantSat.com > AR:BeIN_Movies_2HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/141.ts
+#EXTINF:-1,GeantSat.com > AR:BeIN_Movies_3HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/140.ts
+#EXTINF:-1,GeantSat.com > AR:BeIN_Movies_4HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/139.ts
+#EXTINF:-1,------|BeIN Sport SD|------
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/138.ts
+#EXTINF:-1,GeantSat.com > AR:Bein Sport 1 SD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/137.ts
+#EXTINF:-1,GeantSat.com > AR:Bein Sport 2 SD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/136.ts
+#EXTINF:-1,GeantSat.com > AR:Bein Sport 3 SD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/135.ts
+#EXTINF:-1,GeantSat.com > AR:Bein Sport 4 SD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/134.ts
+#EXTINF:-1,GeantSat.com > AR:Bein Sport 5 SD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/133.ts
+#EXTINF:-1,GeantSat.com > AR:Bein Sport 6 SD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/132.ts
+#EXTINF:-1,GeantSat.com > AR:Bein Sport 7 SD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/131.ts
+#EXTINF:-1,GeantSat.com > AR:Bein Sport 8 SD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/130.ts
+#EXTINF:-1,GeantSat.com > AR:Bein Sport 9 SD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/129.ts
+#EXTINF:-1,GeantSat.com > AR:Bein Sport 10 SD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/128.ts
+#EXTINF:-1,▁ ▂ ▄ ▅ ▆☆INDIA☆▆ ▅ ▄ ▂ ▁
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/120.ts
+#EXTINF:-1,GeantSat.com > IND:ZEE ACTION
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/119.ts
+#EXTINF:-1,GeantSat.com > IND:ZEE CINEMA
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/118.ts
+#EXTINF:-1,GeantSat.com > IND:ZEE NEWS
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/117.ts
+#EXTINF:-1,GeantSat.com > IND:ZEE PUNJABI
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/116.ts
+#EXTINF:-1,GeantSat.com > IND:ZEE TELGU
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/115.ts
+#EXTINF:-1,GeantSat.com > IND:ZEE TV
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/114.ts
+#EXTINF:-1,GeantSat.com > IND:ZEE ZINDAGI
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/113.ts
+#EXTINF:-1,▁ ▂ ▄ ▅ ▆☆NETHERLAND HD☆▆ ▅ ▄ ▂ ▁
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/112.ts
+#EXTINF:-1,GeantSat.com > NL:Fox_Sport.1
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/111.ts
+#EXTINF:-1,GeantSat.com > NL:fox_Sport.2
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/110.ts
+#EXTINF:-1,GeantSat.com > NL:fox_Sport.3
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/109.ts
+#EXTINF:-1,GeantSat.com > NL:fox_Sport.4
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/108.ts
+#EXTINF:-1,GeantSat.com > NL:Fox_Sport.5
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/107.ts
+#EXTINF:-1,GeantSat.com > NL:Fox_Sport.6
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/106.ts
+#EXTINF:-1,▁ ▂ ▄ ▅ ▆☆TURK CHANNEL☆▆ ▅ ▄ ▂ ▁
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/105.ts
+#EXTINF:-1,GeantSat.com > TR:BEIN BOX OFFICE 1 HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/104.ts
+#EXTINF:-1,GeantSat.com > TR:BEIN BOX OFFICE 2 HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/103.ts
+#EXTINF:-1,GeantSat.com > TR:BEIN BOX OFFICE 3 HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/102.ts
+#EXTINF:-1,GeantSat.com > TR:beIN SPORTS 1 HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/101.ts
+#EXTINF:-1,GeantSat.com > TR:beIN SPORTS 2 HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/100.ts
+#EXTINF:-1,GeantSat.com > TR:beIN SPORTS 3 HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/99.ts
+#EXTINF:-1,GeantSat.com > TR:beIN SPORTS 4 HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/98.ts
+#EXTINF:-1,GeantSat.com > TR:FILMBOX AKSIYON
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/97.ts
+#EXTINF:-1,GeantSat.com > TR:FILMBOX AKSIYON 2
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/96.ts
+#EXTINF:-1,GeantSat.com > TR:MovieSmart Action HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/95.ts
+#EXTINF:-1,GeantSat.com > TR:MovieSmart Gold HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/94.ts
+#EXTINF:-1,▁ ▂ ▄ ▅ ▆☆ LATINO* CHANNEL ☆▆ ▅ ▄ ▂ ▁
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/93.ts
+#EXTINF:-1,GeantSat.com > LATINO*:1 CLASSICS
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/92.ts
+#EXTINF:-1,GeantSat.com > LATINO*:AZTECA CINEMA
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/91.ts
+#EXTINF:-1,GeantSat.com > LATINO*:AZTECA MUNDO
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/90.ts
+#EXTINF:-1,GeantSat.com > LATINO*:AZTECA NOTICIAS
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/89.ts
+#EXTINF:-1,GeantSat.com > LATINO*:DISCOVERY CHANNEL
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/88.ts
+#EXTINF:-1,GeantSat.com > LATINO*:DISCOVERY CIVILIZATION
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/87.ts
+#EXTINF:-1,GeantSat.com > LATINO*:DISNEY CHANNEL
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/86.ts
+#EXTINF:-1,GeantSat.com > LATINO*:ESPN
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/85.ts
+#EXTINF:-1,GeantSat.com > LATINO*:ESPN 2
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/84.ts
+#EXTINF:-1,GeantSat.com > LATINO*:ESPN 3
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/83.ts
+#EXTINF:-1,GeantSat.com > LATINO*:FOX ACTION
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/82.ts
+#EXTINF:-1,GeantSat.com > LATINO*:FOX CINEMA
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/81.ts
+#EXTINF:-1,GeantSat.com > LATINO*:FOX CLASSIC
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/80.ts
+#EXTINF:-1,GeantSat.com > LATINO*:FOX LIFE
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/79.ts
+#EXTINF:-1,GeantSat.com > LATINO*:FOX MOVIES
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/78.ts
+#EXTINF:-1,GeantSat.com > LATINO*:FOX SPORT 1
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/77.ts
+#EXTINF:-1,GeantSat.com > LATINO*:FOX SPORT 2
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/76.ts
+#EXTINF:-1,▁_▂_▄_▅_▆☆BRASIL_CHANNELS☆▆_▅_▄_▂_▁
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/75.ts
+#EXTINF:-1,GeantSat.com > BR:Band News
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/74.ts
+#EXTINF:-1,GeantSat.com > BR:Band Sports
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/73.ts
+#EXTINF:-1,GeantSat.com > BR:Discovery Brasil
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/72.ts
+#EXTINF:-1,GeantSat.com > BR:Eimaxx 1 Sport
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/71.ts
+#EXTINF:-1,GeantSat.com > BR:Eimaxx 2 Sport
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/70.ts
+#EXTINF:-1,GeantSat.com > BR:ESPN
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/69.ts
+#EXTINF:-1,GeantSat.com > BR:Fox Brasil
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/68.ts
+#EXTINF:-1,GeantSat.com > BR:Fox Life Brasil
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/67.ts
+#EXTINF:-1,GeantSat.com > BR:FOX SPORTS 1
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/66.ts
+#EXTINF:-1,GeantSat.com > BR:FOX SPORTS 2
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/65.ts
+#EXTINF:-1,GeantSat.com > BR:HBO 2 Brasil
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/64.ts
+#EXTINF:-1,GeantSat.com > BR:HBO Brasil
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/63.ts
+#EXTINF:-1,GeantSat.com > BR:Premiere 2
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/62.ts
+#EXTINF:-1,GeantSat.com > BR:Premiere 3
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/61.ts
+#EXTINF:-1,GeantSat.com > BR:SPORTV 1
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/60.ts
+#EXTINF:-1,GeantSat.com > BR:SPORTV 2
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/59.ts
+#EXTINF:-1,GeantSat.com > BR:SPORTV 3
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/58.ts
+#EXTINF:-1,▁ ▂ ▄ ▅ ▆☆BULGARIE CHANNEL☆▆ ▅ ▄ ▂ ▁
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/57.ts
+#EXTINF:-1,GeantSat.com > BULG:Action Plus HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/56.ts
+#EXTINF:-1,GeantSat.com > BULG:BNT HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/55.ts
+#EXTINF:-1,GeantSat.com > BULG:bTV HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/54.ts
+#EXTINF:-1,GeantSat.com > BULG:Bulgaria 24
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/53.ts
+#EXTINF:-1,GeantSat.com > BULG:Bulgaria On Air
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/52.ts
+#EXTINF:-1,GeantSat.com > BULG:Cinema Plus
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/51.ts
+#EXTINF:-1,GeantSat.com > BULG:Cinemax HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/50.ts
+#EXTINF:-1,GeantSat.com > BULG:Diema Family
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/49.ts
+#EXTINF:-1,GeantSat.com > BULG:Diema Sport 1 HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/48.ts
+#EXTINF:-1,GeantSat.com > BULG:Diema Sport 2 HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/47.ts
+#EXTINF:-1,GeantSat.com > BULG:Diema TV
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/46.ts
+#EXTINF:-1,GeantSat.com > BULG:FOX HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/45.ts
+#EXTINF:-1,GeantSat.com > BULG:Fox Life HD
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/44.ts
+#EXTINF:-1,▁ ▂ ▄ ▅ ▆☆EX-YU CHANNEL☆▆ ▅ ▄ ▂ ▁
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/43.ts
+#EXTINF:-1,▂ ▄ ☆☆ Serbia ☆☆▄ ▂
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/42.ts
+#EXTINF:-1,GeantSat.com > EX-YU_SR: Arena Sport 1 (SR)
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/41.ts
+#EXTINF:-1,GeantSat.com > EX-YU_SR: Arena Sport 2 (SR)
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/40.ts
+#EXTINF:-1,GeantSat.com > EX-YU_SR: Arena Sport 3 (SR)
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/39.ts
+#EXTINF:-1,GeantSat.com > EX-YU_SR: Arena Sport 4 (SR)
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/38.ts
+#EXTINF:-1,GeantSat.com > EX-YU_SR: Sport Klub 1 (SR)
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/37.ts
+#EXTINF:-1,GeantSat.com > EX-YU_SR: Sport Klub 2 (SR)
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/36.ts
+#EXTINF:-1,GeantSat.com > EX-YU_SR: Sport Klub 3 (SR)
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/35.ts
+#EXTINF:-1,GeantSat.com > EX-YU_SR: Sport Klub 4 (SR)
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/34.ts
+#EXTINF:-1,▂ ▄ ☆☆ Croatia ☆☆▄ ▂
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/33.ts
+#EXTINF:-1,GeantSat.com > EX-YU_CR: Arena Sport 1 (HR)
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/32.ts
+#EXTINF:-1,GeantSat.com > EX-YU_CR: Arena Sport 2 (HR)
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/31.ts
+#EXTINF:-1,GeantSat.com > EX-YU_CR: Arena Sport 3 (HR)
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/30.ts
+#EXTINF:-1,GeantSat.com > EX-YU_CR: Arena Sport 4 (HR)
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/29.ts
+#EXTINF:-1,GeantSat.com > EX-YU_CR: Arena Sport 5 (HR)
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/28.ts
+#EXTINF:-1,GeantSat.com > EX-YU_CR: Sport Klub 1 (HR)
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/27.ts
+#EXTINF:-1,GeantSat.com > EX-YU_CR: Sport Klub 2 (HR)
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/26.ts
+#EXTINF:-1,GeantSat.com > EX-YU_CR: Sport Klub 3 (HR)
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/25.ts
+#EXTINF:-1,▂ ▄ ☆☆ BOSNIA AND HERSEK ☆☆▄ ▂
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/24.ts
+#EXTINF:-1,GeantSat.com > EX-YU_BIH: A1 ISLAM (BiH)
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/23.ts
+#EXTINF:-1,GeantSat.com > EX-YU_BIH: A1 SPORT (BiH)
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/22.ts
+#EXTINF:-1,▁ ▂ ▄ ▅ ▆☆SCANDINAVIAN CHANNELS☆▆ ▅ ▄ ▂ ▁
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/21.ts
+#EXTINF:-1,▂ ▄ ☆☆ Danemark ☆☆▄ ▂
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/20.ts
+#EXTINF:-1,GeantSat.com > DK_SC:3 Plus
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/19.ts
+#EXTINF:-1,GeantSat.com > DK_SC:C More Emotion
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/18.ts
+#EXTINF:-1,GeantSat.com > DK_SC:C More First
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/17.ts
+#EXTINF:-1,GeantSat.com > DK_SC:C MORE HITS
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/16.ts
+#EXTINF:-1,GeantSat.com > DK_SC:C MORE SERIES
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/15.ts
+#EXTINF:-1,GeantSat.com > DK_SC:C MORE SPORT
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/14.ts
+#EXTINF:-1,GeantSat.com > DK_SC:C MORE STARS
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/13.ts
+#EXTINF:-1,▁ ▂ ▄ ▅ ▆☆ AFRIQUE CHANNELS ☆▆ ▅ ▄ ▂ ▁
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/12.ts
+#EXTINF:-1,GeantSat.com > AF:Adom TV *
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/11.ts
+#EXTINF:-1,GeantSat.com > AF:Africa24 *
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/10.ts
+#EXTINF:-1,GeantSat.com > AF:africanews (en français) *
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/9.ts
+#EXTINF:-1,GeantSat.com > AF:africanews (In english) *
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/8.ts
+#EXTINF:-1,GeantSat.com > AF:Channels Television *
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/7.ts
+#EXTINF:-1,GeantSat.com > AF:Ebru TV KENYA *
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/6.ts
+#EXTINF:-1,GeantSat.com > AF:Joy News *
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/5.ts
+#EXTINF:-1,GeantSat.com > AF:KBC Channel1 *
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/4.ts
+#EXTINF:-1,GeantSat.com > AF:KTN News *
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/3.ts
+#EXTINF:-1,GeantSat.com > AF:NTV Kenya *
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/2.ts
+#EXTINF:-1,GeantSat.com > AF:SIKKA TV *
+http://freeiptv.geantsat.com:56666/live/free-geantsat1544/29g10fgf2017fgvSSZ/1.ts
