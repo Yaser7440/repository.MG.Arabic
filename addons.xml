@@ -337,29 +337,76 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.genesis" name="Genesis"  version="2017.04.12.1" provider-name="mrknow Edit by MG.Arabic" >
+<addon id="script.module.genesis" name="Genesis Module" version="1.00.021" provider-name="Genesis">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
-		<import addon="script.module.requests" />
-		<import addon="script.module.metahandler" />
-		<import addon="plugin.video.youtube" optional="true" />
-		<import addon="script.mrknow.urlresolver" />
-		<import addon="script.specto.media" />
-
 	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Genesis</summary>
+	</extension>
+</addon>
+
+<addon id="script.genesis.artwork" version="1.0.7" name="Genesis Artwork" provider-name="Genesis">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Themes for the Genesis Addon</summary>
+		<description></description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="script.genesis.metadata" version="1.0.2" name="Genesis Metadata" provider-name="Genesis">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Metadata for the Genesis Addon</summary>
+		<description>Metadata for Genesis are maintained separately to make distribution of the the addon itself easier/faster.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="plugin.video.genesis" version="2017.11.04" name="Genesis" provider-name="Genesis">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="script.module.genesis" />
+		<import addon="script.genesis.artwork" version="1.0.0" />
+		<import addon="script.genesis.metadata" version="1.0.0" />
+		<import addon="script.module.urlresolver" version="3.0.0" />
+		<import addon="script.module.metahandler" version="1.0.0" />
+		<!-- <import addon="plugin.program.indigo" /> -->
+		<!-- <import addon="repository.exodus" /> -->
+		<!-- <import addon="repository.xbmchub" /> -->
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="genesis.py">
 		<provides>video</provides>
 	</extension>
 	<extension point="xbmc.service" library="service.py" start="startup" />
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Mrknow fork of ...</summary>
-		<description lang="en">Specto - ... Fork. Website http://filmkodi.com . Our suport forum https://github.com/mrknow/filmkodi/issues.</description>
-		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.
-		</disclaimer>
-		<forum>https://github.com/mrknow/filmkodi/issues</forum>
-		<source>http://filmkodi.com/repository/</source>
-		<website>http://filmkodi.com/en/wtyczka-specto-fork-genesis/</website>
+		<summary lang="en">Genesis</summary>
+		<description lang="en">Please visit [COLOR blue]www.tvaddons.co[/COLOR] for Genesis support and assistance! Kindly note that Genesis is not an official part of the media player you are running, and therefore not to be mentioned within official support channels, this addon has nothing to do with the media player itself, nor it’s intended use, it is simply a third party plugin which has been added to your system.</description>
+		<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+		<description lang="de">Bitte besuche [COLOR blue]www.tvaddons.co[/COLOR] für Unterstützung und Fragen zu Genesis! Beachte dabei, dass Genesis nicht offizieller Teil des Media Players ist den du gerade verwendest und daher nicht von dem offiziellen Support-Kanäle abgedeckt wird, dieses Addon hat nichts zu tun mit dem Media-Player selbst, noch ist es dafür beabsichtigt, es handelt sich hierbei lediglich um ein Drittanbieter-Anwendung die dem System hinzugefügt wurde.</description>
+		<disclaimer lang="de">Die von diesem Addon dargestellten Inhalte werden von den Erstellern des Addons weder gehostet oder verbreitet, noch stehen die Ersteller in irgendeiner Beziehung zu den Content-Anbietern.</disclaimer>
+		<description lang="fr">SVP visitez [COLOR blue]www.tvaddons.co[/COLOR] pour avoir de l'aide sur Genesis. Prenez note qu'Genesis n'est pas une partie intégrante de votre outil de visionnement multimedia et SVP ne le mentionnez pas dans les media sociaux officiels, cet addiciel n'a rien a voir avec votre lecteur multimedia lui même, c'est simplement un addiciel qui a été ajouté à votre système.</description>
+		<disclaimer lang="fr">L'auteur n'héberge pas ou ne distribue pas le contenu qui vous est affiché avec cet addiciel. L'auteur n'a pas d'alliance avec les distributeurs de contenu.</disclaimer>
 		<platform>all</platform>
+		<forum>https://www.tvaddons.co/forums/</forum>
+		<website>https://www.tvaddons.co/</website>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
+		</assets>
+		<news></news>
 	</extension>
 </addon>
 
@@ -931,7 +978,10 @@
 	</extension>
 </addon>
 
-<addon id="service.subtitles.podnapisi" name="Podnapisi.net" version="5.4.0" provider-name="amet">
+<addon id="service.subtitles.podnapisi"
+       name="Podnapisi.net"
+       version="5.4.2"
+       provider-name="amet">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -943,7 +993,7 @@
     <disclaimer lang="en"></disclaimer>
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <forum></forum>
+    <forum>http://forum.kodi.tv/showthread.php?tid=192563</forum>
     <website></website>
     <email></email>
     <source>https://github.com/amet/service.subtitles.podnapisi</source>
@@ -2393,7 +2443,7 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="plugin.video.exodus" version="4.1.03" name="Exodus" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="4.1.06" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.exodus" />
@@ -2402,8 +2452,8 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 		<import addon="script.module.urlresolver" version="3.0.0" />
 		<import addon="script.module.metahandler" version="1.0.0" />
 		<!-- <import addon="plugin.program.indigo" /> -->
-		<import addon="repository.exodus" />
-		<import addon="repository.xbmchub" />
+		<!-- <import addon="repository.exodus" /> -->
+		<!-- <import addon="repository.xbmchub" /> -->
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="exodus.py">
 		<provides>video</provides>
@@ -2443,9 +2493,10 @@ Kodi is a registered trademark of the XBMC Foundation. We are not connected to o
 	</extension>
 </addon>
 
-<addon id="script.module.exodus" name="Exodus Module" version="1.00.014" provider-name="Exodus">
+<addon id="script.module.exodus" name="Exodus Module" version="1.00.024" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.requests" />
 	</requires>
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
@@ -2952,7 +3003,7 @@ http://informaticglobalworld.altervista.org/</description>
 
 <addon id="metadata.common.imdb.com"
        name="IMDB Scraper Library"
-       version="2.8.8"
+       version="2.9.0"
        provider-name="Team Kodi">
   <requires>
     <import addon="xbmc.metadata" version="2.1.0"/>
@@ -3026,7 +3077,7 @@ http://informaticglobalworld.altervista.org/</description>
 
 <addon id="metadata.tvdb.com"
        name="The TVDB"
-       version="1.8.5"
+       version="2.0.4"
        provider-name="Team Kodi">
   <requires>
     <import addon="xbmc.metadata" version="2.1.0"/>
@@ -3498,18 +3549,44 @@ http://informaticglobalworld.altervista.org/</description>
   </extension>
 </addon>
 
-<addon id="script.module.requests"
-       name="requests"
-       version="2.12.4"
-       provider-name="kennethreitz, beenje">
+<addon id="script.module.urllib3"
+       name="urllib3"
+       version="1.22"
+       provider-name="shazow">
   <requires>
-    <import addon="xbmc.python" version="2.14.0"/>
+    <import addon="xbmc.python" version="2.25.0"/>
   </requires>
   <extension point="xbmc.python.module"
              library="lib" />
   <extension point="xbmc.addon.metadata">
-    <summary>Python HTTP for Humans</summary>
-    <description>Packed for KODI from https://github.com/kennethreitz/requests</description>
+    <summary lang="en_GB">urllib3 is a powerful, sanity-friendly HTTP client for Python</summary>
+    <description lang="en_GB">Packed for KODI from https://github.com/shazow/urllib3</description>
+    <platform>all</platform>
+    <language></language>
+    <license>MIT</license>
+    <forum></forum>
+    <website>https://urllib3.readthedocs.io/en/latest/</website>
+    <source>https://github.com/beenje/script.module.urllib3</source>
+    <email>beenje AT gmail.com</email>
+  </extension>
+</addon>
+
+<addon id="script.module.requests"
+       name="requests"
+       version="2.18.4"
+       provider-name="kennethreitz">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+    <import addon="script.module.urllib3" version="1.22"/>
+    <import addon="script.module.chardet" version="3.0.4"/>
+    <import addon="script.module.idna" version="2.6"/>
+    <import addon="script.module.certifi" version="2017.07.27.1"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Python HTTP for Humans</summary>
+    <description lang="en_GB">Packed for KODI from https://github.com/requests/requests</description>
     <platform>all</platform>
     <language></language>
     <license>Apache2</license>
@@ -4191,7 +4268,7 @@ It broadcasts channels through the internet 24/7. The service is completely free
 
 <addon id="metadata.themoviedb.org"
        name="The Movie Database"
-       version="3.9.5"
+       version="4.0.0"
        provider-name="Team Kodi">
   <requires>
     <import addon="xbmc.metadata" version="2.1.0"/>
@@ -5583,7 +5660,7 @@ It broadcasts channels through the internet 24/7. The service is completely free
 
 <addon
   id="plugin.video.SportsDevil"
-  version="2017.10.25"
+  version="2017.11.01"
   name="SportsDevil"
   provider-name="SportsDevil">
   <requires>
@@ -5603,13 +5680,11 @@ It broadcasts channels through the internet 24/7. The service is completely free
   </extension>
   <extension point="xbmc.service" library="service/proxy_service.py" start="startup" />
   <extension point="xbmc.addon.metadata">
-    <summary>Play videos of different ad-financed sports streaming sites</summary>
-    <description>Play videos of different ad-financed sports streaming sites.
-    
-SportsDevil does not provide any streams of its own; stream quality, content and copyright are responsibility of the ad-financed source web site.
-    
-For updates check the readme.
-    </description>
+    <summary lang="en">SportsDevil addon</summary>
+    <description lang="en">Play videos of different ad-financed sports streaming sites.</description>
+    <description lang="he">נגן סרטונים של אתרי ספורט שונים הממומנים על ידי מודעות.</description> 
+    <disclaimer lang="en">SportsDevil does not provide any streams of its own; stream quality, content and copyright are responsibility of the ad-financed source web site. For updates - check the readme.</disclaimer>
+    <disclaimer lang="he">SportsDevil אינו מספק שום הזרמה; איכות הזרם, התוכן וזכויות היוצרים הם באחריות אתר האינטרנט הממומן על ידי המודעה. לעדכונים בדוק את קובץ readme</disclaimer>
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
     <platform>all</platform>
   </extension>
@@ -8620,7 +8695,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
 	</extension>
 </addon>
 
-<addon id="script.module.nanscrapers" name="NaN Scrapers" version="0.5.36" provider-name="Team NaN">
+<addon id="script.module.nanscrapers" name="NaN Scrapers" version="0.5.40" provider-name="Team NaN">
         <requires>
                 <import addon="xbmc.python" version="2.1.0"/>
                 <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -8659,11 +8734,12 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
 	</extension>
 </addon>
 
-<addon id="plugin.video.1080pmovies_gw" name="1080p Movies" version="2.2.8" provider-name="Dandymedia">
+<addon id="plugin.video.1080pmovies_gw" name="1080p Movies" version="2.3.1" provider-name="Dandymedia">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.addon.common" />
 	<import addon="script.module.requests" />
+	<import addon="script.module.urlresolver"  version="3.0.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
@@ -8801,12 +8877,13 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
 
 <addon id="script.module.python.koding.aio"
    name="Python Koding AIO"
-   version="0.9.8.6"
+   version="0.9.8.9"
    provider-name="Total Revolution, noobsandnerds">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.urlresolver" version="1.2.0"/>
     <import addon="script.module.requests" version="2.3.0"/>
+    <import addon="script.module.beautifulsoup" version="2.1.31"/>
   </requires>
   <extension point="xbmc.python.module" library="lib" />
   <extension point="xbmc.addon.metadata">
@@ -8818,7 +8895,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
     <license>Creative Commons 4.0-NC-ND</license>
     <forum>http://noobsandnerds.com/support/showthread.php?tid=17614</forum>
     <website>http://totalrevolution.tv</website>
-    <news>Added new Addon_Service funtion</news>
+    <news>Added new Python_Version funtion and added BS dependency</news>
     <source>https://github.com/totalrevolution/totalrevolution/tree/master/script.module.python.koding.aio</source>
   </extension>
 </addon>
@@ -9217,7 +9294,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
 
 <addon id="metadata.common.themoviedb.org"
        name="The Movie Database Scraper Library"
-       version="2.16.0"
+       version="2.17.1"
        provider-name="Team Kodi">
   <requires>
     <import addon="xbmc.metadata" version="2.1.0"/>
@@ -9376,7 +9453,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
     </extension>
 </addon>
 
-<addon id="plugin.video.covenant" version="1.1.25" name="Covenant" provider-name="Covenant">
+<addon id="plugin.video.covenant" version="1.1.29" name="Covenant" provider-name="Covenant">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.covenant" />
@@ -9425,9 +9502,10 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
 	</extension>
 </addon>
 
-<addon id="script.module.covenant" name="Covenant Module" version="1.00.016" provider-name="Covenant">
+<addon id="script.module.covenant" name="Covenant Module" version="1.00.024" provider-name="Covenant">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="script.module.requests" />
 	</requires>
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
@@ -9448,7 +9526,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
 	</extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="4.0.08" provider-name="Eldorado, tknorris, jsergio">
+<addon id="script.module.urlresolver" name="URLResolver" version="4.0.09" provider-name="Eldorado, tknorris, jsergio">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" optional="true" />
@@ -9485,7 +9563,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
     </extension>
 </addon>
 
-<addon id="plugin.video.picasso" name="[B][COLOR cyan]PICASSO[/COLOR][/B]" version="1.0.13" provider-name="Goliath/Slim">
+<addon id="plugin.video.picasso" name="[B][COLOR cyan]PICASSO[/COLOR][/B]" version="1.0.14" provider-name="Goliath/Slim">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.simplejson" version="0.0.1"/>
@@ -9550,7 +9628,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
     </extension>
 </addon>
 
-<addon id="plugin.video.bennu" name="Bennu" version="17.10.24" provider-name="Bennu">
+<addon id="plugin.video.bennu" name="Bennu" version="17.11.02" provider-name="Bennu">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
         <import addon="repository.colossus" /> 
@@ -9570,6 +9648,9 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
 		<description lang="en">We Rise From The Ashes</description>
 		<description lang="hr">Podigli smo se iz pepela</description>
 		<description lang="he">אנחנו עולים מהאפר</description>
+		<disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+ 		<disclaimer lang="hr">Autor ovog dodatka ne posjeduje bilo kakav sadržaj koji je pronađen i nije povezan sa bilo kojim izvorom sadržaja. Ovaj dodatak samo pretražuje sadržaj na web stranicama. Koristite ga na vlastitu odgovornost!</disclaimer>
+ 		<disclaimer lang="he">מחבר ההרחבה הזו אינו מארח את התוכן שיתכן ויימצא ואין לו זיקה לאף אחד מספקי התוכן. הרחבה רק מחפשת תוכן שקיים באתרי אינטרנט. השימוש בהרחבה הוא על אחריותך בלבד!</disclaimer>	
 		<platform>all</platform>
 		<forum></forum>
 		<website></website>
@@ -9582,6 +9663,72 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
 		</assets>
 		<news>release</news>
 	</extension>
+</addon>
+
+<addon id="script.module.certifi"
+       name="certifi"
+       version="2017.07.27.1"
+       provider-name="Kenneth Reitz">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Python SSL Certificates</summary>
+    <description lang="en_GB">Packed for KODI from https://github.com/certifi/python-certifi</description>
+    <platform>all</platform>
+    <language></language>
+    <license>MPL-2.0</license>
+    <forum></forum>
+    <website>https://github.com/certifi/python-certifi</website>
+    <source>https://github.com/beenje/script.module.certifi</source>
+    <email>beenje AT gmail.com</email>
+  </extension>
+</addon>
+
+<addon id="script.module.chardet"
+       name="chardet"
+       version="3.0.4"
+       provider-name="Dan Blanchard">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Universal encoding detector</summary>
+    <description lang="en_GB">Packed for Kodi from https://github.com/chardet/chardet</description>
+    <license>LGPL</license>
+    <platform>all</platform>
+    <language></language>
+    <forum></forum>
+    <website>https://chardet.readthedocs.io/en/latest/</website>
+    <source>https://github.com/beenje/script.module.chardet</source>
+    <email>beenje AT gmail.com</email>
+  </extension>
+</addon>
+
+<addon id="script.module.idna"
+       name="idna"
+       version="2.6"
+       provider-name="Kim Davies">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Internationalized Domain Names for Python</summary>
+    <description lang="en_GB">Packed for KODI from https://github.com/kjd/idna</description>
+    <platform>all</platform>
+    <language></language>
+    <license>BSD</license>
+    <forum></forum>
+    <website>https://github.com/kjd/idna</website>
+    <source>https://github.com/beenje/script.module.idna</source>
+    <email>beenje AT gmail.com</email>
+  </extension>
 </addon>
 
 </addons>
