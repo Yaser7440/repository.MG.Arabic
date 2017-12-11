@@ -2998,7 +2998,7 @@ http://informaticglobalworld.altervista.org/</description>
 
 <addon id="metadata.common.imdb.com"
        name="IMDB Scraper Library"
-       version="2.9.1"
+       version="2.9.3"
        provider-name="Team Kodi">
   <requires>
     <import addon="xbmc.metadata" version="2.1.0"/>
@@ -3072,11 +3072,11 @@ http://informaticglobalworld.altervista.org/</description>
 
 <addon id="metadata.tvdb.com"
        name="The TVDB"
-       version="2.0.5"
+       version="3.0.1"
        provider-name="Team Kodi">
   <requires>
     <import addon="xbmc.metadata" version="2.1.0"/>
-    <import addon="metadata.common.imdb.com" version="2.7.8"/>
+    <import addon="metadata.common.imdb.com" version="2.9.2"/>
   </requires>
   <extension point="xbmc.metadata.scraper.tvshows"
              language="multi"
@@ -4263,12 +4263,12 @@ It broadcasts channels through the internet 24/7. The service is completely free
 
 <addon id="metadata.themoviedb.org"
        name="The Movie Database"
-       version="4.0.3"
+       version="5.0.2"
        provider-name="Team Kodi">
   <requires>
     <import addon="xbmc.metadata" version="2.1.0"/>
-    <import addon="metadata.common.imdb.com" version="2.7.8"/>
-    <import addon="metadata.common.themoviedb.org" version="2.13.1"/>
+    <import addon="metadata.common.imdb.com" version="2.9.2"/>
+    <import addon="metadata.common.themoviedb.org" version="2.17.6"/>
     <import addon="plugin.video.youtube" version="4.4.10" optional="true"/>
   </requires>
   <extension point="xbmc.metadata.scraper.movies"
@@ -9289,7 +9289,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
 
 <addon id="metadata.common.themoviedb.org"
        name="The Movie Database Scraper Library"
-       version="2.17.5"
+       version="2.17.6"
        provider-name="Team Kodi">
   <requires>
     <import addon="xbmc.metadata" version="2.1.0"/>
@@ -9522,7 +9522,7 @@ Follow us on twitter: [COLOR blue]Whitecream_UWC[/COLOR]</description>
 	</extension>
 </addon>
 
-<addon id="script.module.urlresolver" name="URLResolver" version="4.0.12" provider-name="Eldorado, tknorris, tvaddons">
+<addon id="script.module.urlresolver" name="URLResolver" version="4.0.16" provider-name="Eldorado, tknorris, tvaddons">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="plugin.video.youtube" optional="true" />
