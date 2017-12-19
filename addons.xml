@@ -4263,7 +4263,7 @@ It broadcasts channels through the internet 24/7. The service is completely free
 
 <addon id="metadata.themoviedb.org"
        name="The Movie Database"
-       version="5.0.2"
+       version="5.0.3"
        provider-name="Team Kodi">
   <requires>
     <import addon="xbmc.metadata" version="2.1.0"/>
@@ -5162,7 +5162,7 @@ It broadcasts channels through the internet 24/7. The service is completely free
   </extension>
 </addon>
 
-<addon id="plugin.video.arabcinema" name="Arab Cinema" version="1.2.4" provider-name="MG.Arabic">
+<addon id="plugin.video.arabcinema" name="Arab Cinema" version="1.2.5" provider-name="MG.Arabic">
     <requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.urlresolver" version="3.0.0" />
