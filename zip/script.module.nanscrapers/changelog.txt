@@ -1,8 +1,195 @@
+v0.5.46
+- added cyberreel 
+- added onlinestream
+- added darewatch
+- added moviesfile
+- added tvmovieflix
+- added unblocked url for watchfree
+- added CinemaMega
+- fixed Beemp3
+- fixed hollymovie
+- fixed Twoddl
+- fixed watchepisodes
+- fixed filmxy
+- fixed Cinemamk
+- fixed filmxy
+- fixed hevc
+- removed cartoonson
+- removed watchepisodeseries
+- removed full4movies 
+- removed iextv
+- removed onlinehd
+- removed zoocinema
+- removed sockshare
+v0.5.45
+- added sockshare
+- added ionlinemovies
+- added full4movies
+- fixed 321moviescc
+- fixed mydownloadtube 
+- fixed Oceanof 
+- fixed Vumoo 
+- fixed zoocinema
+- fixed Watchstreams
+- fixed Hdpopcorn 
+- removed streamthis
+- removed onlinehdmovies 
+- removed streamhd
+v0.5.44
+- added OnlineHDMovies
+- Fixed Serieswatch 
+- fixed ten80p
+- fixed series cravings
+- fixed Filmaipk
+- removed gmovies
+v0.5.43
+- fixed hubmovie
+- fixed Flenix
+v0.5.42
+- added hdpopcorn
+- added BobMovies
+- added WMO
+- added moviesco
+- added oceanof
+- added dudmovies
+- added seriescravings
+- added tv scrape to mydownloadtube
+- added more proxies
+- added extramovies
+- added filmxy
+- added zoocinema
+- added Twoddl
+- added iextv
+- added hevc
+- added onlinehd
+- added uwatchfree
+- added watch32
+- added Hubmovie
+- added Vex
+- added BnwMovies
+- fixed TV Release
+- fixed freedownload
+- fixed hddizi
+- fixed thewatchseries
+- fixed CartoonHd 
+- fixed ten80p
+- fixed HollyMovieHD 
+- tweaked Wrzcraft
+- tweaked beemp3
+- tweaked mp3clan
+- tweaked ReleaseBB
+- tweaked Watchcartoon
+- removed mfree
+- removed onemusic
+- removed Loado
+- removed Filmpro
+- removed E24Docs
+- removed dizi720
+- removed watchstreams
+- removed Onyx
+- removed Fullmovies24
+- removed moviefullhd
+- removed ProjectFree
+v0.5.41
+- added Cartoonson
+- added HollyMovieHD
+- added watchstream
+- added filmapik
+- added moviefullhd
+- added E24Docs
+- added hasthd
+- added cooltv
+- added indexer
+- fixed mydownloadtube
+- fixed Flenix
+- fixed movies4u
+- fixed movieflix
+- fixed Streamhd
+- fixed Vumoo
+- fixed mfree
+- fixed projectfree
+- tweaked thewatchseries
+- tweaked Yesmovies
+- tweaked CartoonHd
+- tweaked movies321
+- tweaked joymovies 
+- removed ten80p
+- removed Ultramovie
+- removed movies123
+- removed Bmoviez
+- removed movieflix
+- removed pelispedia
+- added icon
+- added fanart
+v0.5.40
+- addon.xml updated to fix verison issue with last update. 
+v0.5.37
+- added Monster
+- added enet24doc
+- added onyx
+- added dlvaio
+- added movieserieshd
+- added loado
+- added ten80
+- added dlfile
+- added dlfpro
+- added filmpro
+- fixed movies4u
+- fixed rlshd
+- removed YTS Movies
+- removed Dudmovies
+- removed 1onethousand
+- removed Streamhd
+
+v0.5.36
+- added moviewatcher
+- added freedownload
+- added UKTVPlay
+- added dl3
+- fixed Dizi720
+- tweaked thewatchseries
+- tweaked fullmovies24
+- fixed UltraMovie
+- fixed hddizi
+v0.5.35
+- added oneonline
+- added serieswatch
+- added streamthis
+- tweaked Yesmovies
+- some proxies fixed (thanks Dandy)
+v0.5.34
+- removed streamhd
+- removed watchepisodes
+- fixed Yesmovies
+- Tweaked Watchcartoon
+- added iamdark
+v0.5.33
+- removed 4kmovies
+- removed streamdream
+v0.5.32
+- Tweaks to a number of scrapers
+- added dudmovies
+- added movies4u
+- removed 4kmovies
+- fixed 1onethousand
+- fixed CartoonHd
+v0.5.31
+- added 4kmovies
+- added mydownloadtube
+- fixed 1movies
+- fixed dizi720
+- fixed Flienx
+v0.5.30
+- fixed some broken scrapers
+- added thewatchseries
+- added project free tv
+- removed 123 hulu
+- removed Moviegrabber
+- removed Kingmovies
+- removed quickmovies
 v0.5.29
 - small scraper tweaks
 - added 2 more scrapers
-- removed default values for alluc username and passsword
-
 v0.5.28
 - fixed m4u
 - fixed moviegrabber
@@ -11,10 +198,8 @@ v0.5.28
 - added 2 new Debrid scrapers
 - added 2 new music scrapers
 - Huge thank you to Origin, Apprentice, Dandy and everyone involved with NaN Scrapers
-
 v0.5.27
 - fix older kodi versions on android (no set compression on 2.6)
-
 v0.5.26
 - added a few RD scrapers (converted from elysium)
 - fixed/improved a few scrapers
