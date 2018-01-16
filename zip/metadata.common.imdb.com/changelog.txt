@@ -1,3 +1,9 @@
+[B]2.9.9[/B]
+- fixed: Thumb for IMDb cast
+
+[B]2.9.8[/B]
+- fixed: IMDb outline for some movies
+
 [B]2.9.7[/B]
 - changed: attempt to scrape generic local title from IMDb if multiple are available
 
