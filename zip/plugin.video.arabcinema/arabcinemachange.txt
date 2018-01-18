@@ -1,0 +1,5 @@
+[B]Version 1.2.8[/B]
+Fixed: HD-Arab
+Fixed: 6arbyat
+Fixed: ArabHD     
+Added: AflamyHD                                                                                           

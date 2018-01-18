@@ -2994,7 +2994,7 @@ http://informaticglobalworld.altervista.org/</description>
 
 <addon id="metadata.common.imdb.com"
        name="IMDB Scraper Library"
-       version="2.9.9"
+       version="3.0.0"
        provider-name="Team Kodi">
   <requires>
     <import addon="xbmc.metadata" version="2.1.0"/>
@@ -5160,7 +5160,7 @@ It broadcasts channels through the internet 24/7. The service is completely free
   </extension>
 </addon>
 
-<addon id="plugin.video.arabcinema" name="Arab Cinema" version="1.2.7" provider-name="MG.Arabic">
+<addon id="plugin.video.arabcinema" name="Arab Cinema" version="1.2.8" provider-name="MG.Arabic">
     <requires>
 		<import addon="xbmc.python" version="2.19.0" />
 		<import addon="script.module.urlresolver" version="3.0.0" />
@@ -5174,11 +5174,18 @@ It broadcasts channels through the internet 24/7. The service is completely free
     </extension>
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
+        <license>GPL 2.0</license>
+        <summary lang="en">Watch [COLOR red][B]ENG[/B][/COLOR] Movies And TvShows with [B][COLOR red]MG.Arabic[/COLOR][/B]</summary>
+        <description lang="en">Watch [COLOR red][B]Arabic[/B][/COLOR] Movies And TvShows with [COLOR red][B]MG.Arabic[/B][/COLOR]</description>
+		<disclaimer lang="en"></disclaimer>
 		<assets>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
 		</assets>
-        <news></news>
+        <news>Fixed: HD-Arab
+Fixed: 6arbyat
+Fixed: ArabHD
+Added: AflamyHD</news>
     </extension>
 </addon>
 
