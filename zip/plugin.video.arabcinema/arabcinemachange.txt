@@ -2,4 +2,5 @@
 Fixed: HD-Arab
 Fixed: 6arbyat
 Fixed: ArabHD     
-Added: AflamyHD                                                                                           
+Added: AflamyHD 
+Fixed: Movie4k
