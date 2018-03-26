@@ -21,7 +21,7 @@
 
 import urllib
 import re
-from lib import jsunpack
+from urlresolver.plugins.lib import jsunpack
 from urlresolver import common
 from urlresolver.resolver import UrlResolver, ResolverError
 
