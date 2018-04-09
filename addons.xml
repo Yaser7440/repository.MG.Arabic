@@ -3696,13 +3696,14 @@ It broadcasts channels through the internet 24/7. The service is completely free
 	</extension>
 </addon>
 
-<addon id="plugin.video.arabcinema" name="Arab Cinema" version="1.2.9" provider-name="MG.Arabic">
+<addon id="plugin.video.arabcinema" name="Arab Cinema" version="1.2.10" provider-name="MG.Arabic">
     <requires>
-		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="script.module.urlresolver" version="3.0.0" />
-		<import addon="script.module.requests" />		
+        <import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.urlresolver" version="5.0.09" />		
+<!--         <import addon="script.module.resolveurl" version="5.0.00"/> -->
+        <import addon="script.module.urlresolver.ar" version="5.0.09"/>
         <import addon="script.video.F4mProxy" version="2.5.7" />
-		<import addon="repository.MG.Arabic" />
+		<import addon="repository.MG.Arabic" />		
     </requires>
     <extension point="xbmc.python.pluginsource"
                library="default.py">
@@ -3712,13 +3713,17 @@ It broadcasts channels through the internet 24/7. The service is completely free
         <platform>all</platform>
         <license>GPL 2.0</license>
         <summary lang="en">Watch [COLOR red][B]ENG[/B][/COLOR] Movies And TvShows with [B][COLOR red]MG.Arabic[/COLOR][/B]</summary>
-        <description lang="en">Watch [COLOR red][B]Arabic[/B][/COLOR] Movies And TvShows with [COLOR red][B]MG.Arabic[/B][/COLOR]</description>
-		<disclaimer lang="en"></disclaimer>
+        <description lang="en">Watch [COLOR red][B]Arabic[/B][/COLOR] Movies And TvShows with [COLOR red][B]MG.Arabic[/B][/COLOR]</description>		
 		<assets>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
 		</assets>
-        <news>Fixed: Movie4k</news>
+        <news>[B]Version 1.1.63[/B]
+Fixed: HD-Arab
+Fixed: 6arbyat
+Fixed: ArabHD     
+Added: AflamyHD 
+Fixed: Movie4k</news>
     </extension>
 </addon>
 
