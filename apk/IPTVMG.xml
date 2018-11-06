@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Provider>
+
+<PlaylistURL format="m3u" stream="rtmp://www.teledunet.net:1935/live?idu=UUU_PPP&amp;channel=III/EEE">http://www.teledunet.com/load_playlist.php?link=1&amp;idu=UUU_PPP</PlaylistURL>
+<!-- <EPG>http://www.teledunet.com/load_playlist.php?protocol=hls&amp;link=1&amp;idu=UUU_PPP</EPG> -->
+    <!-- <VOD type="xml">http://109.236.83.159:8000/adapter.php?username=UUU&amp;password=PPP&amp;action=get_vod&amp;core=aHR0cDovLzEwOS4yMzYuODMuMTU5OjgwMDA=</VOD> -->
+<!-- <Background date="2017.07.24 00:00:00">http://127.0.0.1/universeiptv/provBackground.jpg</Background> -->
+
+<!--    <Splash date="2017.07.12 00:00:00">http://rutv.ovh/android/providers-lifetime/kidaiptv/provSplash.png</Splash> -->
+</Provider>
