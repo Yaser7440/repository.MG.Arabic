@@ -6383,7 +6383,7 @@ Favorites can be updated when adding them again with different pictures or names
   <extension point="xbmc.python.pluginsource"         library="default.py">
     <provides>video</provides>
   </extension>
-<!--   <extension library="service.py" point="xbmc.service"/> -->
+  <extension library="service.py" point="xbmc.service"/>
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Arabic Media Center.</summary>
     <description lang="en">[B][COLOR red]•••ARABIC Media Center•••[/COLOR][/B] |
