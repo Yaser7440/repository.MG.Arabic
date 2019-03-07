@@ -6374,7 +6374,7 @@ Favorites can be updated when adding them again with different pictures or names
    </extension>
 </addon>
 
-<addon id="plugin.video.mcenter" name="Arabic Media Center" version="1.7.0" provider-name="MG.Arabic">
+<addon id="plugin.video.mcenter" name="Arabic Media Center" version="1.8.0" provider-name="MG.Arabic">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests" version="2.3.0"/>
