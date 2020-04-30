@@ -1,18 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.MG.Arabic" name="..[COLOR red] MG Arabic[/COLOR]" version="3.0.2" provider-name="[COLOR red] MG Arabic[/COLOR]">
-	<extension point="xbmc.addon.repository" name="MG Arabic">	
-		<dir>
-		    <info compressed="false">https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip</datadir>
-	    </dir>		
+<addon id="repository.MG.Arabic" name="..[COLOR red] MG Arabic[/COLOR]" version="3.0.4" provider-name="[COLOR red] MG Arabic[/COLOR]">
+	<extension point="xbmc.addon.repository" name="MG Arabic repository">	
+	<dir>
+		<info compressed="false">https://github.com/Yaser7440/repository.MG.Arabic/raw/master/addons.xml</info>
+		<checksum>https://github.com/Yaser7440/repository.MG.Arabic/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/Yaser7440/repository.MG.Arabic/tree/master/zip/</datadir>
+	</dir>		
+
+	<dir>
+		<info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
+		<checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
+	</dir>
+
+    <dir>
+		<info compressed="false">https://github.com/nrwzum/freelance/raw/master/fun-stuff/addons.xml</info>
+		<checksum>https://github.com/nrwzum/freelance/raw/master/fun-stuff/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/nrwzum/freelance/raw/master/fun-stuff/</datadir>
+    </dir>
+    <dir>
+		<info compressed="false">https://github.com/bridgegirl/lonelycode/raw/master/puffpuffpass/addons.xml</info>
+		<checksum>https://github.com/bridgegirl/lonelycode/raw/master/puffpuffpass/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/bridgegirl/lonelycode/raw/master/puffpuffpass/</datadir>
+    </dir>
+    <dir>
+		<info compressed="false">https://github.com/bradonfire/winnerwinnerchickendinner/raw/master/reference-work/addons.xml</info>
+		<checksum>https://github.com/bradonfire/winnerwinnerchickendinner/raw/master/reference-work/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/bradonfire/winnerwinnerchickendinner/raw/master/reference-work/</datadir>
+    </dir>
 	</extension>
-	<requires>
-	<import addon="plugin.program.MG.AR.wizard" />
- </requires>
 	<extension point="xbmc.addon.metadata">
-		<summary>http://mg.esy.es/Kodi/</summary>
-		<description>MG Arabic v3.0.2</description>
+		<summary lang="ar">MG Arabic repository</summary>
+		<description lang="ar">MG Arabic repository</description>
 		<platform>all</platform>
+		<forum>https://github.com/Yaser7440/repository.MG.Arabic</forum>
+        <website>https://github.com/Yaser7440/repository.MG.Arabic</website>
 	</extension>
 </addon>
