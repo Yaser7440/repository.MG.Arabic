@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-
 <addon id="repository.MG.Arabic" name="..[COLOR red] MG Arabic[/COLOR]" version="3.0.5" provider-name="[COLOR red] MG Arabic[/COLOR]">
 	<extension point="xbmc.addon.repository" name="MG Arabic repository">	
 	<dir>
@@ -15,9 +14,9 @@
 		<datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
 	</dir>
 	<dir>
-        <info compressed="false">https://github.com/kodibae/repository.kodibae/raw/master/addons.xml</info>
-        <checksum>https://github.com/kodibae/repository.kodibae/raw/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://github.com/kodibae/repository.kodibae/raw/master/</datadir>	
+        <info compressed="false">https://raw.githubusercontent.com/kodibae/repository.kodibae/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/kodibae/repository.kodibae/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/kodibae/repository.kodibae/master/</datadir>
 	</dir>
     <dir>
 		<info compressed="false">https://github.com/nrwzum/freelance/raw/master/fun-stuff/addons.xml</info>
