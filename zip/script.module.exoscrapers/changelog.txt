@@ -1,0 +1,4 @@
+ExoScrapers Module Changelog:
+2.3.0
+- Added:
+    - faselhd 1080p with arabic sub
