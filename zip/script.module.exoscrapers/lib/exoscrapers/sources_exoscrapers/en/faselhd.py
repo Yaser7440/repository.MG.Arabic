@@ -19,7 +19,8 @@ class source:
 
     def movie(self, imdb, title, localtitle, aliases, year):
         try:
-            mtitle = cleantitle.geturl(title).replace('-','+')#.replace('-','+')
+            mtitle = cleantitle.get_url(title).replace('-','+').replace(':','').replace('&','+').replace("'",'+')
+            mtitle = cleantitle.geturl(mtitle)
             url = self.base_link + '/?s=%s+%s' % (mtitle, year)			
             return url
         except:
