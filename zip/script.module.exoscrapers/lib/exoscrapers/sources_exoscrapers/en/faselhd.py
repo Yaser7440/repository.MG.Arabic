@@ -4,7 +4,7 @@
 
 import requests
 import re
-from exoscrapers.modules import log_utils
+#from exoscrapers.modules import log_utils
 from exoscrapers.modules import cleantitle
 from exoscrapers.modules import source_utils
 #log_utils.log('url = %s' % url, log_utils.LOGDEBUG)
@@ -21,7 +21,8 @@ class source:
         try:
             mtitle = cleantitle.get_url(title).replace('-','+').replace(':','').replace('&','+').replace("'",'+')
             mtitle = cleantitle.geturl(mtitle)
-            url = self.base_link + '/?s=%s+%s' % (mtitle, year)			
+            url = self.base_link + '/?s=%s+%s' % (mtitle, year)
+            #log_utils.log('url = %s' % url, log_utils.LOGDEBUG)			
             return url
         except:
             return
@@ -34,27 +35,34 @@ class source:
             hostDict = hostDict + hostprDict
             r = self.session.get(url, headers=self.headers).content
             match = re.compile('class="movie-wrap".+?href="(.+?)"', flags=re.DOTALL | re.IGNORECASE).findall(r)
-            for url in match:
-                host = url
-            i = self.session.get(host, headers=self.headers).content			
-            match = re.compile('<iframe name="player_iframe" src="(.+?)&img', flags=re.DOTALL | re.IGNORECASE).findall(i)
+            for search_url in match:
+                search_url = search_url
+            i = self.session.get(search_url, headers=self.headers).content			
+            #match = re.compile('<iframe name="player_iframe" src="(.+?)&img', flags=re.DOTALL | re.IGNORECASE).findall(i)
+            match = re.compile('''player_iframe.location.href =\s*["']([^'"]+(?:&img|html))''', re.DOTALL | re.IGNORECASE).findall(i)
             for link in match:
-                link = link.replace('nv2=true&','').replace('uid=0&','')
-            d = self.session.get(link, headers=self.headers).content			
-            match = re.compile('file: "(.+?)",', flags=re.DOTALL | re.IGNORECASE).findall(d)
-            for vid in match:
-                vid = vid				
-                #log_utils.log('url2 = %s' % vid, log_utils.LOGDEBUG)
-                valid, host = source_utils.is_host_valid(vid, hostDict)
-                if valid:
-                    quality, info = source_utils.get_release_quality(vid, vid)
+                link = link.replace('nv2=true&','').replace('uid=0&','').replace('&img','')
+                d = self.session.get(link, headers=self.headers).content
+                # if 'video_player' in link:
+				   # match = re.compile('''(?:src|file)(?:=|:)\s*["']([^'"]+m3u8)''').findall(d)
+                #else:
+                match = self.session.get(link, headers=self.headers).content
+                match = re.compile('''(?:src|SRC|href|HREF|file)(?:=|:)\s*["']([^'"]+)''').findall(d)
+                for links in match:
+				   #log_utils.log('url2 = %s' % links, log_utils.LOGDEBUG)
+				   links = links#.decode('utf-8')
+				   if any(x in links.lower() for x in ['gounlimited', 'youtube']):
+							continue
+				   valid, host = source_utils.is_host_valid(links, hostDict)
+				   if valid:
+						if host in str(sources):
+							continue
+						quality, info = source_utils.get_release_quality(links, links)
 
-                    sources.append({'source': host, 'quality': '1080p', 'language': 'ar', 'info': info, 'url': vid, 'direct': False, 'debridonly': False})
+						sources.append({'source': host, 'quality': '1080p', 'language': 'ar', 'info': info, 'url': links, 'direct': False, 'debridonly': False})
             return sources
         except:
             return sources
+
     def resolve(self, url):	
-        try:
             return url
-        except:
-            return
