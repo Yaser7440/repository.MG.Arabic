@@ -86,7 +86,7 @@ class source:
 					#host = host.replace('www.', '')
 					valid, host = source_utils.is_host_valid(url, hostDict)
 					if valid:
-						sources.append({'source': host, 'quality': quality, 'language': 'en', 'url': url,
+						sources.append({'source': host, 'quality': '1080p', 'language': 'en', 'url': url,
 						                'direct': False, 'debridonly': False})
 			except:
 				source_utils.scraper_error('HDPOPCORNEU')
