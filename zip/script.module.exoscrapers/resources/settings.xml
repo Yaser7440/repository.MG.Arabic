@@ -28,6 +28,7 @@
                  option="close"/>
         <setting type="sep"/>
         <setting id="provider.faselhd" type="bool" label="FASELHD" default="true"/>
+        <setting id="provider.ghost" type="bool" label="GHOST" default="true"/>		
         <setting id="provider.5movies" type="bool" label="$NUMBER[5]MOVIES" default="true"/>
         <setting id="provider.123movies" type="bool" label="$NUMBER[123]MOVIES" default="true"/>
         <setting id="provider.123movieshubz" type="bool" label="$NUMBER[123]MOVIESHUBZ" default="true"/>
