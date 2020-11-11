@@ -368,12 +368,12 @@ msgid "Provider Source:"
 msgstr "Źródła Dostawców:"
 
 msgctxt "#32085"
-msgid "Open Play Scrapers Settings"
+msgid "Open PlayScrapers Settings"
 msgstr "Otwórz Ustawienia Play Scrapers"
 
 msgctxt "#32086"
-msgid "Open Playscrapers Settings"
-msgstr "Otwórz Ustawienia Playscrapers"
+msgid "Exo Scrapers Settings"
+msgstr ""
 
 msgctxt "#32087"
 msgid "Clear Providers Cache (recommended after provider source change)"

@@ -368,11 +368,11 @@ msgid "Provider Source:"
 msgstr ""
 
 msgctxt "#32085"
-msgid "Open Play Scrapers Settings"
+msgid "Open PlayScrapers Settings"
 msgstr ""
 
 msgctxt "#32086"
-msgid "Open Playscrapers Settings"
+msgid "Exo Scrapers Settings"
 msgstr ""
 
 msgctxt "#32087"

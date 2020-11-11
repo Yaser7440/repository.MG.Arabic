@@ -73,10 +73,10 @@
 
     <category label="32345">
         <setting type="lsep" label="32083" />
-        <setting id="module.provider" type="select" label="32084" values="Play Scrapers|Exo|Built-in|Play + Built-in|Exo + Play|Exo + Built-in" default="Play Scrapers" visible="System.HasAddon(script.module.exoscrapers)" />
+        <setting id="module.provider" type="select" label="32084" values="Play Scrapers|Exo|Built-in|Play + Built-in|Exo + Play|Exo + Built-in" default="Exo" visible="System.HasAddon(script.module.exoscrapers)" />
         <setting id="module.provider.alt" type="select" label="32084" values="Play Scrapers|Built-in|Play + Built-in" default="Play Scrapers" visible="!System.HasAddon(script.module.exoscrapers)" />
         <setting id="open.Osettings" subsetting="true" type="action" label="32085" option="close" action="RunPlugin(plugin://script.module.playscrapers/?mode=playscrapersettings)" />
-        <setting id="open.Lsettings" subsetting="true" type="action" label="Exo Scrapers Settings" option="close" action="RunPlugin(plugin://script.module.exoscrapers/?mode=ExoscrapersSettings)" visible="System.HasAddon(script.module.exoscrapers)" />
+        <setting id="open.Lsettings" subsetting="true" type="action" label="32086" option="close" action="RunPlugin(plugin://script.module.exoscrapers/?mode=ExoscrapersSettings)" visible="System.HasAddon(script.module.exoscrapers)" />
         <setting id="install.openscrapers" subsetting="true" type="action" label="Install Playscrapers" option="close" action="InstallAddon(script.module.exoscrapers)" visible="!System.HasAddon(script.module.exoscrapers)" />
         <setting id="clear.providers.cache" subsetting="true" type="action" label="32087" action="RunPlugin(plugin://plugin.video.exodus/?action=clearCacheProviders)" />
         <setting type="lsep" label="32088" />
