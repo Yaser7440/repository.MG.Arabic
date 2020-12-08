@@ -3,13 +3,7 @@
 # Has shows but is shitty and limited.
 
 import urllib
-from exoscrapers.modules import client
-
-#from exoscrapers.modules import log_utils
-from exoscrapers.modules import jsunpack
-from exoscrapers.modules import cleantitle
-from exoscrapers.modules import source_utils
-from exoscrapers.modules import getSum
+from exoscrapers.modules import client, log_utils, jsunpack, cleantitle, source_utils, getSum
 
 class source:
     def __init__(self):

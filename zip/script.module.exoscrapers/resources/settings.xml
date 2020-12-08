@@ -294,12 +294,12 @@
         <setting type="lsep" label="Arabic" />
 		<setting id="provider.ciiima" type="bool" label="CIIIMA" default="true"/>
 		<setting id="provider.akwam" type="bool" label="AKWAM" default="true"/>
-		<setting id="provider.mycima" type="bool" label="MYCIMA" default="false"/>
+		<setting id="provider.mycima" type="bool" label="MYCIMA" default="true"/>
 		<!-- <setting id="provider.cimairaq" type="bool" label="CIMAIRAQ" default="false"/> -->
 		<setting id="provider.cimaclub" type="bool" label="CIMACLUB" default="true"/>
 		<setting id="provider.cima4u" type="bool" label="CIMA$NUMBER[4]U" default="true"/>
-		<setting id="provider.shahid4u" type="bool" label="SHAHID$NUMBER[4]U" default="true"/>
-        <setting id="provider.land4movies" type="bool" label="LAND$NUMBER[4]MOVIES" default="true"/>
+		<setting id="provider.shahid4u" type="bool" label="SHAHID$NUMBER[4]U" default="false"/>
+        <setting id="provider.land4movies" type="bool" label="LAND$NUMBER[4]MOVIES" default="false"/>
         <setting id="provider.faselhd" type="bool" label="FASELHD" default="true"/>
         <setting id="provider.ceera" type="bool" label="CEERA" default="true"/>
         <!-- <setting id="provider.egbest2" type="bool" label="EGBEST2" default="false"/> -->

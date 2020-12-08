@@ -1,14 +1,10 @@
 # -*- coding: UTF-8 -*-
 # -Cleaned and Checked on 07-23-2019 by MGArabic in Scrubs.
 # Has shows but is shitty and limited.
-#from exoscrapers.modules import log_utils
 
+import traceback, re
+from exoscrapers.modules import client, cleantitle, log_utils, source_utils
 
-#import urllib
-#from exoscrapers.modules import client
-from exoscrapers.modules import cleantitle
-from exoscrapers.modules import source_utils
-from exoscrapers.modules import getSum
 
 class source:
 	def __init__(self):
@@ -17,14 +13,16 @@ class source:
 		self.domains = ['watch.ceera.news']
 		self.base_link = 'https://watch.ceera.news'
 		self.episode_link = '/browse-watch-mosalsal-%s-video-season-%s-arabic-motarjam-videos-1-views.html'
+		self.headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0'}
 
 	def tvshow(self, imdb, tvdb, tvshowtitle, localtvshowtitle, aliases, year):
 		try:
 			tvshowtitle = cleantitle.geturl(tvshowtitle)
 			url = tvshowtitle
 			return url
-		except:
-			source_utils.scraper_error('ceera')
+		except Exception:
+			failure = traceback.format_exc()
+			log_utils.log('---ceera Testing - Exception: \n' + str(failure))
 			return
 
 
@@ -38,15 +36,16 @@ class source:
 			
 			url = self.base_link + self.episode_link % (tvshowtitle, season_url)
 
-			ep = getSum.get(url)
-			results = getSum.findEm(ep, '<a href="(.+?)"\s*title')
+			ep = client.request(url)
+			results = re.compile('<a href="(.+?)"\s*title', re.DOTALL).findall(ep)
 			for epi in results:
 				if episode_url in epi and tvshowtitle in epi:
 					return epi
 			
 			return url
-		except:
-			source_utils.scraper_error('ceera')
+		except Exception:
+			failure = traceback.format_exc()
+			log_utils.log('---ceera Testing - Exception: \n' + str(failure))
 			return
 
 
@@ -54,38 +53,40 @@ class source:
 		try:
 			sources = []
 			hostDict = hostprDict + hostDict
-
-			r = getSum.get(url)
-			results = getSum.findEm(r, '<IFRAME\s*SRC="(.+?html).+?</IFRAME>')
+			r = client.request(url)
+			results = re.compile('<IFRAME\s*SRC="(.+?)".+?</IFRAME>', re.DOTALL).findall(r)
 			for url in results:
 				#log_utils.log('url = %s' % url, log_utils.LOGDEBUG)
-				# if any(x in url.lower() for x in ['vidsat.net']):
-					# continue
-				if 'segavid' in url or 'vidsat' in url:
-					d = getSum.get(url)
-					videos = getSum.findEm(d,'''sources:\s*\[{file:\s*"(?P<url>[^"]+)''')
-					for video in videos:
-						quality = source_utils.check_url(video)
-						host = video.split('//')[1].replace('www.', '')
-						host = host.split('/')[0].lower()
-						video = video.replace('https','http')
-						#log_utils.log('video = %s' % video, log_utils.LOGDEBUG)
-						#video += '|Referer=%s&User-Agent=%s' % (urllib.quote(client.agent()), url)
-						sources.append({'source': host, 'quality': quality, 'info': '', 'language': 'ar', 'url': video,
-											'direct': True, 'debridonly': False})
-						
-				else:
-					valid, host = source_utils.is_host_valid(url, hostDict)
-					if valid:
-						if host in str(sources): 
-							continue
-						quality, info = source_utils.get_release_quality(url, url)
-						sources.append({'source': host, 'quality': quality, 'language': 'ar', 'info': info, 'url': url, 'direct': False, 'debridonly': False})
 
+				try:
+					if 'segavid' in url or 'vidsat' in url:
+						d = client.request(url)
+						videos = re.compile('''sources:\s*\[{file:\s*"(?P<url>[^"]+)''', re.DOTALL).findall(d)
+						for video in videos:
+							quality = source_utils.check_url(video)
+							host = video.split('//')[1].replace('www.', '')
+							host = host.split('/')[0].lower()
+							video = video.replace('https','http')
+							sources.append({'source': host, 'quality': quality, 'info': '', 'language': 'ar', 'url': video,
+												'direct': True, 'debridonly': False})
+						
+					else:
+						valid, host = source_utils.is_host_valid(url, hostDict)
+						if valid:
+							if host in str(sources): 
+								continue
+							quality, info = source_utils.get_release_quality(url, url)
+							sources.append({'source': host, 'quality': quality, 'language': 'ar', 'info': info, 'url': url,
+											'direct': False, 'debridonly': False})
+							
+
+				except Exception:
+					pass
 
 			return sources
-		except:
-			source_utils.scraper_error('ceera')
+		except Exception:
+			failure = traceback.format_exc()
+			log_utils.log('---ceera Testing - Exception: \n' + str(failure))
 			return sources
 
 	def resolve(self, url):
