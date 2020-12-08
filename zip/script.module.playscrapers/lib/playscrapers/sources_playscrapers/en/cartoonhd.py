@@ -66,7 +66,7 @@ class source:
     def searchShow(self, title, season, episode, aliases, headers):
         try:
             for alias in aliases:
-                url = '%s/show/%s/season/%01d/episode/%01d' % (self.base_link, cleantitle.geturl(title), int(season), int(episode))
+                url = '%s/tv-show/%s/season/%01d/episode/%01d' % (self.base_link, cleantitle.geturl(title), int(season), int(episode))
                 url = client.request(url, headers=headers, output='geturl', timeout='10')
                 if url is not None and url != self.base_link:
                     break
@@ -79,13 +79,13 @@ class source:
     def searchMovie(self, title, year, aliases, headers):
         try:
             for alias in aliases:
-                url = '%s/film/%s' % (self.base_link, cleantitle.geturl(alias['title']))
+                url = '%s/full-movie/%s' % (self.base_link, cleantitle.geturl(alias['title']))
                 url = client.request(url, headers=headers, output='geturl', timeout='10')
                 if url is not None and url != self.base_link:
                     break
             if url is None:
                 for alias in aliases:
-                    url = '%s/film/%s-%s' % (self.base_link, cleantitle.geturl(alias['title']), year)
+                    url = '%s/full-movie/%s-%s' % (self.base_link, cleantitle.geturl(alias['title']), year)
                     url = client.request(url, headers=headers, output='geturl', timeout='10')
                     if url is not None and url != self.base_link:
                         break
@@ -117,8 +117,8 @@ class source:
 
             r = client.request(url, headers=headers, output='extended', timeout='10')
 
-            if imdb not in r[0]:
-                raise Exception()
+            #if imdb not in r[0]:
+                #raise Exception()
 
             try:
                 cookie = r[4]

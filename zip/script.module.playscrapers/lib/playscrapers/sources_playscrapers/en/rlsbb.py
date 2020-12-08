@@ -28,8 +28,8 @@ class source:
         self.priority = 1
         self.language = ['en']
         self.domains = ['rlsbb.com', 'rlsbb.ru', 'rlsbb.to']
-        self.base_link = 'http://rlsbb.ru/'
-        self.search_base_link = 'http://search.rlsbb.ru/'
+        self.base_link = 'http://rlsbb.to/'
+        self.search_base_link = 'http://search.rlsbb.to/'
         self.search_cookie = 'serach_mode=rlsbb'
         self.search_link = '/lib/search526049.php?phrase=%s&pindex=1&content=true'
 
@@ -75,8 +75,8 @@ class source:
             if url is None:
                 return sources
 
-            #if debrid.status() is False:
-                #return sources
+            if debrid.status() is False:
+                return sources
 
             hostDict = hostprDict + hostDict
 
@@ -101,7 +101,7 @@ class source:
             url = self.search_link % quote_plus(query)
             url = urljoin(self.base_link, url)
 
-            url = "http://rlsbb.ru/" + query
+            url = "http://rlsbb.to/" + query
 
             r = cfScraper.get(url).content
 
@@ -114,7 +114,7 @@ class source:
                 query = query.replace("&", "and")
                 query = query.replace("  ", " ")
                 query = query.replace(" ", "-")
-                url = "http://rlsbb.ru/" + query
+                url = "http://rlsbb.to/" + query
                 r = cfScraper.get(url).content
 
             for loopCount in list(range(0, 2)):
@@ -128,7 +128,7 @@ class source:
                         " ", "-")  # throw in extra spaces around & just in case
                     #query = query + "-" + premDate
 
-                    url = "http://rlsbb.ru/" + query
+                    url = "http://rlsbb.to/" + query
                     url = url.replace('The-Late-Show-with-Stephen-Colbert', 'Stephen-Colbert')
 
                     r = cfScraper.get(url).content
@@ -197,7 +197,7 @@ class source:
                     host = client.replaceHTMLCodes(host)
                     host = ensure_text(host)
                     sources.append({'source': host, 'quality': quality, 'language': 'en',
-                                    'url': host2, 'info': info, 'direct': False, 'debridonly': False})
+                                    'url': host2, 'info': info, 'direct': False, 'debridonly': True})
                 except Exception:
                     failure = traceback.format_exc()
                     log_utils.log('RLSBB - Exception: \n' + str(failure))

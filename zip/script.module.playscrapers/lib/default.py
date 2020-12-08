@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
-#import urlparse
+import sys, base64
+import six
 from six.moves import urllib_parse
 from playscrapers import sources_playscrapers
 from playscrapers.modules import control
@@ -11,8 +12,6 @@ params = dict(urllib_parse.parse_qsl(sys.argv[2].replace('?', '')))
 action = params.get('action')
 mode = params.get('mode')
 query = params.get('query')
-
-
 
 def ScraperChoice():
     from playscrapers import providerSources

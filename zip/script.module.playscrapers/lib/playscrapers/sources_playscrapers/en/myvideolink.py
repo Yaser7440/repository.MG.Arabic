@@ -33,7 +33,7 @@ class source:
         self.priority = 1
         self.language = ['en']
         self.domains = ['myvideolinks.net', 'iwantmyshow.tk', 'new.myvideolinks.net']
-        self.base_link = 'https://new.myvideolinks.net'
+        self.base_link = 'http://see.home.kg'
         #self.base_link = 'http://kita.myvideolinks.net'
         self.search_link = '/?s=%s'
 
@@ -91,11 +91,11 @@ class source:
                 data['year'])
             query = re.sub('(\\\|/| -|:|;|\*|\?|"|\'|<|>|\|)', ' ', query)
 
-            r = client.request(self.base_link)
-            search_base = client.parseDOM(r, 'form', ret='action')[0]
+            #r = client.request(self.base_link)
+            #search_base = client.parseDOM(r, 'form', ret='action')[0]
             #log_utils.log(search_base)
-            url = urljoin(search_base, self.search_link)
-            #url = urljoin(self.base_link, self.search_link)
+            #url = urljoin(search_base, self.search_link)
+            url = urljoin(self.base_link, self.search_link)
             url = url % quote_plus(query)
 
             r = client.request(url)

@@ -97,8 +97,8 @@ class source:
             links = client.parseDOM(result, 'a', ret='href')
             i = 0
             for l in links:
-                #if i == 15:
-                    #break
+                if i == 20:
+                    break
                 try:
                     l = l.split('=')[1]
                     l = urlparse.urljoin(self.base_link, self.video_link % l)

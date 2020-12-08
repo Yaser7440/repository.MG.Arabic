@@ -38,6 +38,10 @@ RES_SD = [' 576', ' 576p', ' 576i', ' sd576', ' 576sd', ' 480', ' 480p', ' 480i'
 SCR = [' scr', ' screener', ' dvdscr', ' dvd scr', ' r5', ' r6']
 CAM = [' camrip', ' tsrip', ' hdcam', ' hd cam', ' cam rip', ' hdts', ' dvdcam', ' dvdts', ' cam', ' telesync', ' ts']
 
+def supported_video_extensions():
+    supported_video_extensions = xbmc.getSupportedMedia('video').split('|')
+    return [i for i in supported_video_extensions if i != '' and i != '.zip']
+
 def get_qual(term):
     if any(i in term for i in RES_4K):
         return '4k'
