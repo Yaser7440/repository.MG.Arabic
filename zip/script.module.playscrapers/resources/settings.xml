@@ -74,13 +74,14 @@
     <category label="Arabic">
         <setting type="lsep" label="Arabic" />
         <setting id="provider.faselhd" type="bool" label="FASELHD" default="true" />
-        <setting id="provider.land4movies" type="bool" label="LAND4MOVIES" default="true" />
+        <setting id="provider.land4movies" type="bool" label="LAND4MOVIES" default="false" />
         <setting id="provider.akwam" type="bool" label="AKWAM" default="true" />
         <setting id="provider.ceera" type="bool" label="CEERA" default="true" />
         <setting id="provider.ciiima" type="bool" label="CIIIMA" default="true" />
         <setting id="provider.cima4u" type="bool" label="CIMA4U" default="true" />
         <setting id="provider.cimaclub" type="bool" label="CIMACLUB" default="true" />
         <setting id="provider.egynow" type="bool" label="EGYNOW" default="true" />
+        <setting id="provider.mycima" type="bool" label="MYCIMA" default="true" />
     </category>
 
 <!-- Torrents-3 -->

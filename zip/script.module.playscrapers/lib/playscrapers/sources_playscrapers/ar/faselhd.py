@@ -5,8 +5,6 @@
 import urllib, re
 from playscrapers.modules import client ,log_utils ,cleantitle ,source_utils
 
-
-
 class source:	
 	def __init__(self):
 		self.priority = 1
@@ -103,25 +101,27 @@ class source:
 				link = "https:" + link if not link.startswith('http') else link
 				link = client.replaceHTMLCodes(link.replace('%3A', ':').replace('%2F', '/'))
 				#link = link.replace('nv2=true&','').replace('uid=0&','').replace('&img','')
-				link = link.replace('https://www.faselhd.life/player/embed.php?url=','')					
+				link = link.replace('https://www.faselhd.life/player/embed.php?url=','').replace('true','=').replace('https://www.faselhd.live/player/embed.php?url=','')
 				#log_utils.log('link = %s' % link, log_utils.LOGDEBUG)
 				if 'faselhd' in link:
 					d = client.request(link, headers=headers)
 					videos = re.compile('(?:file:)\s*(?:\"|\')(.+?)(?:\"|\')', re.DOTALL).findall(d)
 					for video in videos:
-						valid, host = source_utils.is_host_valid(link, hostDict)
+						#valid, host = source_utils.is_host_valid(link, hostDict)
 						#video = video.replace('https','http')
 						#video = video.replace('index.m3u8','master.m3u8')
 						video += '|Referer=%s&User-Agent=%s' % (urllib.quote(client.agent()), link)
 						#log_utils.log('faseldom = %s' % video, log_utils.LOGDEBUG)
-						sources.append({'source': host, 'quality': '1080p', 'language': 'ar', 'info': '', 'url': video, 'direct': True, 'debridonly': False})
+						sources.append({'source': 'faseldom', 'quality': '1080p', 'language': 'ar',
+										'url': video, 'direct': True, 'debridonly': False})
 						
 				else:
 					valid, host = source_utils.is_host_valid(link, hostDict)
 					if valid:
 						if host in str(sources): 
 							continue
-						sources.append({'source': host, 'quality': '1080p', 'language': 'ar', 'info': '', 'url': link, 'direct': False, 'debridonly': False})
+						sources.append({'source': host, 'quality': '1080p', 'language': 'ar',
+										'url': link, 'direct': False, 'debridonly': False})
 
 			return sources
 		except:
