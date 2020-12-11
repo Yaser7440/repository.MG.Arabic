@@ -3,11 +3,11 @@
 # Has shows but is shitty and limited.
 import traceback
 import urllib
-from exoscrapers.modules import client
-from exoscrapers.modules import jsunpack
-from exoscrapers.modules import cleantitle, log_utils
-from exoscrapers.modules import source_utils
-from exoscrapers.modules import getSum
+from openscrapers.modules import client
+from openscrapers.modules import jsunpack
+from openscrapers.modules import cleantitle, log_utils
+from openscrapers.modules import source_utils
+from openscrapers.modules import getSum
 
 class source:
     def __init__(self):

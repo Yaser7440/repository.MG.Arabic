@@ -1,14 +1,14 @@
 # -*- coding: UTF-8 -*-
 # -Cleaned and Checked on 07-23-2019 by MGArabic in Scrubs.
 # Has shows but is shitty and limited.
-#from exoscrapers.modules import log_utils
+#from openscrapers.modules import log_utils
 
 
 #import urllib
-#from exoscrapers.modules import client
-from exoscrapers.modules import cleantitle
-from exoscrapers.modules import source_utils
-from exoscrapers.modules import getSum
+#from openscrapers.modules import client
+from openscrapers.modules import cleantitle
+from openscrapers.modules import source_utils
+from openscrapers.modules import getSum
 
 class source:
 	def __init__(self):

@@ -5,7 +5,7 @@
 try: from urlparse import urljoin
 except ImportError: from urllib.parse import urljoin
 import urllib
-from exoscrapers.modules import client, getSum, log_utils, source_utils, cleantitle
+from openscrapers.modules import client, getSum, log_utils, source_utils, cleantitle
 
 class source:
 	def __init__(self):

@@ -3,7 +3,7 @@
 # Has shows but is shitty and limited.
 
 import urllib, traceback
-from exoscrapers.modules import client, source_utils, getSum, cleantitle, log_utils
+from openscrapers.modules import client, source_utils, getSum, cleantitle, log_utils
 
 class source:
     def __init__(self):
