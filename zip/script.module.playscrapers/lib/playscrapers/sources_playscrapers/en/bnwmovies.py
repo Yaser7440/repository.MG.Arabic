@@ -1,4 +1,4 @@
-# -*- coding: UTF-8 -*-
+# -*- coding: utf-8 -*-
 #######################################################################
  # ----------------------------------------------------------------------------
  # "THE BEER-WARE LICENSE" (Revision 42):
@@ -8,8 +8,7 @@
  # ----------------------------------------------------------------------------
 #######################################################################
 
-import re,traceback,urllib,urlparse,base64
-import requests
+import re,traceback
 
 from playscrapers.modules import cleantitle
 from playscrapers.modules import client
@@ -20,14 +19,14 @@ class source:
         self.priority = 1
         self.language = ['en']
         self.domains = ['www.bnwmovies.com']
-        self.base_link = 'http://www.bnwmovies.com/'
+        self.base_link = 'https://bnwmovies.com'
         #self.search_link = '%s/search?q=bnwmovies.com+%s+%s'
         #self.goog = 'https://www.google.co.uk'
         self.search_link = '/?s=%s'
 
     def movie(self, imdb, title, localtitle, aliases, year):
         try:
-            scrape = title.lower().replace(' ','+').replace(':', '')
+            scrape = title.lower().replace(' ','+')
 
             #start_url = self.search_link %(self.goog,scrape,year)
             start_url = self.base_link + self.search_link % scrape
@@ -57,9 +56,9 @@ class source:
 
             html = client.request(url)
 
-            Links = re.compile('<source.+?src="(.+?)"',re.DOTALL).findall(html)
-            for link in Links:
-                sources.append({'source':'direct','quality':'SD','language': 'en','url':link,'direct':True,'debridonly':False})
+            links = re.compile('<source.+?src="(.+?)"',re.DOTALL).findall(html)
+            for link in links:
+                sources.append({'source': 'direct', 'quality': 'SD', 'language': 'en', 'url': link, 'info': '', 'direct': True, 'debridonly': False})
             return sources
         except:
             failure = traceback.format_exc()

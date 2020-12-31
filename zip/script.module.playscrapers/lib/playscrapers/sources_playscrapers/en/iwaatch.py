@@ -12,6 +12,9 @@
 # Addon id: plugin.video.pressplay
 # Addon Provider: PressPlay
 
+# - Converted to py3/2 for PressPlay
+
+
 import re
 import requests
 import traceback
@@ -81,7 +84,7 @@ class source:
 
                         for link, quality in links:
 
-                            #link = link+'|Referer=https://iwaatch.com/movie/' + title
+                            url = link + '|Referer=https://iwaatch.com/movie/' + title
 
                             if '1080' in quality:
                                 quality = '1080p'
@@ -92,7 +95,7 @@ class source:
                             else:
                                 quality = 'SD'
 
-                            sources.append({'source': 'Direct', 'quality': quality, 'language': 'en', 'url': link, 'direct': True, 'debridonly': False})
+                            sources.append({'source': 'Direct', 'quality': quality, 'language': 'en', 'url': url, 'direct': True, 'debridonly': False})
             return sources
         except Exception:
             failure = traceback.format_exc()

@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
-# -Cleaned and Checked on 04-30-2020 by PressPlay.
+
+# - Converted to py3/2 and fixed for PressPlay
+
 
 import re
 import traceback
@@ -21,7 +23,7 @@ class source:
         self.priority = 0
         self.language = ['en']
         self.domains = ['dwatchseries.to', 'swatchseries.to']
-        self.base_link = 'https://www1.swatchseries.to'
+        self.base_link = 'https://www1.watch-series.la'
 
     def tvshow(self, imdb, tvdb, tvshowtitle, localtvshowtitle, aliases, year):
         try:

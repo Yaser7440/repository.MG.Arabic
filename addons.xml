@@ -42,7 +42,7 @@
 	</extension>
 </addon>
 
-<addon id="script.module.playscrapers" name="PlayScrapers Module" version="1.0.1" provider-name="PressPlay">
+<addon id="script.module.playscrapers" name="PlayScrapers Module" version="1.0.6b" provider-name="PressPlay, arabic by MG">
     <requires>
         <!--<import addon="xbmc.python" version="2.20.0" />-->
         <import addon="script.module.beautifulsoup4" />

@@ -65,15 +65,16 @@ def __getTrakt(url, post=None):
         resp_header = result[2]
         result = result[0]
 
-        if resp_code in ['500', '502', '503', '504', '520', '521', '522', '524']:
-            log_utils.log('Temporary Trakt Error: %s' % resp_code, log_utils.LOGWARNING)
-            control.infoDialog('Trakt Error: ' + str(resp_code), sound=True, icon='WARNING')
-            return
-        elif resp_code in ['404']:
-            log_utils.log('Object Not Found : %s' % resp_code, log_utils.LOGWARNING)
+        if resp_code in ['423', '500', '502', '503', '504', '520', '521', '522', '524']:
+            log_utils.log('Trakt Error: %s' % resp_code, log_utils.LOGWARNING)
+            control.infoDialog('Trakt Error: ' + str(resp_code), sound=True)
             return
         elif resp_code in ['429']:
             log_utils.log('Trakt Rate Limit Reached: %s' % resp_code, log_utils.LOGWARNING)
+            control.infoDialog('Trakt Rate Limit Reached: ' + str(resp_code), sound=True)
+            return
+        elif resp_code in ['404']:
+            log_utils.log('Object Not Found : %s' % resp_code, log_utils.LOGWARNING)
             return
 
         if resp_code not in ['401', '405']:

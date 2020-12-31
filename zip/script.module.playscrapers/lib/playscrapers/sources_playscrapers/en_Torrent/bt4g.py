@@ -93,7 +93,7 @@ class source:
             query = re.sub(u'(\\\|/| -|:|;|\*|\?|"|\'|<|>|\|)', ' ', query)
 
             url = urljoin(self.base_link, self.search_link % query)
-            log_utils.log('url_is: '+str(url))
+            #log_utils.log('url_is: '+str(url))
 
             #r = client.request(url)
             r = requests.get(url).content

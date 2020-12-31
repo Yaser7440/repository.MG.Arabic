@@ -27,11 +27,11 @@ class source:
     def __init__(self):
         self.priority = 1
         self.language = ['en']
-        self.domains = ['rlsbb.com', 'rlsbb.ru', 'rlsbb.to']
-        self.base_link = 'http://rlsbb.to/'
-        self.search_base_link = 'http://search.rlsbb.to/'
+        self.domains = ['rlsbb.com', 'rlsbb.ru', 'rlsbb.to', 'proxybb.com']
+        self.base_link = 'http://rlsbb.unblockit.dev/'
+        self.search_base_link = 'http://search.rlsbb.ru/'
         self.search_cookie = 'serach_mode=rlsbb'
-        self.search_link = '/lib/search526049.php?phrase=%s&pindex=1&content=true'
+        self.search_link = 'lib/search526049.php?phrase=%s&pindex=1&content=true'
 
     def movie(self, imdb, title, localtitle, aliases, year):
         try:
@@ -98,12 +98,13 @@ class source:
             query = query.replace("  ", " ")
             query = query.replace(" ", "-")
 
-            url = self.search_link % quote_plus(query)
-            url = urljoin(self.base_link, url)
+            #url = self.search_link % quote_plus(query)
+            #url = urljoin(self.base_link, url)
 
-            url = "http://rlsbb.to/" + query
+            url = self.base_link + query
 
             r = cfScraper.get(url).content
+            r = ensure_text(r)
 
             if r is None and 'tvshowtitle' in data:
                 season = re.search('S(.*?)E', hdlr)
@@ -114,8 +115,9 @@ class source:
                 query = query.replace("&", "and")
                 query = query.replace("  ", " ")
                 query = query.replace(" ", "-")
-                url = "http://rlsbb.to/" + query
+                url = self.base_link + query
                 r = cfScraper.get(url).content
+                r = ensure_text(r)
 
             for loopCount in list(range(0, 2)):
                 if loopCount == 1 or(r is None and 'tvshowtitle' in data):
@@ -128,10 +130,11 @@ class source:
                         " ", "-")  # throw in extra spaces around & just in case
                     #query = query + "-" + premDate
 
-                    url = "http://rlsbb.to/" + query
+                    url = self.base_link + query
                     url = url.replace('The-Late-Show-with-Stephen-Colbert', 'Stephen-Colbert')
 
                     r = cfScraper.get(url).content
+                    r = ensure_text(r)
 
                 posts = client.parseDOM(r, "div", attrs={"class": "content"})
                 #hostDict = hostprDict + hostDict

@@ -15,6 +15,9 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 '''
 
+# - Converted to py3/2 for PressPlay
+
+
 import re, traceback
 
 try: from urlparse import parse_qs, urljoin

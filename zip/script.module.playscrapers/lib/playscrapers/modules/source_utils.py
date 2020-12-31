@@ -21,6 +21,7 @@
 import base64
 import hashlib
 import re
+import xbmc
 
 import six
 from six.moves import urllib_parse

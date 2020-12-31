@@ -9,6 +9,8 @@ except ImportError: from urllib.parse import parse_qs, urljoin
 try: from urllib import urlencode, quote
 except ImportError: from urllib.parse import urlencode, quote
 
+from six import ensure_text
+
 from playscrapers.modules import cache, cleantitle, client, debrid, log_utils, source_utils, workers
 from playscrapers.modules import dom_parser2 as dom
 from playscrapers.sources_playscrapers import cfScraper
@@ -133,6 +135,7 @@ class source:
     def _get_items(self, url):
         try:
             r = cfScraper.get(url).content
+            r = ensure_text(r)
             posts = client.parseDOM(r, 'tbody')[0]
             posts = client.parseDOM(posts, 'tr')
             for post in posts:
@@ -170,6 +173,7 @@ class source:
             quality, info = source_utils.get_release_quality(name, item[1])
             info.insert(0, item[2])
             data = cfScraper.get(item[1]).content
+            data = ensure_text(data)
             data = client.parseDOM(data, 'a', ret='href')
             url = [i for i in data if 'magnet:' in i][0]
             url = url.split('&tr')[0]
@@ -189,6 +193,7 @@ class source:
                 try:
                     url = 'https://%s' % domain
                     result = cfScraper.get(url).content
+                    result = ensure_text(result)
                     search_n = re.findall('<input type="search" placeholder="(.+?)"', result, re.DOTALL)[0]
                     if search_n and 'Search for torrents..' in search_n:
                         return url

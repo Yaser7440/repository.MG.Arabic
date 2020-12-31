@@ -315,7 +315,7 @@ def request(url, close=True, redirect=True, error=False, verify=True, proxy=None
 
             if not as_bytes:
 
-                result = control.six_decode(result)
+                result = six.ensure_text(result, errors='ignore')
 
             return result, headers, content, cookie
 
@@ -368,7 +368,7 @@ def request(url, close=True, redirect=True, error=False, verify=True, proxy=None
 
         if not as_bytes:
 
-            result = control.six_decode(result)
+            result = six.ensure_text(result, errors='ignore')
 
         return result
 

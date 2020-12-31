@@ -2,6 +2,7 @@
 """
 **Created by PressPlay**
 """
+# - Converted to py3/2 for PressPlay
 
 import re
 
@@ -82,6 +83,7 @@ class source:
                 url = urljoin(self.base_link, url)
 
                 r = cfScraper.get(url).content
+                r = ensure_text(r)
 
                 posts = client.parseDOM(r, 'div', attrs={'class': 'post'})
 

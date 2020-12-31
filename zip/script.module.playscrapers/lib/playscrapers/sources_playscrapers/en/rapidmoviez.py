@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# - Converted to py3/2 for PressPlay
 
 '''
     This program is free software: you can redistribute it and/or modify
@@ -21,6 +22,8 @@ try: from urlparse import parse_qs, urljoin
 except ImportError: from urllib.parse import parse_qs, urljoin
 try: from urllib import urlencode, quote_plus
 except ImportError: from urllib.parse import urlencode, quote_plus
+
+from six import ensure_text
 
 from playscrapers.modules import cleantitle
 from playscrapers.modules import dom_parser2
@@ -79,6 +82,7 @@ class source:
             url = urljoin(self.base_link, self.search_link % (quote_plus(title)))
             headers = {'User-Agent': client.agent()}
             r = cfScraper.get(url, headers=headers).content
+            r = ensure_text(r)
             r = dom_parser2.parse_dom(r, 'div', {'class': 'list_items'})[0]
             r = dom_parser2.parse_dom(r.content, 'li')
             r = [(dom_parser2.parse_dom(i, 'a', {'class': 'title'})) for i in r]
@@ -114,6 +118,7 @@ class source:
             url = self.search(title, hdlr)
             headers = {'User-Agent': client.agent()}
             r = cfScraper.get(url, headers=headers).content
+            r = ensure_text(r)
             if hdlr2 == '':
                 r = dom_parser2.parse_dom(r, 'ul', {'id': 'releases'})[0]
             else:
@@ -144,6 +149,7 @@ class source:
         try:
             headers = {'User-Agent': client.agent()}
             r = cfScraper.get(url, headers=headers).content
+            r = ensure_text(r)
             name = client.replaceHTMLCodes(name)
             try: _name = name.lower().replace('rr', '').replace('nf', '').replace('ul', '').replace('cu', '')
             except: _name = name
