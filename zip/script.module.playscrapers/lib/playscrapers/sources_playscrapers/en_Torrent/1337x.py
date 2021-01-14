@@ -19,7 +19,7 @@ class source:
     def __init__(self):
         self.priority = 1
         self.language = ['en']
-        self.domains = ['1337x.to', '1337x.st', '1337x.is', '1337x.unblocker.cc', '1337x.se', '1337x.eu', '1337x.ws']
+        self.domains = ['1337x.to', '1337x.is', '1337x.st', 'x1337x.se', 'x1337x.eu', 'x1337x.ws', '1337x.gd']
         self._base_link = None
 
     def movie(self, imdb, title, localtitle, aliases, year):
@@ -74,7 +74,7 @@ class source:
                 return self._sources
 
             if debrid.status() is False:
-                raise Exception()
+                return self._sources
 
             if self._base_link is None:
                 self.base_link = cache.get(self.__get_base_url, 240, 'https://%s' % self.domains[0])

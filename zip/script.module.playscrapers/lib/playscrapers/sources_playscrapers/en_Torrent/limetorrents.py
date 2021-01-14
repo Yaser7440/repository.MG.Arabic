@@ -8,6 +8,8 @@ except ImportError: from urllib.parse import parse_qs, urljoin
 try: from urllib import urlencode, quote
 except ImportError: from urllib.parse import urlencode, quote
 
+from six import ensure_text
+
 from playscrapers.modules import cache
 from playscrapers.modules import client
 from playscrapers.modules import dom_parser2 as dom
@@ -15,13 +17,14 @@ from playscrapers.modules import cleantitle
 from playscrapers.modules import debrid
 from playscrapers.modules import source_utils
 from playscrapers.modules import workers
+from playscrapers.sources_playscrapers import cfScraper
 
 
 class source:
     def __init__(self):
         self.priority = 1
         self.language = ['en']
-        self.domains = ['limetorrents.info', 'limetorrents.co', 'limetor.com']
+        self.domains = ['limetorrents.info', 'limetorrents.co', 'limetorrents.asia', 'limetor.com', 'limetor.pro']
         self._base_link = None
         self.tvsearch = '/search/tv/{0}/'
         self.moviesearch = '/search/movies/{0}/'
@@ -99,8 +102,10 @@ class source:
 
     def _get_items(self, url):
         try:
-            headers = {'User-Agent': client.agent()}
-            r = client.request(url, headers=headers)
+            #headers = {'User-Agent': client.agent()}
+            #r = client.request(url, headers=headers)
+            r = cfScraper.get(url).content
+            r = ensure_text(r)
             posts = client.parseDOM(r, 'table', attrs={'class': 'table2'})[0]
             posts = client.parseDOM(posts, 'tr')
             for post in posts:
@@ -128,7 +133,9 @@ class source:
     def _get_sources(self, item):
         try:
             name = item[0]
-            data = client.request(item[1])
+            #data = client.request(item[1])
+            data = cfScraper.get(item[1]).content
+            data = ensure_text(data)
             url = re.search('''href=["'](magnet:\?[^"']+)''', data).groups()[0]
             url = url.split('&tr')[0]
             quality, info = source_utils.get_release_quality(name, url)
@@ -150,7 +157,9 @@ class source:
             for domain in self.domains:
                 try:
                     url = 'https://%s' % domain
-                    result = client.request(url, limit=1, timeout='5')
+                    #result = client.request(url, limit=1, timeout='5')
+                    result = cfScraper.get(url).content
+                    result = ensure_text(result)
                     result = re.findall('<title>(.+?)</title>', result, re.DOTALL)[0]
                     if result and 'LimeTorrents' in result:
                         return url

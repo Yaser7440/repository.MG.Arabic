@@ -104,7 +104,7 @@ class source:
                 return self.sources
 
             if debrid.status() is False:
-                raise Exception()
+                return self.sources
 
             data = parse_qs(url)
             data = dict([(i, data[i][0]) if data[i] else (i, '') for i in data])

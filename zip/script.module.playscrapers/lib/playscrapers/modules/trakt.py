@@ -22,8 +22,6 @@
 import re
 import time
 import base64
-#import urllib
-#import urlparse
 
 import six
 from six.moves import urllib_parse
@@ -205,11 +203,11 @@ def manager(name, imdb, tvdb, content):
     try:
         post = {"movies": [{"ids": {"imdb": imdb}}]} if content == 'movie' else {"shows": [{"ids": {"tvdb": tvdb}}]}
 
-        items = [(six.ensure_str(control.lang(32516)), '/sync/collection')]
-        items += [(six.ensure_str(control.lang(32517)), '/sync/collection/remove')]
-        items += [(six.ensure_str(control.lang(32518)), '/sync/watchlist')]
-        items += [(six.ensure_str(control.lang(32519)), '/sync/watchlist/remove')]
-        items += [(six.ensure_str(control.lang(32520)), '/users/me/lists/%s/items')]
+        items = [(control.lang(32516), '/sync/collection')]
+        items += [(control.lang(32517), '/sync/collection/remove')]
+        items += [(control.lang(32518), '/sync/watchlist')]
+        items += [(control.lang(32519), '/sync/watchlist/remove')]
+        items += [(control.lang(32520), '/users/me/lists/%s/items')]
 
         result = getTraktAsJson('/users/me/lists')
         lists = [(i['name'], i['ids']['slug']) for i in result]
@@ -220,26 +218,26 @@ def manager(name, imdb, tvdb, content):
             lists[i] = ((six.ensure_str(control.lang(32522) % lists[i][0])), '/users/me/lists/%s/items/remove' % lists[i][1])
         items += lists
 
-        select = control.selectDialog([i[0] for i in items], six.ensure_str(control.lang(32515)))
+        select = control.selectDialog([i[0] for i in items], control.lang(32515))
 
         if select == -1:
             return
         elif select == 4:
-            t = six.ensure_str(control.lang(32520))
+            t = control.lang(32520)
             k = control.keyboard('', t) ; k.doModal()
             new = k.getText() if k.isConfirmed() else None
             if (new == None or new == ''): return
             result = __getTrakt('/users/me/lists', post={"name": new, "privacy": "private"})[0]
 
             try: slug = utils.json_loads_as_str(result)['ids']['slug']
-            except: return control.infoDialog(six.ensure_str(control.lang(32515)), heading=str(name), sound=True, icon='ERROR')
+            except: return control.infoDialog(control.lang(32515), heading=str(name), sound=True, icon='ERROR')
             result = __getTrakt(items[select][1] % slug, post=post)[0]
         else:
             result = __getTrakt(items[select][1], post=post)[0]
 
         icon = control.infoLabel('ListItem.Icon') if not result == None else 'ERROR'
 
-        control.infoDialog(six.ensure_str(control.lang(32515)), heading=str(name), sound=True, icon=icon)
+        control.infoDialog(control.lang(32515), heading=str(name), sound=True, icon=icon)
     except:
         return
 
@@ -377,7 +375,7 @@ def syncTraktStatus():
     try:
         cachesyncMovies()
         cachesyncTVShows()
-        control.infoDialog(six.ensure_str(control.lang(32092)))
+        control.infoDialog(control.lang(32092))
     except:
         control.infoDialog('Trakt sync failed')
         pass

@@ -28,11 +28,12 @@
         <setting id="provider.cmovieshd" type="bool" label="CMOVIESHD" default="true" />
         <setting id="provider.filmxy" type="bool" label="FILMXY" default="true" />
         <setting id="provider.furk" type="bool" label="FURK" default="false" />
+        <setting id="provider.gowatchseries" type="bool" label="GOWATCHSERIES" default="true" />
         <setting id="provider.iwaatch" type="bool" label="IWAATCH" default="true" />
         <setting id="provider.maxrls" type="bool" label="MAXRLS" default="true" />
         <setting id="provider.myvideolink" type="bool" label="MYVIDEOLINK" default="true" />
         <setting id="provider.onlineseries" type="bool" label="ONLINESERIES" default="true" />
-        <setting id="provider.plockers" type="bool" label="PLOCKERS" default="false" />
+        <setting id="provider.plockers" type="bool" label="PLOCKERS" default="true" />
         <setting id="provider.primewire" type="bool" label="PRIMEWIRE" default="true" />
         <setting id="provider.rapidmoviez" type="bool" label="RAPIDMOVIEZ" default="true" />
         <setting id="provider.rlsbb" type="bool" label="RLSBB" default="true" />
@@ -54,17 +55,18 @@
 <!-- Providers/ARABIC -->
     <category label="Arabic">
         <setting type="lsep" label="Arabic" />
-        <setting id="provider.faselhd" type="bool" label="FASELHD" default="true" />
-        <setting id="provider.land4movies" type="bool" label="LAND4MOVIES" default="false" />
-        <setting id="provider.akwam" type="bool" label="AKWAM" default="true" />
-        <setting id="provider.ceera" type="bool" label="CEERA" default="true" />
-        <setting id="provider.ciiima" type="bool" label="CIIIMA" default="true" />
-        <setting id="provider.cima4u" type="bool" label="CIMA4U" default="true" />
-        <setting id="provider.cimaclub" type="bool" label="CIMACLUB" default="true" />
-        <setting id="provider.egynow" type="bool" label="EGYNOW" default="true" />
-        <setting id="provider.mycima" type="bool" label="MYCIMA" default="true" />
+		<setting id="provider.ciiima" type="bool" label="CIIIMA" default="true"/>
+		<setting id="provider.akwam" type="bool" label="AKWAM" default="true"/>
+		<setting id="provider.mycima" type="bool" label="MYCIMA" default="true"/>
+		<setting id="provider.cimaclub" type="bool" label="CIMACLUB" default="true"/>
+		<setting id="provider.cima4u" type="bool" label="CIMA$NUMBER[4]U" default="true"/>
+		<!-- <setting id="provider.shahid4u" type="bool" label="SHAHID$NUMBER[4]U" default="false"/> -->
+        <setting id="provider.land4movies" type="bool" label="LAND$NUMBER[4]MOVIES" default="false"/>
+        <setting id="provider.faselhd" type="bool" label="FASELHD" default="true"/>
+        <setting id="provider.ceera" type="bool" label="CEERA" default="true"/>
+        <setting id="provider.egynow" type="bool" label="EGYNOW" default="true"/>
     </category>
-
+	
 <!-- Torrents-3 -->
     <category label="Torrent">
         <setting id="provider.1337x" type="bool" label="1337X" default="true" />
@@ -82,7 +84,7 @@
         <setting id="provider.torrentdownloads" type="bool" label="TORRENTDOWNLOADS" default="true" />
         <setting id="provider.yourbt" type="bool" label="YOURBT" default="true" />
         <setting id="provider.yts" type="bool" label="YTS" default="true" />
-        <setting id="provider.zoogle" type="bool" label="ZOOGLE" default="true" />
+        <setting id="provider.zooqle" type="bool" label="ZOOQLE" default="true" />
     </category>
 
 

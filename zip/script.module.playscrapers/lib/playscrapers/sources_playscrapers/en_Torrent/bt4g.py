@@ -80,7 +80,7 @@ class source:
         sources = []
         try:
             if debrid.status() is False:
-                raise Exception()
+                return sources
 
             if url is None:
                 return sources

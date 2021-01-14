@@ -15,7 +15,7 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 '''
 
-import re
+import re, traceback
 
 try: from urlparse import parse_qs, urljoin
 except ImportError: from urllib.parse import parse_qs, urljoin
@@ -27,6 +27,7 @@ from playscrapers.modules import client
 from playscrapers.modules import debrid
 from playscrapers.modules import source_utils
 from playscrapers.modules import workers
+from playscrapers.modules import log_utils
 
 
 class source:
@@ -35,24 +36,28 @@ class source:
         self.language = ['en']
         self.domains = ['yourbittorrent.com', 'yourbittorrent2.com']
         self.base_link = 'https://yourbittorrent.com'
-        self.search_link = '/?v=&c=&q=%s'
+        self.search_link = '?q=%s'#&page=1&sort=seeders&o=desc'
 
 
     def movie(self, imdb, title, localtitle, aliases, year):
         try:
-            url = {'imdb': imdb, 'title': title, 'year': year}
+            url = {'imdb': imdb, 'title': title, 'aliases': aliases, 'year': year}
             url = urlencode(url)
             return url
         except:
+            failure = traceback.format_exc()
+            log_utils.log('YourBT0 - Exception: \n' + str(failure))
             return
 
 
     def tvshow(self, imdb, tvdb, tvshowtitle, localtvshowtitle, aliases, year):
         try:
-            url = {'imdb': imdb, 'tvdb': tvdb, 'tvshowtitle': tvshowtitle, 'year': year}
+            url = {'imdb': imdb, 'tvdb': tvdb, 'tvshowtitle': tvshowtitle, 'aliases': aliases, 'year': year}
             url = urlencode(url)
             return url
         except:
+            failure = traceback.format_exc()
+            log_utils.log('YourBT1 - Exception: \n' + str(failure))
             return
 
 
@@ -66,6 +71,8 @@ class source:
             url = urlencode(url)
             return url
         except:
+            failure = traceback.format_exc()
+            log_utils.log('YourBT2 - Exception: \n' + str(failure))
             return
 
 
@@ -82,21 +89,20 @@ class source:
             data = dict([(i, data[i][0]) if data[i] else (i, '') for i in data])
 
             self.title = data['tvshowtitle'] if 'tvshowtitle' in data else data['title']
-            self.title = self.title.replace('&', 'and').replace('Special Victims Unit', 'SVU')
 
-            self.hdlr = 'S%02dE%02d' % (int(data['season']), int(data['episode'])) if 'tvshowtitle' in data else data['year']
+            self.hdlr = 's%02de%02d' % (int(data['season']), int(data['episode'])) if 'tvshowtitle' in data else data['year']
+            self.hdlr = self.hdlr.lower()
             self.year = data['year']
 
             query = '%s %s' % (self.title, self.hdlr)
-            query = re.sub('(\\\|/| -|:|;|\*|\?|"|\'|<|>|\|)', '', query)
+            query = re.sub('[^A-Za-z0-9\s\.-]+', '', query)
 
             url = self.search_link % quote_plus(query)
-            url = urljoin(self.base_link, url)
-            # log_utils.log('url = %s' % url, log_utils.LOGDEBUG)
+            url = urljoin(self.base_link, url).replace('+', '-')
 
             try:
                 r = client.request(url)
-                links = re.findall('<a href="(/torrent/.+?)"', r, re.DOTALL)
+                links = re.findall('<a href="(/torrent/.+?)"', r, re.DOTALL)[:20]
 
                 threads = []
                 for link in links:
@@ -105,9 +111,13 @@ class source:
                 [i.join() for i in threads]
                 return self.sources
             except:
+                failure = traceback.format_exc()
+                log_utils.log('YourBT3 - Exception: \n' + str(failure))
                 return self.sources
 
         except:
+            failure = traceback.format_exc()
+            log_utils.log('YourBT3 - Exception: \n' + str(failure))
             return self.sources
 
 
@@ -117,10 +127,10 @@ class source:
             result = client.request(url)
 
             info_hash = re.findall('<kbd>(.+?)<', result, re.DOTALL)[0]
-            url1 = '%s%s' % ('magnet:?xt=urn:btih:', info_hash)
+            url = 'magnet:?xt=urn:btih:' + info_hash
             name = re.findall('<h3 class="card-title">(.+?)<', result, re.DOTALL)[0]
-            name = unquote_plus(name).replace(' ', '.')
-            url = '%s%s%s' % (url1, '&dn=', str(name))
+            name = unquote_plus(name).replace(' ', '.').replace('Original.Name:.', '').lower()
+            #url = '%s%s%s' % (url1, '&dn=', str(name))
 
             t = name.split(self.hdlr)[0].replace(self.year, '').replace('(', '').replace(')', '').replace('&', 'and').replace('.US.', '.').replace('.us.', '.')
             if cleantitle.get(t) != cleantitle.get(self.title):
@@ -129,10 +139,10 @@ class source:
             if self.hdlr not in name:
                 return
 
-            size = re.findall('<div class="col-3">File size:</div><div class="col">(.+?)<', result, re.DOTALL)[0]
             quality, info = source_utils.get_release_quality(name, url)
 
             try:
+                size = re.findall('<div class="col-3">File size:</div><div class="col">(.+?)<', result, re.DOTALL)[0]
                 size = re.findall('((?:\d+\,\d+\.\d+|\d+\.\d+|\d+\,\d+|\d+)\s*(?:GiB|MiB|GB|MB))', size)[0]
                 dsize, isize = source_utils._size(size)
             except:
@@ -146,6 +156,8 @@ class source:
                                  'info': info, 'direct': False, 'debridonly': True, 'size': dsize, 'name': name})
 
         except:
+            failure = traceback.format_exc()
+            log_utils.log('YourBT4 - Exception: \n' + str(failure))
             pass
 
     def resolve(self, url):

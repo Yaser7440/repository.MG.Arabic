@@ -24,7 +24,7 @@ except ImportError: from urllib.parse import parse_qs, urljoin
 try: from urllib import urlencode
 except ImportError: from urllib.parse import urlencode
 
-from playscrapers.modules import cleantitle, log_utils
+from playscrapers.modules import cleantitle, client, log_utils
 
 
 class source:
@@ -40,7 +40,7 @@ class source:
             url = {'imdb': imdb, 'title': title, 'year': year}
             url = urlencode(url)
             return url
-        except Exception:
+        except:
             failure = traceback.format_exc()
             log_utils.log('iWAATCH - Exception: \n' + str(failure))
             return
@@ -61,7 +61,7 @@ class source:
             search_id = cleantitle.getsearch(title.lower())
             url = urljoin(self.base_link, self.search_link % (search_id.replace(' ', '+')))
             headers = {
-                'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+                'User-Agent': client.agent(),
                 'Accept': '*/*',
                 'Accept-Encoding': 'identity;q=1, *;q=0',
                 'Accept-Language': 'en-US,en;q=0.5',
@@ -84,7 +84,9 @@ class source:
 
                         for link, quality in links:
 
-                            url = link + '|Referer=https://iwaatch.com/movie/' + title
+                            if not link.startswith('https:'):
+                                link = 'https:' + link.replace('http:', '')
+                            link = link + '|Referer=https://iwaatch.com/movie/' + title
 
                             if '1080' in quality:
                                 quality = '1080p'
@@ -95,9 +97,9 @@ class source:
                             else:
                                 quality = 'SD'
 
-                            sources.append({'source': 'Direct', 'quality': quality, 'language': 'en', 'url': url, 'direct': True, 'debridonly': False})
+                            sources.append({'source': 'Direct', 'quality': quality, 'language': 'en', 'url': link, 'direct': True, 'debridonly': False})
             return sources
-        except Exception:
+        except:
             failure = traceback.format_exc()
             log_utils.log('iWAATCH - Exception: \n' + str(failure))
             return sources

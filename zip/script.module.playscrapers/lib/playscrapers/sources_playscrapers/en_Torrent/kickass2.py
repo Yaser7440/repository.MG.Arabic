@@ -27,7 +27,7 @@ class source:
     def __init__(self):
         self.priority = 1
         self.language = ['en']
-        self.domains = ['kickass.vc', 'kickass2.cc', 'kickass2.how', 'kickasst.org', 'kickasstorrents.id', 'thekat.cc', 'thekat.ch', 'thekat.li', 'kickasstorrents.bz', 'kkickass.com', 'kkat.net', 'kickasst.net', 'kickasshydra.net', 'kickasshydra.org', 'kickass-kat.com', 'kickasstorrents.id', 'thekat.cc', 'thekat.ch']
+        self.domains = ['kick4ss.com', 'kickasstorrents.id', 'kickasstorrents.bz', 'kkickass.com', 'kkat.net', 'kickass-kat.com', 'kickasst.net', 'thekat.cc', 'kickasshydra.net', 'kickasshydra.org', 'kickass.onl', 'thekat.info', 'kickass.cm']
         self._base_link = None
         self.search_link = '/usearch/%s'
 

@@ -24,10 +24,9 @@ import os
 import sys
 #import urllib
 #import urllib2
-import xbmc
-import xbmcaddon
 import traceback
 #import cookielib
+from kodi_six import xbmc, xbmcaddon
 
 import six
 from six.moves import urllib_parse, urllib_request, http_cookiejar
@@ -35,7 +34,8 @@ from six.moves import urllib_parse, urllib_request, http_cookiejar
 try: from sqlite3 import dbapi2 as database
 except: from pysqlite2 import dbapi2 as database
 
-from playscrapers.modules import client, control
+from playscrapers.modules import client
+from playscrapers.modules import control
 
 
 profile = functions_dir = control.transPath(xbmcaddon.Addon().getAddonInfo('profile'))
@@ -410,7 +410,7 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
 
                         try:
                             url = url.replace(u"$doregex[" + k + "]", val)
-                        except: url = url.replace("$doregex[" + k + "]", control.six_decode(val))
+                        except: url = url.replace("$doregex[" + k + "]", six.ensure_text(val))
                     else:
                         if 'listrepeat' in m:
                             listrepeat=m['listrepeat']
@@ -420,7 +420,7 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
                         val=''
                         if not link=='':
                             #print 'link',link
-                            reg = re.compile(m['expres']).search(link)                            
+                            reg = re.compile(m['expres']).search(link)
                             try:
                                 val=reg.group(1).strip()
                             except: traceback.print_exc()
@@ -436,7 +436,7 @@ def getRegexParsed(regexs, url,cookieJar=None,forCookieJarOnly=False,recursiveCa
                             val=HTMLParser.HTMLParser().unescape(val)
                         try:
                             url = url.replace("$doregex[" + k + "]", val)
-                        except: url = url.replace("$doregex[" + k + "]", control.six_decode(val))
+                        except: url = url.replace("$doregex[" + k + "]", six.ensure_text(val))
                         #print 'ur',url
                         #return val
                 else:

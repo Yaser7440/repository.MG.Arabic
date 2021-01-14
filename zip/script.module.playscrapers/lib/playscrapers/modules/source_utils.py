@@ -21,8 +21,7 @@
 import base64
 import hashlib
 import re
-import xbmc
-
+from kodi_six import xbmc
 import six
 from six.moves import urllib_parse
 
@@ -190,6 +189,12 @@ def getFileType(url):
         type += ' SUBS /'
     if any(i in url for i in [' dub ', ' dubbed ', ' dublado ']):
         type += ' DUB /'
+    if ' repack ' in url:
+        type += ' REPACK /'
+    if ' proper ' in url:
+        type += ' PROPER /'
+    if ' nuked ' in url:
+        type += ' NUKED /'
     type = type.rstrip('/')
     return type
 

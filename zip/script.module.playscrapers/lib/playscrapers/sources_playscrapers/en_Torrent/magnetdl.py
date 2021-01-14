@@ -33,7 +33,7 @@ class source:
         self.priority = 1
         self.language = ['en']
         self.domains = ['torrentquest.com']
-        self.base_link = 'https://www.magnetdl.com/'
+        self.base_link = 'https://www.magnetdl.com'
         self.search_link = '/{0}/{1}'
 
     def movie(self, imdb, title, localtitle, aliases, year):
@@ -74,7 +74,7 @@ class source:
         sources = []
         try:
             if debrid.status() is False:
-                raise Exception()
+                return sources
 
             if url is None:
                 return sources

@@ -7,7 +7,7 @@ from . import sources_playscrapers
 
 
 try:
-    import xbmcaddon
+    from kodi_six import xbmcaddon
     __addon__ = xbmcaddon.Addon(id='script.module.playscrapers')
 except:
     __addon__ = None
