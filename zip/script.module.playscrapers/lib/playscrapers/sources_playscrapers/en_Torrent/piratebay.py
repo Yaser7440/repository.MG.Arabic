@@ -5,7 +5,7 @@
 # "THE BEER-WARE LICENSE" (Revision 42):
 # @PressPlay wrote this file.  As long as you retain this notice you
 # can do whatever you want with this stuff. If we meet some day, and you think
-# this stuff is worth it, you can buy me a beer in return. - PressPlay
+# this stuff is worth it, you can buy me a beer in return. - PlayScrapers
 # ----------------------------------------------------------------------------
 #######################################################################
 
@@ -86,7 +86,7 @@ class source:
             data = dict([(i, data[i][0]) if data[i] else (i, '') for i in data])
 
             title = data['tvshowtitle'] if 'tvshowtitle' in data else data['title']
-            title = title.replace('&', 'and').replace('Special Victims Unit', 'SVU')
+            title = cleantitle.get_query(title)
 
             hdlr = 's%02de%02d' % (int(data['season']), int(data['episode'])) if 'tvshowtitle' in data else data['year']
 

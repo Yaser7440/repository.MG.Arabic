@@ -93,8 +93,8 @@ def get_query_(title):
         title = ensure_str(title)
     except:
         pass
-    title = title.replace(' ', '_').replace(':', '').replace('.-.', '.').replace('\'', '').replace(",", '').replace("'", '').replace('–', '-').replace('!', '')
-    return title
+    title = title.replace(' ', '_').replace("'", "_").replace('-', '_').replace('–', '_').replace(':', '').replace(',', '').replace('!', '')
+    return title.lower()
 
 
 def get_simple(title):
@@ -142,7 +142,7 @@ def get_query(title):
         title = ensure_str(title)
     except:
         pass
-    title = title.replace(' ', '.').replace(':', '').replace('.-.', '.').replace('\'', '').replace('–', '.').replace('!', '')
+    title = title.replace(':', '').replace("'", "").lower()
     return title
 
 

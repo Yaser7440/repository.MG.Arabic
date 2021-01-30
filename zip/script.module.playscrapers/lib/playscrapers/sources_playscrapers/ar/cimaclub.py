@@ -10,8 +10,8 @@ class source:
     def __init__(self):
         self.priority = 1
         self.language = ['en']
-        self.domains = ['cimaclub.io']
-        self.base_link = 'https://www.cimaclub.io'
+        self.domains = ['cimaclub.in']
+        self.base_link = 'https://www.cimaclub.in'
 		
 		
 
@@ -19,7 +19,7 @@ class source:
         try:
             mtitle = cleantitle.get_url(title).replace('-','+').replace(':','').replace('&','+').replace("'",'+')
             mtitle = cleantitle.geturl(mtitle)
-            url = self.base_link + '/search/%s+%s' % (mtitle, year)
+            url = self.base_link + '/search?s=%s+%s' % (mtitle, year)
             #log_utils.log('url = %s' % url, log_utils.LOGDEBUG)
             return url
         except:
@@ -34,9 +34,9 @@ class source:
             hostDict = hostDict + hostprDict
 
             r = client.request(url)
-            results = re.compile('class="MovieBlock".+?href="(.+?)"', re.DOTALL).findall(r)
+            results = re.compile('class="content-box".+?href="(.+?)"', re.DOTALL).findall(r)
             for url in results:
-				#url = url + 'watch'
+				url = replace('film', 'watch')
 				
 				r = client.request(url)
 				results = re.compile('(?:class="Hoverable").+?(?:data-url|href)=(?:\")(.+?)(?:\")', re.DOTALL).findall(r)

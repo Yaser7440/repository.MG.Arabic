@@ -11,8 +11,8 @@ class source:
 	def __init__(self):
 		self.priority = 1
 		self.language = ['en']
-		self.domains = ['w1.cima4u.io']
-		self.base_link = 'http://w1.cima4u.io'
+		self.domains = ['ww1.cima4u.io']
+		self.base_link = 'http://ww1.cima4u.io'
 		self.episode_link = '/%s/'
 		self.headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0'}
 		

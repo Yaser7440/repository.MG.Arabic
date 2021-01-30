@@ -10,8 +10,8 @@ class source:
 	def __init__(self):
 		self.priority = 1
 		self.language = ['en']
-		self.domains = ['watch.ceera.news']
-		self.base_link = 'https://watch.ceera.news'
+		self.domains = ['watchs.ceera.news']
+		self.base_link = 'https://watchs.ceera.news'
 		self.episode_link = '/browse-watch-mosalsal-%s-video-season-%s-arabic-motarjam-videos-1-views.html'
 		self.headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0'}
 

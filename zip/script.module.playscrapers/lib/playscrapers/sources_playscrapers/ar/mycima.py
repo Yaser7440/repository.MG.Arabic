@@ -9,8 +9,8 @@ class source:
     def __init__(self):
         self.priority = 1
         self.language = ['en']
-        self.domains = ['mycima.to']
-        self.base_link = 'https://mycima.to'
+        self.domains = ['mycima.mx']
+        self.base_link = 'https://mycima.mx'
 		
 		
 

@@ -4,7 +4,7 @@
 # "THE BEER-WARE LICENSE" (Revision 42):
 # @shellc0de wrote this file.  As long as you retain this notice you
 # can do whatever you want with this stuff. If we meet some day, and you think
-# this stuff is worth it, you can buy me a beer in return. - PressPlay
+# this stuff is worth it, you can buy me a beer in return. - PlayScrapers
 # ----------------------------------------------------------------------------
 #######################################################################
 
@@ -24,7 +24,7 @@ except ImportError: from urllib.parse import parse_qs, urljoin
 try: from urllib import urlencode
 except ImportError: from urllib.parse import urlencode
 
-from playscrapers.modules import cleantitle, client, log_utils
+from playscrapers.modules import cleantitle, client, source_utils, log_utils
 
 
 class source:
@@ -46,8 +46,8 @@ class source:
             return
 
     def sources(self, url, hostDict, hostprDict):
+        sources = []
         try:
-            sources = []
 
             if url is None:
                 return sources
@@ -58,7 +58,7 @@ class source:
             title = data['title']
             year = data['year']
 
-            search_id = cleantitle.getsearch(title.lower())
+            search_id = title.lower()
             url = urljoin(self.base_link, self.search_link % (search_id.replace(' ', '+')))
             headers = {
                 'User-Agent': client.agent(),
@@ -72,12 +72,15 @@ class source:
             }
 
             response = requests.Session()
-            r = response.get(url, headers=headers).text
-            movie_scrape = re.compile('<h2 class="h2 p-title.+?a href="(.+?)".+?div class="post-title">(.+?)<', re.DOTALL).findall(r)
+            r = response.get(url, headers=headers, timeout=5).text
+            r = client.parseDOM(r, 'div', attrs={'class': 'container'})[1]
+            items = client.parseDOM(r, 'div', attrs={'class': r'col-xs-12 col-sm-6 col-md-3 '})
+            for item in items:
+                movie_url = client.parseDOM(item, 'a', ret='href')[0]
+                movie_title = re.compile('div class="post-title">(.+?)<', re.DOTALL).findall(item)[0]
+                if cleantitle.get(title).lower() == cleantitle.get(movie_title).lower():
 
-            for movie_url, movie_title in movie_scrape:
-                if cleantitle.getsearch(title).lower() == cleantitle.getsearch(movie_title).lower():
-                    r = response.get(movie_url, headers=headers).text
+                    r = response.get(movie_url, headers=headers, timeout=5).text
                     year_data = re.findall('<h2 style="margin-bottom: 0">(.+?)</h2>', r, re.IGNORECASE)[0]
                     if year == year_data:
                         links = re.findall(r"<a href='(.+?)'>(\d+)p<\/a>", r)
@@ -88,14 +91,7 @@ class source:
                                 link = 'https:' + link.replace('http:', '')
                             link = link + '|Referer=https://iwaatch.com/movie/' + title
 
-                            if '1080' in quality:
-                                quality = '1080p'
-                            elif '720' in quality:
-                                quality = '720p'
-                            elif '480' in quality:
-                                quality = 'SD'
-                            else:
-                                quality = 'SD'
+                            quality, info = source_utils.get_release_quality(quality, link)
 
                             sources.append({'source': 'Direct', 'quality': quality, 'language': 'en', 'url': link, 'direct': True, 'debridonly': False})
             return sources

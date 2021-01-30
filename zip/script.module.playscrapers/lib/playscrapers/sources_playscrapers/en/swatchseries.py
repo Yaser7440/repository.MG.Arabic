@@ -15,6 +15,7 @@ from six import ensure_str
 
 from playscrapers.modules import cleantitle
 from playscrapers.modules import client
+from playscrapers.modules import source_utils
 from playscrapers.modules import log_utils
 
 
@@ -30,7 +31,7 @@ class source:
             url = {'imdb': imdb, 'tvdb': tvdb, 'tvshowtitle': tvshowtitle, 'year': year}
             url = urlencode(url)
             return url
-        except Exception:
+        except:
             failure = traceback.format_exc()
             log_utils.log('SwatchSeries - Exception: \n' + str(failure))
             return
@@ -42,10 +43,9 @@ class source:
             url = parse_qs(url)
             url = dict([(i, url[i][0]) if url[i] else (i, '') for i in url])
             tit = cleantitle.get_query_(url['tvshowtitle'])
-            tit = re.sub('[^A-Za-z0-9]+', '_', tit)
             url = '%s/episode/%s_s%s_e%s.html' % (self.base_link, tit, season, episode)
             return url
-        except Exception:
+        except:
             failure = traceback.format_exc()
             log_utils.log('SwatchSeries - Exception: \n' + str(failure))
             return
@@ -65,17 +65,15 @@ class source:
                     url = i
                     url = client.replaceHTMLCodes(url)
                     url = ensure_str(url)
-                    host = re.findall('([\w]+[.][\w]+)$', urlparse(url.strip().lower()).netloc)[0]
-                    if host not in hostDict:
-                        raise Exception()
-                    host = ensure_str(host)
-                    if 'vev' not in url:
+                    h = re.findall('([\w]+[.][\w]+)$', urlparse(url.strip().lower()).netloc)[0]
+                    valid, host = source_utils.is_host_valid(h, hostDict)
+                    if valid:
                         sources.append({'source': host, 'quality': 'SD', 'language': 'en', 'url': url, 'direct': False, 'debridonly': False})
-                except Exception:
+                except:
                     pass
 
             return sources
-        except Exception:
+        except:
             failure = traceback.format_exc()
             log_utils.log('SwatchSeries - Exception: \n' + str(failure))
             return sources

@@ -70,19 +70,24 @@ class source:
 						# for link in jc:
 							# valid, host = source_utils.is_host_valid(link, hostDict)
 							# link += '|Referer=%s&User-Agent=%s' % (urllib.quote(client.agent()), video)
-							# sources.append({'source': host, 'quality': 'HD', 'info': '', 'language': 'ar', 'url': link, 'direct': True, 'debridonly': False})
+							# sources.append({'source': host, 'quality': 'HD', 'info': '', 'language': 'ar', 'url': link,
+												# 'direct': True, 'debridonly': False})
 						
-					# elif 'moshahda' in video:
-						# r = getSum.get(video, Type='cfscrape')
-						# data = getSum.findEm(r, r'\s*(eval.+?)\s*</script')[0]
-						# r = jsunpack.unpack(data)
-						# jc = getSum.findEm(r, 'file:(?:\"|\')(.+?)(?:\"|\'),label:(?:\"|\')(.+?)(?:\"|\')')
-						# for link, label in jc:
-							# quality, info = source_utils.get_release_quality(label, label)
-							# valid, host = source_utils.is_host_valid(link, hostDict)
-							# link += '|Referer=%s&User-Agent=%s' % (urllib.quote(client.agent()), video)
-							# sources.append({'source': host, 'quality': quality, 'info': info, 'language': 'ar', 'url': link, 'direct': True, 'debridonly': False})
-					
+					elif 'moshahda' in video:
+						try:
+							r = client.request(video, headers=self.headers)
+							data = re.compile(r'\s*(eval.+?)\s*</script', re.DOTALL).findall(r)[0]
+							r = jsunpack.unpack(data)
+							jc = re.compile('file:(?:\"|\')(.+?)(?:\"|\'),label:(?:\"|\')(.+?)(?:\"|\')', re.DOTALL).findall(r)
+							for link, label in jc:
+								quality, info = source_utils.get_release_quality(label, label)
+								valid, host = source_utils.is_host_valid(link, hostDict)
+								link += '|Referer=%s&User-Agent=%s' % (urllib.quote(client.agent()), video)
+								sources.append({'source': host, 'quality': quality, 'info': info, 'language': 'ar', 'url': link,
+												'direct': True, 'debridonly': False})
+						except Exception:
+							pass
+
 					else:
 						valid, host = source_utils.is_host_valid(video, hostDict)
 						if valid:

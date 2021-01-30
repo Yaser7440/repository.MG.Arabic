@@ -10,8 +10,8 @@ class source:
     def __init__(self):
         self.priority = 1
         self.language = ['en']
-        self.domains = ['egynow.tv']
-        self.base_link = 'https://egynow.tv'
+        self.domains = ['egynow.org']
+        self.base_link = 'https://egynow.org'
         self.episode_link = '/مشاهدة-مسلسل-%s-موسم-%s-حلقة-%s/'
         self.episode1_link ='/مشاهدة-مسلسل-%s'#-موسم-%s-حلقة-%s/'
         self.headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0'}

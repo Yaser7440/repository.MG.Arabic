@@ -9,7 +9,7 @@ try: from urllib import urlencode, quote_plus
 except ImportError: from urllib.parse import urlencode, quote_plus
 
 import simplejson as json
-from playscrapers.modules import client,debrid,source_utils
+from playscrapers.modules import cleantitle, client, debrid, source_utils
 
 
 class source:
@@ -54,7 +54,9 @@ class source:
             if debrid.status() is False: raise Exception()
             data = parse_qs(url)
             data = dict([(i, data[i][0]) if data[i] else (i, '') for i in data])
-            query = '%s S%02dE%02d' % (data['tvshowtitle'], int(data['season']), int(data['episode'])) if 'tvshowtitle' in data else '%s' % data['imdb']
+            title = data['tvshowtitle'] if 'tvshowtitle' in data else data['title']
+            title = cleantitle.get_query(title)
+            query = '%s S%02dE%02d' % (title, int(data['season']), int(data['episode'])) if 'tvshowtitle' in data else '%s' % data['imdb']
             query = re.sub('(\\\|/| -|:|;|\*|\?|"|\'|<|>|\|)', ' ', query)
             token = client.request(self.token)
             token = json.loads(token)["token"]

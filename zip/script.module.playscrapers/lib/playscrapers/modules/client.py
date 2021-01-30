@@ -75,8 +75,7 @@ def request(url, close=True, redirect=True, error=False, verify=True, proxy=None
     """
 
     try:
-        #url = url.decode('utf-8')
-        url = six.ensure_text(url)
+        url = six.ensure_text(url, errors='ignore')
     except Exception:
         pass
 

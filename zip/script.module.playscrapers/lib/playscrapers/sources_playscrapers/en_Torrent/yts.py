@@ -4,7 +4,7 @@
 # "THE BEER-WARE LICENSE" (Revision 42):
 # @PressPlay wrote this file.  As long as you retain this notice you
 # can do whatever you want with this stuff. If we meet some day, and you think
-# this stuff is worth it, you can buy me a beer in return. - PressPlay
+# this stuff is worth it, you can buy me a beer in return. - PlayScrapers
 # ----------------------------------------------------------------------------
 #######################################################################
 
@@ -48,8 +48,9 @@ class source:
 
             data = parse_qs(url)
             data = dict([(i, data[i][0]) if data[i] else (i, '') for i in data])
+            title = cleantitle.get_query(data['title'])
 
-            query = '%s %s' % (data['title'], data['year'])
+            query = '%s %s' % (title, data['year'])
 
             #_headers = {'User-Agent': client.agent()}
 
@@ -70,7 +71,7 @@ class source:
                     try:
                         link, name = re.findall('<a href="(.+?)" class="browse-movie-title">(.+?)</a>', entry, re.DOTALL)[0]
                         name = client.replaceHTMLCodes(name)
-                        if not cleantitle.get(data['title']) in cleantitle.get(name):
+                        if not cleantitle.get(title) in cleantitle.get(name):
                             continue
                     except Exception:
                         continue

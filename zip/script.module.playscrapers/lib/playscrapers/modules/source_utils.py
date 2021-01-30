@@ -260,10 +260,10 @@ def label_to_quality(label):
 
 def strip_domain(url):
     try:
+        url = six.ensure_str(url)
         if url.lower().startswith('http') or url.startswith('/'):
             url = re.findall('(?://.+?|)(/.+)', url)[0]
         url = client.replaceHTMLCodes(url)
-        url = six.ensure_str(url)
         return url
     except:
         return
@@ -271,11 +271,11 @@ def strip_domain(url):
 
 def is_host_valid(url, domains):
     try:
-        if any(x in url.lower() for x in ['.rar.', '.zip.', '.iso.']) or any(url.lower().endswith(x) for x in ['.rar', '.zip']):
-            raise Exception()
-
-        if any(x in url.lower() for x in ['youtube', 'sample', 'trailer', 'zippyshare', 'facebook']):
-            raise Exception()
+        url = six.ensure_str(url).lower()
+        if any(x in url for x in ['.rar.', '.zip.', '.iso.']) or any(url.endswith(x) for x in ['.rar', '.zip', '.idx', '.sub', '.srt']):
+            return False, ''
+        if any(x in url for x in ['sample', 'trailer', 'zippyshare', 'facebook', 'youtu']):
+            return False, ''
         host = __top_domain(url)
         hosts = [domain.lower() for domain in domains if host and host in domain.lower()]
 

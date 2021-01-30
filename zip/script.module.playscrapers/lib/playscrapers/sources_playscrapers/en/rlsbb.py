@@ -4,7 +4,7 @@
 # "THE BEER-WARE LICENSE" (Revision 42):
 # @PressPlay wrote this file.  As long as you retain this notice you
 # can do whatever you want with this stuff. If we meet some day, and you think
-# this stuff is worth it, you can buy me a beer in return. - PressPlay
+# this stuff is worth it, you can buy me a beer in return. - PlayScrapers
 # ----------------------------------------------------------------------------
 #######################################################################
 
@@ -19,7 +19,7 @@ except ImportError: from urllib.parse import urlencode, quote_plus
 
 from six import ensure_text
 
-from playscrapers.modules import client, debrid, log_utils, source_utils
+from playscrapers.modules import cleantitle, client, debrid, log_utils, source_utils
 from playscrapers.sources_playscrapers import cfScraper
 
 
@@ -83,19 +83,12 @@ class source:
             data = parse_qs(url)
             data = dict([(i, data[i][0]) if data[i] else (i, '') for i in data])
             title = data['tvshowtitle'] if 'tvshowtitle' in data else data['title']
+            title = cleantitle.get_query(title)
             hdlr = 'S%02dE%02d' % (int(data['season']), int(data['episode'])) if 'tvshowtitle' in data else data['year']
             premDate = ''
 
-            query = '%s S%02dE%02d' % (
-                data['tvshowtitle'],
-                int(data['season']),
-                int(data['episode'])) if 'tvshowtitle' in data else '%s %s' % (
-                data['title'],
-                data['year'])
+            query = '%s S%02dE%02d' % ( title, int(data['season']), int(data['episode'])) if 'tvshowtitle' in data else '%s %s' % (title, data['year'])
             query = re.sub('(\\\|/| -|:|;|\*|\?|"|\'|<|>|\|)', '', query)
-
-            query = query.replace("&", "and")
-            query = query.replace("  ", " ")
             query = query.replace(" ", "-")
 
             #url = self.search_link % quote_plus(query)

@@ -12,8 +12,8 @@ class source:
 	def __init__(self):
 		self.priority = 1
 		self.language = ['en']
-		self.domains = ['tv.ciiima.com']
-		self.base_link = 'http://tv.ciiima.com'
+		self.domains = ['w3.ciiima.com']
+		self.base_link = 'http://w3.ciiima.com'
 		self.movie_link = '/movie/%s-%s'
 		self.episode_link = '/show/%s/season-%s/episode-%s'
 		self.headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:67.0) Gecko/20100101 Firefox/67.0', 'Referer': self.base_link}

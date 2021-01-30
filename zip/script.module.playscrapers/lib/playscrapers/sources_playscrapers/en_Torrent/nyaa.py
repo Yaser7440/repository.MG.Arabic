@@ -11,6 +11,7 @@ except ImportError: from urllib.parse import parse_qs, urljoin
 try: from urllib import urlencode, quote_plus, unquote_plus
 except ImportError: from urllib.parse import urlencode, quote_plus, unquote_plus
 
+from playscrapers.modules import cleantitle
 from playscrapers.modules import client
 from playscrapers.modules import log_utils
 from playscrapers.modules import source_utils
@@ -69,6 +70,7 @@ class source:
             data = dict([(i, data[i][0]) if data[i] else (i, '') for i in data])
 
             title = data['tvshowtitle'] if 'tvshowtitle' in data else data['title']
+            title = cleantitle.get_query(title)
             aliases = data['aliases']
 
             hdlr = 'S%02dE%02d' % (int(data['season']), int(data['episode'])) if 'tvshowtitle' in data else data['year']
