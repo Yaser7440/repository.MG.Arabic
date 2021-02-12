@@ -978,11 +978,12 @@ class sources:
                 f = (' / '.join(['%s' % info.strip() for info in self.sources[i]['info'].split('|')]))
                 if name_setting:
                     if 'name' in self.sources[i] and not self.sources[i]['name'] == '':
+                        _name = cleantitle.get_title(self.sources[i]['name'])
                         size_info = self.sources[i]['info'].split(' |')[0]
                         if size_info.rstrip().lower().endswith('gb'):
-                            f = size_info + ' / ' + cleantitle.get_title(self.sources[i]['name'])
+                            f = size_info + ' / ' + _name
                         else:
-                            f = cleantitle.get_title(self.sources[i]['name'])
+                            f = _name
                         t = ''
             except:
                 f = ''

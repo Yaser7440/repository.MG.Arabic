@@ -1002,17 +1002,20 @@ class movies:
             except:
                 pass
 
+            poster2 = fanart = banner = clearlogo = clearart = '0'
             if hq_artwork == 'true':# and not self.fanart_tv_user == '':
 
+                artmeta = True
                 try:
-                    artmeta = True
                     #if self.fanart_tv_user == '': raise Exception()
                     art = client.request(self.fanart_tv_art_link % imdb, headers=self.fanart_tv_headers, timeout='10', error=True)
                     art = control.six_decode(art)
                     try: art = json.loads(art)
                     except: artmeta = False
                 except:
-                    pass
+                    artmeta = False
+
+                if artmeta == False: pass
 
                 try:
                     poster2 = art['movieposter']
@@ -1052,9 +1055,6 @@ class movies:
                 except:
                     clearart = '0'
 
-            else:
-                poster2 = fanart = banner = clearlogo = clearart = '0'
-
             try:
                 if self.tm_user == '': raise Exception()
 
@@ -1089,7 +1089,7 @@ class movies:
             item = dict((k,v) for k, v in six.iteritems(item) if not v == '0')
             self.list[i].update(item)
 
-            if artmeta == False: raise Exception()
+            #if artmeta == False: raise Exception()
 
             meta = {'imdb': imdb, 'tmdb': tmdb, 'tvdb': '0', 'lang': self.lang, 'user': self.user, 'item': item}
             self.meta.append(meta)
@@ -1115,8 +1115,8 @@ class movies:
 
         isPlayable = 'true' if not 'plugin' in control.infoLabel('Container.PluginName') else 'false'
 
-        #indicators = playcount.getMovieIndicators(refresh=True) if action == 'movies' else playcount.getMovieIndicators() #fixme
-        indicators = playcount.getMovieIndicators()
+        indicators = playcount.getMovieIndicators(refresh=True) if action == 'movies' else playcount.getMovieIndicators() #fixme
+        #indicators = playcount.getMovieIndicators()
 
         playbackMenu = control.lang(32063) if control.setting('hosts.mode') == '2' else control.lang(32064)
 

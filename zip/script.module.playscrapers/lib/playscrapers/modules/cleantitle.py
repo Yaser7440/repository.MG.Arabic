@@ -159,3 +159,40 @@ def normalize(title):
 def clean_search_query(url):
     url = url.replace('-','+').replace(' ', '+').replace('–', '+').replace('!', '')
     return url
+
+
+def scene_title(title, year):
+    title = normalize(title)
+    try:
+        title = ensure_str(title)
+    except:
+        pass
+    title = title.replace('&', 'and').replace('-', ' ').replace('–', ' ').replace('/', ' ').replace('*', ' ').replace('!', '').replace('?', '').replace('...', '').replace(',', '')
+    title = re.sub(' {2,}', ' ', title)
+    if title.startswith('Birdman or') and year == '2014': title = 'Birdman'
+    if title == 'Birds of Prey (and the Fantabulous Emancipation of One Harley Quinn)' and year == '2020': title = 'Birds of Prey'
+    if title == "Roald Dahl's The Witches" and year == '2020': title = 'The Witches'
+    return title, year
+
+
+def scene_tvtitle(title, year, season, episode):
+    title = normalize(title)
+    try:
+        title = ensure_str(title)
+    except:
+        pass
+    title = title.replace('&', 'and').replace('-', ' ').replace('–', ' ').replace('/', ' ').replace('*', ' ').replace('!', '').replace('?', '').replace('...', '').replace(',', '')
+    title = re.sub(' {2,}', ' ', title)
+    if title in ['The Haunting', 'The Haunting of Bly Manor', 'The Haunting of Hill House'] and year == '2018':
+        if season == '1': title = 'The Haunting of Hill House'
+        elif season == '2': title = 'The Haunting of Bly Manor'; year = '2020'; season = '1'
+    if title in ['Cosmos', 'Cosmos: A Spacetime Odyssey', 'Cosmos: Possible Worlds'] and year == '2014':
+        if season == '1': title = 'Cosmos: A Spacetime Odyssey'
+        elif season == '2': title = 'Cosmos: Possible Worlds'; year = '2020'; season = '1'
+    if 'Special Victims Unit' in title: title = title.replace('Special Victims Unit', 'SVU')
+    if title == 'Cobra Kai' and year == '1984': year = '2018'
+    if title == 'The End of the F ing World': title = 'The End of the Fucking World'
+    if title == 'M A S H': title = 'MASH'
+    if title == "Grey's Anatomy": title = 'Greys Anatomy'
+    return title, year, season, episode
+

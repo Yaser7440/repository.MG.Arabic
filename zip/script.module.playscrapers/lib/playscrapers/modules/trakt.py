@@ -21,6 +21,7 @@
 
 import re
 import time
+import traceback
 import base64
 
 import six
@@ -58,6 +59,7 @@ def __getTrakt(url, post=None):
             headers.update({'Authorization': 'Bearer %s' % control.addon('plugin.video.pressplay').getSetting('trakt.token')})
 
         result = client.request(url, post=post, headers=headers, output='extended', error=True)
+        result = utils.byteify(result)
 
         resp_code = result[1]
         resp_header = result[2]
@@ -92,9 +94,12 @@ def __getTrakt(url, post=None):
         headers['Authorization'] = 'Bearer %s' % token
 
         result = client.request(url, post=post, headers=headers, output='extended', error=True)
+        result = utils.byteify(result)
         return result[0], result[2]
-    except Exception as e:
-        log_utils.log('Unknown Trakt Error: %s' % e, log_utils.LOGWARNING)
+    except:# Exception as e:
+        #log_utils.log('Unknown Trakt Error: %s' % e, log_utils.LOGWARNING)
+        fail = traceback.format_exc()
+        log_utils.log('getTrakt Error: ' + str(fail))
         pass
 
 def getTraktAsJson(url, post=None):
@@ -345,6 +350,7 @@ def cachesyncTVShows(timeout=0):
 
 def timeoutsyncTVShows():
     timeout = cache.timeout(syncTVShows, control.addon('plugin.video.pressplay').getSetting('trakt.user').strip())
+    if not timeout: timeout = 0
     return timeout
 
 
@@ -409,14 +415,15 @@ def markEpisodeAsNotWatched(tvdb, season, episode):
     return __getTrakt('/sync/history/remove', {"shows": [{"seasons": [{"episodes": [{"number": episode}], "number": season}], "ids": {"tvdb": tvdb}}]})[0]
 
 
-def scrobbleMovie(imdb, watched_percent):
+def scrobbleMovie(imdb, watched_percent, action):
     if not imdb.startswith('tt'): imdb = 'tt' + imdb
-    return __getTrakt('/scrobble/pause', {"movie": {"ids": {"imdb": imdb}}, "progress": watched_percent})[0]
+    return __getTrakt('/scrobble/%s' % action, {"movie": {"ids": {"imdb": imdb}}, "progress": watched_percent})[0]
 
 
-def scrobbleEpisode(tvdb, season, episode, watched_percent):
+def scrobbleEpisode(imdb, season, episode, watched_percent, action):
+    if not imdb.startswith('tt'): imdb = 'tt' + imdb
     season, episode = int('%01d' % int(season)), int('%01d' % int(episode))
-    return __getTrakt('/scrobble/pause', {"show": {"ids": {"tvdb": tvdb}}, "episode": {"season": season, "number": episode}, "progress": watched_percent})[0]
+    return __getTrakt('/scrobble/%s' % action, {"show": {"ids": {"imdb": imdb}}, "episode": {"season": season, "number": episode}, "progress": watched_percent})[0]
 
 
 def getMovieTranslation(id, lang, full=False):
@@ -469,7 +476,7 @@ def getTVShowSummary(id, full=True):
         return
 
 
-def getPeople(id, content_type, full=True):
+def getPeople(id, content_type, full=False):
     try:
         url = '/%s/%s/people' % (content_type, id)
         if full: url += '?extended=full'

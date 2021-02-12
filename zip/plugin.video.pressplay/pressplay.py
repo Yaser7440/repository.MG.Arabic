@@ -351,7 +351,9 @@ elif action == 'tvPlaycount':
     playcount.tvshows(name, imdb, tvdb, season, query)
 
 elif action == 'trailer':
-    from resources.lib.modules import trailer
+    from resources.lib.modules import control, trailer
+    if not control.condVisibility('System.HasAddon(plugin.video.youtube)'):
+        control.installAddon('plugin.video.youtube')
     trailer.trailer().play(name, url, windowedtrailer)
 
 elif action == 'traktManager':
