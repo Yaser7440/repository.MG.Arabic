@@ -1,0 +1,17 @@
+Version 5.1.24 (February 9, 2021)
+- Code Base Changes:
+    - None
+
+- Resolvers Added:
+    - megaup.net
+ 
+- Resolvers Fixed/Updated:
+    - gofile
+    - tvlogy
+
+
+- Resolvers Removed
+    - None
+
+- Languages Added/Updated
+    - None
