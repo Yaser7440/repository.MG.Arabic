@@ -34,7 +34,7 @@ def check_for_addon_update():
 	try:
 		import re
 		import requests
-		repo_xml = requests.get('https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml')
+		repo_xml = requests.get('https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/mains.xml')
 		if not repo_xml.status_code == 200:
 			log_utils.log('Could not connect to repo XML, status: %s' % repo_xml.status_code, log_utils.LOGNOTICE)
 			return
