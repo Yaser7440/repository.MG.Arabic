@@ -192,6 +192,15 @@ elif action == "toggleAllPolish":
 	control.sleep(200)
 	control.openSettings(query, "script.module.openscrapers")
 
+elif action == "toggleAllArabic":
+    sourceList = []
+    sourceList = sources_openscrapers.all_ar_providers
+    for i in sourceList:
+        source_setting = 'provider.' + i
+        control.setSetting(source_setting, params['setting'])
+#    xbmc.log('All Foregin providers = %s' % sourceList,2)
+    control.sleep(200)
+    control.openSettings(query, "script.module.openscrapers")
 
 elif action == "toggleAllRussian":
 	sourceList = []

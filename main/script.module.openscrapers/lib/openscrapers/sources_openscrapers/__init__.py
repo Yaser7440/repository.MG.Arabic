@@ -1,7 +1,7 @@
 # -*- coding: UTF-8 -*-
 
 import os.path
-
+from . import ar
 from . import de
 from . import en
 from . import en_DebridOnly
@@ -40,6 +40,7 @@ except:
 		all_paid_providers += value
 
 ##--Foreign Providers--##
+arabic_providers = ar.__all__
 german_providers = de.__all__
 spanish_providers = es.__all__
 french_providers = fr.__all__
@@ -48,6 +49,17 @@ korean_providers = ko.__all__
 polish_providers = pl.__all__
 russian_providers = ru.__all__
 
+
+##--All Arabic Providers--##
+ar_providers = {'ar': arabic_providers}
+all_ar_providers = []
+try:
+	for key, value in ar_providers.iteritems():
+		all_ar_providers += value
+except:
+	for key, value in ar_providers.items():
+		all_ar_providers += value
+		
 ##--All Foreign Providers--##
 foreign_providers = {'de': german_providers, 'es': spanish_providers, 'fr': french_providers, 'gr': greek_providers,
                      'ko': korean_providers, 'pl': polish_providers, 'ru': russian_providers}
@@ -62,7 +74,7 @@ except:
 ##--All Providers--##
 total_providers = {'en': hoster_providers, 'en_Debrid': debrid_providers, 'en_Torrent': torrent_providers,
                    'de': german_providers, 'es': spanish_providers, 'fr': french_providers, 'gr': greek_providers,
-                   'ko': korean_providers, 'pl': polish_providers, 'ru': russian_providers}
+                   'ko': korean_providers, 'pl': polish_providers, 'ru': russian_providers, 'ar': arabic_providers}
 all_providers = []
 try:
 	for key, value in total_providers.iteritems():

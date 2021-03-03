@@ -13,6 +13,12 @@
         <setting label="Enable All Providers" type="action"
                  action="RunPlugin(plugin://script.module.openscrapers/?action=toggleAll&amp;setting=true&amp;query=0.3)"
                  option="close"/>
+		<setting label="Disable All Arabic Providers" type="action" 
+				 action="RunPlugin(plugin://script.module.openscrapers/?action=toggleAllArabic&amp;setting=false&amp;query=0.12)" 
+				 option="close" />
+        <setting label="Enable All Arabic Providers" type="action" 
+				 action="RunPlugin(plugin://script.module.openscrapers/?action=toggleAllArabic&amp;setting=true&amp;query=0.13)" 
+				 option="close" />
         <setting label="Enable Paid Debrid-w/Torrents" type="action"
                  action="RunPlugin(plugin://script.module.openscrapers/?action=toggleAllPaid&amp;setting=true&amp;query=0.4)"
                  option="close"/>
@@ -272,6 +278,21 @@
         <setting id="provider.newkino" type="bool" label="NEWKINO" default="false"/>
     </category>
 
+<!-- Providers/ARABIC -->
+    <category label="Arabic">
+		<setting id="provider.ciiima" type="bool" label="CIIIMA" default="true"/>
+		<setting id="provider.akwam" type="bool" label="AKWAM" default="true"/>
+		<setting id="provider.mycima" type="bool" label="MYCIMA" default="true"/>
+		<setting id="provider.cimaclub" type="bool" label="CIMACLUB" default="true"/>
+		<setting id="provider.cima4u" type="bool" label="CIMA$NUMBER[4]U" default="true"/>
+		<setting id="provider.shahid4u" type="bool" label="SHAHID$NUMBER[4]U" default="false"/>
+        <setting id="provider.land4movies" type="bool" label="LAND$NUMBER[4]MOVIES" default="false"/>
+        <setting id="provider.faselhd" type="bool" label="FASELHD" default="true"/>
+        <setting id="provider.ceera" type="bool" label="CEERA" default="true"/>
+        <setting id="provider.egynow" type="bool" label="EGYNOW" default="true"/>
+    </category>
+	
+	
     <!-- Accounts-6 -->
     <category label="Scraper Accounts">
         <setting type="lsep" label="Filepursuit - for key visit: rapidapi.com/azharxes/api/filepursuit"/>
