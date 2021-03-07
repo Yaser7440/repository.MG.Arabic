@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.MG.Arabic" name="..[COLOR red]MG Arabic repository[/COLOR]" version="3.0.6" provider-name="[COLOR red] MG Arabic[/COLOR]">
+<addon id="repository.MG.Arabic" name="..[COLOR red]MG Arabic repository[/COLOR]" version="3.0.7" provider-name="[COLOR red] MG Arabic[/COLOR]">
 	<extension point="xbmc.addon.repository" name="[COLOR red]MG Arabic repository[/COLOR]">	
 	<dir>
         <info compressed="false">https://raw.githubusercontent.com/pressplaykodi/repository.pressplay/main/addons.xml</info>
@@ -31,9 +31,21 @@
 		<checksum>https://github.com/bradonfire/winnerwinnerchickendinner/raw/master/reference-work/addons.xml.md5</checksum>
 		<datadir zip="true">https://github.com/bradonfire/winnerwinnerchickendinner/raw/master/reference-work/</datadir>
     </dir>
+    <dir>
+		<info compressed="false">https://raw.githubusercontent.com/repoil/club/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/repoil/club/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/repoil/club/master/</datadir>
+    </dir>
+    <dir>
+		<info compressed="false">https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/mains.xml</info>
+        <checksum>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/mains.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/main/</datadir>
+    </dir>
+    <dir>
 		<info compressed="false">https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/addons.xml.md5</checksum>
 		<datadir zip="true">https://raw.githubusercontent.com/Yaser7440/repository.MG.Arabic/master/zip/</datadir>
+    </dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="ar">MG Arabic repository</summary>
