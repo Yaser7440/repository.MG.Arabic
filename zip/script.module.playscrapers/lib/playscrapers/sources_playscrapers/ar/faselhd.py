@@ -9,8 +9,8 @@ class source:
 	def __init__(self):
 		self.priority = 1
 		self.language = ['en']
-		self.domains = ['faselhd.life']
-		self.base_link = 'https://www.faselhd.life'
+		self.domains = ['faselhd.pro']
+		self.base_link = 'https://www.faselhd.pro'
 		self.episode_link = '/episodes/مسلسل-%s-الموسم-%s-الحلقه-%s'
 		self.episode2_link = '/episodes/مسلسل-%s-الموسم-%s-الحلقة-%s'
 		self.season_link = '/seasons/مسلسل-%s'
@@ -101,7 +101,7 @@ class source:
 				link = "https:" + link if not link.startswith('http') else link
 				link = client.replaceHTMLCodes(link.replace('%3A', ':').replace('%2F', '/'))
 				#link = link.replace('nv2=true&','').replace('uid=0&','').replace('&img','')
-				link = link.replace('https://www.faselhd.life/player/embed.php?url=','').replace('true','=').replace('https://www.faselhd.live/player/embed.php?url=','')
+				link = link.replace('https://www.faselhd.life/player/embed.php?url=','').replace('nv2=true&uid=0&','').replace('https://www.faselhd.live/player/embed.php?url=','')
 				#log_utils.log('link = %s' % link, log_utils.LOGDEBUG)
 				if 'faselhd' in link:
 					d = client.request(link, headers=headers)
