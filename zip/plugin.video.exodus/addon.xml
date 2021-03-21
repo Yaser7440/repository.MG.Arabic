@@ -4,12 +4,12 @@
         <!--<import addon="xbmc.python" version="2.20.0" />-->
         <import addon="script.exodus.artwork" />
         <import addon="script.exodus.metadata" />
-        <import addon="repository.kodibae" />
+        <!-- <import addon="repository.kodibae" /> -->
         <import addon="script.module.urlresolver" />
         <import addon="script.module.requests" />
         <import addon="script.module.beautifulsoup4" />
         <import addon="script.module.playscrapers" />
-        <import addon="plugin.video.pressplay" />
+        <!-- <import addon="plugin.video.pressplay" /> -->
         <import addon="script.module.six" />
         <import addon="script.module.simplejson" />
         <import addon="script.module.metahandler" optional="true" />
