@@ -62,10 +62,10 @@ class trailer:
             if self.content in ['seasons', 'episodes']:
                 season = control.infoLabel('ListItem.Season')
                 episode = control.infoLabel('ListItem.Episode')
-                if season != '':
+                if not season is '':
                     name = control.infoLabel('ListItem.TVShowTitle')
                     name += ' season %01d trailer' % int(season)
-                    if episode != '':
+                    if not episode is '':
                         name = name.replace('season ', '').replace(' trailer', '')
                         name += 'x%02d' % int(episode)
 

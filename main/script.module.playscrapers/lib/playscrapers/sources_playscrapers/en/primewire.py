@@ -4,7 +4,7 @@
 # "THE BEER-WARE LICENSE" (Revision 42):
 # @PressPlay wrote this file.  As long as you retain this notice you
 # can do whatever you want with this stuff. If we meet some day, and you think
-# this stuff is worth it, you can buy me a beer in return. - PlayScrapers
+# this stuff is worth it, you can buy me a beer in return. - Muad'Dib
 # ----------------------------------------------------------------------------
 #######################################################################
 
@@ -13,7 +13,6 @@
 
 
 import re
-import traceback
 from datetime import datetime
 
 import requests
@@ -47,9 +46,8 @@ class source:
                 + tuple((alias['title'].lower() for alias in aliases) if aliases else ())
             )
             return self._getSearchData(lowerTitle, possibleTitles, year, self._createSession(), isMovie=True)
-        except Exception:
-            failure = traceback.format_exc()
-            log_utils.log('PrimewireGR - Exception: \n' + str(failure))
+        except:
+            log_utils.log('PrimewireGR - Exception', 1)
             return
 
     def tvshow(self, imdb, tvdb, tvshowtitle, localtvshowtitle, aliases, year):
@@ -60,9 +58,8 @@ class source:
                 + tuple((alias['title'].lower() for alias in aliases) if aliases else ())
             )
             return self._getSearchData(lowerTitle, possibleTitles, year, self._createSession(), isMovie=False)
-        except Exception:
-            failure = traceback.format_exc()
-            log_utils.log('PrimewireGR - Exception: \n' + str(failure))
+        except:
+            log_utils.log('PrimewireGR - Exception', 1)
             return
 
     def episode(self, data, imdb, tvdb, title, premiered, season, episode):
@@ -90,9 +87,8 @@ class source:
                         'cookies': session.cookies.get_dict()
                     }
             return None
-        except Exception:
-            failure = traceback.format_exc()
-            log_utils.log('PrimewireGR - Exception: \n' + str(failure))
+        except:
+            log_utils.log('PrimewireGR - Exception', 1)
             return
 
     def sources(self, data, hostDict, hostprDict):
@@ -103,8 +99,6 @@ class source:
             xbmc.sleep(1000)
             r = self._sessionGET(pageURL, session)
             if not r.ok:
-                failure = traceback.format_exc()
-                log_utils.log('PrimewireGR - Sources page request failed: \n' + str(data['pageURL']))
                 return
 
             sources = []
@@ -141,9 +135,8 @@ class source:
                         }
                     )
             return sources
-        except Exception:
-            failure = traceback.format_exc()
-            log_utils.log('PrimewireGR - Exception: \n' + str(failure))
+        except:
+            log_utils.log('PrimewireGR - Exception', 1)
             return sources
 
     def resolve(self, data):
@@ -170,9 +163,8 @@ class source:
                 xbmc.sleep(max(DELAY_PER_REQUEST - elapsed, 100))
 
             return hostURL
-        except Exception:
-            failure = traceback.format_exc()
-            log_utils.log('PrimewireGR - Exception: \n' + str(failure))
+        except:
+            log_utils.log('PrimewireGR - Exception', 1)
             return
 
     def _getSearchData(self, query, possibleTitles, year, session, isMovie):
@@ -206,9 +198,8 @@ class source:
                 }
             else:
                 return None
-        except Exception:
-            failure = traceback.format_exc()
-            log_utils.log('PrimewireGR - Exception: \n' + str(failure))
+        except:
+            log_utils.log('PrimewireGR - Exception', 1)
             return
 
     def _sessionGET(self, url, session, allowRedirects=True):

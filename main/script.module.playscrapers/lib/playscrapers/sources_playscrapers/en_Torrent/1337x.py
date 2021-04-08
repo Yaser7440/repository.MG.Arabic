@@ -2,7 +2,6 @@
 
 
 import re
-import traceback
 
 try: from urlparse import parse_qs, urljoin
 except ImportError: from urllib.parse import parse_qs, urljoin
@@ -30,9 +29,8 @@ class source:
             url = {'imdb': imdb, 'title': title, 'year': year}
             url = urlencode(url)
             return url
-        except Exception:
-            failure = traceback.format_exc()
-            log_utils.log('1337x - Exception: \n' + str(failure))
+        except:
+            log_utils.log('1337x - Exception', 1)
             return
 
     def tvshow(self, imdb, tvdb, tvshowtitle, localtvshowtitle, aliases, year):
@@ -43,9 +41,8 @@ class source:
             url = {'imdb': imdb, 'tvdb': tvdb, 'tvshowtitle': tvshowtitle, 'year': year}
             url = urlencode(url)
             return url
-        except Exception:
-            failure = traceback.format_exc()
-            log_utils.log('1337x - Exception: \n' + str(failure))
+        except:
+            log_utils.log('1337x - Exception', 1)
             return
 
     def episode(self, url, imdb, tvdb, title, premiered, season, episode):
@@ -61,9 +58,8 @@ class source:
             url['title'], url['premiered'], url['season'], url['episode'] = title, premiered, season, episode
             url = urlencode(url)
             return url
-        except Exception:
-            failure = traceback.format_exc()
-            log_utils.log('1337x - Exception: \n' + str(failure))
+        except:
+            log_utils.log('1337x - Exception', 1)
             return
 
     def sources(self, url, hostDict, hostprDict):
@@ -128,15 +124,14 @@ class source:
             [i.join() for i in threads2]
 
             return self._sources
-        except BaseException:
-            failure = traceback.format_exc()
-            log_utils.log('1337x - Exception: \n' + str(failure))
+        except:
+            log_utils.log('1337x - Exception', 1)
             return self._sources
 
     def _get_items(self, url):
         try:
             r = cfScraper.get(url).content
-            r = ensure_text(r)
+            r = ensure_text(r, errors='replace')
             posts = client.parseDOM(r, 'tbody')[0]
             posts = client.parseDOM(posts, 'tr')
             for post in posts:
@@ -163,9 +158,8 @@ class source:
 
                 self.items.append((name, link, isize, dsize))
             return self.items
-        except BaseException:
-            failure = traceback.format_exc()
-            log_utils.log('1337x - Exception: \n' + str(failure))
+        except:
+            log_utils.log('1337x - Exception', 1)
             return self.items
 
     def _get_sources(self, item):
@@ -174,7 +168,7 @@ class source:
             quality, info = source_utils.get_release_quality(name, item[1])
             info.insert(0, item[2])
             data = cfScraper.get(item[1]).content
-            data = ensure_text(data)
+            data = ensure_text(data, errors='replace')
             data = client.parseDOM(data, 'a', ret='href')
             url = [i for i in data if 'magnet:' in i][0]
             url = url.split('&tr')[0]
@@ -183,9 +177,8 @@ class source:
             self._sources.append(
                 {'source': 'Torrent', 'quality': quality, 'language': 'en', 'url': url, 'info': info, 'direct': False,
                  'debridonly': True, 'size': item[3], 'name': name})
-        except BaseException:
-            failure = traceback.format_exc()
-            log_utils.log('1337x - Exception: \n' + str(failure))
+        except:
+            log_utils.log('1337x - Exception', 1)
             pass
 
     def __get_base_url(self, fallback):
@@ -194,7 +187,7 @@ class source:
                 try:
                     url = 'https://%s' % domain
                     result = cfScraper.get(url).content
-                    result = ensure_text(result)
+                    result = ensure_text(result, errors='replace')
                     search_n = re.findall('<input type="search" placeholder="(.+?)"', result, re.DOTALL)[0]
                     if search_n and 'Search for torrents..' in search_n:
                         return url

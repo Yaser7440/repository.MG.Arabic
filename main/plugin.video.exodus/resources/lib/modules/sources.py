@@ -1329,12 +1329,8 @@ class sources:
                 self.sourceDict = sourceDir1 + sourceDir2
                 self.module_name = 'Built-in + ' + oas_module_name
             elif scraperSetting == 'Exo + Play':
-                self.sourceDict = sourceDir3 + sourceDir1
-                self.module_name = 'ExoScrapers + ' + oas_module_name
-            elif scraperSetting == 'Exo + Built-in':
                 self.sourceDict = sourceDir3 + sourceDir2
-                self.module_name = 'ExoScrapers + Built-in:'
-
+                self.module_name = 'Built-in + ExoScrapers:'
             else:
                 self.sourceDict = sourceDir1
                 self.module_name = oas_module_name

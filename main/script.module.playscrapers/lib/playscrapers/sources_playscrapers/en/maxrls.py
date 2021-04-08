@@ -4,7 +4,7 @@
     --updated for PressPlay 14/7/2020--
 """
 
-import re, traceback
+import re
 
 try: from urlparse import parse_qs, urljoin
 except ImportError: from urllib.parse import parse_qs, urljoin
@@ -114,9 +114,8 @@ class source:
             except:
                 pass
             return sources
-        except Exception:
-            failure = traceback.format_exc()
-            log_utils.log('---max_rls Exception: \n' + str(failure))
+        except:
+            log_utils.log('max_rls Exception', 1)
             return sources
 
     def resolve(self, url):

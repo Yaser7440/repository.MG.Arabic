@@ -20,7 +20,7 @@
 
 from __future__ import absolute_import, division, print_function
 
-import re, sys, gzip, time, random, base64, traceback
+import re, sys, gzip, time, random, base64
 
 import simplejson as json
 
@@ -371,9 +371,9 @@ def request(url, close=True, redirect=True, error=False, verify=True, proxy=None
 
         return result
 
-    except Exception as reason:
+    except:
 
-        log_utils.log('Client request failed on url: ' + url + ' reason: ' + repr(reason))
+        log_utils.log('Client request failed on url: ' + url + ' | Reason', 1)
 
         return
 
@@ -455,6 +455,9 @@ def replaceHTMLCodes(txt):
     txt = txt.replace("&gt;", ">")
     txt = txt.replace("&#38;", "&")
     txt = txt.replace("&nbsp;", "")
+    txt = txt.replace('&#8230;', '...')
+    txt = txt.replace('&#8217;', '\'')
+    txt = txt.replace('&#8211;', '-')
     txt = txt.strip()
     return txt
 
@@ -546,11 +549,10 @@ class Cfcookie:
             self.cookie = None
             self._get_cookie(netloc, ua, timeout)
             if self.cookie is None:
-                log_utils.log('%s returned an error. Could not collect tokens.' % netloc, log_utils.LOGDEBUG)
+                log_utils.log('%s returned an error. Could not collect tokens.' % netloc)
             return self.cookie
         except Exception as e:
-            log_utils.log('%s returned an error. Could not collect tokens - Error: %s.' % (netloc, str(e)),
-                          log_utils.LOGDEBUG)
+            log_utils.log('%s returned an error. Could not collect tokens - Error: %s.' % (netloc, str(e)))
             return self.cookie
 
     def _get_cookie(self, netloc, ua, timeout):

@@ -15,7 +15,7 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 '''
 
-import re, traceback
+import re
 
 try: from urlparse import parse_qs, urljoin
 except ImportError: from urllib.parse import parse_qs, urljoin
@@ -45,8 +45,7 @@ class source:
             url = urlencode(url)
             return url
         except:
-            failure = traceback.format_exc()
-            log_utils.log('YourBT0 - Exception: \n' + str(failure))
+            log_utils.log('YourBT0 - Exception', 1)
             return
 
 
@@ -56,8 +55,7 @@ class source:
             url = urlencode(url)
             return url
         except:
-            failure = traceback.format_exc()
-            log_utils.log('YourBT1 - Exception: \n' + str(failure))
+            log_utils.log('YourBT1 - Exception', 1)
             return
 
 
@@ -71,8 +69,7 @@ class source:
             url = urlencode(url)
             return url
         except:
-            failure = traceback.format_exc()
-            log_utils.log('YourBT2 - Exception: \n' + str(failure))
+            log_utils.log('YourBT2 - Exception', 1)
             return
 
 
@@ -112,13 +109,11 @@ class source:
                 [i.join() for i in threads]
                 return self.sources
             except:
-                failure = traceback.format_exc()
-                log_utils.log('YourBT3 - Exception: \n' + str(failure))
+                log_utils.log('YourBT3 - Exception', 1)
                 return self.sources
 
         except:
-            failure = traceback.format_exc()
-            log_utils.log('YourBT3 - Exception: \n' + str(failure))
+            log_utils.log('YourBT3 - Exception', 1)
             return self.sources
 
 
@@ -157,8 +152,7 @@ class source:
                                  'info': info, 'direct': False, 'debridonly': True, 'size': dsize, 'name': name})
 
         except:
-            failure = traceback.format_exc()
-            log_utils.log('YourBT4 - Exception: \n' + str(failure))
+            log_utils.log('YourBT4 - Exception', 1)
             pass
 
     def resolve(self, url):

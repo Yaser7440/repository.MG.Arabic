@@ -4,7 +4,7 @@
 # "THE BEER-WARE LICENSE" (Revision 42):
 # @PressPlay wrote this file.  As long as you retain this notice you
 # can do whatever you want with this stuff. If we meet some day, and you think
-# this stuff is worth it, you can buy me a beer in return. - PlayScrapers
+# this stuff is worth it, you can buy me a beer in return. - Muad'Dib
 # ----------------------------------------------------------------------------
 #######################################################################
 
@@ -107,7 +107,7 @@ class source:
             except Exception:
                 return sources
             if rows is None:
-                log_utils.log('KICKASS - No Torrents In Search Results')
+                #log_utils.log('KICKASS - No Torrents In Search Results')
                 return sources
 
             for entry in rows:

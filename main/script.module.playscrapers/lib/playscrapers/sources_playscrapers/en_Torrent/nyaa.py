@@ -4,7 +4,7 @@
     Playscrapers Project
 '''
 
-import re, traceback
+import re
 
 try: from urlparse import parse_qs, urljoin
 except ImportError: from urllib.parse import parse_qs, urljoin
@@ -32,8 +32,7 @@ class source:
             url = urlencode(url)
             return url
         except:
-            failure = traceback.format_exc()
-            log_utils.log('nyaa0 - Exception: \n' + str(failure))
+            log_utils.log('nyaa0 - Exception', 1)
             return
 
 
@@ -43,8 +42,7 @@ class source:
             url = urlencode(url)
             return url
         except:
-            failure = traceback.format_exc()
-            log_utils.log('nyaa1 - Exception: \n' + str(failure))
+            log_utils.log('nyaa1 - Exception', 1)
             return
 
 
@@ -57,8 +55,7 @@ class source:
             url = urlencode(url)
             return url
         except:
-            failure = traceback.format_exc()
-            log_utils.log('nyaa2 - Exception: \n' + str(failure))
+            log_utils.log('nyaa2 - Exception', 1)
             return
 
 
@@ -122,13 +119,11 @@ class source:
                             sources.append({'source': 'torrent', 'quality': quality, 'language': 'en', 'url': url,
                                             'info': info, 'direct': False, 'debridonly': True, 'size': dsize, 'name': name})
                 except:
-                    failure = traceback.format_exc()
-                    log_utils.log('nyaa3 - Exception: \n' + str(failure))
+                    log_utils.log('nyaa3 - Exception', 1)
                     return sources
             return sources
         except:
-            failure = traceback.format_exc()
-            log_utils.log('nyaa4 - Exception: \n' + str(failure))
+            log_utils.log('nyaa4 - Exception', 1)
             return sources
 
 

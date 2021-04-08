@@ -2,13 +2,13 @@
 #######################################################################
  # ----------------------------------------------------------------------------
  # "THE BEER-WARE LICENSE" (Revision 42):
- # PlayScrapers wrote this file.  As long as you retain this notice you
+ # Muad'Dib wrote this file.  As long as you retain this notice you
  # can do whatever you want with this stuff. If we meet some day, and you think
- # this stuff is worth it, you can buy me a beer in return. - PlayScrapers
+ # this stuff is worth it, you can buy me a beer in return. - Muad'Dib
  # ----------------------------------------------------------------------------
 #######################################################################
 
-import re,traceback
+import re
 
 from playscrapers.modules import cleantitle
 from playscrapers.modules import client
@@ -45,8 +45,7 @@ class source:
                                 return url
             return
         except:
-            failure = traceback.format_exc()
-            log_utils.log('BNWMovies - Exception: \n' + str(failure))
+            log_utils.log('BNWMovies - Exception', 1)
             return
 
     def sources(self, url, hostDict, hostprDict):
@@ -61,8 +60,7 @@ class source:
                 sources.append({'source': 'direct', 'quality': 'SD', 'language': 'en', 'url': link, 'info': '', 'direct': True, 'debridonly': False})
             return sources
         except:
-            failure = traceback.format_exc()
-            log_utils.log('BNWMovies - Exception: \n' + str(failure))
+            log_utils.log('BNWMovies - Exception', 1)
             return sources
 
     def resolve(self, url):

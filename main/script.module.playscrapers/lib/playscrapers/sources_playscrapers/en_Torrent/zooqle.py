@@ -4,13 +4,12 @@
 # "THE BEER-WARE LICENSE" (Revision 42):
 # @PressPlay wrote this file.  As long as you retain this notice you
 # can do whatever you want with this stuff. If we meet some day, and you think
-# this stuff is worth it, you can buy me a beer in return. - PlayScrapers
+# this stuff is worth it, you can buy me a beer in return. - Muad'Dib
 # ----------------------------------------------------------------------------
 #######################################################################
 
 
 import re
-import traceback
 
 try: from urlparse import parse_qs, urljoin
 except ImportError: from urllib.parse import parse_qs, urljoin
@@ -36,9 +35,8 @@ class source:
             url = {'imdb': imdb, 'title': title, 'year': year}
             url = urlencode(url)
             return url
-        except Exception:
-            failure = traceback.format_exc()
-            log_utils.log('ZOOGLE - Exception: \n' + str(failure))
+        except:
+            log_utils.log('ZOOGLE - Exception', 1)
             return
 
     def tvshow(self, imdb, tvdb, tvshowtitle, localtvshowtitle, aliases, year):
@@ -49,9 +47,8 @@ class source:
             url = {'imdb': imdb, 'tvdb': tvdb, 'tvshowtitle': tvshowtitle, 'year': year}
             url = urlencode(url)
             return url
-        except Exception:
-            failure = traceback.format_exc()
-            log_utils.log('ZOOGLE - Exception: \n' + str(failure))
+        except:
+            log_utils.log('ZOOGLE - Exception', 1)
             return
 
     def episode(self, url, imdb, tvdb, title, premiered, season, episode):
@@ -67,9 +64,8 @@ class source:
             url['title'], url['premiered'], url['season'], url['episode'] = title, premiered, season, episode
             url = urlencode(url)
             return url
-        except Exception:
-            failure = traceback.format_exc()
-            log_utils.log('ZOOGLE - Exception: \n' + str(failure))
+        except:
+            log_utils.log('ZOOGLE - Exception', 1)
             return
 
     def sources(self, url, hostDict, hostprDict):
@@ -151,9 +147,8 @@ class source:
                 sources = check
 
             return sources
-        except Exception:
-            failure = traceback.format_exc()
-            log_utils.log('ZOOGLE - Exception: \n' + str(failure))
+        except:
+            log_utils.log('ZOOGLE - Exception', 1)
             return sources
 
     def resolve(self, url):

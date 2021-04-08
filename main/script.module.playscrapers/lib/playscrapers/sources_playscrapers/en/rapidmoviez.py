@@ -16,7 +16,7 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 '''
 
-import re, time, traceback
+import re, time
 
 try: from urlparse import parse_qs, urljoin
 except ImportError: from urllib.parse import parse_qs, urljoin
@@ -49,8 +49,7 @@ class source:
             url = urlencode(url)
             return url
         except:
-            failure = traceback.format_exc()
-            log_utils.log('RMZ - Exception: \n' + str(failure))
+            log_utils.log('RMZ - Exception', 1)
             return
             
     def tvshow(self, imdb, tvdb, tvshowtitle, localtvshowtitle, aliases, year):
@@ -58,9 +57,8 @@ class source:
             url = {'imdb': imdb, 'tvdb': tvdb, 'tvshowtitle': tvshowtitle, 'year': year}
             url = urlencode(url)
             return url
-        except Exception:
-            failure = traceback.format_exc()
-            log_utils.log('RMZ - Exception: \n' + str(failure))
+        except:
+            log_utils.log('RMZ - Exception', 1)
             return
 
     def episode(self, url, imdb, tvdb, title, premiered, season, episode):
@@ -73,8 +71,7 @@ class source:
             url = urlencode(url)
             return url
         except:
-            failure = traceback.format_exc()
-            log_utils.log('RMZ - Exception: \n' + str(failure))
+            log_utils.log('RMZ - Exception', 1)
             return
 
     def search(self, title, year):
@@ -82,7 +79,7 @@ class source:
             url = urljoin(self.base_link, self.search_link % (quote_plus(title)))
             headers = {'User-Agent': client.agent()}
             r = cfScraper.get(url, headers=headers).content
-            r = ensure_text(r)
+            r = ensure_text(r, errors='replace')
             r = dom_parser2.parse_dom(r, 'div', {'class': 'list_items'})[0]
             r = dom_parser2.parse_dom(r.content, 'li')
             r = [(dom_parser2.parse_dom(i, 'a', {'class': 'title'})) for i in r]
@@ -91,8 +88,7 @@ class source:
             if r: return r[0]
             else: return
         except:
-            failure = traceback.format_exc()
-            log_utils.log('RMZ - Exception: \n' + str(failure))
+            log_utils.log('RMZ - Exception', 1)
             return
     
     def sources(self, url, hostDict, hostprDict):
@@ -119,7 +115,7 @@ class source:
             url = self.search(title, hdlr)
             headers = {'User-Agent': client.agent()}
             r = cfScraper.get(url, headers=headers).content
-            r = ensure_text(r)
+            r = ensure_text(r, errors='replace')
             if hdlr2 == '':
                 r = dom_parser2.parse_dom(r, 'ul', {'id': 'releases'})[0]
             else:
@@ -142,15 +138,14 @@ class source:
                 time.sleep(0.1)
             return self.sources
         except:
-            failure = traceback.format_exc()
-            log_utils.log('RMZ - Exception: \n' + str(failure))
+            log_utils.log('RMZ - Exception', 1)
             return self.sources
           
     def _get_sources(self, name, url):
         try:
             headers = {'User-Agent': client.agent()}
             r = cfScraper.get(url, headers=headers).content
-            r = ensure_text(r)
+            r = ensure_text(r, errors='replace')
             name = client.replaceHTMLCodes(name)
             try: _name = name.lower().replace('rr', '').replace('nf', '').replace('ul', '').replace('cu', '')
             except: _name = name
@@ -179,8 +174,7 @@ class source:
                 info = ' | '.join(info)
                 self.sources.append({'source': host, 'quality': quality, 'language': 'en', 'url': url, 'info': info, 'direct': False, 'debridonly': True, 'size': dsize, 'name': _name})
         except:
-            failure = traceback.format_exc()
-            log_utils.log('RMZ - Exception: \n' + str(failure))
+            log_utils.log('RMZ - Exception', 1)
             pass
 
     def resolve(self, url):

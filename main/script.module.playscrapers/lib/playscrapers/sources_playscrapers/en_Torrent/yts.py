@@ -4,7 +4,7 @@
 # "THE BEER-WARE LICENSE" (Revision 42):
 # @PressPlay wrote this file.  As long as you retain this notice you
 # can do whatever you want with this stuff. If we meet some day, and you think
-# this stuff is worth it, you can buy me a beer in return. - PlayScrapers
+# this stuff is worth it, you can buy me a beer in return. - Muad'Dib
 # ----------------------------------------------------------------------------
 #######################################################################
 
@@ -105,11 +105,9 @@ class source:
                     continue
 
             return sources
-        except Exception:
-            import traceback
+        except:
             from playscrapers.modules import log_utils
-            failure = traceback.format_exc()
-            log_utils.log('---Ytsam Testing - Exception: \n' + str(failure))
+            log_utils.log('Ytsam - Exception', 1)
             return sources
 
     def resolve(self, url):

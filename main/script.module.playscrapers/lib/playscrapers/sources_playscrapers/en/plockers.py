@@ -2,7 +2,7 @@
 # - Converted to py3/2 for PressPlay
 
 
-import re, base64, traceback
+import re, base64
 
 try: from urlparse import urlparse, parse_qs, urljoin
 except ImportError: from urllib.parse import urlparse, parse_qs, urljoin
@@ -20,7 +20,7 @@ class source:
         self.priority = 1
         self.language = ['en']
         self.domains = ['www1.putlockers.gs']
-        self.base_link = 'https://www8.putlockers.fm/'#'https://putlockerseries.unblocked.gdn'
+        self.base_link = 'https://putlockerfree.net/'#'https://putlockerseries.unblocked.gdn'
         self.search_link = 'search-movies/%s.html'
 
     def movie(self, imdb, title, localtitle, aliases, year):
@@ -29,8 +29,7 @@ class source:
             url = urlencode(url)
             return url
         except:
-            failure = traceback.format_exc()
-            log_utils.log('plockers0 Exception: \n' + str(failure))
+            log_utils.log('plockers0 Exception', 1)
             return
 
     def tvshow(self, imdb, tvdb, tvshowtitle, localtvshowtitle, aliases, year):
@@ -39,8 +38,7 @@ class source:
             url = urlencode(url)
             return url
         except:
-            failure = traceback.format_exc()
-            log_utils.log('plockers1 Exception: \n' + str(failure))
+            log_utils.log('plockers1 Exception', 1)
             return
 
     def episode(self, url, imdb, tvdb, title, premiered, season, episode):
@@ -53,8 +51,7 @@ class source:
             url = urlencode(url)
             return url
         except:
-            failure = traceback.format_exc()
-            log_utils.log('plockers2 Exception: \n' + str(failure))
+            log_utils.log('plockers2 Exception', 1)
             return
 
     def sources(self, url, hostDict, hostprDict):
@@ -78,7 +75,7 @@ class source:
 
             ua = {'User-Agent': client.agent()}
             r = cfScraper.get(url, headers=ua).content
-            r = six.ensure_text(r, errors='ignore')
+            r = six.ensure_text(r, errors='replace')
             posts = client.parseDOM(r, 'div', attrs={'class': 'item'})
             posts = [(client.parseDOM(i, 'a', ret='href')[1],
                       client.parseDOM(i, 'a')[1],
@@ -90,14 +87,14 @@ class source:
                 sepi = 'season-%1d/episode-%1d.html' % (int(data['season']), int(data['episode']))
                 post = [i[0] for i in posts if sep in i[1].lower()][0]
                 data = cfScraper.get(post, headers=ua).content
-                data = six.ensure_text(data, errors='ignore')
+                data = six.ensure_text(data, errors='replace')
                 link = client.parseDOM(data, 'a', ret='href')
                 link = [i for i in link if sepi in i][0]
             else:
                 link = [i[0] for i in posts if cleantitle.get(i[1]) == cleantitle.get(title) and hdlr == i[2]][0]
 
             r = cfScraper.get(link, headers=ua).content
-            r = six.ensure_text(r, errors='ignore')
+            r = six.ensure_text(r, errors='replace')
             try:
                 v = re.findall('document.write\(Base64.decode\("(.+?)"\)', r)[0]
                 v = v.encode('utf-8')
@@ -119,12 +116,10 @@ class source:
                             'debridonly': False
                         })
                 except:
-                    failure = traceback.format_exc()
-                    log_utils.log('plockers4 Exception: \n' + str(failure))
+                    log_utils.log('plockers4 Exception', 1)
                     pass
             except:
-                failure = traceback.format_exc()
-                log_utils.log('plockers3 Exception: \n' + str(failure))
+                log_utils.log('plockers3 Exception', 1)
                 pass
             r = client.parseDOM(r, 'div', {'class': 'server_line'})
             r = [(client.parseDOM(i, 'a', ret='href')[0],
@@ -148,20 +143,18 @@ class source:
                                 'debridonly': False
                             })
                     except:
-                        failure = traceback.format_exc()
-                        log_utils.log('plockers5 Exception: \n' + str(failure))
+                        log_utils.log('plockers5 Exception', 1)
                         pass
             return sources
         except:
-            failure = traceback.format_exc()
-            log_utils.log('plockers Exception: \n' + str(failure))
+            log_utils.log('plockers Exception', 1)
             return
 
     def resolve(self, url):
-        if 'putlockers' in url:
+        if 'putlockerfree' in url:
             try:
                 r = client.request(url)
-                r = six.ensure_text(r, errors='ignore')
+                r = six.ensure_text(r, errors='replace')
                 try:
                     v = re.findall('document.write\(Base64.decode\("(.+?)"\)', r)[0]
                     v = v.encode('utf-8')
@@ -173,8 +166,7 @@ class source:
                     u = client.parseDOM(r, 'div', attrs={'class': 'player'})
                     url = client.parseDOM(u, 'a', ret='href')[0]
             except:
-                failure = traceback.format_exc()
-                log_utils.log('plockersR Exception: \n' + str(failure))
+                log_utils.log('plockersR Exception', 1)
 
             return url
         else:

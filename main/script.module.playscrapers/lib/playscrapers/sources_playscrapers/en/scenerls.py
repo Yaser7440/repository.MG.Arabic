@@ -84,7 +84,7 @@ class source:
                 url = urljoin(self.base_link, url)
 
                 r = cfScraper.get(url).content
-                r = ensure_text(r)
+                r = ensure_text(r, errors='replace')
 
                 posts = client.parseDOM(r, 'div', attrs={'class': 'post'})
 

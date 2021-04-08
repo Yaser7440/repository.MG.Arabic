@@ -16,6 +16,7 @@ from playscrapers.modules import dom_parser2 as dom
 from playscrapers.modules import cleantitle
 from playscrapers.modules import debrid
 from playscrapers.modules import source_utils
+from playscrapers.modules import log_utils
 from playscrapers.modules import workers
 from playscrapers.sources_playscrapers import cfScraper
 
@@ -42,7 +43,7 @@ class source:
             url = {'imdb': imdb, 'title': title, 'year': year}
             url = urlencode(url)
             return url
-        except BaseException:
+        except:
             return
 
 
@@ -51,7 +52,7 @@ class source:
             url = {'imdb': imdb, 'tvdb': tvdb, 'tvshowtitle': tvshowtitle, 'year': year}
             url = urlencode(url)
             return url
-        except BaseException:
+        except:
             return
 
 
@@ -64,7 +65,7 @@ class source:
             url['title'], url['premiered'], url['season'], url['episode'] = title, premiered, season, episode
             url = urlencode(url)
             return url
-        except BaseException:
+        except:
             return
 
 
@@ -96,7 +97,8 @@ class source:
             [i.start() for i in threads]
             [i.join() for i in threads]
             return self._sources
-        except BaseException:
+        except:
+            log_utils.log('lime0 - Exception', 1)
             return self._sources
 
     def _get_items(self, url):
@@ -104,7 +106,7 @@ class source:
             #headers = {'User-Agent': client.agent()}
             #r = client.request(url, headers=headers)
             r = cfScraper.get(url).content
-            r = ensure_text(r)
+            r = ensure_text(r, errors='ignore')
             posts = client.parseDOM(r, 'table', attrs={'class': 'table2'})[0]
             posts = client.parseDOM(posts, 'tr')
             for post in posts:
@@ -115,17 +117,18 @@ class source:
                 if not cleantitle.get(re.sub('(|)', '', t)) == cleantitle.get(self.title): continue
                 try:
                     y = re.findall('[\.|\(|\[|\s|\_|\-](S\d+E\d+|S\d+)[\.|\)|\]|\s|\_|\-]', name, re.I)[-1].upper()
-                except BaseException:
+                except:
                     y = re.findall('[\.|\(|\[|\s\_|\-](\d{4})[\.|\)|\]|\s\_|\-]', name, re.I)[-1].upper()
                 if not y == self.hdlr: continue
                 try:
                     size = re.findall('((?:\d+\,\d+\.\d+|\d+\.\d+|\d+\,\d+|\d+)\s*(?:GiB|MiB|GB|MB))', post)[0]
                     dsize, isize = source_utils._size(size)
-                except BaseException:
+                except:
                     dsize, isize = 0.0, ''
                 self.items.append((name, link, isize, dsize))
             return self.items
-        except BaseException:
+        except:
+            log_utils.log('lime1 - Exception', 1)
             return self.items
 
 
@@ -134,7 +137,7 @@ class source:
             name = item[0]
             #data = client.request(item[1])
             data = cfScraper.get(item[1]).content
-            data = ensure_text(data)
+            data = ensure_text(data, errors='ignore')
             url = re.search('''href=["'](magnet:\?[^"']+)''', data).groups()[0]
             url = url.split('&tr')[0]
             quality, info = source_utils.get_release_quality(name, url)
@@ -143,7 +146,8 @@ class source:
             self._sources.append(
                 {'source': 'Torrent', 'quality': quality, 'language': 'en', 'url': url, 'info': info, 'direct': False,
                  'debridonly': True, 'size': item[3], 'name': name})
-        except BaseException:
+        except:
+            log_utils.log('lime2 - Exception', 1)
             pass
 
 
@@ -158,12 +162,13 @@ class source:
                     url = 'https://%s' % domain
                     #result = client.request(url, limit=1, timeout='5')
                     result = cfScraper.get(url).content
-                    result = ensure_text(result)
+                    result = ensure_text(result, errors='ignore')
                     result = re.findall('<title>(.+?)</title>', result, re.DOTALL)[0]
                     if result and 'LimeTorrents' in result:
                         return url
-                except Exception:
+                except:
                     pass
-        except Exception:
+        except:
+            log_utils.log('lime3 - Exception', 1)
             pass
         return fallback

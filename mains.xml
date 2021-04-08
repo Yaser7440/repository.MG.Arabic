@@ -77,6 +77,44 @@
 	</extension>
 </addon>
 
+<addon id="repository.tva.common" name="TVADDONS.CO Resolvers Repository" version="2.0.0" provider-name="tvaddons">
+    <extension point="xbmc.addon.repository" name="TVADDONS.CO Resolvers Repository">
+        <info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
+        <checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Unofficial Resolvers for the Kodi Media Center</summary>
+        <description>Unofficial Resolvers for the Kodi Media Center. Please visit www.tvaddons.co for support!</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="repository.xbmchub" name="TVADDONS.CO Add-on Repository" version="3.0.0" provider-name="tvaddons">
+	<extension point="xbmc.addon.repository" name="TVADDONS.CO Add-on Repository">
+	<dir>
+		<info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
+		<checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
+	</dir>
+
+    <dir>
+		<info compressed="false">https://github.com/tvaddonsco/tva-release-repo/raw/master/addons.xml</info>
+		<checksum>https://github.com/tvaddonsco/tva-release-repo/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/tvaddonsco/tva-release-repo/raw/master/</datadir>
+    </dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Unofficial Kodi Addons from TVADDONS.CO</summary>
+		<description>Unofficial Kodi Addons from the TVADDONS.CO Add-on Repository. Please visit www.tvaddons.co for support!
+                      
+Kodi is a registered trademark of the XBMC Foundation. We are not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation.</description>
+         <disclaimer>TVADDONS.CO did not make all the add-ons in this repository and is not responsible for their content.</disclaimer>
+		<platform>all</platform>
+                <forum>https://www.tvaddons.co/forums</forum>
+                <website>https://www.tvaddons.co</website>
+	</extension>
+</addon>
 
 <addon id="service.subtitles.subscene"
        name="Subscene.com"
@@ -420,6 +458,33 @@ Supports: OpenSubtitles, BSPlayer, Podnadpisi.NET, Subscene, Addic7ed
 	</extension>
 </addon>
 
+<addon id="script.module.urlresolver" name="URLResolver" version="6.0.01" provider-name="tvaddons">
+    <requires>
+        <!-- <import addon="xbmc.python" version="3.0.0" /> -->
+        <import addon="script.module.six" />
+        <import addon="script.module.kodi-six" />
+        <import addon="plugin.video.youtube" optional="true" />
+        <import addon="script.module.python.twitch" optional="true" />
+        <import addon="plugin.googledrive" optional="true" />
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.python.pluginsource" library="lib/default.py" />
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en_GB">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
+        <summary lang="es_ES">Resolver enlaces a videos de sitios populares para poder reproducirlos en XBMC/Kodi.</summary>
+        <summary lang="hr_HR">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju.</summary>
+        <summary lang="el_GR">Επίλυση συνδέσμων κοινών εξυπηρετητών σε μορφή βίντεο ικανό για αναπαραγωγή στο XBMC/Kodi.</summary>
+        <description lang="en_GB">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
+        <description lang="el_GR">Επίλυση συνδέσμων κοινών εξυπηρετητών σε μορφή βίντεο ικανό για αναπαραγωγή στο XBMC/Kodi, απλοποίηση της ανάπτυξης των προσθέτων που χρησιμοποιούν πολλαπλούς εξυπηρετητές για υλικό βίντεο</description>
+        <description lang="hr_HR">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj priključaka za video dodatke koji zahtjevaju višestruke video izvore.</description>
+        <disclaimer lang="en_GB">This script only resolves video content from legitimate file lockers without prejudice. If this script is being used by 3rd parties to resolve content that you feel infringes upon your Intellectual Property then please take your complaints to the actual website or developer linking to such content and not here. This script in no way searches for any content whatsoever.</disclaimer>
+        <disclaimer lang="el_GR">Το ανωτέρο σενάριο το μόνο που κάνει είναι να επιλύει οπτικοακουστικό περιεχόμενο από νόμιμες πηγές χωρίς προκατάληψη. Εάν το ανωτέρο σενάριο χρησιμοποιηθεί από τρίτους ώστε να επιλύσει περιεχόμενο το οποίο σας προκαλεί αντίδραση ότι παραβιάζει την πνευματική σας ιδιοκτησία παρακαλώ μεταφέρετε τα παραπονά σας στον ιστότοπο τον οποίο βρίσκεται το εν λόγω περιεχόμενο η τον δημιουργό ο οποίος πραγματοποιεί την σύνδεση και όχι εδω. Το σενάριο αυτό ουδεμία περίπτωση πραγματοποιεί αναζήτηση περιεχομένου.</disclaimer>
+        <forum>https://www.tvaddons.co/forums</forum>
+        <website>https://www.tvaddons.co</website>
+    </extension>
+</addon>
+
 <addon id="script.module.urlresolver" name="URLResolver" version="5.1.22" provider-name="tvaddons">
     <requires>
         <!-- <import addon="xbmc.python" version="3.0.0" /> -->
@@ -466,6 +531,28 @@ Supports: OpenSubtitles, BSPlayer, Podnadpisi.NET, Subscene, Addic7ed
     <email>freso.dk AT gmail.com</email>
     <assets>
       <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="script.module.six"
+       name="six"
+       version="1.15.0+matrix.1"
+       provider-name="gutworth">
+  <requires>
+    <import addon="xbmc.python"
+    		version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Python 2 and 3 compatibility utilities.</summary>
+    <description lang="en_GB">Six is a Python 2 and 3 compatibility library. It provides utility functions for smoothing over the differences between the Python versions with the goal of writing Python code that is compatible on both Python versions. See the documentation for more information on what is provided.</description>
+    <platform>all</platform>
+    <license>MIT</license>
+    <source>https://github.com/benjaminp/six</source>
+    <website>https://pypi.org/project/six/</website>
+    <assets>
+      <icon>icon.png</icon>
     </assets>
   </extension>
 </addon>
@@ -567,6 +654,34 @@ Supports: OpenSubtitles, BSPlayer, Podnadpisi.NET, Subscene, Addic7ed
       <icon>resources/icon.png</icon>
     </assets>
   </extension>
+</addon>
+
+<addon id="script.module.playscrapers" name="PlayScrapers Module" version="3.0.0" provider-name="PressPlay">
+    <requires>
+        <!--<import addon="xbmc.python" version="2.20.0" />-->
+        <import addon="script.module.beautifulsoup4" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.six" />
+        <import addon="script.module.kodi-six" />
+        <import addon="script.module.simplejson" />
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.python.pluginsource" library="lib/default.py">
+        <provides>executable</provides>
+    </extension>
+        <extension point="xbmc.addon.metadata">
+            <platform>all</platform>
+            <summary lang="en">PlayScrapers Module</summary>
+            <description>Scrape common video host for URL's to be playable in Kodi, simplifying addon development of video plugins requiring multi video hosts.</description>
+                <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart></fanart>
+    </assets>
+    <news></news>
+    </extension>
 </addon>
 
 <addon id="script.module.playscrapers" name="PlayScrapers Module" version="1.1.0b" provider-name="PressPlay, arabic by MG">
@@ -938,6 +1053,48 @@ Supports: OpenSubtitles, BSPlayer, Podnadpisi.NET, Subscene, Addic7ed
     </extension>
 </addon>
 
+<addon id="plugin.video.pressplay" name="[COLOR pink]pressplay[/COLOR]" provider-name="PressPlay" version="3.0.0">
+    <requires>
+        <!--<import addon="xbmc.python" version="2.20.0" />-->
+        <import addon="script.pressplay.artwork" />
+        <import addon="script.pressplay.metadata" />
+        <import addon="repository.pressplay" />
+        <import addon="script.module.urlresolver" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.beautifulsoup4" />
+        <import addon="script.module.playscrapers" />
+        <import addon="script.module.six" />
+        <import addon="script.module.kodi-six" />
+        <import addon="script.module.simplejson" />
+        <import addon="script.module.metahandler" optional="true" />
+        <import addon="script.module.exoscrapers" optional="true" />
+        <import addon="script.module.orion" optional="true" />
+        <import addon="plugin.video.youtube" optional="true" />
+    </requires>
+    <extension library="pressplay.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+    </extension>
+    <extension library="service.py" point="xbmc.service" start="startup" />
+    <extension point="xbmc.addon.metadata">
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+        <summary lang="en_GB">PressPlay</summary>
+        <description lang="en_GB">Multi-source and multi-scraper package add-on. A basic scraper pack is provided but also supports Playscrapers, and native Orion integration.[CR][CR]The author does not host any of the content in this add-on and takes no responsibility for content found.</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <forum />
+        <website />
+        <source />
+        <disclaimer lang="en_GB">The author of this add-on does not host any of the content which is found and has no affiliation with any of the content providers. This add-on simply searches websites for content. Use at your own risk!</disclaimer>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <news>
+- See Changelog on Tools menu
+        </news>
+    </extension>
+</addon>
+
 <addon id="plugin.video.pressplay" name="[COLOR pink]PressPlay[/COLOR]" provider-name="PressPlay, arabic by MG" version="1.0.7b">
     <requires>
         <!--<import addon="xbmc.python" version="2.20.0" />-->
@@ -1079,6 +1236,47 @@ Supports: OpenSubtitles, BSPlayer, Podnadpisi.NET, Subscene, Addic7ed
     </extension>
 </addon>
 
+<addon id="plugin.video.exodus" name="[COLOR orange]Exodus[/COLOR]" provider-name="Exodus" version="11.0.0b">
+    <requires>
+        <!--<import addon="xbmc.python" version="2.20.0" />-->
+        <import addon="script.exodus.artwork" />
+        <import addon="script.exodus.metadata" />
+        <import addon="repository.kodibae" />
+        <import addon="script.module.urlresolver" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.beautifulsoup4" />
+        <import addon="script.module.playscrapers" />
+        <import addon="script.module.six" />
+        <import addon="script.module.simplejson" />
+        <import addon="script.module.metahandler" optional="true" />
+        <import addon="script.module.exoscrapers" optional="true" />
+        <import addon="script.module.orion" optional="true" />
+        <import addon="plugin.video.youtube" optional="true" />
+    </requires>
+    <extension library="exodus.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+    </extension>
+    <extension library="service.py" point="xbmc.service" start="startup" />
+    <extension point="xbmc.addon.metadata">
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+        <summary lang="en_GB">Exodus</summary>
+        <description lang="en_GB">Get Better Streaming and Support Exodus with a VPN from [COLOR pink]ExodusVPN.com[/COLOR]</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <forum />
+        <website>https://www.exodusvpn.com</website>
+        <source />
+        <disclaimer lang="en_GB">The author of this add-on does not host any of the content which is found and has no affiliation with any of the content providers. This add-on simply searches websites for content. Use at your own risk!</disclaimer>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <news>
+- See Changelog on Tools menu
+        </news>
+    </extension>
+</addon>
+
 <addon id="plugin.video.exodus" name="[COLOR orange]Exodus[/COLOR]" provider-name="Exodus" version="10.0.2b">
     <requires>
         <!--<import addon="xbmc.python" version="2.20.0" />-->
@@ -1131,5 +1329,31 @@ Supports: OpenSubtitles, BSPlayer, Podnadpisi.NET, Subscene, Addic7ed
   </extension>
 </addon>
 
+<addon id="metadata.tvshows.themoviedb.org.python"
+  name="TMDb TV Shows"
+  version="1.4.4"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="xbmc.metadata" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.metadata.scraper.tvshows" library="main.py" cachepersistence="00:15"/>
+  <extension point="xbmc.addon.metadata">
+    <news>1.4.4
+fix so studios get added even if there is no country
+change the default setting so that studio and country are stored separately
+	</news>
+    <summary lang="en_GB">Fetch TV Show metadata from themoviedb.org</summary>
+    <description lang="en_GB">The Movie Database (TMDb) is a community built movie and TV database. Every piece of data has been added by our amazing community dating back to 2008. TMDb's strong international focus and breadth of data is largely unmatched and something we're incredibly proud of. Put simply, we live and breathe community and that's precisely what makes us different.</description>
+    <platform>all</platform>
+    <license>GPL-3.0-or-later</license>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+	<forum>https://forum.kodi.tv/showthread.php?tid=357232</forum>
+    <website>https://www.themoviedb.org</website>
+    <source>https://github.com/xbmc/metadata.tvshows.themoviedb.org.python</source>
+  </extension>
+</addon>
 
 </addons>

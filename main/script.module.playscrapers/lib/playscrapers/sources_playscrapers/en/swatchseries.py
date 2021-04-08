@@ -4,7 +4,6 @@
 
 
 import re
-import traceback
 
 try: from urlparse import parse_qs, urlparse
 except ImportError: from urllib.parse import parse_qs, urlparse
@@ -32,8 +31,7 @@ class source:
             url = urlencode(url)
             return url
         except:
-            failure = traceback.format_exc()
-            log_utils.log('SwatchSeries - Exception: \n' + str(failure))
+            log_utils.log('SwatchSeries - Exception', 1)
             return
 
     def episode(self, url, imdb, tvdb, title, premiered, season, episode):
@@ -46,8 +44,7 @@ class source:
             url = '%s/episode/%s_s%s_e%s.html' % (self.base_link, tit, season, episode)
             return url
         except:
-            failure = traceback.format_exc()
-            log_utils.log('SwatchSeries - Exception: \n' + str(failure))
+            log_utils.log('SwatchSeries - Exception', 1)
             return
 
     def sources(self, url, hostDict, hostprDict):
@@ -74,8 +71,7 @@ class source:
 
             return sources
         except:
-            failure = traceback.format_exc()
-            log_utils.log('SwatchSeries - Exception: \n' + str(failure))
+            log_utils.log('SwatchSeries - Exception', 1)
             return sources
 
     def resolve(self, url):

@@ -4,7 +4,7 @@
 # "THE BEER-WARE LICENSE" (Revision 42):
 # @shellc0de wrote this file.  As long as you retain this notice you
 # can do whatever you want with this stuff. If we meet some day, and you think
-# this stuff is worth it, you can buy me a beer in return. - PlayScrapers
+# this stuff is worth it, you can buy me a beer in return. - Muad'Dib
 # ----------------------------------------------------------------------------
 #######################################################################
 
@@ -17,7 +17,6 @@
 
 import re
 import requests
-import traceback
 
 try: from urlparse import parse_qs, urljoin
 except ImportError: from urllib.parse import parse_qs, urljoin
@@ -41,8 +40,7 @@ class source:
             url = urlencode(url)
             return url
         except:
-            failure = traceback.format_exc()
-            log_utils.log('iWAATCH - Exception: \n' + str(failure))
+            log_utils.log('iWAATCH - Exception', 1)
             return
 
     def sources(self, url, hostDict, hostprDict):
@@ -96,8 +94,7 @@ class source:
                             sources.append({'source': 'Direct', 'quality': quality, 'language': 'en', 'url': link, 'direct': True, 'debridonly': False})
             return sources
         except:
-            failure = traceback.format_exc()
-            log_utils.log('iWAATCH - Exception: \n' + str(failure))
+            log_utils.log('iWAATCH - Exception', 1)
             return sources
 
     def resolve(self, url):

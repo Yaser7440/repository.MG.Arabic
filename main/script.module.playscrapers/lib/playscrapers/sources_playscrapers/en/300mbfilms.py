@@ -4,7 +4,7 @@
 # "THE BEER-WARE LICENSE" (Revision 42):
 # As long as you retain this notice you can do whatever you want with
 # this stuff. If we meet some day, and you think this stuff is worth it,
-# you can buy me a beer in return. - PlayScrapers
+# you can buy me a beer in return. - Muad'Dib
 # ----------------------------------------------------------------------------
 #######################################################################
 
@@ -20,7 +20,7 @@ except ImportError: from urllib.parse import urlencode, quote_plus
 
 from six import ensure_text
 
-from playscrapers.modules import cleantitle, client, source_utils
+from playscrapers.modules import cleantitle, client, debrid, source_utils
 
 
 class source:
@@ -61,8 +61,10 @@ class source:
             return
 
     def sources(self, url, hostDict, hostprDict):
+        sources = []
         try:
-            sources = []
+            if debrid.status() is False:
+                return sources
 
             if url is None:
                 return sources
@@ -135,7 +137,7 @@ class source:
                 #host = host.encode('utf-8')
                 host = ensure_text(host)
 
-                sources.append({'source': host, 'quality': item[1], 'language': 'en', 'url': url, 'info': item[2], 'direct': False, 'debridonly': False, 'size': dsize, 'name': _name})
+                sources.append({'source': host, 'quality': item[1], 'language': 'en', 'url': url, 'info': item[2], 'direct': False, 'debridonly': True, 'size': dsize, 'name': _name})
             return sources
         except Exception:
             return sources

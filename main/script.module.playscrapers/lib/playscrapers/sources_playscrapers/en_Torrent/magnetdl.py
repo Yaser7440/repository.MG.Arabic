@@ -15,7 +15,7 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 '''
 
-import re, traceback
+import re
 
 try: from urlparse import parse_qs, urljoin
 except ImportError: from urllib.parse import parse_qs, urljoin
@@ -41,9 +41,8 @@ class source:
             url = {'imdb': imdb, 'title': title, 'year': year}
             url = urlencode(url)
             return url
-        except BaseException:
-            failure = traceback.format_exc()
-            log_utils.log('Magnetdl - Exception: \n' + str(failure))
+        except:
+            log_utils.log('Magnetdl - Exception', 1)
             return
 
     def tvshow(self, imdb, tvdb, tvshowtitle, localtvshowtitle, aliases, year):
@@ -51,9 +50,8 @@ class source:
             url = {'imdb': imdb, 'tvdb': tvdb, 'tvshowtitle': tvshowtitle, 'year': year}
             url = urlencode(url)
             return url
-        except BaseException:
-            failure = traceback.format_exc()
-            log_utils.log('Magnetdl - Exception: \n' + str(failure))
+        except:
+            log_utils.log('Magnetdl - Exception', 1)
             return
 
     def episode(self, url, imdb, tvdb, title, premiered, season, episode):
@@ -65,9 +63,8 @@ class source:
             url['title'], url['premiered'], url['season'], url['episode'] = title, premiered, season, episode
             url = urlencode(url)
             return url
-        except BaseException:
-            failure = traceback.format_exc()
-            log_utils.log('Magnetdl - Exception: \n' + str(failure))
+        except:
+            log_utils.log('Magnetdl - Exception', 1)
             return
 
     def sources(self, url, hostDict, hostprDict):
@@ -128,9 +125,8 @@ class source:
                                 'direct': False, 'debridonly': True, 'size': dsize, 'name': name})
 
             return sources
-        except BaseException:
-            failure = traceback.format_exc()
-            log_utils.log('Magnetdl - Exception: \n' + str(failure))
+        except:
+            log_utils.log('Magnetdl - Exception', 1)
             return sources
 
     def resolve(self, url):

@@ -12,16 +12,13 @@
         <setting label="Enable All Hosters" type="action" action="RunPlugin(plugin://script.module.playscrapers/?action=toggleAllHosters&amp;setting=true&amp;query=0.7)" option="close" />
         <setting label="Disable All Foreign Providers" type="action" option="close" action="RunPlugin(plugin://script.module.playscrapers/?action=toggleAllForeign&amp;setting=false&amp;query=0.8)" />
         <setting label="Enable All Foreign Providers" type="action" option="close" action="RunPlugin(plugin://script.module.playscrapers/?action=toggleAllForeign&amp;setting=true&amp;query=0.9)" />
-        <setting label="Disable All Arabic Providers" type="action" option="close" action="RunPlugin(plugin://script.module.playscrapers/?action=toggleAllArabic&amp;setting=false&amp;query=0.12)" />
-        <setting label="Enable All Arabic Providers" type="action" option="close" action="RunPlugin(plugin://script.module.playscrapers/?action=toggleAllArabic&amp;setting=true&amp;query=0.13)" />
-		<setting label="Disable All Torrent Providers" type="action" option="close" action="RunPlugin(plugin://script.module.playscrapers/?action=toggleAllTorrent&amp;setting=false&amp;query=0.10)"/>
+        <setting label="Disable All Torrent Providers" type="action" option="close" action="RunPlugin(plugin://script.module.playscrapers/?action=toggleAllTorrent&amp;setting=false&amp;query=0.10)"/>
         <setting label="Enable All Torrent Providers" type="action" option="close" action="RunPlugin(plugin://script.module.playscrapers/?action=toggleAllTorrent&amp;setting=true&amp;query=0.11)"/>
     </category>
 
 <!-- Providers/Hosters-1 -->
     <category label="Hosters">
         <setting id="provider.library" type="bool" label="LIBRARY" default="true" />
-        <setting id="provider.5movies" type="bool" label="5MOVIES" default="true" />
         <setting id="provider.300mbfilms" type="bool" label="300MBFILMS" default="true" />
         <setting id="provider.bnwmovies" type="bool" label="BNWMOVIES" default="true" />
         <setting id="provider.cartoonhd" type="bool" label="CARTOONHD" default="true" />
@@ -52,25 +49,12 @@
         <setting id="provider.xrysoi" type="bool" label="XRYSOI" default="true" />
     </category>
 
-<!-- Providers/ARABIC -->
-    <category label="Arabic">
-        <setting type="lsep" label="Arabic" />
-		<setting id="provider.ciiima" type="bool" label="CIIIMA" default="true"/>
-		<setting id="provider.akwam" type="bool" label="AKWAM" default="true"/>
-		<setting id="provider.mycima" type="bool" label="MYCIMA" default="true"/>
-		<setting id="provider.cimaclub" type="bool" label="CIMACLUB" default="true"/>
-		<setting id="provider.cima4u" type="bool" label="CIMA$NUMBER[4]U" default="true"/>
-        <setting id="provider.land4movies" type="bool" label="LAND$NUMBER[4]MOVIES" default="false"/>
-        <setting id="provider.faselhd" type="bool" label="FASELHD" default="true"/>
-        <setting id="provider.ceera" type="bool" label="CEERA" default="true"/>
-        <setting id="provider.egynow" type="bool" label="EGYNOW" default="true"/>
-    </category>
-
 <!-- Torrents-3 -->
     <category label="Torrent">
         <setting id="provider.1337x" type="bool" label="1337X" default="true" />
         <setting id="provider.bitlord" type="bool" label="BITLORD" default="true" />
         <setting id="provider.bt4g" type="bool" label="BT4G" default="true" />
+        <setting id="provider.btdig" type="bool" label="BTDIG" default="true" />
         <setting id="provider.btscene" type="bool" label="BTSCENE" default="true" />
         <setting id="provider.eztv" type="bool" label="EZTV" default="true" />
         <setting id="provider.glodls" type="bool" label="GLODLS" default="true" />
@@ -79,6 +63,7 @@
         <setting id="provider.magnetdl" type="bool" label="MAGNETDL" default="true" />
         <setting id="provider.nyaa" type="bool" label="NYAA" default="true" />
         <setting id="provider.piratebay" type="bool" label="PIRATEBAY" default="true" />
+        <setting id="provider.tordl" type="bool" label="TORDL" default="true" />
         <setting id="provider.torrentapi" type="bool" label="TORRENTAPI" default="true" />
         <setting id="provider.torrentdownloads" type="bool" label="TORRENTDOWNLOADS" default="true" />
         <setting id="provider.yourbt" type="bool" label="YOURBT" default="true" />

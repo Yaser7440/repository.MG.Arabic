@@ -26,14 +26,14 @@ from six.moves import urllib_parse
 
 from kodi_six import xbmc, xbmcaddon, xbmcgui, xbmcplugin, xbmcvfs
 
-def six_encode(txt, char='utf-8'):
+def six_encode(txt, char='utf-8', errors='replace'):
     if six.PY2 and isinstance(txt, six.text_type):
-        txt = txt.encode(char)
+        txt = txt.encode(char, errors=errors)
     return txt
 
-def six_decode(txt, char='utf-8'):
+def six_decode(txt, char='utf-8', errors='replace'):
     if six.PY3 and isinstance(txt, six.binary_type):
-        txt = txt.decode(char)
+        txt = txt.decode(char, errors=errors)
     return txt
 
 def getKodiVersion():
@@ -89,6 +89,8 @@ image = xbmcgui.ControlImage
 
 getCurrentDialogId = xbmcgui.getCurrentWindowDialogId()
 
+getCurrentWinId = xbmcgui.getCurrentWindowId()
+
 keyboard = xbmc.Keyboard
 
 monitor = xbmc.Monitor()
@@ -127,7 +129,7 @@ settingsFile = os.path.join(dataPath, 'settings.xml')
 
 viewsFile = os.path.join(dataPath, 'views.db')
 
-bookmarksFile = os.path.join(dataPath, 'bookmarks.1.db')
+bookmarksFile = os.path.join(dataPath, 'bookmarks.2.db')
 
 providercacheFile = os.path.join(dataPath, 'providers.13.db')
 
@@ -135,7 +137,7 @@ metacacheFile = os.path.join(dataPath, 'meta.5.db')
 
 searchFile = os.path.join(dataPath, 'search.1.db')
 
-libcacheFile = os.path.join(dataPath, 'library.db')
+libcacheFile = os.path.join(dataPath, 'library.1.db')
 
 cacheFile = os.path.join(dataPath, 'cache.db')
 
@@ -248,11 +250,20 @@ def metaFile():
 
 
 def apiLanguage(ret_name=None):
-    langDict = {'Bulgarian': 'bg', 'Chinese': 'zh', 'Croatian': 'hr', 'Czech': 'cs', 'Danish': 'da', 'Dutch': 'nl', 'English': 'en', 'Finnish': 'fi', 'French': 'fr', 'German': 'de', 'Greek': 'el', 'Hebrew': 'he', 'Hungarian': 'hu', 'Italian': 'it', 'Japanese': 'ja', 'Korean': 'ko', 'Norwegian': 'no', 'Polish': 'pl', 'Portuguese': 'pt', 'Romanian': 'ro', 'Russian': 'ru', 'Serbian': 'sr', 'Slovak': 'sk', 'Slovenian': 'sl', 'Spanish': 'es', 'Swedish': 'sv', 'Thai': 'th', 'Turkish': 'tr', 'Ukrainian': 'uk'}
+    langDict = {'Bulgarian': 'bg', 'Chinese': 'zh', 'Croatian': 'hr', 'Czech': 'cs', 'Danish': 'da', 'Dutch': 'nl', 'English': 'en', 'Finnish': 'fi', 'French': 'fr', 'German': 'de', 'Greek': 'el', 'Hebrew': 'he',
+                'Hungarian': 'hu', 'Italian': 'it', 'Japanese': 'ja', 'Korean': 'ko', 'Norwegian': 'no', 'Polish': 'pl', 'Portuguese': 'pt', 'Romanian': 'ro', 'Russian': 'ru', 'Serbian': 'sr', 'Slovak': 'sk',
+                'Slovenian': 'sl', 'Spanish': 'es', 'Swedish': 'sv', 'Thai': 'th', 'Turkish': 'tr', 'Ukrainian': 'uk'}
 
     trakt = ['bg','cs','da','de','el','en','es','fi','fr','he','hr','hu','it','ja','ko','nl','no','pl','pt','ro','ru','sk','sl','sr','sv','th','tr','uk','zh']
     tvdb = ['en','sv','no','da','fi','nl','de','it','es','fr','pl','hu','el','tr','ru','he','ja','pt','zh','cs','sl','hr','ko']
-    youtube = ['gv', 'gu', 'gd', 'ga', 'gn', 'gl', 'ty', 'tw', 'tt', 'tr', 'ts', 'tn', 'to', 'tl', 'tk', 'th', 'ti', 'tg', 'te', 'ta', 'de', 'da', 'dz', 'dv', 'qu', 'zh', 'za', 'zu', 'wa', 'wo', 'jv', 'ja', 'ch', 'co', 'ca', 'ce', 'cy', 'cs', 'cr', 'cv', 'cu', 'ps', 'pt', 'pa', 'pi', 'pl', 'mg', 'ml', 'mn', 'mi', 'mh', 'mk', 'mt', 'ms', 'mr', 'my', 've', 'vi', 'is', 'iu', 'it', 'vo', 'ii', 'ik', 'io', 'ia', 'ie', 'id', 'ig', 'fr', 'fy', 'fa', 'ff', 'fi', 'fj', 'fo', 'ss', 'sr', 'sq', 'sw', 'sv', 'su', 'st', 'sk', 'si', 'so', 'sn', 'sm', 'sl', 'sc', 'sa', 'sg', 'se', 'sd', 'lg', 'lb', 'la', 'ln', 'lo', 'li', 'lv', 'lt', 'lu', 'yi', 'yo', 'el', 'eo', 'en', 'ee', 'eu', 'et', 'es', 'ru', 'rw', 'rm', 'rn', 'ro', 'be', 'bg', 'ba', 'bm', 'bn', 'bo', 'bh', 'bi', 'br', 'bs', 'om', 'oj', 'oc', 'os', 'or', 'xh', 'hz', 'hy', 'hr', 'ht', 'hu', 'hi', 'ho', 'ha', 'he', 'uz', 'ur', 'uk', 'ug', 'aa', 'ab', 'ae', 'af', 'ak', 'am', 'an', 'as', 'ar', 'av', 'ay', 'az', 'nl', 'nn', 'no', 'na', 'nb', 'nd', 'ne', 'ng', 'ny', 'nr', 'nv', 'ka', 'kg', 'kk', 'kj', 'ki', 'ko', 'kn', 'km', 'kl', 'ks', 'kr', 'kw', 'kv', 'ku', 'ky']
+    youtube = ['gv', 'gu', 'gd', 'ga', 'gn', 'gl', 'ty', 'tw', 'tt', 'tr', 'ts', 'tn', 'to', 'tl', 'tk', 'th', 'ti', 'tg', 'te', 'ta', 'de', 'da', 'dz', 'dv', 'qu', 'zh', 'za', 'zu', 'wa', 'wo', 'jv', 'ja',
+               'ch', 'co', 'ca', 'ce', 'cy', 'cs', 'cr', 'cv', 'cu', 'ps', 'pt', 'pa', 'pi', 'pl', 'mg', 'ml', 'mn', 'mi', 'mh', 'mk', 'mt', 'ms', 'mr', 'my', 've', 'vi', 'is', 'iu', 'it', 'vo', 'ii', 'ik',
+               'io', 'ia', 'ie', 'id', 'ig', 'fr', 'fy', 'fa', 'ff', 'fi', 'fj', 'fo', 'ss', 'sr', 'sq', 'sw', 'sv', 'su', 'st', 'sk', 'si', 'so', 'sn', 'sm', 'sl', 'sc', 'sa', 'sg', 'se', 'sd', 'lg', 'lb',
+               'la', 'ln', 'lo', 'li', 'lv', 'lt', 'lu', 'yi', 'yo', 'el', 'eo', 'en', 'ee', 'eu', 'et', 'es', 'ru', 'rw', 'rm', 'rn', 'ro', 'be', 'bg', 'ba', 'bm', 'bn', 'bo', 'bh', 'bi', 'br', 'bs', 'om',
+               'oj', 'oc', 'os', 'or', 'xh', 'hz', 'hy', 'hr', 'ht', 'hu', 'hi', 'ho', 'ha', 'he', 'uz', 'ur', 'uk', 'ug', 'aa', 'ab', 'ae', 'af', 'ak', 'am', 'an', 'as', 'ar', 'av', 'ay', 'az', 'nl', 'nn',
+               'no', 'na', 'nb', 'nd', 'ne', 'ng', 'ny', 'nr', 'nv', 'ka', 'kg', 'kk', 'kj', 'ki', 'ko', 'kn', 'km', 'kl', 'ks', 'kr', 'kw', 'kv', 'ku', 'ky']
+    tmdb = ['ar', 'be', 'bg', 'bn', 'ca', 'ch', 'cs', 'da', 'de', 'el', 'en', 'eo', 'es', 'et', 'eu', 'fa', 'fi', 'fr', 'gl', 'he', 'hi', 'hu', 'id', 'it', 'ja', 'ka', 'kk', 'kn', 'ko', 'lt', 'lv', 'ml', 'ms',
+            'nb', 'nl', 'no', 'pl', 'pt', 'ro', 'ru', 'si', 'sk', 'sl', 'sr', 'sv', 'ta', 'te', 'th', 'tl', 'tr', 'uk', 'vi', 'zh', 'zu-ZA']
 
     name = None
     name = setting('api.language')
@@ -266,11 +277,13 @@ def apiLanguage(ret_name=None):
     lang = {'trakt': name} if name in trakt else {'trakt': 'en'}
     lang['tvdb'] = name if name in tvdb else 'en'
     lang['youtube'] = name if name in youtube else 'en'
+    lang['tmdb'] = name if name in tmdb else 'en'
 
     if ret_name:
         lang['trakt'] = [i[0] for i in six.iteritems(langDict)if i[1] == lang['trakt']][0]
         lang['tvdb'] = [i[0] for i in six.iteritems(langDict) if i[1] == lang['tvdb']][0]
         lang['youtube'] = [i[0] for i in six.iteritems(langDict) if i[1] == lang['youtube']][0]
+        lang['tmdb'] = [i[0] for i in six.iteritems(langDict) if i[1] == lang['tmdb']][0]
 
     return lang
 
@@ -345,7 +358,9 @@ def queueItem():
 
 def metadataClean(metadata): # Filter out non-existing/custom keys. Otherise there are tons of errors in Kodi 18 log.
     if metadata == None: return metadata
-    allowed = ['genre', 'country', 'year', 'episode', 'season', 'sortepisode', 'sortseason', 'episodeguide', 'showlink', 'top250', 'setid', 'tracknumber', 'rating', 'userrating', 'watched', 'playcount', 'overlay', 'cast', 'castandrole', 'director', 'mpaa', 'plot', 'plotoutline', 'title', 'originaltitle', 'sorttitle', 'duration', 'studio', 'tagline', 'writer', 'tvshowtitle', 'premiered', 'status', 'set', 'setoverview', 'tag', 'imdbnumber', 'code', 'aired', 'credits', 'lastplayed', 'album', 'artist', 'votes', 'path', 'trailer', 'dateadded', 'mediatype', 'dbid']
+    allowed = ['genre', 'country', 'year', 'episode', 'season', 'sortepisode', 'sortseason', 'episodeguide', 'showlink', 'top250', 'setid', 'tracknumber', 'rating', 'userrating', 'watched', 'playcount', 'overlay',
+               'cast', 'castandrole', 'director', 'mpaa', 'plot', 'plotoutline', 'title', 'originaltitle', 'sorttitle', 'duration', 'studio', 'tagline', 'writer', 'tvshowtitle', 'premiered', 'status', 'set', 'setoverview',
+               'tag', 'imdbnumber', 'code', 'aired', 'credits', 'lastplayed', 'album', 'artist', 'votes', 'path', 'trailer', 'dateadded', 'mediatype', 'dbid', 'totalteasons', 'totalepisodes']
     return {k: v for k, v in six.iteritems(metadata) if k in allowed}
 
 

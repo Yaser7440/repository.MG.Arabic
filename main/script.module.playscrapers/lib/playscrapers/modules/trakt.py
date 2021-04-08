@@ -21,7 +21,6 @@
 
 import re
 import time
-import traceback
 import base64
 
 import six
@@ -66,15 +65,15 @@ def __getTrakt(url, post=None):
         result = result[0]
 
         if resp_code in ['423', '500', '502', '503', '504', '520', '521', '522', '524']:
-            log_utils.log('Trakt Error: %s' % resp_code, log_utils.LOGWARNING)
+            log_utils.log('Trakt Error: %s' % str(resp_code))
             control.infoDialog('Trakt Error: ' + str(resp_code), sound=True)
             return
         elif resp_code in ['429']:
-            log_utils.log('Trakt Rate Limit Reached: %s' % resp_code, log_utils.LOGWARNING)
+            log_utils.log('Trakt Rate Limit Reached: %s' % str(resp_code))
             control.infoDialog('Trakt Rate Limit Reached: ' + str(resp_code), sound=True)
             return
         elif resp_code in ['404']:
-            log_utils.log('Object Not Found : %s' % resp_code, log_utils.LOGWARNING)
+            log_utils.log('Object Not Found : %s' % str(resp_code))
             return
 
         if resp_code not in ['401', '405']:
@@ -96,10 +95,8 @@ def __getTrakt(url, post=None):
         result = client.request(url, post=post, headers=headers, output='extended', error=True)
         result = utils.byteify(result)
         return result[0], result[2]
-    except:# Exception as e:
-        #log_utils.log('Unknown Trakt Error: %s' % e, log_utils.LOGWARNING)
-        fail = traceback.format_exc()
-        log_utils.log('getTrakt Error: ' + str(fail))
+    except:
+        log_utils.log('getTrakt Error', 1)
         pass
 
 def getTraktAsJson(url, post=None):
@@ -204,9 +201,9 @@ def getTraktAddonEpisodeInfo():
     else: return False
 
 
-def manager(name, imdb, tvdb, content):
+def manager(name, imdb, tmdb, content):
     try:
-        post = {"movies": [{"ids": {"imdb": imdb}}]} if content == 'movie' else {"shows": [{"ids": {"tvdb": tvdb}}]}
+        post = {"movies": [{"ids": {"imdb": imdb}}]} if content == 'movie' else {"shows": [{"ids": {"tmdb": tmdb}}]}
 
         items = [(control.lang(32516), '/sync/collection')]
         items += [(control.lang(32517), '/sync/collection/remove')]
@@ -397,22 +394,22 @@ def markMovieAsNotWatched(imdb):
     return __getTrakt('/sync/history/remove', {"movies": [{"ids": {"imdb": imdb}}]})[0]
 
 
-def markTVShowAsWatched(tvdb):
-    return __getTrakt('/sync/history', {"shows": [{"ids": {"tvdb": tvdb}}]})[0]
+def markTVShowAsWatched(imdb):
+    return __getTrakt('/sync/history', {"shows": [{"ids": {"imdb": imdb}}]})[0]
 
 
-def markTVShowAsNotWatched(tvdb):
-    return __getTrakt('/sync/history/remove', {"shows": [{"ids": {"tvdb": tvdb}}]})[0]
+def markTVShowAsNotWatched(imdb):
+    return __getTrakt('/sync/history/remove', {"shows": [{"ids": {"imdb": imdb}}]})[0]
 
 
-def markEpisodeAsWatched(tvdb, season, episode):
+def markEpisodeAsWatched(imdb, season, episode):
     season, episode = int('%01d' % int(season)), int('%01d' % int(episode))
-    return __getTrakt('/sync/history', {"shows": [{"seasons": [{"episodes": [{"number": episode}], "number": season}], "ids": {"tvdb": tvdb}}]})[0]
+    return __getTrakt('/sync/history', {"shows": [{"seasons": [{"episodes": [{"number": episode}], "number": season}], "ids": {"imdb": imdb}}]})[0]
 
 
-def markEpisodeAsNotWatched(tvdb, season, episode):
+def markEpisodeAsNotWatched(imdb, season, episode):
     season, episode = int('%01d' % int(season)), int('%01d' % int(episode))
-    return __getTrakt('/sync/history/remove', {"shows": [{"seasons": [{"episodes": [{"number": episode}], "number": season}], "ids": {"tvdb": tvdb}}]})[0]
+    return __getTrakt('/sync/history/remove', {"shows": [{"seasons": [{"episodes": [{"number": episode}], "number": season}], "ids": {"imdb": imdb}}]})[0]
 
 
 def scrobbleMovie(imdb, watched_percent, action):

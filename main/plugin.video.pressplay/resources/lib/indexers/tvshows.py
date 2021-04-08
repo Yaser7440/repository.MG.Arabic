@@ -524,10 +524,6 @@ class tvshows:
                 if imdb == None or imdb == '': imdb = '0'
                 else: imdb = 'tt' + re.sub('[^0-9]', '', str(imdb))
 
-                tmdb = item['ids']['tmdb']
-                if tmdb == None or tmdb == '': tmdb = '0'
-                tmdb = str(tmdb)
-
                 tvdb = item['ids']['tvdb']
                 tvdb = re.sub('[^0-9]', '', str(tvdb))
 
@@ -573,7 +569,7 @@ class tvshows:
                 plot = client.replaceHTMLCodes(plot)
 
                 self.list.append({'title': title, 'originaltitle': title, 'year': year, 'premiered': premiered, 'studio': studio, 'genre': genre, 'duration': duration,
-                                  'rating': rating, 'votes': votes, 'mpaa': mpaa, 'plot': plot, 'imdb': imdb, 'tvdb': tvdb, 'tmdb': tmdb, 'poster': '0', 'next': next})
+                                  'rating': rating, 'votes': votes, 'mpaa': mpaa, 'plot': plot, 'imdb': imdb, 'tvdb': tvdb, 'poster': '0', 'next': next})
             except:
                 failure = traceback.format_exc()
                 log_utils.log('trakt_list0: ' + str(failure))
@@ -944,28 +940,23 @@ class tvshows:
 
     def super_info(self, i):
         try:
-            if self.list[i]['metacache'] == True: pass#raise Exception()
+            if self.list[i]['metacache'] == True: raise Exception()
 
             hq_artwork = control.setting('hq.artwork') or 'false'
 
             imdb = self.list[i]['imdb'] if 'imdb' in self.list[i] else '0'
             tvdb = self.list[i]['tvdb'] if 'tvdb' in self.list[i] else '0'
 
-            try:
-                ids_from_trakt = trakt.SearchTVShow(urllib_parse.quote_plus(self.list[i]['title']), self.list[i]['year'], full=False)[0]
-                ids_from_trakt = ids_from_trakt.get('show', '0')
-                _imdb = ids_from_trakt.get('ids', {}).get('imdb', '0')
-                _imdb = 'tt' + re.sub('[^0-9]', '', str(_imdb))
-                tmdb = ids_from_trakt.get('ids', {}).get('tmdb', 0)
-                tmdb = str(tmdb)
-
-                if not _imdb: _imdb = '0'
-                if not tmdb: tmdb = '0'
-            except:
-                _imdb = tmdb = '0'
-
             if imdb == '0':
-                imdb = _imdb
+                try:
+                    imdb = trakt.SearchTVShow(urllib_parse.quote_plus(self.list[i]['title']), self.list[i]['year'], full=False)[0]
+                    imdb = imdb.get('show', '0')
+                    imdb = imdb.get('ids', {}).get('imdb', '0')
+                    imdb = 'tt' + re.sub('[^0-9]', '', str(imdb))
+
+                    if not imdb: imdb = '0'
+                except:
+                    imdb = '0'
 
             if tvdb == '0' and not imdb == '0':
                 url = self.tvdb_by_imdb % imdb
@@ -1143,19 +1134,16 @@ class tvshows:
             fanart = client.replaceHTMLCodes(fanart)
             fanart = six.ensure_str(fanart)
 
-            poster2 = fanart2 = banner2 = clearlogo = clearart = ''
             if hq_artwork == 'true':# and not self.fanart_tv_user == '':
 
-                artmeta = True
                 try:
+                    artmeta = True
                     #if self.fanart_tv_user == '': raise Exception()
                     art = client.request(self.fanart_tv_art_link % tvdb, headers=self.fanart_tv_headers, timeout='10', error=True)
                     try: art = json.loads(art)
                     except: artmeta = False
                 except:
-                    artmeta = False
-
-                if artmeta == False: pass
+                    pass
 
                 try:
                     poster2 = art['tvposter']
@@ -1194,14 +1182,17 @@ class tvshows:
                 except:
                     clearart = ''
 
-            item = {'title': title, 'year': year, 'imdb': imdb, 'tvdb': tvdb, 'tmdb': tmdb, 'poster': poster, 'poster2': poster2, 'banner': banner, 'banner2': banner2, 'fanart': fanart, 'fanart2': fanart2,
+            else:
+                poster2 = fanart2 = banner2 = clearlogo = clearart = ''
+
+            item = {'title': title, 'year': year, 'imdb': imdb, 'tvdb': tvdb, 'poster': poster, 'poster2': poster2, 'banner': banner, 'banner2': banner2, 'fanart': fanart, 'fanart2': fanart2,
                     'clearlogo': clearlogo, 'clearart': clearart, 'premiered': premiered, 'studio': studio, 'genre': genre, 'duration': duration, 'mpaa': mpaa, 'cast': cast, 'plot': plot, 'status': status}
             item = dict((k,v) for k, v in six.iteritems(item) if not v == '0')
             self.list[i].update(item)
 
-            #if artmeta == False: raise Exception()
+            if artmeta == False: raise Exception()
 
-            meta = {'imdb': imdb, 'tmdb': tmdb, 'tvdb': tvdb, 'lang': self.lang, 'user': self.user, 'item': item}
+            meta = {'imdb': imdb, 'tvdb': tvdb, 'lang': self.lang, 'user': self.user, 'item': item}
             self.meta.append(meta)
         except:
             pass

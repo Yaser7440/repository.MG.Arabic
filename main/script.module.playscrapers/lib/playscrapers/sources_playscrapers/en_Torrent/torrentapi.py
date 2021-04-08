@@ -3,13 +3,16 @@
 
 import re
 
+from six import ensure_text
+
 try: from urlparse import parse_qs
 except ImportError: from urllib.parse import parse_qs
 try: from urllib import urlencode, quote_plus
 except ImportError: from urllib.parse import urlencode, quote_plus
 
 import simplejson as json
-from playscrapers.modules import cleantitle, client, debrid, source_utils
+from playscrapers.modules import cleantitle, client, debrid, source_utils, log_utils, control
+from playscrapers.sources_playscrapers import cfScraper
 
 
 class source:
@@ -48,8 +51,8 @@ class source:
             return
 
     def sources(self, url, hostDict, hostprDict):
+        sources = []
         try:
-            sources = []
             if url is None: return sources
             if debrid.status() is False: raise Exception()
             data = parse_qs(url)
@@ -58,13 +61,15 @@ class source:
             title = cleantitle.get_query(title)
             query = '%s S%02dE%02d' % (title, int(data['season']), int(data['episode'])) if 'tvshowtitle' in data else '%s' % data['imdb']
             query = re.sub('(\\\|/| -|:|;|\*|\?|"|\'|<|>|\|)', ' ', query)
-            token = client.request(self.token)
+            token = cfScraper.get(self.token).content
             token = json.loads(token)["token"]
             if 'tvshowtitle' in data:
                 search_link = self.tvsearch.format(token, quote_plus(query), 'format=json_extended')
             else:
                 search_link = self.msearch.format(token, data['imdb'], 'format=json_extended')
-            rjson = client.request(search_link)
+            control.sleep(250)
+            rjson = cfScraper.get(search_link).content
+            rjson = ensure_text(rjson, errors='ignore')
             files = json.loads(rjson)['torrent_results']
             for file in files:
                 name = file["title"]
@@ -76,13 +81,12 @@ class source:
                     isize = '%.2f GB' % dsize
                 except:
                     dsize, isize = 0.0, ''
-                #size = source_utils.convert_size(file["size"])
-                #size = '[B]%s[/B]' % size
                 info.insert(0, isize)
                 info = ' | '.join(info)
                 sources.append({'source': 'Torrent', 'quality': quality, 'language': 'en', 'url': url, 'info': info, 'direct': False, 'debridonly': True, 'size': dsize, 'name': name})
             return sources
-        except BaseException:
+        except:
+            log_utils.log('torapi - Exception', 1)
             return sources
 
     def resolve(self, url):

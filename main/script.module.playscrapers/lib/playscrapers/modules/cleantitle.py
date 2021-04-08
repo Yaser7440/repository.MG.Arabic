@@ -20,6 +20,7 @@
 
 import re
 import unicodedata
+from string import printable
 from six import ensure_str, ensure_text, PY2
 
 
@@ -149,9 +150,10 @@ def get_query(title):
 def normalize(title):
     try:
         if PY2:
-            try: return ensure_str(ensure_text(title, encoding='ascii'))
+            try: return title.decode('ascii').encode("utf-8")
             except: pass
-        return ''.join(c for c in unicodedata.normalize('NFKD', ensure_text(ensure_str(title))) if unicodedata.category(c) != 'Mn')
+            return str(''.join(c for c in unicodedata.normalize('NFKD', title.decode('utf-8')) if c in printable))
+        return u''.join(c for c in unicodedata.normalize('NFKD', ensure_text(title)) if c in printable)
     except:
         return title
 
@@ -167,11 +169,12 @@ def scene_title(title, year):
         title = ensure_str(title)
     except:
         pass
-    title = title.replace('&', 'and').replace('-', ' ').replace('–', ' ').replace('/', ' ').replace('*', ' ').replace('!', '').replace('?', '').replace('...', '').replace(',', '')
+    title = title.replace('&', 'and').replace('-', ' ').replace('–', ' ').replace('/', ' ').replace('*', ' ').replace('.', ' ')
+    title = re.sub('[^A-Za-z0-9 ]+', '', title)
     title = re.sub(' {2,}', ' ', title)
     if title.startswith('Birdman or') and year == '2014': title = 'Birdman'
-    if title == 'Birds of Prey (and the Fantabulous Emancipation of One Harley Quinn)' and year == '2020': title = 'Birds of Prey'
-    if title == "Roald Dahl's The Witches" and year == '2020': title = 'The Witches'
+    if title == 'Birds of Prey and the Fantabulous Emancipation of One Harley Quinn' and year == '2020': title = 'Birds of Prey'
+    if title == "Roald Dahls The Witches" and year == '2020': title = 'The Witches'
     return title, year
 
 
@@ -181,18 +184,19 @@ def scene_tvtitle(title, year, season, episode):
         title = ensure_str(title)
     except:
         pass
-    title = title.replace('&', 'and').replace('-', ' ').replace('–', ' ').replace('/', ' ').replace('*', ' ').replace('!', '').replace('?', '').replace('...', '').replace(',', '')
+    title = title.replace('&', 'and').replace('-', ' ').replace('–', ' ').replace('/', ' ').replace('*', ' ').replace('.', ' ')
+    title = re.sub('[^A-Za-z0-9 ]+', '', title)
     title = re.sub(' {2,}', ' ', title)
     if title in ['The Haunting', 'The Haunting of Bly Manor', 'The Haunting of Hill House'] and year == '2018':
         if season == '1': title = 'The Haunting of Hill House'
         elif season == '2': title = 'The Haunting of Bly Manor'; year = '2020'; season = '1'
-    if title in ['Cosmos', 'Cosmos: A Spacetime Odyssey', 'Cosmos: Possible Worlds'] and year == '2014':
-        if season == '1': title = 'Cosmos: A Spacetime Odyssey'
-        elif season == '2': title = 'Cosmos: Possible Worlds'; year = '2020'; season = '1'
+    if title in ['Cosmos', 'Cosmos A Spacetime Odyssey', 'Cosmos Possible Worlds'] and year == '2014':
+        if season == '1': title = 'Cosmos A Spacetime Odyssey'
+        elif season == '2': title = 'Cosmos Possible Worlds'; year = '2020'; season = '1'
     if 'Special Victims Unit' in title: title = title.replace('Special Victims Unit', 'SVU')
     if title == 'Cobra Kai' and year == '1984': year = '2018'
+    #if title == 'The Office' and year == '2001': title = 'The Office UK'
     if title == 'The End of the F ing World': title = 'The End of the Fucking World'
     if title == 'M A S H': title = 'MASH'
-    if title == "Grey's Anatomy": title = 'Greys Anatomy'
     return title, year, season, episode
 

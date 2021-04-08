@@ -368,12 +368,12 @@ msgid "Provider Source:"
 msgstr "Sorteren op Bron"
 
 msgctxt "#32085"
-msgid "Open PlayScrapers Settings"
-msgstr "Open PlayScrapers instellingen"
+msgid "Open Play Scrapers Settings"
+msgstr "Open PressPlay schrapers instellingen"
 
 msgctxt "#32086"
-msgid "Exo Scrapers Settings"
-msgstr "Exo Scrapers instellingen openen"
+msgid "Open Playscrapers Settings"
+msgstr "Openschrapers instellingen openen"
 
 msgctxt "#32087"
 msgid "Clear Providers Cache (recommended after provider source change)"

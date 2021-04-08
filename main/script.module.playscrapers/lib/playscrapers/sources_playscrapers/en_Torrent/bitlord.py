@@ -137,10 +137,8 @@ class source:
                 return sources
 
         except:
-            import traceback
             from playscrapers.modules import log_utils
-            failure = traceback.format_exc()
-            log_utils.log('bitlord - Exception: \n' + str(failure))
+            log_utils.log('bitlord - Exception', 1)
             return sources
 
 

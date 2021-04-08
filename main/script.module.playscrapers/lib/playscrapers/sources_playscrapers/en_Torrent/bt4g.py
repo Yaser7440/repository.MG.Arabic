@@ -17,22 +17,23 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 '''
 
-import re, traceback
+import re
 
-import requests
+#import requests
 
 from six import ensure_text
 
 try: from urlparse import parse_qs, urljoin
 except ImportError: from urllib.parse import parse_qs, urljoin
-try: from urllib import urlencode, unquote_plus
-except ImportError: from urllib.parse import urlencode, unquote_plus
+try: from urllib import urlencode
+except ImportError: from urllib.parse import urlencode
 
 from playscrapers.modules import debrid
 from playscrapers.modules import cleantitle
 from playscrapers.modules import client
 from playscrapers.modules import source_utils
 from playscrapers.modules import log_utils
+from playscrapers.sources_playscrapers import cfScraper
 
 class source:
     def __init__(self):
@@ -48,8 +49,7 @@ class source:
             url = urlencode(url)
             return url
         except:
-            failure = traceback.format_exc()
-            log_utils.log('bt4g0 - Exception: \n' + str(failure))
+            log_utils.log('bt4g0 - Exception', 1)
             return
 
     def tvshow(self, imdb, tvdb, tvshowtitle, localtvshowtitle, aliases, year):
@@ -58,8 +58,7 @@ class source:
             url = urlencode(url)
             return url
         except:
-            failure = traceback.format_exc()
-            log_utils.log('bt4g1 - Exception: \n' + str(failure))
+            log_utils.log('bt4g1 - Exception', 1)
             return
 
     def episode(self, url, imdb, tvdb, title, premiered, season, episode):
@@ -72,8 +71,7 @@ class source:
             url = urlencode(url)
             return url
         except:
-            failure = traceback.format_exc()
-            log_utils.log('bt4g2 - Exception: \n' + str(failure))
+            log_utils.log('bt4g2 - Exception', 1)
             return
 
     def sources(self, url, hostDict, hostprDict):
@@ -90,24 +88,26 @@ class source:
 
             query = '%s s%02de%02d' % (data['tvshowtitle'], int(data['season']), int(data['episode']))\
                                        if 'tvshowtitle' in data else '%s %s' % (data['title'], data['year'])
-            query = re.sub(u'(\\\|/| -|:|;|\*|\?|"|\'|<|>|\|)', ' ', query)
+            query = re.sub(u'(\\\|/| -|:|;|\*|\?|"|\'|<|>|\|)', ' ', query).lower()
 
             url = urljoin(self.base_link, self.search_link % query)
-            #log_utils.log('url_is: '+str(url))
 
             #r = client.request(url)
-            r = requests.get(url).content
-            r = ensure_text(r).replace('&nbsp;', ' ')
+            #r = requests.get(url).content
+            r = cfScraper.get(url).content
+            r = ensure_text(r, errors='replace').replace('&nbsp;', ' ')
             r = client.parseDOM(r, 'div', attrs={'class': 'col s12'})
             posts = client.parseDOM(r, 'div')[1:]
             posts = [i for i in posts if 'magnet/' in i]
-            #log_utils.log('posts_is: '+str(posts))
             for post in posts:
 
-                links = client.parseDOM(post, 'a', ret='href')
-                url = ['magnet:?xt=urn:btih:' + i.lstrip('magnet/') for i in links][0]
-                try: name = client.parseDOM(post, 'a', ret='title')[0]
-                except: name = ''
+                links = client.parseDOM(post, 'a', ret='href')[0]
+                url = 'magnet:?xt=urn:btih:' + links.lstrip('magnet/')
+                try:
+                    name = client.parseDOM(post, 'a', ret='title')[0]
+                    if not query in cleantitle.get_title(name): continue
+                except:
+                    name = ''
 
                 quality, info = source_utils.get_release_quality(name, name)
                 try:
@@ -125,8 +125,7 @@ class source:
 
             return sources
         except:
-            failure = traceback.format_exc()
-            log_utils.log('bt4g3 - Exception: \n' + str(failure))
+            log_utils.log('bt4g3 - Exception', 1)
             return sources
 
     def resolve(self, url):

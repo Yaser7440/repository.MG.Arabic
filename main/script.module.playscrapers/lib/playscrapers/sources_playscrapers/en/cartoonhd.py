@@ -7,7 +7,6 @@ import re
 import simplejson as json
 import base64
 import time
-import traceback
 
 try: from urlparse import parse_qs, urljoin
 except ImportError: from urllib.parse import parse_qs, urljoin
@@ -36,8 +35,7 @@ class source:
             url = urlencode(url)
             return url
         except:
-            failure = traceback.format_exc()
-            log_utils.log('cartoonhd - Exception: \n' + str(failure))
+            log_utils.log('cartoonhd - Exception', 1)
             return
 
     def tvshow(self, imdb, tvdb, tvshowtitle, localtvshowtitle, aliases, year):
@@ -47,8 +45,7 @@ class source:
             url = urlencode(url)
             return url
         except:
-            failure = traceback.format_exc()
-            log_utils.log('cartoonhd - Exception: \n' + str(failure))
+            log_utils.log('cartoonhd - Exception', 1)
             return
 
     def episode(self, url, imdb, tvdb, title, premiered, season, episode):
@@ -61,8 +58,7 @@ class source:
             url = urlencode(url)
             return url
         except:
-            failure = traceback.format_exc()
-            log_utils.log('cartoonhd - Exception: \n' + str(failure))
+            log_utils.log('cartoonhd - Exception', 1)
             return
 
     def searchShow(self, title, season, episode, aliases, headers):
@@ -74,8 +70,7 @@ class source:
                     break
             return url
         except:
-            failure = traceback.format_exc()
-            log_utils.log('cartoonhd - Exception: \n' + str(failure))
+            log_utils.log('cartoonhd - Exception', 1)
             return
 
     def searchMovie(self, title, year, aliases, headers):
@@ -94,8 +89,7 @@ class source:
 
             return url
         except:
-            failure = traceback.format_exc()
-            log_utils.log('cartoonhd - Exception: \n' + str(failure))
+            log_utils.log('cartoonhd - Exception', 1)
             return
 
     def sources(self, url, hostDict, hostprDict):
@@ -212,8 +206,7 @@ class source:
                     pass
             return sources
         except:
-            failure = traceback.format_exc()
-            log_utils.log('cartoonhd - Exception: \n' + str(failure))
+            log_utils.log('cartoonhd - Exception', 1)
             return sources
 
     def resolve(self, url):

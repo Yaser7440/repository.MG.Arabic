@@ -19,18 +19,22 @@
 """
 
 
-import re, sys, time, os, base64, codecs, gzip
+import re,sys,time
 import simplejson as json
+import hashlib,os,base64,codecs,gzip#,urllib,xmlrpclib, StringIO
 from kodi_six import xbmc
 
 import six
 from six.moves import urllib_parse, xmlrpc_client
 
-from resources.lib.modules import bookmarks
+try: from sqlite3 import dbapi2 as database
+except: from pysqlite2 import dbapi2 as database
+
 from resources.lib.modules import control
 from resources.lib.modules import cleantitle
 from resources.lib.modules import playcount
 from resources.lib.modules import trakt
+
 
 
 class player(xbmc.Player):
@@ -58,7 +62,7 @@ class player(xbmc.Player):
             self.ids = {'imdb': self.imdb, 'tvdb': self.tvdb}
             self.ids = dict((k,v) for k, v in six.iteritems(self.ids) if not v == '0')
 
-            self.offset = bookmarks.get(self.content, imdb, season, episode)
+            self.offset = bookmarks().get(self.name, season, episode, imdb, self.year)
 
             poster, thumb, meta = self.getMeta(meta)
 
@@ -194,7 +198,7 @@ class player(xbmc.Player):
                     self.totalTime = self.getTotalTime()
                     self.currentTime = self.getTime()
 
-                    watcher = (self.currentTime / self.totalTime >= .92)
+                    watcher = (self.currentTime / self.totalTime >= .9)
                     property = control.window.getProperty(pname)
 
                     if watcher == True and not property == '7':
@@ -216,7 +220,7 @@ class player(xbmc.Player):
                     self.totalTime = self.getTotalTime()
                     self.currentTime = self.getTime()
 
-                    watcher = (self.currentTime / self.totalTime > .92)
+                    watcher = (self.currentTime / self.totalTime >= .9)
                     property = control.window.getProperty(pname)
 
                     if watcher == True and not property == '7':
@@ -296,8 +300,9 @@ class player(xbmc.Player):
                     label = '%02d:%02d:%02d' % (hours, minutes, seconds)
                     label = six.ensure_str(control.lang2(12022).format(label))
                     if control.setting('rersume.source') == '1' and trakt.getTraktCredentialsInfo() == True:
-                        label += '[CR]  (Trakt scrobble)'
-                    yes = control.yesnoDialog(label, heading=control.lang2(13404))
+                        yes = control.yesnoDialog(label + '[CR]  (Trakt scrobble)', heading=control.lang2(13404))
+                    else:
+                        yes = control.yesnoDialog(label, heading=control.lang2(13404))
                     if yes:
                         self.seekTime(float(self.offset))
                     self.pause()
@@ -310,10 +315,11 @@ class player(xbmc.Player):
 
     def onPlayBackStopped(self):
         #control.sleep(3000)
-        #if control.setting('bookmarks') == 'true':
-        bookmarks.reset(self.currentTime, self.totalTime, self.content, self.imdb, self.season, self.episode)
-        if (trakt.getTraktCredentialsInfo() == True and control.setting('trakt.scrobble') == 'true'):
-            bookmarks.set_scrobble(self.currentTime, self.totalTime, self.content, self.imdb, self.tvdb, self.season, self.episode)
+        if int(self.currentTime) > 120:
+            if control.setting('bookmarks') == 'true':
+                bookmarks().reset(self.currentTime, self.totalTime, self.name, self.year)
+            if (trakt.getTraktCredentialsInfo() == True and control.setting('trakt.scrobble') == 'true'):
+                bookmarks().set_scrobble(self.currentTime, self.totalTime, self.content, self.imdb, self.tvdb, self.season, self.episode)
 
         try:
             if float(self.currentTime / self.totalTime) >= 0.92:
@@ -326,9 +332,6 @@ class player(xbmc.Player):
 
 
     def onPlayBackEnded(self):
-        bookmarks.reset(1, 1, self.content, self.imdb, self.season, self.episode)
-        if (trakt.getTraktCredentialsInfo() == True and control.setting('trakt.scrobble') == 'true'):
-            bookmarks.set_scrobble(1, 1, self.content, self.imdb, self.tvdb, self.season, self.episode)
         self.libForPlayback()
 
 
@@ -422,4 +425,100 @@ class subtitles:
                     control.infoDialog(subname, heading='{} subtitles downloaded'.format(str(lang).upper()), time=6000)
         except:
             pass
+
+
+class bookmarks:
+    def get(self, name, season, episode, imdb, year='0'):
+        offset = '0'
+
+        if control.setting('rersume.source') == '1' and trakt.getTraktCredentialsInfo() == True:
+            try:
+
+                if not episode is None:
+
+                    # Looking for a Episode progress
+                    traktInfo = trakt.getTraktAsJson('https://api.trakt.tv/sync/playback/episodes?extended=full')
+                    for i in traktInfo:
+                        if imdb == i['show']['ids']['imdb']:
+                            # Checking Episode Number
+                            if int(season) == i['episode']['season'] and int(episode) == i['episode']['number']:
+                                # Calculating Offset to seconds
+                                offset = (float(i['progress'] / 100) * int(i['episode']['runtime']) * 60)
+                                seekable = 1 < i['progress'] < 95
+                                if not seekable:
+                                    offset = '0'
+                else:
+
+                    # Looking for a Movie Progress
+                    traktInfo = trakt.getTraktAsJson('https://api.trakt.tv/sync/playback/movies?extended=full')
+                    for i in traktInfo:
+                        if imdb == i['movie']['ids']['imdb']:
+                            # Calculating Offset to seconds
+                            offset = (float(i['progress'] / 100) * int(i['movie']['runtime']) * 60)
+                            seekable = 1 < i['progress'] < 95
+                            if not seekable:
+                                offset = '0'
+
+                return offset
+
+            except:
+                return '0'
+
+        else:
+            try:
+                offset = '0'
+
+                idFile = hashlib.md5()
+                for i in name: idFile.update(str(i))
+                for i in year: idFile.update(str(i))
+                idFile = str(idFile.hexdigest())
+
+                dbcon = database.connect(control.bookmarksFile)
+                dbcur = dbcon.cursor()
+                dbcur.execute("SELECT * FROM bookmark WHERE idFile = '%s'" % idFile)
+                match = dbcur.fetchone()
+                self.offset = str(match[1])
+                dbcon.commit()
+                if self.offset == '0':
+                    raise Exception()
+
+                return self.offset
+            except:
+                return offset
+
+
+    def reset(self, current_time, total_time, _name, _year='0'):
+        try:
+            timeInSeconds = str(current_time)
+            ok = int(current_time) > 120 and (current_time / total_time) <= .95
+
+            idFile = hashlib.md5()
+            for i in _name: idFile.update(str(i))
+            for i in _year: idFile.update(str(i))
+            idFile = str(idFile.hexdigest())
+            control.makeFile(control.dataPath)
+            dbcon = database.connect(control.bookmarksFile)
+            dbcur = dbcon.cursor()
+            dbcur.execute("CREATE TABLE IF NOT EXISTS bookmark (""idFile TEXT, ""timeInSeconds TEXT, ""UNIQUE(idFile)"");")
+            dbcur.execute("DELETE FROM bookmark WHERE idFile = '%s'" % idFile)
+            if ok: dbcur.execute("INSERT INTO bookmark Values (?, ?)", (idFile, timeInSeconds))
+            dbcon.commit()
+        except:
+            pass
+
+
+    def set_scrobble(self, current_time, total_time, _content, _imdb='', _tvdb='', _season='', _episode=''):
+        try:
+            percent = float((current_time / total_time)) * 100
+            if percent < 95:
+                trakt.scrobbleMovie(_imdb, percent) if _content == 'movie' else trakt.scrobbleEpisode(_tvdb, _season, _episode, percent)
+                if control.setting('trakt.scrobble.notify') == 'true':
+                    control.infoDialog('Trakt: Scrobbled')
+        except:
+            import traceback
+            from resources.lib.modules import log_utils
+            failure = traceback.format_exc()
+            log_utils.log('Scrobble - Exception: ' + str(failure))
+            control.infoDialog('Scrobble Failed')
+
 

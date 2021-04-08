@@ -3,7 +3,7 @@
 import six
 
 import os
-from . import en, en_Torrent, gr, ar
+from . import en, en_Torrent, gr
 
 try:
     from playscrapers.modules import cfscrape
@@ -24,14 +24,6 @@ hoster_providers = en.__all__
 torrent_source = en_Torrent.sourcePath
 torrent_providers = en_Torrent.__all__
 
-##--ar--#
-arabic_providers = ar.__all__
-
-##--All Arabic Providers--##
-ar_providers = {'ar': arabic_providers}
-all_ar_providers = []
-for key, value in six.iteritems(ar_providers):
-    all_ar_providers += value
 
 ##--Foreign Providers--##
 greek_providers = gr.__all__
@@ -45,7 +37,7 @@ for key, value in six.iteritems(foreign_providers):
 
 
 ##--All Providers--##
-total_providers = {'en': hoster_providers, 'en_Torrent': torrent_providers, 'gr': greek_providers, 'ar': arabic_providers}
+total_providers = {'en': hoster_providers, 'en_Torrent': torrent_providers, 'gr': greek_providers}
 all_providers = []
 for key, value in six.iteritems(total_providers):
     all_providers += value

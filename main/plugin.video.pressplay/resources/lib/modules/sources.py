@@ -978,12 +978,11 @@ class sources:
                 f = (' / '.join(['%s' % info.strip() for info in self.sources[i]['info'].split('|')]))
                 if name_setting:
                     if 'name' in self.sources[i] and not self.sources[i]['name'] == '':
-                        _name = cleantitle.get_title(self.sources[i]['name'])
                         size_info = self.sources[i]['info'].split(' |')[0]
                         if size_info.rstrip().lower().endswith('gb'):
-                            f = size_info + ' / ' + _name
+                            f = size_info + ' / ' + cleantitle.get_title(self.sources[i]['name'])
                         else:
-                            f = _name
+                            f = cleantitle.get_title(self.sources[i]['name'])
                         t = ''
             except:
                 f = ''
@@ -1313,8 +1312,8 @@ class sources:
         from resources.lib import sources
         sourceDir2 = sources.sources()
         try:
-            import exoscrapers
-            sourceDir3 = exoscrapers.sources()
+            import openscrapers
+            sourceDir3 = openscrapers.sources()
         except:
             pass
 
@@ -1322,7 +1321,7 @@ class sources:
             if scraperSetting == 'Play Scrapers':
                 self.sourceDict = sourceDir1
                 self.module_name = oas_module_name
-            elif scraperSetting == 'Exo':
+            elif scraperSetting == 'Play Scrapers':
                 self.sourceDict = sourceDir3
                 self.module_name = 'ExoScrapers:'
             elif scraperSetting == 'Built-in':
@@ -1331,13 +1330,9 @@ class sources:
             elif scraperSetting == 'Play + Built-in':
                 self.sourceDict = sourceDir1 + sourceDir2
                 self.module_name = 'Built-in + ' + oas_module_name
-            elif scraperSetting == 'Exo + Play':
-                self.sourceDict = sourceDir3 + sourceDir1
-                self.module_name = 'ExoScrapers + ' + oas_module_name
             elif scraperSetting == 'Exo + Built-in':
                 self.sourceDict = sourceDir3 + sourceDir2
-                self.module_name = 'ExoScrapers + Built-in:'
-
+                self.module_name = 'Built-in + ExoScrapers:'
             else:
                 self.sourceDict = sourceDir1
                 self.module_name = oas_module_name

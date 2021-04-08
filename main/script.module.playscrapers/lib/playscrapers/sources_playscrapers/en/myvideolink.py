@@ -18,7 +18,7 @@
 # - Converted to py3/2 for PressPlay
 
 
-import re, traceback
+import re
 
 try: from urlparse import parse_qs, urljoin
 except ImportError: from urllib.parse import parse_qs, urljoin
@@ -119,7 +119,7 @@ class source:
             for post in posts:
                 try:
                     r = client.request(post[1])
-                    r = ensure_text(r)
+                    r = ensure_text(r, errors='replace')
                     r = client.parseDOM(r, 'div', attrs={'class': 'entry-content cf'})[0]
 
                     if 'tvshowtitle' in data:
@@ -133,7 +133,7 @@ class source:
                             items += [(t, i, s) for i in u]
 
                     else:
-                        t = ensure_text(post[0])
+                        t = ensure_text(post[0], errors='replace')
                         u = re.findall(r'\'(http.+?)\'', r) + re.findall('\"(http.+?)\"', r)
                         u = [i for i in u if '/embed/' not in i]
                         try: s = re.findall(r'((?:\d+\.\d+|\d+\,\d+|\d+|\d+\,\d+\.\d+)\s*(?:GB|GiB|MB|MiB))', r)[0]
@@ -141,8 +141,7 @@ class source:
                         items += [(t, i, s) for i in u]
 
                 except:
-                    fail = traceback.format_exc()
-                    log_utils.log('MYVIDEOLINK ERROR: ' + str(fail))
+                    log_utils.log('MYVIDEOLINK ERROR', 1)
                     pass
 
             for item in items:
@@ -154,7 +153,7 @@ class source:
                     if url.endswith(void):
                         continue
 
-                    name = ensure_text(item[0])
+                    name = ensure_text(item[0], errors='replace')
                     name = client.replaceHTMLCodes(name)
 
                     t = re.sub(r'(\.|\(|\[|\s)(\d{4}|S\d*E\d*|S\d*|3D)(\.|\)|\]|\s|)(.+|)', '', name, re.I)
@@ -184,14 +183,12 @@ class source:
                     sources.append({'source': host, 'quality': quality, 'language': 'en', 'url': url, 'info': info,
                                     'direct': False, 'debridonly': False, 'size': dsize, 'name': name})
                 except:
-                    fail = traceback.format_exc()
-                    log_utils.log('MYVIDEOLINK ERROR: ' + str(fail))
+                    log_utils.log('MYVIDEOLINK ERROR', 1)
                     pass
 
             return sources
         except:
-            fail = traceback.format_exc()
-            log_utils.log('MYVIDEOLINK ERROR: ' + str(fail))
+            log_utils.log('MYVIDEOLINK ERROR', 1)
             return sources
 
 
