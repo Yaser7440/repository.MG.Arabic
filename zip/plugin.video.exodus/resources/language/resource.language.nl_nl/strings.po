@@ -368,11 +368,11 @@ msgid "Provider Source:"
 msgstr "Sorteren op Bron"
 
 msgctxt "#32085"
-msgid "Open PlayScrapers Settings"
-msgstr ""
+msgid "Open Play Scrapers Settings"
+msgstr "Open Exodus schrapers instellingen"
 
 msgctxt "#32086"
-msgid "Exo Scrapers Settings"
+msgid "Open Exoscrapers Settings"
 msgstr ""
 
 msgctxt "#32087"

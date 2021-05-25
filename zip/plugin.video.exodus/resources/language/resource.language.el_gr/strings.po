@@ -368,11 +368,11 @@ msgid "Provider Source:"
 msgstr "Πακέτο παρόχων:"
 
 msgctxt "#32085"
-msgid "Open PlayScrapers Settings"
+msgid "Open Play Scrapers Settings"
 msgstr "Ρυθμίσεις Play Scrapers"
 
 msgctxt "#32086"
-msgid "Exo Scrapers Settings"
+msgid "Open Exoscrapers Settings"
 msgstr ""
 
 msgctxt "#32087"
